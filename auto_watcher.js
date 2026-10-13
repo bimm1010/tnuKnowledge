@@ -44,6 +44,13 @@ async function processPdfFile(pdfPath) {
     console.log(`🔄 Đang tái lập chỉ mục tìm kiếm mờ & Chunks...`);
     execSync(`node "${path.join(baseDir, 'build_smart_index.js')}"`, { stdio: 'inherit' });
     console.log(`🎯 Tri thức mới đã sẵn sàng cho Antigravity tra cứu siêu tốc!\n`);
+
+    // Tự động đồng bộ lên GitHub
+    try {
+      execSync(`node "${path.join(baseDir, 'auto_git_sync.js')}"`, { stdio: 'inherit' });
+    } catch (e) {
+      console.warn('⚠️ Lỗi Git push:', e.message);
+    }
   } catch (err) {
     console.error('⚠️ Lỗi xử lý PDF:', err.message);
   }
@@ -106,6 +113,11 @@ const server = http.createServer(async (req, res) => {
     syncChild.on('exit', (code) => {
       isSyncing = false;
       console.log(`✅ [WEBHOOK] Hoàn tất tiến trình đồng bộ (Exit code: ${code}).\n`);
+      try {
+        execSync(`node "${path.join(baseDir, 'auto_git_sync.js')}"`, { stdio: 'inherit' });
+      } catch (e) {
+        console.warn('⚠️ Lỗi Git push:', e.message);
+      }
     });
 
     res.writeHead(200, { 'Content-Type': 'application/json' });
