@@ -1,0 +1,205 @@
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+ĐỀ CƯƠNG CHI TIẾT
+PSST113-NHẬP MÔN INTERNET VÀ E-LEARNING
+Số tín chỉ: 03
+Thời gian học tập: 23/08/2026-17/10/2026
+Điều kiện để được đi thi: Không vi phạm đạo đức khoa học ở mức cấm thi; Điểm chuyên cần và điểm
+thành phần >=2,0 điểm
+Điều kiện để hoàn thành học phần: Điểm tổng kết >=4,0 (thang điểm 10, điểm hệ chữ D)
+Chú ý:
+Trường hợp 1:Học viên không đủ điều kiện dự thi phải học lại
+Trường hợp 2: Học viên đủ điều kiện dự thi
+- Điểm tổng kết học phần < 4,0 (thang điểm 10, điểm hệ chữ F): học lại.
+- Điểm thi = 0 do vắng thi: thi lại.
+I. MỤC TIÊU MÔN HỌC
+Sau khi học xong môn này, học viên sẽ Trả lời được câu hỏi “Internet là gì?”.
+- Hiểu và phân biệt được các phương pháp kết nối Internet, vai trò của các nhà cung cấp dịch vụ Internet.
+Nêu được các đặc điểm của E-Learning đồng thời phân tích được các ưu điểm và nhược điểm của E-
+Learning trên quan điểm người học
+- Hiểu được vai trò của địa chỉ IP, tên miền và nguyên tắc hoạt động của một số dịch vụ Internet thông
+dụng. Nắm vững các điều kiện về kiến thức, về thái độ và các trang thiết bị cần có thể học E-Learning
+- Hiểu được phương pháp và quy trình học E- Learning.
+- Sử dụng các chức năng cơ bản của Internet: truy nhập, đặc biệt thành thạo đọc tệp, gửi tệp đính kèm.
+Nắm vững và sử dụng trang web tnu.aum.edu.vn thành thạo.
+II. NỘI DUNG MÔN HỌC
+- Bài 1: Những khái niệm cơ bản
+Trang 1 / 5
+
+-- 1 of 5 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+- Bài 2: Kiến trúc mạng Internet
+- Bài 3: Hướng dẫn sử dụng một số dịch vụ Internet thông dụng
+- Bài 4: Mô hình hệ thống Elearning
+- Bài 5: Hướng dẫn sử dụng Hệ thống TNU-Elearning
+III. TÀI LIỆU HỌC TẬP
+Tài liệu học tập chính
+Bài giảng (slide + video, mp3) “Nhập môn Internet và E-learning” trên website lớp học.
+Tài liệu tham khảo
+Giáo trình “Nhập môn Internet và E-Learning” – PGS.TS Nguyễn Quang Hoan , Ths. Nguyễn Thành
+Trung, Ths. Chu Quang Ngọc, NXB Giáo dục 2009
+IV. NHIỆM VỤ HỌC TẬP
++ Dự lớp: Tham gia đầy đủ các tuần học trên bộ dữ liệu điện tử.
++ Bài tập, thảo luận: Hoàn thành các bài luyện tập, thảo luận trên diễn đàn, hỏi/đáp.
+Để học tốt và đảm bảo tiến độ học tập, sinh viên cần làm đủ các bài luyện tập trắc nghiệm (LTTN), bài
+kiểm tra (KT), trao đổi với giảng viên trên diễn đàn. Nội dung cụ thể được mô tả dưới đây:
+- Trắc nghiệm trực tuyến
+o Luyện tập trắc nghiệm
+Bài tập Nội dung bài tập Mục đích
+LTTN 1 15 câu trắc nghiệm Luyện tập bài 1. Sử dụng trong tuần 1
+LTTN 2 15 câu trắc nghiệm Luyện tập bài 2. Sử dụng trong tuần 3
+LTTN 3 15 câu trắc nghiệm Luyện tập bài 3. Sử dụng trong tuần 5
+LTTN 4 15 câu trắc nghiệm Luyện tập bài 4. Sử dụng trong tuần 6
+o Bài kiểm tra (Tính điểm giữa kỳ): 30%
+Trang 2 / 5
+
+-- 2 of 5 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+Bài tập Nội dung bài tập Nội dung % trong điểm tổng kết
+Bài kiểm tra 1 20 câu trắc nghiệm - Kiểm tra kiến thức bài
+1, 2
+15%
+Bài kiểm tra 2 20 câu trắc nghiệm - Kiểm tra kiến thức
+bài 3, 4
+15%
+- Thảo luận trên diễn đàn:
+Tham gia thảo luận các tình huống mà giảng viên đưa ra.
+Tạo các chủ đề và tham gia thảo luận các chủ đề của các bạn học viên khác mà nội dung gắn với
+kiến thức môn học.
+V. LỊCH TRÌNH HỌC TẬP
+Thời gian Nhiệm vụ
+Bài giảng
+(Lecture)
+Trao đổi,
+giải đáp
+(Interaction)
+Luyện
+tập
+(Practice)
+Đánh giá
+(Exam)
+Tuần 1
+(23/08/2026 -
+29/08/2026)
+Bài 1: Những khái niệm cơ bản Trao đổi –
+Thảo luận
+LTTN 1
+Tuần 2
+(30/08/2026 -
+05/09/2026)
+Bài 2: Kiến trúc mạng Internet Trao đổi –
+Thảo luận
+Tuần 3
+(06/09/2026 -
+12/09/2026)
+Bài 2: Kiến trúc mạng Internet Trao đổi –
+Thảo luận
+LTTN 2
+Tuần 4
+(13/09/2026 -
+19/09/2026)
+Ôn tập và làm bài kiểm tra số 1 Trao đổi –
+Thảo luận
+Bài kiểm tra 1
+Hạn cuối:
+23h55 ngày
+20/09/2026
+Tuần 5
+(20/09/2026 -
+26/09/2026)
+Bài 3: Hướng dẫn sử dụng một số dịch
+vụ Internet thông dụng
+Trao đổi –
+Thảo luận
+LTTN 3
+Tuần 6
+(27/09/2026 -
+Bài 4: Mô hình hệ thống Elearning Trao đổi –
+Thảo luận
+LTTN 4
+Trang 3 / 5
+
+-- 3 of 5 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+03/10/2026)
+Tuần 7
+(04/10/2026 -
+10/10/2026)
+Bài 5: Hướng dẫn sử dụng Hệ thống
+TNU-Elearning
+Trao đổi –
+Thảo luận
+Tuần 8
+(11/10/2026 -
+17/10/2026)
+Ôn tập và làm bài kiểm tra số 2 Trao đổi –
+Thảo luận
+Bài kiểm tra 2
+Hạn cuối:
+23h55
+ngày
+18/10/2026
+Tuần 9+10
+(18/10/2026 -
+31/10/2026)
+- LỚP HỌC ĐÃ KẾT THÚC
+Anh/Chị học viên tự Ôn tập - Luyện thi.
+THI TẬP TRUNG – KẾT THÚC HỌC PHẦN
+Thời gian dự kiến: 25/10/2026
+VI. CÁCH THỨC CHẤM ĐIỂM
+- Điểm chuyên cần (chiếm 20% điểm tổng kết học phần), đánh giá qua 2 tiêu chí sau, tiêu chí 1
+chiếm 10%, tiêu chí 2 chiếm 10%:
++ Tiêu chí 1: Hoàn thành đầy đủ các bài giảng điện tử trên hệ thống LMS
+Tiêu chí Trọng số trong
+điểm CC(%)
+Mô tả
+Hoàn thành đầy đủ các bài
+giảng điện tử trên hệ thống
+LMS
+10% Điểm số được ghi nhận tương đương tỷ lệ hoàn
+thành bài giảng điện tử trên hệ thống theo thang điểm
+10 và làm tròn tới 0.5 điểm
++ Tiêu chí 2: Điểm trung bình các bài luyện tập, thực hành trên hệ thống
+Tiêu chí Trọng số trong
+điểm CC(%)
+Mô tả
+Điểm trung bình các bài luyện
+tập, thực hành trên hệ thống
+10% - Bài luyện tập, thực hành không giới hạn số lần
+làm, lấy điểm cao nhất
+- Điều kiện bắt buộc: Không có bài nào <2 điểm
+- Điểm giữa kỳ (chiếm 30% điểm tổng kết học phần).
+Bài tập tính điểm 30%, học viên được phép làm tối đa 3 lần tính điểm trung bình cộng.
+Điểm giữa kỳ 30% là điểm trung bình của 2 bài kiểm tra (BKT1 và BKT2). Để được dự thi thì điểm kiểm
+tra giữa kỳ khác >=2,0 điểm (tính theo thang điểm 10)
+Trang 4 / 5
+
+-- 4 of 5 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+- Điểm thi hết học phần (chiếm 50% điểm tổng kết học phần):
+Thi trắc nghiệm kết hợp tự luận.
+VII. CÁC YÊU CẦU ĐỐI VỚI HỌC VIÊN
+- Học viên cần nắm vững kế hoạch học tập.
+- Để đạt được kết quả học tập tốt nhất, học viên cần phải học tập nội dung môn học trên bài giảng điện tử
+và hoàn thành các bài luyện tập trắc nghiệm.
+- Học viên có thắc mắc nên trao đổi với bạn cùng nhóm, sau đó với trưởng nhóm, nếu còn không hiểu thì
+hỏi giảng viên để được giải đáp.
+- Trong trường hợp học viên có thắc mắc về điểm, đề nghị liên hệ trực tiếp với giáo viên chủ nhiệm, quản
+lý học tập lớp mình để nhận được sự trợ giúp.
+VIII. GIẢNG VIÊN
+- Giảng viên chuyên môn:
+Trần Hồng Anh, Email: anhth@tnu.edu.vn, Số điện thoại: 0912660602
+- Hỗ trợ giải đáp thắc mắc:
+Lớp GVCN Số điện thoại Email
+- Quản lý học tập:
+CHÚC ANH/CHỊ HỌC TẬP TỐT!
+…………….., ngày tháng năm
+Giảng viên chuyên môn
+Powered by TCPDF (www.tcpdf.org)
+Trang 5 / 5
+
+-- 5 of 5 --
+

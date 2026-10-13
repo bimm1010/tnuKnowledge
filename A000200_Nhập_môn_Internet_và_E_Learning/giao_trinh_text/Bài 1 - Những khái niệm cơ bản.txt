@@ -1,0 +1,545 @@
+BÀI 1:
+NHỮNG KHÁI NIỆM CƠ BẢN
+NHẬP MÔN INTERNET VÀ E-LEARNING 1
+
+-- 1 of 45 --
+
+TÌNH HUỐNG DẪN NHẬP
+Tìm hiểu về Internet
+Anh Nam đang làm việc tại Khu công nghiệp Phố Nối, tỉnh Hưng
+Yên. Anh Nam muốn vừa đi làm vừa đi học đại học chuyên ngành
+Quản trị kinh doanh. Một người bạn đã tư vấn cho anh nên học theo
+hình thức e-learning qua mạng Internet. Vì vậy anh Nam bắt đầu tìm
+hiểu về Internet và e-learning.
+1. Internet là gì?
+2. E-learning là gì?
+3. Quá trình phát triển của E-learning như thế nào?
+NHẬP MÔN INTERNET VÀ E-LEARNING 2
+
+-- 2 of 45 --
+
+MỤC TIÊU BÀI HỌC
+• Hiểu được những khái niệm cơ bản về Internet và e-learning.
+• Phân biệt được vai trò của các nhà cung cấp dịch vụ Internet.
+• Nắm được quá trình phát triển của Internet và e-learning trên thế
+giới và ở Việt Nam.
+NHẬP MÔN INTERNET VÀ E-LEARNING 3
+
+-- 3 of 45 --
+
+NỘI DUNG BÀI HỌC
+1.1. Các khái niệm cơ bản về mạng máy tính
+1.2. Internet và lịch sử phát triển Internet
+1.3. E-learning và quá trình phát triển E-learning
+NHẬP MÔN INTERNET VÀ E-LEARNING 4
+
+-- 4 of 45 --
+
+1.1. CÁC KHÁI NIỆM CƠ BẢN
+VỀ MẠNG MÁY TÍNH
+1.1.1. Một số khái niệm cơ bản
+1.1.2. Giới thiệu chung về mạng máy tính
+1.1.3. Phân loại mạng máy tính
+NHẬP MÔN INTERNET VÀ E-LEARNING 5
+
+-- 5 of 45 --
+
+1.1.1. MỘT SỐ KHÁI NIỆM CƠ BẢN
+• Dữ liệu: Là các sự kiện, khái niệm hay các chỉ thị được diễn tả
+dưới một hình thức thích hợp cho việc xử lý bởi con người hay
+máy móc.
+• Tin tức: Là ý nghĩa mà con người gán cho dữ liệu theo các quy
+ước cụ thể. Tin tức có thể biểu thị bởi tiếng nói, hình ảnh, chữ số,
+ký hiệu...
+• Tín hiệu: Là tin tức đã được xử lý để có thể truyền đi trên hệ thống
+truyền thông.
+NHẬP MÔN INTERNET VÀ E-LEARNING 6
+
+-- 6 of 45 --
+
+1.1.1. MỘT SỐ KHÁI NIỆM CƠ BẢN
+• Tín hiệu thường được diễn tả bởi một hàm theo thời gian, hàm
+này cho phép xác định biên độ của tín hiệu tại mỗi thời điểm.
+• Tín hiệu tương tự: biên độ có giá trị bất kỳ trong một khoảng
+thời gian xác định.
+• Tín hiệu số: biên độ có một trong hai giá trị tương ứng với bit
+“0” hoặc bit “1”.
+NHẬP MÔN INTERNET VÀ E-LEARNING 7
+
+-- 7 of 45 --
+
+1.1.1. MỘT SỐ KHÁI NIỆM CƠ BẢN
+• Tín hiệu tương tự và tín hiệu số
+NHẬP MÔN INTERNET VÀ E-LEARNING 8
+
+-- 8 of 45 --
+
+1.1.2. GIỚI THIỆU CHUNG VỀ MẠNG MÁY TÍNH
+• Mạng máy tính:
+Mạng máy tính (Computer network) là mạng của hai hay nhiều
+máy tính được nối lại với nhau bằng một đường truyền vật lý
+theo một kiến trúc nào đó.
+NHẬP MÔN INTERNET VÀ E-LEARNING 9
+
+-- 9 of 45 --
+
+1.1.2. GIỚI THIỆU CHUNG VỀ MẠNG MÁY TÍNH
+• Đường truyền vật lý:
+Là phương tiện truyền tải các tín hiệu điện từ giữa các thành
+phần mạng với nhau.
+• Phân loại:
+• Đường truyền hữu tuyến (cable): sử dụng các loại cáp như cáp
+đồng trục, cáp xoắn đôi, cáp quang...
+• Đường truyền vô tuyến (wireless): sử dụng các loại sóng vô
+tuyến như sóng radio, sóng cực ngắn (viba), tia hồng ngoại
+(infrared)…
+NHẬP MÔN INTERNET VÀ E-LEARNING 10
+
+-- 10 of 45 --
+
+1.1.2. GIỚI THIỆU CHUNG VỀ MẠNG MÁY TÍNH
+• Đường truyền vật lý
+NHẬP MÔN INTERNET VÀ E-LEARNING 11
+Cáp quang
+Cáp đồng trụcCáp xoắn đôi
+Sóng vô tuyến
+
+-- 11 of 45 --
+
+1.1.2. GIỚI THIỆU CHUNG VỀ MẠNG MÁY TÍNH
+• Đường truyền vật lý - Đặc trưng cơ bản :
+• Băng thông (Bandwidth): là miền tần số giới hạn thấp và tần số
+giới hạn cao, tức là miền tần số mà đường truyền đó có thể đáp
+ứng được.
+• Thông lượng (Throughput) là số lượng các bit được truyền đi
+trong một giây. Hay nói cách khác là tốc độ của đường truyền
+dẫn. Ký hiệu là bit/s hoặc bps.
+• Suy hao (Attenuation): Là độ đo sự suy yếu của các tín hiệu
+trên đường truyền.
+NHẬP MÔN INTERNET VÀ E-LEARNING 12
+
+-- 12 of 45 --
+
+1.1.2. GIỚI THIỆU CHUNG VỀ MẠNG MÁY TÍNH
+• Kiến trúc mạng:
+Kiến trúc mạng (Network Architecture) thể hiện cách nối các
+máy tính với nhau như thế nào (tình trạng mạng/Topology) và
+tập hợp các quy tắc, quy ước (giao thức/Protocol) mà tất cả các
+máy tính tham gia truyền thông trên mạng phải tuân theo để
+đảm bảo cho mạng hoạt động tốt.
+NHẬP MÔN INTERNET VÀ E-LEARNING 13
+
+-- 13 of 45 --
+
+1.1.2. GIỚI THIỆU CHUNG VỀ MẠNG MÁY TÍNH
+• Hình trạng mạng
+NHẬP MÔN INTERNET VÀ E-LEARNING 14
+
+-- 14 of 45 --
+
+1.1.2. GIỚI THIỆU CHUNG VỀ MẠNG MÁY TÍNH
+• Giao thức:
+• Việc truyền tín hiệu trên mạng cần phải có các qui tắc, qui ước
+về nhiều mặt, từ khuôn dạng (cú pháp, ngữ nghĩa) của dữ liệu
+cho tới các thủ tục gửi, nhận, kiểm soát,…
+• Giao thức định nghĩa khuôn dạng dữ liệu, thông điệp, thứ tự
+truyền, nhận thông điệp giữa các thực thể trên mạng các hành
+động tương ứng khi nhận được thông điệp. Yêu cầu về xử lý và
+trao đổi càng cao thì giao thức càng phức tạp.
+NHẬP MÔN INTERNET VÀ E-LEARNING 15
+
+-- 15 of 45 --
+
+1.1.3. PHÂN LOẠI MẠNG MÁY TÍNH
+Theo phạm vị địa lý:
+• PAN (Personal Area Network)
+• LAN (Local Area Network)
+• MAN (Metropolitan Area Network)
+• WAN (Wide Area Network)
+• GAN (Global Area Network)
+Theo chức năng:
+• Mạng khách - chủ (Client – Server)
+• Mạng ngang hàng (Peer to Peer)
+NHẬP MÔN INTERNET VÀ E-LEARNING 16
+
+-- 16 of 45 --
+
+1.1.3. PHÂN LOẠI MẠNG MÁY TÍNH
+Phân loại mạng theo phạm vi địa lý:
+NHẬP MÔN INTERNET VÀ E-LEARNING 17
+Loại mạng Khoảng cách Phạm vi các máy tính
+Mạng cá nhân
+(PAN) < 10 m Thông thường là kết nối trực tiếp 2 máy
+tính trong khoảng cách một vài mét
+Mạng cục bộ
+(LAN)
+10 m Trong một phòng
+100 m Trong một tòa nhà
+1 km Trong một khu vực (trường học, doanh
+nghiệp…)
+Mạng thành phố
+(MAN) 10 km Trong một thành phố
+Mạng diện rộng
+(WAN)
+100 km Trong một quốc gia
+1000 km Trong một châu lục
+Mạng toàn cầu
+(GAN) > 1000 km Kết nối giữa các châu lục trên toàn cầu
+
+-- 17 of 45 --
+
+1.1.3. PHÂN LOẠI MẠNG MÁY TÍNH
+Phân loại mạng theo chức năng:
+➢Mạng khách - chủ: Một số máy được thiết lập như một máy
+chủ phục vụ (server) để cung cấp các tài nguyên, dịch vụ.
+• Ưu điểm: An toàn dữ liệu và bảo mật mạng cao; quản lý tập
+trung cho toàn mạng; dễ dàng tích hợp những công nghệ
+mới.
+• Nhược điểm: giá thành cao; cấu trúc phức tạp.
+➢Mạng ngang hàng: Các máy tính trong mạng đều bình đẳng
+có vai trò như nhau.
+• Ưu điểm: Dễ cài đặt và cấu hình; giá thành thấp
+• Nhược điểm: Không quản lý tập trung tài nguyên mạng; tính
+bảo mật không cao.
+NHẬP MÔN INTERNET VÀ E-LEARNING 18
+
+-- 18 of 45 --
+
+1.2. INTERNET,
+LỊCH SỬ PHÁT TRIỂN INTERNET
+1.2.1. Khái niệm về Internet
+1.2.2. Lịch sử phát triển Internet
+1.2.3. Phát triển Internet tại Việt Nam
+NHẬP MÔN INTERNET VÀ E-LEARNING 19
+
+-- 19 of 45 --
+
+1.2.1. KHÁI NIỆM VỀ INTERNET
+• Internet là mạng của các mạng máy tính, kết nối các mạng máy
+tính khác nhau trên toàn cầu.
+• Các mạng liên kết với nhau dựa trên bộ giao thức TCP/IP
+(Transmision Control Protocol - Internet Protocol).
+NHẬP MÔN INTERNET VÀ E-LEARNING 20
+
+-- 20 of 45 --
+
+1.2.1. KHÁI NIỆM VỀ INTERNET
+Cấu trúc Internet
+NHẬP MÔN INTERNET VÀ E-LEARNING 21
+
+-- 21 of 45 --
+
+1.2.1. KHÁI NIỆM VỀ INTERNET
+Cấu trúc Internet
+NHẬP MÔN INTERNET VÀ E-LEARNING 22
+Internet dưới góc nhìn của người sử dụng
+
+-- 22 of 45 --
+
+1.2.1. KHÁI NIỆM VỀ INTERNET
+• Tìm kiếm thông tin: Internet là một kho thông tin khổng lồ, người
+sử dụng có thể tìm kiếm thông tin phục vụ cho nhiều mục đích
+khác nhau như học tập, giải trí, nghiên cứu khoa học.
+• Internet cung cấp hạ tầng để triển khai thương mại điện tử, ngân
+hàng điện tử, chính phủ điện tử,… đem lại nhiều lợi ích cho cuộc
+sống như giảm thời gian, giảm chi phí giá thành,…
+• Giáo dục và đào tạo: học tập trực tuyến đã trở thành xu thế của
+thời đại với sự phát triển vượt bậc của công nghệ Internet. Người
+học có thể học tập trực tuyến qua Internet mà không cần phải tới
+các lớp học truyền thống, giúp người học giảm thiểu thời gian đi lại
+và chi phí đào tạo.
+NHẬP MÔN INTERNET VÀ E-LEARNING 23
+
+-- 23 of 45 --
+
+1.2.2. LỊCH SỬ PHÁT TRIỂN INTERNET
+Năm 1969: Mạng ARPANET ra đời (tiền thân của Internet).
+• Phục vụ mục đích quân sự, Bộ Quốc phòng Mỹ.
+• 4 nút mạng ban đầu:
+• University of California Los Angeles (UCLA);
+• Stanford Research Institute (SRI);
+• University of California Santa Barbara (UCSB);
+• University of Utah.
+Mục đích: Xây dựng mạng máy tính có khả năng khắc phục sự cố, có
+những đặc trưng sau:
+• Có thể vẫn tiếp tục hoạt động ngay cả khi có nhiều kết nối bị hỏng.
+• Đảm bảo các máy tính với các phần cứng khác nhau đều có thể
+sử dụng mạng.
+• Có khả năng tự động điều chỉnh hướng truyền thông tin, bỏ qua
+những phần bị hư hỏng.
+• Có khả năng mở rộng mạng một cách dễ dàng.
+NHẬP MÔN INTERNET VÀ E-LEARNING 24
+
+-- 24 of 45 --
+
+1.2.2. LỊCH SỬ PHÁT TRIỂN INTERNET
+Năm 1973: Phát triển bộ giao thức TCP/IP.
+• Vinton Cerf và Robert Kahn xây dựng và phát
+triển TCP/IP
+• Đây là bộ giao thức chuẩn để truyền/nhận thông
+tin trên Internet ngày nay
+Năm 1974: Lần đầu tiên sử dụng thuật ngữ “Internet”.
+• Lúc này mạng vẫn được gọi là ARPANET
+Giữa thập kỷ 1980: thành lập mạng NSFNET.
+• Quỹ khoa học quốc gia Mỹ (NSF) thành lập mạng
+NSFNET liên kết các trung tâm máy tính lớn với
+nhau và cho phép mọi người cùng sử dụng.
+• NSFNET kết nối vào ARPANET và mạng tiếp tục
+mở rộng.
+Năm 1990: ARPANET ngừng hoạt động; NSFNET trở
+thành mạng chính kết nối các mạng khác và trở thành
+mạng Internet.
+NHẬP MÔN INTERNET VÀ E-LEARNING 25
+Vinton Cerf
+Robert Kahn
+
+-- 25 of 45 --
+
+1.2.2. LỊCH SỬ PHÁT TRIỂN INTERNET
+Năm 1989: Đề xuất dự án siêu văn bản toàn
+cầu gọi là “World Wide Web” (www)
+Năm 1991: Triển khai web trên Internet, cho
+phép người sử dụng khai thác thông tin trên
+Internet dưới dạng văn bản, hình ảnh, âm
+thanh, video… dựa vào hệ thống văn bản siêu
+liên kết toàn cầu.
+• Các dịch vụ Internet đa dạng, hữu ích:
+web, e-mail, đăng nhập từ xa, chat…
+• Tốc độ truy cập nhanh
+• Internet vẫn đang tiếp tục phát triển mạnh
+mẽ.
+NHẬP MÔN INTERNET VÀ E-LEARNING 26
+
+-- 26 of 45 --
+
+Năm Số máy tính kết nối
+1969 4
+1971 23
+1974 62
+1977 111
+1981 213
+1983 562
+1984 ~1.000
+1986 ~ 5.000
+1987 ~ 10.000
+1989 ~ 100.000
+1992 ~ 1.000.000
+2001 ~ 150.000.000
+2002 ~ 200.000.000
+2004 ~ 800.000.000
+1.2.2. LỊCH SỬ PHÁT TRIỂN INTERNET
+Tăng trưởng internet (theo số máy tính kết
+nối)
+NHẬP MÔN INTERNET VÀ E-LEARNING 27
+
+-- 27 of 45 --
+
+1.2.2. LỊCH SỬ PHÁT TRIỂN INTERNET
+Tăng trưởng Internet (theo số người sử dụng)
+NHẬP MÔN INTERNET VÀ E-LEARNING 28
+
+-- 28 of 45 --
+
+1.2.2. LỊCH SỬ PHÁT TRIỂN INTERNET
+NHẬP MÔN INTERNET VÀ E-LEARNING 29
+Tăng trưởng internet (theo số người sử dụng)…
+Thống kê số lượng người sử dụng Internet trên tổng số dân
+
+-- 29 of 45 --
+
+1.2.3. PHÁT TRIỂN INTERNET TẠI VIỆT NAM
+NHẬP MÔN INTERNET VÀ E-LEARNING 30
+Ngày 19/11/1997: Việt Nam kết nối vào mạng Internet
+Số thuê bao băng rộng tại Việt Nam
+Số người sử dụng Internet Việt Nam
+
+-- 30 of 45 --
+
+1.2.3. PHÁT TRIỂN INTERNET TẠI VIỆT NAM
+NHẬP MÔN INTERNET VÀ E-LEARNING 31
+
+-- 31 of 45 --
+
+1.2.3. PHÁT TRIỂN INTERNET TẠI VIỆT NAM
+• Người dùng Internet tại Việt Nam
+NHẬP MÔN INTERNET VÀ E-LEARNING 32
+
+-- 32 of 45 --
+
+1.2.3. PHÁT TRIỂN INTERNET TẠI VIỆT NAM
+Các nhà cung cấp dịch vụ Internet:
+➢Nhà cung cấp dịch vụ đường truyền kết nối Internet (IAP):
+• Còn gọi là IXP (Internet Exchange Provider).
+• Một số IAP tại Việt Nam: VNPT, FPT, Viettel, VTC...
+➢Nhà cung cấp dịch vụ Internet (ISP):
+• Cung cấp cho người sử dụng quyền truy cập Internet và các
+dịch vụ Internet như web, e-mail…
+• Một số ISP lớn tại Việt Nam: VNPT, FPT, Viettel...
+➢ISP dùng riêng:
+• Được quyền cung cấp đầy đủ dịch vụ Internet nhưng không
+được cung cấp với mục đích kinh doanh.
+• Là loại hình dịch vụ Internet của các cơ quan hành chính, các
+trường đại học hay viện nghiên cứu.
+NHẬP MÔN INTERNET VÀ E-LEARNING 33
+
+-- 33 of 45 --
+
+1.2.3. PHÁT TRIỂN INTERNET TẠI VIỆT NAM
+Các nhà cung cấp dịch vụ Internet:
+➢Nhà cung cấp dịch vụ nội dung thông tin Internet (ICP):
+Cung cấp các thông tin về: kinh tế, giáo dục, thể thao, chính trị,
+quân sự (thường xuyên cập nhật thông tin mới theo định kỳ)
+đưa lên mạng.
+➢Nhà cung dịch vụ ứng dụng Internet (OSP):
+Cung cấp các dịch vụ trên cơ sở ứng dụng Internet như: mua
+bán qua mạng, giao dịch ngân hàng, đào tạo,…
+➢Người sử dụng Internet (user):
+Là tổ chức, cá nhân sử dụng dịch vụ Internet thông qua các
+ISP.
+NHẬP MÔN INTERNET VÀ E-LEARNING 34
+
+-- 34 of 45 --
+
+1.2.3. PHÁT TRIỂN INTERNET TẠI VIỆT NAM
+NHẬP MÔN INTERNET VÀ E-LEARNING 35
+Cách người dùng kết nối đến ISP
+
+-- 35 of 45 --
+
+Quan hệ giữa các
+nhà cung cấp dịch vụ
+Internet…
+1.2.3. PHÁT TRIỂN INTERNET TẠI VIỆT NAM
+NHẬP MÔN INTERNET VÀ E-LEARNING 36
+
+-- 36 of 45 --
+
+1.3. E-LEARNING VÀ QUÁ TRÌNH
+PHÁT TRIỂN E-LEARNING
+1.3.1. Khái niệm về E-learning
+1.3.2. Một số định nghĩa tiêu biểu
+1.3.3. Quá trình phát triển E-learning
+1.3.4. Một số xu hướng công nghệ trong phát triển hệ thống E-
+learning
+NHẬP MÔN INTERNET VÀ E-LEARNING 37
+
+-- 37 of 45 --
+
+1.3.1. KHÁI NIỆM VỀ E-LEARNING
+E-learning (Electronic Learning): được hiểu đơn giản là quá trình
+đào tạo trong đó việc dạy và học được thực hiện dựa trên các
+phương tiện điện tử như: máy tính, mạng Internet...
+NHẬP MÔN INTERNET VÀ E-LEARNING 38
+
+-- 38 of 45 --
+
+1.3.2. MỘT SỐ ĐỊNH NGHĨA TIÊU BIỂU
+Có nhiều quan điểm, định nghĩa khác nhau về E-learning:
+• E-learning là sử dụng các công nghệ Web và Internet trong học
+tập (William Horton).
+• E-learning là một thuật ngữ dùng để mô tả việc học tập, đào tạo
+dựa trên công nghệ thông tin và truyền thông (Compare
+Infobase Inc).
+• E-learning nghĩa là việc học tập hay đào tạo được chuẩn bị,
+truyền tải hoặc quản lý sử dụng nhiều công cụ của công nghệ
+thông tin, truyền thông khác nhau và được thực hiện ở mức cục
+bộ hay toàn cục (MASIE Center).
+• Việc học tập được truyền tải hoặc hỗ trợ qua công nghệ điện tử.
+Việc truyền tải qua nhiều kĩ thuật khác nhau như Internet, TV,
+video tape, các hệ thống giảng dạy thông minh, và việc đào tạo
+dựa trên máy tính (CBT) (Sun Microsystems, Inc).
+Nhìn chung, E-learning là hệ thống đào tạo sử dụng các công
+nghệ đa phương tiện dựa trên nền tảng Internet.
+NHẬP MÔN INTERNET VÀ E-LEARNING 39
+
+-- 39 of 45 --
+
+1.3.3. QUÁ TRÌNH PHÁT TRIỂN E-LEARNING
+Quá trình phát triển e-learning trên thế giới
+NHẬP MÔN INTERNET VÀ E-LEARNING 40
+Trước năm 1983
+1984-1993
+1994-1999
+2000-2005
+• “Lấy giảng viên làm trung tâm”
+• Phương pháp giáo dục đào tạo truyền thống
+• Công nghệ CBT
+• Phân phối bài giảng qua đĩa mềm, đĩa CD-ROM
+• Sự hướng dẫn của giáo viên rất hạn chế
+• Đào tạo bằng công nghệ Web với hình ảnh chuyển
+động tốc độ thấp đã được triển khai trên diện rộng
+• Các công nghệ tiên tiến
+• Giáo viên kết hợp hướng dẫn trực tuyến
+• Đào tạo với giá thành rẻ, chất lượng cao và hiệu quả
+2006-nay
+• Internet tốc độ cao, công nghệ Web với flash, công
+nghệ xử lý ảnh và video tốc độ cao
+• E-learning bước vào giai đoạn mới với các lớp học
+online, các kho video có thể truy nhập mọi lúc...
+
+-- 40 of 45 --
+
+1.3.3. QUÁ TRÌNH PHÁT TRIỂN E-LEARNING
+Quá trình phát triển E-learning tại Việt Nam:
+• Dữ liệu Tại Việt Nam: số người sử dụng Internet tăng vọt sự
+thay đổi cách làm việc, trao đổi thông tin và học tập.
+• Khoảng từ năm 2003, việc nghiên cứu e-learning ở Việt Nam
+đã được một số trường đại học và một số doanh nghiệp quan
+tâm.
+• Nhiều hoạt động tích cực nhằm khuyến khích phát triển
+phương thức đào tạo e-learning.
+NHẬP MÔN INTERNET VÀ E-LEARNING 41
+
+-- 41 of 45 --
+
+1.3.4. MỘT SỐ XU HƯỚNG CÔNG NGHỆ TRONG
+PHÁT TRIỂN HỆ THỐNG E-LEARNING
+➢Xu hướng chuyển dịch công nghệ từ E-Learning đến M-Learning
+và U-Learning
+NHẬP MÔN INTERNET VÀ E-LEARNING 42
+Mạng máy tính
+Các thiết bị di động
+Thông tin vô tuyến
+M-Learning
+Nhận biết ngữ cảnh U-Learning
+Các công nghệ cảm ứng
+Các thiết bị di động
+Thông tin vô tuyến
+E-Learning
+
+-- 42 of 45 --
+
+1.3.4. MỘT SỐ XU HƯỚNG CÔNG NGHỆ TRONG
+PHÁT TRIỂN HỆ THỐNG E-LEARNING
+➢Một số xu hướng công nghệ…
+• Sử dụng HTML5
+• Sử dụng phần mềm đặc tả TIN CAN API
+• Hệ thống quản lý học tập sử dụng mã nguồn mở
+• Sử dụng điện toán đám mây
+• Sử dụng kỹ thuật xử lý dữ liệu lớn (Big data) trong E-learning
+NHẬP MÔN INTERNET VÀ E-LEARNING 43
+
+-- 43 of 45 --
+
+TÓM LƯỢC CUỐI BÀI
+• Internet là mạng của các mạng máy tính, kết nối các mạng máy
+tính khác nhau trên toàn cầu.
+• Các mạng liên kết với nhau dựa trên một bộ giao thức TCP/IP.
+• Internet có nguồn gốc từ mạng ARPANET của Bộ Quốc phòng Mỹ.
+• Việt Nam kết nối vào mạng Internet từ năm 1997.
+• Để sử dụng dịch vụ Internet, người sử dụng cần đăng ký với nhà
+cung cấp dịch vụ Internet (ISP).
+• E-learning là hệ thống đào tạo sử dụng các công nghệ đa phương
+tiện dựa trên nền tảng Internet. Quá trình học e-learning là quá trình
+học thông qua mạng Internet và công nghệ Web.
+• Internet và e-learning vẫn đang tiếp tục phát triển mạnh mẽ ở Việt
+Nam và trên toàn thế giới.
+NHẬP MÔN INTERNET VÀ E-LEARNING 44
+
+-- 44 of 45 --
+
+KẾT THÚC
+NHẬP MÔN INTERNET VÀ E-LEARNING 45
+
+-- 45 of 45 --
+

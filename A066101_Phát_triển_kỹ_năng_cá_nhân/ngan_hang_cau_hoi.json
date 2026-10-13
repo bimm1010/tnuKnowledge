@@ -1,0 +1,686 @@
+[
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Một người tự tin về khả năng và giá trị về bản thân thì sẽ có những biểu hiện như thế nào?",
+    "options": [],
+    "correctAnswer": "Tư thế ngay ngắn, ung dung, mắt nhìn thẳng",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần nhận thức được điểm mạnh và điểm yếu của bản thân?",
+    "options": [],
+    "correctAnswer": "Vì con người chỉ có thể tự tin khi biết được điểm mạnh của bản thân để phát triển nó và biết điểm yếu của bản thân để khắc phục nó",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Theo mô hình cửa sổ Johari, nếu một người sống quá khép kín, ngại giao tiếp thì người đó có thể gặp những điểm bất lợi gì?",
+    "options": [],
+    "correctAnswer": "Thiếu thông tin, bỏ lỡ cơ hội hợp tác, phát triển",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Theo mô hình cửa sổ Johari, cách thức mà con người tương tác với người khác để hiểu về bản thân là gì?",
+    "options": [],
+    "correctAnswer": "Tự bộc lộ và đón nhận thông tin phản hồi",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần phải kiểm soát cảm xúc của bản thân?",
+    "options": [],
+    "correctAnswer": "Vì nếu phản ứng một cách không kiểm soát với những điều xảy ra trái ý mình thì sẽ dễ dẫn đến những hậu quả khó lường",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần hiểu biết năng lực của bản thân mình?",
+    "options": [],
+    "correctAnswer": "Vì đó là tiền đề quan trọng để con người xây dựng nhân hiệu, tạo dựng hình ảnh và uy tín cá nhân hướng đến sự thành công trong công việc và cuôc sống",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm phương án đúng nhất. Muốn phát triển được bản thân thì con người cần phải làm gì?",
+    "options": [],
+    "correctAnswer": "Nhận biết năng lực bản thân, đặt ra mục tiêu phù hợp, lập kế hoạch để thực hiện mục tiêu",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm phương án đúng nhất. Một người được coi là biết kiểm soát cảm xúc của bản thân khi người đó:",
+    "options": [],
+    "correctAnswer": "Kiềm chế sự bốc đồng, giữ bình tĩnh khi sự việc bất ngờ xảy ra",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm phương án đúng nhất. Một người được coi là thực sự có khả năng kiểm soát cảm xúc của bản thân khi người đó:",
+    "options": [],
+    "correctAnswer": "Giữ bình tĩnh trước mọi bất ngờ xảy ra",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần phải tự tin vào bản thân?",
+    "options": [],
+    "correctAnswer": "Vì đó là điều kiện cần thiết để con người làm chủ bản thân, chủ động thực hiện những mục tiêu mà mình đã đề ra.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Một người tự tin về bản thân thì sẽ phản ứng như thế nào khi được yêu cầu trình bày quan điểm của mình?",
+    "options": [],
+    "correctAnswer": "Nói ra những quan điểm của mình và sẵn sàng bảo vệ niềm tin về những gì là đúng",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Theo mô hình cửa sổ Johari, một người muốn khám phá những năng lực của chính bản thân mình thì người đó cần làm gì?",
+    "options": [],
+    "correctAnswer": "Tích cực chủ động tìm kiếm cơ hội để phát triển bản thân",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Luận điểm nào sau đây diễn đạt đúng về khái niệm quản lý bản thân:",
+    "options": [],
+    "correctAnswer": "Quản lý bản thân là việc một cá nhân hiểu biết về chính bản thân mình, kiểm soát được cảm xúc, hành vi của mình và biết cách phát triển những năng lực mà mình có nhằm đạt được những mục tiêu mà bản thân họ đề ra",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Để điều khiển và ngăn chặn cảm xúc tiêu cực thì con người cần tránh điều gì?",
+    "options": [],
+    "correctAnswer": "Trầm trọng hóa vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Theo mô hình cửa sổ Johari, để phát triển bản thân thì con người cần chú trọng mở rộng phần nào?",
+    "options": [],
+    "correctAnswer": "Phần công khai/ Open",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Không gian giao tiếp giữa hai người được duy trì trong khoảng từ 0.5- 1m được xếp vào vùng nào?",
+    "options": [],
+    "correctAnswer": "Vùng riêng tư",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Xác định một nhân tố gây cản trở quá trình giao tiếp trong các nhân tố sau:",
+    "options": [],
+    "correctAnswer": "Người nhận không giải mã đúng thông điệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Để thông điệp được truyền đi một cách rõ ràng, chính xác tạo hiệu quả tốt trong giao tiếp, người gửi thông điệp không nên làm gì?",
+    "options": [],
+    "correctAnswer": "Nói câu dài, hàm chứa nhiều thông tin",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Để giao tiếp thành công thì con người cần xác định cự li và phương pháp giao tiếp với người khác như thế nào?",
+    "options": [],
+    "correctAnswer": "Nên xác định cự li và phương pháp giao tiếp với từng đối tượng cụ thể để có cách ứng xử phù hợp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong các nhân tố sau, nhân tố nào khiến cho quá trình giao tiếp không được triển khai thuận lợi?",
+    "options": [],
+    "correctAnswer": "Người gửi không thể mã hóa đúng thông điệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Xác định một luận điểm đúng nhất trong số các luận điểm dưới đây bàn về tính cách và trang phục của con người.",
+    "options": [],
+    "correctAnswer": "Những người có phong cách ăn mặc giống nhau nhưng tính cách vẫn có thể khác nhau",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong quá trình giao tiếp, một người sẽ không được người khác tin tưởng khi họ:",
+    "options": [],
+    "correctAnswer": "Không trung thực trong công việc",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong quá trình giao tiếp với những người khác, nếu một người chỉ chú tâm đến lợi ích của bản thân mình thì người đó sẽ:",
+    "options": [],
+    "correctAnswer": "Tạo sự bất tín nhiệm của các đối tác",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tìm phương án đúng nhất. Con người cần tìm kiếm thông tin, tăng cường đề tài nói chuyện để:",
+    "options": [],
+    "correctAnswer": "Tạo sự linh hoạt, sáng tạo, hấp dẫn trong giao tiếp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Con người không nên làm gì nếu muốn thành công trong giao tiếp với người khác?",
+    "options": [],
+    "correctAnswer": "Tự do bộc lộ cảm xúc của mình",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tìm phương án đúng nhất. Vì sao để giữ gìn mối quan hệ tốt đẹp lâu dài thì cần phải giữ lễ nghĩa và khoảng cách nhất định, không được suồng sã với các đối tác của mình?",
+    "options": [],
+    "correctAnswer": "Vì ai cũng có lòng tự tôn, việc giữ lễ nghĩa khoảng cách là để thể hiện sự tôn trọng đối tác",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Những yếu tố nào sau đây không thuộc hình thức giao tiếp bằng ngôn từ?",
+    "options": [],
+    "correctAnswer": "Diễn tả bằng ánh mắt",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong giao tiếp xã giao, nên sử dụng ngôn từ như thế nào để mọi người xung quanh đều hiểu đúng thông điệp của mình?",
+    "options": [],
+    "correctAnswer": "Sử dụng ngôn từ đơn giản phù hợp với người nghe và bối cảnh giao tiếp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Xác định một luận điểm thể hiện cách hiểu đúng nhất về khái niệm giao tiếp trong các phương án dưới đây:",
+    "options": [],
+    "correctAnswer": "Giao tiếp là cách thức con người tạo lập các mối liên hệ với những người khác trong xã hội",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tìm phương án đúng nhất. Lời khen có tác dụng rất tích cực trong quan hệ giao tiếp. Tuy nhiên nên bày tỏ lời khen như thế nào để tăng hiệu quả bền vững của các mối quan hệ ?",
+    "options": [],
+    "correctAnswer": "Dành những lời khen tặng chân thành cho đối tác đúng lúc, đúng chỗ",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Trong trường hợp cụ thể, khi cấp trên đưa ra những quyết định không như mong đợi của bạn nhưng lại có vẻ phù hợp với các đồng nghiệp khác, bạn nên làm gì?",
+    "options": [],
+    "correctAnswer": "Tuân thủ, cấp quản lý bao giờ cũng có lý do để ra quyết định",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tìm câu trả lời đúng nhất. Một doanh nghiệp có môi trường giao tiếp ứng xử nội bộ tốt đẹp sẽ thu hút được sự quan tâm của đối tác và khách hàng vì:",
+    "options": [],
+    "correctAnswer": "Đối tác và khách hàng coi mối quan hệ nội bộ của doanh nghiệp là sự thể hiện của văn hóa và phương thức quản lý của doanh nghiệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi có ý tưởng muốn đề xuất với cấp trên để hoàn thiện công việc, hoàn thiện tổ chức, v.v. bạn nên làm gì?",
+    "options": [],
+    "correctAnswer": "Cân nhắc, chọn lọc ý tưởng đề xuất phù hợp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tìm câu trả lời đúng nhất. Chú trọng đến vấn đề giao tiếp ứng xử trong môi trường làm việc là một cách để mỗi thành viên trong doanh nghiệp xây dựng “nhân hiệu” của mình vì:",
+    "options": [],
+    "correctAnswer": "Giao tiếp ứng xử tốt giúp mỗi cá nhân xây dựng hình ảnh tốt đẹp của mình trong con mắt của người khác",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Nhân viên cấp dưới làm việc trong một tổ chức nên làm gì?",
+    "options": [],
+    "correctAnswer": "Tránh nói xấu cấp trên sau lưng",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Quan niệm nào sau đây là không đúng về mối quan hệ cấp trên cấp dưới trong doanh nghiệp",
+    "options": [],
+    "correctAnswer": "Quan niệm về mối quan hệ cấp trên - cấp dưới là giống nhau ở mọi doanh nghiệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi công việc được giao có những thay đổi đáng kể về phạm vi và cấp độ, xuất hiện nguy cơ quá tải khiến không thể đảm đương được công việc thì cấp dưới cần làm gì?",
+    "options": [],
+    "correctAnswer": "Chủ động đề xuất với cấp trên về phương án thực hiện và nói rõ giới hạn khả năng của mình",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tìm câu trả lời đúng nhất. Môi trường làm việc thân thiện, mối quan hệ lành mạnh trong doanh nghiệp có ảnh hưởng tích cực đến khả năng sáng tạo, năng lực làm việc... của người lao động vì:",
+    "options": [],
+    "correctAnswer": "Về bản chất, con người chỉ có thể phát huy được tốt nhất năng lực sáng tạo của mình khi được ở trong một môi trường thoải mái, thích hợp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi chưa thực sự hiểu rõ yêu cầu của công việc; thực trạng công việc; phương pháp làm việc; v.v. nhân viên cấp dưới nên giải quyết như thế nào?",
+    "options": [],
+    "correctAnswer": "Chủ động hỏi ý kiến cấp trên",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Mối quan hệ ứng xử trong nội bộ doanh nghiệp phụ thuộc nhiều nhất vào yếu tố nào?",
+    "options": [],
+    "correctAnswer": "Phong cách của ban lãnh đạo doanh nghiệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Người quản lý nên làm gì để có thể nghe được những ý kiến phản hồi từ các nhân viên của mình?",
+    "options": [],
+    "correctAnswer": "Điềm đạm, bình tĩnh sẵn sàng tiếp nhận thông tin nhiều chiều",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi mới được tuyển dụng vào làm việc, nhân viên cấp dưới không nên:",
+    "options": [],
+    "correctAnswer": "Tò mò tìm hiểu các mối quan hệ cá nhân",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cách hiểu nào dưới đây của cấp dưới về cấp trên là đúng?",
+    "options": [],
+    "correctAnswer": "Cấp trên cũng là con người, ai cũng có điểm mạnh điểm yếu",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi nhân viên cấp dưới được cấp trên giao một nhiệm vụ nằm ngoài phạm vi những công việc thường làm (không trong danh mục các công việc được mô tả khi phân công trách nhiệm) thì cấp dưới nên phản ứng như thế nào?",
+    "options": [],
+    "correctAnswer": "Nhiệt tình thực hiện",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tìm phương án đúng nhất. Người lãnh đạo doanh nghiệp giữ vai trò quan trọng trong việc xây dựng môi trường giao tiếp ứng xử tốt đẹp trong doanh nghiệp của mình vì:",
+    "options": [],
+    "correctAnswer": "Người lãnh đạo là người có thể đưa ra những quy định về giao tiếp ứng xử và yêu cầu mọi thành viên trong doanh nghiệp phải tuân thủ những quy định đó",
+    "userAnswerState": "Sai"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tìm câu trả lời đúng nhất. Nhìn vào các mối quan hệ ứng xử trong nội bộ doanh nghiệp có thể đánh giá:",
+    "options": [],
+    "correctAnswer": "Văn hóa của một doanh nghiệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bước thứ tư trong quy trình giải quyết vấn đề là",
+    "options": [],
+    "correctAnswer": "Thực hiện giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Khi đối mặt với một vấn đề cần giải quyết, việc đầu tiên bạn phải làm là:",
+    "options": [],
+    "correctAnswer": "Xác định vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bước thứ hai trong quy trình giải quyết vấn đề là",
+    "options": [],
+    "correctAnswer": "Đưa ra các giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Phương án nào dưới đây giải thích đúng về cách giải quyết vấn đề theo hệ thống:",
+    "options": [],
+    "correctAnswer": "Giải quyết vấn đề theo hệ thống là một quá trình phân tích logic bao gồm các bước khác nhau nhằm đạt được giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Kỹ thuật xương cá” là phương pháp dùng để làm gì?",
+    "options": [],
+    "correctAnswer": "Phân tích các nguyên nhân của vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bước thứ năm trong quy trình giải quyết vấn đề là:",
+    "options": [],
+    "correctAnswer": "Theo dõi thực hiện giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Phương án nào dưới đây giải thích đúng nhất về việc lựa chọn phương pháp giải quyết vấn đề đơn giản, dễ thống nhất và các thông tin có khả năng dự báo trước?",
+    "options": [],
+    "correctAnswer": "Khi gặp vấn đề đơn giản, dễ thống nhất và các thông tin có khả năng dự báo trước thì nên sử dụng cách giải quyết vấn đề theo hệ thống để tìm giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "“Kỹ thuật ẩn dụ Metaphor” là phương pháp dùng để làm gì?",
+    "options": [],
+    "correctAnswer": "So sánh và đặt vấn đề vào bối cảnh mới",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bước cuối cùng trong quy trình giải quyết vấn đề là:",
+    "options": [],
+    "correctAnswer": "Đánh giá giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Phương án nào dưới đây giải thích đúng nhất về việc lựa chọn phương pháp giải quyết vấn đề khi gặp vấn đề phức tạp, nhiều biến động, khó dự báo?",
+    "options": [],
+    "correctAnswer": "Khi vấn đề phức tạp, nhiều biến động, khó dự báo thì nên kết hợp sử dụng cách giải quyết vấn đề cảm nhận sáng tạo và phân tích logic hệ thống",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Kỹ thuật “đặt 5 lần câu hỏi tại sao” là nhằm mục đích gì?",
+    "options": [],
+    "correctAnswer": "Xác định nguyên nhân gốc của vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Tìm phương án trả lời đúng nhất. Để giải quyết vấn đề một cách hiệu quả thì cần xem xét vấn đề đó như thế nào?",
+    "options": [],
+    "correctAnswer": "Xem xét vấn đề từ nhiều góc độ khác nhau",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bước thứ ba trong quy trình giải quyết vấn đề là",
+    "options": [],
+    "correctAnswer": "Lựa chọn giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "“Kỹ thuật Janusian” là phương pháp dùng để làm gì?",
+    "options": [],
+    "correctAnswer": "Xem xét khía cạnh đối diện của vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Để giải quyết vấn đề một cách hiệu quả, người giải quyết vấn đề cần có thái độ như thế nào?",
+    "options": [],
+    "correctAnswer": "Cần tạo dựng thái độ tích cực và lạc quan khi giải quyết vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Phương án nào sau đây là không chính xác khi nói về đặc điểm của thời gian:",
+    "options": [],
+    "correctAnswer": "Quỹ thời gian của mỗi người là vô hạn",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Tìm phương án trả lời đúng nhất. Một việc như thế nào thì được coi là khẩn cấp?",
+    "options": [],
+    "correctAnswer": "Một việc được coi là khẩn cấp khi nó đòi hỏi sự chú ý ngay lập tức",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Một người quản lý thời gian tốt là người có nhiều công việc ở ô nào trong ma trận quản lý thời gian?",
+    "options": [],
+    "correctAnswer": "Ô số 2: công việc quan trọng nhưng không khẩn cấp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi một người phải liên tục làm các công việc quan trọng và khẩn cấp trong một thời gian dài thì sẽ có kết quả công việc như thế nào?",
+    "options": [],
+    "correctAnswer": "Kết quả công việc sẽ không thể tốt do sức chịu đựng sự căng thẳng của con người có giới hạn",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi phân loại, sắp xếp công việc vào ma trận quản lý thời gian, bạn sẽ xếp vào ô số 4 công việc nào trong số các công việc sau:",
+    "options": [],
+    "correctAnswer": "Gọi điện thoại tán gẫu",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Quản lý thời gian là gì? Tìm phương án không chính xác trong số các phương án sau đây",
+    "options": [],
+    "correctAnswer": "Là sự vội vã hoàn thành công việc vào phút cuối",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Tìm phương án đúng nhất. Một việc như thế nào thì được coi là quan trọng?",
+    "options": [],
+    "correctAnswer": "Một việc được coi là quan trọng khi nó có một ý nghĩa lớn hoặc gây ra một kết quả đáng kế",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi phân loại, sắp xếp công việc vào ma trận quản lý thời gian, bạn sẽ xếp vào ô số 2 công việc nào trong số các công việc sau:",
+    "options": [],
+    "correctAnswer": "Xây dựng mối quan hệ với đối tác",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi làm công việc ở ô số 2 trong ma trận quản lý thời gian thì sẽ có lợi thế gì?",
+    "options": [],
+    "correctAnswer": "Có thời gian để chủ động, bình tĩnh, tập trung vào công việc quan trọng",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Yếu tố nào dưới đây là nguyên nhân gây lãng phí thời gian?",
+    "options": [],
+    "correctAnswer": "Làm việc không có kế hoạch",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Một người được gọi là biết cách quản lý thời gian nếu người đó:",
+    "options": [],
+    "correctAnswer": "Biết phân loại công việc, lập kế hoạch và từng bước thực hiện theo kế hoạch",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi có công việc quan trọng và khẩn cấp thì con người cần hành động như thế nào?",
+    "options": [],
+    "correctAnswer": "Tập trung mọi nguồn lực để giải quyết ngay lập tức",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi một người có nhiều công việc ở ô số 3 trong ma trận quản lý thời gian thì người đó nên làm gì?",
+    "options": [],
+    "correctAnswer": "Ủy quyền cho người khác làm thay nếu có thể",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Trong số các phương án dưới đây, phương án nào giải thích đúng nhất về khái niệm quản lý thời gian?",
+    "options": [],
+    "correctAnswer": "Quản lý thời gian là biết cách sử dụng thời gian một cách hợp lý và hiệu quả để đạt được mục tiêu xác định",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Hãy chỉ ra một nguyên nhân gây lãng phí thời gian trong số các phương án sau:",
+    "options": [],
+    "correctAnswer": "Sử dụng điện thoại quá nhiều",
+    "userAnswerState": "Đúng"
+  }
+]

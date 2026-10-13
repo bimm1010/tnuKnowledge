@@ -1,0 +1,470 @@
+BÀI 3:
+HƯỚNG DẪN SỬ DỤNG
+MỘT SỐ DỊCH VỤ
+INTERNET THÔNG DỤNG
+NHẬP MÔN INTERNET VÀ E-LEARNING 1
+
+-- 1 of 41 --
+
+TÌNH HUỐNG DẪN NHẬP
+Dịch vụ internet thông dụng
+Ngày nay, việc sử dụng các dịch vụ Internet đã trở thành nhu cầu tất
+yếu, đặc biệt là những người hàng ngày dùng Internet làm phương
+tiện trao đổi thông tin trong công việc và học tập.
+Các bạn đã biết các dịch vụ phổ biến của Internet (dịch vụ web, tìm
+kiếm thông tin trên Internet, thư điện tử, diễn đàn…). Vậy cách sử
+dụng các dịch vụ này như thế nào để phục vụ tốt nhất cho việc học
+tập e-learning của bạn?
+1. Làm thế nào để sử dụng dịch vụ web? Có các trình duyệt web
+phổ biến nào?
+2. Công cụ nào có thể tìm kiếm thông tin trên Internet? Các tham số
+và các phép toán nào hỗ trợ tìm kiếm tối ưu nhất?
+3. Các công cụ tải tập tin từ website?
+4. Cách đăng ký hộp thư điện tử (Google, Yahoo…)?
+NHẬP MÔN INTERNET VÀ E-LEARNING 2
+
+-- 2 of 41 --
+
+MỤC TIÊU BÀI HỌC
+• Duyệt web thành thạo.
+• Tìm kiếm thông tin trên Internet theo từ khóa hoặc theo chủ đề. Tải
+các tệp tin từ Internet xuống máy tính.
+• Đăng ký tài khoản thư điện tử miễn phí của Yahoo, Google và sử
+dụng dịch vụ thư điện tử của Yahoo, Google để gửi và nhận thư.
+• Sử dụng thành thạo Microsoft Outlook để quản lý thư điện tử.
+NHẬP MÔN INTERNET VÀ E-LEARNING 3
+
+-- 3 of 41 --
+
+NỘI DUNG BÀI HỌC
+3.1. Dịch vụ World Wide Web
+3.2. Một số dịch vụ của Google
+NHẬP MÔN INTERNET VÀ E-LEARNING 4
+
+-- 4 of 41 --
+
+3.1. DỊCH VỤ WORLD WIDE WEB
+3.1.1. Trình duyệt Web Google Chrome
+3.1.2. Tìm kiếm thông tin
+3.1.3. Một số trình duyệt khác
+NHẬP MÔN INTERNET VÀ E-LEARNING 5
+
+-- 5 of 41 --
+
+3.1.1. TRÌNH DUYỆT CHROME
+• Google Chrome hay Chrome là một trinh duyệt web miễn phí,
+được phát triển bởi Google.
+• Google Chrome là trình duyệt phổ biến nhất trên thế giới hiện nay
+với nhiều ngôn ngữ khác nhau trong đó có tiếng Việt.
+• Google Chrome là trình duyệt an toàn, tốc độ và ổn định, thiết kế
+đơn giản và trực quan.
+• Sử dụng tài khoản Chrome có thể truy cập đến tất cả các tiện ích
+của Google như: Gmail, Drive, Maps và Youtube.
+NHẬP MÔN INTERNET VÀ E-LEARNING 6
+
+-- 6 of 41 --
+
+3.1.1. TRÌNH DUYỆT CHROME
+• Tải xuống và cài đặt Google Chrome:
+oKiểm tra xem Chrome có hỗ trợ hệ điều hành và có đáp ứng
+được tất cả các yêu cầu hệ thống
+oTải xuống máy tính tại địa chỉ: https://www.google.com/chrome/
+oChạy chương trình cài đặt Chrome trên máy tính.
+• Khởi động và đóng Chrome:
+oKhởi động Chrome: tìm và kích đúp biểu tượng Chrome.
+oĐóng Chrome: Đóng cửa sổ Chrome
+NHẬP MÔN INTERNET VÀ E-LEARNING 7
+
+-- 7 of 41 --
+
+3.1.1. TRÌNH DUYỆT CHROME
+• Giao diện:
+oGiao diện sử dụng chính gồm một các nút Back (quay lại trang
+trước), Forward (chuyển tiếp), Reload (nạp
+lại), Bookmark (đánh dấu và quản lý các địa chỉ yêu
+thích), Option (tùy chọn).
+NHẬP MÔN INTERNET VÀ E-LEARNING 8
+o Các thẻ (tab bar) được
+đặt trên cùng của cửa sổ.
+o Thanh định hướng
+(Omnibox) là một hộp
+chứa địa chỉ URL ở đầu
+mỗi tab.
+
+-- 8 of 41 --
+
+3.1.1. TRÌNH DUYỆT CHROME
+• Thao tác với Tab trên trình duyệt Chrome:
+oThêm tab mới: Kích chuột vào New tab hoặc dùng phím nóng
+Ctrl + T để mở tab mới để thêm nhiều cửa sổ làm việc.
+oDi chuyển, sắp xếp các cửa sổ: Kéo thả tab trên vùng tab để di
+chuyển tab hoặc sắp xếp lại các tab.
+NHẬP MÔN INTERNET VÀ E-LEARNING 9
+
+-- 9 of 41 --
+
+3.1.1. TRÌNH DUYỆT CHROME
+• Đánh dấu trang làm việc yêu thích nhanh chóng:
+oBước 1: Tới trang web cần đánh dấu
+oBước 2: Kích chuột vào nút đánh dấu
+(hình ngôi sao)
+oBước 3: Nhập tên đánh dấu và “Hoàn tất”
+oẨn hiện trang đánh dấu: Ctrl + Shift + B.
+oQuản trị trang đánh dâu: Option\Dấu
+trang\Trình quản lý dấu trang.
+NHẬP MÔN INTERNET VÀ E-LEARNING 10
+
+-- 10 of 41 --
+
+3.1.1. TRÌNH DUYỆT CHROME
+• Sử dụng Google để tra cứu thông tin
+oBước 1: Nhập thông tin tìm kiếm vào thanh địa chỉ
+oBước 2: Duyệt danh sách kết quả để mở trang cần tìm kiếm
+NHẬP MÔN INTERNET VÀ E-LEARNING 11
+
+-- 11 of 41 --
+
+3.1.1. TRÌNH DUYỆT CHROME
+• Mở một cửa sổ thực hiện tính năng ẩn danh (Incognito)
+oTính năng ẩn danh giúp người dùng không bị rò rỉ thông tin cá
+nhân khi lướt web trên trình duyệt Chrome đồng thời nó cũng
+không lưu bất kỳ thông tin nào vào lịch sử và cache của trình
+duyệt.
+oMở cửa sổ ẩn danh: Option \ Cửa sổ ẩn danh mới hoặc Ctrl +
+Shift + N.
+NHẬP MÔN INTERNET VÀ E-LEARNING 12
+
+-- 12 of 41 --
+
+3.1.2. TÌM KIẾM THÔNG TIN
+• Từ khóa tìm kiếm (KeyWord):
+oTừ đại diện cho thông tin cần tìm.
+oPhép toán trong từ khóa tìm kiếm: để mở rộng các chức năng
+tìm kiếm:
+▪ Phép cộng (+): Tìm tất cả các trang có chứa từ khóa không
+theo thứ tự.
+▪ Phép trừ (-): Tìm kiếm loại bỏ các từ khóa sau dấu trừ.
+▪ Dấu nháy kếp “”: Tìm kiếm nguyên văn hay tìm kiếm chính
+xác.
+oKý tự thay thế:
+▪ Dấu *: Thay thế cho một dãy ký tự.
+▪ Dấu ?: Thay thế cho một ký tự.
+▪ Dấu ~: Tìm kiếm từ đồng nghĩa với từ khóa.
+NHẬP MÔN INTERNET VÀ E-LEARNING 13
+
+-- 13 of 41 --
+
+3.1.2. TÌM KIẾM THÔNG TIN
+• Trang web Google hỗ trợ tìm kiếm:
+oLà công cụ tìm kiếm nổi tiếng thế giới
+oKết quả có độ chính xác cao
+oĐịa chỉ: https://www.google.com.vn
+NHẬP MÔN INTERNET VÀ E-LEARNING 14
+
+-- 14 of 41 --
+
+3.1.2. TÌM KIẾM THÔNG TIN
+• Từ khóa tìm kiếm trên Google:
+oTìm từ khóa theo tiêu đề trang Web: intitle:từ khóa
+▪ Tìm kiếm trang web có tiêu đề chứa từ khóa cần tìm
+oTìm từ khóa trong một tên miền (Địa chỉ): site:tên miền
+▪ Chỉ tìm các trang có từ khóa trong tên miền chỉ định.
+oTìm từ khóa trong địa chỉ (URL) của trang Web: inurl:từ khóa
+▪ Trang có địa chỉ liên kết có chứa từ khóa.
+oTìm tập tin (File): filetype: phần mở rộng
+▪ Tìm những trang có tập tin với phần mở rộng.
+NHẬP MÔN INTERNET VÀ E-LEARNING 15
+
+-- 15 of 41 --
+
+3.1.2. TÌM KIẾM THÔNG TIN
+• Từ khóa tìm kiếm trên Google:
+oTìm các trang Web có từ khóa liên quan với nhau: related: từ
+khóa
+▪ Tìm những trang có từ khóa giống nhau.
+oTìm lại trang Web không còn hoạt động: cache: website
+▪ Tìm những trang đã ngưng hoạt động nhưng vẫn còn lưu trữ
+trong kho của Google.
+oKết hợp các tham số lại với nhau:
+▪ Có thể sử dụng các tham số kết hợp lại với nhau để tăng
+mức độ chính xác tìm kiếm.
+NHẬP MÔN INTERNET VÀ E-LEARNING 16
+
+-- 16 of 41 --
+
+3.2. MỘT SỐ DỊCH VỤ CỦA GOOGLE
+3.2.1. Dịch vụ thư điện tử Gmail
+3.2.2. Dịch vụ Mail Group Google
+3.2.3. Dịch vụ Google Drive
+NHẬP MÔN INTERNET VÀ E-LEARNING 17
+
+-- 17 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+• Email - hay còn được gọi là Thư điện tử viết tắt của từ Electronic
+Mail giúp bạn có thể gửi thư qua các email khác một cách dễ dàng
+nhanh chóng ở khắp mọi nơi trên thế giới.
+• Gmail hay còn gọi là Google Mail là một dịch vụ e-mail trên nền
+web và e-mail POP3 miễn phí do Google cung cấp
+NHẬP MÔN INTERNET VÀ E-LEARNING 18
+
+-- 18 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+Đăng ký và sử dụng Gmail:
+• Đăng ký một tài khoản Gmail
+• Sử dụng Gmail
+• Các Menu chính của Gmail
+• Cách mở một thư nhận được
+• Cách soạn và gửi thư
+• Đính kèm tệp tin vào thư
+• Cách thay đổi mật khẩu Gmail
+• Cách tạo chữ ký trong Gmail
+NHẬP MÔN INTERNET VÀ E-LEARNING 19
+
+-- 19 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+• Để đăng ký một tài khoản
+Gmail, bạn truy cập vào
+trang
+http://mail.google.com
+• Trong trang Gmail, click
+vào dòng chữ “Tạo một tài
+khoản mới” để đăng ký.
+• Trong trang “Tạo tài khoản
+Google mới”:
+• Kéo xuống phía dưới điền
+tiếp những thông tin.
+NHẬP MÔN INTERNET VÀ E-LEARNING 20
+
+-- 20 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+• Kéo xuống phía dưới, tích vào ô: “Tôi đồng ý với Điều khoản dịch
+vụ và Chính sách bảo mật của Google”.
+NHẬP MÔN INTERNET VÀ E-LEARNING 21
+
+-- 21 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+• Kích chuột vào “Bước tiếp theo”.
+NHẬP MÔN INTERNET VÀ E-LEARNING 22
+
+-- 22 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+• Bạn có thể “thêm ảnh tiểu sử”.
+NHẬP MÔN INTERNET VÀ E-LEARNING 23
+
+-- 23 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+NHẬP MÔN INTERNET VÀ E-LEARNING 24
+• Mỗi khi muốn mở hộp thư Gmail của mình, bạn hãy truy cập vào địa
+chỉ http://mail.google.com/ sau đó nhập Tên người dùng (tên đăng
+nhập) và Mật khẩu đã đăng ký và nhấn nút Đăng nhập
+
+-- 24 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+• Sử dụng Gmail:
+NHẬP MÔN INTERNET VÀ E-LEARNING 25
+
+-- 25 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+• Cách soạn và gửi thư:
+Nhập địa chỉ Email của
+người nhận vào ô Tới,
+nhấn vào Thêm Cc hoặc
+Thêm Bcc để gửi thư này
+tới thêm địa chỉ khác nếu
+muốn. Nếu muốn gửi cho
+nhiều người thì bạn nhấp
+chữ Thêm Cc hoặc/và
+Thêm Bcc rồi nhập vào
+email của những người cần
+gửi, mỗi email cách nhau
+bởi dấu phẩy (,).
+NHẬP MÔN INTERNET VÀ E-LEARNING 26
+
+-- 26 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+Cc: là từ viết tắt của
+"carbon copy", có nghĩa là
+bản sao. Bất cứ ai có trong
+danh sách Cc: cũng sẽ
+nhận được thư bạn gửi.
+Tất cả những người nhận
+thư có thể thấy tên những
+nhận trong dòng Cc.
+NHẬP MÔN INTERNET VÀ E-LEARNING 27
+
+-- 27 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+Bcc: là từ viết tắt của
+"blind carbon copy", có
+nghĩa là bản sao ẩn. Tính
+năng này tương tự như
+Cc:, chỉ khác là những
+người nhận Bcc: bị ẩn đối
+với tất cả những người
+nhận khác của thư (kể cả
+những người nhận Bcc:
+khác).
+NHẬP MÔN INTERNET VÀ E-LEARNING 28
+
+-- 28 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+• Nhập tựa đề của thư vào ô Chủ đề.
+• Nhập nội dung của thư vào cửa sổ trống bên dưới. Có thể sử
+dụng các chức năng định dạng văn bản có sẵn.
+• Nếu muốn gửi tập tin hình ảnh hoặc tài liệu (văn bản) kèm theo
+thư thì nhấn vào Đính kèm tệp và nhấn vào Browse để chọn, có
+thể Đính kèm hoặc Xóa nếu muốn.
+• Sau khi soạn xong nhấn Gửi để gửi thư, nhấn Lưu bây giờ để lưu
+vào Thư nháp hoặc Hủy để bỏ và không gửi thư này.
+NHẬP MÔN INTERNET VÀ E-LEARNING 29
+
+-- 29 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+• Cách thay đổi mật khẩu Gmail:
+oThay đổi mật khẩu mới thường xuyên là khuyến cáo của tất cả các
+nhà cung cấp dịch vụ có tính bảo mật. Giống như các tài khoản
+Email khác, Gmail cũng cho cho phép người sử dụng thay đổi mật
+khẩu của mình để thuận tiện trong việc quản lý, sử dụng và bảo
+đảm an toàn ngăn không cho người khác truy cập vào tài khoản
+của mình.
+oĐăng nhập vào tài khoản Gmail của bạn.
+NHẬP MÔN INTERNET VÀ E-LEARNING 30
+
+-- 30 of 41 --
+
+3.2.1. DỊCH VỤ THƯ ĐIỆN TỬ GMAIL
+• Cách tạo chữ ký trong Gmail
+oGmail cho phép người dùng
+thiết lập chữ ký kèm theo các
+thư khi gửi đi. Chữ ký được tự
+động hiển thị phía dưới của
+mỗi thư, nó có thể là bất cứ
+thứ gì bạn muốn như tên, địa
+chỉ, số điện thoại của bạn hoặc
+cũng có thể là một câu thơ,
+câu châm ngôn... và cả hình
+ảnh.
+oĐăng nhập vào hộp thư Gmail
+và chọn Cài đặt.
+NHẬP MÔN INTERNET VÀ E-LEARNING 31
+
+-- 31 of 41 --
+
+3.2.2. SỬ DỤNG GROUP MAIL GOOGLE
+• Mail Group hay Mailing List giúp đơn giản hóa việc gửi email cùng
+lúc cho nhiều người: chỉ cần gửi cho 1 địa chỉ duy nhất thay vì
+đồng gửi cho cả danh sách dài.
+• Mail Group là công cụ quản lý danh sách thành viên, cung cấp
+không gian để lưu trữ tất cả thông tin trao đổi và giúp bạn dễ dàng
+theo dõi, tra cứu về sau.
+NHẬP MÔN INTERNET VÀ E-LEARNING 32
+
+-- 32 of 41 --
+
+3.2.2. SỬ DỤNG GROUP MAIL GOOGLE
+• Bước 1: Truy cập vào 1 trong 2 đường dẫn sau:
+groups.google.com (giao diện tiếng anh) hoặc
+groups.google.com/?hl=vi (giao diện tiếng việt). Đăng nhập bằng
+tài khoản Gmail. Chọn “TẠO NHÓM” để tạo nhóm mới.
+NHẬP MÔN INTERNET VÀ E-LEARNING 33
+
+-- 33 of 41 --
+
+3.2.2. SỬ DỤNG GROUP MAIL GOOGLE
+• Bước 2: Đặt tên nhóm, điền thông tin và kích hoạt những tính
+năng bạn muốn. Nhập mã xác nhận nếu hệ thống có yêu cầu.
+NHẬP MÔN INTERNET VÀ E-LEARNING 34
+
+-- 34 of 41 --
+
+3.2.2. SỬ DỤNG GROUP MAIL GOOGLE
+• Bước 3: Thêm địa chỉ email các thành viên vào nhóm.
+NHẬP MÔN INTERNET VÀ E-LEARNING 35
+
+-- 35 of 41 --
+
+3.2.3. SỬ DỤNG GOOGLE DRIVE
+• Google Drive là dịch vụ lưu trữ và chia sẻ dữ liệu trực tuyến miễn
+phí phổ biến và tốt nhất hiện nay của Google
+• Tất cả dữ liệu có thể đưa lên 'đám mây' từ hình ảnh, video, cho tới
+các phần mềm, ứng dụng, hay các tài liệu quan trọng muốn lưu
+giữ lại.
+• Google Drive sử dụng tài khoản của Google (Gmail).
+NHẬP MÔN INTERNET VÀ E-LEARNING 36
+
+-- 36 of 41 --
+
+3.2.3. SỬ DỤNG GOOGLE DRIVE
+• Truy cập vào Google Drive: drive.google.com.
+Sử dụng tài khoản của Google để đăng nhập.
+NHẬP MÔN INTERNET VÀ E-LEARNING 37
+
+-- 37 of 41 --
+
+3.2.3. SỬ DỤNG GOOGLE DRIVE
+• Tải, tạo mới tập tin và thư mục:
+oChọn Tạo mới, một bảng nhỏ sẽ
+hiện ra như hình. Trong bảng này,
+chúng ta quan tâm đến 3 mục
+gồm: Thư mục, Tải tệp lên, Tải
+thư mục lên.
+oĐể tạo Thư mục mới chọn Thư
+mục và nhập tên rồi chọn Tạo
+oĐể tải file hoặc cả thư mục lên thì
+chọn Tải tệp lên hoặc Tải thư mục
+lên. Chọn file hoặc thư mục muốn
+tải lên và nhấn Open, chờ trong
+giây lát là file này sẽ được lưu lên
+Drive NHẬP MÔN INTERNET VÀ E-LEARNING 38
+
+-- 38 of 41 --
+
+CÂU HỎI TRẮC NGHIỆM
+CÂU HỎI TRẮC NGHIỆM 1: Đáp án nào dưới đây KHÔNG phải là
+tên một trình duyệt Web?
+A. Safari C. Chrome
+B. Internet Explorer D. Free YouTube Downloader
+• Trả lời: Đáp án đúng là: D. Free YouTube Downloader. Vì: Free
+YouTube Downloader là một công cụ tải tập tin từ Youtube.
+CÂU HỎI TRẮC NGHIỆM 2: Trình duyệt Web nào được phát triển
+bởi tập đoàn Apple?
+A. Internet Explorer C. Safari
+B. FireFox D. Opera
+• Trả lời: Đáp án đúng là: C. Safari
+NHẬP MÔN INTERNET VÀ E-LEARNING 39
+
+-- 39 of 41 --
+
+TÓM LƯỢC CUỐI BÀI
+• Để duyệt web cần có trình duyệt web, trong bài này giới thiệu cách
+sử dụng trình Duyệt web Google Chrome. Tuy nhiên còn có nhiều
+trình duyệt web khác, cách sử dụng về cơ bản cũng giống như
+Google Chrome. Cách tốt nhất để sử dụng thành thạo trình duyệt
+web là thực hành thường xuyên theo cách hướng dẫn của tài liệu.
+• Có nhiều trang web hỗ trợ chức năng tìm kiếm thông tin, trong đó
+www.google.com là một trong các trang web được sử dụng phổ
+biến nhất. Để tìm kiếm hiểu quả, sinh viên không nên sử dụng một
+từ khóa đơn lẻ mà nên dùng một cụm từ hoặc kết hợp nhiều cụm
+từ bằng cách sử dụng các phép toán + hoặc -
+NHẬP MÔN INTERNET VÀ E-LEARNING 40
+
+-- 40 of 41 --
+
+KẾT THÚC
+NHẬP MÔN INTERNET VÀ E-LEARNING 41
+
+-- 41 of 41 --
+

@@ -1,0 +1,802 @@
+1
+BÀI 4. KỸ NĂNG GIẢI QUYẾT VẤN ĐỀ
+MỤC TIÊU
+Sau khi học xong bài này, học viên có thể;
+- Hiểu rõ hai cách tiếp cận cơ bản trong giải quyết vấn đề của cá nhân
+- Đánh giá những điểm mạnh, yếu của cá nhân liên quan đến cách giải quyết vấn
+đề theo các cách tiếp cận khác nhau
+- Biết lựa chọn cách tiếp cận phù hợp nhất để giải quyết từng vấn đề cụ thể.
+- Hiểu và vận dụng được qui trình giải quyết vấn đề
+-
+NỘI DUNG
+- Xác định cách tiếp cận trong giải quyết vấn đề
+- Chu trình giải quyết vấn đề
+4.1. Xác định cách tiếp cận trong giải quyết vấn đề
+Đôi khi, chúng ta muốn cuộc sống và công việc của mình không có vấn đề gì cả. Tuy
+nhiên, điều đó là không thể. Thậm chí, một số người còn định nghĩa cuộc sống là một chuỗi
+các vấn đề cần giải quyết. Những khó khăn và thách thức khi giải quyết các vấn đề mang
+đến cho chúng ta những cơ hội để học hỏi và phát triển. Cuộc sống thật đơn điệu nếu không
+có các vấn đề nảy sinh.
+4.1.1. Hai cách tiếp cận giải quyết vấn đề:
+Hàng ngày, chúng ta phải đối mặt với hàng trăm vấn đề khác nhau cần phải giải quyết
+và ra quyết định. Chúng ta có thể giải quyết chúng một cách hệ thống logic, hay giải quyết
+vấn đề theo cảm tính sáng tạo. Cả hai cách đều cần thiết và có giá trị. Tuy nhiên, trong một
+tình huống nhất định, chúng ta có thể lựa chọn cách tiếp cận này hơn là cách tiếp cận khác.
+Giải quyết vấn đề theo hệ thống là một quá trình phân tích logic bao gồm các bước khác
+nhau nhằm đạt được giải pháp. Các bước này là:
+1- Xác định vấn đề
+2- Đưa ra các giải pháp khác nhau
+3- Lựa chọn giải pháp phù hợp
+nhất 4- Thực hiện giải pháp
+5- Theo dõi việc thực hiện giải pháp
+6- Đánh giá thực hiện giải pháp
+Ngược lại, cách tiếp cận giải quyết vấn đề sáng tạo không theo một trình tự các bước cụ
+thể, mà dựa nhiều vào sự cảm nhận, so sánh, mường tượng và thậm chí sự “ngớ ngẩn”. Nếu
+
+-- 1 of 21 --
+
+2
+như giải quyết vấn đề theo hệ thống đòi hỏi chúng ta phải phân tích từng bước cho đến khi
+đạt được giải pháp, giải quyết vấn đề sáng tạo khuyến khích người ta đồng thời xử lý các
+bước.
+Như trên đã đề cập, không thể kết luận cách tiếp cận nào tốt hơn. Giải quyết vấn đề hiệu
+quả phải biết cân đối và kết hợp hai cách tiếp cận này cho phù hợp với từng vấn đề cần giải
+quyết cụ thể. Thực tế thì mỗi cá nhân chúng ta đều có thiên hướng nhất định trong cách giải
+quyết vấn đề của mình. Nhận ra thiên hướng cá nhân, để một mặt khai thác nó và mặt khác
+phát triển rèn luyện cách tiếp cận mình “không thích” là rất quan trọng cho phát triển kỹ
+năng giải quyết vấn đề của mỗi người.
+Tự nghiên cứu
+Bài tập này minh hoạ một vấn đề được giải quyết như thế nào theo hai
+cách tiếp cận nêu trên. Với bạn, bạn có thể sẽ thích cách này hơn cách kia
+bởi vì nó nhanh hơn.
+Hãy tưởng tượng có 8 nhà quản lý trong phòng họp. Mỗi người chỉ bắt
+tay một lần với từng người trong số còn lại. Hỏi tổng số có bao nhiêu lần
+bắt tay?
+Bạn đã giải quyết vấn đề này thế nào?
+Nếu bạn có thiên hướng toán học và quen thuộc với khái niệm “thừa
+số”, bạn có thể sẽ sử dụng công thức đơn giản và có câu trả lời nhanh
+chóng. Công thức đó là: lấy tổng số người nhân với tổng số người trừ 1 và
+chia cho 2. Kết quả sẽ là 28 lần bắt tay.
+Vấn đề cũng có thể được xử lý bằng cách khác, thể hiện nhiều trí tưởng
+tượng và hình dung nhiều hơn, và thời gian cũng lâu hơn. 8 nhà quản lý có
+thể được thể hiện dưới dạng các vòng tròn và ký hiệu như sau:
+A B C D
+E F G H
+Như thể hiện qua các mũi tên, nếu người A bắt tay với những người còn lại,
+tổng số lần bắt tay tạo ra với người này là 7. Đến lượt người B, vì lần bắt tay
+của A và B đã được tính cho người A, nên tổng số lần bắt tay đối với người B
+sẽ là 6… Cứ như vậy, số lần bắt tay sẽ giảm đi 1 cho mỗi người. Cộng dồn số
+lần bắt tay ta sẽ được tổng số 28.
+4.1.2. Thiên hướng tiếp cận giải quyết vấn đề của bạn
+Không phải mọi vấn đề đều được giải quyết một cách logic và hệ thống, cũng như vậy
+
+-- 2 of 21 --
+
+3
+không thể giải quyết bằng cảm nhận mọi vấn đề. Sử dụng cả hai sẽ tạo cho bạn sự hiệu quả
+hơn trong giải quyết vấn đề hàng ngày.
+Tuy nhiên, bạn sẽ “thích” hay có thiên hướng tiếp cận giải quyết vấn đề theo một trong
+hai cách ở trên. Qua ví dụ về bài toán tính số lần bắt tay, bạn thấy mình thiên về cách nào
+nhiều hơn? Logic theo công thức hay tưởng tượng theo hình vẽ?
+Hãy xét ví dụ thứ hai để tìm hiểu về thiên hướng của bạn:
+Hãy nhớ lại những năm bắt đầu đi học của bạn (từ lớp 1 đến lớp 6), người giáo viên nào
+bạn thích nhất?
+Bây giờ, hãy phân tích câu trả lời của bạn: Bạn nhớ đến mặt người giáo viên trước hay
+bạn nhớ tên người đó trước? Hay bạn có ngay đồng thời cả khuôn mặt và tên?
+Nếu bạn nhớ tên trước, bạn có thể theo thiên hướng giải quyết vấn đề hệ thống, logic.
+Còn nếu khuôn mặt người giáo viên đến với bạn trước, bạn có thể theo thiên hướng giải
+quyết vấn đề cảm nhận tưởng tượng. Còn nếu cả hai xảy ra đồng thời, có thể bạn đã cân đối
+được cách tiếp cận giải quyết vấn đề của mình.
+4.1.3. Lựa chọn cách tiếp cận tốt nhất cho từng hoàn cảnh
+Làm cách nào để lựa chọn cách tiếp cận giải quyết vấn đề cho phù hợp với những
+trường hợp khác nhau? Một qui luật thường là: nếu vấn đề đơn giản, các thông tin có khả
+năng dự báo trước, dễ thống nhất về giải pháp thì nên sử dụng cách logic hệ thống. Còn khi
+vấn đề phức tạp, biến động nhiều, khó dự báo thì cách tiếp cận cảm nhận sáng tạo sẽ phù
+hợp hơn.
+Trong nhiều trường hợp, khi nhấn mạnh vào một cách tiếp cận, song vẫn cần những
+thông tin hay ý tưởng từ cách tiếp cận khác. Ví dụ, bạn có thể theo các bước trong giải quyết
+vấn đề logic để giải quyết một vấn đề khoa học nào đó, nhưng bạn vẫn cần ứng dụng cách
+giải quyết cảm nhận sáng tạo để có được những ý tưởng nghiên cứu mới hay cách giải thích
+kết quả nghiên cứu độc đáo. Điều này lý giải tại sao cần phát triển song song cả hai cách giải
+quyết vấn đề.
+4.2. Xác định vấn đề
+Mục tiêu phần này nhằm giúp bạn:
+• Có quan điểm tích cực về các tình huống giải quyết vấn đề
+• Sử dụng các công cụ khác nhau như kỹ thuật xương cá, kỹ thuật “5 lần tại sao”… để
+xác định vấn đề
+• Hiểu tầm quan trọng của việc xem xét vấn đề trên nhiều giác độ khác nhau.
+Nhà quản lý Mencken đã quan sát và tổng kết: “Đối với mọi vấn đề phức tạp, có một
+giải pháp đơn giản, rõ ràng và…sai”. Mục tiêu của phần này nhằm giúp và khuyến khích bạn
+hãy “bình tĩnh”, hãy chú ý nhiều hơn đến các khía cạnh phức tạp của vấn đề, và hãy phân
+tích vấn đề kỹ hơn trước khi đưa ra một giải pháp nào đó.
+Như đã đề cập ở phần trước, quá trình giải quyết vấn đề gồm năm bước từ ”Xác định
+vấn đề đến” đến ”Theo dõi thực hiện giải pháp”. Tuy nhiên, khi đặt vấn đề trong bối cảnh
+
+-- 3 of 21 --
+
+4
+liên tục và rộng hơn, chúng ta sẽ thêm một bước nữa, đó là: “Đánh giá”. Và với bước mới
+này, quá trình giải quyết vấn đề sẽ trở thành một vòng tròn khép kín và vì thế được gọi là
+chu trình. Khi giải pháp được thực hiện, chúng ta cần liên tục xác định những thách thức mới
+và phát triển các giải pháp sáng tạo nhằm nâng cao kết quả công việc và chất lượng các mối
+quan hệ. Bản chất của quá trình khép kín này được thể hiện như trong mô hình sau:
+Hình 2.1 Chu trình giải quyết vấn đề
+Như thể hiện trong mô hình, xác định vấn đề cần giải quyết là bước quan trọng trong chu
+trình giải quyết vấn đề. Nhưng trước khi bạn bắt đầu, bạn cần tạo dựng cho mình quan điểm
+tích cực và lạc quan về vấn đề cần giải quyết.
+4.2.1. Tạo dựng thái độ tích cực và lạc quan
+“Không ! Không thể lại có vấn đề nữa rồi!”. Đã bao nhiêu lần bạn nghe và nói những từ
+này? Khi tình huống vấn đề xảy ra, chúng thường là những gì bạn không mong muốn và có
+khi rất tồi tệ. Chính vì vậy, rất khó để có thái độ tích cực và lạc quan khi giải quyết vấn đề.
+Tuy nhiên, thái độ tiêu cực, bị động, sợ hãi trước tình huống vấn đề sẽ làm ảm đạm
+những suy nghĩ của bạn và cản trở quá trình tạo ra các giải pháp hiệu quả. Hãy loại bỏ những
+suy nghĩ tiêu cực và thay vào đó bằng thái độ tích cực và lạc quan hơn khi giải quyết vấn đề.
+Khi tiếp cận xử lý những tình huống vấn đề mới, hãy cố gắng sử dụng các từ “thách
+thức” và “cơ hội”. Những từ mang ý nghĩa tích cực và lạc quan này thể hiện hai câu hỏi mà
+bạn nên đặt ra trước khi bắt đầu giải quyết vấn đề:
+- Vấn đề này sẽ thách thức chúng ta đạt được mục tiêu cao hơn như thế nào?
+- Cơ hội nào tiềm ẩn trong vấn đề này?
+4.2.2. Xác định vấn đề
+Xác định vấn
+đề
+Đưa ra giải
+pháp
+Lựa chọn giải
+pháp
+Thực hiện giải
+pháp
+Theo dõi thực
+hiện giải pháp
+Đánh giá
+
+-- 4 of 21 --
+
+5
+Như một nhà quản lý đã nói: “Khi vấn đề được xác định rõ, thì có nghĩa một nửa vấn đề
+đã được giải quyết”. Không phân biệt bạn làm việc cá nhân hay giải quyết vấn đề theo
+nhóm, xác định rõ vấn đề giúp bạn rất nhiều trong việc tìm ra giải pháp thực hiện hiệu quả
+nhất.
+Xác định vấn đề dường như là việc đơn giản, song thực tế nó là một quá trình gồm các
+bước sau đây:
+Bước 1: Xác định biểu hiện (hiện tượng) của vấn đề và nguyên nhân của chúng
+Bước 2: Xem xét vấn đề từ các góc độ và cách nhìn khác nhau
+Bước 3: Định nghĩa vấn đề
+4.2.2.1. Xác định biểu hiện của vấn đề và nguyên nhân của nó
+Người ta thường hay nhầm lẫn giữa “hiện tượng” của vấn đề và “bản chất” vấn đề.
+Xin hãy xem xét ví dụ sau đây:
+Trong buổi làm việc giữa ban lãnh đạo công ty CP Hồng Hà và công ty tư vấn. Giám đốc
+Hải của công ty CP Hồng Hà đã nêu ra vấn đề của công ty hiện nay:
+- Giám đốc Hải: Dạo gần đây tôi gặp nhiều căng thẳng trong công việc khiến tôi thấy
+mệt mỏi
+- Công ty tư vấn: Anh có thể nói cho chúng tôi biết vấn đề mà công ty đang gặp
+phải ở đây là gì không?
+- Giám đốc Hải: Tôi thấy căng thẳng quá. Có quá nhiều sức ép từ phía Hội đồng quản
+trị
+- Giám đốc Hải (giọng đã không còn kiên nhẫn): Công ty đang phải đối mặt với việc
+nhân viên bỏ việc, tình trạng này kéo dài đã ảnh hưởng xấu tới quá trình sản xuất kinh doanh
+của công ty. Các anh có thể cho ý kiến để khắc phục tình trạng này được không?
+- Công ty tư vấn: Điều quan trọng là gốc gác của vấn đề, tìm được nguyên nhân chúng
+ta sẽ giải quyết tốt được vấn đề này.
+Đối với Công ty Hồng Hà trong ví dụ trên, “Tôi đang phải chịu nhiều sức ép” đã là sự
+mô tả về vấn đề. Tuy nhiên, những mô tả kiểu chung chung như vậy thực chất là sự mô tả
+các hoàn cảnh phức tạp được tạo ra bởi nhiều vấn đề khác nhau. Thậm chí ngay cả việc nhân
+viên bỏ việc - bản thân nó cũng là một vấn đề cần giải quyết, đồng thời nhân viên bỏ việc
+cũng chỉ là một hiện tượng, một biểu hiện của nhiều vấn đề khác nhau như: lương thấp, môi
+trường làm việc trì trệ, nhân viên không được đánh giá và công nhận đúng thành tích... Để
+có bức tranh chính xác hơn về tình trạng của Công ty Hồng Hà, Công ty tư vấn đã đặt ra các
+câu hỏi có thể giúp xác định các vấn đề nhỏ hơn là nguyên nhân gây ra tình trạng đó. Các
+câu hỏi này bao gồm:
+- Đâu là những nguyên nhân gây ra hiện tượng này?
+- Những nguyên nhân nào trong số các nguyên nhân trên là vấn đề?
+- Những quan tâm hay những mối liên quan nào xung quanh vấn đề?
+- Những khía cạnh nào của hiện tượng không phải là vấn đề?
+
+-- 5 of 21 --
+
+6
+Những câu hỏi này sẽ giúp chia nhỏ các tình huống phức tạp thành các phần khác nhau.
+Người ta đã hình ảnh hoá để nhìn nhận rõ hơn vấn đề, và một trong các kỹ thuật này là Kỹ
+thuật Xương cá.
+Kỹ thuật xương cá nhằm giúp phân tích các nguyên nhân có thể của hiện tượng
+vấn đề.
+Khi vẽ các nguyên nhân này, chúng tạo nên một hình như hình xương cá. Với ví dụ ở
+trên, Công ty tư vấn có thể dùng kỹ thuật xương cá để xác định những nguyên nhân tạo ra
+hiện tượng nhân viên bỏ việc nhiều. Như thể hiện ở sơ đồ dưới đây, các loại nguyên nhân có
+thể bao gồm: các vấn đề liên quan đến công việc; vấn đề sức khoẻ; vấn đề tài chính; vấn đề
+bố mẹ; vấn đề con cái; và vấn đề chỗ ở mới.
+Hình 2.1: Kỹ thuật xương cá
+Khi bạn đã xác định được những yếu tố là nguyên nhân gây ra tình huống vấn đề, bạn có
+thể bắt đầu xác định các nguyên nhân nhỏ hơn và mô tả thực tế vấn đề cần giải quyết. Quay
+trở lại ví dụ của Công ty Hồng Hà, bạn có thể mô tả:
+
+-- 6 of 21 --
+
+7
+Thể hiện rõ nguyên nhân của vấn đề theo cách này có thể giúp các nhà tư vấn ưu tiên
+hoá xử lý các nguyên nhân theo mức độ tạo ra sự căng thẳng trong vấn đề tỷ lệ luân chuyển
+nhân viên cao. Ví dụ, ông Hải có thể thấy rõ rằng có một số khía cạnh như là việc chuyển
+đến chỗ ở mới có thể sẽ không còn là vấn đề theo thời gian. Hay, có những vấn đề cần được
+giải quyết ngay như vấn đề gia đình…Và cuối cùng ông Hải đã xác định các vấn đề quan
+trọng nhất là:
+- Tiền lương trả cho nhân viên thấp hơn so với mặt bằng thị trường trong khi nhân viên
+có quá nhiều khoản phải chi tiêu (sinh hoạt, gia đình, con cái, ...)
+- Việc đánh giá kết quả thực hiện công việc của cán bộ quản lý (cấp trưởng phó phòng)
+chưa chính xác và gây ra nhiều bức xúc cho nhân viên
+- Đối thủ cạnh tranh có chế độ đãi ngộ hấp dẫn nhằm cạnh tranh nguồn nhân lực.
+Với cách phân tích này, ông Hải có thể hiểu rõ hơn những nguyên nhân gây ra tình trạng
+tỷ lệ luân chuyển nhân viên cao. Tuy nhiên, xác định những nguyên nhân như trên của vấn
+đề mới chỉ là bắt đầu, những người giải quyết vấn đề còn cần xác định nguyên nhân tận gốc
+của chúng. Một trong những kỹ thuật hay được sử dụng nhất để làm việc này là kỹ thuật “5
+lần tại sao”
+Kỹ thuật “5 lần tại sao” để xác định nguyên nhân gốc của vấn để
+Một kỹ thuật được sử dụng rộng rãi trong quản lý chất lượng đồng bộ là đặt ra hàng hoạt
+các câu hỏi tại sao để tìm ra tận gốc nguyên nhân của vấn đề. Theo tổng kết chung, mất
+khoảng năm lần hỏi tại sao như vậy, mặc dù tuỳ từng vấn đề mà số lần này có thể khác nhau.
+Hãy tiếp tục ví dụ của chúng ta về Công ty Hồng Hà, và vận dụng kỹ thuật này nhằm tìm ra
+nguyên nhân tận gốc của khía cạnh vấn đề liên quan đến công việc.
+Tình huống: Ông Trung được công ty tư vấn giao cho làm trưởng ban tư vấn để giải
+quyết tình trạng nhân viên bỏ việc tại công ty CP Hồng Hà. Để tiến hành tìm ra nguyên
+nhân của tình trạng công nhân viên bỏ việc, ông Trung quyết định tổ chức 1 cuộc họp với
+sự có mặt của các trưởng bộ phận của công ty Hồng Hà.
+- Ông Trung: Chúng ta đang có vấn đề. Trong năm qua, đã có nhiều điều phàn nàn của
+ban lãnh đạo rằng công ty đang bị chảy máu chất xám.
+- Nhân viên 1: Chúng tôi đã nỗ lực hết sức có thể, nhưng hiện nay nhân viên được
+nhận mức lương thấp hơn mặt bằng chung trên thị trường và công ty chưa có kế hoạch cải
+tổ hệ thống tiền lương
+- Trung: Tại sao nhân viên lại chỉ được trả lương như vậy?
+- Nhân viên 2: Công ty của chúng ta là công ty sản xuất, công nhân được trả lương
+theo sản phẩm họ làm ra. Do năng suất cá nhân thấp nên mức lương họ nhận được thấp.
+- Trung: Tại sao công nhân lại khó tăng năng suất lao động?
+- Nhân viên 3: Bởi vì đa phần công việc sản xuất phải làm thủ công nên điều kiện tăng
+năng suất là không có
+
+-- 7 of 21 --
+
+8
+- Trung: Tại sao công nhân phải làm việc thủ công?
+- Nhân viên 2: Vì việc áp dụng dây chuyền công nghệ gặp quá nhiều khó khăn.
+- Trung: Tại sao chúng ta lại gặp khó khăn trong việc áp dụng công nghệ dây chuyền
+vào sản xuất?
+- Nhân viên 1: Một phần, vì đặc tính của nhiều công việc không áp dụng được dây
+chuyền công nghệ và bắt buộc công nhân phải làm thủ công. Đồng thời, công ty muốn áp
+dụng dây chuyền công nghệ thì phải thay đổi đồng bộ, việc này đòi hỏi tốn kém và khả năng
+tài chính của công ty không cho phép thực hiện.
+Sau khi trao đổi với các thành viên trong nhóm, Trung nhận ra rằng có nhiều hơn một
+nguyên nhân cho tình trạng kết quả công việc chậm. Anh sẽ luôn lưu ý đến điều này trong
+quá trình tìm hiểu thực sự bản chất vấn đề của mình là gì.
+4.2.2.2. Xem xét vấn đề từ nhiều góc độ khác nhau
+Xác định biểu hiện của vấn đề và những nguyên nhân của nó là bước đầu tiên quan
+trọng trong quá trình làm rõ bản chất vấn đề, song các phân tích không thể chỉ dừng lại ở đó.
+Khi bác sỹ Jonas Salk được hỏi ông đã phát minh ra vắc xin chữa bệnh bại liệt thế nào, ông
+đã trả lời một cách đầy bí ẩn rằng: “Tôi học cách nghĩ như bản chất tự nhiên của những
+người mẹ suy nghĩ”. Câu trả lời của ông đã nói lên tầm quan trọng của việc xem xét vấn đề
+từ nhiều góc độ khác nhau.
+Vấn đề ảnh hưởng đến những ai?
+Trừ khi đó là vấn đề quá nhỏ, còn thường thì bạn không phải là người duy nhất bị ảnh
+hưởng bởi vấn đề. Xác định những người khác có liên quan đến vấn đề và xét xem họ sẽ mô
+tả nó như thế nào sẽ giúp bạn tìm được một định nghĩa hữu ích nhất của vấn đề. Những câu
+hỏi sau đây sẽ giúp bạn mở rộng phạm vi nhìn nhận vấn đề của mình:
+- Vấn đề sẽ ảnh hưởng đến những ai?
+- Những người này sẽ mô tả vấn đề thế nào?
+- Mô tả của họ sẽ khác mô tả của mình thế nào?
+Hãy tiếp tục cân nhắc và thay đổi các cách nhìn khác nhau cho đến khi bạn xem xét hết
+mọi giác độ của những người bị ảnh hưởng. Hãy nói chuyện và trao đổi với họ. Nếu cách
+nhìn nhận của người khác quá khác so với cách nhìn của bạn, bạn nên xem xét lại cách mô tả
+vấn đề trước đây của mình.
+Hãy xem xét ví dụ sau đây để thấy rõ hơn quá trình này diễn ra thế nào:
+Tình huống: Khi cố gắng giải quyết vấn đề liên quan đến công việc mô tả ở ví dụ trên,
+Trung nên cân nhắc quan điểm hay góc độ nhìn nhận của những người nào? Anh liệt kê ra
+những đối tượng mà anh nghĩ sẽ có liên quan và ảnh hưởng đến tình huống vấn đề này.
+Trung xem họ sẽ mô tả vấn đề thế nào. Anh phát hiện ra rằng có một số nhóm đối tượng
+khác nhau và cách mô tả vấn đề của họ cũng khác nhau. Dưới đây là những nhóm đó:
+- Ban giám đốc: xem xét vấn đề ở góc độ giảm doanh thu và tăng chi phí do tỷ lệ luân
+
+-- 8 of 21 --
+
+9
+chuyển nhân viên tăng.
+- Cán bộ quản lý: xem xét vấn đề ở góc độ mất nhiều thời gian để bố trí, sắp xếp lại
+công việc do nhân viên bỏ việc
+- Cán bộ công nhân viên: tin rằng họ đã làm việc và cống hiến nhưng không được trả
+công xứng đáng và họ buộc phải ra đi.
+Sau khi cân nhắc các cách nhìn này, Trung dành thời gian trao đổi với đại diện của mỗi
+nhóm. Anh nhận ra rằng mô tả vấn đề ban đầu chưa phản ánh đầy đủ bản chất vấn đề đang
+đặt ra.
+Các khía cạnh vấn đề nào khác bạn nên xem xét?
+Để mở rộng hơn nữa phạm vi nhìn nhận vấn đề của bạn, bạn hãy cố gắng xem xét vấn
+đề từ góc độ của những người gần như chẳng liên quan đến vấn đề đang xem xét. Tự đặt ra
+các câu hỏi sau đây:
+Còn ai khác nữa có thể có những suy nghĩ và ý tưởng hữu ích về vấn đề này?
+- Họ sẽ mô tả vấn đề như thế nào?
+- Cách họ mô tả vấn đề khác gì với cách bạn mô tả, và khác gì với cách mà những
+người có ảnh hưởng mô tả?
+Một chuyên gia, hay một ai đó có kinh nghiệm xử lý các vấn đề tương tự có thể cho bạn
+những lời khuyên hữu ích, và bạn đừng bỏ qua đối tượng này. Đôi khi, góc độ nhìn nhận của
+những người chẳng liên quan gì lại có thể mang lại cho bạn những nguồn cảm hứng mà bạn
+đang rất cần. Những đứa trẻ, những người nông dân, các nghệ sĩ, các nhà chính khách…sẽ
+mô tả vấn đề thế nào? hãy cố đặt mình vào “đôi giày” của người khác và suy nghĩ như họ.
+Nếu có thể, hãy trao đổi trực tiếp với họ và ghi lại những suy nghĩ của họ bằng chính những
+từ họ dùng.
+Càng cân nhắc và xem xét nhiều khía cạnh của vấn đề, thì định nghĩa cuối cùng của bạn
+về vấn đề càng chính xác. Bằng cách nhìn nhận vấn đề từ nhiều góc độ như thế, bạn sẽ có
+khả năng nhìn nhận toàn diện hơn bản chất vấn đề. Đồng thời, nó cũng giúp bạn có nhiều ý
+tưởng hơn cho bước tiếp theo: Đưa ra các lựa chọn giải pháp khác nhau.
+4.2.2.3. Định nghĩa vấn đề
+Khi bạn đã mô tả được vấn đề, tìm những nguyên nhân gốc của nó, và xem xét vấn đề từ
+nhiều giác độ khác nhau, thì bạn đã sẵn sàng có được một định nghĩa chính thức cho vấn đề.
+Định nghĩa chính thức này là quan trọng bởi vì nó tạo ra sự tập trung vào việc tìm kiếm các
+giải pháp ở bước tiếp theo.
+Để định nghĩa vấn đề, hãy xem lại mô tả ban đầu về vấn đề của bạn. Xem xét các khía
+cạnh khác của vấn đề mà bạn vừa phân tích.
+- Liệu cách mô tả vấn đề ban đầu của bạn có phản ánh chính xác và đầy đủ bản chất
+vấn đề?
+- Trên cơ sở các góc nhìn khác nhau, bạn sẽ thay đổi cách mô tả vấn đề thế nào?
+
+-- 9 of 21 --
+
+10
+- Cuối cùng, hãy viết ra định nghĩa vấn đề của bạn
+Quay trở lại tình huống của chúng ta, bạn sẽ thấy việc sử dụng các cách nhìn nhận vấn đề
+khác nhau đã giúp bạn thay đổi định nghĩa vấn đề phù hợp hơn.
+Tình huống: Sau khi xem xét cách mô tả vấn đề ban đầu, và các cách nhìn khác nhau của
+những người khác, Trung nhận thấy rằng nguyên nhân gốc của vấn đề tỷ lệ luân chuyển
+nhân viên cao là ở hệ thống trả lương và hệ thống đánh giá kết quả thực hiện công việc
+của công ty đã lạc hậu, không còn khuyến khích được người lao động. Nếu có thể cải tiến
+2 hệ thống này thì vấn đề của mọi người sẽ được giải quyết. Trung quyết định viết lại định
+nghĩa vấn đề này: “làm thế nào để cải tiến hệ thống tiền lương và hệ thống đánh giá thực
+hiện công việc”.
+4.3. Đưa ra các giải pháp khác nhau
+Mục đích của phần này nhằm giúp bạn:
+- Nhận thức đầy đủ về khả năng sáng tạo của bạn
+- Rèn luyện kỹ năng động não (Brainstorming) để phát triển các giải pháp
+- Sử dụng kỹ thuật Janusian để xem xét khía cạnh đối diện của vấn đề
+- Tạo ra phép “ẩn dụ” (metaphor) để đặt vấn đề vào những bối cảnh mới
+Khi đã định nghĩa rõ vấn đề, bạn có thể chuyển sang bước hai của quá trình giải quyết
+vấn đề: Đưa ra các giải pháp. Bước này của quá trình giải quyết vấn đề đòi hỏi sự sáng tạo,
+không gò bó, không cần nghĩ nhiều đến liệu giải pháp “có khả thi không”. Mục tiêu là đưa ra
+càng nhiều giải pháp càng tốt. Như nhà phê bình văn học, Mark Van Doren, đã kết luận:
+“Hãy đưa ra nhiều ý tưởng và tiếp đãi chúng một cách long trọng, một trong số chúng sẽ là
+nhà vua”. Bước sau mới là lúc bạn tìm xem giải pháp nào phù hợp nhất.
+4.3.1. Giải pháp sáng tạo của bạn
+Mặc dù một số người tin rằng họ không có khả năng sáng tạo, nhưng sự thật là tất cả
+chúng ta khi sinh ra đều có năng lực sáng tạo. Thật không may, không ít người trong chúng
+ta tự lại tin rằng những cố gắng tưởng tượng của mình là lố bịch và vô dụng, cho nên chúng
+ta không đụng đến vùng sáng tạo của mình bao giờ.
+Một nghiên cứu nổi tiếng gần đây về sự sáng tạo đã kiểm tra tính sáng tạo của cùng một
+đối tượng, với cùng một bài kiểm tra và ở những thời điểm khác nhau: 5 tuổi; 10 tuổi; 15
+tuổi và khi các em vào trường đại học. Kết quả đã chỉ rõ, khi 5 tuổi, 92% các em được xép
+vào loại “rất sáng tạo”. Khi lên 10 tuổi, con số này giảm xuống 37%; khi 15 tuổi là 12% và
+khi học đại học, số các em được xếp loại “rất sáng tạo” chỉ còn lại 2%.
+Thật may mắn là chúng ta vẫn có thể phục hồi được khả năng sáng tạo của mình nếu
+chúng ta quyết tâm làm như vậy. Các nhà khoa học và quản lý đã đưa ra những kỹ thuật
+khác nhau để giúp mọi người sử dụng trí tưởng tượng và sáng tạo của họ. Dưới đây là một
+số kỹ thuật tiêu biểu:
+- Kỹ thuật động não
+
+-- 10 of 21 --
+
+11
+- Kỹ thuật Janusian
+- Kỹ thuật ẩn dụ
+4.3.2. Động não để có các giải pháp khác nhau
+Trong hầu hết các tình huống giải quyết vấn đề, bước đầu tiên để đưa ra các giải pháp
+khác nhau là tiến hành động não. Động não là một kỹ thuật đơn giản có thể tiến hành cho
+mỗi cá nhân cũng như tiến hành trong nhóm. Kỹ thuật động não gồm 3 bước cơ bản:
+- Viết rõ định nghĩa của bạn về vấn đề cần giải quyết. Nếu bạn làm việc trong nhóm,
+viết vấn đề lên bảng hay giấy Ao để tất cả mọi người có thể nhìn thấy.
+- Tiếp theo, liệt kê ra càng nhiều giải pháp càng tốt. Nếu bạn điều khiển thảo luận trong
+nhóm, hãy viết các giải pháp lên bảng khi các thành viên đưa ra ý tưởng. Nguyên tắc hết sức
+quan trọng phải lưu ý là trong quá trình động não bạn hãy giải phóng tối đa trí tưởng tượng
+của bạn. Hãy đưa ra càng nhiều ý tưởng càng tốt, không đánh giá chúng, không lo chúng có
+khả thi không và thậm chí ý tưởng càng lạ càng tốt.
+- Luôn khuyến khích và khích lệ các thành viên trong nhóm suy nghĩ và đưa ra ý tưởng.
+Liệt kê giải pháp cho đến khi các thành viên trong nhóm không còn ý tưởng. Ở bước tiếp
+theo bạn và nhóm của bạn sẽ có cơ hội để đánh giá và lựa chọn các ý tưởng này.
+Nếu bạn làm việc với người “hướng nội”, rụt rè hay xấu hổ trước đám đông, bạn có thể
+sẽ phải kiên trì, dành ít thời gian cho họ suy nghĩ trước khi đưa ra các ý tưởng, hoặc phải có
+những động tác “khởi động” và đặc biệt cần sự động viên khích lệ của bạn để thực hiện tốt
+quá trình động não.
+4.3.3. Sử dụng kỹ thuật Janusian để xem xét khía cạnh đối diện của vấn đề.
+Mặc dù kỹ thuật đơn giản động não có thể rất hiệu quả, song trong một số trường hợp
+động não không tạo ra cho bạn nhiều giải pháp như bạn muốn, đặc biệt là khi bạn giải quyết
+vấn đề một mình. Rất may mắn là chúng ta còn có các kỹ thuật khác để phát huy tính sáng
+tạo của mình. Một kỹ thuật được sử dụng rộng rãi và tỏ ra hiệu quả khi đưa ra các giải pháp
+giải quyết vấn đề có tên là Janusian - tên một vị thánh La mã. Janus xuất hiện trên đồng tiền
+xu của La mã với hai mặt nghiêng nhìn vào hai hướng đối diện, và điều này phản ánh tư
+tưởng của kỹ thuật này. Kỹ thuật Janusian đòi hỏi bạn phải tư duy theo các khía cạnh đối lập
+nhau. Bằng cách làm như vậy, bạn sẽ thoát ra được những ràng buộc tự mình đặt ra và suy
+nghĩ vượt ra ngoài “hàng rào”.
+Bước đầu tiên của kỹ thuật này yêu cầu bạn tự hỏi và trả lời một loạt các câu hỏi liên
+quan đến bản chất của vấn đề đang giải quyết. Các câu hỏi này bao gồm:
+- Ai phù hợp nhất để giải quyết vấn đề này?
+- Các vấn đề đã được giải quyết trước đây tương tự với vấn đề này như thế nào?
+- Quá trình nào thường được sử dụng để giải quyết vấn đề này?
+- Các công cụ nào thường được sử dụng để giải quyết vấn đề kiểu như thế này?
+Bước tiếp theo của kỹ thuật Janusian là đi tìm các câu trả lời ngược lại với câu trả lời trên,
+
+-- 11 of 21 --
+
+12
+có nghĩa là trả lời các câu hỏi sau đây:
+- Ai ít phù hợp nhất để giải quyết vấn đề này?
+- Các vấn đề không được giải quyết trước đây tương tự với vấn đề này thế nào?
+- Quá trình nào thường không được sử dụng để giải quyết vấn đề này?
+- Các công cụ nào thường không được sử dụng để giải quyết vấn đề kiểu như thế này?
+Chúng ta có thể minh hoạ kỹ thuật Janusian qua ví dụ về trường hợp của Giang đã mô tả
+ở trên.
+Tình huống: Trung tự đặt ra các câu hỏi sau đây về vấn đề của anh: “Làm cách nào để
+tăng hiệu quả hoạt động của hệ thống tiền lương và hệ thống đánh giá thực hiện công việc”:
+- Ai phù hợp nhất để giải quyết vấn đề này?
+Những nhân viên ở Phòng tổ chức nhân sự của công ty và nhà quản lý trực tiếp
+- Các vấn đề đã được giải quyết trước đây tương tự với vấn đề này như thế nào?
+Khi các mục tiêu của công ty đặt ra không đạt được, ban quản lý thường đề nghị nhân
+viên làm việc nhanh hơn và nhiều hơn. Giải pháp này tỏ ra có hiệu quả trong những giai
+đoạn nhất định, nhưng chỉ mang tính tạm thời.
+- Quá trình nào thường được sử dụng để giải quyết vấn đề này?
+Tiến hành xây dựng, cải tiến đồng thời cả 2 hệ thống trên
+- Các công cụ nào thường được sử dụng để giải quyết vấn đề kiểu như thế này?
+Các phần thưởng cho việc đạt mục tiêu; phổ biến rộng rãi thành tích của cá nhân
+Trung sau đó tiếp tục phần sau của kỹ thuật Janusian là đi tìm các câu trả lời ngược lại
+với câu trả lời trên. Phần hai này cần nhiều sự nỗ lực hơn, vì anh ta phải tưởng tượng về các
+khả năng chưa bao giờ được sử dụng ở công ty trước đây.
+- Ai ít phù hợp nhất để giải quyết vấn đề này?
+Nhân viên
+- Các vấn đề không được giải quyết trước đây tương tự với vấn đề này thế nào?
+Công ty tiến hành ký hợp đồng và thuê nhân viên mới để lấp vào vị trí còn trống do nhân
+viên bỏ việc để lại. Tuy nhiên biện pháp này không có hiệu quả cho lắm
+- Quá trình nào thường không được sử dụng để giải quyết vấn đề này?
+Không một ai đánh giá, xem xét lại quá trình thực hiện công việc và các mẫu kê khai để
+biết xem liệu chúng ta đang làm việc hiệu quả hay không
+- Các công cụ nào thường không được sử dụng để giải quyết vấn đề kiểu như thế này?
+Các công cụ khuyến khích chưa bao giờ được sử dụng để thưởng cho các ý tưởng mới
+về đánh giá thực hiện công việc của nhân viên.
+Trung nhìn lại những câu trả lời của mình, và nhận ra rằng có rất nhiều cách để giải
+quyết vấn đề này.
+
+-- 12 of 21 --
+
+13
+4.3.4. Phép ẩn dụ để đặt vấn đề vào bối cảnh mới
+Kỹ thuật ẩn dụ (metaphor) được mô tả như một công cụ hữu ích nhất. Ẩn dụ đơn giản là
+sự so sánh giữa hai thứ mà ít có sự so sánh với nhau. Dù rất đơn giản, song phép ẩn dụ có
+thể cho phép truyền tải các ý tưởng rất phức tạp. Ví dụ, để mô tả những rào cản vô hình mà
+đôi khi cản trở sự phát triển nghề nghiệp của một nhóm người nào đó, Anne Morrison đã so
+sánh nó với chiếc “trần bằng kính”.
+Khi tìm ra những ẩn dụ so sánh tốt sẽ giúp bạn rất nhiều trong việc đưa ra các giải pháp
+bởi vì nó đặt vấn đề trong một bối cảnh mới, tạo nên những cách hiểu mới về vấn đề. Vì suy
+nghĩ của bạn sẽ phải hướng tới những mối quan hệ mới, những hình ảnh mới, những thể hiện
+mới do đó khả năng để tạo ra các giải pháp mới cũng sẽ tăng lên.
+Trong ngôn ngữ kinh doanh, những ẩn dụ so sánh cũng rất nhiều. Sau đây là một vài ví
+dụ:
+- Quả bóng đang ở trong sân chúng ta
+- Vừa đá bóng vừa thổi còi
+- …
+Làm thế nào để tạo ra các ẩn dụ nhằm giải quyết vấn đề của bạn? Xin hãy làm theo các
+bước sau đây:
+Bước 1: Mô tả lại vấn đề cần giải
+quyết Bước 2: Hoàn thành nốt câu sau
+đây:
+”Vấn đề này làm cho tôi nghĩ đến… ................................................................. ”
+Hay, “Vấn đề này giống như .............................................................................. ”
+Hay, “Vấn đề này có thể so sánh với ......................................................... ”
+Bước 3: Liệt kê các đặc tính liên quan đến “vật so sánh” mà bạn đã xác định ở bước 2
+Bước 4: Xem xét lại danh mục các đặc tính mà bạn vừa tạo ra ở bước 3. Chọn đặc tính
+có thê mô tả vấn đề của bạn. Tự đặt ra câu hỏi: Những giải pháp nào đặc tính này gợi
+mở ra cho bạn?
+4.4. Lựa chọn giải pháp phù hợp nhất
+Mục tiêu của phần này nhằm:
+- Ứng dụng biểu đồ quan hệ để nhóm các giải pháp
+- Sử dụng quá trình đánh giá so sánh để chọn giải pháp
+- Phát triển tư duy vượt ra “ngoài hàng rào”
+- Biết cách đánh giá hậu quả khi lựa chọn một giải pháp nào đó
+Phần này chúng ta sẽ tiếp tục chu trình giải quyết vấn đề bằng cách xem xét bước thứ 3,
+đó là lựa chọn giải pháp phù hợp nhất. Một loạt các kỹ thuật khác nhau đã được giới thiệu ở
+phần 3 nhằm hỗ trợ quá trình đưa ra các giải pháp. Càng nhiều giải pháp được đưa ra chúng
+
+-- 13 of 21 --
+
+14
+ta càng có nhiều cơ hội hơn để lựa chọn một giải pháp thực hiện tốt nhất. Hai kỹ thuật được
+giới thiệu sau đây là rất hữu ích để lựa chọn giải pháp khi giải quyết vấn đề.
+4.4.1. Nhóm các lựa chọn thông qua biểu đồ
+Chúng ta cố gắng để khuyến khích các ý tưởng lạ trong quá trình đưa ra giải pháp. Giờ
+đây là lúc chúng ta phải xử lý sự lộn xộn của các thông tin do kết quả của quá trình động não
+hay Janusian hay ẩn dụ. Bằng các biểu đồ thể hiện mối quan hệ của các ý tưởng, và nhóm
+chúng theo các tiêu thức khác nhau có thể giúp ích cho ta tìm ra giải pháp hiệu quả.
+Sau đây là tổng thể các bước (bao gồm cả phần động não như đã giới thiệu kỹ ở phần
+trước) khi sử dụng kỹ thuật biểu đồ này:
+- Hình thành nhóm (không quá 8 người); Thành phần nhóm càng có sự khác biệt càng
+phong phú. Trình bày lại vấn đề rõ ràng và đơn giản
+- Chuẩn bị bảng, giấy Ao để có thể viết cho tất cả mọi người nhìn; giấy viết hay card
+(thẻ) cho mỗi cá nhân (loại có thể dán được)
+- Nhóm tiến hành động não để có các ý tưởng về giải pháp.
+- Khi tất cả các ý tưởng đã được dán lên bảng, quá trình phân loại hay nhóm các ý
+tưởng này bắt đầu. Hãy sử dụng một khoảng không khác để có thể dịch chuyển các mảnh
+card.
+- Các thành viên trong nhóm chuyển các card ghi các ý tưởng khác nhau và đặt chúng
+theo từng nhóm tuỳ theo mối quan hệ của chúng.
+- Khi các nhóm ý tưởng đã hình thành, các thành viên trong nhóm sẽ đặt tên cho mỗi
+nhóm.
+- Nhóm đánh giá xem xét lại lần cuối tên các nhóm giải pháp và các giải pháp bên
+trong.
+Sau khi hoàn thành các nhóm giải pháp này, nhóm giải quyết vấn đề có thể ưu tiên hoá
+chúng và tập trung vào một khía cạnh quan trọng nhất. Hoặc, trường hợp tất cả các khía cạnh
+đều quan trọng, nhóm có thể chia các thành viên thảo luận từng vấn đề để có các hành động
+cụ thể cho từng lĩnh vực và sau đó trình bày chia sẻ chung.
+Đánh giá các vấn đề cơ bản bằng quá trình so sánh
+Cũng giống như kỹ thuật biểu đồ ở trên, quá trình đánh giá so sánh sẽ bắt đầu bằng hàng
+loạt các lựa chọn khác nhau. Tuy nhiên, quá trình này sau một loạt các bước chi tiết sẽ đưa
+ra một lựa chọn cuối cùng. Kỹ thuật này sẽ tốn nhiều thời gian hơn và không phải lúc nào
+cũng phù hợp với bối cảnh giải quyết vấn đề. Thường đối với vấn đề quan trọng, như lựa
+chọn kế hoạch chiến lược, thì kỹ thuật hay được ứng dụng.
+Quá trình đánh giá so sánh bao gồm 3 cấu thành hợp lại:
+- Đánh giá tính phổ biến (P)
+- Đánh giá mức độ lạc quan thực tế (O)
+
+-- 14 of 21 --
+
+15
+- Đánh giá giá trị hay tính hữu ích (W)
+Kết hợp ba cấu thành này tạo nên cái gọi là sự phân tích P-O-W. Quá trình này gồm các
+bước cụ thể sau đây:
+1) Trình bày vấn đề và động não để đưa ra các giải pháp (như thể hiện trong các
+phần trước)
+2) Giảm số lượng các giải pháp xuống còn 10 lựa chọn
+Ghi lại 10 giải pháp bạn vừa lựa chọn theo như mẫu dưới đây:
+1. 1 1 1 1 1 1 1 1 1
+2 3 4 5 6 7 8 9 10
+2. 2 2 2 2 2 2 2 2
+3 4 5 6 7 8 9 10
+3. 3 3 3 3 3 3 3
+4 5 6 7 8 9 10
+4. 4 4 4 4 4 4
+5 6 7 8 9 10
+5. 5 5 5 5 5
+6 7 8 9 10
+6. 6 6 6 6
+7 8 9 10
+7. 7 7 7
+8 9 10
+8. 8 8
+9 10
+9. 9
+10
+10.
+Bảng 2.1: Đánh giá các giải pháp
+3) So sánh mỗi lựa chọn với tất cả các lựa chọn khác
+Bước này tương tự như logic của bài tập “số lượt bắt tay” đã giới thiệu ở phần đầu tài
+liệu. Chúng ta so sánh mỗi lựa chọn với tất cả các lựa chọn khác. Ví dụ, ta so sánh lựa chọn
+1 với lựa chọn 2, sau đó đặt ra câu hỏi: “nếu phải lựa chọn giữa 1 và 2, giải pháp nào tôi sẽ
+chọn?” Khoanh tròn lựa chọn của bạn, và so sánh tương tự giữa 1 và 3; giữa 1 và 4…và
+
+-- 15 of 21 --
+
+16
+cũng đặt những câu hỏi tương tự.
+Tiếp đến, bạn hãy đếm số lần khoanh tròn cho mỗi lựa chọn. Bao nhiêu lần bạn chọn 1,
+bao nhiêu lần bạn chọn 2…sau đó viết tổng số đếm được xuống dưới. (Để kiểm tra tính
+chính xác, hãy đếm tổng số các khoanh tròn và kết quả nên là 45).
+Nếu bạn làm việc theo nhóm, hãy tính bình quân của nhóm bằng cách cộng tổng số lần
+khoanh tròn cho mỗi lựa chọn của mỗi thành viên trong nhóm, sau đó chia cho tổng số
+người. Nếu thời gian có hạn, bạn có thể dừng lại ở bước này sau khi xác định được tính phổ
+biến của các lựa chọn.
+Xin hãy xem thêm ví dụ sau đây để hiểu rõ thêm về bước thứ ba này:
+Nhà tư vấn của một doanh nghiệp đang xem xét các lựa chọn để quyết định ưu tiên đầu
+tư nguồn lực của tổ chức trong những năm tới. Nhà tư vấn này đã bàn bạc với Ban lãnh đạo
+Doanh nghiệp và tiến hành kỹ thuật động não để có một danh mục dài những lựa chọn đầu
+tư nguồn lực. Sau đó, họ rút xuống còn 10 lựa chọn quan trọng nhất và so sánh chúng như
+trình tự bước 3 trong kỹ thuật đánh giá so sánh. Bảng sau đây thể hiện quá trình này:
+1. Dịch vụ khách hàng 1 1 1 1 1 1 1 1 1
+2 3 4 5 6 7 8 9 10
+2. Tăng giá trị gia tăng cho sản
+phẩm
+2 2 2 2 2 2 2 2
+3 4 5 6 7 8 9 10
+3. Bảo hiểm XH 3 3 3 3 3 3 3
+4 5 6 7 8 9 10
+4. Vấn đề đạo đức nghề nghiệp 4 4 4 4 4 4
+5 6 7 8 9 10
+5. Mạng lưới phân phối sản phẩm 5 5 5 5 5
+6 7 8 9 10
+6. Chất lượng sản phẩm dịch vụ 6 6 6 6
+7 8 9 10
+7. Các chuẩn mực về hành vi 7 7 7
+8 9 10
+8. Sản phẩm thay thế 8 8
+9 10
+9. Các nhà cung cấp NVL 9
+10
+10. Quan hệ cộng đồng
+
+-- 16 of 21 --
+
+17
+Sau khi so sánh, nhà tư vấn đã xác định được sự phân bổ các “khoanh tròn” cho các lựa
+chọn như sau:
+Lựa chọn 1: 4 lần; Lựa chọn 2: 4 lần; Lựa chọn 3: 4 lần
+Lựa chọn 4: 4 lần; Lựa chọn 5: 5 lần; Lựa chọn 6: 4 lần
+Lựa chọn 7: 9 lần; Lựa chọn 8: 3 lần; Lựa chọn 9: 6 lần
+Lựa chọn 10: 2 lần
+Rõ ràng với kết quả này, lựa chọn số 7 (với 9 lần) là lựa chọn có tỷ lệ phổ biến cao nhất
+và do đó có thể xem xét lựa chọn ưu tiên. Quá trình lựa chọn giải pháp có thể dừng ở đây
+nếu bạn không có thời gian. Tuy nhiên, nếu việc lựa chọn quyết định là rất quan trọng, thì nó
+cũng xứng đáng để bạn đầu tư thêm thời gian và sức lực tiếp tục các qui trình tiếp sau của kỹ
+thuật này.
+4) Xác định mức độ lạc quan thực tế cho mỗi giải pháp
+Xác định mức độ lạc quan thực tế của mỗi lựa chọn tức là quyết định xem với mỗi lựa
+chọn hiện đang được thực hiện hay sử dụng như thế nào. Ví dụ nếu một trong các giải pháp
+cho vấn đề khuyến khích trong tổ chức là đào tạo, bạn hãy đặt ra câu hỏi về thực tế đào tạo ở
+công ty đang được thực hiện như thế nào. Nếu rất ít hay không có đào tạo, hay những gì đào
+tạo là không phù hợp, bạn có thể cho điểm mức độ lạc quan thực tế thấp cho “giải pháp đào
+tạo”, ví dụ 10% hay 20%. Còn nếu các chương trình đào tạo đã “tối ưu” rồi, bạn có thể cho
+điểm mức độ lạc quan thực tế cao, có thể 90% hay thậm chí 100%.
+Quay lại ví dụ của chúng ta về doanh nghiệp trên, nhà tư vấn khi xác định mức độ lạc
+quan thực tế đã cho điểm các lựa chọn như sau trên cơ sở thực tế các vấn đề này ở cơ quan:
+Lựa chọn 1: 10% Lựa chọn 2: 0% Lựa chọn 3: 70%
+Lựa chọn 4: 90%
+Lựa chọn 5: 30% Lựa chọn 6: 75% Lựa chọn 7: 80%
+Lựa chọn 8: 25%
+Lựa chọn 9: 85% Lựa chọn 10: 20%
+Nhìn vào kết quả này ta thấy dường như vấn đề thứ 4 (vấn đề đạo đức nghề nghiệp) và
+thứ 9 (Các nhà cung cấp NVL) là những khía cạnh mà DN này đang thực hiện khá tốt.
+5) Xác định giá trị hay tính hữu ích của mỗi lựa chọn
+Khác với bước trước xem xét việc thực hiện hiện tại của giải pháp, bước này xem xét
+giá trị hay tính hữu ích trong tương lai của giải pháp lựa chọn. Giải pháp sẽ có giá trị đối với
+DN như thế nào? Giải pháp sẽ đóng góp vào việc hoàn thành mục tiêu của DN ra sao? Bạn
+có thể sử dụng khoảng điểm từ 1 (thấp nhất) đến 10 (cao nhất) để gán cho mỗi lựa chọn tuỳ
+theo giá trị của chúng.
+
+-- 17 of 21 --
+
+18
+Trong ví dụ của chúng ta, kết quả đánh giá của Giám đốc điều hành thể hiện như sau:
+Lựa chọn 1: 3 điểm Lựa chọn 2: 9
+Lựa chọn 3: 8 Lựa chọn 4: 10
+Lựa chọn 5: 4 Lựa chọn 6: 5
+Lựa chọn 7: 6 Lựa chọn 8: 2
+Lựa chọn 9: 8 Lựa chọn 10: 7
+Nếu chỉ xem xét tính phổ biến thì lựa chọn 7 (Các chuẩn mực về hành vi) được ưu tiên
+hơn, song khi đánh giá trị tương lai đối với tổ chức thì lựa chọn 4 lại thể hiện tầm quan trọng
+hơn.
+Đến thời điểm này chúng ta đã xem xét cách đánh giá tính phổ biến, tính lạc quan thực
+tế và tính hữu ích trong tương lai (P-O-W) của một người. Khi làm việc trong nhóm, kỹ
+thuật này sẽ được vận dụng bằng cách tính bình quân của nhóm. Bước 6 và bước 7 sẽ thực
+hiện điều này.
+6) Tính bình quân phần trăm mức độ lạc quan thực tế của các lựa chọn trong nhóm
+7) Tính bình quân mức độ giá trị với tổ chức của mỗi lựa chọn trong nhóm
+8) Phân tích kết quả
+Như đã trình bày ở trên, chúng ta có ba cấu phần tạo nên kỹ thuật so sánh này: Tính phổ
+biến (P); Tính lạc quan thực tế (O); và tính hữu ích với tổ chức (W).
+Thường giải pháp được lựa chọn là giải pháp có tính phổ biến cao, tính lạc quan thực tế
+thấp và tính hữu ích cao. Các nhà quản lý phải căn cứ vào điều kiện thực tế, và trên cơ sở
+các chỉ số phân tích ở trên để quyết địn h cuối cùng nên lựa chọn giải pháp nào cho
+phù hợp nhất.
+4.4.2. Tư duy vượt ra “ngoài rào cản”
+Để lựa chọn giải pháp phù hợp nhất, đôi khi chúng ta cần có cách nhìn mới, nhìn vấn đề
+từ góc độ khác, đa dạng và phong phú hơn.
+Khả năng để tư duy “ngoài hàng rào” phụ thuộc vào khả năng của chúng ta để nhận ra
+“hàng rào” ràng buộc và sự quyết tâm đi ra ngoài sự bó hẹp này. Xin hay xem xét ví dụ sau
+đây để hiểu rõ hơn về vấn đề này.
+Tình huống: Bình làm việc cho 1 công ty tư vấn về lĩnh vực phát triển nguồn nhân lực.
+Gần đây, anh nhận được một hợp đồng tư vấn đào tạo, phía đối tác đặt ra một số yêu cầu
+đào tạo phát sinh không nằm trong hợp đồng. Do không có trong hợp đồng, nên phản ứng
+đầu tiên của Bình là từ chối các yêu cầu này và anh cũng hiểu rằng sẽ không có ngân sách
+dành cho những các khoá đào tạo đó.
+Sau những phản ứng ban đầu đó, Bình đã kịp nhận ra hình như anh hơi “cứng nhắc”, và
+Bình bắt đầu phân tích những giả thiết của mình.
+Những giả thiết trong đầu Bình khi quyết định từ chối:
+- Nếu không nằm trong danh mục đào tạo đã ký kết thì không thể thực hiện được
+
+-- 18 of 21 --
+
+19
+- Công ty không có giảng viên để thực hiện các chương trình ngoài danh mục
+- Đơn vị cần trả tiền cho đào tạo
+Bình sau đó kiểm tra lại những giả thiết trên của anh xem có đúng như vậy không:
+- Bình đi tìm hiểu và kiểm tra xem liệu các khoá đào tạo có thể được tổ chức một cách
+ít chính thức hơn như công ty thường làm không, ví dụ như tổ chức ngoài giờ làm việc, hay
+vào buổi tối không? Anh phát hiện ra rằng Ban quản lý công ty hoàn toàn ủng hộ ý tưởng
+này.
+- Bình thăm dò và phát hiện ra rằng có một số người trong công ty dù chưa bao giờ
+được đào tạo kỹ năng giảng dạy, song có kiến thức rất sâu về các lĩnh vực liên quan đến chủ
+đề yêu cầu đào tạo.
+- Bình thử đặt vấn đề với một số giảng viên trong công ty rằng họ nghĩ gì nếu giúp
+công ty tiến hành một số buổi đào tạo mà không có tiền công. Anh rất ngạc nhiên rằng một
+số người sẵn sàng làm như vậy và không có đòi hỏi gì.
+Với việc kiểm tra này, Bình nhận ra rằng những giả định ban đầu của anh là không đúng
+và anh hoàn toàn có thể cân nhắc lại các yêu cầu đào tạo mới trên, chứ không phải đơn giản
+phủ định chúng với lý do không có trong danh mục. Chỉ có suy nghĩ vượt ra ngoài các giả
+định của mình, anh mới có thể có được các giải pháp mang lại nhiều lợi ích cho công ty.
+4.4.3. Cân nhắc hậu quả của việc lựa chọn giải pháp
+Cho dù bạn bạn cân nhắc và lựa chọn giải pháp kỹ đến đâu đi nữa, bạn cũng không nên
+bỏ qua câu hỏi: “Cái gì sẽ là hậu quả của thực hiện giải pháp này?”. Đôi khi, chúng ta dự báo
+thấy sự nguy hiểm hay chi phí qúa lớn của một hành động nào đó, chúng ta sẽ quyết định
+khác đi. Xin hãy đọc một ví dụ minh hoạ dưới đây:
+Tình huống: Chi, một người nổi tiếng là cẩn thận, đã làm việc rất chăm chỉ để tổ chức
+bữa tiệc của công ty cho những khách mời rất quan trọng. Mọi thứ diễn ra đúng như kế
+hoạch, và thậm chí cả thời tiết cũng ủng hộ cô. Phục vụ món tráng miệng là sự kiện cuối
+cùng của buổi tiệc, và sau đó Chi có thể thở phào nhẹ nhõm và chờ đợi những lời khen ngợi
+của công ty.
+Chi bỗng phát hiện thấy trên bàn đựng đồ tráng miệng có những con kiến lửa. Cô lập
+tức chạy xuống nhà bếp và khẩn thiết đề nghị các đầu bếp chuẩn bị món tráng miệng khác.
+Tuy nhiên, đầu bếp đã không có đủ thời gian đề làm việc này.
+Nếu bạn là Chi, bạn sẽ lựa chọn những giải pháp nào trong các giải pháp sau đây:
+a. Giải thích điều gì xảy ra và xin lỗi khách
+b. Chạy đến một nhà hàng gần nhất và mua món tráng miệng khác
+c. Vẫn phục vụ món tráng miệng như bình thường và trong ánh sáng mờ mờ hy vọng
+rằng các vị khách không phát hiện ra
+d. Đơn giản chỉ phục vụ món cà phê coi như là món tráng miệng và kết thúc
+Chi đã lựa chọn giải pháp thứ 3 hy vọng rằng bóng tối sẽ che phủ những con kiến. Cô
+
+-- 19 of 21 --
+
+20
+còn dùng thuốc chống kiến bôi lên những chiếc khăn và đặt lên những chiếc khay đựng đồ
+tráng miệng nhằm đuổi dần lũ kiến đi.
+Chỉ cần suy nghĩ kỹ một chút, ta có thể thấy hậu quả nghiêm trọng của hành động của
+Chi. Những vị khách có thể bị ngộ độc từ những con kiến và hoá chất chống kiến. Nếu có ai
+đó phát hiện ra, thì bữa tiệc dù có tốt bao nhiêu đi chăng nữa cũng không còn tác dụng. Và
+nếu có ai đó biết được sự dối trá của Chi (ví dụ các đầu bếp) thì sự nghiệp, uy tín và công
+việc của cô sẽ bị ảnh hưởng. Trong trường hợp này, Chi đã rất sai lầm đặt sự “hoàn mỹ” của
+buổi tiệc lên trên sức khoẻ của các vị khách mời.
+Bạn có thể đã lựa chọn một giải pháp nào đó theo cách riêng của mình, nhưng khi có cơ
+hội để xem xét những hậu quả của giải pháp, liệu bạn có đồng ý với cách làm của Chi
+không? Rất có thể là không. Do vậy, một công cụ đơn giản nhưng rất hữu ích để giúp bạn có
+những lựa chọn đúng là hãy xem xét hậu quả của những lựa chọn của bạn.
+4.5. Triển khai giải pháp
+Khi bạn đã lựa chọn được giải pháp phù hợp nhất thì bạn cần xây dựng kế hoạch hành
+động cụ thể để triển khai giải pháp này một cách hiệu quả trên thực tế.
+TT Hoạt động Người chịu trách
+nhiệm chính
+Nguồn lực
+cần có
+Thời hạn hoàn thành
+Bảng 2.2 : Kế hoạch triển khai giải pháp
+Bảng 2.2 liệt kê những hoạt động, người chịu trách nhiệm, nguồn lực cần có và thời hạn
+hoàn thành từng hoạt động. Đây là một công cụ hữu ích giúp bạn có thể triển khai được một
+cách hữu hiệu giải pháp đã lựa chọn của mình.
+4.5 Đánh giá thực hiện giải pháp
+Việc đánh giá giải pháp cần được thực hiện liên tục trong và sau khi hoàn thành quá
+trình triển khai giải pháp. Chúng ta cần lưu ý rằng, ngay trong quá trình triển khai giải pháp
+thì có thể có nhiều sự thay đổi dẫn đến giải pháp đã lựa chọn chưa chắc đã còn là tối ưu. Hãy
+xem xét tình huống dưới đây:
+Tình huống:
+Trong giai đoạn thị trường bất động sản phát triển rất nóng vào những năm trước đây,
+Công ty thương mại A mặc dù không có năng lực trong lĩnh vực kinh doanh bất động sản
+nhưng đã quyết định lấn sân sang kinh doanh bất động sản. Công ty đã tiến hành lập dự án
+dự án xây dựng nhà cao tầng dựa trên mảnh đất hiện có của công ty với tổng vốn đầu tư
+khoảng 400 tỉ đồng, trong đó vốn tự có khoảng 50 tỷ đồng và phần vốn đầu tư còn thiếu sẽ
+dựa trên việc huy động từ khách hàng. Tuy nhiên, sau khi triển khai các thủ tục xin giấy
+phép và cơ bản hoàn thành xây dựng phần móng của tòa nhà thì thị trường bất động sản
+bước vào giai đoạn suy thoái. Chính vì thế việc tiêu thụ sản phẩm trở nên vô cùng khó khăn.
+
+-- 20 of 21 --
+
+21
+Trong tình huống này Giám đốc công ty sẽ phải tiến hành đánh giá lại hiện trạng triển khai
+dự án và tìm ra giải pháp tối ưu. Các giải pháp có thể là tiếp tục vay vốn ngân hàng để hoàn
+thiện dự án; hoặc dừng triển khai dự án; hoặc bán một phần hay 100% dự án. Rõ ràng là
+từng phương án trên cần được cân nhắc lại một cách kỹ lưỡng. Sau thời gian bàn bạc và cân
+nhắc kỹ lưỡng, công ty đã quyết định bán một phần dự án cho một đối tác mới có tiềm lực về
+tài chính và công ty chỉ dự lại 2 tầng phục vụ cho văn phòng hoạt động sau này.
+Tình huống trên cho thấy mặc dù đang ở trong quá trình triển khai dự án xây dựng nhà cao
+tầng nhưng công ty cần liên tục đánh giá lại lựa chọn của họ khi môi trường và các yếu tố
+xung quanh thay đổi. Những sự thay đổi này đã làm cho các giả định của chúng ta trong
+việc phân tích và lựa chọn các giải pháp đã thay đổi, chính vì thế mà giải pháp tối ưu trước
+kia đã không còn là sự lựa chọn phù hợp nữa.
+Trong tình huống ngược lại, nếu thị trường bất động sản vẫn tiếp tục phát triển, công ty
+đã xây dựng xong và bán được toàn bộ các căn hộ trong tòa nhà thì công ty cũng vẫn cần
+đánh giá lại toàn bộ quá trình thực hiện dự án. Việc đánh giá này sẽ giúp chúng ta rút kinh
+nghiệm để thực hiện các dự án tiếp theo trong tương lai tốt hơn.
+CÂU HỎI ÔN TẬP
+1. Hãy nêu ưu nhược điểm của hai cách tiếp cận giải quyết vấn đề
+2. Các bước trong chu trình giải quyết vấn đề? Tại sao lại gọi là chu trình?
+3. Hãy giải thích ý nghĩa câu nói ”Khi vấn đề được xác định rõ, thì có nghĩa một
+nửa vấn đề đã được giải quyết”
+4. Hãy trình bày các kỹ thuật để xác định vấn đề
+5. Hãy trình bày các phương pháp để lựa chọn giải pháp tối ưu
+6. Tại sao cần phải tiến hành đánh giá lại giải pháp ngay trong giai đoạn triển khai
+giải pháp?
+
+-- 21 of 21 --
+

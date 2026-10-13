@@ -1,0 +1,1539 @@
+[
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Khi nói về chức năng của các nhà cung cấp dịch vụ Internet ở Việt Nam, có 2 phát biểu như sau: PB1: IAP có thể thực hiện cả chức năng của ISP nhưng ngược lại thì không. PB2: ICP cung cấp các dịch vụ trên cơ sở ứng dụng Internet như: mua bán qua mạng, giao dịch ngân hàng, tư vấn, đào tạo… Hỏi khẳng định nào sau đây là đúng?",
+    "options": [],
+    "correctAnswer": "PB1 đúng, PB2 sai.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "HTML là tên viết tắt của cụm từ nào?",
+    "options": [],
+    "correctAnswer": "HyperText Markup Languages.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Mạng cục bộ LAN là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Local Area Network.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Mạng diện rộng WAN là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Wide Area Network.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Khẳng định nào sau đây là sai?",
+    "options": [],
+    "correctAnswer": "Internet là từ viết tắt của International Terminal Network.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "OSP là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Online Service Provider.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Mạng đô thị MAN là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Metropolitan Area Network.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Việt Nam hòa vào mạng Internet toàn cầu vào khoảng năm nào?",
+    "options": [],
+    "correctAnswer": "1997",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "ICP là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Internet Content Provider.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "TCP/IP là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Transmision Control Protocol/ Internet Protocol.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Khi nói về chức năng của các nhà cung cấp dịch vụ Internet ở Việt Nam, có 2 phát biểu như sau: PB1: OSP cấp quyền truy cập Internet qua mạng viễn thông và các dịch vụ như: Email, Web, FTP, Telnet, Chat. PB2: ICP cung cấp các thông tin về: kinh tế, giáo dục, thể thao, chính trị, quân sự (thường xuyên cập nhật thông tin mới theo định kỳ) đưa lên mạng. Hỏi khẳng định nào sau đây là đúng?",
+    "options": [],
+    "correctAnswer": "PB1 sai, PB2 đúng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "IXP là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Internet Exchange Provider.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Mạng ARPANET hình thành vào khoảng năm nào?",
+    "options": [],
+    "correctAnswer": "1968",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Thuật ngữ \"Internet\" xuất hiện lần đầu vào khoảng năm nào?",
+    "options": [],
+    "correctAnswer": "1974",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Internet được hình thành từ dự án nào sau đây?",
+    "options": [],
+    "correctAnswer": "Từ một dự án nghiên cứu của Bộ quốc phòng Mỹ.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Có một tên miền như sau: tnu.edu.vn thì thành phần “edu” thường được gọi là tên miền cấp mấy?",
+    "options": [],
+    "correctAnswer": "2",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Có 2 khẳng định sau: KĐ1: Đây là công nghệ DSL đối xứng KĐ2: Để có thể kết nối Internet, người dùng sẽ cần phải lắp đặt một modem ADSL chuyên dụng. Nhận xét nào sau đây là đúng khi nói về công nghệ ADSL?",
+    "options": [],
+    "correctAnswer": "KĐ1 sai, KĐ2 đúng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "RARP là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Reverse Address Resolution Protocol.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tất cả các Web Server đều hiểu và chạy được file nào?",
+    "options": [],
+    "correctAnswer": "*.htm",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là 1 địa chỉ IPv6 không hợp lệ?",
+    "options": [],
+    "correctAnswer": "2001:0DC8::1005:2F43::ABC6",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Các cụm số hexa trong địa chỉ Ipv6 được tách biệt với nhau bằng dấu nào?",
+    "options": [],
+    "correctAnswer": "Dấu hai chấm “:”",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Có 2 khẳng định sau: KĐ1: Có tốc độ kết nối cao hơn ADSL KĐ2: Cho phép chia sẻ chung với đường điện thoại Nhận xét nào sau đây là đúng khi nói về công nghệ HDSL?",
+    "options": [],
+    "correctAnswer": "KĐ1 đúng, KĐ2 sai.",
+    "userAnswerState": "Sai"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khẳng định nào sau đây là SAI khi nói về trình duyệt web?",
+    "options": [],
+    "correctAnswer": "Là một phần mềm hệ thống được cài đặt trên máy tính của người sử dụng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Có mấy phiên bản địa chỉ IP?",
+    "options": [],
+    "correctAnswer": "2",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là một phương thức kết nối Internet?",
+    "options": [],
+    "correctAnswer": "Leased-Line",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Một tên miền đầy đủ có chiều dài không vượt quá 255 ký tự. Vậy chiều dài tối đa của tên miền ở mỗi cấp là bao nhiêu ký tự (bao gồm cả dấu “.”)?",
+    "options": [],
+    "correctAnswer": "63",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là 1 bộ giao thức kết nối mạng?",
+    "options": [],
+    "correctAnswer": "TCP/IP",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Hệ thống quản lý tên miền DNS là viết tắt của cụm từ tiêng Anh nào?",
+    "options": [],
+    "correctAnswer": "Domain Name System.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Địa chỉ IP v6 sử dụng bao nhiêu bit để đánh địa chỉ?",
+    "options": [],
+    "correctAnswer": "128",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Có 2 khẳng định sau: KĐ1: là loại hình kết nối Internet tốc độ cao KĐ2: luôn trong trạng thái kết nối 24/24. Nhận xét nào sau đây là đúng khi nói về phương thức kết nối Internet băng rộng?",
+    "options": [],
+    "correctAnswer": "KĐ1 đúng, KĐ2 đúng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khẳng định nào sau đây là sai khi nói về địa chỉ IP công cộng?",
+    "options": [],
+    "correctAnswer": "Không được định tuyến trên Internet Backbone.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là một địa chỉ IPv4 hợp lệ?",
+    "options": [],
+    "correctAnswer": "192.168.10.6",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu không phải là 1 bộ giao thức kết nối mạng?",
+    "options": [],
+    "correctAnswer": "HTML",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong cách biểu diễn địa chỉ IPv4 được chia thành bao nhiêu octet?",
+    "options": [],
+    "correctAnswer": "4",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là tên của trình duyệt Web?",
+    "options": [],
+    "correctAnswer": "Internet Explorer.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khi đặt tên miền không được dùng ký tự nào dưới đây?",
+    "options": [],
+    "correctAnswer": "Ký tự @",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong các tên dưới đây đâu là 1 tên miền hợp lệ?",
+    "options": [],
+    "correctAnswer": "tnu.edu.vn",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khẳng định nào sau đây là sai khi nói về phương thức kết nối quay số qua mạng điện thoại (Dial-up)?",
+    "options": [],
+    "correctAnswer": "Kết nối kiểu này luôn thường trực 24/24.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong tên miền, dấu nào được sử dụng làm dấu phân cách?",
+    "options": [],
+    "correctAnswer": "Dấu chấm (.)",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Phương thức kết nối nào là chậm nhất trong số các công nghệ truy cập Internet?",
+    "options": [],
+    "correctAnswer": "Quay số qua mạng điện thoại (Dial-up).",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tên miền nào sau đây KHÔNG thuộc về quốc gia Việt Nam?",
+    "options": [],
+    "correctAnswer": "jnto.org.fr",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Địa chỉ IP nào không thể gán cho các thiết bị trên mạng?",
+    "options": [],
+    "correctAnswer": "Địa chỉ quảng bá.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Địa chỉ IP v4 sử dụng bao nhiêu bit để đánh địa chỉ?",
+    "options": [],
+    "correctAnswer": "32",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Hotspot là một địa điểm mà tại đó có cung cấp các dịch vụ:",
+    "options": [],
+    "correctAnswer": "kết nối không dây và dịch vụ truy cập Internet tốc độ cao thông qua hoạt động của các thiết bị thu phát không dây",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Để các máy tính trên Internet có thể liên lạc với nhau, mỗi máy tính cần có một địa chỉ liên lạc và địa chỉ này được gọi là gì?",
+    "options": [],
+    "correctAnswer": "Địa chỉ IP.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Một người tự tin về khả năng và giá trị về bản thân thì sẽ có những biểu hiện như thế nào?",
+    "options": [],
+    "correctAnswer": "Tư thế ngay ngắn, ung dung, mắt nhìn thẳng",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần nhận thức được điểm mạnh và điểm yếu của bản thân?",
+    "options": [],
+    "correctAnswer": "Vì con người chỉ có thể tự tin khi biết được điểm mạnh của bản thân để phát triển nó và biết điểm yếu của bản thân để khắc phục nó",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Theo mô hình cửa sổ Johari, nếu một người sống quá khép kín, ngại giao tiếp thì người đó có thể gặp những điểm bất lợi gì?",
+    "options": [],
+    "correctAnswer": "Thiếu thông tin, bỏ lỡ cơ hội hợp tác, phát triển",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Theo mô hình cửa sổ Johari, cách thức mà con người tương tác với người khác để hiểu về bản thân là gì?",
+    "options": [],
+    "correctAnswer": "Tự bộc lộ và đón nhận thông tin phản hồi",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần phải kiểm soát cảm xúc của bản thân?",
+    "options": [],
+    "correctAnswer": "Vì nếu phản ứng một cách không kiểm soát với những điều xảy ra trái ý mình thì sẽ dễ dẫn đến những hậu quả khó lường",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần hiểu biết năng lực của bản thân mình?",
+    "options": [],
+    "correctAnswer": "Vì đó là tiền đề quan trọng để con người xây dựng nhân hiệu, tạo dựng hình ảnh và uy tín cá nhân hướng đến sự thành công trong công việc và cuôc sống",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm phương án đúng nhất. Muốn phát triển được bản thân thì con người cần phải làm gì?",
+    "options": [],
+    "correctAnswer": "Nhận biết năng lực bản thân, đặt ra mục tiêu phù hợp, lập kế hoạch để thực hiện mục tiêu",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm phương án đúng nhất. Một người được coi là biết kiểm soát cảm xúc của bản thân khi người đó:",
+    "options": [],
+    "correctAnswer": "Kiềm chế sự bốc đồng, giữ bình tĩnh khi sự việc bất ngờ xảy ra",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm phương án đúng nhất. Một người được coi là thực sự có khả năng kiểm soát cảm xúc của bản thân khi người đó:",
+    "options": [],
+    "correctAnswer": "Giữ bình tĩnh trước mọi bất ngờ xảy ra",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần phải tự tin vào bản thân?",
+    "options": [],
+    "correctAnswer": "Vì đó là điều kiện cần thiết để con người làm chủ bản thân, chủ động thực hiện những mục tiêu mà mình đã đề ra.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Một người tự tin về bản thân thì sẽ phản ứng như thế nào khi được yêu cầu trình bày quan điểm của mình?",
+    "options": [],
+    "correctAnswer": "Nói ra những quan điểm của mình và sẵn sàng bảo vệ niềm tin về những gì là đúng",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Theo mô hình cửa sổ Johari, một người muốn khám phá những năng lực của chính bản thân mình thì người đó cần làm gì?",
+    "options": [],
+    "correctAnswer": "Tích cực chủ động tìm kiếm cơ hội để phát triển bản thân",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Luận điểm nào sau đây diễn đạt đúng về khái niệm quản lý bản thân:",
+    "options": [],
+    "correctAnswer": "Quản lý bản thân là việc một cá nhân hiểu biết về chính bản thân mình, kiểm soát được cảm xúc, hành vi của mình và biết cách phát triển những năng lực mà mình có nhằm đạt được những mục tiêu mà bản thân họ đề ra",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Để điều khiển và ngăn chặn cảm xúc tiêu cực thì con người cần tránh điều gì?",
+    "options": [],
+    "correctAnswer": "Trầm trọng hóa vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 1",
+    "question": "Theo mô hình cửa sổ Johari, để phát triển bản thân thì con người cần chú trọng mở rộng phần nào?",
+    "options": [],
+    "correctAnswer": "Phần công khai/ Open",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Không gian giao tiếp giữa hai người được duy trì trong khoảng từ 0.5- 1m được xếp vào vùng nào?",
+    "options": [],
+    "correctAnswer": "Vùng riêng tư",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Xác định một nhân tố gây cản trở quá trình giao tiếp trong các nhân tố sau:",
+    "options": [],
+    "correctAnswer": "Người nhận không giải mã đúng thông điệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Để thông điệp được truyền đi một cách rõ ràng, chính xác tạo hiệu quả tốt trong giao tiếp, người gửi thông điệp không nên làm gì?",
+    "options": [],
+    "correctAnswer": "Nói câu dài, hàm chứa nhiều thông tin",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Để giao tiếp thành công thì con người cần xác định cự li và phương pháp giao tiếp với người khác như thế nào?",
+    "options": [],
+    "correctAnswer": "Nên xác định cự li và phương pháp giao tiếp với từng đối tượng cụ thể để có cách ứng xử phù hợp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong các nhân tố sau, nhân tố nào khiến cho quá trình giao tiếp không được triển khai thuận lợi?",
+    "options": [],
+    "correctAnswer": "Người gửi không thể mã hóa đúng thông điệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Xác định một luận điểm đúng nhất trong số các luận điểm dưới đây bàn về tính cách và trang phục của con người.",
+    "options": [],
+    "correctAnswer": "Những người có phong cách ăn mặc giống nhau nhưng tính cách vẫn có thể khác nhau",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong quá trình giao tiếp, một người sẽ không được người khác tin tưởng khi họ:",
+    "options": [],
+    "correctAnswer": "Không trung thực trong công việc",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong quá trình giao tiếp với những người khác, nếu một người chỉ chú tâm đến lợi ích của bản thân mình thì người đó sẽ:",
+    "options": [],
+    "correctAnswer": "Tạo sự bất tín nhiệm của các đối tác",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tìm phương án đúng nhất. Con người cần tìm kiếm thông tin, tăng cường đề tài nói chuyện để:",
+    "options": [],
+    "correctAnswer": "Tạo sự linh hoạt, sáng tạo, hấp dẫn trong giao tiếp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Con người không nên làm gì nếu muốn thành công trong giao tiếp với người khác?",
+    "options": [],
+    "correctAnswer": "Tự do bộc lộ cảm xúc của mình",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tìm phương án đúng nhất. Vì sao để giữ gìn mối quan hệ tốt đẹp lâu dài thì cần phải giữ lễ nghĩa và khoảng cách nhất định, không được suồng sã với các đối tác của mình?",
+    "options": [],
+    "correctAnswer": "Vì ai cũng có lòng tự tôn, việc giữ lễ nghĩa khoảng cách là để thể hiện sự tôn trọng đối tác",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Những yếu tố nào sau đây không thuộc hình thức giao tiếp bằng ngôn từ?",
+    "options": [],
+    "correctAnswer": "Diễn tả bằng ánh mắt",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong giao tiếp xã giao, nên sử dụng ngôn từ như thế nào để mọi người xung quanh đều hiểu đúng thông điệp của mình?",
+    "options": [],
+    "correctAnswer": "Sử dụng ngôn từ đơn giản phù hợp với người nghe và bối cảnh giao tiếp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Xác định một luận điểm thể hiện cách hiểu đúng nhất về khái niệm giao tiếp trong các phương án dưới đây:",
+    "options": [],
+    "correctAnswer": "Giao tiếp là cách thức con người tạo lập các mối liên hệ với những người khác trong xã hội",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tìm phương án đúng nhất. Lời khen có tác dụng rất tích cực trong quan hệ giao tiếp. Tuy nhiên nên bày tỏ lời khen như thế nào để tăng hiệu quả bền vững của các mối quan hệ ?",
+    "options": [],
+    "correctAnswer": "Dành những lời khen tặng chân thành cho đối tác đúng lúc, đúng chỗ",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Trong trường hợp cụ thể, khi cấp trên đưa ra những quyết định không như mong đợi của bạn nhưng lại có vẻ phù hợp với các đồng nghiệp khác, bạn nên làm gì?",
+    "options": [],
+    "correctAnswer": "Tuân thủ, cấp quản lý bao giờ cũng có lý do để ra quyết định",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tìm câu trả lời đúng nhất. Một doanh nghiệp có môi trường giao tiếp ứng xử nội bộ tốt đẹp sẽ thu hút được sự quan tâm của đối tác và khách hàng vì:",
+    "options": [],
+    "correctAnswer": "Đối tác và khách hàng coi mối quan hệ nội bộ của doanh nghiệp là sự thể hiện của văn hóa và phương thức quản lý của doanh nghiệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi có ý tưởng muốn đề xuất với cấp trên để hoàn thiện công việc, hoàn thiện tổ chức, v.v. bạn nên làm gì?",
+    "options": [],
+    "correctAnswer": "Cân nhắc, chọn lọc ý tưởng đề xuất phù hợp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tìm câu trả lời đúng nhất. Chú trọng đến vấn đề giao tiếp ứng xử trong môi trường làm việc là một cách để mỗi thành viên trong doanh nghiệp xây dựng “nhân hiệu” của mình vì:",
+    "options": [],
+    "correctAnswer": "Giao tiếp ứng xử tốt giúp mỗi cá nhân xây dựng hình ảnh tốt đẹp của mình trong con mắt của người khác",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Nhân viên cấp dưới làm việc trong một tổ chức nên làm gì?",
+    "options": [],
+    "correctAnswer": "Tránh nói xấu cấp trên sau lưng",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Quan niệm nào sau đây là không đúng về mối quan hệ cấp trên cấp dưới trong doanh nghiệp",
+    "options": [],
+    "correctAnswer": "Quan niệm về mối quan hệ cấp trên - cấp dưới là giống nhau ở mọi doanh nghiệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi công việc được giao có những thay đổi đáng kể về phạm vi và cấp độ, xuất hiện nguy cơ quá tải khiến không thể đảm đương được công việc thì cấp dưới cần làm gì?",
+    "options": [],
+    "correctAnswer": "Chủ động đề xuất với cấp trên về phương án thực hiện và nói rõ giới hạn khả năng của mình",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tìm câu trả lời đúng nhất. Môi trường làm việc thân thiện, mối quan hệ lành mạnh trong doanh nghiệp có ảnh hưởng tích cực đến khả năng sáng tạo, năng lực làm việc... của người lao động vì:",
+    "options": [],
+    "correctAnswer": "Về bản chất, con người chỉ có thể phát huy được tốt nhất năng lực sáng tạo của mình khi được ở trong một môi trường thoải mái, thích hợp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi chưa thực sự hiểu rõ yêu cầu của công việc; thực trạng công việc; phương pháp làm việc; v.v. nhân viên cấp dưới nên giải quyết như thế nào?",
+    "options": [],
+    "correctAnswer": "Chủ động hỏi ý kiến cấp trên",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Mối quan hệ ứng xử trong nội bộ doanh nghiệp phụ thuộc nhiều nhất vào yếu tố nào?",
+    "options": [],
+    "correctAnswer": "Phong cách của ban lãnh đạo doanh nghiệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Người quản lý nên làm gì để có thể nghe được những ý kiến phản hồi từ các nhân viên của mình?",
+    "options": [],
+    "correctAnswer": "Điềm đạm, bình tĩnh sẵn sàng tiếp nhận thông tin nhiều chiều",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi mới được tuyển dụng vào làm việc, nhân viên cấp dưới không nên:",
+    "options": [],
+    "correctAnswer": "Tò mò tìm hiểu các mối quan hệ cá nhân",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cách hiểu nào dưới đây của cấp dưới về cấp trên là đúng?",
+    "options": [],
+    "correctAnswer": "Cấp trên cũng là con người, ai cũng có điểm mạnh điểm yếu",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi nhân viên cấp dưới được cấp trên giao một nhiệm vụ nằm ngoài phạm vi những công việc thường làm (không trong danh mục các công việc được mô tả khi phân công trách nhiệm) thì cấp dưới nên phản ứng như thế nào?",
+    "options": [],
+    "correctAnswer": "Nhiệt tình thực hiện",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tìm phương án đúng nhất. Người lãnh đạo doanh nghiệp giữ vai trò quan trọng trong việc xây dựng môi trường giao tiếp ứng xử tốt đẹp trong doanh nghiệp của mình vì:",
+    "options": [],
+    "correctAnswer": "Người lãnh đạo là người có thể đưa ra những quy định về giao tiếp ứng xử và yêu cầu mọi thành viên trong doanh nghiệp phải tuân thủ những quy định đó",
+    "userAnswerState": "Sai"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tìm câu trả lời đúng nhất. Nhìn vào các mối quan hệ ứng xử trong nội bộ doanh nghiệp có thể đánh giá:",
+    "options": [],
+    "correctAnswer": "Văn hóa của một doanh nghiệp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bước thứ tư trong quy trình giải quyết vấn đề là",
+    "options": [
+      "A. Xác định vấn đề",
+      "B. Thực hiện giải pháp",
+      "C. Đưa ra các giải pháp",
+      "D. Lựa chọn giải pháp"
+    ],
+    "correctAnswer": "Thực hiện giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Khi đối mặt với một vấn đề cần giải quyết, việc đầu tiên bạn phải làm là:",
+    "options": [
+      "A. Đánh giá vấn đề",
+      "B. Lựa chọn giải pháp",
+      "C. Xác định vấn đề",
+      "D. Thực hiện giải pháp"
+    ],
+    "correctAnswer": "Xác định vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bước thứ hai trong quy trình giải quyết vấn đề là",
+    "options": [
+      "A. Thực hiện giải pháp",
+      "B. Xác định vấn đề",
+      "C. Lựa chọn các giải pháp",
+      "D. Đưa ra các giải pháp"
+    ],
+    "correctAnswer": "Đưa ra các giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Phương án nào dưới đây giải thích đúng về cách giải quyết vấn đề theo hệ thống:",
+    "options": [
+      "A. Giải quyết vấn đề theo hệ thống là một cách giải quyết vấn đề sáng tạo mang tính ngẫu hứng của cá nhân",
+      "B. Giải quyết vấn đề theo hệ thống là một quá trình phân tích logic bao gồm các bước khác nhau nhằm đạt được giải pháp",
+      "C. Giải quyết vấn đề theo hệ thống là một quá trình không đi theo một trình tự các bước cụ thể mà dựa vào sự cảm nhận, so sánh, mường tượng... để đạt được giải pháp",
+      "D. Giải quyết vấn đề theo hệ thống là cách giải quyết một vấn đề cụ thể tùy thuộc thiên hướng của từng người"
+    ],
+    "correctAnswer": "Giải quyết vấn đề theo hệ thống là một quá trình phân tích logic bao gồm các bước khác nhau nhằm đạt được giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "“Kỹ thuật xương cá” là phương pháp dùng để làm gì?",
+    "options": [
+      "A. Xem xét vấn đề từ nhiều góc độ khác nhau",
+      "B. Xem xét khía cạnh đối diện của vấn đề",
+      "C. Phân tích các nguyên nhân của vấn đề",
+      "D. Phát huy tính sáng tạo trong giải quyết vấn đề"
+    ],
+    "correctAnswer": "Phân tích các nguyên nhân của vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bước thứ năm trong quy trình giải quyết vấn đề là:",
+    "options": [
+      "A. Lựa chọn giải pháp",
+      "B. Theo dõi thực hiện giải pháp",
+      "C. Đánh giá giải pháp",
+      "D. Thực hiện giải pháp"
+    ],
+    "correctAnswer": "Theo dõi thực hiện giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Phương án nào dưới đây giải thích đúng nhất về việc lựa chọn phương pháp giải quyết vấn đề đơn giản, dễ thống nhất và các thông tin có khả năng dự báo trước?",
+    "options": [
+      "A. Khi gặp vấn đề đơn giản, dễ thống nhất và các thông tin có khả năng dự báo trước thì nên sử dụng cách giải quyết vấn đề theo cảm nhận sáng tạo để tìm giải pháp",
+      "B. Khi gặp vấn đề đơn giản, dễ thống nhất và các thông tin có khả năng dự báo trước thì nên sử dụng cách giải quyết vấn đề theo ngẫu hứng để tìm giải pháp",
+      "C. Khi gặp vấn đề đơn giản, dễ thống nhất và các thông tin có khả năng dự báo trước thì nên sử dụng cách giải quyết vấn đề theo hệ thống để tìm giải pháp",
+      "D. Khi gặp vấn đề đơn giản, dễ thống nhất và các thông tin có khả năng dự báo trước thì nên kết hợp sử dụng càng nhiều cách giải quyết vấn đề càng tốt để tìm giải pháp"
+    ],
+    "correctAnswer": "Khi gặp vấn đề đơn giản, dễ thống nhất và các thông tin có khả năng dự báo trước thì nên sử dụng cách giải quyết vấn đề theo hệ thống để tìm giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "“Kỹ thuật ẩn dụ Metaphor” là phương pháp dùng để làm gì?",
+    "options": [
+      "A. Xác định nguyên nhân gốc của vấn đề",
+      "B. Xem xét vấn đề từ nhiều góc độ khác nhau",
+      "C. So sánh và đặt vấn đề vào bối cảnh mới",
+      "D. Xem xét khía cạnh đối diện của vấn đề"
+    ],
+    "correctAnswer": "So sánh và đặt vấn đề vào bối cảnh mới",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bước cuối cùng trong quy trình giải quyết vấn đề là:",
+    "options": [
+      "A. Lựa chọn giải pháp",
+      "B. Đánh giá giải pháp",
+      "C. Thực hiện giải pháp",
+      "D. Theo dõi thực hiện giải pháp"
+    ],
+    "correctAnswer": "Đánh giá giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Phương án nào dưới đây giải thích đúng nhất về việc lựa chọn phương pháp giải quyết vấn đề khi gặp vấn đề phức tạp, nhiều biến động, khó dự báo?",
+    "options": [
+      "A. Khi vấn đề phức tạp, nhiều biến động, khó dự báo thì nên sử dụng cách giải quyết vấn đề theo logic hệ thống",
+      "B. Khi vấn đề phức tạp, nhiều biến động, khó dự báo thì nên kết hợp sử dụng cách giải quyết vấn đề cảm nhận sáng tạo và phân tích logic hệ thống",
+      "C. Khi vấn đề phức tạp, nhiều biến động, khó dự báo thì nên sử dụng cách giải quyết vấn đề theo quy trình, lần lượt trình tự các bước",
+      "D. Khi vấn đề phức tạp, nhiều biến động, khó dự báo thì nên sử dụng cách giải quyết vấn đề theo ngẫu hứng cá nhân"
+    ],
+    "correctAnswer": "Khi vấn đề phức tạp, nhiều biến động, khó dự báo thì nên kết hợp sử dụng cách giải quyết vấn đề cảm nhận sáng tạo và phân tích logic hệ thống",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Kỹ thuật “đặt 5 lần câu hỏi tại sao” là nhằm mục đích gì?",
+    "options": [
+      "A. Phát huy tính sáng tạo trong giải quyết vấn đề",
+      "B. Xem xét khía cạnh đối diện của vấn đề",
+      "C. Xác định nguyên nhân gốc của vấn đề",
+      "D. Xem xét vấn đề từ nhiều góc độ khác nhau"
+    ],
+    "correctAnswer": "Xác định nguyên nhân gốc của vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Tìm phương án trả lời đúng nhất. Để giải quyết vấn đề một cách hiệu quả thì cần xem xét vấn đề đó như thế nào?",
+    "options": [
+      "A. Xem xét vấn đề từ nguyên nhân gốc",
+      "B. Xem xét vấn đề từ góc độ đối diện",
+      "C. Xem xét vấn đề từ một góc độ",
+      "D. Xem xét vấn đề từ nhiều góc độ khác nhau"
+    ],
+    "correctAnswer": "Xem xét vấn đề từ nhiều góc độ khác nhau",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bước thứ ba trong quy trình giải quyết vấn đề là",
+    "options": [
+      "A. Đánh giá giải pháp",
+      "B. Theo dõi thực hiện giải pháp",
+      "C. Thực hiện giải pháp",
+      "D. Lựa chọn giải pháp"
+    ],
+    "correctAnswer": "Lựa chọn giải pháp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "“Kỹ thuật Janusian” là phương pháp dùng để làm gì?",
+    "options": [
+      "A. Xác định nguyên nhân gốc của vấn đề",
+      "B. Xem xét vấn đề từ nhiều góc độ khác nhau",
+      "C. Phát huy tính sáng tạo trong giải quyết vấn đề",
+      "D. Xem xét khía cạnh đối diện của vấn đề"
+    ],
+    "correctAnswer": "Xem xét khía cạnh đối diện của vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Để giải quyết vấn đề một cách hiệu quả, người giải quyết vấn đề cần có thái độ như thế nào?",
+    "options": [
+      "A. Cần tạo dựng thái độ tích cực và lạc quan khi giải quyết vấn đề",
+      "B. Cần phải biết sợ hãi khi giải quyết vấn đề",
+      "C. Cần loại bỏ thái độ lạc quan khi giải quyết vấn đề",
+      "D. Cần có thái độ thận trọng, bị động nếu muốn giải quyết vấn đề một cách hiệu quả"
+    ],
+    "correctAnswer": "Cần tạo dựng thái độ tích cực và lạc quan khi giải quyết vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi sử dụng Mail để đính kèm tệp tin bạn bấm vào nút nào sau đây?",
+    "options": [
+      "A. Get Files",
+      "B. Attach Files",
+      "C. Show Files",
+      "D. Add Files"
+    ],
+    "correctAnswer": "Attach Files",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "IM là viết tắt của từ tiếng Anh nào dưới đây?",
+    "options": [
+      "A. Instant Message.",
+      "B. Important Message.",
+      "C. Invite Message.",
+      "D. Internet Message."
+    ],
+    "correctAnswer": "Instant Message.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Mục nào trong cấu trúc của một email mô tả ngắn gọn nội dung của email?",
+    "options": [
+      "A. Subject",
+      "B. Body",
+      "C. CC",
+      "D. BCC"
+    ],
+    "correctAnswer": "Subject",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Chương trình nào dưới đây cho phép bạn tải tệp tin từ Internet xuống máy tính của bạn?",
+    "options": [
+      "A. DMI",
+      "B. FOXIT READER",
+      "C. IDM",
+      "D. MDI"
+    ],
+    "correctAnswer": "IDM",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Hệ thống thư điện tử được chia làm hai phần: MUA và MTA. MTA là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [
+      "A. Message Transfer Application.",
+      "B. Message Transfer Agent.",
+      "C. Mail Transfer Application.",
+      "D. Mail Transfer Agent."
+    ],
+    "correctAnswer": "Message Transfer Agent.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong các giao thức sau giao thức nào là giao thức truyền thư điện tử?",
+    "options": [
+      "A. NFS.",
+      "B. Telnet.",
+      "C. FTP.",
+      "D. SMTP."
+    ],
+    "correctAnswer": "SMTP.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Để xem các trang tài liệu siêu văn bản (trang web) trên Internet, bạn sử dụng dịch vụ nào sau đây?",
+    "options": [
+      "A. Dịch vụ Chat.",
+      "B. Dịch vụ tải tệp tin.",
+      "C. Dịch vụ thư điện tử.",
+      "D. Dịch vụ World Wide Web."
+    ],
+    "correctAnswer": "Dịch vụ World Wide Web.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi sử dụng phần mềm Mail, thư mục nào dưới đây chứa các thư bạn đã gửi đi?",
+    "options": [
+      "A. Inbox",
+      "B. Drafts",
+      "C. Sent",
+      "D. Deleted"
+    ],
+    "correctAnswer": "Sent",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Trong quá trình duyệt Web, bạn không thể thực hiện thao tác nào dưới đây?",
+    "options": [
+      "A. In trang Web.",
+      "B. Chỉnh sửa nội dung trang Web.",
+      "C. Đưa trang Web vào danh mục các trang yêu thích.",
+      "D. Lưu trang Web."
+    ],
+    "correctAnswer": "Chỉnh sửa nội dung trang Web.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Hệ thống thư điện tử được chia làm hai phần: MUA và MTA. MUA là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [
+      "A. Mail User Agent.",
+      "B. Message Use Application.",
+      "C. Mail User Application.",
+      "D. Mail Use Agent."
+    ],
+    "correctAnswer": "Mail User Agent.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi sử dụng công cụ tìm kiếm Google, nếu muốn kết quả trả về là các trang Web vừa chứa cụm từ: kinh tế, vừa chứa cụm từ quốc dân thì trong ô tìm kiếm bạn nhập vào từ khóa nào sau đây?",
+    "options": [
+      "A. “kinh tế” + “quốc dân”",
+      "B. “kinh tế” - “quốc dân”",
+      "C. kinh tế quốc dân",
+      "D. “kinh tế quốc dân”"
+    ],
+    "correctAnswer": "“kinh tế” + “quốc dân”",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Anh An muốn đồng gửi bức thư điện tử tới anh Hải và chị Huệ, tuy nhiên anh An không muốn chị Huệ biết mình đã gửi bức thư này cho anh Hải. Khi đó anh An phải nhập địa chỉ email của anh Hải vào ô nào?",
+    "options": [
+      "A. Re",
+      "B. Bcc",
+      "C. Cc",
+      "D. To"
+    ],
+    "correctAnswer": "Bcc",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Dịch vụ web sử dụng giao thức nào?",
+    "options": [
+      "A. IPX/SPX",
+      "B. TCP/IP",
+      "C. HTTP",
+      "D. NetBEUI"
+    ],
+    "correctAnswer": "HTTP",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Dịch vụ Telnet trên mạng Internet là gì?",
+    "options": [
+      "A. Là dịch vụ truyền các tệp từ máy tính này đến máy tính khác trên mạng Internet.",
+      "B. Là dịch vụ thiết lập sự liên hệ giữa MTĐT của ta với một máy chủ ở xa để người dùng có thể sử dụng khả năng xử lý của máy chủ đó.",
+      "C. Là dịch vụ giúp người dùng tìm kiếm thông tin trên Internet bằng bảng chọn.",
+      "D. Là dịch vụ Internet có khả năng duy trì hàng ngàn nhóm tin với sự tham gia của hàng triệu người."
+    ],
+    "correctAnswer": "Là dịch vụ thiết lập sự liên hệ giữa MTĐT của ta với một máy chủ ở xa để người dùng có thể sử dụng khả năng xử lý của máy chủ đó.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là 1 bộ giao thức hệ thống file phân tán (được phát triển bởi Sun Microsystems) cho phép truy xuất file đến các thiết bị ở xa như 1 đĩa cứng trên mạng?",
+    "options": [
+      "A. FTP",
+      "B. NFS",
+      "C. SMTP",
+      "D. Telnet"
+    ],
+    "correctAnswer": "NFS",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Phương án nào sau đây là không chính xác khi nói về đặc điểm của thời gian:",
+    "options": [
+      "A. Thời gian không thể điều chỉnh",
+      "B. Thời gian trôi qua không bao giờ ngừng lại",
+      "C. Thời gian không thể mua bán trao đổi",
+      "D. Quỹ thời gian của mỗi người là vô hạn"
+    ],
+    "correctAnswer": "Quỹ thời gian của mỗi người là vô hạn",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Tìm phương án trả lời đúng nhất. Một việc như thế nào thì được coi là khẩn cấp?",
+    "options": [
+      "A. Một việc được coi là khẩn cấp khi cần nhiều người giải quyết",
+      "B. Một việc được coi là khẩn cấp khi nó gây ra hậu quả lớn",
+      "C. Một việc được coi là khẩn cấp khi nó cần nhiều thời gian để giải quyết",
+      "D. Một việc được coi là khẩn cấp khi nó đòi hỏi sự chú ý ngay lập tức"
+    ],
+    "correctAnswer": "Một việc được coi là khẩn cấp khi nó đòi hỏi sự chú ý ngay lập tức",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Chương trình nào dưới đây cho phép bạn tải tệp tin từ Intenet xuống máy tính của bạn?",
+    "options": [],
+    "correctAnswer": "IDM",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Mô hình SCORM do tổ chức nào đưa ra?",
+    "options": [],
+    "correctAnswer": "Viện nghiên cứu công nghệ giáo dục từ xa (ADL).",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Quy trình sinh viên học tập trên hệ thống e-learning KHÔNG bao gồm bước nào?",
+    "options": [],
+    "correctAnswer": "Gặp gỡ giáo viên.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Theo Sloan Consortium lớp học nào dưới đây được coi là lớp học sử dụng công nghệ Internet?",
+    "options": [],
+    "correctAnswer": "Lớp học có 1-29% nội dung được truyền tải qua Internet.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Khi nói về quá trình phát triển E-learning, có 2 phát biểu như sau: PB1: Trước năm 1983: phương pháp giáo dục “Lấy giảng viên làm trung tâm” là phương pháp phổ biến nhất trong các trường học. PB2: Giai đoạn 1984-1993: Khi công nghệ Web được phát minh ra, các nhà cung cấp dịch vụ đào tạo bắt đầu nghiên cứu cách thức cải tiến phương pháp giáo dục bằng công nghệ này. Hỏi khẳng định nào sau đây là đúng?",
+    "options": [],
+    "correctAnswer": "PB1 đúng, PB2 sai.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Trong quá trình học e-learning, đâu không phải là 1 trong 4 hoạt động chính của sinh viên e-learning?",
+    "options": [],
+    "correctAnswer": "Lướt web.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Đâu không phải là một trong các yêu cầu kỹ thuật của một hệ thống LMS điển hình?",
+    "options": [],
+    "correctAnswer": "Sử dụng lại, quản lý và phân phối nội dung học tập trong môi trường số từ một kho dữ liệu trung tâm.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Đâu không phải là một trong các yêu cầu giao diện người dùng của một hệ thống LMS điển hình?",
+    "options": [],
+    "correctAnswer": "Không cho phép thiết lập nhiều giao diện riêng biệt cho các nhóm người dùng khác nhau.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Trong số các đặc điểm sau, đâu không phải là đặc điểm của hệ thống E-Learning?",
+    "options": [],
+    "correctAnswer": "Học không có sự hợp tác, phối hợp.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "LMS là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Learning Management System.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Đâu KHÔNG phải là hệ thống hỗ trợ học tập trong môi trường elearning?",
+    "options": [],
+    "correctAnswer": "Hệ thống phần mềm quản lý truy cập mạng Internet.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Chữ E trong cụm từ E-learning là viết tắt của từ tiêng Anh nào dưới đây?",
+    "options": [],
+    "correctAnswer": "Electronic",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "LCMS là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Learning Content Managerment System.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Chọn phát biểu SAI?",
+    "options": [],
+    "correctAnswer": "E-learning là một thuật ngữ dùng để mô tả việc học tập không dựa trên công nghệ thông tin và truyền thông.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Trong mô hình hệ thống E-Learning không bao gồm thành phần nào?",
+    "options": [],
+    "correctAnswer": "Đội ngũ kỹ sư công nghệ thông tin.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Khi nói về kiến trúc Web để phát triển hệ thống E-learning, có 2 phát biểu như sau: PB1: Mô hình kiến trúc Web không cho phép tăng cường sự tương hợp và mở rộng trên cơ sở hạ tầng mạng và các ứng dụng khác nhau sẵn có trên thị trường e-learning. PB2: Mô hình kiến trúc Web cho phép phát triển và sử dụng Intranet cũng như các dịch vụ Internet công cộng. Điều đó cho phép việc lựa chọn các công nghệ mạng là hoàn toàn trong suốt đối với các đơn vị phát triển nội dung và các nhà cung cấp dịch vụ. Hỏi khẳng định nào sau đây là đúng?",
+    "options": [],
+    "correctAnswer": "PB1 sai, PB2 đúng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 4",
+    "question": "Kỹ thuật xương cá” là phương pháp dùng để làm gì?",
+    "options": [],
+    "correctAnswer": "Phân tích các nguyên nhân của vấn đề",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Một người quản lý thời gian tốt là người có nhiều công việc ở ô nào trong ma trận quản lý thời gian?",
+    "options": [],
+    "correctAnswer": "Ô số 2: công việc quan trọng nhưng không khẩn cấp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi một người phải liên tục làm các công việc quan trọng và khẩn cấp trong một thời gian dài thì sẽ có kết quả công việc như thế nào?",
+    "options": [],
+    "correctAnswer": "Kết quả công việc sẽ không thể tốt do sức chịu đựng sự căng thẳng của con người có giới hạn",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi phân loại, sắp xếp công việc vào ma trận quản lý thời gian, bạn sẽ xếp vào ô số 4 công việc nào trong số các công việc sau:",
+    "options": [],
+    "correctAnswer": "Gọi điện thoại tán gẫu",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Quản lý thời gian là gì? Tìm phương án không chính xác trong số các phương án sau đây",
+    "options": [],
+    "correctAnswer": "Là sự vội vã hoàn thành công việc vào phút cuối",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Tìm phương án đúng nhất. Một việc như thế nào thì được coi là quan trọng?",
+    "options": [],
+    "correctAnswer": "Một việc được coi là quan trọng khi nó có một ý nghĩa lớn hoặc gây ra một kết quả đáng kế",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi phân loại, sắp xếp công việc vào ma trận quản lý thời gian, bạn sẽ xếp vào ô số 2 công việc nào trong số các công việc sau:",
+    "options": [],
+    "correctAnswer": "Xây dựng mối quan hệ với đối tác",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi làm công việc ở ô số 2 trong ma trận quản lý thời gian thì sẽ có lợi thế gì?",
+    "options": [],
+    "correctAnswer": "Có thời gian để chủ động, bình tĩnh, tập trung vào công việc quan trọng",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Yếu tố nào dưới đây là nguyên nhân gây lãng phí thời gian?",
+    "options": [],
+    "correctAnswer": "Làm việc không có kế hoạch",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Một người được gọi là biết cách quản lý thời gian nếu người đó:",
+    "options": [],
+    "correctAnswer": "Biết phân loại công việc, lập kế hoạch và từng bước thực hiện theo kế hoạch",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi có công việc quan trọng và khẩn cấp thì con người cần hành động như thế nào?",
+    "options": [],
+    "correctAnswer": "Tập trung mọi nguồn lực để giải quyết ngay lập tức",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi một người có nhiều công việc ở ô số 3 trong ma trận quản lý thời gian thì người đó nên làm gì?",
+    "options": [],
+    "correctAnswer": "Ủy quyền cho người khác làm thay nếu có thể",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Trong số các phương án dưới đây, phương án nào giải thích đúng nhất về khái niệm quản lý thời gian?",
+    "options": [],
+    "correctAnswer": "Quản lý thời gian là biết cách sử dụng thời gian một cách hợp lý và hiệu quả để đạt được mục tiêu xác định",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 5",
+    "question": "Hãy chỉ ra một nguyên nhân gây lãng phí thời gian trong số các phương án sau:",
+    "options": [],
+    "correctAnswer": "Sử dụng điện thoại quá nhiều",
+    "userAnswerState": "Đúng"
+  }
+]

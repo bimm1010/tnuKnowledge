@@ -1,0 +1,468 @@
+BÀI 5:
+HƯỚNG DẪN SỬ DỤNG
+HỆ THỐNG TNU ELEARNING
+CHO HỌC VIÊN
+NHẬP MÔN INTERNET VÀ E-LEARNING 1
+
+-- 1 of 54 --
+
+NỘI DUNG BÀI HỌC
+1. Giới thiệu
+2. Đăng nhập hệ thống
+3. Thiết lập thông tin tài khoản
+4. Học tập
+NHẬP MÔN INTERNET VÀ E-LEARNING 2
+
+-- 2 of 54 --
+
+1. GIỚI THIỆU
+NHẬP MÔN INTERNET VÀ E-LEARNING 3
+AUM Việt Nam 3
+
+-- 3 of 54 --
+
+1. GIỚI THIỆU
+• Cổng thông tin học tập trực tuyến – Trường Đại học Thái Nguyên (viết
+tắt là TNU Elearning)
+• Mục tiêu của Cổng là cung cấp, hỗ trợ các học viên tiếp cận với các
+nguồn học liệu phong phú, đa dạng của Nhà trường, giúp các học viên có
+thể tự học, tự bồi dưỡng ngay tại chỗ một cách thường xuyên, liên tục.
+• Địa chỉ truy cập: https://tnu.aum.edu.vn
+NHẬP MÔN INTERNET VÀ E-LEARNING 4
+
+-- 4 of 54 --
+
+2. ĐĂNG NHẬP HỆ THỐNG
+NHẬP MÔN INTERNET VÀ E-LEARNING 5
+AUM Việt Nam 5
+
+-- 5 of 54 --
+
+2.1. ĐĂNG NHẬP HỆ THỐNG
+• Mỗi học viên sẽ được cấp một tài khoản để truy cập vào TNU
+Elearning.
+• Mở trình duyệt (Google Chrome, Firefox...), nhập đường liên kết
+https://tnu.aum.edu.vn.
+• Nhập tên đăng nhập và mật khẩu đã được cung cấp. Sau đó bấm nút
+Đăng nhập.
+NHẬP MÔN INTERNET VÀ E-LEARNING 6
+AUM Việt Nam 6
+
+-- 6 of 54 --
+
+2.1. ĐĂNG NHẬP HỆ THỐNG
+• Nếu tài khoản đăng nhập đúng sẽ được hệ thống chuyển tới trang chủ
+của hệ thống.
+• Nếu đăng nhập sai thông tin sẽ có dòng thông báo yêu cầu nhập chính
+xác thông tin tài khoản.
+NHẬP MÔN INTERNET VÀ E-LEARNING 7
+
+-- 7 of 54 --
+
+2.2. QUÊN MẬT KHẨU
+• Trong trường hợp học viên quên mật
+khẩu, bạn bấm chọn “Quên tên đăng
+nhập hoặc mật khẩu”.
+• Sau đó điền các thông tin theo
+hướng dẫn.
+• Hệ thống sẽ gửi thư điện tử hướng dẫn
+cách đặt lại mật khẩu vào hòm thư của
+người sử dụng.
+• Theo làm hướng dẫn để đổi mật khẩu
+NHẬP MÔN INTERNET VÀ E-LEARNING 8
+
+-- 8 of 54 --
+
+2.3. ĐỔI MẬT KHẨU
+• Đăng nhập vào hệ thống.
+• Tại góc trên trái của trang, bấm vào tên
+người dùng và chọn “Tuỳ chọn’.
+• Chọn “Đổi mật khẩu”.
+• Nhập mật khẩu hiện tại.
+• Nhập mật khẩu mới.
+• Và lưu thay đổi.
+NHẬP MÔN INTERNET VÀ E-LEARNING 9
+
+-- 9 of 54 --
+
+2.4. ĐĂNG XUẤT
+• Để kết thúc phiên học, tại góc trên trái của trang, bấm vào tên người dùng
+và chọn “Đăng xuất’.
+NHẬP MÔN INTERNET VÀ E-LEARNING 10
+
+-- 10 of 54 --
+
+3. THIẾT LẬP THÔNG TIN TÀI KHOẢN
+NHẬP MÔN INTERNET VÀ E-LEARNING 11
+
+-- 11 of 54 --
+
+3.1. CẬP NHẬT HỒ SƠ
+• Thành viên có thể tự cập nhật thông tin hồ sơ
+của mình.
+• Chọn “Hồ sơ”.
+• Tiếp theo chọn “Sửa hồ sơ cá nhân”
+NHẬP MÔN INTERNET VÀ E-LEARNING 12
+
+-- 12 of 54 --
+
+3.2. THIẾT LẬP TUỲ CHỌN
+• Chọn “Tuỳ chọn”
+NHẬP MÔN INTERNET VÀ E-LEARNING 13
+
+-- 13 of 54 --
+
+4. HỌC TẬP
+NHẬP MÔN INTERNET VÀ E-LEARNING 14
+
+-- 14 of 54 --
+
+4.1. BẢNG ĐIỀU KHIỂN
+• Khi đăng nhập thành công, học sẽ được hướng tới “Bảng Điều Khiển”,
+tại đây học viện sẽ có các thông tin tóm tắt sau:
+• Khoá Học Truy Cập Gần Đây: tiên kết nhanh tới các khoá học mới
+truy cập gần đây.
+• Tổng Quan Khoá Học: thông tin tổng quan các khoá học của học
+viên.
+• Dòng Thời Gian: Các sự kiện/công việc tới hạn.
+• Sự Kiện Sắp Diễn Ra: các sự kiện sắp diễn của có liên quan tới
+học viên.
+• Thanh Viên Trực Tuyến: danh sách người dùng đang trực tuyến.
+• Lịch: lịch của học viên
+NHẬP MÔN INTERNET VÀ E-LEARNING 15
+
+-- 15 of 54 --
+
+4.2. TRUY CẬP KHÓA HỌC
+• Chọn menu “Khoá Học Của Tôi”
+• Hoặc tìm kiếm theo thông tin
+NHẬP MÔN INTERNET VÀ E-LEARNING 16
+• Bấm “Truy cập khoá học”
+để bắt đầu học
+
+-- 16 of 54 --
+
+4.2. TRUY CẬP KHÓA HỌC …
+• Mỗi môn học được tổ chức theo các phần/chủ đề.
+• Thông tin tổng quát về môn học: bao gồm các mục như giới thiệu lớp
+học, diễn đàn trao đổi các vấn đề liên quan tới lớp học, đề cương chi tiết
+của môn học, các quy định chung của lớp học,...
+• Tài liệu tham khảo: là nơi học viên có thể truy cập đến những tài liệu liên
+quan tới môn học, đây là những tài liệu không bắt buộc phải đọc tuy
+nhiên học viên được khuyến khích tìm hiểu, nghiên cứu những tài liệu
+này để làm rõ hơn hay bổ sung cho những bài giảng chính thức của môn
+học phía bên dưới.
+NHẬP MÔN INTERNET VÀ E-LEARNING 17
+
+-- 17 of 54 --
+
+4.2. TRUY CẬP KHÓA HỌC …
+NHẬP MÔN INTERNET VÀ E-LEARNING 18
+
+-- 18 of 54 --
+
+4.2. TRUY CẬP KHÓA HỌC …
+Nội dung học tập tương ứng của mỗi tuần trong suốt thời gian của môn
+học. Thông thường một môn học sẽ được tổ chức học tập trong 8 tuần và
+mỗi tuần học viên có thể truy suất những tài liệu sau:
+• Bài giảng online: thường được cung cấp dưới dạng SCORM, chứa nội
+dung bao gồm lời giảng của giáo viên tương ứng với mỗi slide bài
+giảng. Mục này cũng có thể chứa các video hướng dẫn thực hành liên
+quan tới nội dung của môn học.
+• Slide bài giảng: thường được cung cấp dưới dạng tệp (pdf, ppt, doc,
+…) và học viên có thể mở ra xem trực tuyến hoặc tải về máy tính của
+mình để xem sau.
+• Bài tập /Bài kiểm tra: Có nhiều dạng bài kiểm tra tùy thuộc vào nội
+dung môn học cũng như kế hoạch giảng dạy của bộ môn.
+o Bài kiểm tra trắc nghiệm có nội dung tương ứng với những kiến
+thức được học trong tuần. Học viên được quyền làm lại nhiều
+lần và điểm được chấm tự động, lấy điểm cao nhất
+o Bài kiểm tra viết luận, giảng viên sẽ chấm chủ động.
+NHẬP MÔN INTERNET VÀ E-LEARNING 19
+
+-- 19 of 54 --
+
+4.2. TRUY CẬP KHÓA HỌC …
+• Chú ý: Học viên có thể truy cập đến các tài nguyên học liệu của mỗi tuần
+bất cứ lúc nào họ muốn. Tuy nhiên, những bài kiểm tra theo tuần thì sẽ
+chỉ được mở ra trong khoảng thời gian tương ứng với mỗi tuần. Ngoài
+khoảng thời gian cho phép các học viên sẽ không thể vào làm bài kiểm
+tra. Một bài kiểm tra mà không được làm thì sẽ nhận điểm 0. Điểm kiểm
+tra 30% của môn học sẽ được tính là trung bình cộng của các bài kiểm
+tra mà học viên đã làm trong suốt thời gian học tập của môn học.
+• Các tài nguyên khác sẽ tùy theo đặc điểm của từng môn học.
+NHẬP MÔN INTERNET VÀ E-LEARNING 20
+
+-- 20 of 54 --
+
+4.2.1. MỞ BÀI GIẢNG SCORM
+• Bài dạng được đóng gói theo chuẩn SCORM.
+• Bấm vào bài giảng
+• Chọn “Bắt đầu”
+NHẬP MÔN INTERNET VÀ E-LEARNING 21
+
+-- 21 of 54 --
+
+4.2.1. MỞ BÀI GIẢNG SCORM …
+• Có thể học tiếp từ lần trước hoặc học từ đầu.
+NHẬP MÔN INTERNET VÀ E-LEARNING 22
+
+-- 22 of 54 --
+
+4.2.1. MỞ BÀI GIẢNG SCORM …
+NHẬP MÔN INTERNET VÀ E-LEARNING 23
+
+-- 23 of 54 --
+
+4.2.2. MỞ BÀI GIẢNG PDF
+• Bạn bấm vào mục có biểu tượng ở đầu dòng như sau:
+NHẬP MÔN INTERNET VÀ E-LEARNING 24
+• Tuỳ theo thiết lập của giảng viên, nội dung bài giảng sẽ được hiện ra trên
+cửa sổ, hoặc tệp tin bài giảng sẽ được tải về máy của học viên.
+
+-- 24 of 54 --
+
+4.2.3. MỞ BÀI GIANG PPT
+• Bạn bấm vào mục có biểu tượng ở đầu dòng như sau:
+NHẬP MÔN INTERNET VÀ E-LEARNING 25
+• Bài giảng sẽ được tải về máy học viên.
+
+-- 25 of 54 --
+
+4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
+• Mỗi một tuần học đều có thể bài tập dưới dạng trắc nghiệm hoặc bài kiểm
+tra trắc nghiệm (tùy theo đặc điểm của từng môn học mà giáo trình có
+thể khác nhau)
+• Để làm bài kiểm tra trắc nghiệm bạn bấm vào dòng có biểu tượng ở đầu
+như sau:
+NHẬP MÔN INTERNET VÀ E-LEARNING 26
+
+-- 26 of 54 --
+
+4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
+• Thông tin của bài kiểm tra được mô tả:
+o Số lần làm bài
+o Thời gian bắt đầu có thể làm bài kiểm tra
+o Thời gian kết thúc không thể làm bài tra
+o Thời gian làm bài (Số thời gian kể từ khi làm bài kiểm tra)
+o Điểm được tính trong quá trình làm bài kiểm tra
+NHẬP MÔN INTERNET VÀ E-LEARNING 27
+
+-- 27 of 54 --
+
+4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
+• Bấm “Bắt đầu kiểm tra” để làm bài.
+NHẬP MÔN INTERNET VÀ E-LEARNING 28
+
+-- 28 of 54 --
+
+4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
+NHẬP MÔN INTERNET VÀ E-LEARNING 29
+
+-- 29 of 54 --
+
+4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
+• Đọc và trả lời các câu hỏi.
+NHẬP MÔN INTERNET VÀ E-LEARNING 30
+• Có thể di chuyển giữa các câu hỏi, đánh dấu, xem lại, …
+
+-- 30 of 54 --
+
+4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
+• Khi trả lời xong, bấm “Kết thúc”
+NHẬP MÔN INTERNET VÀ E-LEARNING 31
+
+-- 31 of 54 --
+
+4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
+NHẬP MÔN INTERNET VÀ E-LEARNING 32
+•
+•
+•
+•
+Danh sách câu trả lời sẽ được
+hiển thị.
+Nếu còn câu hỏi chưa có câu trả
+lời bạn bấm nút
+để trở lại phần trả lời câu hỏi.
+Nếu bạn đã hoàn thành toàn bộ
+câu hỏi thì bấm
+Một cửa số thông báo hiện ra
+• Bạn chắc chắn với đáp án của
+mình bấm tiếp
+
+-- 32 of 54 --
+
+4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
+NHẬP MÔN INTERNET VÀ E-LEARNING 33
+
+-- 33 of 54 --
+
+4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
+NHẬP MÔN INTERNET VÀ E-LEARNING 34
+
+-- 34 of 54 --
+
+4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
+• Giảng viên có thể thiết lập số lần được phép làm bài cho học viên, và quy
+định cách thức lấy điểm (trung bình, cao nhất).
+NHẬP MÔN INTERNET VÀ E-LEARNING 35
+
+-- 35 of 54 --
+
+4.2.5. LÀM VÀ NỘP BÀI TẬP
+NHẬP MÔN INTERNET VÀ E-LEARNING 36
+• Để làm bài kiểm tra tự luận bạn bấm vào dòng có biểu tượng
+a) Tải đề bài và nộp kết quả dưới dạng tệp tin (doc, docx, pdf)
+Bạn tải bài tập về máy: Làm rõ yêu cầu của đề bài sau đó thực hiện làm bài
+tập và nộp lại trên hệ thống.
+
+-- 36 of 54 --
+
+4.2.5. LÀM VÀ NỘP BÀI TẬP
+NHẬP MÔN INTERNET VÀ E-LEARNING 37
+• Trạng thái bài nộp sẽ cho học
+viên biết tình hình làm bài của
+mình, cũng như thời hạn cần
+phải hoàn thành.
+• Bấm vào tên tệp tin bài tập để tải
+về máy.
+• Sau khi làm bài thì bấm “Nộp
+bài”.
+
+-- 37 of 54 --
+
+4.2.5. LÀM VÀ NỘP BÀI TẬP
+NHẬP MÔN INTERNET VÀ E-LEARNING 38
+• Chọn tệp tin bài tập đã làm để tải lên nộp.
+• Bấm “Lưu thay đổi” để hoàn thành việc nộp bài.
+
+-- 38 of 54 --
+
+4.2.5. LÀM VÀ NỘP BÀI TẬP
+• Có thể sửa và nộp lại bài tập
+NHẬP MÔN INTERNET VÀ E-LEARNING 39
+
+-- 39 of 54 --
+
+4.2.5. LÀM VÀ NỘP BÀI TẬP
+NHẬP MÔN INTERNET VÀ E-LEARNING 40
+• Sau khi giảng viên
+chấm bài, học viên có
+thể xem điểm của
+mình.
+
+-- 40 of 54 --
+
+4.2.5. LÀM VÀ NỘP BÀI TẬP
+b) Xem đề bài và trả lời trực tiếp
+NHẬP MÔN INTERNET VÀ E-LEARNING 41
+• Đọc kỹ đề bài và thực hiện theo
+đúng yêu cầu của giáo viên
+• Trạng thái bài nộp cho chúng ta
+thấy được các thông tin liên quan
+tới bài tập của mình.
+• Bấm vào để có thể vào làm
+bài trực tiếp tại hệ thống.
+
+-- 41 of 54 --
+
+4.2.5. LÀM VÀ NỘP BÀI TẬP
+NHẬP MÔN INTERNET VÀ E-LEARNING 42
+b) Xem đề bài và trả lời trực tiếp
+Điền câu trả lời vào ô Văn bản trực tuyến. Sau đó bấm Lưu thay đổi để kết
+thúc.
+
+-- 42 of 54 --
+
+4.2.5. LÀM VÀ NỘP BÀI TẬP
+• Trạng thái bài tập đã thay đổi
+NHẬP MÔN INTERNET VÀ E-LEARNING 43
+
+-- 43 of 54 --
+
+4.2.5. LÀM VÀ NỘP BÀI TẬP
+• Học viên cũng vẫn có thể sửa câu trả lời của mình bằng cách bấm vào
+nút sửa bài nộp sau đó trả lời và nộp lại bài.
+NHẬP MÔN INTERNET VÀ E-LEARNING 44
+
+-- 44 of 54 --
+
+4.2.5. LÀM VÀ NỘP BÀI TẬP
+• Bạn có thể xem điểm và phần đánh giá của giáo viên ở bên dưới.
+NHẬP MÔN INTERNET VÀ E-LEARNING 45
+Lưu ý: việc sửa bài tập và nộp lại sẽ căn cứ vào quy định của giáo viên khi
+xây dựng môn học. Tùy vào môn học mà số lần sửa bài, giới hạn số ký tự
+trong mỗi câu trả lời và hạn nộp bài tập là khác nhau. Nếu bạn có thắc mắc
+hãy đặt câu hỏi cho giáo viên để nhận được câu trả lời.
+
+-- 45 of 54 --
+
+4.3. BẢNG ĐIỂM
+• Chọn ”Điểm” tại góc trên bên phải của trang
+NHẬP MÔN INTERNET VÀ E-LEARNING 46
+
+-- 46 of 54 --
+
+4.3. BẢNG ĐIỂM
+NHẬP MÔN INTERNET VÀ E-LEARNING 47
+• Truy cập vào môn học.
+• Bấm vào mục “Điểm số”
+
+-- 47 of 54 --
+
+4.3. BẢNG ĐIỂM
+NHẬP MÔN INTERNET VÀ E-LEARNING 48
+
+-- 48 of 54 --
+
+4.4. DIỄN ĐÀN
+• Diễn đàn là nơi học viên có thể thực hiện những việc sau:
+• Nhận những thông báo công khai của giảng viên, ban quản lý liên
+quan đến môn học
+• Theo dõi và tham gia thảo luận các chủ đề liên quan đến môn học.
+• Đặt câu hỏi, đề nghị trợ giúp công khai về các vấn để liên quan đến
+môn học.
+NHẬP MÔN INTERNET VÀ E-LEARNING 49
+
+-- 49 of 54 --
+
+4.4. DIỄN ĐÀN
+• Học viên có quyền thêm một chủ đề mới, viết bình luận tại chủ đề mà
+mình quan tâm.
+• Chú ý: Những nội dung trao đổi trên diễn đàn luôn được theo dõi và kiểm
+soát bởi cán bộ quản lý. Những nội dung không liên quan sẽ bị xóa, cấm,
+cảnh báo.
+NHẬP MÔN INTERNET VÀ E-LEARNING 50
+
+-- 50 of 54 --
+
+4.5. CHATROOM
+• Chatroom cho phép những học viên đang online có thể cùng nhau nói
+chuyện.
+NHẬP MÔN INTERNET VÀ E-LEARNING 51
+
+-- 51 of 54 --
+
+4.5.5 TRAO ĐỔI TIN NHẮN VỚI GIẢNG VIÊN
+NHẬP MÔN INTERNET VÀ E-LEARNING 52
+• Đây là chức năng để bạn gửi tin nhắn riêng tư với giáo viên phụ trách
+lớp.
+• Chọn vào biểu tượng
+• Tiếp đến bấm chọn mục Riêng
+• Bấm chọn tên giáo viên hiển thị như hình
+bên
+
+-- 52 of 54 --
+
+4.5.5 TRAO ĐỔI TIN NHẮN VỚI GIẢNG VIÊN
+• Cửa sổ nhắn tin sẽ hiển thị để bắt đầu trao đổi.
+NHẬP MÔN INTERNET VÀ E-LEARNING 53
+
+-- 53 of 54 --
+
+KẾT THÚC
+NHẬP MÔN INTERNET VÀ E-LEARNING 54
+
+-- 54 of 54 --
+

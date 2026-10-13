@@ -1,0 +1,763 @@
+1
+BÀI 4. MÔ HÌNH HỆ THỐNG E - LEARNING
+Hướng dẫn học
+Để học tốt bài nàys,inh viên cần tham khảo các phương pháp học sau:
+• Học đúng lịch trình của môn học theo tuần, làm các bài luyện tập đầy đủ và
+tham gia
+• thảo luận trên diễn đàn.
+• Sinh viên làm việc theo nhóm và trao đổi với giảng viên trực tiếp tại lớp học
+hoặc qua email. Tham khảo các thông tin từ trang Web môn học.
+Nội dung
+• Mô hình chức năng hệ thống e-learning.
+• Mô hình hệ thống e-learning.
+Mục tiêu
+• Hiểu rõ được chức năng chính của các thành phần trong mô hình chức năng hệ
+thống e-learning.
+• Hiểu rõ được cấu trúc và hoạt động của hệ thống e-learning. Trình bày được các
+chuẩn và đặc tả cho hệ thống e-learning.
+• Đánh giá được các ưu điểm, nhược điểm của hệ thống e-learning.
+Tình huống dẫn nhập
+Tình huống 1: Hình thức học e-learning
+Chị Lan đang tìm hiểu về hình thức học e-learning. Chị muốn biết hình thức học tập này
+như thế nào và có phù hợp với việc chị vừa đi làm vừa đi học không.
+1. Quy trình hoạt động của hệ thống e-learning như thế nào?
+2. Quy trình học tập e-learning của sinh viên như thế nào?
+3. Các đặc điểm của hệ thống e-learning là gì?
+Tình huống 2: Mô hình hệ thống e-learning
+Anh Hùng đang làm việc tại công ty phần mềm FTM. Anh nhận thấy e-learning có xu
+hướng phát triển mạnh mẽ tại Việt Nam và trên toàn thế giới. Anh Hùng đề xuất với công ty nên
+chuyển hướng phát triển, tham gia vào lĩnh vực cung cấp phần mềm, công cụ, học liệu và các
+giá trị gia tăng trên hệ thống e-learning. Để sản phẩm đạt được hiệu quả nhất, tích hợp được
+với nhiều hệ thống, anh Hùng và các cộng sự muốn tìm hiểu chuyên sâu về mô hình hệ thống
+e-learning.
+1. Cấu trúc và mô hình hệ thống e-learning như thế nào?
+2. Hệ thống e-learning sử dụng các chuẩn và các đặc tả nào?
+3.1. Mô hình chức năng hệ thống
+Mô hình chức năng cung cấp một cái nhìn trực quan về các thành phần tạo nên môi
+trường e-learning và những đối tượng thông tin giữa chúng. Viện nghiên cứu công nghệ giáo
+dục từ xa (ADL) đưa ra mô hình tham chiếu đối tượng nội dung chia sẻ (SCORM - Sharable
+Content Object Reference Model) và đã định nghĩa một cách khái quát về một môi trường ứng
+
+-- 1 of 20 --
+
+2
+Chuyên viên
+phát triển
+nội dung
+Giảng viên
+Sinh viên
+dụng e-learning: là một kiểu “ hệ thống quản lý học tập (LMS- Learning Management
+System)”, trong đó LMS là một hệ thống dịch vụ quản lý quá trình phân phối và theo dõi nội
+dung học tập của người học.
+SCORM không đi vào mô tả chi tiết các khối chức năng của LMS mà SCORM chỉ tập
+trung quan tâm nhiều đến các chức năng phân phối và theo dõi nội dung học trong LMS.
+Nhưng chúng ta có thể đề xuất mô hình chức năng trên cơ sở của mô hình của SCORM nhằm
+đảm bảo bao trùm hết các chức năng của một môi trường e-learning cần có. Trong SCORM
+có định nghĩa 2 phân hệ: LCMS (hệ thống quản lý nội dung học tập) và LMS (hệ thống quản
+lý học tập).
+Hình 3.1 dưới đây mô tả một cách khái quát về cấu trúc chức năng điển hình của một hệ
+thống e-learning và các đối tượng thông tin tiêu chuẩn giữa các thành phần của nó1 .
+Hình 3.1. Mô hình chức năng hệ thống E-learning
+1 Xiaofei lie và cộng sự: “An implementable arrchitecture of an E-learning system”
+Univesity of Ottawa
+3.1.1. Hệ thống quản trị nội dung học tập (LCMS)
+Một LCMS là một môi trường đa người dùng, ở đó các cơ sở phát triển nội dung có thể
+tạo ra, lưu trữ, sử dụng lại, quản lý và phân phối nội dung học tập trong môi trường số từ một
+kho dữ liệu trung tâm.
+LCMS cho phép người dùng tạo ra và sử dụng lại những đơn vị nội dung nhỏ trong kho
+dữ liệu trung tâm. Việc sử dụng các cấu trúc siêu dữ liệu học được chuẩn hoá, cộng với các
+khuôn dạng truy xuất đơn vị kiến thức được chuẩn hoá cũng cho phép các đơn vị kiến thức
+được tạo ra và chia sẻ bởi các phần mềm công cụ đa năng và các kho dữ liệu học tập.
+
+-- 2 of 20 --
+
+3
+Để cung cấp khả năng tương hợp (interoperability) giữa các hệ thống, LCMS được thiết
+kế sao cho phù hợp với các tiêu chuẩn về siêu dữ liệu nội dung, đóng gói nội dung và truyền
+thông nội dung.
+3.1.2. Hệ thống quản trị học tập (LMS)
+LMS như là một hệ thống dịch vụ quản lý việc phân phối và tìm kiếm nội dung học tập
+cho người học, tức là LMS quản lý các quá trình học tập.
+LMS cần trao đổi thông tin về hồ sơ người sử dụng và thông tin đăng nhập của người sử
+dụng với các hệ thống khác. LMS lấy thông tin về vị trí của khoá học từ LCMS và về các hoạt
+động của sinh viên từ LCMS.
+Yêu cầu về chức năng của một hệ thống LMS điển hình có thể được liệt kê tóm tắt
+như sau:
+(1) Yêu cầu chung
+o Có khả năng nâng cấp lên số lượng người dùng và số lượng bản ghi người dùng
+không hạn chế.
+o Được thiết kế để người dùng thông thường (chẳng hạn giáo viên) có thể sử dụng.
+o Được thiết kế dưới dạng ứng dụng Web để có thể truy nhập từ mọi máy tính có sử
+dụng trình duyệt.
+o Hỗ trợ đa ngôn ngữ; yêu cầu cơ bản là tiếng Anh và tiếng Việt; có khả năng nâng cấp
+để hỗ trợ bất cứ ngôn ngữ nào, không phân biệt mẫu ký tự (la tinh, tượng hình).
+(2) Yêu cầu kỹ thuật oTương thích với các trình duyệt chuẩn.
+o Có khả năng tích hợp với hệ thống ERP, HR, CRM hoặc các hệ thống doanh nghiệp
+khác.
+o Được thiết kế theo module để có thể dễ dàng nâng cấp trong tương lai.
+o Được thiết kế để người học có thể tham gia học tập qua đường thoại thông thường.
+o Có khả năng tích hợp ứng dụng thư điện tử và có khả năng trao đổi thư điện tử với
+mọi hệ thống thư điện tử chuẩn.
+(3) Yêu cầu điều khiển truy nhập và bảo mật
+o Hỗ trợ các giao thức truy nhập và chứng thực, hạn chế truy nhập bằng ID người
+dùng và mật khẩu truy nhập.
+o Ngăn chặn các đăng ký trái phép.
+o Bảo vệ được nội dung, kế hoạch và thông tin đào tạo trong trường hợp hệ thống bị
+phá hủy do vô tình hoặc cố ý.
+o Hạn chế truy nhập tới các bản ghi đào tạo cá nhân. Chỉ đúng người học, người giám
+sát và người quản lý chương trình đào tạo mới có thể truy nhập tới các bản ghi cá nhân đó.
+o Có khả năng hạn chế truy nhập tới dữ liệu/nội dung theo người dùng. o Hỗ trợ kiến
+trúc bảo mật đa lớp (ít nhất là 2 lớp) cho ứng dụng Web.
+(4) Yêu cầu giao diện người dùng
+o Hỗ trợ giao diện người dùng trên cơ sở trình duyệt Web, có khả năng tùy chỉnh và
+thân thiện người dùng.
+o Cho phép thiết lập nhiều giao diện riêng biệt cho các nhóm người dùng khác nhau.
+
+-- 3 of 20 --
+
+4
+o Cung cấp phương tiện để người dùng tự thiết lập giao diện của mình mà không cần
+đến sự trợ giúp của đội ngũ kỹ thuật.
+o Chỉ hiện thị các chức năng và tùy chọn tương ứng với vai trò của người dùng khi
+đăng nhập hệ thống.
+o Hỗ trợ chức năng trợ giúp và hướng dẫn trực tuyến.
+(5) Yêu cầu chức năng
+o Chức năng chung
+▪ Có khả năng cung cấp các khóa học cho sinh viên.
+▪ Có khả năng tự động kiểm tra xung đột lịch trình sử dụng tài nguyên, gồm phương
+tiện, thiết bị và con người.
+▪ Có khả năng tạo và duy trì các thông tin chi tiết về giáo viên, gồm lý lịch, thông tin
+liên lạc và địa chỉ thư điện tử...
+▪ Cung cấp chức năng để người quản trị có thể lên thời khóa biểu cho giáo viên.
+▪ Có khả năng giám sát trình độ chuyên môn và bằng cấp của giáo viên.
+▪ Cung cấp diễn đàn nội bộ, thư điện tử cục bộ và chat trực tuyến.
+▪ Có khả năng tính học phí. oChức năng đăng ký, giám sát
+▪ Cho phép người quản trị thiết lập nhiều loại khóa học khác nhau (ILT –
+Information and Learning Technology, đồng bộ, không đồng bộ...).
+▪ Cho phép người quản trị lên thời khóa biểu cho các lớp ILT.
+▪ Cho phép quản lý phòng học và kiểm tra xung đột trong việc sử dụng phòng học.
+▪ Cho phép sinh viên xem danh sách và đăng ký các khóa học ILT, đồng bộ và không
+đồng bộ.
+▪ Hỗ trợ khả năng đăng ký nhóm.
+▪ Hệ thống phải có khả năng xác nhận lập tức thông qua e-mail đối với việc đăng ký
+học.
+▪ Cho phép người quản trị chỉ rõ khóa học nào là bắt buộc và khóa học nào là có thể
+chọn.
+▪ Hệ thống phải có khả năng ngăn chặn các đăng ký lặp (đăng ký hai lần).
+▪ Có khả năng theo dõi sự có mặt của sinh viên.
+▪ Cho phép người quản trị soạn chính sách đăng ký khóa học để thiết lập và quản lý
+các quá trình đăng ký học phức tạp.
+▪ Có khả năng tự động thông báo trong trường hợp xác nhận, hủy bỏ, nhắc nhở hoặc
+thay đổi phòng học.
+▪ Có khả năng tự động cập nhật trạng thái lớp học khi có thay đổi.
+▪ Cho phép giáo viên xem lại sinh viên và các số liệu thống kê.
+▪ Có khả năng cho phép các nhóm người học đăng ký học một chương trình gồm
+nhiều khóa học.
+▪ Cung cấp chức năng tìm kiếm trong danh mục khóa học.
+▪ Cho phép sinh viên xem kết quả học tập.
+
+-- 4 of 20 --
+
+5
+▪ Cho phép sinh viên xem tin tức và thông báo trên trang chủ.
+▪ Cho phép sinh viên xem lại kế hoạch đào tạo cá nhân.
+o Chức năng báo cáo
+▪ Có báo cáo đánh giá khóa học.
+▪ Có báo cáo hàng tuần về trạng thái của sinh viên (sinh viên đang học, module hoàn
+thành, số liệu về đăng nhập...).
+▪ Có báo cáo về từng sinh viên (thời gian đăng nhập, module và bài kiểm tra đã hoàn
+thành).
+▪ Có báo cáo về điểm kiểm tra trung bình, tổng cộng hoặc theo từng module.
+▪ Có khả năng tạo các báo cáo đặc biệt khi cần.
+▪ Có thể thay đổi các báo cáo đã định nghĩa trước.
+▪ Cho phép xuất báo cáo ra dạng bảng tính.
+▪ Cho phép tự động tạo báo cáo và chuyển đến màn hình của người học, người quản
+lý hoặc người quản trị.
+▪ Cho phép xem báo cáo trực tuyến, in ra hoặc xuất ra.
+o Chức năng chuẩn hoá E-learning
+▪ Có khả năng tích hợp và giám sát các khóa học theo chuẩn SCORM và AICC.
+▪ Hỗ trợ các khóa học từ các nhà cung cấp thứ 3.
+▪ Hỗ trợ các khóa học được phát triển bằng ToolBook, Authorware, Dreamweaver và
+các công cụ đóng gói khác.
+o Chức năng quản lý chương trình giảng dạy
+▪ Hỗ trợ tạo và triển khai các chương trình đào tạo pha trộn, gồm ILT, đồng bộ,
+không đồng bộ...
+▪ Có khả năng thiết lập các điều kiện tiên quyết.
+▪ Cho phép tạo và giám sát các kế hoạch học tập.
+▪ Cho phép người quản lý khóa học và lớp học thi hành từ xa.
+▪ Cung cấp các bản mẫu lập lịch trình khóa học.
+o Chức năng kiểm tra
+Hỗ trợ các dạng câu hỏi sau: đa lựa chọn; đúng/sai; điền vào chỗ trống; kéo thả; câu trả
+lời ngắn.
+▪ Các câu hỏi kiểm tra có chứa hình ảnh, hoạt hình, âm thanh hoặc video.
+▪ Cho phép chọn ngẫu nhiên câu hỏi.
+▪ Có phản hồi và chấm điểm.
+▪ Câu hỏi có chứa gợi ý cho sinh viên.
+▪ Có khả năng giới hạn số lần thực hiện một câu kiểm tra.
+▪ Cho phép các câu hỏi có số điểm khác nhau.
+▪ Cho phép tạo các bài kiểm tra hỗn hợp, gồm đa lựa chọn, đúng/sai, điền vào chỗ
+trống hoặc câu trả lời ngắn.
+
+-- 5 of 20 --
+
+6
+▪ Cho phép kiểm tra đánh giá trước, trong và sau khi tham gia khóa học.
+▪ Cho phép giới hạn thời gian thực hiện bài kiểm tra.
+▪ Có thể hỗ trợ các dạng bài kiểm tra phức tạp như bài luận.
+▪ Kết quả kiểm tra phải được lưu lại trong cơ sở dữ liệu.
+Trên cơ sở các đặc tính của dịch vụ Web, người ta thấy rằng các dịch vụ Web có khả
+năng tốt để thực hiện tính năng liên kết, tương hợp của các hệ thống E-learning bởi các lý do
+sau:
+o Thông tin trao đổi giữa các hệ thống e-learning như siêu dữ liệu về đơn vị kiến thức
+(LOM), đóng gói nội dung IMS đều tuân thủ tiêu chuẩn XML.
+o Mô hình kiến trúc Web là nền tảng và độc lập về ngôn ngữ với e-learning. Nó cho
+phép tăng cường sự tương hợp và mở rộng trên cơ sở hạ tầng mạng và các ứng dụng khác
+nhau sẵn có trên thị trường e-learning.
+o Mô hình kiến trúc Web cho phép phát triển và sử dụng Intranet cũng như các dịch
+vụ Internet công cộng. Điều đó cho phép việc lựa chọn các công nghệ mạng là hoàn toàn trong
+suốt đối với các đơn vị phát triển nội dung và các nhà cung cấp dịch vụ.
+Kiến trúc e – elearning sử dụng công nghệ dịch vụ Web để thực hiện tượng hợp giữa
+LCMS và LMS cho thấy các hệ thống e-learrning khác nhau trao đổi các bản tin thông qua sự
+tương tác của các tác nhân (agent) dịch vụ Web trong mỗi hệ thống. Nhà cung cấp dịch vụ
+người dùng là đơn vị cung cấp hạ tầng máy chủ truy nhập tới dịch vụ elearning. Nhà cung cấp
+nội dung là các cơ sở đào tạo tham gia thị trường e-learning.
+3.2. Mô hình hệ thống e-learning1
+3.2.1. Mô hình hệ thống e-learning
+Một cách tổng thể một hệ thống e-learning bao gồm 3 phần chính:
+• Hạ tầng truyền thông và mạng: Bao gồm các thiết bị đầu cuối người dùng (sinh viên),
+thiết bị tại các cơ sở cung cấp dịch vụ, mạng truyền thông...
+• Hạ tầng phần mềm: Các phần mềm LMS, LCMS (ví dụ đơn giản như MacroMedia,
+Authorware, Toolbook...).
+• Nội dung đào tạo (hạ tầng thông tin): Đây là phần quan trọng của e-learning bao
+gồm nội dung các khoá học, các phần mềm dạy học (courseware)...
+
+-- 6 of 20 --
+
+7
+Hình 3.2. Các thành phần của hệ thống e - learning
+Một ví dụ về mô hình hạ tầng phần cứng cho mạng trung tâm của một hệ thống e-
+learning điển hình được cho ở hình 3.3 dưới đây.
+
+-- 7 of 20 --
+
+8
+Hình 3.3: Mô hình mạng trung tâm cho hệ thống e-learning Mô tả chức năng một số
+thiết bị mạng
+Tài nguyên Chức năng
+Web Server
+• Làm Web hosting, cung cấp các dịch vụ truy cập qua Web.
+• Thực hiện phân loại và chuyển hướng các kết nối truy nhập
+hệ thống.
+Database Server
+• Quản trị và lưu trữ dữ liệu về các dịch vụ E-learning.
+• Cung cấp dịch vụ truy xuất dữ liệu hệ thống và tự động thực
+hiện lịch backup dữ liệu.
+• Đồng bộ hoá dữ liệu với Database Server của các nhà cung
+cấp khác.
+Content Server
+• Quản lý và lưu trữ dữ liệu bài học multimedia của toàn bộ
+hệ thống đào tạo từ xa qua Web.
+• Cung cấp các dịch vụ truy xuất dữ liệu multimedia.
+Authoring Server
+Mail Server
+• Quản trị và lưu trữ dữ liệu thư điện tử của riêng hệ thống.
+• Cung cấp các dịch vụ gửi nhận thư của riêng hệ thống đào
+tạo từ xa qua Web.
+Tape Backup Thực hiện sao lưu cơ sở dữ liệu dịch vụ, dữ liệu multimedia
+dùng cho việc lưu trữ, phòng tránh lỗi hệ thống.
+Router Làm Internet Gateway của hệ thống.
+Firewall Làm bức tường lửa bảo vệ hệ thống chống lại các truy nhập
+không hợp lệ.
+Switch Làm đầu kết nối cho hệ thống server và phòng soạn bài giảng,
+phòng quản trị hệ thống.
+Load Balancing Thực hiện phân tải các yêu cầu truy xuất dữ liệu multimedia.
+Phát triển e-learning đòi hỏi chi phí rất lớn trong giai đoạn đầu do phải trang trải nhiều
+chi phí: như chi phí xây dựng hạ tầng phần cứng, chi phí hạ tầng phần mềm LMS, LCMS, chi
+phí phát triển nội dung, chi phí xây dựng, đào tạo đội ngũ…
+Khi xây dựng các hệ thống e-learning, cần tuân theo các chuẩn để các hệ thống e-
+learning đáp ứng các khả năng sau:
+• Khả năng tương hợp (Interoperability) với hệ thống khác.
+• Khả năng tái sử dụng (Re-usability).
+• Khả năng quản lý (Manageability) sinh viên, nội dung học tập.
+• Khả năng truy nhập (Accessibility).
+
+-- 8 of 20 --
+
+9
+3.2.2. Các chuẩn và đặc tả cho hệ thống e-learning
+Các chuẩn và đặc tả là thành phần kết nối tất cả các thành phần của hệ thống e-learning.
+LMS, LCMS, công cụ soạn bài giảng, và kho chứa bài giảng sẽ hiểu nhau và tương tác được
+với nhau thông qua các chuẩn/đặc tả. Chuẩn và đặc tả e-learning cũng đang phát triển rất
+nhanh tạo điều kiện cho các công ty và tổ chức tạo ra ngày càng nhiều sản phẩm e-learning, và
+người dùng có rất nhiều sự lựa chọn.
+Người phát triển khóa học tạo ra các module đơn lẻ, sau đó các đối tượng quản lý hoặc
+sinh viên sẽ tích hợp lại thành một khóa học thống nhất.
+• Các chuẩn cho phép ghép các khóa học tạo bởi các công cụ khác nhau bởi các nhà
+sản xuất khác nhau thành các gói nội dung (packages) được gọi là các chuẩn đóng gói
+(packaging standards). Các chuẩn này cho phép hệ thống quản lý nhập và sử dụng được các
+các khóa học khác nhau.
+• Nhóm chuẩn thứ hai cho phép các hệ thống quản lý đào tạo hiển thị từng bài học đơn
+lẻ. Hơn nữa, có thể theo dõi được kết quả kiểm tra của sinh viên, quá trình học tập của sinh
+viên. Những chuẩn như thế được gọi là chuẩn trao đổi thông tin (communication standards),
+chúng quy định đối tượng học tập và hệ thống quản lý trao đổi thông tin với nhau như thế nào.
+• Nhóm chuẩn thứ ba quy định cách mà các nhà sản xuất nội dung có thể mô tả các
+khóa học và các module của mình để các hệ thống quản lý có thể tìm kiếm và phân loại được
+khi cần thiết. Chúng được gọi là các chuẩn metadata (metadata standards).
+• Nhóm chuẩn thứ tư nói đến chất lượng của các module và các khóa học. Chúng được
+gọi là chuẩn chất lượng (quality standards), kiểm soát toàn bộ quá trình thiết kế khóa học
+cũng như khả năng hỗ trợ của khóa học với những người tàn tật.
+3.2.2.1. Chuẩn đóng gói
+Chuẩn đóng gói mô tả các cách ghép các đối tượng học tập riêng rẽ để tạo ra một bài
+học, khóa học, hay các đơn vị nội dung khác, sau đó vận chuyển và sử dụng lại được trong
+nhiều hệ thống quản lý khác nhau (LMS/LCMS). Các chuẩn này đảm bảo hàng trăm hoặc
+hàng nghìn file được gộp và cài đặt đúng vị trí.
+Chuẩn đóng gói e-learning bao gồm:
+• Cách để ghép nhiều đơn vị nội dung khác nhau thành một gói nội dung duy nhất.
+Các đơn vị nội dung có thể là các khóa học, các file HTML, ảnh, multimedia, style sheet, và
+mọi thứ khác xuống đến một icon nhỏ nhất.
+• Gồm thông tin mô tả tổ chức của một khóa học hoặc module sao cho có thể nhập
+vào được hệ thống quản lý và hệ thống quản lý có thể hiển thị một menu mô tả cấu trúc của
+khóa học và sinh viên sẽ học dựa trên menu đó.
+• Gồm các kĩ thuật hỗ trợ chuyển các khóa học hoặc module từ hệ thống quản lý này
+sang hệ thống quản lý khác mà không phải cấu trúc lại nội dung bên trong.
+
+-- 9 of 20 --
+
+10
+Các chuẩn đóng gói phổ biến:
+Tổ chức Nhận xét
+AICC
+(Aviation Industry CBT Committee)
+Để đảm bảo các khóa học khả chuyển khi
+tuân theo chuẩn AICC đòi hỏi phải có
+nhiều file, tuỳ thuộc vào mức độ phức
+tạp. Cụ thể là bao gồm file mô tả khóa
+học, các đơn vị nội dung khác, các file
+mô tả, file cấu trúc khóa học, các file
+điều kiện... Chuẩn này có thể thiết kế các
+cấu trúc phức tạp cho nội dung. Tuy
+nhiên, các nhà phát triển phàn nàn rằng
+chuẩn này rất phức tạp khi thực thi và nó
+không hỗ trợ sử dụng lại các module ở
+mức thấp.
+IMS Global Consortium
+Ngược lại, đặc tả IMS Content and
+Packaging đơn giản hơn và chặt chẽ hơn.
+Đặc tả này được cộng đồng E-learning
+chấp nhận và thực thi rất nhiều. Một số
+phần mềm như Microsoft LRN Toolkit
+hỗ trợ thực thi đặc tả này.
+SCORM (Sharable Content Object Reference Model) SCORM kết hợp nhiều đặc tả khác nhau
+trong đó có IMS Content and Packaging.
+SCORM có nhiều phiên bản (1.1; 1.2;
+2004). Hiện tại đa số các sản phẩm E
+learning đều hỗ trợ SCORM. SCORM là
+chuẩn đóng gói được sử dụng nhiều
+nhất.
+Chuẩn đóng gói nội dung SCORM
+
+-- 10 of 20 --
+
+11
+Cả SCORM và IMS đều dùng đặc tả IMS Content and Packaging. Bộ công cụ Mirosoft
+LRN Toolkit hỗ trợ đặc tả này.
+Cốt lõi của đặc tả Content Packaging là một file manifest. File manifest này phải được
+đặt tên là imsmanifest.xml. Như phần đuôi file đã đưa ra, file này phải tuân theo các luật XML
+về cấu trúc bên trong và định dạng.
+Trong file này có bốn phần chính:
+• Phần Meta-data ghi các thông tin cụ thể về gói.
+• Phần Organizations là nơi mô tả cấu trúc nội dung chính của gói. Nó gần như một
+bảng mục lục. Nó tham chiếu tới các các tài nguyên và các manifest con khác được mô tả chi
+tiết hơn ở phần dưới.
+• Phần tiếp theo là Resources. Nó bao gồm các mô tả chỉ tới các file khác được đóng
+cùng trong gói hoặc các file khác ở ngoài (như là các địa chỉ Web chẳng hạn).
+• Sub-manifests mô tả hoàn toàn các gói được gộp vào bên trong gói chính. Mỗi sub-
+manifest cũng có cùng cấu trúc bao gồm Meta-data, Organizations, Resources,
+và Sub-manifests. Do đó manifest có thể chứa các sub-manifest và các submanifest có
+thể chứa các sub-manifes khác nữa.
+Đặc tả này cho phép gộp nhiều khóa học và các thành phần cao cấp khác từ các bài học
+đơn lẻ, các chủ đề, và các đối tượng học tập mức thấp khác.
+Đặc tả này cũng cung cấp các kĩ thuật gộp manifest và các file thành một gói vật lý. Các
+định dạng file được khuyến cáo để ghép các file riêng rẽ là PKZIP (ZIP) file, Jar file (JAR),
+hoặc cabinet (CAB) file. Phương pháp thực thi một chuẩn theo một công nghệ cụ thể được gọi
+là binding và không phải là phần lõi của chuẩn.
+Có thể dùng các công cụ để hỗ trợ đóng gói theo chuẩn, ví dụ như: ReloadEditor (là
+phần mềm mã nguồn mở, cho phép tạo và chỉnh sửa các gói tuân theo đặc tả SCORM 1.2,
+SCORM 2004); eXe (là phần mềm mã nguồn mở, công cụ soạn bài giảng dễ sử dụng, không
+cần các kiến thức về HTML và XML).
+
+-- 11 of 20 --
+
+12
+3.2.2.2. trao đổi thông tin
+Trong e - learning, các chuẩn trao đổi thông tin xác định một ngôn ngữ mà hệ thống
+quản lý đào tạo có thể trao đổi thông tin được với các module.
+Chuẩn trao đổi thông tin bao gồm 2 phần: giao thức và mô hình dữ liệu. Giao thức xác
+định các luật quy định cách mà hệ thống quản lý và các đối tượng học tập trao đổi thông tin với
+nhau. Ví dụ: cách xác lập thời điểm bắt đầu và kết thúc trạng thái sử dụng, các luồng thông tin
+trao đổi… Mô hình dữ liệu xác định dữ liệu dùng cho quá trình trao đổi như điểm kiểm tra, tên
+sinh viên, mức độ hoàn thành của sinh viên...
+Hai tổ chức chính đưa ra các chuẩn liên kết được thực thi nhiều trong các hệ thống quản
+lý học tập gồm:
+Aviation Industry CBT Committee (AICC)
+AICC có hai chuẩn liên quan, gọi là AICC Guidelines và Recommendations (AGRs).
+AGR006 đề cập tới computer-managed instruction (CMI). Nó được áp dụng cho các đào tạo
+dựa trên Web, mainframe, đĩa. AGR010 chỉ tập trung vào đào tạo dựa trên Web.
+SCORM
+Đặc tả ADL SCORM bao gồm RTE (Runtime Environment) quy định sự trao đổi giữa
+hệ thống quản lý đào tạo và các SCO (Sharable Content Object - Đối tượng nội dung có thể
+chia sẻ được) tương ứng với một module.
+3.2.2.3. Chuẩn meta-data
+Metadata là dữ liệu về dữ liệu (siêu dữ liệu). Với e-learning, metadata mô tả các khóa
+học và các module. Các chuẩn metadata cung cấp các cách để mô tả các module e - learning
+mà các sinh viên và người soạn bài có thể tìm thấy module họ cần.
+Metadata giúp nội dung e -learning hữu ích hơn đối với người bán, người mua, sinh
+viên, và người thiết kế. Metadata cung cấp một cách chuẩn mực để mô tả các khóa học, các
+bài, các chủ đề, và media. Những mô tả đó sẽ được dịch ra thành các catalog hỗ trợ cho việc
+tìm kiếm được nhanh chóng và dễ dàng.
+Metadata cho phép phân loại các khóa học, bài học, và các module khác. Metadata có
+thể giúp người soạn bài tìm nội dung họ cần và sử dụng ngay hơn là phải phát triển từ đầu.
+Hiện nay có 3 đặc tả metadata đã được đưa ra và có các sản phẩm thực thi chúng trong
+thực tế, bao gồm:
+• IEEE 1484.12 Learning Object Metadata Standard (http://www.ieee.org).
+• IMS Learning Resources Meta-data Specification (http://www.imsglobal.org).
+• SCORM Meta-data standards (http://www.adlnet.org).
+(Cũng lưu ý thêm là các tổ chức cũng chưa thống nhất về cách viết: meta-data hoặc
+metadata. IMS và SCORM dùng meta-data, trong khi đó IEEE và đa số các tổ chức khác dùng
+metadata).
+Trong ba đặc tả metadata liệt kê ở trên, IEEE metadata có thể coi là đặc tả duy nhất
+được chứng nhận như là một chuẩn.
+Các thành phần cơ bản của metadata
+Các chuẩn metadata xác định nhiều thành phần yêu cầu và tuỳ chọn. Một số thành phần
+
+-- 12 of 20 --
+
+13
+chính trong chuẩn IEEE 1484.12 được mô tả như sau:
+1. Title (tên chính thức của khóa học).
+2. Language (ngôn ngữ được sử dụng bên trong khóa học và có thể có thông tin thêm).
+3. Description (mô tả về khóa học).
+4. Keyword (các từ khoá hỗ trợ cho việc tìm kiếm thông tin).
+5. Structure (mô tả cấu trúc bên trong của khóa học: tuần tự, phân cấp, và nhiều hơn
+nữa).
+6. Aggregation Level (xác định kích thước của đơn vị: là khóa học, bài học, chủ đề).
+7. Version (phiên bản của khóa học).
+8. Format (quy định các định dạng file được dùng trong khóa học).
+9. Size (kích thước tổng của toàn bộ các file có trong khóa học).
+10. Location (địa chỉ Web mà sinh viên có thể truy cập khóa học).
+11. Requirement (liệt kê các thứ như trình duyệt và hệ điều hành cần thiết để có thể tham
+gia khóa học).
+12. Duration (quy định cần bao nhiêu thời gian để tham gia khóa học).
+13. Cost (chi phí cho khóa học).
+3.2.2.4. Chuẩn chất lượng
+Các chuẩn chất lượng liên quan tới thiết kế khóa học và các module cũng như khả năng
+truy cập được của các khóa học đối với mọi người sử dụng. Các chuẩn chất lượng đảm bảo
+rằng e-learning có những đặc điểm nhất định nào đó hoặc được tạo ra theo một quy trình nào
+đó. Các chuẩn chất lượng đảm bảo các đối tượng học tập không chỉ sử dụng lại được mà sử
+dụng được ngay từ những lần học đầu tiên.
+Các chuẩn thiết kế e-learning
+Chuẩn chất lượng thiết kế chính cho e-learning là e-learning Courseware Certification
+Standards của ASTD e-learning Certification Institue. Certification Institue chứng nhận rằng
+các khóa học e-learning tuân theo một số chuẩn nhất định như thiết kế giao diện, tương thích
+với các hệ điều hành và các công cụ chuẩn, chất lượng sản xuất, và thiết kế giảng dạy.
+Các chuẩn về tính truy cập được
+Các chuẩn này liên quan tới làm như thế nào để công nghệ thông tin có thể truy cập
+được với những người tàn tật, chẳng hạn như những người bị hỏng mắt, nghe kém, không có
+sự kết hợp tốt giữa mắt và tay, không đọc được. Hiện tại, không có các chuẩn dành riêng cho
+e-learning, tuy nhiên e-learning có thể tận dụng các chuẩn dùng cho công nghệ thông tin và
+nội dung Web.
+3.2.3. Hoạt động của hệ thống e-learning
+Qui trình hoạt động của hệ thống e-learning
+Căn cứ vào mô hình chức năng và mô hình hệ thống, hoạt động của hệ thống e-learning
+có thể được mô tả như sau:
+
+-- 13 of 20 --
+
+14
+Hình 3.4. Cấu trúc điển hình cho E-learning
+Từng thành phần trong hệ thống sẽ thực hiện những hoạt động cụ thể như sau:
+• Giảng viên(A): cung cấp nội dung khoá học cho phòng xây dựng nội dung (C) dựa
+trên những học tập kết quả dự kiến nhận từ phòng quản lý đào tạo (D). Ngoài ra, họ sẽ tham
+gia tương tác với sinh viên (b) thông qua hệ thống quản lý học tập (LMS).
+• Sinh viên (B): Sử dụng cổng thông tin người dùng để học tập, trao đổi với giảng
+viên (qua hệ thống LMS (2)), sử dụng các công cụ hỗ trợ học tập.
+Quy trình sinh viên học tập trên hệ thống E-learning gồm 3 bước như sau (Hình 3.5):
+o Đăng ký học tập. o Tìm hiểu thông tin lớp học. oHọc tập.
+• Phòng biên tập, xây dựng chương trình (C): Các kỹ thuật viên đảm nhận trách
+nhiệm xây dựng, thiết kế bài giảng điện tử theo chuẩn SCORM (thiết kế kịch bản, soạn thảo
+nội dung, sử dụng kỹ thuật tích hợp multimedia để xây dựng bài giảng). Sử dụng hệ thống
+quản lý LMS, kỹ thuật viên lấy nội dung bài giảng từ các giảng viên (A) và chuyển chúng
+thành các bài giảng điện tử. Trong quá trình xây dựng, họ có thể sử dụng những đơn vị kiến
+thức có sẵn trong ngân hàng kiến thức (I) hoặc dùng các công cụ thiết kế (4) để thiết kế các
+đơn vị kiến thức mới. Sản phẩm cuối cùng là các bài giảng điện tử được đưa vào ngân hàng
+bài giảng điện tử (II).
+• Phòng quản lý đào tạo (D): Các chuyên viên đảm trách nhiệm vụ quản lý việc đào
+tạo (qua hệ thống LMS–2). Ngoài ra thông qua hệ thống này, họ cần phải tập hợp được các
+nhu cầu, nguyện vọng của sinh viên về chương trình và nội dung học tập để lập nên những yêu
+cầu cho đội ngũ giảng viên, tạo nên một chu trình kín góp phần liên tục cập nhật, nâng cao chất
+lượng giảng dạy.
+• Cổng thông tin người dùng (hay còn gọi là user’s portal): Giao diện chính cho sinh
+viên (B), giảng viên (A) cũng như các phòng (C) (D) truy cập vào hệ thống đào tạo. Giao diện
+này hỗ trợ truy cập qua Internet từ máy tính cá nhân hoặc thậm chí các thiết bị di động thế hệ
+mới (mobile).
+
+-- 14 of 20 --
+
+15
+• Hệ thống quản lý nội dung LCMS–Learning Content Managerment System (1):
+giảng viên (A) và phòng xây dựng chương trình (C) cùng hợp tác trong môi trường đa người
+dùng này để xây dựng nội dung bài giảng điện tử. LCMS được kết nối với các ngân hàng kiến
+thức (I) và ngân hàng bài giảng điện tử (II).
+• Hệ thống quản lý học tập LMS – Learning Managerment System (2): Khác với
+LCMS chỉ tập trung vào xây dựng và phát triển nội dung, LMS ̉ hỗ trợ cho việc học tập cũng
+như quản lý học tập của sinh viên. Các dịch vụ như đăng ký, giúp đỡ, kiểm tra... cũng được
+tích hợp vào đây. Vì vậy LMS là giao diện chính cho sinh viên học tập cũng như phòng quản
+lý đào tạo quản lý việc học tập của sinh viên.
+• Các công cụ khác hỗ trợ học tập (3): Bao gồm các công cụ hỗ trợ cho việc học tập
+của sinh viên như thư viện điện tử, phòng thực hành ảo, trò chơi... Trên thực tế chúng có thể
+được tích hợp vào hệ thống LMS.
+• Các công cụ thiết kế bài giảng điện tử (4): Dùng để hỗ trợ việc xây dựng và thiết
+kế bài giảng điện tử bao gồm các thiết bị dùng cho studio (máy ảnh, máy quay phim, máy ghi
+âm...), cho đến các phần mềm chuyên dụng để xử lý multimedia cũng như để thiết kế xây
+dựng bài giảng điện tử và lập trình. Đây chính là những công cụ chính hỗ trợ cho phòng xây
+dựng chương trình (C).
+• Ngân hàng kiến thức (I): Là cơ sở dữ liệu lưu trữ các đơn vị kiến thức cơ bản, có
+thể được tái sử dụng trong nhiều bài giảng điện tử khác nhau. Phòng xây dựng chương trì̀nh
+(C) sẽ thông qua hệ thống LCMS (1) để tìm kiếm, chỉnh sửa, cập nhật cũng như quản lý ngân
+hàng dữ liệu này.
+Hình 3.5: Quy trình học tập e-learning của sinh viên
+• Ngân hàng bài giảng điện tử (II): Là cơ sở dữ liệu lưu trữ các bài giảng điện tử.
+Các sinh viên sẽ truy cập đến cơ sở dữ liệu này thông qua hệ thống LMS (2).
+3.2.4. Các đặc điểm của hệ thống e-learning
+Về bản chất, có thể coi e-learning cũng là một hình thức đào tạo từ xa. Vì vậy nó có
+
+-- 15 of 20 --
+
+16
+những đặc điểm khác biệt chung của đào tạo từ xa so với đào tạo truyền thống. Bên cạnh đó,
+việc áp dụng kết hợp những công nghệ hiện đại giúp cho e-learning có những đặc điểm nổi
+bật so với đào tạo truyền thống được liệt kê ở dưới đây:
+• Học mọi lúc, mọi nơi: Sự phổ cập rộng rãi của Internet đã dần xoá đi khoảng cách
+về thời gian và không gian cho e-learning. Một khoá học e-learning được chuyển tải qua mạng
+tới máy tính của người học, điều này cho phép các sinh viên học bất cứ lúc nào và bất cứ nơi
+đâu.
+• Học liệu hấp dẫn: Với sự hỗ trợ của công nghệ multimedia, những bài giảng tích
+hợp text, hình ảnh minh hoạ, âm thanh tăng thêm tính hấp dẫn của bài học. Người học giờ đây
+không chỉ còn nghe giảng mà còn được xem những ví dụ minh hoạ trực quan, thậm chí còn có
+thể tiến hành tương tác với bài học nên khả năng nắm bắt kiến thức cũng tăng lên.
+• Linh hoạt về khối lượng kiến thức cần tiếp thu: Một khoá học e-learning được phục
+vụ theo nhu cầu người học, chứ không nhất thiết phải bám theo một thời gian biểu cố định. Vì
+thế người học có thể tự điều chỉnh quá trình học, lựa chọn cách học phù hợp nhất với hoàn
+cảnh của mình.
+• Nội dung thay đổi phù hợp cho từng cá nhân: Danh mục bài giảng đa dạng sẽ cho
+phép sinh viên lựa chọn đơn vị tri thức, tài liệu một cách tuỳ ý theo trình độ kiến
+thức và điều kiện truy nhập mạng của mình. Sinh viên tự tìm ra các kĩ năng học cho
+riêng mình với sự giúp đỡ của những tài liệu tự học được phát và tài liệu trực tuyến.
+• Cập nhật mới nhanh: Nội dung khoá học thường xuyên được cập nhật và đổi mới
+nhằm đáp ứng và phù hợp tốt nhất cho sinh viên.
+• Học có sự hợp tác, phối hợp: Các sinh viên có thể dễ dàng trao đổi với nhau qua
+mạng trong quá trình học, trao đổi giữa các sinh viên và với giảng viên. Các trao đổi này hỗ trợ
+tích cực cho quá trình học tập của sinh viên.
+• Tiến trình học được theo dõi chặt chẽ và cung cấp công cụ tự đánh giá: Các lớp
+học E-learning cung cấp cho người học kế hoạch học tập chi tiết đến từng tuần. Cung cấp các
+công cụ điện tử để tự đánh giá (Ví dụ trắc nghiệm trực tuyến; Bài tập trực tuyến). Cho phép
+lưu vết các hoạt động của người học.
+• Các dịch vụ đào tạo được triển khai đồng bộ: Trên nền tảng của hệ thống e-learning
+các dịch vụ phục vụ đào tạo cũng được triển khai đồng bộ như dịch vụ giải đáp trực tuyến; tư
+vấn học tập; tư vấn hướng nghiệp; hỗ trợ tìm kiếm việc làm…
+Ngoài ra, e-learning cũng có một số cách học khác. Ví dụ như, các lớp học thông qua
+trang Web dùng phần mềm hội thảo video trên mạng, và các phần mềm khác cho phép sinh
+viên ở xa tham gia một khoá học trên lớp học truyền thống. Một số khoá học trên trang Web
+theo yêu cầu có giảng viên (hoặc người hướng dẫn) tương tác thường xuyên với từng sinh
+viên hoặc với các nhóm sinh viên.
+Năm 2012, Hội đồng nghiên cứu e-learning Hoa Kỳ (Sloan Consortium) đã đưa ra một
+phân loại các lớp học như sau:
+
+-- 16 of 20 --
+
+17
+Nhóm
+Phần trăm nội
+dung được truyền
+tải qua Internet
+Phân loại lớp học Mô tả
+A 0% Lớp học truyền
+thống
+Không có nội dung được truyền tải bằng
+công nghệ Internet. Tất cả là trực tiếp.
+B 1 – 29% Sử dụng công nghệ
+Internet
+Sử dụng công nghệ Internet để đăng tải
+các học liệu như đề cương, bài tập, bài
+giảng. Sinh viên và thầy gặp gỡ trực tiếp
+(mặt giáp mặt)
+C 30 – 79% Kết hợp
+(Blended/Hybrid)
+Kết hợp giữa công nghệ Internet và
+truyền thống. Sinh viên và thầy có những
+gặp gỡ, trao đổi trên Internet và có cả
+những buổi gặp trực tiếp.
+D 80+% Trực tuyến
+(Online)
+Tất cả nội dung trên Internet, không có
+gặp mặt trực tiếp.
+Theo đánh giá chung của Sloan Consortium thì các lớp học có áp dụng công nghệ
+Internet ở các mức C và D được coi là những lớp học e-learning.
+Có nên chuyển đổi sang E-learning hay không?
+Phần dưới đây sẽ đưa ra các đánh giá chung nhất cho cả hai phía: phía cơ sở đào tạo
+hoặc nhà cung cấp dịch vụ đào tạo và phía người học (lưu ý rằng nếu như trong giáo dục đào
+tạo truyền thống, các thuật ngữ dịch vụ đào tạo rất ít được sử dụng thì trong môi trường e-
+learning thì thuật ngữ dịch vụ đào tạo lại được biết đến một cách khá phổ
+biến). Nếu đối với cả phía cơ sở đào tạo và người học, học bằng e-learning có nhiều lợi
+ích hơn so với bất lợi, thì việc chuyển đổi sang học bằng e-learning có thể là một phương pháp
+hữu hiệu.
+Quan điểm của Cơ sở đào tạo
+Cơ sở đào tạo là một tổ chức thiết kế và cung cấp các khóa học trực tuyến e-learning.
+Đó có thể chỉ là một phòng ban trong công ty khi muốn đào tạo nội bộ, hoặc là toàn bộ
+Trường/Viện/Công ty nếu cơ sở đó cung cấp chương trình đào tạo, bài giảng cho những người
+học độc lập hoặc cơ sở khác. Hãy thử so sánh ưu và nhược điểm đối với cơ sở đào tạo khi
+chuyển đổi các khoá học truyền thống sang khoá học e-learning.
+
+-- 17 of 20 --
+
+18
+Ưu điểm Nhược điểm
+Giảm chi phí tổ chức và quản lý đào tạo.
+Sau khi đã phát triển xong, một khoá học E-
+learning có thể dạy cho hàng ngàn sinh viên
+với chi phí chỉ cao hơn một chút so với tổ
+chức đào tạo cho 20 sinh viên.
+Chi phí phát triển một khoá học lớn. Việc
+học qua mạng còn mới mẻ, ngoài việc cần
+trang bị đầy đủ các thiết bị máy móc, còn cần
+có các chuyên viên kỹ thuật để thiết kế khoá
+học. Triển khai một lớp học E-learning có thể
+chi phí tốn gấp 5-10 lần so với một khoá học
+thông thường với nội dung tương đương.
+Rút ngắn thời gian đào tạo. Việc học trên
+mạng có thể đào tạo cấp tốc cho một lượng
+lớn sinh viên mà không bị giới hạn bởi số
+lượng giảng viên hướng dẫn hoặc lớp học.
+Yêu cầu kỹ năng mới. Những người có khả
+năng giảng dạy tốt trên lớp chưa chắc đã biết
+tới các kỹ thuật thiết kế, quản lý, giảng dạy
+một khóa học trong môi trường E-learning.
+Phía cơ sở đào tạo có thể phải đào tạo lại một
+số giảng viên và phải bổ xung thêm những
+nhân viên mới cho việc này.
+Cần ít phương tiện hơn. Các máy chủ và
+phần mềm cần thiết cho việc học trên mạng
+có chi phí rẻ hơn rất nhiều so với chi phí của
+phòng học, bảng, bàn ghế, và các cơ sở vật
+chất khác phục vụ phòng học truyền thống.
+Lợi ích của việc học trên mạng vẫn chưa
+được khẳng định. Các sinh viên đã hiểu được
+giá trị của việc học 1 tuần trên lớp có thể vẫn
+ngần ngại khi bỏ ra một chi phí tương đương
+cho một khoá học trên mạng thậm chí còn
+hiệu quả hơn. Phải chứng tỏ được rằng đầu tư
+vào việc học qua mạng sẽ mang lại kết quả
+lớn.
+Giảng viên và sinh viên không phải đi lại
+nhiều. Giảng viên không phải đi tới chỗ ở
+của sinh viên hoặc các trung tâm đào tạo ở xa
+để giảng dạy.
+Đòi hỏi phải thiết kế lại. Việc các sinh viên
+không có các kết nối mạng tốc độ cao đòi hỏi
+phía cơ sở đào tạo phải xây dựng các khoá
+học để khắc phục những hạn chế đó.
+Tổng hợp được kiến thức. Việc học trên
+mạng có thể giúp sinh viên nắm bắt được
+nhiều kiến thức hơn, dễ dàng sàng lọc, và tái
+sử dụng chúng.
+Quan điểm của người học (sinh viên)
+Cá nhân hoặc tổ chức tham gia các khoá học e-learning trên mạng chắc chắn sẽ thấy
+việc học này xứng đáng với thời gian và số tiền họ bỏ ra. Bảng dưới đây sẽ so sánh thuận lợi
+và khó khăn đối với sinh viên khi họ chuyển đổi việc học tập theo phương pháp truyền thống
+sang học tập bằng e-learning.
+
+-- 18 of 20 --
+
+19
+Ưu điểm Nhược điểm
+Có thể học bất cứ lúc nào, tại bất kỳ nơi
+đâu: Dù đang ở đâu và vào lúc nào, nếu
+cần, sinh viên có thể tham gia ngay vào
+khoá học mà không phải chờ tới khi lớp
+học khai giảng.
+Kỹ thuật phức tạp: Rất nhiều sinh viên mới
+tham gia khoá học trên mạng cảm thấy bối rối và
+nản lòng. Trước khi có thể bắt đầu khoá học, họ
+phải thông thạo các kỹ năng mới.
+Không phải đi lại nhiều và không phải
+nghỉ việc: Sinh viên có thể tiết kiệm chi
+phí đi lại tới nơi học. Đồng thời, họ có thể
+dễ dàng điều chỉnh thời gian học phù hợp
+với thời gian làm việc của mình.
+Chi phí kỹ thuật cao: Để tham gia học trên
+mạng, sinh viên phải cài đặt các phần mềm công
+cụ trên máy tính của mình, tải và cài đặt các
+chức năng cắm và chạy (plug and play), và kết
+nối vào mạng.
+Có thể tự quyết định việc học của mình:
+Sinh viên chỉ học những gì mà họ cần. Họ
+có thể bỏ qua, học lướt và học lại những gì
+cần thiết với các cấp độ và tốc độ thích
+hợp với họ. Việc học tuỳ theo yêu cầu của
+sinh viên đem lại hiệu quả rất cao.
+Việc học có thể buồn tẻ: Một số sinh viên sẽ
+cảm thấy thiếu quan hệ bạn bè và sự tiếp xúc
+trên lớp.
+Khả năng truy cập được nâng cao: Việc
+tiếp cận những khoá học trên mạng được
+thiết kế hợp lý sẽ dễ dàng hơn đối với
+những người không có khả năng nghe,
+nhìn; những người học ngoại ngữ hai; và
+những người không có khả năng học như
+người bị mắc chứng khó đọc.
+Yêu cầu ý thức cá nhân cao hơn: Việc học qua
+mạng yêu cầu bản thân sinh viên phải có trách
+nhiệm hơn đối với việc học của chính họ. Một số
+người sẽ cảm thấy khó khăn trong việc tạo ra
+cho mình một lịch học cố định.
+Việc kiểm tra tính xác thực: Các nhà thiết
+kế có thể tạo ra những bài mô phỏng có
+tính xác thực cao. Rất nhiều sinh viên trực
+tuyến ưa thích việc tự ôn tập và kiểm tra
+trình độ “mà không có ai giám sát và cho
+điểm”.
+Những thuận lợi và khó khăn trên là không tránh khỏi. Với việc chuẩn bị tốt, sinh viên
+có thể khắc phục được hầu hết các khó khăn. Nếu sinh viên chuẩn bị không tốt và việc tổ chức
+đào tạo bằng e-learning của cơ sở đào tạo chưa được kỹ càng thì sinh viên sẽ không thấy được
+những thuận lợi của những khoá học trên mạng. Ví dụ: nếu những bài học không được bố cục
+rõ ràng và định hướng cụ thể thì việc tự học sẽ không hứa hẹn điều gì cả. Ngược lại, sinh viên
+có thể khắc phục được sự buồn tẻ của việc học trực tuyến bằng cách thảo luận hoặc chat với
+giảng viên và bạn học qua mạng bằng cách tham dự các diễn đàn.
+
+-- 19 of 20 --
+
+20
+TÓM LƯỢC CUỐI BÀI
+• Một mô hình chức năng hệ thống E-learning bao gồm hai thành phần chính:
+─ Hệ thống quản lý nội dung học tập (LCMS).
+─ Hệ thống quản lý học tập (LMS).
+• Một hệ thống E-learning gồm ba phần chính:
+─ Hạ tầng truyền thông và mạng.
+─ Hạ tầng phần mềm.
+─ Nội dung đào tạo (hạ tầng thông tin).
+• Các chuẩn và đặc tả là thành phần kết nối tất cả các thành phần của hệ thống E-
+learning.
+• LMS, LCMS, công cụ soạn bài giảng, và kho chứa bài giảng sẽ hiểu nhau và tương
+tác được với nhau thông qua các chuẩn/đặc tả. Có bốn nhóm chuẩn phổ biến:
+─ Chuẩn đóng gói.
+─ Chuẩn trao đổi thông tin.
+─ Chuẩn metadata.
+─ Chuẩn chất lượng.
+• E-learning có nhiều ưu điểm nổi bật hơn so với đào tạo truyền thống.
+• Quy trình học tập e-learning của sinh viên gồm 3 bước:
+─ Đăng ký học tập.
+─ Tìm hiểu thông tin lớp học.
+─ Học tập.
+
+-- 20 of 20 --
+

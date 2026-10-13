@@ -1,0 +1,677 @@
+[
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Khi nói về chức năng của các nhà cung cấp dịch vụ Internet ở Việt Nam, có 2 phát biểu như sau: PB1: IAP có thể thực hiện cả chức năng của ISP nhưng ngược lại thì không. PB2: ICP cung cấp các dịch vụ trên cơ sở ứng dụng Internet như: mua bán qua mạng, giao dịch ngân hàng, tư vấn, đào tạo… Hỏi khẳng định nào sau đây là đúng?",
+    "options": [],
+    "correctAnswer": "PB1 đúng, PB2 sai.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "HTML là tên viết tắt của cụm từ nào?",
+    "options": [],
+    "correctAnswer": "HyperText Markup Languages.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Mạng cục bộ LAN là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Local Area Network.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Mạng diện rộng WAN là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Wide Area Network.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Khẳng định nào sau đây là sai?",
+    "options": [],
+    "correctAnswer": "Internet là từ viết tắt của International Terminal Network.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "OSP là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Online Service Provider.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Mạng đô thị MAN là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Metropolitan Area Network.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Việt Nam hòa vào mạng Internet toàn cầu vào khoảng năm nào?",
+    "options": [],
+    "correctAnswer": "1997",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "ICP là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Internet Content Provider.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "TCP/IP là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Transmision Control Protocol/ Internet Protocol.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Khi nói về chức năng của các nhà cung cấp dịch vụ Internet ở Việt Nam, có 2 phát biểu như sau: PB1: OSP cấp quyền truy cập Internet qua mạng viễn thông và các dịch vụ như: Email, Web, FTP, Telnet, Chat. PB2: ICP cung cấp các thông tin về: kinh tế, giáo dục, thể thao, chính trị, quân sự (thường xuyên cập nhật thông tin mới theo định kỳ) đưa lên mạng. Hỏi khẳng định nào sau đây là đúng?",
+    "options": [],
+    "correctAnswer": "PB1 sai, PB2 đúng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "IXP là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Internet Exchange Provider.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Mạng ARPANET hình thành vào khoảng năm nào?",
+    "options": [],
+    "correctAnswer": "1968",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Thuật ngữ \"Internet\" xuất hiện lần đầu vào khoảng năm nào?",
+    "options": [],
+    "correctAnswer": "1974",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 1",
+    "question": "Internet được hình thành từ dự án nào sau đây?",
+    "options": [],
+    "correctAnswer": "Từ một dự án nghiên cứu của Bộ quốc phòng Mỹ.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Có một tên miền như sau: tnu.edu.vn thì thành phần “edu” thường được gọi là tên miền cấp mấy?",
+    "options": [],
+    "correctAnswer": "2",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Có 2 khẳng định sau: KĐ1: Đây là công nghệ DSL đối xứng KĐ2: Để có thể kết nối Internet, người dùng sẽ cần phải lắp đặt một modem ADSL chuyên dụng. Nhận xét nào sau đây là đúng khi nói về công nghệ ADSL?",
+    "options": [],
+    "correctAnswer": "KĐ1 sai, KĐ2 đúng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "RARP là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Reverse Address Resolution Protocol.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tất cả các Web Server đều hiểu và chạy được file nào?",
+    "options": [],
+    "correctAnswer": "*.htm",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là 1 địa chỉ IPv6 không hợp lệ?",
+    "options": [],
+    "correctAnswer": "2001:0DC8::1005:2F43::ABC6",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Các cụm số hexa trong địa chỉ Ipv6 được tách biệt với nhau bằng dấu nào?",
+    "options": [],
+    "correctAnswer": "Dấu hai chấm “:”",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Có 2 khẳng định sau: KĐ1: Có tốc độ kết nối cao hơn ADSL KĐ2: Cho phép chia sẻ chung với đường điện thoại Nhận xét nào sau đây là đúng khi nói về công nghệ HDSL?",
+    "options": [],
+    "correctAnswer": "KĐ1 đúng, KĐ2 sai.",
+    "userAnswerState": "Sai"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khẳng định nào sau đây là SAI khi nói về trình duyệt web?",
+    "options": [],
+    "correctAnswer": "Là một phần mềm hệ thống được cài đặt trên máy tính của người sử dụng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Có mấy phiên bản địa chỉ IP?",
+    "options": [],
+    "correctAnswer": "2",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là một phương thức kết nối Internet?",
+    "options": [],
+    "correctAnswer": "Leased-Line",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Một tên miền đầy đủ có chiều dài không vượt quá 255 ký tự. Vậy chiều dài tối đa của tên miền ở mỗi cấp là bao nhiêu ký tự (bao gồm cả dấu “.”)?",
+    "options": [],
+    "correctAnswer": "63",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là 1 bộ giao thức kết nối mạng?",
+    "options": [],
+    "correctAnswer": "TCP/IP",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Hệ thống quản lý tên miền DNS là viết tắt của cụm từ tiêng Anh nào?",
+    "options": [],
+    "correctAnswer": "Domain Name System.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Địa chỉ IP v6 sử dụng bao nhiêu bit để đánh địa chỉ?",
+    "options": [],
+    "correctAnswer": "128",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Có 2 khẳng định sau: KĐ1: là loại hình kết nối Internet tốc độ cao KĐ2: luôn trong trạng thái kết nối 24/24. Nhận xét nào sau đây là đúng khi nói về phương thức kết nối Internet băng rộng?",
+    "options": [],
+    "correctAnswer": "KĐ1 đúng, KĐ2 đúng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khẳng định nào sau đây là sai khi nói về địa chỉ IP công cộng?",
+    "options": [],
+    "correctAnswer": "Không được định tuyến trên Internet Backbone.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là một địa chỉ IPv4 hợp lệ?",
+    "options": [],
+    "correctAnswer": "192.168.10.6",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu không phải là 1 bộ giao thức kết nối mạng?",
+    "options": [],
+    "correctAnswer": "HTML",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong cách biểu diễn địa chỉ IPv4 được chia thành bao nhiêu octet?",
+    "options": [],
+    "correctAnswer": "4",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu là tên của trình duyệt Web?",
+    "options": [],
+    "correctAnswer": "Internet Explorer.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khi đặt tên miền không được dùng ký tự nào dưới đây?",
+    "options": [],
+    "correctAnswer": "Ký tự @",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong các tên dưới đây đâu là 1 tên miền hợp lệ?",
+    "options": [],
+    "correctAnswer": "tnu.edu.vn",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khẳng định nào sau đây là sai khi nói về phương thức kết nối quay số qua mạng điện thoại (Dial-up)?",
+    "options": [],
+    "correctAnswer": "Kết nối kiểu này luôn thường trực 24/24.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong tên miền, dấu nào được sử dụng làm dấu phân cách?",
+    "options": [],
+    "correctAnswer": "Dấu chấm (.)",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Phương thức kết nối nào là chậm nhất trong số các công nghệ truy cập Internet?",
+    "options": [],
+    "correctAnswer": "Quay số qua mạng điện thoại (Dial-up).",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tên miền nào sau đây KHÔNG thuộc về quốc gia Việt Nam?",
+    "options": [],
+    "correctAnswer": "jnto.org.fr",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Địa chỉ IP nào không thể gán cho các thiết bị trên mạng?",
+    "options": [],
+    "correctAnswer": "Địa chỉ quảng bá.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Địa chỉ IP v4 sử dụng bao nhiêu bit để đánh địa chỉ?",
+    "options": [],
+    "correctAnswer": "32",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Hotspot là một địa điểm mà tại đó có cung cấp các dịch vụ:",
+    "options": [],
+    "correctAnswer": "kết nối không dây và dịch vụ truy cập Internet tốc độ cao thông qua hoạt động của các thiết bị thu phát không dây",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 2",
+    "question": "Để các máy tính trên Internet có thể liên lạc với nhau, mỗi máy tính cần có một địa chỉ liên lạc và địa chỉ này được gọi là gì?",
+    "options": [],
+    "correctAnswer": "Địa chỉ IP.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi sử dụng Mail để đính kèm tệp tin bạn bấm vào nút nào sau đây?",
+    "options": [],
+    "correctAnswer": "Attach Files",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "IM là viết tắt của từ tiếng Anh nào dưới đây?",
+    "options": [],
+    "correctAnswer": "Instant Message.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Mục nào trong cấu trúc của một email mô tả ngắn gọn nội dung của email?",
+    "options": [],
+    "correctAnswer": "Subject",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Chương trình nào dưới đây cho phép bạn tải tệp tin từ Intenet xuống máy tính của bạn?",
+    "options": [],
+    "correctAnswer": "IDM",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Hệ thống thư điện tử được chia làm hai phần: MUA và MTA. MTA là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Message Transfer Agent.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Trong các giao thức sau giao thức nào là giao thức truyền thư điện tử?",
+    "options": [],
+    "correctAnswer": "SMTP.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Để xem các trang tài liệu siêu văn bản (trang web) trên Internet, bạn sử dụng dịch vụ nào sau đây?",
+    "options": [],
+    "correctAnswer": "Dịch vụ World Wide Web.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi sử dụng phần mềm Mail, thư mục nào dưới đây chứa các thư bạn đã gửi đi?",
+    "options": [],
+    "correctAnswer": "Sent",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Trong quá trình duyệt Web, bạn không thể thực hiện thao tác nào dưới đây?",
+    "options": [],
+    "correctAnswer": "Chỉnh sửa nội dung trang Web.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Hệ thống thư điện tử được chia làm hai phần: MUA và MTA. MUA là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Mail User Agent.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi sử dụng công cụ tìm kiếm Google, nếu muốn kết quả trả về là các trang Web vừa chứa cụm từ: kinh tế, vừa chứa cụm từ quốc dân thì trong ô tìm kiếm bạn nhập vào từ khóa nào sau đây?",
+    "options": [],
+    "correctAnswer": "“kinh tế” + “quốc dân”",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Anh An muốn đồng gửi bức thư điện tử tới anh Hải và chị Huệ, tuy nhiên anh An không muốn chị Huệ biết mình đã gửi bức thư này cho anh Hải. Khi đó anh An phải nhập địa chỉ email của anh Hải vào ô nào?",
+    "options": [],
+    "correctAnswer": "Bcc",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Dịch vụ web sử dụng giao thức nào?",
+    "options": [],
+    "correctAnswer": "HTTP",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Dịch vụ Telnet trên mạng Internet là gì?",
+    "options": [],
+    "correctAnswer": "Là dịch vụ thiết lập sự liên hệ giữa MTĐT của ta với một máy chủ ở xa để người dùng có thể sử dụng khả năng xử lý của máy chủ đó.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 3",
+    "question": "Đâu là 1 bộ giao thức hệ thống file phân tán (được phát triển bởi Sun Microsystems) cho phép truy xuất file đến các thiết bị ở xa như 1 đĩa cứng trên mạng?",
+    "options": [],
+    "correctAnswer": "NFS",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Mô hình SCORM do tổ chức nào đưa ra?",
+    "options": [],
+    "correctAnswer": "Viện nghiên cứu công nghệ giáo dục từ xa (ADL).",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Quy trình sinh viên học tập trên hệ thống e-learning KHÔNG bao gồm bước nào?",
+    "options": [],
+    "correctAnswer": "Gặp gỡ giáo viên.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Theo Sloan Consortium lớp học nào dưới đây được coi là lớp học sử dụng công nghệ Internet?",
+    "options": [],
+    "correctAnswer": "Lớp học có 1-29% nội dung được truyền tải qua Internet.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Khi nói về quá trình phát triển E-learning, có 2 phát biểu như sau: PB1: Trước năm 1983: phương pháp giáo dục “Lấy giảng viên làm trung tâm” là phương pháp phổ biến nhất trong các trường học. PB2: Giai đoạn 1984-1993: Khi công nghệ Web được phát minh ra, các nhà cung cấp dịch vụ đào tạo bắt đầu nghiên cứu cách thức cải tiến phương pháp giáo dục bằng công nghệ này. Hỏi khẳng định nào sau đây là đúng?",
+    "options": [],
+    "correctAnswer": "PB1 đúng, PB2 sai.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Trong quá trình học e-learning, đâu không phải là 1 trong 4 hoạt động chính của sinh viên e-learning?",
+    "options": [],
+    "correctAnswer": "Lướt web.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Đâu không phải là một trong các yêu cầu kỹ thuật của một hệ thống LMS điển hình?",
+    "options": [],
+    "correctAnswer": "Sử dụng lại, quản lý và phân phối nội dung học tập trong môi trường số từ một kho dữ liệu trung tâm.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Đâu không phải là một trong các yêu cầu giao diện người dùng của một hệ thống LMS điển hình?",
+    "options": [],
+    "correctAnswer": "Không cho phép thiết lập nhiều giao diện riêng biệt cho các nhóm người dùng khác nhau.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Trong số các đặc điểm sau, đâu không phải là đặc điểm của hệ thống E-Learning?",
+    "options": [],
+    "correctAnswer": "Học không có sự hợp tác, phối hợp.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "LMS là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Learning Management System.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Đâu KHÔNG phải là hệ thống hỗ trợ học tập trong môi trường elearning?",
+    "options": [],
+    "correctAnswer": "Hệ thống phần mềm quản lý truy cập mạng Internet.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Chữ E trong cụm từ E-learning là viết tắt của từ tiêng Anh nào dưới đây?",
+    "options": [],
+    "correctAnswer": "Electronic",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "LCMS là viết tắt của cụm từ tiếng Anh nào?",
+    "options": [],
+    "correctAnswer": "Learning Content Managerment System.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Chọn phát biểu SAI?",
+    "options": [],
+    "correctAnswer": "E-learning là một thuật ngữ dùng để mô tả việc học tập không dựa trên công nghệ thông tin và truyền thông.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Trong mô hình hệ thống E-Learning không bao gồm thành phần nào?",
+    "options": [],
+    "correctAnswer": "Đội ngũ kỹ sư công nghệ thông tin.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A000200",
+    "courseName": "Nhập môn Internet và E-Learning",
+    "quizName": "Bài luyện tập 4",
+    "question": "Khi nói về kiến trúc Web để phát triển hệ thống E-learning, có 2 phát biểu như sau: PB1: Mô hình kiến trúc Web không cho phép tăng cường sự tương hợp và mở rộng trên cơ sở hạ tầng mạng và các ứng dụng khác nhau sẵn có trên thị trường e-learning. PB2: Mô hình kiến trúc Web cho phép phát triển và sử dụng Intranet cũng như các dịch vụ Internet công cộng. Điều đó cho phép việc lựa chọn các công nghệ mạng là hoàn toàn trong suốt đối với các đơn vị phát triển nội dung và các nhà cung cấp dịch vụ. Hỏi khẳng định nào sau đây là đúng?",
+    "options": [],
+    "correctAnswer": "PB1 sai, PB2 đúng.",
+    "userAnswerState": "Đúng"
+  }
+]

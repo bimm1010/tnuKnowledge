@@ -1,0 +1,5 @@
+node_modules/
+*.log
+autowatcher.log
+autowatcher_err.log
+.DS_Store

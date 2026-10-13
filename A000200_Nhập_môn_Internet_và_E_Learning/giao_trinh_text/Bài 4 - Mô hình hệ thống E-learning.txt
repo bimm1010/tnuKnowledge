@@ -1,0 +1,230 @@
+BÀI 4:
+MÔ HÌNH HỆ THỐNG
+E-LEARNING
+NHẬP MÔN INTERNET VÀ E-LEARNING 1
+
+-- 1 of 15 --
+
+MỤC TIÊU BÀI HỌC
+• Hiểu rõ được chức năng chính của các thành phần trong mô hình
+chức năng hệ thống e-learning.
+• Hiểu rõ được cấu trúc và hoạt động của hệ thống e-learning. Trình
+bày được các chuẩn và đặc tả cho hệ thống e-learning.
+• Đánh giá được các ưu điểm, nhược điểm của hệ thống e-learning.
+NHẬP MÔN INTERNET VÀ E-LEARNING 2
+
+-- 2 of 15 --
+
+TÌNH HUỐNG DẪN NHẬP
+Tình huống 1: Hình thức học e-learning
+Chị Lan đang tìm hiểu về hình thức học e-learning. Chị muốn biết
+hình thức học tập này như thế nào và có phù hợp với việc chị vừa đi
+làm vừa đi học không.
+1. Quy trình hoạt động của hệ thống e-learning như thế nào?
+2. Quy trình học tập e-learning của sinh viên như thế nào?
+3. Các đặc điểm của hệ thống e-learning là gì?
+NHẬP MÔN INTERNET VÀ E-LEARNING 3
+
+-- 3 of 15 --
+
+TÌNH HUỐNG DẪN NHẬP
+Tình huống 2: Mô hình hệ thống e-learning
+Anh Hùng đang làm việc tại công ty phần mềm FTM. Anh nhận thấy
+e-learning có xu hướng phát triển mạnh mẽ tại Việt Nam và trên
+toàn thế giới. Anh Hùng đề xuất với công ty nên chuyển hướng phát
+triển, tham gia vào lĩnh vực cung cấp phần mềm, công cụ, học liệu
+và các giá trị gia tăng trên hệ thống e-learning. Để sản phẩm đạt
+được hiệu quả nhất, tích hợp được với nhiều hệ thống, anh Hùng
+và các cộng sự muốn tìm hiểu chuyên sâu về mô hình hệ thống e-
+learning.
+1. Cấu trúc và mô hình hệ thống e-learning như thế nào?
+2. Hệ thống e-learning sử dụng các chuẩn và các đặc tả nào?
+NHẬP MÔN INTERNET VÀ E-LEARNING 4
+
+-- 4 of 15 --
+
+NỘI DUNG BÀI HỌC
+4.1. Các đặc điểm của hệ thống e-learning
+4.2. Mô hình hệ thống e-learning
+4.3. Mô hình chức năng một hệ thống e-learning
+4.4. Hoạt động của hệ thống e-learning
+4.5. Các bước trong quá trình học e-learning
+NHẬP MÔN INTERNET VÀ E-LEARNING 5
+
+-- 5 of 15 --
+
+4.1. CÁC ĐẶC ĐIỂM CỦA HỆ THỐNG
+E-LEARNING
+• Học mọi lúc, mọi nơi;
+• Học liệu hấp dẫn;
+• Linh hoạt về khối lượng kiến thức cần tiếp thu;
+• Nội dung phù hợp với từng cá nhân;
+• Cập nhật mới nhanh;
+• Học có sự hợp tác, phối hợp;
+• Tiến trình học được theo dõi chặt chẽ và cung cấp công cụ tự
+đánh giá;
+• Các dịch vụ đào tạo được triển khai đồng bộ.
+NHẬP MÔN INTERNET VÀ E-LEARNING 6
+
+-- 6 of 15 --
+
+Ưu điểm:
+• Giảm chi phí tổ chức và quản lý
+• Rút ngắn thời gian đào tạo
+• Cần ít phương tiện hơn
+• Giảng viên và học viên ít phải đi lại
+• Tổng hợp được kiến thức
+• Có thể học ở mọi lúc mọi nơi
+• Không ảnh hưởng thời gian làm
+việc và đi lại
+• Có thể tự quyết việc học của mình
+• Khả năng truy cập được cao
+• Tự kiểm tra kiến thức
+Nhược điểm:
+• Chi phí phát triển một khóa học
+lớn
+• Yêu cầu kỹ năng mới
+• Lợi ích của việc học trên mạng
+vẫn chưa được khẳng định rõ ràng
+• Đòi hỏi phải thiết kế lại
+• Kỹ thuật phức tạp
+• Chi phí kỹ thuật cao
+• Việc học có thể buồn tẻ
+• Yêu cầu ý thức cá nhân cao hơn
+NHẬP MÔN INTERNET VÀ E-LEARNING 7
+Cơ sở
+ 
+đào
+ 
+tạo
+Học
+ 
+viên
+4.1. CÁC ĐẶC ĐIỂM CỦA HỆ THỐNG
+E-LEARNING
+
+-- 7 of 15 --
+
+4.2. MÔ HÌNH HỆ THỐNG E-LEARNING
+• Khả năng tương hợp với hệ thống khác (Interoperability)
+• Khả năng tái sử dụng (reuseability)
+• Khả năng quản lý học viên, nội dung học tập (Manageability)
+• Khả năng truy nhập (Accesibility)
+NHẬP MÔN INTERNET VÀ E-LEARNING 8
+
+-- 8 of 15 --
+
+4.2. MÔ HÌNH HỆ THỐNG E-LEARNING
+Các chuẩn và đặc tả cho hệ thống e-learning:
+• Chuẩn đóng gói (packaging standards): AICC, IMS Global,
+SCORM
+• Chuẩn trao đổi thông tin (communication standards): mô tả giao
+thức và dữ liệu (AICC,SCORM)
+• Chuẩn mô tả khóa học và các modul – chuẩn metadata (metadata
+standards): IEEE, IMS Global, SCORM => IEEE
+• Chuẩn chất lượng (quality standards): chuẩn thiết kế e-learning,
+chuẩn về tính truy cập được
+NHẬP MÔN INTERNET VÀ E-LEARNING 9
+
+-- 9 of 15 --
+
+4.3. MÔ HÌNH CHỨC NĂNG
+MỘT HỆ THỐNG E-LEARNING
+• LCMS: Learning
+Content Management
+System: Hệ thống
+quản lý nội dung học
+tập
+• LMS: Learning
+Management System:
+Hệ thống quản lý học
+tập
+NHẬP MÔN INTERNET VÀ E-LEARNING 10
+
+-- 10 of 15 --
+
+4.4. HOẠT ĐỘNG CỦA HỆ THỐNG E-LEARNING
+NHẬP MÔN INTERNET VÀ E-LEARNING 11
+HỌC VIÊN (B)	GIẢ 	NG VIÊN (A)
+Cổ 	ng thông tin ngườ 	i dù 	ng
+Phò ng xây dự 	ng
+chương trì nh (C)
+Hệ thống quản lý 	học tậ p
+LMS
+(2)
+Hệ thống quản lý
+nội dung LCMS
+(1)
+Cá c công cụ
+- Thư viện điện tử
+- Trò chơi
+- Phòng thực hành ảo
+- Các công cụ khác
+(3)
+Phò ng Quản lý 	đào tạo
+(D)
+Cá c công cụ 	thiế t kê
+bài giảng điện tử
+- Phần cứng
+- Phần mềm
+(4)
+Ngân hàng
+Kiến thức (I)
+Ngân hàng
+Bài giảng điện tử (II)
+Kết quả dự kiến của khóa học
+
+-- 11 of 15 --
+
+4.5. CÁC BƯỚC TRONG QUÁ TRÌNH
+HỌC E-LEARNING
+1. Đăng ký học tập: cần phải có khả năng để học môn học/
+2. Tìm hiểu thông tin khóa học: mục tiêu, kế hoạch, danh sách
+giảng viên và các đối tượng khác, học liệu.
+3. Học tập: tiếp thu bài giảng (trên hệ thống, truyền trực tiếp...),
+thảo luận, thực hành và giải đáp thắc mắc, đánh giá quá trình
+học tập.
+• Quan trọng:
+• Năng động, tự chủ;
+• Kết nối;
+• Ghi nhận, lưu trữ;
+• Vận dụng.
+NHẬP MÔN INTERNET VÀ E-LEARNING 12
+
+-- 12 of 15 --
+
+TÓM LƯỢC CUỐI BÀI
+• Mô hình chức năng hệ thống E-learning bao gồm hai thành phần
+chính:
+oHệ thống quản lý nội dung học tập (LCMS).
+oHệ thống quản lý học tập (LMS).
+• Một hệ thống E-learning gồm ba phần chính:
+oHạ tầng truyền thông và mạng.
+oHạ tầng phần mềm.
+oHạ tầng thông tin (Nội dung đào tạo)
+NHẬP MÔN INTERNET VÀ E-LEARNING 13
+
+-- 13 of 15 --
+
+TÓM LƯỢC CUỐI BÀI
+• Các chuẩn và đặc tả là thành phần kết nối tất cả các thành phần
+của hệ thống E-learning. LMS, LCMS, công cụ soạn bài giảng, và
+kho chứa bài giảng sẽ hiểu nhau và tương tác được với nhau
+thông qua các chuẩn/đặc tả. Có bốn nhóm chuẩn phổ biến:
+oChuẩn đóng gói.
+oChuẩn trao đổi thông tin.
+oChuẩn metadata.
+oChuẩn chất lượng.
+• Quy trình học tập e-learning của sinh viên gồm 3 bước:
+oĐăng ký học tập.
+oTìm hiểu thông tin lớp học.
+oHọc tập.
+NHẬP MÔN INTERNET VÀ E-LEARNING 14
+
+-- 14 of 15 --
+
+KẾT THÚC
+NHẬP MÔN INTERNET VÀ E-LEARNING 15
+
+-- 15 of 15 --
+

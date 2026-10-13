@@ -1,0 +1,937 @@
+BÀI 2:
+KIẾN TRÚC MẠNG INTERNET
+NHẬP MÔN INTERNET VÀ E-LEARNING 1
+
+-- 1 of 65 --
+
+TÌNH HUỐNG DẪN NHẬP
+Kiến trúc mạng Internet
+• Internet đã trở nên quen thuộc với rất nhiều người. Sự xuất hiện và
+phát triển của Internet đã thay đổi cách thức làm việc và trao đổi
+thông tin của mọi người, thúc đẩy mạnh mẽ sự phát triển của xã hội.
+Vậy kiến trúc tổng quát của Internet như thế nào? Có các phương
+thức nào để kết nối Internet? Các giao thức kết nối mạng?
+• Bạn sử dụng Internet và thường thấy mọi người nói về địa chỉ IP và
+tên miền. Địa chỉ IP và tên miền là gì? Vai trò của nó như thế nào?
+• Internet là một kho thông tin đồ sộ, chứa đựng vô vàn kiến thức và
+được phân tán khắp nơi trên thế giới. Các dịch vụ Internet ngày càng
+đa dạng và dễ sử dụng, giúp ích cho con người trong rất nhiều công
+việc. Có các dịch vụ Internet phổ biến nào?
+1. Kiến trúc tổng quát của Internet như thế nào? Có các phương
+thức nào để kết nối Internet? Các giao thức kết nối mạng?
+2. Địa chỉ IP và tên miền là gì? Vai trò của hệ thống tên miền?
+3. Có các loại dịch vụ Internet thông dụng nào?
+NHẬP MÔN INTERNET VÀ E-LEARNING 2
+
+-- 2 of 65 --
+
+MỤC TIÊU BÀI HỌC
+• Hiểu được kiến trúc mạng Internet tổng quát, các phương thức kết
+nối mạng và các giao thức kết nối mạng.
+• Hiểu được vai trò của địa chỉ IP và tên miền trong việc nhận diện
+thiết bị và tài nguyên trên mạng Internet.
+• Hiểu được ứng dụng và nguyên tắc hoạt động của các dịch vụ
+Internet thông dụng: Dịch vụ World wide web, dịch vụ thư điện tử,
+dịch vụ truyền file, dịch vụ chat.
+NHẬP MÔN INTERNET VÀ E-LEARNING 3
+
+-- 3 of 65 --
+
+NỘI DUNG BÀI HỌC
+2.1. Các phương thức kết nối Internet
+2.2. Kiến trúc phân tầng trong hệ thống mạng
+2.3. Các giao thức kết nối mạng
+2.4. Địa chỉ IP và tên miền
+2.5. Một số dịch vụ Internet thông dụng
+NHẬP MÔN INTERNET VÀ E-LEARNING 4
+
+-- 4 of 65 --
+
+2.1. CÁC PHƯƠNG THỨC KẾT NỐI INTERNET
+• Để có thể sử dụng các dịch vụ Internet, người dùng phải kết nối
+máy tính của mình với Internet.
+• Có nhiều phương thức kết nối, mỗi phương thức có tốc độ truyền
+nhận dữ liệu khác nhau, tùy thuộc vào nhu cầu sử dụng và điều
+kiện của người sử dụng.
+NHẬP MÔN INTERNET VÀ E-LEARNING 5
+
+-- 5 of 65 --
+
+2.1. CÁC PHƯƠNG THỨC
+KẾT NỐI INTERNET
+2.1.1. Kết nối quay số qua mạng điện thoại (Dial-up)
+2.1.2. Kết nối thông qua kênh thuê riêng (Leased-Line)
+2.1.3. Kết nối ADSL (Asymmetric Digital Subscriber Line)
+2.1.4. Kết nối qua cáp quang
+2.1.5. Kết nối qua sóng vô tuyến
+2.1.6. Kết nối qua vệ tinh
+NHẬP MÔN INTERNET VÀ E-LEARNING 6
+
+-- 6 of 65 --
+
+2.1.1. KẾT NỐI QUAY SỐ QUA
+MẠNG ĐIỆN THOẠI (DIAL-UP)
+• Đây là phương thức truy cập Internet thông qua đường dây điện
+thoại bằng cách quay số tới số của nhà cung cấp dịch vụ Internet.
+VD: quay tới số điện thoại 1260 của nhà cung cấp VNN
+• Người dùng cần có một đường điện thoại và một thiết bị kết nối là
+Modem (đây là thiết bị chuyển đổi tín hiệu tương tự sang số và số
+sang tương tự).
+• Máy tính của người dùng kết nối với Modem và Modem được kết
+nối tới đường điện thoại.
+NHẬP MÔN INTERNET VÀ E-LEARNING 7
+
+-- 7 of 65 --
+
+2.1.1. KẾT NỐI QUAY SỐ QUA
+MẠNG ĐIỆN THOẠI (DIAL-UP)
+Ưu điểm:
+• Dễ kết nối.
+• Chi phí thấp.
+Nhược điểm:
+• Tốc độ truyền thấp.
+NHẬP MÔN INTERNET VÀ E-LEARNING 8
+
+-- 8 of 65 --
+
+2.1.2. KẾT NỐI THÔNG QUA
+KÊNH THUÊ RIÊNG (LEASED-LINE)
+• Đây là một hình thức kết nối trực tiếp giữa các node mạng sử
+dụng kênh truyền dẫn số liệu thuê riêng.
+• Kênh truyền dẫn số liệu thông thường cung cấp cho người sử
+dụng sự lựa chọn trong suốt về giao thức kết nối.
+NHẬP MÔN INTERNET VÀ E-LEARNING 9
+
+-- 9 of 65 --
+
+2.1.2. KẾT NỐI THÔNG QUA
+KÊNH THUÊ RIÊNG (LEASED-LINE)
+Ưu điểm:
+• Tốc độ truyền và nhận thông tin cao.
+• Phù hợp với những nơi có nhu cầu kết nối liên tục, trao đổi
+thông tin với khối lượng lớn.
+Nhược điểm:
+• Chi phí thường khá cao.
+NHẬP MÔN INTERNET VÀ E-LEARNING 10
+
+-- 10 of 65 --
+
+2.1.3. KẾT NỐI ADSL
+(ASYMMETRIC DIGITAL SUBSCRIBER LINE)
+• ADSL là phương thức kết nối Internet sử dụng đường truyền bất
+đối xứng.
+oBất đối xứng: không cân bằng trong dòng dữ liệu tải xuống và
+tải lên.
+oDòng dữ liệu tải xuống có băng thông lớn hơn băng thông dòng
+dữ liệu tải lên.
+• Người dùng sẽ cần phải lắp đặt một modem ADSL chuyên dụng.
+NHẬP MÔN INTERNET VÀ E-LEARNING 11
+
+-- 11 of 65 --
+
+2.1.3. KẾT NỐI ADSL
+(ASYMMETRIC DIGITAL SUBSCRIBER LINE)
+Ưu điểm:
+• Dễ kết nối;
+• Chi phí thấp ;
+• Tốc độ truyền dữ liệu ổn định.
+Nhược điểm:
+• Tốc độ đường truyền thấp. Không đáp ứng được cho các nhu
+cầu cao (xem full HD, Hội thảo truyền hình);
+• Không phải là sự lựa chọn tốt cho việc tải và chia sẻ các file
+lớn;
+• Bị nhiễu, suy giảm tín hiệu trên dường dây (do truyền tín hiệu
+bằng điện).
+NHẬP MÔN INTERNET VÀ E-LEARNING 12
+
+-- 12 of 65 --
+
+2.1.4. KẾT NỐI QUA CÁP QUANG
+• Kết nối cáp quang thuần túy: FTTH (Fiber to the Home) là kết nối
+cáp quang thuần túy được đi trực tiếp từ nhà mạng (ISP) đến hộ
+gia đình hoặc doanh nghiệp.
+• Kết hợp giữa cáp quang với cáp đồng truyền thống: FTTB (Fiber
+to the Building), FTTC (Fiber to the Cabinet) và FTTN (Fiber To
+The Node)
+✓FTTB và FTTC sử dụng cáp quang để nối từ nhà mạng đến
+một thùng tín hiệu, còn từ thùng này đến từng căn hộ thì sử
+dụng cáp đồng.
+✓FTTN tương tự như FTTC, nhưng khoảng cách từ node tới khu
+vực khách hàng thì xa hơn, có thể tới vài kilomet.
+✓Loại hình FTTB, FTTC, FTTN có chi phí rẻ hơn so với FTTH,
+từ đó giảm giá các gói cước xuống thấp hơn.
+NHẬP MÔN INTERNET VÀ E-LEARNING 13
+
+-- 13 of 65 --
+
+2.1.4. KẾT NỐI QUA CÁP QUANG
+Ưu điểm:
+• Đường truyền có tốc độ ổn định;
+tốc độ truy cập internet cao.
+• Không bị suy hao tín hiệu bởi
+nhiễu điện từ, thời tiết hay chiều
+dài cáp.
+• An toàn cho thiết bị, không sợ sét
+đánh lan truyền trên đường dây.
+• Nâng cấp băng thông dễ dàng mà
+không cần kéo cáp mới.
+Nhược điểm:
+• Chi phí khá cao
+NHẬP MÔN INTERNET VÀ E-LEARNING 14
+
+-- 14 of 65 --
+
+2.1.5. KẾT NỐI QUA SÓNG VÔ TUYẾN
+• Kết nối qua sóng vô tuyến là phương pháp kết nối mạng Internet
+qua sóng vô tuyến, loại sóng này tương tự như sóng điện thoại,
+truyền hình và radio.
+• WiFi là tên viết tắt của cụm từ “Wireless Fidelity” - một tập hợp các
+chuẩn tương thích với mạng không dây nội bộ (WLAN) dựa trên
+đặc tả IEEE 802.11.
+NHẬP MÔN INTERNET VÀ E-LEARNING 15
+Ưu điểm:
+Kết nối đơn giản, không cần đi
+dây mạng.
+Nhược điểm:
+Sóng WiFi thường bị suy yếu
+khi gặp các vật cản.
+
+-- 15 of 65 --
+
+2.1.6. KẾT NỐI QUA VỆ TINH
+• Dịch vụ Internet vệ tinh thường được sử dụng tại các khu vực mà
+các phương pháp truy cập Internet bình thường không thể tiếp cận
+được (vùng sâu, vùng xa, hải đảo …).
+NHẬP MÔN INTERNET VÀ E-LEARNING 16
+
+-- 16 of 65 --
+
+2.2. KIẾN TRÚC PHÂN TẦNG TRONG
+HỆ THỐNG MẠNG
+• Để giảm độ phức tạp của việc thiết kế và cài đặt mạng, hầu hết
+các máy tính đều được phân tích thiết kế theo quan điểm phân
+tầng.
+• Mỗi hệ thống thành phần của mạng được xem như một cấu trúc
+đa tầng:
+oMỗi tầng được xây dựng trên tầng trước nó.
+oSố lượng các tầng cũng như tên và chức năng của mỗi tầng
+tuỳ thuộc vào nhà thiết kế.
+NHẬP MÔN INTERNET VÀ E-LEARNING 17
+
+-- 17 of 65 --
+
+2.2.1. MÔ HÌNH OSI
+Mô hình tham chiếu cho các hệ
+thống mở OSI (Open Systems
+Interconnection Reference Model)
+được giới thiệu vào năm 1977 do tổ
+chức ISO (International
+Organization for Standardization),
+gồm 7 tầng.
+NHẬP MÔN INTERNET VÀ E-LEARNING 18
+
+-- 18 of 65 --
+
+2.2.1. MÔ HÌNH OSI
+Chức năng và nhiệm vụ của các tầng của mô hình OSI:
+➢Tầng vật lý (Physical Layer):
+• Chuyển đổi các dữ liệu thành các tín hiệu cơ, điện, quang
+thành các tín hiệu nhị phân (0,1) để truyền trên đường
+truyền vật lý.
+➢Tầng liên kết dữ liệu (Data Link Layer):
+• Định nghĩa các cách thức đóng gói dữ liệu cho các loại
+đường truyền. Thực hiện tương tác với các giao thức của
+lớp trên,
+• Sử dụng địa chỉ MAC (MAC address – Physical address).
+➢Tầng mạng (Network Layer):
+• Định tuyến đường truyền. Tìm ra đường đi tối ưu nhất cho
+các thực thể.
+• Sử dụng địa chỉ IP (Internet Protocol).
+NHẬP MÔN INTERNET VÀ E-LEARNING 19
+
+-- 19 of 65 --
+
+2.2.1. MÔ HÌNH OSI
+Chức năng và nhiệm vụ của các tầng của mô hình OSI:
+➢Tầng giao vận (Transport Layer):
+• Quản lý thực hiện các tác vụ truyền dữ liều từ nguồn đến
+đích.
+• Đảm bảo việc truyền dữ liệu được tối ưu nhất, các tác vụ
+truyền này phải được đảm bảo thông suốt từ các tầng 1,2,3.
+➢Tầng phiên (Session Layer):
+• Thiết lập, duy trì và giải phóng các session trao đổi dữ liệu
+giữa các ứng dụng trên 2 host.
+NHẬP MÔN INTERNET VÀ E-LEARNING 20
+
+-- 20 of 65 --
+
+2.2.1. MÔ HÌNH OSI
+Chức năng và nhiệm vụ của các tầng của mô hình OSI:
+➢Tầng trình diễn (Presentation Layer):
+• Đảm bảo cho các hệ thống cuối truyền thông được với nhau
+ngay cả khi chúng sử dụng các dạng dữ liệu khác nhau.
+• Để làm được điều này, nó cung cấp một biểu diễn chung để
+dùng trong truyền thông và cho phép chuyển đổi từ biểu
+diễn cục bộ sang kiểu biểu diễn chung đó.
+➢Tầng ứng dụng (Application Layer):
+• Quy định giao diện giữa người sử dụng và môi trường OSI.
+• Cung cấp các phương tiện cho người sử dụng truy cập vả
+sử dụng các dịch vụ của mô hình OSI.
+NHẬP MÔN INTERNET VÀ E-LEARNING 21
+
+-- 21 of 65 --
+
+2.2.2. MÔ HÌNH TCP/IP
+TCP/IP bao gồm 4 tầng như sau:
+➢Tầng truy cập mạng (Network Access Layer):
+• Là tầng thấp nhất trong mô hình TCP/IP, bao gồm các thiết
+bị giao tiếp mạng và chương trình cung cấp các thông tin
+cần thiết để có thể hoạt động, truy cập đường truyền vật lý
+qua thiết bị giao tiếp mạng đó.
+➢Tầng liên mạng (Internet Layer):
+• Cung cấp địa chỉ logic, độc lập với phần cứng, để dữ liệu có
+thể lướt qua các mạng con có cấu trúc vật lý khác nhau.
+• Cung cấp chức năng định tuyến để giảm lưu lượng giao
+thông và hỗ trợ việc vận chuyển liên mạng.
+NHẬP MÔN INTERNET VÀ E-LEARNING 22
+
+-- 22 of 65 --
+
+2.2.2. MÔ HÌNH TCP/IP …
+➢Tầng giao vận (Transport Layer):
+• Kiểm soát luồng dữ liệu, kiểm tra lỗi.
+• Xử lý vấn đề giao tiếp giữa các máy chủ trong cùng một
+mạng hoặc khác mạng được kết nối với nhau thông qua bộ
+định tuyến.
+• Bao gồm 2 giao thức cốt lõi là TCP và UDP.
+➢Tầng ứng dụng (Application Layer):
+• Lớp giao tiếp trên cùng của mô hình TCP/IP.
+• Đảm nhận vai trò giao tiếp dữ liệu giữa 2 máy khác nhau
+thông qua các dịch vụ mạng khác nhau (duyệt web, chat,
+gửi email, một số giao thức trao đổi dữ liệu: SMTP,
+SSH, FTP,...).
+NHẬP MÔN INTERNET VÀ E-LEARNING 23
+
+-- 23 of 65 --
+
+2.3. CÁC GIAO THỨC KẾT NỐI MẠNG
+2.3.1. Đặc điểm
+2.3.2. Bộ giao thức TCP/IP
+NHẬP MÔN INTERNET VÀ E-LEARNING 24
+
+-- 24 of 65 --
+
+2.3. CÁC GIAO THỨC KẾT NỐI MẠNG
+• Giao thức mạng là tập hợp các quy tắc và quy ước điều khiển việc
+trao đổi thông tin (truyền thông) giữa các hệ thống máy tính.
+• Các máy tính muốn giao tiếp được với nhau phải sử dụng cùng
+giao thức.
+• Một số giao thức phổ biến hiện nay là TCP/IP, SPX/IPX, Microsoft
+Network.
+NHẬP MÔN INTERNET VÀ E-LEARNING 25
+
+-- 25 of 65 --
+
+2.3.1. ĐẶC ĐIỂM
+NetBEUI
+• Bộ giao thức nhỏ, nhanh và hiệu quả được cung cấp theo các sản phẩm của hãng
+IBM, cũng như sự hỗ trợ của Microsoft.
+• Bất lợi chính của bộ giao thức này là không hỗ trợ định tuyến và sử dụng giới hạn
+ở mạng dựa vào Microsoft.
+IPX/SPX
+• Đây là bộ giao thức sử dụng trong mạng Novell.
+• Ưu điểm: nhỏ, nhanh và hiệu quả trên các mạng cục bộ đồng thời hỗ trợ khả năng
+định tuyến.
+DECnet
+• Đây là bộ giao thức độc quyền của hãng Digtal Equipment Corpration.
+• DECnet định nghĩa mô tả truyền thông qua mạng cục bộ LAN, mạng MAN (mạng
+đô thị), WAN (mạng diện rộng). Giao thức này có khả năng hỗ trợ định tuyến.
+TCP/IP
+• Ưu thế chính của bộ giao thức này là khả năng liên kết hoạt động của nhiều loại
+máy tính khác nhau.
+• TCP/IP đã trở thành tiêu chuẩn thực tế cho kết nối liên mạng cũng như kết nối
+Internet toàn cầu.
+• Hiện nay, TCP/IP được sử dụng rộng rãi trong các mạng cục bộ cũng như trên
+mạng Internet. 26	NHẬP MÔN INTERNET VÀ E-LEARNING
+
+-- 26 of 65 --
+
+2.3.2. BỘ GIAO THỨC TCP/IP
+Lịch sử bộ giao thức TCP/IP:
+• Ra đời gắn liền với sự ra đời của Internet - tiền thân là mạng
+ARPAnet (Advanced Research Projects Agency) do Bộ Quốc
+phòng Mỹ tạo ra.
+• Là bộ giao thức được dùng rộng rãi nhất vì tính mở của nó.
+• Hai giao thức được dùng chủ yếu:
+oTCP (Transmission Control Protocol)
+oIP (Internet Protocol).
+• 1981, TCP/IP v4 hoàn tất và được phổ biến rộng rãi cho toàn
+bộ những máy tính sử dụng hệ điều hành UNIX.
+• 1994, một bản thảo của phiên bản IPv6 được hình thành với sự
+cộng tác của nhiều nhà khoa học thuộc các tổ chức Internet
+trên thế giới để cải tiến những hạn chế của IPv4.
+NHẬP MÔN INTERNET VÀ E-LEARNING 27
+
+-- 27 of 65 --
+
+2.3.2. BỘ GIAO THỨC TCP/IP
+Các giao thức tầng ứng dụng:
+• FTP (File Transfer Protocol): Giao
+thức truyền tệp. Sử dụng TCP để
+truyền các tệp tin giữa các hệ thống
+có hỗ trợ FTP.
+• NFS (Network File System): Là 1
+bộ giao thức hệ thống file phân tán
+(được phát triển bởi Sun
+Microsystems) cho phép truy xuất
+file đến các thiết bị ở xa như 1 đĩa
+cứng trên mạng.
+• Telnet (Terminal Emulation): Cung
+cấp khả năng truy nhập từ xa vào
+các máy tính khác.
+NHẬP MÔN INTERNET VÀ E-LEARNING 28
+
+-- 28 of 65 --
+
+2.3.2. BỘ GIAO THỨC TCP/IP
+Các giao thức tầng ứng dụng:
+• SMNP (Simple Management Network
+Protocol): Là phương pháp để cung
+cấp các hình thức thu thập thống kê,
+hiệu suất và bảo mật.
+• SMTP (Simple Mail Transfer Protocol):
+Giao thức truyền thư điện tử.
+• LPD (Line Printer Deamon): printer
+sharing
+• DNS (Domain Name System): quy định
+quy tắc sử dụng tên miền.
+• TFTP (Trivial FTP): Một dạng khác của
+FTP nhưng dịch vụ không kết nối,
+dùng giao thức UDP.
+NHẬP MÔN INTERNET VÀ E-LEARNING 29
+
+-- 29 of 65 --
+
+2.3.2. BỘ GIAO THỨC TCP/IP
+Các giao thức tầng giao vận:
+• Giao thức điều khiển truyền tải
+(TCP- Transmission Control
+Protocol)
+• TCP là giao thức kiểu có liên
+kết.
+• Đơn vị dữ liệu sử dụng trong
+TCP là segment.
+• Giao thức đơn vị dữ liệu người
+dùng (UDP- User Datagram
+Protocol).
+NHẬP MÔN INTERNET VÀ E-LEARNING 30
+
+-- 30 of 65 --
+
+2.3.2. BỘ GIAO THỨC TCP/IP
+Các giao thức tầng giao vận:
+• Giao thức điều khiển truyền tải
+(TCP)
+• Giao thức đơn vị dữ liệu người
+dùng (UDP- User Datagram
+Protocol)
+• UDP là giao thức kiểu không liên
+kết (connectionless).
+• Đơn vị dữ liệu sử dụng trong
+UDP là datagram.
+NHẬP MÔN INTERNET VÀ E-LEARNING 31
+
+-- 31 of 65 --
+
+2.3.2. BỘ GIAO THỨC TCP/IP
+Các giao thức tầng liên mạng:
+• Giao thức liên mạng (IP - Internet Protocol)
+oIP là giao thức thuộc tầng mạng của mô hình OSI. Giao thức
+IP có các vai trò chính:
+- Vai trò của giao thức tầng mạng trong mô hình OSI.
+- Cung cấp khả năng kết nối các mạng con thành liên
+kết mạng để truyền dữ liệu
+oIP là một giao thức kiểu không liên kết (connectionless).
+Đơn vị dữ liệu trong IP là IP datagram
+NHẬP MÔN INTERNET VÀ E-LEARNING 32
+
+-- 32 of 65 --
+
+2.3.2. BỘ GIAO THỨC TCP/IP
+Các giao thức tầng liên mạng:
+• Giao thức thông báo lỗi (ICMP - Internet Control Message Protocol)
+o ICMP tạo ra nhiều loại thông điệp hữu ích như :
+• Đích đến không tới được (Destination Unreachable),
+• Thăm hỏi và trả lời (Echo Request and Reply),
+• Chuyển hướng (Redirect),
+• Vượt quá thời gian (Time Exceeded),
+• Quảng bá bộ chọn đường (Router Advertisement)
+• Cô lập bộ chọn đường (Router Solicitation)
+• ....
+• Giao thức ARP - Address Resolution Protocol: ARP là giao thức
+chuyển địa chỉ IP thành địa chỉ vật lý (MAC) của các thiết bị mạng.
+• Giao thức RARP - Reverse Address Resolution Protocol: RARP là
+giao thức chuyển địa chỉ vật lý MAC thành địa chỉ mạng IP.
+NHẬP MÔN INTERNET VÀ E-LEARNING 33
+
+-- 33 of 65 --
+
+2.4. ĐỊA CHỈ IP VÀ TÊN MIỀN
+2.4.1. Địa chỉ IP
+2.4.2. Tên miền
+NHẬP MÔN INTERNET VÀ E-LEARNING 34
+
+-- 34 of 65 --
+
+2.4.1. ĐỊA CHỈ IP
+• Các máy tính trên Internet phải làm việc với nhau theo giao thức
+chuẩn TCP/IP nên đòi hỏi phải có địa chỉ IP (Internet Protocol) và
+địa chỉ này tồn tại duy nhất trong mạng.
+• Địa chỉ IP giúp cho các máy tính có thể trao đổi thông tin cho nhau
+một cách chính xác, không bị thất lạc.
+• Có hai phiên bản của địa chỉ IP cho mạng máy tính là IPv4 và
+IPv6.
+NHẬP MÔN INTERNET VÀ E-LEARNING 35
+
+-- 35 of 65 --
+
+2.4.1. ĐỊA CHỈ IP
+Địa chỉ IPv4 (Internet protocol version 4)
+• Chiều dài 32 bit, gồm 4 octet, mỗi octet là 8 bit, có giá trị nằm trong
+khoảng [0..255].
+• Địa chỉ IPv4 được biểu diễn dưới dạng 4 cụm số thập phân phân
+cách bởi dấu chấm, ví dụ: 203.119.9.0.
+• Với 32 bit chiều dài, không gian IPv4 có khả nǎng cung cấp 232 = 4
+294 967 296 địa chỉ.
+• Mỗi địa chỉ IP gồm có 2 phần:
+• NetworkID (định danh mạng)
+• HostID (định danh cho host):
+NHẬP MÔN INTERNET VÀ E-LEARNING 36
+
+-- 36 of 65 --
+
+2.4.1. ĐỊA CHỈ IP
+Địa chỉ IPv4 (Internet protocol version 4)
+• Các lớp địa chỉ Ipv4:
+NHẬP MÔN INTERNET VÀ E-LEARNING 37
+
+-- 37 of 65 --
+
+2.4.1. ĐỊA CHỈ IP
+Địa chỉ IPv4 (Internet protocol version 4)
+• Địa chỉ dành riêng: Địa chỉ dành riêng là các địa chỉ host nào đó
+được dành riêng và không thể gán cho các thiết bị trên mạng. Bao
+gồm:
+➢Địa chỉ mạng: dùng định danh cho chính mạng đó, trong đó tất
+cả các bit thuộc phần Host ID đều có giá trị là 0
+oĐể dùng định danh cho chính mạng đó.
+oHướng tới mạng định danh bởi vùng NetID.
+➢Địa chỉ quảng bá: địa chỉ IP mà trong đó tất cả các bit thuộc
+phần Host ID đều có giá trị là 1.
+oDùng để quảng bá (broadcasting) các gói đến tất cả các
+thiết bị trên 1 mạng.
+oHướng tới tất cả các host nối vào mạng định danh bởi
+NetID.
+NHẬP MÔN INTERNET VÀ E-LEARNING 38
+
+-- 38 of 65 --
+
+2.4.1. ĐỊA CHỈ IP
+Địa chỉ IPv4 (Internet protocol version 4)
+• Địa chỉ IP công cộng và địa chỉ IP riêng:
+• Địa chỉ IP công cộng: Là duy nhất, có tính toàn cầu và được tiêu
+chuẩn hóa
+o→ không thể có 2 máy nào kết nối vào mạng công cộng lại có cùng
+địa chỉ IP
+oĐược lấy từ nhà cung cấp dịch vụ hay đăng ký với 1 chi phí nào đó
+• Địa chỉ IP riêng:
+oKhông được định tuyến trên Internet Backbone
+oCác Router Internet loại bỏ các địa chỉ riêng ngay lập tức
+o3 khối địa chỉ IP cho dùng riêng:
+• Lớp A: 10.0.0.0 → 10.255.255.255
+• Lớp B: 172.16.0.0 → 172.31.255.255
+• Lớp C: 192.168.0.0 → 192.168.255.255
+• NAT (Network Address Translation): Kết nối một mạng dùng các địa chỉ
+riêng vào Internet yêu cầu sự thông dịch các địa chỉ riêng thành các địa
+chỉ công cộng. 39	NHẬP MÔN INTERNET VÀ E-LEARNING
+
+-- 39 of 65 --
+
+2.4.1. ĐỊA CHỈ IP
+Địa chỉ IPv6 (Internet protocol version 6)
+• Ipv6 là thế hệ địa chỉ Internet phiên bản mới được thiết kế để thay
+thế cho phiên bản địa chỉ IPv4 trong hoạt động Internet.
+oDo sự phát triển mạnh mẽ của mạng Internet và các dịch vụ
+trên mạng Internet, nguồn IPv4 dần cạn kiệt, đồng thời bộc lộ
+các hạn chế đối với việc phát triển các loại hình dịch vụ hiện đại
+trên Internet.
+• Phiên bản địa chỉ Internet mới IPv6 được thiết kế để thay thế cho
+phiên bản IPv4, với hai mục đích cơ bản:
+oThay thế cho nguồn IPv4 cạn kiệt để tiếp nối hoạt động
+Internet.
+oKhắc phục các nhược điểm trong thiết kế của địa chỉ IPv4.
+NHẬP MÔN INTERNET VÀ E-LEARNING 40
+
+-- 40 of 65 --
+
+2.4.1. ĐỊA CHỈ IP
+Địa chỉ IPv6 (Internet protocol version 6)
+• Địa chỉ IPv6 có chiều dài 128 bit, biểu diễn dưới dạng các cụm số
+hexa phân cách bởi dấu hai chấm (:)
+• Không gian địa chỉ IPv6 gồm 2128 địa chỉ, cung cấp một lượng địa
+chỉ khổng lồ cho hoạt động Internet.
+Ví dụ: 2001:0DC8:1005:2F43:0BCD:FFFF
+NHẬP MÔN INTERNET VÀ E-LEARNING 41
+
+-- 41 of 65 --
+
+2.4.2. TÊN MIỀN
+• Với cấu trúc địa chỉ IP như trên, người sử dụng sẽ khó nhớ được
+địa chỉ IP dẫn đến việc sử dụng dịch vụ từ một máy tính nào đó là
+rất khó khǎn. Để thuận tiện cho người sử dụng, một tên tượng
+trưng sẽ được sử dụng thay thế cho địa chỉ IP. Tên tượng trưng
+này được gọi là tên miền (domain name).
+• Ví dụ: Địa chỉ IP của trang tìm kiếm thông tin google là
+172.217.31.238 được thay thế bởi một tên miền dễ nhớ là
+www.google.com.
+• Trong hệ điều hành Windows để biết địa chỉ IP của một tên
+miền vào cửa sổ lệnh và gõ lệnh ping <tên miền>. Ví dụ: ping
+www.google.com
+NHẬP MÔN INTERNET VÀ E-LEARNING 42
+
+-- 42 of 65 --
+
+2.4.2. TÊN MIỀN
+• Cấu tạo tên miền (Domain Name): Để quản lý các máy đặt tại
+những vị trí vật lý khác nhau trên hệ thống mạng nhưng thuộc
+cùng một tổ chức, cùng lĩnh vực hoạt động… người ta nhóm các
+máy này vào một tên miền (Domain). Trong miền này nếu có
+những tổ chức nhỏ hơn, lĩnh vực hoạt động hẹp hơn… thì được
+chia thành các miền con (Sub Domain). Tên miền dùng dấu chấm
+(.) làm dấu phân cách. Cấu trúc miền và các miền con giống như
+một cây phân cấp.
+• Ví dụ www.home.vnn.vn là tên miền máy chủ web của VNNIC.
+oThành phần thứ nhất ‘www’ là tên của máy chủ
+oThành phần thứ hai ‘home‘ thường gọi là tên miền cấp 3 (Third
+Level Domain Name)
+oThành phần thứ ba ‘vnn’ gọi là tên miền mức 2 (Second Level
+Domain Name)
+oThành phần cuối cùng ‘vn’ là tên miền mức cao nhất (ccTLD -
+Country Code Top Level Domain Name). 43	NHẬP MÔN INTERNET VÀ E-LEARNING
+
+-- 43 of 65 --
+
+2.4.2. TÊN MIỀN …
+• Qui tắc đặt tên miền:
+oTên miền nên được đặt đơn giản và có tính chất gợi nhớ, phù
+hợp với mục đích và phạm vi hoạt động của tổ chức, cá nhân
+sỡ hữu tên miền.
+oMỗi tên miền được có tối đa 63 ký tự bao gồm cả dấu “.”.
+oTên miền được đặt bằng các chữ số và chữ cái (a-z A-Z 0-9) và
+ký tự gạch ngang (-).
+oMột tên miền đầy đủ có chiều dài không vượt quá 255 ký tự.
+Chú ý: Việt Nam cho phép đăng ký tên miền tiếng Việt.
+NHẬP MÔN INTERNET VÀ E-LEARNING 44
+
+-- 44 of 65 --
+
+2.4.2. TÊN MIỀN
+• Dưới đây là các tên miền thông dụng:
+NHẬP MÔN INTERNET VÀ E-LEARNING 45
+Domain Mô tả
+.com Các tổ chức thương mại, doanh nghiệp (Commercial)
+.edu Các tổ chức giáo dục ( Education)
+.gov Các tổ chức chính phủ (Government)
+.int Các tổ chức Quốc tế (International Organizations)
+.mil Các tổ chức quân sự (Military)
+.net Dành cho các nhà cung cấp dịch vụ web, net (Network)
+.biz Dùng cho các trang thương mại (Business)
+.info Website về lĩnh vực thông tin (Information)
+.org Các tổ chức phi chính phủ hoặc phi lợi nhuận (Organization)
+
+-- 45 of 65 --
+
+2.4.2. TÊN MIỀN
+• Ngoài ra, mỗi Quốc gia còn có một miền gồm hai ký tự.
+Ví dụ: “vn” (Việt Nam), “us” (Mỹ), “ca” (Canada)… Bảng sau là các
+ký hiệu tên vùng của một số nước trên thế giới:
+NHẬP MÔN INTERNET VÀ E-LEARNING 46
+Domain Quốc gia tương ứng
+.at Áo
+.be Bỉ
+.ca Canada
+.fi Phần Lan
+.fr Pháp
+.de Đức
+.il Israel
+.it Italia
+.jp Nhật
+.vn Việt Nam
+
+-- 46 of 65 --
+
+2.5. MỘT SỐ DỊCH VỤ INTERNET
+THÔNG DỤNG
+2.5.1. Dịch vụ World Wide Web
+2.5.2. Dịch vụ thư điện tử
+2.5.3. Dịch vụ truyền file FTP
+2.5.4. Dịch vụ Telnet
+2.5.5. Dịch vụ tìm kiếm
+2.5.6. Dịch vụ hosting
+2.5.7. Dịch vụ cloud
+2.5.8. Dịch vụ chat
+NHẬP MÔN INTERNET VÀ E-LEARNING 47
+
+-- 47 of 65 --
+
+2.5.1. DỊCH VỤ WORLD WIDE WEB
+• Là một dịch vụ của Internet – còn được gọi tắt là dịch vụ Web.
+• Cho phép truy nhập đến nguồn thông tin khổng lồ trên Internet
+được tổ chức dưới dạng các trang web có sự liên kết chặt sẽ với
+nhau.
+NHẬP MÔN INTERNET VÀ E-LEARNING 48
+
+-- 48 of 65 --
+
+2.5.1. DỊCH VỤ WORLD WIDE WEB
+• Máy chủ Web (web server)
+oĐể cung cấp dịch vụ Web cho người sử dụng, chúng ta cần có
+một máy chủ Web đặt tại một địa chỉ nào đó trên Internet,
+oTrên máy chủ này cài đặt phần mềm phục vụ Web được gọi là
+Web Server.
+• Trình duyệt Web (web browser)
+oTrình duyệt Web là một phần mềm ứng dụng được cài đặt trên
+máy tính của người sử dụng (máy trạm).
+oPhần mềm này cho phép người dùng duyệt các tài liệu siêu văn
+bản trên Web.
+NHẬP MÔN INTERNET VÀ E-LEARNING 49
+
+-- 49 of 65 --
+
+2.5.2. DỊCH VỤ THƯ ĐIỆN TỬ
+• Dịch vụ thư điện tử là một dịch vụ thông dụng nhất của Internet,
+cho phép gửi một thông điệp tới một hoặc một nhóm người qua
+mạng Internet.
+• Ngoài ra còn có thể đính kèm các tệp tin cùng với thông điệp.
+• Ưu điểm:
+• Tốc độ cao và khả năng chuyển tải trên toàn cầu
+• Giá thành thấp
+• Linh hoạt về mặt thời gian
+NHẬP MÔN INTERNET VÀ E-LEARNING 50
+
+-- 50 of 65 --
+
+2.5.2. DỊCH VỤ THƯ ĐIỆN TỬ
+• Hệ thống thư điện tử được chia làm hai phần:
+oMUA (Mail User Agent): tương tác trực tiếp với người dùng
+cuối, giúp họ nhận bản tin, soạn thảo bản tin, lưu các bản tin và
+gửi bản tin.
+oMTA (Message Transfer Agent): định tuyến bản tin và xử lý các
+bản tin đến từ hệ thống của người dùng sao cho các bản tin đó
+đến được đúng hệ thống đích.
+• Để có thể sử dụng thư điện tử, mỗi người dùng phải có một tài
+khoản. Tài khoản này có thể được đăng ký miễn phí hoặc do các
+nhà cung cấp dịch vụ cấp cho.
+NHẬP MÔN INTERNET VÀ E-LEARNING 51
+
+-- 51 of 65 --
+
+2.5.2. DỊCH VỤ THƯ ĐIỆN TỬ
+• Địa chỉ thư điện tử:
+oMỗi hệ thống thư có thể sử dụng một qui ước riêng về địa chỉ.
+→ thường sử dụng hai khuôn dạng địa chỉ:
+▪ Địa chỉ miền (Domain-Base Address): sử dụng nhiều trên hệ
+điều hành Windows,
+▪ Địa chỉ UUCP (Unix to Unix Copy Command): sử dụng nhiều
+trên hệ điều hành Unix.
+▪ Ngoài hai dạng địa chỉ trên, còn có một dạng địa chỉ nữa tạo
+thành bởi sự kết hợp của cả hai dạng địa chỉ trên, gọi là địa
+chỉ hỗn hợp.
+NHẬP MÔN INTERNET VÀ E-LEARNING 52
+
+-- 52 of 65 --
+
+2.5.2. DỊCH VỤ THƯ ĐIỆN TỬ
+• Địa chỉ thư điện tử:
+oĐịa chỉ miền là dạng địa chỉ thông dụng nhất. Không gian địa
+chỉ miền có cấu trúc hình cây. Mỗi nút của cây có một nhãn duy
+nhất cũng như mỗi người dùng có một địa chỉ thư duy nhất.
+Các địa chỉ miền xác định địa chỉ đích tuyệt đối của người
+nhận.
+oDo đó, dạng địa chỉ này dễ sử dụng đối với người dùng: họ
+không cần biết đích xác đường đi của bản tin như thế nào.
+oĐịa chỉ tên miền có khuôn dạng như sau:
+▪ Thông_tin_người_dùng@thông_tin_tên_miền
+▪ Phần “thông_tin_tên_miền” gồm một xâu các nhãn cách
+nhau bởi một dấu chấm (.).
+▪ Ví dụ: tuxa@tnu.edu.vn; hocvienneu@gmail.com
+NHẬP MÔN INTERNET VÀ E-LEARNING 53
+
+-- 53 of 65 --
+
+2.5.2. DỊCH VỤ THƯ ĐIỆN TỬ
+• Cấu trúc của một bản tin (Message): Một bản tin điện tử gồm có
+những thành phần chính sau đây:
+oĐầu bản tin (Header): Chứa địa chỉ thư của người nhận.
+MUA sử dụng địa chỉ này để phân bản tin về đúng hộp thư
+của người nhận.
+oTo: Địa chỉ của người nhận bản tin.
+oFrom: Địa chỉ của người gửi bản tin.
+oSubject: Mô tả ngắn gọn nội dung của bản tin.
+oCc (Carbon Copy): Các địa chỉ người nhận bản tin ngoài
+người nhận chính ở trường “To:”.
+oBcc (Blind Carbon Copy): Các địa chỉ người nhận bản tin bí
+mật, khi người gửi không muốn các người nhận ở trường
+“To:” và “Cc:” biết.
+oThân bản tin (Body): chứa nội dung của bản tin.
+NHẬP MÔN INTERNET VÀ E-LEARNING 54
+
+-- 54 of 65 --
+
+2.5.3. DỊCH VỤ TRUYỀN FILE FTP
+• Dịch vụ truyền file (FTP- File Transfer Protocol): Là một dịch vụ cơ
+bản và phổ biến cho phép chuyển các file dữ liệu giữa các máy
+tính khác nhau trên mạng.
+• Với cấu hình của máy phục vụ FTP, có thể:
+oQui định quyền truy nhập của người sử dụng với từng thư mục
+dữ liệu, file dữ liệu
+oGiới hạn số lượng người sử dụng có khả năng cùng một lúc có
+thể truy nhập vào cùng một nơi lưu trữ dữ liệu.
+NHẬP MÔN INTERNET VÀ E-LEARNING 55
+
+-- 55 of 65 --
+
+2.5.4. DỊCH VỤ TELNET
+• TELNET (viết tắt của TELecommunication NETwork cũng có thể là
+Terminal NETwork hay TELetype NETwork)
+• Là một giao thức mạng (network protocol) được dùng trên các kết
+nối với internet hoặc các kết nối tại mạng máy tính cục bộ LAN.
+• TELNET thường được dùng để cung cấp những phiên giao dịch
+đăng nhập giữa các máy trên mạng Internet, và dùng dòng lệnh có
+tính định hướng người dùng. Một máy trạm có thể thực hiện đồng
+thời nhiều phiên telnet đến nhiều địa chỉ IP khác nhau.
+• Telnet hoạt động theo phiên, mỗi phiên là một kết nối truyền dữ
+liệu theo giao thức TCP với cổng 23.
+• Telnet hoạt động theo mô hình khách/chủ (Client/Server), trong đó
+Client là một phần mềm chạy trên máy của người dùng, phần
+mềm này sẽ cung cấp giao diện hiển thị để người dùng gõ lệnh
+điều khiển. Phần Server là dịch vụ chạy trên máy từ xa lắng nghe
+và xử lý các kết nối và câu lệnh được gửi đến từ máy trạm.
+NHẬP MÔN INTERNET VÀ E-LEARNING 56
+
+-- 56 of 65 --
+
+2.5.4. DỊCH VỤ TELNET
+• Dịch vụ telnet thường được sử dụng để điều khiển và cấu hình từ
+xa cho các thiết bị, chẳng hạn bộ định tuyến (Router) và bộ chuyển
+mạch (Switch).
+oĐể kết nối từ xa đến một thiết bị nào đó, câu lệnh được sử dụng
+là: Telnet IP_address. Trong đó:
+oTelnet là tên lệnh;
+oIP_address là địa chỉ IP của thiết bị.
+NHẬP MÔN INTERNET VÀ E-LEARNING 57
+
+-- 57 of 65 --
+
+2.5.5. DỊCH VỤ TÌM KIẾM
+• Dịch vụ tìm kiếm ra đời khi thông tin trên internet ngày càng phát
+triển.
+• Hỗ trợ cho người sử dụng tìm kiếm những tài liệu, phim, hình ảnh
+và các tệp tin đa phương tiện khác trên Internet.
+• Có nhiều công cụ hỗ trợ tìm kiếm trên mạng Internet như: Google,
+Yahoo, Bing, Yandex…
+NHẬP MÔN INTERNET VÀ E-LEARNING 58
+
+-- 58 of 65 --
+
+2.5.6. DỊCH VỤ HOSTING
+• Hosting là dịch vụ lưu trữ và chia sẻ dữ liệu trực tuyến, là không
+gian trên máy chủ có cài đặt các dịch vụ internet như www, truyền
+file (FTP), mail… có thể chứa nội dung trang web hay dữ liệu trên
+không gian đó.
+• Dịch vụ Hosting là dịch vụ cho thuê không gian lưu trữ website
+trên máy chủ internet. Nếu máy chủ như một máy tính cá nhân thì
+hosting như một thư mục trên máy tính đó.
+• Khác với máy tính thông thường máy chủ là loại máy tính đặc thù
+được thiết kế riêng cho việc lưu trữ và xử lý dữ liệu trên mạng
+internet, có địa chỉ IP và đường truyền mạng riêng. Máy chủ
+thường có cấu hình rất cao.
+NHẬP MÔN INTERNET VÀ E-LEARNING 59
+
+-- 59 of 65 --
+
+2.5.6. DỊCH VỤ HOSTING
+• Một số loại hosting cơ bản như sau:
+oShared hosting: Chia sẻ host
+oCollocated hosting: Thuê chỗ đặt máy chủ
+oDedicated Server: Máy chủ dùng riêng
+oVirtual Private Server: VPS là máy chủ riêng ảo
+NHẬP MÔN INTERNET VÀ E-LEARNING 60
+
+-- 60 of 65 --
+
+2.5.7. DỊCH VỤ CLOUD
+• Điện toán đám mây gồm một số đặc trưng sau:
+oTruy cập tài nguyên điện toán qua kết nối mạng băng rộng;
+oNgười dùng tự cấu hình dịch vụ theo yêu cầu (on-demand self
+service);
+oTài nguyên được dùng chung bởi nhiều người dùng một cách
+tối ưu;
+oViệc sử dụng tài nguyên được đo đếm (gần) theo thời gian
+thực;
+oTài nguyên có thể tăng/giảm nhanh chóng mà không cần sự hỗ
+trợ của nhà cung cấp dịch vụ.
+NHẬP MÔN INTERNET VÀ E-LEARNING 61
+
+-- 61 of 65 --
+
+2.5.7. DỊCH VỤ CLOUD
+• Các đặc trưng:
+oTruy cập tài nguyên điện toán qua kết nối băng thông rộng.
+oNgười dùng tự cấu hình dịch vụ theo yêu cầu.
+oTài nguyên được dùng chung bởi nhiều người dùng một cách
+tối ưu.
+oViệc sử dụng tài nguyên được đo đếm theo thời gian thực.
+oTài nguyên có thể tăng hoặc giảm nhanh chóng mà không cần
+sự hỗ trợ của nhà cung cấp dịch vụ.
+NHẬP MÔN INTERNET VÀ E-LEARNING 62
+
+-- 62 of 65 --
+
+2.5.8. DỊCH VỤ CHAT
+• Dịch vụ chat là một công cụ khá phổ biến và tiện ích trên internet.
+• Mọi người có thể nói chuyện trực tiếp với nhau thông qua mạng
+internet với các ứng dụng đã được cài đặt sẵn và kết nối với chi
+phí rẻ và tiện ích, có thể xem được hình ảnh, nghe nói với chất
+lượng tốt.
+• Hình thức chat phổ biến nhất trước khi các hình thức chat trên
+mạng xã hội ra đời: Yahoo messenger
+• Các ứng dụng chat phổ biến hiện nay: google talk, zalo, skype,
+facebook, twitter…
+NHẬP MÔN INTERNET VÀ E-LEARNING 63
+
+-- 63 of 65 --
+
+TÓM LƯỢC CUỐI BÀI
+• Internet là một liên mạng máy tính toàn cầu được kết nối từ hàng
+nghìn mạng máy tính trên khắp thế giới.
+• Tập hợp những quy tắc, quy ước truyền thông được gọi là giao
+thức (Protocol) của mạng. Mạng Internet sử dụng một ngôn ngữ
+thống nhất, đó là bộ giao thức TCP/IP.
+• Các phương pháp kết nối phổ biến tới Internet là: Kênh thuê riêng,
+băng rộng, quay số qua mạng điện thoại, kết nối không dây.
+• Địa chỉ IP dùng để nhận dạng máy tính và thiết bị trên mạng
+Internet. Tên miền được dùng thay thế cho địa chỉ IP.
+• Các dịch vụ Internet như: web, thư điện tử, truyền tệp, đều hoạt
+động theo mô hình Client/Server. Để cung cấp các dịch vụ này,
+Internet cần có các máy chủ. Máy tính của người sử dụng (máy
+khách) sẽ kết nối tới máy chủ trên Internet để sử dụng dịch vụ.
+NHẬP MÔN INTERNET VÀ E-LEARNING 64
+
+-- 64 of 65 --
+
+KẾT THÚC
+NHẬP MÔN INTERNET VÀ E-LEARNING 65
+
+-- 65 of 65 --
+

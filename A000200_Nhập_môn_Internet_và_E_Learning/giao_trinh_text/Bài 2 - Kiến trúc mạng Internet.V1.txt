@@ -1,0 +1,999 @@
+1
+BÀI 2. KIẾN TRÚC MẠNG INTERNET
+
+-- 1 of 33 --
+
+1. Kiến trúc tổng quát của Internet như thế nào? Có các phương thức nào để kết
+nối Internet? Các giao thức kết nối mạng?
+2. Địa chỉ IP và tên miền là gì? Vai trò của hệ thống tên miền?
+3. Có các loại dịch vụ Internet thông dụng nào?
+Tình huống dẫn nhập
+Kiến trúc mạng Internet
+• Internet đã trở nên quen thuộc với rất nhiều người. Sự xuất hiện và phát triển của Internet
+đã thay đổi cách thức làm việc và trao đổi thông tin của mọi người, thúc đẩy mạnh mẽ sự phát
+triển của xã hội. Vậy kiến trúc tổng quát của Internet như thế nào? Có các phương thức nào để
+kết nối Internet? Các giao thức kết nối mạng?
+• Bạn sử dụng Internet và thường thấy mọi người nói về địa chỉ IP và tên miền. Địa chỉ IP
+và tên miền là gì? Vai trò của nó như thế nào?
+• Internet là một kho thông tin đồ sộ, chứa đựng vô vàn kiến thức và được phân tán khắp
+nơi trên thế giới. Các dịch vụ Internet ngày càng đa dạng và dễ sử dụng, giúp ích cho con người
+trong rất nhiều công việc. Có các dịch vụ Internet phổ biến nào?
+
+-- 2 of 33 --
+
+3
+2.1. Kiến trúc mạng Internet
+2.1.1. Kiến trúc tổng quát
+Internet là một liên mạng kết nối các mạng nhỏ hơn với nhau. Cấu trúc Internet gồm các
+mạng máy tính được kết nối với nhau thông qua các kết nối viễn thông. Thiết bị dùng để kết nối
+các mạng máy tính với nhau là cổng nối Internet (Internet Gateway) hoặc bộ định tuyến (Router).
+Hình 2.1: Cấu trúc Internet
+Tuy nhiên, đối với người dùng, Internet chỉ là một mạng duy nhất.
+Hình 2.2. Internet dưới góc nhìn của người sử dụng
+2.1.2. Các phương thức kết nối
+Để có thể sử dụng các dịch vụ Internet, người dùng phải kết nối máy tính của mình với
+Internet. Có nhiều phương thức kết nối, mỗi phương thức có tốc độ truyền nhận dữ liệu khác
+
+-- 3 of 33 --
+
+nhau, tùy thuộc vào nhu cầu sử dụng và điều kiện của người sử dụng. Các phương thức kết nối
+chính là: điện thoại (dial-up), băng rộng, kết nối qua vệ tinh, kết nối không dây và kết nối thông
+qua kênh thuê riêng.
+2.1.2.1. Kết nối quay số qua mạng điện thoại (Dial-up)
+Người dùng kết nối với Internet thông qua mạng điện thoại. Người dùng cần có một đường
+điện thoại và một thiết bị kết nối là Modem. Máy tính của người dùng kết nối với Modem và
+Modem được kết nối tới đường điện thoại.
+Hình 2.3. Kết nối Dial - up
+Đây là phương thức truy cập Internet thông qua đường dây điện thoại bằng cách quay số tới
+số của nhà cung cấp dịch vụ Internet (chẳng hạn như quay tới số điện thoại 1260 của nhà cung cấp
+VNN). Trên lý thuyết, tốc độ kết nối của dial-up dao động từ 2056Kbps, trong thực tế khó có thể
+đạt được tốc độ 56Kbps. Đây là phương thức kết nối chậm nhất trong số các công nghệ truy cập
+Internet.
+2.1.2.2. Băng rộng
+Truy cập Internet băng rộng, thường được gọi tắt là “Internet băng rộng” hoặc “băng rộng”
+– là loại hình kết nối Internet tốc độ cao và luôn trong trạng thái kết nối 24/24. Đối với kết nối
+băng rộng, người ta thường đề cập tới các công nghệ kết nối như DSL (Digital Subcriber Line
+hay kênh thuê bao số) và “modem cáp” (cable modem) – có khả năng truyền dữ liệu ở tốc độ
+521Kbps hoặc cao hơn, xấp xỉ gấp 9 lần so với tốc độ kết nối dial-up truyền thống.
+DSL là một tập hợp các công nghệ kết nối Internet tốc độ cao, trong đó có hai công nghệ
+chính là “DSL bất đối xứng” và “DSL đối xứng”. “DSL bất đối xứng” (ADSL, RADSL, VDSL)
+có tốc độ tải xuống (download) nhanh nhưng tốc độ tải lên (upload) chậm hơn (nhưng vẫn ở mức
+có thể chấp nhận được). Trong khi đó, “DSL đối xứng” (SDSL, HDSL, IDSL) có tốc độ
+download và upload bằng nhau và đều ở mức cao.
+
+-- 4 of 33 --
+
+5
+“DSL bất đối xứng”
+Hình: 2.4. Kết nối băng rộng
+• ADSL (Asymmetrical DSL - Đường thuê bao số bất đối xứng): Truyền dữ liệu qua đường
+dây điện thoại có sẵn. ADSL cung cấp một băng thông bất đối xứng trên một đôi dây. Thuật ngữ
+bất đối xứng ở đây để chỉ sự không cân bằng trong dòng dữ liệu tải xuống và tải lên. Dòng dữ
+liệu tải xuống có băng thông lớn hơn băng thông dòng dữ liệu tải lên. ADSL có tốc độ truyền dữ
+liệu từ 1,5 – 9Mbps khi nhận dữ liệu (downstream), và từ 16 - 640Kbps khi gửi dữ liệu (upstream).
+Để có thể kết nối Internet bằng công nghệ ADSL, người dùng sẽ cần phải lắp đặt một modem
+ADSL chuyên dụng.
+o ADSL1 cung cấp 1,5Mbps cho đường dữ liệu tải xuống và 16Kbps cho đường đường dữ
+liệu tải lên, hỗ trợ chuẩn MPEG-1.
+o ADSL2 có thể cung cấp băng thông tới 3Mbps cho đường xuống và 16Kbps cho đường
+lên, hỗ trợ 2 dòng MPEG-1.
+o ADSL3 có thể cung cấp 6Mbps cho đường xuống và ít nhất 64Kbps cho đường lên, hỗ
+trợ chuẩn MPEG-2.
+o Dịch vụ ADSL mà chúng ta hay sử dụng hiện nay theo lý thuyết có thể cung cấp 8 Mbps
+khi nhận dữ liệu và 2Mbps khi gửi dữ liệu, tuy nhiên vì nhiều lý do từ phía các ISP nên chất
+lượng dịch vụ sử dụng ADSL tại các đầu cuối của chúng ta thường không đạt được như sự quảng
+cáo ban đầu.
+• RADSL (Rate Adaptive DSL): Là một phiên bản của kết nối ADSL nhưng có khả năng
+tự điều chỉnh tốc độ kết nối dựa vào chất lượng tín hiệu, ở đó các modem có thể kiểm tra đường
+truyền khi khởi động và đáp ứng lúc hoạt động theo tốc độ nhanh nhất mà đường truyền có thể
+cung cấp. RADSL còn được gọi là ADSL có tốc độ biến đổi. Trên thực tế, rất nhiều công nghệ
+ADSL lại là RADSL.
+• VDSL/VHDSL (Very High Bit Rate DSL): Tận dụng cáp đồng để kết nối Internet thay
+cho cáp quang; và cũng giống như ADSL, VDSL có thể chia sẻ chung với đường điện thoại.
+VDSL là một công nghệ xDSL cung cấp đường truyền bất đối xứng trên một đôi dây đồng. Dòng
+bit tải xuống của VDSL là cao nhất trong tất cả các công nghệ của xDSL, đạt tới 52Mbps, dòng
+tải lên có thể đạt 2,3Mbps. VDSL thường chỉ hoạt động tốt trong các mạng mạch vòng ngắn.
+VDSL dùng cáp quang để truyền dẫn là chủ yếu, và chỉ dùng cáp đồng ở phía đầu cuối.
+
+-- 5 of 33 --
+
+“DSL đối xứng”
+• HDSL (High Bit Rate DSL): Có tốc độ kết nối cao hơn ADSL nhưng không cho phép
+chia sẻ chung với đường điện thoại. HDSL cung cấp đường truyền dữ liệu T1 thông qua hai cặp
+cáp có độ dài tối đa là 3.657m. Trong khi đó, HDSL-2 lại chỉ yêu cầu một cặp cáp, và có độ tối đa
+là 5.486m. Tốc độ của HDSL và HDSL-2 dao động từ 668Kbps – 2.048Mbps (E1).
+• SDSL (Symmetric DSL): Là một phiên bản của HDSL nhưng chỉ sử dụng duy nhất một
+cặp cáp, và thường có tốc độ truyền tải dữ liệu từ 160Kbps – 1,5Mbps. Cũng giống HDSL, SDSL
+không chia sẻ đường kết nối với điện thoại.
+• IDSL (ISDN Digital Subscriber Line) có khả năng truyền tải dữ liệu ở khoảng cách xa
+hơn so với HDSL và SDSL – 7.924m. Với khoảng cách này, tốc độ truyền dữ liệu của IDSL là
+144Mbps.
+DSL bất đối xứng (có thể chia sẻ chung với đường điện thoại)
+Loại Tốc độ tải lên tối đa Tốc độ tải xuống tối đa Cặp cáp Chiều dài tối
+đa
+ADSL 1,5 Mbps 9 Mbps 1 5486m
+RADSL 1 Mbps 7 Mbps 1 7620m
+VDSL
+1,6 Mbps 13 Mbps 1 1524m
+3,2 Mbps 26 Mbps 1 914m
+6,4 Mbps 52 Mbps 1 304
+DSL đối xứng (không thể chia sẻ chung với đường điện thoại)
+Loại Tốc độ tải lên và tải xuống Cặp cáp Chiều dài tối
+đa
+HDSL
+668 Kbps 2 3657m
+1.544 Mbps (T1) 2 3657m
+2.048 Mbps (E1) 2 hoặc 3 3657m
+HDSL-2 1.544 Mbps (T1) 1 5486m
+2.048 Mbps (E1) 1 5486m
+SDSL
+1,5 Mbps 1 2743m
+784 Kbps 1 4572m
+208 Kbps 1 6096m
+160 Kbps 1 6918m
+
+-- 6 of 33 --
+
+7
+IDSL 144 Kbps 1 7924m
+Cable Modem
+Là phương thức kết nối Internet thông qua một loại modem đặc biệt được thiết kế riêng cho
+việc truyền dữ liệu thông qua mạng truyền hình cáp. Cable modem có thể tăng đáng kể băng
+thông giữa máy tính người dùng và nhà cung cấp dịch vụ Internet (ISP- Internet service
+provider), đặc biệt là tốc độ tải xuống (từ ISP tới người dùng).
+Hình 2.5. Kết nối qua Cable modem
+Không giống với loại modem analog (cần thời gian để quay số), modem cáp kết nối với
+máy tính thông qua cổng Ethernet nên trạng thái kết nối luôn luôn ở dạng sẵn sàng. Tốc độ dữ liệu
+truyền đi trong cable modem phụ thuộc vào số lượng người sử dụng truyền và nhận dữ liệu vào
+cùng một thời điểm. Tốc độ tối đa của cable modem vào thời điểm hiện nay là 2Mbps.
+2.1.2.3. Kết nối qua vệ tinh
+Dịch vụ Internet vệ tinh thường được sử dụng tại các khu vực mà các phương pháp truy cập
+Internet bình thường không thể tiếp cận được (vùng sâu, vùng xa, hải đảo…).
+Hình 2.6. Kết nối qua vệ tinh
+
+-- 7 of 33 --
+
+Dịch vụ Internet vệ tinh có 3 loại: phát đa hướng “một chiều” (one-way), phản hồi “một
+chiều” và truy cập vệ tinh “2 chiều”. Với phương pháp truy cập vệ tinh 2 chiều, tốc độ upstream
+tối đa là 1Mbps, và độ trễ là 1 giây.
+2.1.2.4. Kết nối không dây
+Khái niệm về Hotspot: Hotspot là một địa điểm mà tại đó có cung cấp các dịch vụ kết nối
+không dây và dịch vụ truy cập Internet tốc độ cao, thông qua hoạt động của các thiết bị thu phát
+không dây (Wireless Access Point).
+Hình 2.7. Kết nối không dây
+Wi-Fi
+Wi-Fi là tên viết tắt của cụm từ “Wireless Fidelity” - một tập hợp các chuẩn tương thích với
+mạng không dây nội bộ (WLAN-Wireless Local Area Network) dựa trên đặc tả IEEE 802.11
+(802.11a, 802.11b, 802.11g…). Wi-Fi cho phép các máy tính hoặc PDA (Personal Digital
+Assistant, thiết bị cá nhân kỹ thuật số) hỗ trợ kết nối không dây có thể truy cập vào mạng Internet
+trong phạm vi phủ sóng của điểm truy cập không dây (hay còn gọi là “hotspot”). Tốc độ kết nối
+của các chuẩn thuộc Wi-Fi rất khác nhau, cụ thể:
+• 802.11: Dùng cho mạng WLAN, có tốc độ truyền tải dữ liệu từ 1-2Mbps.
+• 802.11a: Là phần mở rộng của 802.11, áp dụng cho mạng WLAN, có tốc độ kết nối lên
+tới 54Mbps.
+• 802.11b (còn gọi là 802.11 High Rate hoặc Wi-Fi): Cũng là phần mở rộng của
+802.11 dành cho mạng WLAN, có tốc độ truyền dữ liệu tối đa ở mức 11Mbps.
+• 802.11g: Sử dụng cho mạng WLAN với tốc độ kết nối tối đa trên 20Mbps.
+WiMax
+
+-- 8 of 33 --
+
+9
+WiMAX là công nghệ kết nối không dây băng rộng (đặc tả IEEE 802.16) với phạm vi phủ
+sóng rộng hơn (tới 50km) so với công nghệ Wi-Fi. WiMax kết nối các điểm “hotspot” của IEEE
+802.11 (Wi-Fi) tới mạng Internet, và cung cấp khả năng truy cập băng rộng cho đường cáp và
+đường DSL tới tận vị trí cuối cùng (nhưng vẫn nằm trong phạm vi 50km). WiMax cung cấp khả
+năng chia sẻ dữ liệu lên tới 70Mbps, đủ cho 60 doanh nghiệp với đường T1 sử dụng cùng lúc, và
+hơn 1000 người sử dụng kết nối DSL 1Mbps.
+2.1.2.5. Kết nối thông qua kênh thuê riêng (Leased-Line)
+Leased-Line, hay còn gọi là kênh thuê riêng, là một hình thức kết nối trực tiếp giữa các
+node mạng sử dụng kênh truyền dẫn số liệu thuê riêng, là dịch vụ đường truyền Internet có cổng
+kết nối quốc tế riêng biệt dành cho các văn phòng, công ty có yêu cầu cao về chất lượng dịch vụ.
+Kênh truyền dẫn số liệu thông thường cung cấp cho người sử dụng sự lựa chọn trong suốt về giao
+thức đấu nối hay nói cách khác, có thể sử dụng các giao thức khác nhau trên kênh thuê riêng như
+PPP, HDLC, LAPB…
+Khác với kết nối Internet thông thường, đường truyền kênh thuê riêng có thể cung cấp mọi
+tốc độ từ 256Kbps đến hàng chục Gbps với cam kết tốt nhất về độ ổn định và tốc độ kết nối.
+Hình 2.8. Kết nối Leased - line
+Về mặt hình thức, kênh thuê riêng có thể là các đường cáp đồng trục tiếp kết nối giữa hai
+điểm hoặc có thể bao gồm các tuyến cáp đồng và các mạng truyền dẫn khác nhau. Khi kênh thuê
+riêng phải đi qua các mạng khác nhau, các quy định về các giao tiếp với mạng truyền dẫn sẽ được
+quy định bởi nhà cung cấp dịch vụ. Do đó, các thiết bị đầu cuối CSU/DSU (Channel Service
+Unit/Data Service Unit) cần thiết để kết nối kênh thuê riêng sẽ phụ thuộc vào nhà cung cấp dịch
+vụ. Một số các chuẩn kết nối chính được sử dụng là HDSL, G703…
+Khi sử dụng kênh thuê riêng, người sử dụng cần thiết phải có đủ các giao tiếp trên các bộ
+định tuyến sao cho có một giao tiếp kết nối WAN (Wireless Local Area Network) cho mỗi kết nối
+kênh thuê riêng tại mỗi node. Điều đó có nghĩa là, tại điểm node có kết nối kênh thuê riêng đến
+10 điểm khác nhất thiết phải có đủ 10 giao tiếp WAN để phục vụ cho các kết nối kênh thuê riêng.
+Đây là một vấn đề hạn chế về đầu tư thiết bị ban đầu, không linh hoạt trong mở rộng phát triển,
+phức tạp trong quản lý, đặc biệt là chi phí thuê kênh lớn đối với các yêu cầu kết nối xa về khoảng
+cách địa lý.
+Giao thức sử dụng với leased-line là HDLC, PPP, LAPB.
+• HDLC (High – level Data Link Control): là giao thức được sử dụng với họ bộ định tuyến
+Cisco hay nói cách khác chỉ có thể sử dụng HDLC khi cả hai phía của kết nối leased-line đều là
+bộ định tuyến Cisco.
+• PPP (Point – to – point Protocol): là giao thức chuẩn quốc tế, tương thích với tất cả các
+
+-- 9 of 33 --
+
+bộ định tuyến của các nhà sản xuất khác nhau. Khi đấu nối kênh leased-line giữa một phía là thiết
+bị của Cisco và một phía là thiết bị của hãng thứ ba thì nhất thiết phải dùng giao thức đấu nối
+này. PPP là giao thức lớp 2 cho phép nhiều giao thức mạng khác nhau có thể chạy trên nó, do vậy
+nó được sử dụng phổ biến.
+• LAPB (Link Acess Procedure Balanced): là giao thức truyền thông lớp 2 tương tự như
+giao thức mạng X.25 với đầy đủ các thủ tục, quá trình kiểm soát truyền dẫn, phát triển và sửa lỗi.
+LAPB ít được sử dụng.
+2.1.3. Các giao thức kết nối mạng
+2.1.3.1. Giao thức (Protocol) là gì?
+Việc trao đổi thông tin dù là đơn giản nhất cũng phải tuân theo những nguyên tắc nhất định.
+Đơn giản như hai người nói chuyện với nhau, muốn cho cuộc nói chuyện đạt kết quả thì ít nhất cả
+hai người phải ngầm tuân thủ quy ước: khi một người nói thì người kia phải biết lắng nghe và
+ngược lại. Việc truyền thông trên mạng cũng vậy. Cần có quy tắc, quy ước truyền thông về nhiều
+mặt: khuôn dạng cú pháp của dữ liệu, các thủ tục gửi, nhận dữ liệu, kiểm soát hiệu quả nhất chất
+lượng truyền thông tin. Tập hợp những quy tắc, quy ước truyền thông đó được gọi là giao thức
+của mạng.
+2.1.3.2. Đặc điểm một số bộ giao thức kết nối mạng
+NetBEUI
+o Là viết tắt của NetBIOS Enhanced User Interface (Giao diện người dùng nâng cao
+NetBIOS), một giao thức được Microsoft phát triển và bảo vệ. Trước đây NetBEUI là giao thức
+ngầm định trong các phiên bản của Windows trước Windows 2000.
+o NetBEUI là một giao thức nhanh, hiệu quả và rất phù hợp với những mạng nội bộ chỉ sử
+dụng hệ điều hành Windows. Nó cung cấp tính nǎng phân giải tên được xây dựng sẵn (khả nǎng
+"đọc" một tên máy tính một cách tự động) và hoàn toàn không yêu cầu phải sửa đổi hay thiết lập.
+o Bộ giao thức nhỏ, nhanh và hiệu quả được cung cấp theo các sản phẩm của hãng IBM,
+cũng như sự hỗ trợ của Microsoft.
+o Nhược điểm chính của bộ giao thức này là không hỗ trợ định tuyến và sử dụng giới hạn ở
+mạng dựa vào Microsoft.
+IPX/SPX oIPX (Internetwork Packet Exchange): Là giao thức chính được sử dụng trong hệ
+điều hành mạng Netware của hãng Novell. Nó tương tự như giao thức IP (Internet Protocol)
+trong TCP/IP. IPX chứa địa chỉ mạng (Network Address) và cho phép các gói thông tin được
+chuyển qua các mạng hoặc phân mạng (subnet) khác nhau. IPX không bảo đảm việc chuyển giao
+một thông điệp hoặc gói thông tin hoàn chỉnh, cũng như IP, các gói tin được "đóng gói" theo giao
+thức IPX có thể bị "đánh rơi" (dropped) bởi các Router khi mạng bị nghẽn mạch. Do vậy, các ứng
+dụng có nhu cầu truyền tin "bảo đảm" (giống như "gửi thư bảo đảm" ) thì phải sử dụng giao thức
+SPX thay vì IPX.
+o SPX (Sequenced Packet Exchange): Là một giao thức mạng thuộc lớp vận chuyển
+(transport layer network protocol) trong mô hình mạng OSI gồm 7 lớp. Cũng như IPX, SPX là
+giao thức "ruột" (Native Protocol) của các hệ điều mạng
+
+-- 10 of 33 --
+
+11
+Netware của hãng Novell. Tương tự như giao thức TCP trong bộ TCP/IP, SPX là giao thức
+đảm bảo toàn bộ thông điệp truyền đi từ một máy tính trong mạng đến một máy tính khác một
+cách chính xác. SPX sử dụng giao thức IPX của Netware như là cơ chế vận chuyển (TCP sử dụng
+IP). Các chương trình ứng dụng sử dụng SPX để cung cấp các tương tác Khách/Chủ và điểm-tới-
+điểm giữa các nút mạng. Tương tự như TCP và IP hợp thành bộ giao thức TCP/IP là giao thức
+chuẩn trong các mạng hệ điều hành mạng của Microsoft (Windows 95, 97, 98... Windows NT 4.0,
+2000, XP...) SPX và IPX hợp thành bộ giao thức IPX/SPX là giao thức chuẩn trong các mạng sử
+dụng hệ điều hành mạng của Novell (Novell Netware 3.11, 3.12, 4.11, 4.12…).
+o Ưu điểm: nhỏ, nhanh và hiệu quả trên các mạng cục bộ đồng thời hỗ trợ khả năng định
+tuyến.
+DECnet
+o Đây là bộ giao thức độc quyền của hãng Digtal Equipment Corpration.
+o DECnet định nghĩa mô tả truyền thông qua mạng cục bộ LAN (Local Area Network),
+mạng đô thị MAN (Metropolitan Area Network), mạng diện rộng WAN (Wide Area Network).
+Giao thức này có khả năng hỗ trợ định tuyến.
+TCP/IP
+o TCP/IP là viết tắt của Transmission Control Protocol/Internet Protocol (Giao thức điều
+khiển truyền dữ liệu/Giao thức Internet).
+o (API- Application Programming Interface o Ưu điểm chính của bộ giao thức này là khả
+năng liên kết hoạt động của nhiều loại máy tính khác nhau.
+o TCP/IP đã trở thành tiêu chuẩn thực tế cho kết nối liên mạng cũng như kết nối Internet
+toàn cầu.
+o Hiện nay, TCP/IP được sử dụng rộng rãi trong các mạng cục bộ cũng như trên mạng
+Internet. Vì vậy chúng ta sẽ tìm hiểu tổng quan về bộ giao thức TCP/IP.
+2.1.3.3. Bộ giao thức TCP/IP
+Lịch sử bộ giao thức TCP/IP:
+o Ra đời gắn liền với sự ra đời của Internet - tiền thân là mạng ARPAnet (Advanced
+Research Projects Agency) do Bộ Quốc phòng Mỹ tạo ra. Là bộ giao thức được dùng rộng rãi
+nhất vì tính mở của nó.
+o Hai giao thức được dùng chủ yếu:
+▪ TCP (Transmission Control Protocol).
+▪ IP (Internet Protocol).
+o 1981, TCP/IPv4 hoàn tất và được phổ biến rộng rãi cho toàn bộ những máy tính sử dụng
+hệ điều hành UNIX.
+o 1994, một bản thảo của phiên bản IPv6 được hình thành với sự cộng tác của nhiều nhà
+khoa học thuộc các tổ chức Internet trên thế giới để cải tiến những hạn chế của IPv4.
+Mô hình TCP/IP
+TCP/IP bao gồm bốn tầng như sau :
+
+-- 11 of 33 --
+
+o Tầng truy cập mạng (Network Access Layer) - Là tầng thấp nhất trong mô hình TCP/IP,
+bao gồm các thiết bị giao tiếp mạng và chương trình cung cấp các thông tin cần thiết để có thể
+hoạt động, truy cập đường truyền vật lý qua thiết bị giao tiếp mạng đó.
+o Tầng liên mạng (Internet Layer) - Cung cấp địa chỉ logic, độc lập với phần cứng, để dữ
+liệu có thể lướt qua các mạng con có cấu trúc vật lý khác nhau. Cung cấp chức năng định tuyến
+để giảm lưu lượng giao thông và hỗ trợ việc vận chuyển liên mạng. Thuật ngữ liên mạng được
+dùng để đề cập đến các mạng rộng lớn hơn, kết nối từ nhiều LAN. Tạo sự gắn kết giữa địa chỉ vật
+lý và địa chỉ logic. Các giao thức của tầng này bao gồm: IP (Internet Protocol), ICMP (Internet
+Coltrol Message Protocol), IGMP (Internet Group Message Protocol).
+o Tầng giao vận (Transport Layer) - Giúp kiểm soát luồng dữ liệu, kiểm tra lỗi và xác
+nhận các dịch vụ cho liên mạng. Tầng này đóng vai trò giao diện cho các ứng dụng mạng. Tầng
+này có hai giao thức chính: TCP (Transmisson Control Protocol) và UDP (User Datagram
+Protocol).
+o Tầng ứng dụng (Application Layer) - Là tầng trên cùng của mô hình TCP/IP. Cung cấp
+các ứng dụng để giải quyết sự cố mạng, vận chuyển file, điều khiển từ xa, và các hoạt động
+Internet, đồng thời hỗ trợ giao diện lập trình ứng dụng API (Application Programming Interface)
+mạng, cho phép các chương trình được thiết kế cho một hệ điều hành nào đó có thể truy cập
+mạng.
+Hình 2.9: Sự tương ứng giữa mô hình OSI (Open System Interconnection Reference
+Model) và mô hình TCP/IP
+Hình 2.10: Các tầng trong mô hình TCP/IP
+Quá trình truyền và nhận dữ liệu theo mô hình TCP/IP
+
+-- 12 of 33 --
+
+13
+o Truyền dữ liệu:
+▪ Dữ liệu truyền từ tầng ứng dụng xuống tầng truy cập mạng.
+▪ Mỗi tầng cộng thêm vào phần điều khiển (header) của mình ở trước phần dữ liệu được
+truyền để đảm bảo cho việc truyền dữ liệu được chính xác.
+▪ Mỗi lớp xem tất cả các thông tin mà nó nhận được từ lớp trên là dữ liệu, và đặt phần
+thông tin điều khiển header của nó vào trước phần thông tin này.
+oQuá trình nhận dữ liệu:
+Diễn ra theo chiều ngược lại: mỗi tầng sẽ tách ra phần header trước khi truyền dữ liệu lên
+lớp trên.
+Cấu trúc dữ liệu tại các tầng của TCP/I.
+Mỗi lớp có 1 cấu trúc dữ liệu riêng, độc lập với cấu trúc dữ liệu được dùng ở tầng trên hay
+tầng dưới nó.
+o Tầng ứng dụng: Số liệu được trao đổi giữa các ứng dụng:
+▪ Nếu dùng giao thức TCP thì đơn vị dữ liệu tại tầng ứng dụng gọi là stream. Stream là
+dòng số liệu được truyền trên cơ sở đơn vị số liệu là Byte.
+▪ Nếu dùng giao thức UDP thì đơn vị dữ liệu tại tầng ứng dụng gọi là message.
+o Tầng giao vận:
+▪ Nếu dùng giao thức TCP thì đơn vị dữ liệu tại tầng giao vận gọi là Segment.
+▪ Nếu dùng giao thức UDP thì đơn vị dữ liệu tại tầng giao vận gọi là Datagram.
+o Tầng Internet: đơn vị dữ liệu tại tầng Internet gọi là Datagram.
+o Tầng truy cập mạng: đơn vị dữ liệu tại tầng truy cập mạng gọi là Frame.
+Hình 2.11. Đơn vị dữ liệu các tầng trong mi hình TCP/IP
+Các giao thức tầng ứng dụng
+
+-- 13 of 33 --
+
+Hình 2.12. Các giao thức tầng ứng dụng
+o FTP (File Transfer Protocol): Giao thức truyền tệp. Sử dụng TCP để truyền các tệp tin
+giữa các hệ thống có hỗ trợ FTP.
+o NFS (Network File System): Là 1 bộ giao thức hệ thống file phân tán (được phát triển
+bởi Sun Microsystems) cho phép truy xuất file đến các thiết bị ở xa như 1 đĩa cứng trên mạng.
+o Telnet (Terminal Emulation): Cung cấp khả năng truy nhập từ xa vào các máy tính khác.
+o SNMP (Simple Network Management Protocol): Là phương pháp để cung cấp các hình
+thức thu thập thống kê, hiệu suất và bảo mật.
+o SMTP (Simple Mail Transfer Protocol): Giao thức truyền thư điện tử. o
+LPD (Line Printer Deamon Protocol): Giao thức dịch vụ nền cho máy in
+dòng.
+o DNS (Domain Name System): DNS = hệ thống tên miền, giao thức DNS quy định quy
+tắc sử dụng tên miền.
+o TFTP (Trivial FTP): Một dạng khác của FTP nhưng dịch vụ không kết nối, dùng giao
+thức UDP.
+Các giao thức tầng giao vận
+Hình 2.13. Các giao thức tầng giao vận
+Các giao thức tầng liên mạng
+
+-- 14 of 33 --
+
+15
+Hình 2.14. Các giao thức tầng liên mạng
+Giao thức điều khiển truyền tải (TCP- Transmission Control Protocol)
+TCP là giao thức kiểu có liên kết (Connection - oriented). Đơn vị dữ liệu sử dụng trong
+TCP là segment. Các chức năng chính của giao thức TCP: Truyền dữ liệu, dồn kênh, đảm bảo
+tính tin cậy trong truyền tải, điều khiển luồng, kết nối (theo phương thức kết nối luống 3 pha).
+Khuôn dạng TCP Segment
+Hình 2.15. Khuôn dạng TCP Segment
+Các trường trong TCP Segment
+o Source Port (16 bits): Số hiệu cổng TCP của trạm nguồn.
+o Destination Port (16 bit): Số hiệu cổng TCP của trạm đích.
+o Sequence Number (32 bit): Số hiệu của byte đầu tiên của segment từ khi bit SYN được
+thiết lập.
+▪ Nếu bit SYN được thiết lập thì Sequence Number là số hiệu tuần tự khởi đầu (ISN -
+Initial Sequence Numbers) và byte dữ liệu đầu tiên là ISN+1.
+▪ Là số được khởi tạo ngẫu nhiên.
+o Acknowledgment Number (32 bit): là số hiệu của segment tiếp theo mà trạm nguồn
+đang chờ để nhận. Ngầm ý báo nhận tốt (các) segment mà trạm đích đã gửi cho trạm nguồn.
+o Header Length (4 bit): Độ dài của TCP Header, chỉ ra vị trí bắt đầu của nguồn dữ liệu.
+o Reserved (6 bit): dành để dùng trong tương lai, luôn = 0.
+o Code bit (các bit điều khiển): Kết thúc hay thiết lập 1 phiên thông tin.
+
+-- 15 of 33 --
+
+▪ URG:
+URG = 1: nếu có dữ liệu khẩn. Dữ liệu khẩn sẽ được chỉ ra trong trường Urgent Pointer.
+URG = 0: Ngược lại.
+▪ ACK: bằng 0 nếu là segment khởi đầu và khi đó trường ACK Number mới có hiệu lực.
+▪ PSH: thông báo dữ liệu cần chuyển đi ngay.
+▪ RST (Reset): xác định lỗi, đồng thời để khởi động lại kết nối.
+▪ SYN: bằng 1 khi thiết lập kết nối.
+▪ FIN (Finish): bằng 1 khi trạm nguồn hết thông tin.
+o Window (16 bit)
+▪ Cấp phát quyền kiểm soát nguồn dữ liệu.
+▪ Chỉ ra số byte mà trạm nguồn sẵn sàng nhận.
+▪ Là số lượng các byte dữ liệu, bắt đầu từ byte được chỉ ra trong trường ACK Number mà
+trạm nguồn đã sẵn sàng để nhận.
+o Checksum (16 bit): Mã kiểm soát lỗi theo phương pháp CRC của toàn bộ segment.
+o Urgent Pointer (16 bit):
+▪ Chỉ ra điểm kết thúc của dữ liệu khẩn.
+▪ Là con trỏ tới số hiệu tuần tự của byte đi sau dữ liệu khẩn, cho phép bên nhận biết được
+độ dài của dữ liệu khẩn.
+▪ Trường này có hiệu lực khi bit URG được thiết lập 1.
+o Options (độ dài thay đổi):
+▪ Khai báo các option của TCP.
+▪ Trong đó có độ dài tối đa của vùng TCP data trong một segment.
+o Padding (độ dài thay đổi):
+▪ Phần chèn thêm vào header → đảm bảo phần header luôn kết thúc ở một mốc 32 bit.
+▪ Phần thêm này gồm toàn số 0.
+o TCP data (độ dài thay đổi):
+▪ Chứa dữ liệu của tầng trên.
+▪ Có độ dài tối đa mặc định là 536 byte.
+▪ Giá trị này có thể điều chỉnh bằng cách khai báo trong vùng options. Số hiệu cổng (Port
+Numbers)
+o Một tiến trình ứng dụng trong một máy tính truy nhập vào các dịch vụ của giao thức TCP
+thông qua một cổng (port) của TCP. Số hiệu cổng TCP được thể hiện bởi 2 bytes. Ví dụ:
+▪ Dịch vụ http hay dịch vụ web được xác định tại cổng 8080.
+
+-- 16 of 33 --
+
+17
+▪ Dịch vụ chating được xác định tại cổng 6667 hoặc 5000.
+o Tổ chức IANA (Internet Assigned Numbers Authorty) đã đưa ra một danh sách các số
+hiệu cổng thông dụng, có tác dụng với một RFC hay bất cứ một site nào cung cấp.
+o Số hiệu cổng <1024 → các chỉ số port danh tiếng, được định nghĩa trong RFC 3232.
+o Số hiệu cổng ≥1024 → chỉ số port được gán động.
+Hình 2.16. Số hiệu cổng của một số dịch vụ
+Truyền tải dữ liệu trong TCP o TCP cung cấp dịch vụ cho tầng cao hơn kề nó, tầng ứng
+dụng.
+o Truyền tải dữ liệu TCP là việc phân phối dữ liệu từ một ứng dụng này đến một ứng dụng
+khác.
+o TCP thực hiện truyền dữ liệu bằng cách thiết lập một kết nối giữa các Socket trên mỗi
+máy tính đầu cuối.
+o Socket = Số hiệu cổng + địa chỉ IP + tên của giao thức tầng truyền tải (TCP).
+o Các ứng dụng sử dụng các dịch vụ TCP bằng cách mở 1 Socket, TCP quản lý sự phân
+phối dữ liệu đến Socket khác.
+▪ Một địa chỉ IP nguồn/đích xác định một mối quan hệ duy nhất giữa 2 thiết bị trên một
+mạng.
+▪ Một Socket nguồn/đích xác định duy nhất một mối quan hệ giữa hai ứng dụng trên cùng
+một mạng.
+• Giao thức đơn vị dữ liệu người dùng (UDP- User Datagram Protocol) o UDP là giao
+thức kiểu không liên kết (Connectionless). UDP cung cấp các dịch vụ không tin cậy, không dùng
+cơ chế Window. Đơn vị dữ liệu sử dụng trong UDP là datagram.
+o Giao thức UDP được thiết kế để cung cấp một dịch vụ cho các ứng dụng mà trong đó
+các thông điệp có thể được trao đổi.
+o Một số chức năng của TCP: truyền dữ liệu và dồn kênh, được cung cấp như là các hàm
+của UDP.
+o UDP dồn kênh bằng việc sử dụng các số hiệu cổng, giống như TCP.
+o Trong các socket của UDP giống với TCP, chỉ khác: TCP được thiết kế như là giao thức
+tầng truyền tải; giao thức truyền tải là UDP. oViệc truyền tải dữ liệu của UDP khác TCP:
+▪ UDP không thực hiện việc phục hồi lại dữ liệu và việc sắp xếp dữ liệu.
+
+-- 17 of 33 --
+
+▪ Các ứng dụng sử dụng UDP bỏ qua sự mất mát dữ liệu, hoặc chúng có một cơ chế khác
+để khôi phục dữ liệu bị mất.
+Khuôn dạng UDP datagram:
+Hình 2.17. Khuôn dạng UDP Datagram
+o Không có các trường Sequence, Acknowledgment và Window.
+o UDP có một số lợi thế hơn TCP:
+▪ UDP không sử dụng trường số thứ tự và trường xác nhận. Do đó khuôn dạng của UDP
+datagram có độ dài ngắn hơn.
+▪ UDP không phụ thuộc vào việc đợi sự xác nhận, hoặc lưu trữ dữ liệu trong bộ nhớ đệm
+cho đến khi nó được xác nhận. Do đó bộ nhớ được giải phóng nhanh hơn và quá trình xác nhận
+không làm trì hoãn các ứng dụng UDP.
+• Giao thức liên mạng (IP - Internet Protocol) o IP là giao thức thuộc tầng mạng của mô
+hình OSI. Giao thức IP có các vai trò chính:
+▪ Vai trò của giao thức tầng mạng trong mô hình OSI.
+▪ Cung cấp khả năng kết nối các mạng con thành liên kết mạng để truyền dữ liệu. o IP là
+một giao thức kiểu không liên kết (Connectionless). Đơn vị dữ liệu trong IP là IP datagram.
+Khuôn dạng IP Datagram
+Hình 2.18. Khuôn dạng IP Datagram
+Ý nghĩa các trường trong IP Datagram
+o VERS (4 bits): version hiện hành của giao thức IP hiện được cài đặt. Việc có chỉ số
+version cho phép có các trao đổi giữa các hệ thống sử dụng version cũ và hệ thống sử dụng
+
+-- 18 of 33 --
+
+19
+version mới.
+o HLEN (4 bits): (Internet Header Length)
+▪ Chỉ độ dài phần Header của gói tin datagram, tính theo đơn vị từ (32 bits).
+▪ Trường này bắt buộc phải có vì phần đầu IP có thể có độ dài thay đổi tùy ý.
+▪ Độ dài tối thiểu là 5 từ (20 bytes), độ dài tối đa là 15 từ (60 bytes).
+o Type of service (8 bits):
+Đặc tả các tham số về dịch vụ nhằm thông báo cho mạng biết dịch vụ nào mà gói tin muốn
+được sử dụng: ưu tiên, thời hạn chậm trễ, năng suất truyền và độ tin cậy.
+o
+Total Length (16 bits): Chỉ độ dài toàn bộ gói tin datagram (header + data). o
+Identification (16 bits):
+▪ Số nguyên nhận dạng gói tin dữ liệu hiện hành. Trường này được sử dụng để ráp lại các
+phân đoạn của gói tin.
+▪ Cùng với các tham số khác (như SA và DA) → định danh duy nhất cho một datagram
+trong khoảng thời gian nó vẫn còn tồn tại trên liên mạng.
+o Flags (3 bits):
+▪ Liên quan đến sự phân đoạn (fragment) các datagram.
+▪ Các gói tin khi đi trên đường đi có thể bị phân thành nhiều gói tin nhỏ → trường Flags
+dùng điều khiển phân đoạn và tái lắp ghép gói dữ liệu.
+o Fragment Offset (13 bits):
+▪ Chỉ vị trí của đoạn (fragment) ở trong datagram tính theo đơn vị 8 bytes.
+
+-- 19 of 33 --
+
+▪ Biểu thị vị trí của phân đoạn dữ liệu so với vị trí bắt đầu của gói dữ liệu gốc, nó cho phép
+máy nhận xây dựng lại gói tin ban đầu.
+▪ Được gọi là datagram block: mỗi đoạn (trừ đoạn cuối cùng) phải chứa một vùng dữ liệu
+là bội số của 8 bytes → phải nhân giá trị của Fragment offset với 8 để tính ra độ lệch byte.
+o Time to Live (8 bits):
+▪ Qui định thời gian tồn tại (tính bằng giây) của gói tin trong mạng để tránh tình trạng một
+gói tin bị quẩn trên mạng.
+▪ Được cho bởi trạm gửi.
+▪ Được giảm đi (qui ước là 1 đơn vị) khi datagram đi qua mỗi router của liên mạng, khi nó
+có giá trị là 0 thì gói tin sẽ bị xóa → giới hạn thời gian tồn tại của các gói tin và kết thúc những
+lần lặp lại vô hạn trên mạng.
+o Protocol (8 bits):
+Xác định giao thức sử dụng ở tầng cao hơn (thường là TCP hoặc UDP được cài đặt trên IP).
+Ví dụ:
+0: Reserved
+1: Internet Control Message Protocol (ICMP)
+2: Internet Group Management Protocol (IGMP) 3: Gateway-to-Gateway Protocol (GGP)
+4: IP (IP encapsulation) 5: Stream
+6: Transmission Control Protocol (TCP) 8: Exterior Gateway Protocol (EGP)
+9: Private Interior Routing Protocol 17: User Datagram Protocol (UDP) 41: IP Version 6
+(Ipv6)
+50: Encap Security Payload for Ipv6 (ESP) 51: Authentication Header for Ipv6 (AH)
+89: Open Shortest Path First o Header Checksum (16 bits): Mã kiểm soát lỗi của vùng
+header của IP Datagram.
+o Source Address (32 bits): Địa chỉ IP của máy nguồn. o Destination Address
+(32 bits): Địa chỉ IP của máy đích.
+o Options (độ dài thay đổi): Tùy chọn cho phép để hỗ trợ một số vấn đề, chẳng hạn vấn đề
+bảo mật.
+o Padding (độ dài thay đổi): Vùng đệm, được dùng để đảm bảo cho phần header luôn kết
+thúc ở một mốc 32 bits.
+o Data (độ dài thay đổi): Vùng dữ liệu, có độ dài là bội của 8 bytes và tối đa là
+65.535 bytes (64 KB).
+• Giao thức thông báo lỗi (ICMP - Internet Control Message Protocol) ICMP tạo ra
+nhiều loại thông điệp hữu ích như: o Đích đến không tới được (Destination Unreachable); o
+Thăm hỏi và trả lời (Echo Request and Reply); o Chuyển hướng (Redirect); o Vượt quá thời gian
+(Time Exceeded); o Quảng bá bộ chọn đường (Router Advertisement); o Cô lập bộ chọn đường
+(Router Solicitation); o...
+
+-- 20 of 33 --
+
+21
+• Giao thức ARP - Address Resolution Protocol
+• ARP là giao thức chuyển địa chỉ IP thành địa chỉ vật lý (MAC) của các thiết bị mạng.
+• Giao thức RARP - Reverse Address Resolution Protocol
+RARP là giao thức chuyển địa chỉ vật lý MAC thành địa chỉ mạng IP.
+2.2. Địa chỉ IP và tên miền
+2.2.1. Địa chỉ IP
+Các máy tính trên Internet giao tiếp với nhau sử dụng bộ giao thức TCP/IP. Để các máy
+tính có thể liên lạc với nhau, mỗi máy tính cần có một địa chỉ liên lạc và địa chỉ này tồn tại duy
+nhất trong mạng. Điều này cũng giống như các thuê bao trong mạng điện thoại di động phải có
+một số hiệu thuê bao (số máy) và số thuê bao này phải là duy nhất trong mạng.
+2.2.1.1. Địa chỉ Ipv4 (Internet protocol version 4)
+Địa chỉ IPv4 có chiều dài 32 bit, gồm 4 octet, mỗi octet là 8 bit, có giá trị nằm trong khoảng
+[0..255]). Địa chỉ IPv4 được biểu diễn dưới dạng 4 cụm số thập phân phân cách bởi dấu chấm, ví
+dụ 203.119.9.0. IPv4 là phiên bản địa chỉ Internet đầu tiên, đồng hành với việc phát triển như vũ
+bão của hoạt động Internet trong hơn hai thập kỷ vừa qua. Với 32 bit chiều dài, IPv4 có khả nǎng
+cung cấp 232 = 4 294 967 296 (Khoảng 4 tỉ địa chỉ hoạt động mạng toàn cầu).
+Mỗi địa chỉ IP gồm có 2 phần: NetworkID (định danh mạng) và HostID (định danh cho
+host):
+Các lớp địa chỉ Ipv4
+Địa chỉ lớp A
+o Địa chỉ lớp A có dạng: <Network.Host.Host.Host>
+o Số mạng của lớp A sẽ là: 27 - 2 = 126
+o Số Host trong mỗi mạng sẽ là: 224 – 2 = 16.777.214
+
+-- 21 of 33 --
+
+o Vùng địa chỉ lý thuyết của lớp A: 0.0.0.0 đến 127.255.255.255
+o Vùng địa chỉ sử dụng: 1.0.0.1 đến 126.255.255.254
+o Ví dụ về địa chỉ lớp A: 120.122.1.2; 1.2.3.4
+Địa chỉ lớp B
+o Địa chỉ lớp B có dạng: <Network.Network.Host.Host>
+o Số lượng mạng của lớp B sẽ là: 214 – 2 = 16.382
+o Số Host trong một mạng sẽ là: 216 – 2 = 65.534
+o Vùng địa chỉ lý thuyết của lớp B: 128.0.0.0 đến 191.255.255.255
+o Vùng địa chỉ sử dụng: 128.1.0.1 đến 191.254.255.254
+o Ví dụ về địa chỉ lớp B: 140.108.2.2; 191.222.2.10
+Địa chỉ lớp C
+o Địa chỉ lớp C có dạng: <Network. Network. Network.Host>
+o Số lượng mạng của lớp C sẽ là: 221 – 2 = 2.097.150
+o Số Host trong một mạng sẽ là: 28 – 2 = 254
+o Vùng địa chỉ lý thuyết của lớp C: 192.0.0.0 đến 223.255.255.255
+o Vùng địa chỉ sử dụng: 192.0.1.1 đến 223.255.254.254
+o Ví dụ về địa chỉ lớp C: 192.168.10.2
+Số mạng trong mỗi lớp mạng
+Các mạng khi các bit NetID đều là 0 hay 1 thì đều không được phân bổ. Do đó:
+o Đối với lớp A có 2 địa chỉ mạng không được phân bổ: 0.Y.Z.T và 127.Y.Z.T
+o Đối với lớp B ta có hai địa chỉ không được phân bổ: 128.0.Z.T và 191.255.Z.T
+o Đối với lớp C ta có 2 địa chỉ không được phân bổ: 192.0.0.T và 223.255.255.T.
+Địa chỉ dành riêng
+Địa chỉ dành riêng là các địa chỉ host nào đó được dành riêng và không thể gán cho các thiết
+bị trên mạng. Gồm:
+o Địa chỉ mạng: dùng định danh cho chính mạng đó địa chỉ IP trong đó tất cả các bit thuộc
+phần Host ID đều có giá trị là 0.
+▪ Để dùng định danh cho chính mạng đó.
+▪ Hướng tới mạng định danh bởi vùng NetID. Địa chỉ quảng bá: địa chỉ IP mà trong đó tất
+cả các bit thuộc phần Host ID đều có giá trị là 1.
+
+-- 22 of 33 --
+
+23
+Dùng để quảng bá (broadcasting) các gói đến tất cả các thiết bị trên 1 mạng.
+▪ Hướng tới tất cả các host nối vào mạng định danh bởi NetID.
+Địa chỉ IP công cộng và địa chỉ IP riêng
+o Địa chỉ IP công cộng (IP Public):
+▪ Là duy nhất, có tính toàn cầu và được tiêu chuẩn hóa.
+→ không thể có 2 máy nào kết nối vào mạng công cộng lại có cùng địa chỉ
+▪ Được lấy từ nhà cung cấp dịch vụ hay đăng ký với 1 chi phí nào đó
+o Địa chỉ IP riêng (IP Private):
+▪ Không được định tuyến trên Internet Backbone.
+▪ Các Router Internet loại bỏ các địa chỉ riêng ngay lập tức.
+▪ 3 khối địa chỉ IP cho dùng riêng:
+Lớp A: 10.0.0.0 → 10.255.255.255
+Lớp B: 172.16.0.0 → 172.31.255.255
+Lớp C: 192.168.0.0 → 192.168.255.255
+o NAT (Network Address Translation): Kết nối một mạng dùng các địa chỉ riêng vào
+Internet yêu cầu sự thông dịch các địa chỉ riêng thành các địa chỉ công cộng.
+2.2.1.2. Địa chỉ IPv6 (Internet protocol version 6)
+Ipv6 là thế hệ địa chỉ Internet phiên bản mới được thiết kế để thay thế cho phiên bản địa chỉ
+IPv4 trong hoạt động Internet.
+Do sự phát triển như vũ bão của mạng và dịch vụ Internet, nguồn IPv4 dần cạn kiệt, đồng
+thời bộc lộ các hạn chế đối với việc phát triển các loại hình dịch vụ hiện đại trên Internet. Phiên
+bản địa chỉ Internet mới IPv6 được thiết kế để thay thế cho phiên bản IPv4, với hai mục đích cơ
+bản:
+• Thay thế cho nguồn IPv4 cạn kiệt để tiếp nối hoạt động Internet.
+• Khắc phục các nhược điểm trong thiết kế của địa chỉ IPv4.
+Địa chỉ IPv6 có chiều dài 128 bit, biểu diễn dưới dạng các cụm số hệ mười sáu phân cách
+bởi dấu hai chấm (:). Mỗi phần dài 16 bit.
+Dạng chuẩn của một địa chỉ IPv6 sẽ có dạng:
+2001:0010:3456:6EFD:00AC:0DEC:DDEE:EEBD
+Chú ý: 16 ký số hệ mười sáu gồm từ 0 đến 9 và từ A đến F, mỗi ký số hệ mười sáu biểu
+diễn bởi 4 bit.
+Với 128 bit chiều dài, không gian địa chỉ IPv6 gồm 2128 địa chỉ, cung cấp một lượng địa chỉ
+khổng lồ cho hoạt động Internet.
+IPv6 được thiết kế với những tham vọng và mục tiêu như sau:
+• Không gian địa chỉ lớn hơn và dễ dàng quản lý không gian địa chỉ.
+• Khôi phục lại nguyên lý kết nối đầu cuối - đầu cuối của Internet và loại bỏ hoàn toàn
+
+-- 23 of 33 --
+
+công nghệ NAT.
+• Quản trị TCP/IP dễ dàng hơn: DHCP (Dynamic Host Configuration Protocol) được sử
+dụng trong IPv4 nhằm giảm cấu hình thủ công TCP/IP cho host. IPv6 được thiết kế với khả năng
+tự động cấu hình mà không cần sử dụng máy chủ DHCP, hỗ trợ hơn nữa trong việc giảm cấu
+hình thủ công.
+• Cấu trúc định tuyến tốt hơn: Định tuyến IPv6 được thiết kế hoàn toàn phân cấp.
+• Hỗ trợ tốt hơn Multicast: Multicast là một tùy chọn của địa chỉ IPv4, tuy nhiên khả năng
+hỗ trợ và tính phổ dụng chưa cao.
+• Hỗ trợ bảo mật tốt hơn: IPv4 được thiết kế tại thời điểm chỉ có các mạng nhỏ, biết rõ
+nhau kết nối với nhau. Do vậy bảo mật chưa phải là một vấn đề được quan tâm. Song hiện nay,
+bảo mật mạng internet trở thành một vấn đề rất lớn, là mối quan tâm hàng đầu.
+• Hỗ trợ tốt hơn cho di động: Thời điểm IPv4 được thiết kế, chưa tồn tại khái niệm về thiết
+bị IP di động. Trong thế hệ mạng mới, dạng thiết bị này ngày càng phát triển, đòi hỏi cấu trúc
+giao thức Internet có sự hỗ trợ tốt hơn.
+Rút gọn địa chỉ IPv6:
+• Bỏ các số 0 đứng đầu
+• Thay thế nhiều nhóm số 0 thành một dấu ::
+Ví dụ rút gọn địa chỉ IPv6: ADBF:0000:0000:0000:0000:000A:00AB:0ACD
+• Rút gọn theo cách 1: ADBF:0:0:0:0:A:AB:ACD
+• Rút gọn theo cách 2: ADBF::A:AB:ACD
+Chú ý: Dấu :: chỉ xuất hiện duy nhất một lần trong địa chỉ.
+2.2.2. Tên miền
+Tên miền (Domain Name) là sự nhận dạng vị trí của một máy tính trên mạng Internet thông
+qua tên tương ứng với địa chỉ IP của máy tính đó. Việc nhận dạng này được thực hiện thông qua
+hệ thống tên miền (Domain Name System - DNS).
+Ví dụ: trang chủ của một nhà cung cấp dịch vụ ISP tại Việt Nam là VDC có tên miền là:
+home.vnn.vn, tương ứng với địa chỉ IP là: 203.162.0.12.
+Hệ thống tên miền bao gồm một loạt các cơ sở dữ liệu chứa các tên miền và các địa chỉ IP
+(bằng số cụ thể) tương ứng với các tên miền đó. Hệ thống tên miền trên mạng Internet có nhiệm
+vụ chuyển đổi tên miền sang địa chỉ IP và ngược lại từ địa chỉ IP sang tên miền.
+Trong những ngày đầu tiên của mạng Internet, hệ thống tên miền có cơ sở dữ liệu tập trung:
+tất cả các tên máy và địa chỉ IP tương ứng của chúng được lưu giữ trong một file hosts.txt, file
+này được trung tâm thông tin mạng NIC (Network Information Center ) ở Mỹ lưu giữ. Tuy nhiên,
+khi hệ thống Internet phát triển, việc lưu giữ thông tin trong một file không thể đáp ứng nhu cầu
+phân phối và cập nhật. Do đó, ngày nay, hệ thống tên miền được phát triển dưới dạng các cơ sở
+dữ liệu phân bố, mỗi cơ sở dữ liệu sẽ quản lý một phần trong hệ thống tên miền.
+Tổ chức quản lý hệ thống tên miền trên thế giới là ICANN (the Internet Corporation for
+Assigned Names and Numbers). Tổ chức này quản lý mức cao nhất của hệ thống tên miền (mức
+
+-- 24 of 33 --
+
+25
+ROOT), do đó nó có quyền cấp phát các tên miền dưới mức cao nhất.
+Hiện tại trên mạng Internet có 16 hệ thống máy chủ tên miền ở mức ROOT. Danh sách tham
+khảo tại: http://www.root-servers.org
+2.2.2.1. Giới thiệu về hệ thống quản lý tên miền (DNS - Domain Name System)
+Mỗi máy tính khi kết nối vào mạng Internet thì được gán cho một địa chỉ IP xác định. Địa
+chỉ IP của mỗi máy là duy nhất và giúp máy tính xác định đường đi đến một máy tính khác một
+cách dễ dàng. Hệ thống DNS ra đời nhằm giúp chuyển đổi từ địa chỉ IP khó nhớ mà máy sử dụng
+sang một tên dễ nhớ cho người sử dụng, đồng thời giúp hệ thống Internet ngày càng phát triển.
+Hệ thống DNS sử dụng hệ thống cơ sở dữ liệu phân tán và phân cấp hình cây. Vì vậy, việc
+quản lý sẽ dễ dàng và thuận tiện cho việc chuyển đổi từ tên miền sang địa chỉ IP và ngược lại. Hệ
+thống DNS giống như mô hình quản lý công dân của một nước. Mỗi công dân sẽ có một tên xác
+định đồng thời cũng có địa chỉ chứng minh thư để giúp quản lý con người một cách dễ dàng hơn.
+• Mỗi công dân đều có số căn cước để quản lý, ví dụ: Ông Nguyễn Văn A có chứng minh
+thư: 111200765.
+• Mỗi một địa chỉ IP tương ứng với tên miền, ví dụ: trang chủ của một nhà cung cấp dịch
+vụ ISP tại Việt Nam là VDC có tên miền là: home.vnn.vn , tương ứng với địa chỉ IP là:
+203.162.0.12.
+Hiện nay, trên thế giới hệ thống tên miền được phân bố theo cấu trúc hình cây. Tên miền
+cấp cao nhất là tên miền gốc (ROOT) được thể hiện bằng dấu ‘.’. Dưới tên miền gốc có hai loại
+tên miền là:
+• Tên miền cấp cao dùng chung- gTLDs (generic Top Level Domains) như .com, .org,
+.net…
+(Tham khảo danh sách tại địa chỉ http://icann.org/registries/listing.html).
+Domain Mô tả
+com Các tổ chức thương mại, doanh nghiệp (Commercial)
+edu Các tổ chức giáo dục ( Education)
+gov Các tổ chức chính phủ (Government)
+int Các tổ chức Quốc tế (International Organizations)
+mil Các tổ chức quân sự (Military)
+net Dành cho các nhà cung cấp dịch vụ web, net (Network)
+biz Dùng cho các trang thương mại (Business)
+info Website về lĩnh vực thông tin (Information)
+org Các tổ chức phi chính phủ hoặc phi lợi nhuận (Organization)
+• Tên miền cấp cao mã quốc gia – ccTLDs (country code Top Level Domains) như .vn,
+
+-- 25 of 33 --
+
+.jp, .kr… (tham khảo danh sách tại địa chỉ http://www.iana.org/domains/root/db).
+Domain Quốc gia tương ứng
+at Áo
+be Bỉ
+ca Canada
+fi Phần Lan
+fr Pháp
+de CHLB Đức
+il Israel
+it Italia
+jp Nhật
+vn Việt Nam
+Chức năng của máy chủ tên miền (Domain Name Server): Chứa cơ sở dữ liệu dùng cho việc
+chuyển đổi giữa tên miền và địa chỉ IP.
+Tổ chức Hệ thống DNS theo sự phân cấp tên miền trên Internet được cho ở hình dưới đây.
+Hình 2.19. Tổ chức của hệ thống quản lý tên miền
+2.2.2.2. Hoạt động của hệ thống DNS
+Giả sử người sử dụng muốn truy cập vào trang web có địa chỉ là
+http://www.google.com. Tiến trình hoạt động của DNS như sau:
+
+-- 26 of 33 --
+
+27
+Hình 2.20. Tiến trình hoạt động của DNS
+• Trước hết chương trình trên máy người sử dụng gửi yêu cầu tìm kiếm địa chỉ IP ứng với
+tên miền www.google.com tới máy chủ quản lý tên miền (Name Server) cục bộ thuộc mạng của
+nó (ISP DNS Server).
+• Máy chủ quản lý tên miền cục bộ này kiểm tra trong cơ sở dữ liệu của nó xem có chứa
+cơ sở dữ liệu chuyển đổi từ tên miền sang địa chỉ IP của tên miền mà người sử dụng yêu cầu
+không. Trong trường hợp máy chủ quản lý tên miền cục bộ có cơ sở dữ liệu này, nó sẽ gửi trả lại
+địa chỉ IP của máy có tên miền nói trên (www.google.com).
+• Trong trường hợp máy chủ quản lý tên miền cục bộ không có cơ sở dữ liệu về tên miền
+này, nó thường hỏi lên các máy chủ quản lý tên miền ở cấp cao nhất (máy chủ quản lý tên miền
+làm việc ở mức Root). Máy chủ quản lý tên miền ở mức Root này sẽ trả về cho máy chủ quản lý
+tên miền cục bộ địa chỉ của máy chủ tên miền quản lý các tên miền có đuôi .com.
+• Máy chủ quản lý tên miền cục bộ gửi yêu cầu đến máy chủ quản lý tên miền có đuôi
+(.com) tìm tên miền www.google.com. Máy chủ quản lý tên miền quản lý các tên miền.com sẽ gửi
+lại địa chỉ của máy chủ quản lý tên miền google.com.
+• Máy chủ quản lý tên miền cục bộ sẽ hỏi máy chủ quản lý tên miền google.com này địa
+chỉ IP của tên miền www.google.com. Do máy chủ quản lý tên miền google.com có cơ sở dữ liệu về
+tên miền www.google.com nên địa chỉ IP của tên miền này sẽ được gửi trả lại cho máy chủ quản
+lý tên miền cục bộ.
+• Máy chủ tên miền cục bộ chuyển thông tin tìm được đến máy của người sử dụng.
+• Máy tính của người dùng sẽ sử dụng địa chỉ IP này để mở một phiên kết nối TCP/IP đến
+máy chủ chứa trang web có địa chỉ http://www.google.com/.
+2.2.2.3. Cấu tạo tên miền (Domain Name)
+Để quản lý các máy đặt tại những vị trí vật lý khác nhau trên hệ thống mạng nhưng thuộc
+cùng một tổ chức, cùng lĩnh vực hoạt động… người ta nhóm các máy này vào
+
+-- 27 of 33 --
+
+một tên miền (Domain). Trong miền này nếu có những tổ chức nhỏ hơn, lĩnh vực hoạt động
+hẹp hơn… thì được chia thành các miền con (Sub Domain). Tên miền dùng dấu chấm (.) làm dấu
+phân cách. Cấu trúc miền và các miền con giống như một cây phân cấp.
+Ví dụ www.home.vnn.vn là tên miền máy chủ web của VNNIC. Thành phần thứ nhất
+‘www’ là tên của máy chủ, thành phần thứ hai “home” thường gọi là tên miền cấp 3 (Third Level
+Domain Name), thành phần thứ ba ‘vnn’ gọi là tên miền mức 2 (Second Level Domain Name),
+thành phần cuối cùng ‘vn’ là tên miền mức cao nhất (ccTLD - Country Code Top Level Domain
+Name).
+Qui tắc đặt tên miền:
+• Tên miền nên được đặt đơn giản và có tính chất gợi nhớ, phù hợp với mục đích và phạm
+vi hoạt động của tổ chức, cá nhân sở hữu tên miền.
+• Mỗi tên miền được có tối đa 63 ký tự bao gồm cả dấu “.”. Tên miền được đặt bằng các
+chữ số và chữ cái (a-z A-Z 0-9) và ký tự “-”.
+• Một tên miền đầy đủ có chiều dài không vượt quá 255 ký tự.
+Chú ý: Việt Nam cho phép đăng ký tên miền tiếng Việt.
+2.3. Một số dịch vụ Internet thông dụng
+2.3.1. Dịch vụ World Wide Web (WWW)
+World Wide Web hay Web là một trong những dịch vụ phổ biến nhất của Internet, cho phép
+bạn truy nhập tới nguồn thông tin đồ sộ của Internet. Nguồn thông tin này được tổ chức dưới
+dạng các trang web có sự liên kết chặt chẽ với nhau.
+Dịch vụ này hoạt động theo mô hình Khách/Chủ (Client/Server). Trong đó máy chủ web là
+máy tính trên Internet có chạy phần mềm Web server. Máy chủ web lưu trữ nội dung thông tin
+(các trang web), nhận và trả lời các yêu cầu từ máy khách web. Máy khách web là máy tính của
+người dùng có chạy trình duyệt web (như Internet Explorer, Netscape Navigator, Firefox…). Máy
+khách web gửi yêu cầu và hiển thị thông tin trả lời từ máy chủ web.
+Dịch vụ web sử dụng giao thức HTTP (Hyper Text Transfer Protocol): Giao thức truyền tải
+siêu văn bản. Nó là giao thức cơ bản mà World Wide Web sử dụng. HTTP xác định cách các
+thông điệp (các file văn bản, hình ảnh đồ hoạ, âm thanh, video, và các file multimedia khác) được
+định dạng và truyền tải ra sao, và những hành động nào mà các máy chủ Web (Web Server) và
+các trình duyệt Web (Web Browser) phải làm để đáp ứng các lệnh rất đa dạng. Chẳng hạn, khi
+bạn gõ một địa chỉ Web URL (Uniform Resource Locator) vào trình duyệt Web, một lệnh HTTP
+sẽ được gửi tới Web server để ra lệnh và hướng dẫn nó tìm đúng trang Web được yêu cầu và kéo
+về mở trên trình duyệt Web. Nói cách khác, HTTP là giao thức truyền tải các file từ một Web
+server vào một trình duyệt Web để người dùng có thể xem một trang Web đang hiện diện trên
+Internet. HTTP là một giao thức ứng dụng của bộ giao thức TCP/IP (các giao thức nền tảng cho
+Internet).
+HTTPS (Hypertext Transfer Protocol Secure) là một sự kết hợp giữa giao thức HTTP và
+giao thức bảo mật SSL (Secure Sockets Layer) hay TLS (Transport Layer Security)
+cho phép trao đổi thông tin một cách bảo mật trên Internet. Giao thức HTTPS thường được
+
+-- 28 of 33 --
+
+29
+dùng trong các giao dịch nhạy cảm cần tính bảo mật cao. Netscape Communications tạo ra
+HTTPS vào năm 1994 cho trình duyệt web Netscape Navigator. Ban đầu, HTTPS đã được sử
+dụng với SSL mã hóa. Phiên bản hiện hành của HTTPS được chính thức chỉ định bởi RFC 2818
+Tháng 5 năm 2000.
+Mỗi trang web là một tài liệu siêu văn bản. Tài liệu này có thể chứa văn bản, âm thanh, hình
+ảnh… Được mã hoá đặc biệt, sử dụng ngôn ngữ đánh dấu siêu văn bản – HTML (HyperText
+Markup Languages). Ngôn ngữ này cho phép tác giả của một tài liệu nhúng các liên kết siêu văn
+bản (còn được gọi là các siêu liên kết – hyperlink) vào trong tài liệu. Các liên kết siêu văn bản là
+nền móng của World Wide Web.
+Khi đọc một trang web, có thể nhấp chuột vào một từ hay một hình ảnh được mã hoá như
+một liên kết siêu văn bản và sẽ lập tức chuyển tới một vị trí khác nằm bên trong tài liệu đó hoặc
+tới một trang Web khác. Trang thứ hai có thể nằm trên cùng máy tính với trang đầu, hoặc có thể
+nằm bất kì nơi nào trên Internet.
+Một tập hợp các trang Web có liên quan được gọi là WebSite. Mỗi WebSite thường được
+lưu trữ trên trên một máy phục vụ Web, vốn là các máy chủ Internet lưu trữ hàng ngàn trang Web
+riêng lẻ. Việc sao chép một trang lên một Web Server được gọi là tải lên (uploading).
+Web cung cấp thông tin rất đa dạng bao gồm văn bản, hình ảnh, âm thanh, video... Hiện
+nay các trang Web sử dụng để phân phối tin tức, các dịch vụ giáo dục, thông tin, danh mục sản
+phẩm, cùng nhiều thứ khác. Các trang Web tương tác cho phép các độc giả tra cứu cơ sở dữ liệu,
+đặt hàng các sản phẩm và các thông tin, gửi số tiền thanh toán bằng thẻ tín dụng… Máy chủ
+Web (web server)
+• Để cung cấp dịch vụ Web cho người sử dụng, chúng ta cần có một máy chủ Web đặt tại
+một địa chỉ nào đó trên Internet, trên máy chủ này cài đặt phần mềm phục vụ Web được gọi là
+Web Server.
+• Tất cả các Web Server đều hiểu và chạy được các file *.htm và *.html, tuy nhiên mỗi
+Web Server lại phục vụ một số kiểu file chuyên biệt tuỳ theo cấu hình và đặc tính của chúng,
+chẳng hạn như IIS của Microsoft dành cho *.asp, *.aspx...; Apache dành cho *.php...; Sun Java
+System Web Server của SUN dành cho *.jsp...
+Trình duyệt Web (web browser)
+Trình duyệt Web là một phần mềm ứng dụng được cài đặt trên máy tính của người sử dụng
+(máy trạm). Phần mềm này cho phép người dùng duyệt các tài liệu siêu văn bản trên Web.
+2.3.2. Dịch vụ thư điện tử
+Dịch vụ thư điện tử là một dịch vụ thông dụng nhất của Internet, cho phép gửi một thông
+điệp tới một hoặc một nhóm người qua mạng Internet. Ngoài việc gửi thông điệp dưới dạng văn
+bản, bạn còn có thể đính kèm các tệp tin cùng với thông điệp.
+Dịch vụ thư điện tử được sử dụng phổ biến do có các ưu điểm sau:
+• Tốc độ cao và khả năng chuyển tải trên toàn cầu: Có thể nói đây là một trong những ưu
+điểm hàng đầu của hệ thống thư điện tử. Ta có thể gửi thư cho bất kỳ
+người nào gần như ngay lập tức. Người nhận cũng có thể nhận thư ở bất kỳ đâu, miễn là nơi
+
+-- 29 of 33 --
+
+đó có kết nối Internet.
+• Giá thành thấp: Giá thành của việc gửi thông tin bằng thư điện tử gần như không đáng
+kể bởi ta chỉ cần trả chi phí cho việc sử dụng Internet là ta đã có khả năng sử dụng các hệ thống
+thư điện tử miễn phí trên toàn cầu và từ đó liên lạc đến khắp mọi nơi. Nếu so sánh về mặt giá
+thành với hệ thống thư tín thông thường, nhất là gửi thư quốc tế thì việc gửi bằng hệ thống thư
+điện tử rẻ và tiện dụng hơn rất nhiều lần.
+• Linh hoạt về mặt thời gian: Ta có thể gửi vào bất cứ lúc nào và người nhận cũng có thể
+đọc thư vào lúc nào họ muốn.
+Hệ thống thư điện tử được chia làm hai phần: MUA (Mail User Agent) và MTA (Message
+Transfer Agent). MUA thực chất là một hệ thống làm nhiệm vụ tương tác trực tiếp với người
+dùng cuối, giúp họ nhận bản tin, soạn thảo bản tin, lưu các bản tin và gửi bản tin. Nhiệm vụ của
+MTA là định tuyến bản tin và xử lý các bản tin đến từ hệ thống của người dùng sao cho các bản
+tin đó đến được đúng hệ thống đích.
+Để có thể sử dụng thư điện tử, mỗi người dùng phải có một tài khoản. Tài khoản này có thể
+được đăng ký miễn phí hoặc do các nhà cung cấp dịch vụ cấp cho. Địa chỉ thư điện tử
+Hệ thống địa chỉ thư điện tử hoạt động cũng giống như địa chỉ thư trong hệ thống thư bưu
+chính. Một bản tin (message, bản tin) điện tử muốn đến được đích thì địa chỉ người nhận là một
+yếu tố không thể thiếu. Trong một hệ thống thư điện tử, mỗi người có một địa chỉ thư. Từ địa chỉ
+thư sẽ xác định được thông tin của người sở hữu địa chỉ đó trong mạng. Nói chung không có một
+quy tắc thống nhất cho việc đánh địa chỉ thư, bởi vì mỗi hệ thống thư lại có thể sử dụng một qui
+ước riêng về địa chỉ. Để giải quyết vấn đề này, người ta thường sử dụng hai khuôn dạng địa chỉ là
+địa chỉ miền (DomainBase Address) được sử dụng nhiều trên hệ điều hành Windows, và địa chỉ
+UUCP (Unix to Unix Copy Command) được sử dụng nhiều trên hệ điều hành Unix. Ngoài hai
+dạng địa chỉ trên, còn có một dạng địa chỉ nữa tạo thành bởi sự kết hợp của cả hai dạng địa chỉ
+trên, gọi là địa chỉ hỗn hợp.
+Địa chỉ miền là dạng địa chỉ thông dụng nhất. Không gian địa chỉ miền có cấu trúc hình
+cây. Mỗi nút của cây có một nhãn duy nhất cũng như mỗi người dùng có một địa chỉ thư duy nhất.
+Các địa chỉ miền xác định địa chỉ đích tuyệt đối của người nhận. Do đó, dạng địa chỉ này dễ sử
+dụng đối với người dùng: họ không cần biết đích xác đường đi của bản tin như thế nào. Địa chỉ tên
+miền có khuôn dạng như sau:
+Thông_tin_người_dùng@thông_tin_tên_miền
+Phần “thông_tin_tên_miền” gồm một xâu các nhãn cách nhau bởi một dấu chấm (.).
+Ví dụ: tran_van_a@neu-edutop.edu.vn tuxa@neu.edu.vn hocvienneu@gmail.com
+Cấu trúc của một bản tin (Message)
+Một bản tin điện tử gồm có những thành phần chính sau đây:
+• Đầu bản tin (Header): chứa địa chỉ thư của người nhận. MUA sử dụng địa chỉ này để
+phân bản tin về đúng hộp thư của người nhận.
+To: Địa chỉ của người nhận bản tin.
+From: Địa chỉ của người gửi bản tin.
+
+-- 30 of 33 --
+
+31
+Subject: Mô tả ngắn gọn nội dung của bản tin.
+Cc: Các địa chỉ người nhận bản tin ngoài người nhận chính ở trường “To:”.
+Bcc: Các địa chỉ người nhận bản tin bí mật, khi người gửi không muốn các người nhận ở
+trường “To:” và “Cc:” biết.
+• Thân bản tin (Body): chứa nội dung của bản tin.
+2.3.3. Dịch vụ truyền file
+Dịch vụ truyền file (FTP – File Tranfer Protocol) là một dịch vụ cơ bản và phổ biến cho
+phép chuyển các file dữ liệu giữa các máy tính khác nhau trên mạng. FTP hỗ trợ tất cả các dạng
+file, trên thực tế nó không quan tâm tới dạng file cho dù đó là file văn bản mã ASCII (American
+Standard Code for Information Interchange – chuẩn mã trao dổi thông tin Hoa Kỳ) hay các file
+dữ liệu dạng nhị phân.
+Với cấu hình của máy phục vụ FTP, có thể qui định quyền truy nhập của người sử dụng với
+từng thư mục dữ liệu, file dữ liệu cũng như giới hạn số lượng người sử dụng có khả năng cùng
+một lúc có thể truy nhập vào cùng một nơi lưu trữ dữ liệu.
+2.3.4. Dịch vụ chat
+Chat là hình thức hội thoại trực tiếp trên Internet. Với dịch vụ này hai hay nhiều người có thể
+cùng trao đổi thông tin trực tiếp qua bàn phím máy tính. Điều đó có nghĩa là bất kỳ câu đánh trên
+máy của người này đều hiển thị trên màn hình của người đang cùng hội thoại.
+Có nhiều chương trình hỗ trợ cho phép chat trực tiếp (những người chat đang Online) hoặc
+gián tiếp (những người chat đang Offline) với đối phương. Người sử dụng có thể chat bằng chữ
+(text), chat bằng âm thanh (voice) hoặc bằng hình ảnh (web-cam)... Ngoài chat trên Internet
+người sử dụng còn có thể chat với nhau trên mạng LAN.
+Text chat và Voice chat
+• Text chat là gõ phím trên một chương trình chat nào đó một lời nhắn, sau đó gõ Enter.
+Lời nhắn lập tức được gửi tới máy của người được gửi và sau đó người gửi có thể nhận ngược lại
+các lời nhắn từ người bạn chat đó.
+• Voice chat cho phép các bạn nói chuyện với nhau (giống như nói chuyện điện thoại) mà
+chỉ phải trả một lượng tiền rất ít so với bạn gọi điện thoại trực tiếp, nhưng đòi hỏi cấu hình máy
+tính rất mạnh và đường truyền lớn và ổn định.Ở Việt Nam hiện nay, text chat được sử dụng phổ
+biến.
+Để truyền hình ảnh trên Internet người ta dùng một thiết bị camera gọi là Webcam. Tuy
+nhiên, chỉ có một số trang web bạn có thể thấy được webcam hoặc chỉ một số chương trình chat
+client hỗ trợ webcam thì bạn mới làm được điều này. Các chương trình hỗ trợ webcam như:
+Yahoo! messenger, MNS messenger...
+Web chat và chat client
+Muốn sử dụng dịch vụ Text chat có thể dùng một trong hai cách:
+• Web chat, vào các trang web có dịch vụ Chatting để sử dụng. Nguyên tắc cơ bản khi hội
+thoại trên trang web đó là chỉ cần chọn cho mình một cái tên để chat (Nick name), và chọn
+
+-- 31 of 33 --
+
+chatroom (phòng trò chuyện) trong trang web đó.
+• Chat client. Nếu dùng trang web để chat thì khá đơn giản và tiện lợi, không phải mất
+công khai báo thêm thông số gì khác ngoài việc chọn Nickname và đăng nhập vào phòng chat.
+Hiện nay có rất nhiều chương trình Chat client, nhưng chương trình MIRC là phổ biến và
+tiện lợi nhất. Ðể chat bằng chương trình Chat client, người truy cập mạng phải biết được ít nhất là
+các khái niệm như "Server chat" (cho phép kết nối đến server này để chat, và hiện nay trên mạng
+Viêt Nam có các server để chat là: irc.saigonnet.vn, chat.fpt.com; irc.vietchat.com. Thường các
+Port chat (cổng dịch vụ chat) là 6667 hoặc 23; Các server này có rất nhiều phòng chat, như:
+#lobby, #netcenter, #vietchat, #saigonnet). Muốn kết nối vào một trong các server trên để chat,
+người sử dụng phải tải xuống (download) chương trình MIRC để sử dụng hay làm theo hướng
+dẫn trong mục Chat client có ngay trên trang web.
+Chat server
+Các chat server của các chương trình chat phổ biến hiện nay:
+• Chat MIRC: Người dùng phải nhập vào các IRC Server của các chat server
+• Chat AOL: Chat Server của AOL là: login.oscar.aol.com
+• Chat ICQ: Chat Server của ICQ là: login.icq.com
+Sau khi kết nối thành công trên màn hình sẽ xuất hiện một cửa sổ, hiển thị tất cả các thành
+viên đang tham gia vào phòng chat. Tại đây, bạn đã có thể nói chuyện với bất kỳ thành viên nào
+đang tham gia hội thoại. Trong danh sách Nickname sẽ có Nickname của bạn. Nếu muốn nói
+chuyện với nhiều người thì gõ dòng đối thoại vào khung trắng nhỏ ở cuối màn hình sau đó nhấn
+Enter. Trường hợp muốn nói chuyện riêng với một thành viên nào đó thì nhấp đúp chuột vào tên
+thành viên đó. Một cửa sổ riêng biệt sẽ mở ra, lúc này có thể gõ bất kỳ thông tin gì vào khung
+trắng phía dưới để chat riêng với thành viên đó.
+
+-- 32 of 33 --
+
+33
+TÓM LƯỢC CUỐI BÀI
+• Internet là một liên mạng máy tính toàn cầu được kết nối từ hàng nghìn mạng máy tính
+trên khắp thế giới.
+• Tập hợp những quy tắc, quy ước truyền thông được gọi là giao thức (Protocol) của
+mạng. Mạng Internet sử dụng một ngôn ngữ thống nhất, đó là bộ giao thức TCP/IP.
+• Các phương pháp kết nối phổ biến tới Internet là: Kênh thuê riêng, băng rộng, quay số
+qua mạng điện thoại, kết nối không dây.
+• Địa chỉ IP dùng để nhận dạng máy tính và thiết bị trên mạng Internet. Tên miền được
+dùng thay thế cho địa chỉ IP.
+• Các dịch vụ Internet như: web, thư điện tử, truyền tệp, đều hoạt động theo mô hình
+Client/Server. Để cung cấp các dịch vụ này, Internet cần có các máy chủ. Máy tính của người sử
+dụng (máy khách) sẽ kết nối tới máy chủ trên Internet để sử dụng dịch vụ.
+
+-- 33 of 33 --
+
