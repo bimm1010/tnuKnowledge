@@ -1,0 +1,15 @@
+1
+TÀI LIỆU THAM KHẢO
+1. “Operating System Concepts”, A. Silberschatz, Peter B.Galvin, G. Gagne, John Wiley & Sons, 2002.
+2. “Operating Systems”, Harvey M. Deitel, Paul J. Deitel and David R. Choffnes, Pearson Education
+International, 2004.
+3. “Modern Operating Systems”, Andrew S. Tanenbaum, Prentice-Hall International, 2001.
+4. “Operating Systems - Internals and Design Principles”, William Stallings, Pearson Education
+International, 2005.
+5. “Giáo trình hệ điều hành”, Nguyễn Thanh Tùng - Khoa công nghệ thông tin - Đại học Bách
+Khoa Hà Nội, 1995.
+6. “Giáo trình Nguyên lý các hệ điều hành”, Hà Quang Thụy - Đại học Khoa học tự nhiên - Đại
+học Quốc gia Hà Nội, 1998.
+
+-- 1 of 1 --
+

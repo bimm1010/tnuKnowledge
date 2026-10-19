@@ -1,0 +1,380 @@
+BÀI 5
+BỘ NHỚ NGOÀI
+NHẬP MÔN HỆ ĐIỀU HÀNH 1
+
+-- 1 of 27 --
+
+TÌNH HUỐNG DẪN NHẬP
+NHẬP MÔN HỆ ĐIỀU HÀNH 2
+Ngày nay là thời đại CNTT, nên khối lượng
+thông tin cần lưu trữ trên máy tính là rất lớn.
+Khi đó bộ nhớ vật lý của máy tính không đủ
+chứa khối lượng thông tin như vậy nên cần sử
+dụng bộ nhớ ngoài.
+Bạn có biết các thiết bị trong hình vẽ bên
+ là gì không?
+
+-- 2 of 27 --
+
+MỤC TIÊU
+NHẬP MÔN HỆ ĐIỀU HÀNH 3
+• Nắm được khái niệm, cấu trúc bộ nhớ ngoài và cấu trúc đĩa từ;
+• Biết cách quản lý bộ nhớ ngoài, chức năng hệ thống file;
+• Học viên nên để 5 tiết nghiên cứu lý thuyết và 3 tiết làm bài tập.
+
+-- 3 of 27 --
+
+NỘI DUNG
+NHẬP MÔN HỆ ĐIỀU HÀNH 4
+1. Đĩa từ:
+• Cấu tạo đĩa từ;
+• Tối ưu theo thời gian định vị track;
+• Tối ưu theo thời gian trễ;
+2. Hệ thống file:
+• Giới thiệu;
+• Cấu trúc dữ liệu;
+• Phân bố liên tục, không liên tục;
+• Các sơ đồ tổ chức hệ thống file theo block;
+• Điều khiển truy cập.
+
+-- 4 of 27 --
+
+1. ĐĨA TỪ
+NHẬP MÔN HỆ ĐIỀU HÀNH 5
+
+-- 5 of 27 --
+
+1. ĐĨA TỪ
+NHẬP MÔN HỆ ĐIỀU HÀNH 6
+• Chất liệu: Nhôm hay thủy tinh,
+gốm,…
+• Bề mặt phủ lớp từ tính;
+• Xếp chồng nhau và dữ liệu ở cả 2
+mặt.
+
+-- 6 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 7
+• Trục quay (động cơ quay):
+➢ Truyền chuyển động quay;
+➢ Cấu tạo nhẹ, chính xác.
+• Đầu đọc ghi:
+➢ Cấu tạo gồm lõi Ferit và cuộn dây;
+➢ Cấu tạo nhỏ, đọc dữ liệu từ hóa trên mặt đĩa.
+1. ĐĨA TỪ
+Voice Coil
+Motor
+Phiến đĩa Động cơ quay
+Đầu từ
+ghi/
+đọc
+1.1. CẤU TẠO ĐĨA TỪ
+
+-- 7 of 27 --
+
+• Track:
+➢ Trên một bề mặt đĩa được chia ra
+nhiều vòng đồng tâm gọi là Track;
+➢ Trên Track được chia ra các phần nhỏ
+bằng các đoạn hướng tâm gọi là
+Sector (512Byte);
+➢ Được định dạng ở cấp thấp (Low).
+• Cylinder:
+➢ Tập hợp các track cùng bán kính (ở
+các mặt đĩa khác nhau);
+➢ Trên một ổ cứng có nhiều Cylinder.
+NHẬP MÔN HỆ ĐIỀU HÀNH 8
+1. ĐĨA TỪ
+1.1. CẤU TẠO ĐĨA TỪ
+1.1.1. CẤU TRÚC BỀ MẶT ĐĨA
+
+-- 8 of 27 --
+
+• Truy cập ngẫu nhiên dữ liệu trên đĩa
+cứng;
+• Thông qua đầu đọc/ghi để truy xuất hay
+ghi dữ liệu;
+• Dữ liệu được ghi khi đầu đọc đưa dòng
+điện vào và lấy ra khi đọc;
+• Dữ liệu trên đĩa được lưu dưới dạng
+các bit 0,1.
+NHẬP MÔN HỆ ĐIỀU HÀNH 9
+1. ĐĨA TỪ
+1.1. CẤU TẠO ĐĨA TỪ
+1.1.2. NGUYÊN LÝ HOẠT ĐỘNG
+
+-- 9 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 10
+Các chiến lược tối ưu thời gian tìm kiếm Cylinder phổ biến nhất:
+• Tối ưu theo FCFS (First come - First served);
+• SSTF (Shortes Seek Time First);
+• SCAN (Scan - quét);
+• C-SCAN (Cycled Scan);
+• N - Step - SCAN;
+• Sơ đồ Eschenbach (Eschenbach Scheme).
+1. ĐĨA TỪ
+1.2. TỐI ƯU THEO THỜI GIAN ĐỊNH VỊ TRACK
+
+-- 10 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 11
+• Yêu cầu nào đến trước sẽ được phục vụ trước;
+• Nếu các yêu cầu phân bố đều theo bề mặt đĩa
+thì chiến lược FCFS dẫn tới tìm kiếm ngẫu
+nhiên. Bỏ qua các liên hệ vị trí của các yêu cầu
+đang chờ được phục vụ, và không có bất cứ
+sự tối ưu nào trong tìm kiếm;
+• Chiến lược FCFS chấp nhận được nếu hệ
+thống làm việc với tải nhỏ. Khi tải tăng lên thì
+thời gian phục vụ trở nên quá lâu. Chiến lược
+FCFS đảm bảo Variance không lớn.
+1. ĐĨA TỪ
+1.2. TỐI ƯU THEO THỜI GIAN ĐỊNH VỊ TRACK
+1.2.1. TỐI ƯU THEO FCFS
+
+-- 11 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 12
+• Phục vụ yêu cầu có khoảng cách nhỏ nhất (do đó có thời gian tìm
+Cylinder ít nhất) dù yêu cầu đó không phải xuất hiện đầu tiên;
+• Chiến lược SSTF có đặc điểm Variance nhỏ đối với các yêu cầu xác
+định;
+• Việc truy nhập đĩa xuất hiện xu hướng tập trung, kết quả là yêu cầu truy
+nhập các Track trong cùng và ngoài cùng có thể được phục vụ kém hơn
+nhiều so với các yêu cầu truy nhập Track ở giữa.
+1. ĐĨA TỪ
+1.2. TỐI ƯU THEO THỜI GIAN ĐỊNH VỊ TRACK
+1.2.2. SSTF (Shortes Seek Time First)
+
+-- 12 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 13
+• Phục vụ yêu cầu có khoảng cách tìm kiếm nhỏ nhất theo một xu hướng
+xác định;
+• Tại thời điểm hiện tại hướng quét là từ trong ra thì chiến lược SCAN sẽ
+chọn yêu cầu với khoảng cách nhỏ nhất theo hướng ra ngoài.
+• So sánh chiến lược SCAN với SSTF ?
+➢ Giống nhau: Tăng khả năng phục vụ và giảm thời gian trung bình;
+➢ Khác nhau: SCAN giảm đáng kể độ chênh lệch đối với các yêu cầu
+đến track biên như của SSTF và đảm bảo Variance nhỏ hơn nhiều.
+1. ĐĨA TỪ
+1.2. TỐI ƯU THEO THỜI GIAN ĐỊNH VỊ TRACK
+1.2.3. SCAN (Scan - Quét)
+
+-- 13 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 14
+• Đầu từ dịch chuyển từ các Cylinder phía ngoài vào trong;
+• Phục vụ các yêu cầu theo nguyên tắc thời gian tìm kiếm Cylinder
+nhỏ nhất;
+• Khi đầu từ hoàn thành chuyển dịch theo chiều thuận, nó sẽ nhảy trở
+về phục vụ yêu cầu gần cylinder ngoài cùng nhất và sau đó lại tiếp
+tục dần vào trong.
+1. ĐĨA TỪ
+1.2. TỐI ƯU THEO THỜI GIAN ĐỊNH VỊ TRACK
+1.2.4. C-SCAN (Cycled Scan)
+
+-- 14 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 15
+• Đảm bảo chỉ số cao cả về khả năng phục vụ cũng như thời gian trung
+bình.
+• Độ chênh lệch (Variance) nhỏ so với khi sử dụng chiến lược SSTF hay
+SCAN thuần tuý.
+• Chiến lược N-Step SCAN loại trừ khả năng yêu cầu bị chờ quá lâu, tình
+huống thường xuất hiện khi có số lượng lớn yêu cầu đến Cylinder hiện
+thời. Chiến lược này sẽ lưu các yêu cầu đó để phục vụ vào lúc chuyển
+động ngược lại.
+1. ĐĨA TỪ
+1.2. TỐI ƯU THEO THỜI GIAN ĐỊNH VỊ TRACK
+1.2.5. N-step-SCAN
+
+-- 15 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 16
+SƠ ĐỒ ESCHENBACH (Eschenbach Scheme)
+• Chiến lược này đươc thiết kế đầu tiên cho hệ thống bán vé máy bay,
+với tải rất lớn;
+• Lược đồ eschenbach là một trong những cố gắng tối ưu đầu tiên theo
+hướng giảm thời gian tìm kiếm theo cylinder và cả thời gian tìm bản
+ghi;
+• So sánh hai chiến lược C-SCAN với Eschenbach Scheme về tối ưu
+thời gian trễ cái nào tốt hơn?
+Phân tích cho thấy chiến lược C-SCAN với tối ưu thời gian trễ cho kết
+quả tốt hơn Eschenbach Scheme.
+1. ĐĨA TỪ
+1.2. TỐI ƯU THEO THỜI GIAN ĐỊNH VỊ TRACK
+1.2.5. N-step-SCAN
+
+-- 16 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 17
+• Khi bộ định vị (với các đầu từ) nằm trên một Cylinder nào đó với nhiều
+yêu cầu truy nhập các track khác của Cylinder.
+• Chiến lược SLTF:
+➢ Phân tích tất cả các yêu cầu;
+➢ Phục vụ yêu cầu với thời gian trễ nhỏ nhất;
+➢ Không phụ thuộc thứ tự yêu cầu nào có trước.
+1. ĐĨA TỪ
+1.3. TỐI ƯU THEO THỜI GIAN TRỄ
+
+-- 17 of 27 --
+
+2. GIỚI THIỆU HỆ THỐNG FILE
+NHẬP MÔN HỆ ĐIỀU HÀNH 18
+
+-- 18 of 27 --
+
+2. GIỚI THIỆU HỆ THỐNG FILE
+NHẬP MÔN HỆ ĐIỀU HÀNH 19
+• File system (FS):
+➢ Là một cấu thành của hệ điều hành;
+➢ Nhiệm vụ điều khiển thao tác với các file trên bộ nhớ ngoài;
+➢ Đảm bảo khả năng chia sẻ và an toàn thông tin giữa nhiều người
+dùng;
+• Các thao tác với file: Open, Close, Create, Copy, Destroy (Delete),
+Rename;
+• Đối với các đơn vị thông tin trong file: Read, Write, Insert, Delete.
+
+-- 19 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 20
+2. GIỚI THIỆU HỆ THỐNG FILE
+• Block và Record:
+➢ Block (bản ghi vật lý) là đơn vị thông tin thực sự được trao đổi với
+thiết bị lưu trữ;
+➢ Record (bản ghi Logic) là tập hợp thông tin được coi là đơn vị
+toàn vẹn nhìn từ phía người dung.
+• Liên hệ giữa Block và Record:
+➢ Một Block = một Record;
+➢ Một Block = nhiều Record;
+➢ Một Record = nhiều Block.
+• Tổ chức file:
+➢ Nối tiếp;
+➢ Dãy chỉ số;
+➢ Truy cập trực tiếp;
+➢ Thư mục;
+• Hệ thống file (File System)
+2.1. CẤU TRÚC DỮ LIỆU
+
+-- 20 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 21
+Cấp phát và giải phóng không gian đĩa
+• Nếu như ban đầu file được ghi trong một vùng nhớ liên tục thì theo
+thời gian, các file liên tục thay đổi và không gian đĩa trở nên bị chia nhỏ
+(Fragmentation), giải quyết vấn đề này ra sao?
+• Biện pháp:
+➢ Theo chu kỳ thực hiện việc dồn đĩa;
+➢ Các file được tổ chức lại để chúng chiếm vùng đĩa liên tục;
+➢ Việc này thường được thực hiện vào thời gian rỗi của hệ thống;
+➢ Một số hệ thống còn có thể dọn dẹp đĩa ngay cả khi đang phục vụ
+người dùng.
+2. GIỚI THIỆU HỆ THỐNG FILE
+2.1. CẤU TRÚC DỮ LIỆU
+
+-- 21 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 22
+Phân bố liên tục:
+• Mỗi file được cấp phát một vùng liên tục;
+• Nếu không có được vùng trống liên tục đủ lưu file thì File sẽ không thể
+được lưu;
+• Ưu điểm: Các bản ghi liên tiếp về Logic cũng được lưu liên tục về mặt
+vật lý nên cải thiện tốc độ truy cập;
+• Hạn chế:
+➢ Khi các File bị xoá, thay đổi, tạo ra tình trạng phân mảnh.
+➢ Khi cần ghi thêm dữ liệu vào File không phải luôn có vùng trống
+ngay cuối File để lưu.
+2. GIỚI THIỆU HỆ THỐNG FILE
+2.2. PHÂN BỐ LIÊN TỤC, KHÔNG LIÊN TỤC
+
+-- 22 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 23
+Phân bố không liên tục:
+• Sử dụng danh sách Sector:
+➢ Đĩa được xem như tập hợp các Sector riêng rẽ;
+➢ File: Gồm các Sector nằm trên các vị trí rải rác;
+➢ Các Sector thuộc cùng một File có các con trỏ đến nhau, tạo thành
+chuỗi/ danh sách các Sector;
+➢ Không gian trống được chỉ ra trong một danh sách các Sector
+trống.
+• Phân bố theo Block:
+➢ Kết hợp giữa hình thức phân bố liên tục và không liên tục;
+➢ Bộ nhớ ngoài chia thành các khối/block gồm nhiều sector liên tục.
+➢ Có 3 hình thức phân bố theo block: Chuỗi Block/ Block Chaining,
+chuỗi Block chỉ số/ Index Block và bảng ánh xạ Block.
+2. GIỚI THIỆU HỆ THỐNG FILE
+2.2. PHÂN BỐ LIÊN TỤC, KHÔNG LIÊN TỤC
+
+-- 23 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 24 24
+Chuỗi các Block dữ liệu
+Chuỗi các Block chỉ mục
+Directory
+File A Header
+Data Block 0
+Data
+2. GIỚI THIỆU HỆ THỐNG FILE
+2.2. PHÂN BỐ LIÊN TỤC, KHÔNG LIÊN TỤC
+SƠ ĐỒ TỔ CHỨC HỆ THỐNG FILE THEO BLOCK
+
+-- 24 of 27 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 25
+Directory
+File A 1
+0
+1
+2
+3
+4
+5
+Free
+2
+4
+Free
+EOF
+Free
+Directory
+Free
+2
+4
+Free
+EOF
+Free
+SƠ ĐỒ BẢNG ÁNH XẠ BLOCK
+
+-- 25 of 27 --
+
+File
+User f1 f2 …
+u1 R = 0 R = 1
+u2 R = 1 R = 1
+…
+NHẬP MÔN HỆ ĐIỀU HÀNH 26
+• Có nhiều cơ chế khác nhau để quản lý quyền truy cập;
+• Sơ đồ đơn giản nhất là sử dụng ma trận điều khiển quyền truy cập:
+• File Descriptor: Tên File, kích thước File, kiểu File, ngày tháng tạo,
+cập nhật,…Thông tin thuộc tính.
+2. GIỚI THIỆU HỆ THỐNG FILE
+2.3. ĐIỀU KHIỂN TRUY CẬP
+
+-- 26 of 27 --
+
+TÓM LƯỢC CUỐI BÀI
+NHẬP MÔN HỆ ĐIỀU HÀNH 27
+• Hiểu được về đĩa từ:
+➢ Cấu tạo của đĩa từ;
+➢ Tối ưu theo thời gian định vị Track;
+➢ Tối ưu theo thời gian trễ.
+• Hiểu được về hệ thống file:
+➢ Phân bố liên tục và không liên tục;
+➢ Các sơ đồ tổ chức hệ thống file;
+➢ Điều khiển truy nhập;
+
+-- 27 of 27 --
+

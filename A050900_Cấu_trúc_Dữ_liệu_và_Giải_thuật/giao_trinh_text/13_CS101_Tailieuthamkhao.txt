@@ -1,0 +1,18 @@
+1
+TÀI LIỆU THAM KHẢO
+• 	Đỗ Xuân Lôi. "Cấu trúc dữ liệu và giải thuật". NXB Khoa học và Kỹ thuật, 2004.
+• 	Quách Tuấn Ngọc. “Ngôn ngữ lập trình TurboPascal”. NXB Thống kê, 2002.
+• 	Nguyễn Trung Trực. “Cấu trúc dữ liệu”. Khoa CNTT, trường ĐHBK TP.HCM.
+• 	Nguyễn Xuân Huy. “Thuật toán”. NXB Thống kê, 1988.
+• 	Robert Sedgewick, “Algorithms”. Bản dịch tiếng Việt, NXB Khoa học và Kỹ thuật, 1994.
+• 	G.H. Gonnet. “Handbook of Algorithms and Data Structures In Pascal and C”, Second
+Edition, 1991.
+• 	Aho, A. V. , J. E. Hopcroft, J. D. Ullman. "Data Structure and Algorihtms", Addison-
+Wesley, 1983.
+• 	Douglas Baldwin and Greg W. Scragg. “Algorithms and Data Structures: The Science of
+Computing”, 2004.
+• 	http://www.ebook.edu.vn/?page=1.39&view=1784
+• 	http://ebook4u.vn/view-file.htm?fileId=15005
+
+-- 1 of 1 --
+

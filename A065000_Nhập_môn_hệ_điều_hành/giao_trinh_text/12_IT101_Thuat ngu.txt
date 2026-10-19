@@ -1,0 +1,556 @@
+1
+THUẬT NGỮ
+A
+Ánh xạ theo khối (Blocking mapping)
+Cơ chế biến đổi địa chỉ động (DAT) phải sử
+dụng các bảng ánh xạ - để chỉ rằng các ô nhớ
+ảo nào tại thời điểm hiện thời nằm trong bộ
+nhớ và ở ô nhớ thực nào, ánh xạ theo khối sẽ
+gộp các khối - block, và hệ thống theo dõi
+xem các block của bộ nhớ ảo nằm ở đâu trong
+bộ nhớ.
+Ánh xạ trực tiếp
+Tiến trình đưa yêu cầu truy cập địa chỉ ảo.
+trước khi tiến trình tiếp tục thực hiện, hệ điều
+hành nạp địa chỉ thực của bảng ánh xạ trang
+vào thanh ghi. Địa chỉ cơ sở được cộng với số
+trang, thu được địa chỉ thực của dòng chứa
+ánh xạ trang p. Dòng này chỉ ra page frame
+của số trang ban đầu. Sau đó page frame được
+cộng với địa chỉ offset và ta có địa chỉ thực.
+Cách tính này được gọi là ánh xạ trực tiếp, vì
+bảng ánh xạ trang chứa từng dòng cho mỗi
+trang bộ nhớ ảo của tiến trình.
+B
+Bộ xử lý trung tâm (Control Processing
+unit - CPU)
+CPU có thể được xem như não bộ, một trong
+những phần tử cốt lõi nhất của máy vi tính.
+Nhiệm vụ chính của CPU là xử lý các chương
+trình vi tính và dữ kiện.
+Bộ điều khiển (Control unit - CU)
+Là các vi xử lí có nhiệm vụ thông dịch các
+lệnh của chương trình và điều khiển hoạt động
+xử lí, được điều tiết chính xác bởi xung nhịp
+đồng hồ hệ thống. Mạch xung nhịp đồng hồ hệ
+thống dùng để đồng bộ các thao tác xử lí trong
+và ngoài CPU theo các khoảng thời gian
+không đổi. Khoảng thời gian chờ giữa hai
+xung gọi là chu kỳ xung nhịp. Tốc độ theo đó
+xung nhịp hệ thống tạo ra các xung tín hiệu
+chuẩn thời gian gọi là tốc độ xung nhịp - tốc độ
+đồng hồ tính bằng triệu đơn vị mỗi giây - Mhz.
+Bộ điểu khiển đĩa cứng (Hard disk
+controler –HDC)
+Thực hiện chức năng truyền dữ liệu từ CPU
+đến ổ đĩa và nhận dữ liệu ừ ổ đĩa cung cấp
+cho CPU.
+Bộ nhớ truy cập trực tiếp (Direct
+Memory Access –DMA)
+Là bộ nhớ thực hiện quá trình vào/ra dữ liệu
+trực tiếp giữa bộ nhớ và thiết bị ngoại vi
+không thông qua CPU.
+Bộ phân phát (Dispatcher)
+Dispatcher sẽ chuyển quyền điều khiển CPU
+về cho tiến trình được chọn bởi bộ định thời
+ngắn hạn.
+Bảng quản lý đoạn (Segment Control
+block - SCB)
+Chương trình của người sử dụng được biên tập
+riêng cho từng modul độc lập. Kết quả tập hợp
+chương trình là một bảng điều khiển cho biết
+chương trình có thể sử dụng những modul nào,
+độ dài modul là bao nhiêu. Bảng điều khiển này
+được gọi là bảng quản lý đoạn.
+Bộ nhớ ảo (Virtual Memory)
+Là một kĩ thuật cho phép một chương trình
+ứng dụng tưởng rằng mình đang có một dải
+bộ nhớ liên tục (một không gian địa chỉ),
+trong khi thực ra phần bộ nhớ này có thể bị
+phân mảnh trong bộ nhớ vật lý và thậm chí có
+thể được lưu trữ cả trong đĩa cứng.
+Bản ghi vật lý hay block
+Là đơn vị thông tin thực sự trao đổi với thiết bị
+lưu trữ.
+Bản ghi logic
+Là tập hợp thông tin được coi là đơn vị toàn
+
+-- 1 of 8 --
+
+2
+vẹn nhìn từ phía người dùng.
+Bảng cấp phát tập tin (File Allocation
+Table – FAT)
+Có chức năng:
+ Quản lý bộ nhớ phân phối cho từng file.
+ Quản lý bộ nhớ tự do trên đĩa.
+ Quản lý bộ nhớ kém chất lượng.
+Bảng vector ngắt
+Gồm 256 phần tử, mỗi phần tử gồm 4byte
+ứng với 256 ngắt. Mỗi phần tử trong bảng
+vector ngắt chứa 2 địa chỉ: địa chỉ thanh ghi
+đoạn đưa vào CS và địa chỉ offset của chương
+trình phục vụ ngắt đưa vào IP.
+C
+Cung khởi động (Boot sector - BS)
+ Trên đĩa mềm: là sector 1 ở track 0 của
+side 0.
+ Trên đĩa cứng: là sector 0 của một phân
+vùng chính (Primary Partition).
+Chuyển ngữ cảnh
+Là công việc giao CPU cho tiến trình khác.
+Khi đó cần:
+ Lưu ngữ cảnh của tiến trình cũ vào PCB
+của nó.
+ Nạp ngữ cảnh từ PCB của tiến trình mới để
+tiến trình mới thực thi.
+Chiến lược FCFS (First Come First
+Served - FCFS)
+Bộ xử lý phục vụ các tiến trình theo trình tự
+xuất hiện của tiến trình trong dòng xếp hàng
+sẵn sàng và mỗi tiến trình được phục vụ đến
+khi kết thúc hoặc khi nó phải chuyển sang
+trạng thái bị ngắt.
+Chiến lược SJF (Shortes Job First)
+Là nguyên tắc không hoán đổi, theo đó bài
+toán có thời gian thực hiện ngắn nhất theo dự
+đoán sẽ được thực hiện trước.
+Chiến lược SRT (Shortest Rest Time)
+Là nguyên tắc có hoán đổi, tiến trình được
+đánh giá có khoảng thời gian còn lại đến khi
+kết thúc là ngắn nhất tiến trình mới được tạo
+ra sẽ được ưu tiên.
+Chiến lược HRN (Highest Response
+Ratio Next)
+Là nguyên tắc không hoán đổi và mức ưu tiên
+động, theo đó mức ưu tiên của tiến trình phụ
+thuộc không chỉ thời gian cần thực hiện nó
+mà còn phụ thuộc cả vào thời gian nó phải
+chờ để được phục vụ, mức ưu tiên càng cao
+thì thời gian thực hiện càng ngắn.
+Chiến lược quay vòng (Round robin - RR)
+Là nguyên tắc FIFO (First In First Out) có
+hoán đổi, mỗi tiến trình trong mỗi lần được
+sử dụng bộ xử lý không được vượt quá
+khoảng thời gian xác định - chính là lượng tử
+(Quantum).
+Chuyển đổi địa chỉ
+Là quá trình ánh xạ một địa chỉ từ không gian
+địa chỉ này sang không gian địa chỉ khác.
+Cơ chế phủ lấp (Overlay)
+Tại mỗi thời điểm, chỉ giữ lại trong bộ nhớ
+những lệnh hoặc dữ liệu cần thiết, giải phóng
+các lệnh/dữ liệu chưa hoặc không cần dùng
+đến.
+Cơ chế Swapping
+Một tiến trình có thể tạm thời bị swap ra khỏi
+bộ nhớ chính và lưu trên một hệ thống lưu trữ
+phụ. Sau đó, tiến trình có thể được nạp lại vào
+bộ nhớ để tiếp tục quá trình thực thi.
+
+-- 2 of 8 --
+
+3
+Cơ chế phân trang (Paging)
+Chương trình được tập hợp như trong trường
+hợp có cấu trúc tuyến tính nhưng sau đó được
+chính chương trình biên tập chia thành từng
+phần có độ dài bằng nhau gọi là trang. Sản
+phẩm biên tập là một bảng quản lý trang, mỗi
+phần tử của bảng ứng với một trang của
+chương trình người sử dụng.
+Chiến lược loại bỏ trang tối ưu
+(Principle Of Optimality)
+Là nguyên tắc để loại bỏ trang, để đảm bảo
+các đặc tính tốc độ tốt nhất và sử dụng hiệu
+quả nhất tài nguyên thì phải loại bỏ trang mà
+trong tương lại sẽ không có yêu cầu truy cập
+đến nó (trong thời gian lâu nhất).
+Chiến lược loại bỏ trang ngẫu nhiên
+Là chiến lược để loại bỏ trang, tất cả các trang
+đang nằm trong bộ nhớ đều có thể bị chọn và
+với xác suất như nhau, và có thể trang thường
+xuyên phải truy cập sẽ bị loại bỏ khỏi bộ nhớ
+vì tính ngẫu nhiên.
+Chiến lược loại bỏ trang FIFO
+Là một trong những chiến lược loại bỏ trang,
+khi cần loại bỏ trang nào khỏi bộ nhớ thì sẽ
+chọn trang nằm trong bộ nhớ lâu nhất (theo
+chỉ số đã gán).
+Chiến lược loại bỏ trang LRU (Least
+Recentaly Used)
+Để loại bỏ trang thì chọn trang nào không
+được truy xuất lâu nhất.
+Chiến lược loại bỏ trang LFU
+Để loại bỏ trang thì chọn trang nào ít được sử
+dụng nhất (theo tần số).
+D
+Danh sách kiểm soát truy xuất(Access
+Control List - ACL)
+Là danh sách các đặc quyền mà chủ thể có thể
+được thực hiện trên một đối tượng. Mỗi đối
+tượng có một danh sách các quyền truy cập
+tương ứng với một chủ thể.
+Định thời truy cập đĩa
+Là sắp xếp lại trật tự của các yêu cầu đọc/ghi
+đĩa sao cho giảm thiểu thời gian di chuyển
+đầu đọc (Seek Time).
+Địa chỉ vật lý (Physical Address) (địa
+chỉ thực)
+Là một vị trí thực trong bộ nhớ chính.
+Địa chỉ logic (Logical Address)
+Là một vị trí nhớ được diễn tả trong một
+chương trình.
+Địa chỉ tương đối (Relative Address) (địa
+chỉ khả tái định vị, Relocatable Address)
+Là một kiểu địa chỉ logic trong đó các địa chỉ
+được biểu diễn tương đối so với một vị trí xác
+định nào đó trong chương trình.
+Địa chỉ tuyệt đối (Absolute Address):
+Địa chỉ tương đương với địa chỉ thực.
+Định thời không trưng dụng
+(Nonpreemptive Scheduling):
+Chỉ thực thi hàm định thời trong trường hợp:
+chuyển từ trạng thái running sang trạng thái
+waiting hoặc kết thúc thực thi.
+Định thời trưng dụng (Preemptive
+Scheduling)
+Thực thi hàm định thời trong các trường hợp:
+
+-- 3 of 8 --
+
+4
+ Chuyển từ trạng thái running sang trạng
+thái waiting.
+ Chuyển từ trạng thái waiting sang trạng
+thái ready.
+ Chuyển từ trạng thái running sang trạng
+thái ready.
+ Kết thúc thực thi.
+Định thời dài hạn (Long - Term
+Scheduling)
+Là việc xác định tiến trình nào được chấp
+nhận vào hệ thống
+Định thời trung hạn (Medium - Term
+Scheduling)
+Là việc xác định tiến trình nào được đưa vào
+(Swap in), đưa ra khỏi (Swap out) bộ nhớ
+chính.
+Định thời ngắn hạn (Short - Term
+Scheduling)
+Là việc xác định tiến trình nào được thực thi
+tiếp theo.
+Độ dài của chu kì CPU (CPU - Burst)
+Là thời gian sử dụng CPU.
+Đồ thị cấp phát tài nguyên (Resource
+Allocation Graph - RAG)
+Đồ thị cấp phát tài nguyên (RAG) là đồ thị
+có hướng, với tập đỉnh V và tập cạnh E
+ Tập đỉnh V gồm 2 loại:
+o 	P = {P 1, P2,…, Pn } 	(Tất 	cả 	tiến
+trình trong hệ thống).
+o 	R = {R1, R2,…, R m } (Tất cả các loại
+tài nguyên trong hệ thống).
+ Tập cạnh E gồm 2 loại:
+o 	Request edge: cạnh có hướng từ Pi
+đến Rj
+o 	Assignment edge: cạnh có hướng từ
+Rj đến Pi .
+G
+Giao thức (Protocol)
+Là tập luật quy định cách thức truyền thông
+giữa các hệ thống máy tính.
+Giao diện lập trình ứng dụng
+(application programing interface -
+API)
+Là một giao diện mà một hệ thống máy tính
+hay ứng dụng cung cấp để cho phép các yêu
+cầu dịch vụ có thể được tạo ra từ các chương
+trình máy tính khác, và/hoặc cho phép dữ liệu
+có thể được trao đổi qua lại giữa chúng.
+Chẳng hạn, một chương trình máy tính có thể
+(và thường là phải) dùng các hàm API của hệ
+điều hành để xin cấp phát bộ nhớ và truy xuất
+tập tin.
+Gọi thủ tục từ xa (remote process call
+- RPC)
+Cho phép một chương trình gọi một thủ tục
+nằm trên máy tính ở xa qua mạng.
+H
+Hệ thống tập tin ảo (Virtual file system
+- VFS)
+Cung cấp giao diện lập trình ứng dụng chung
+để truy xuất nhiều loại hệ thống file khác
+nhau.
+Hệ thống tập tin (File System – FS)
+Là một cấu thành của hệ điều hành có nhiệm
+vụ điều khiển thao tác với các file trên bộ nhớ
+ngoài. Nó còn đảm bảo khả năng chia sẻ và
+an toàn thông tin giữa nhiều người dùng.
+Hệ điều hành (Operating System – OS)
+ Là một chương trình chạy trên máy tính,
+dùng để điều hành, quản lý các thiết bị
+phần cứng và các tài nguyên phần mềm
+trên máy tính.
+
+-- 4 of 8 --
+
+5
+ Hệ điều hành đóng vai trò trung gian trong
+việc giao tiếp giữa người sử dụng và phần
+cứng máy tính, cung cấp một môi trường
+cho phép người sử dụng phát triển và thực
+hiện các ứng dụng của họ một cách dễ
+dàng.
+Hạt nhân (Kernel)
+Tất cả các thao tác liên quan đến tiến trình,
+thực hiện bởi một phần của hệ điều hành được
+gọi là hạt nhân. Hạt nhân chỉ là một phần
+không lớn của hệ điều hành nhưng nó là một
+trong số những thành phần được sử dụng
+nhiều nhất trong hệ điều hành, nó thường
+được nạp vào bộ nhớ.
+Hệ thống nhập/xuất cơ bản (Basic
+Input/Output System - BIOS)
+BIOS nằm bên trong máy tính cá nhân, trên bo
+mạch chính. BIOS được xem như là chương
+trình được chạy đầu tiên khi máy tính khởi
+động. Chức năng chính của BIOS là chuẩn bị
+cho máy tính để các chương trình phần mềm
+được lưu trữ trên các thiết bị lưu trữ (chẳng
+hạn như ổ cứng, đĩa mềm và đĩa CD) có thể
+được nạp, thực thi và điều khiển máy tính, quá
+trình này gọi là khởi động.
+K
+Khối điều khiển tệp (File Control Block
+– FCB)
+Nằm trên đĩa cứng, chứa thông tin về bảo mật
+file và thông tin lưu trữ file.
+Khối tính toán số học (Arithmetic Logic
+Unit - ALU)
+Có chức năng thực hiện các lệnh của đơn vị
+điều khiển và xử lý tín hiệu. Theo tên gọi, đơn
+vị này dùng để thực hiện các phép tính số học
+(+, - ,*,/) hay các phép tính logic (so sánh lớn
+hơn, nhỏ hơn...).
+Khối quản lý tiến trình (Process Cotrol
+Block - PCB)
+PCB là nơi hệ điều hành lưu các thông tin về
+tiến trình. Là một trong những cấu trúc quan
+trọng nhất của hệ điều hành.
+Kỹ thuật kiểm tra và xác lập (Test and
+Set)
+Đây là giải pháp phần cứng để thực hiện loại
+trừ lẫn nhau, để đảm bảo giải quyết vấn đề là
+có một lệnh phần cứng: lệnh này đọc biến, ghi
+giá trị của biến vào vùng lưu trữ và đặt giá trị
+cụ thể cho biến đó. Lệnh này gọi là test and
+set. Tất cả các thao tác trên được gói gọn
+trong một lệnh và được thực hiện trọn vẹn
+không bị ngắt.
+L
+Lập lịch (Scheduling)
+Đó là việc giải quyết vấn đề phân chia, lựa
+chọn tiến trình thực thi sao cho được hiệu quả
+nhất.
+LINUX
+Linux là tên gọi của một hệ điều hành máy
+tính và cũng là tên hạt nhân của hệ điều hành.
+Nó có lẽ là một ví dụ nổi tiếng nhất về phần
+mềm tự do và việc phát triển mã nguồn mở.
+Phiên bản Linux đầu tiên do Linus Torvalds
+viết vào năm 1991, lúc ông còn là một sinh
+viên của Đại học Helsinki tại Phần Lan. thuật
+ngữ "Linux" được sử dụng để chỉ Nhân
+Linux, nhưng tên này được sử dụng một cách
+rộng rãi để miêu tả tổng thể một hệ điều hành
+giống Unix (còn được biết đến dưới tên
+GNU/Linux) được tạo ra bởi việc đóng gói
+nhân Linux cùng với các thư viện và công cụ
+GNU, cũng như là các bản phân phối Linux.
+Thực tế thì đó là tập hợp một số lượng lớn các
+phần mềm như máy chủ web, các ngôn ngữ
+lập trình, các hệ quản trị cơ sở dữ liệu, các
+môi trường làm việc desktop
+
+-- 5 of 8 --
+
+6
+như GNOME và KDE, và các ứng dụng thích
+hợp 	cho 	công 	việc 	văn 	phòng 	như
+OpenOffice.
+M
+Mô tả file (File Descriptor)
+Là bản ghi đầy đủ các thông tin về file mà hệ
+điều hành quan tâm, quản lý. File descriptor
+nằm trên bộ nhớ ngoài và chúng được nạp vào
+bộ nhớ khi mở file, người dùng không có
+quyền truy cập trực tiếp.
+N
+NTFS
+Hệ thống tập tin tiêu chuẩn của Windows NT,
+bao 	gồm cả các phiên 	bản 	sau này của
+Windows như Windows 2000, Windows XP,
+Windows Server 2003, Windows Server 2008,
+Windows Vista, và Windows 7.
+NTFS thay thế hệ thống tập tin FAT vốn là
+hệ thống tập tin ưa thích cho các hệ điều hành
+Windows của Microsoft. NTFS có nhiều cải
+tiến hơn FAT và HPFS (High Performance
+File System - Hệ thống tập tin hiệu năng cao)
+như hỗ trợ cải tiến cho các siêu dữ liệu và sử
+dụng các cấu trúc dữ liệu tiên tiến để cải thiện
+hiệu suất, độ tin cậy, và sử dụng không gian
+ổ đĩa, cộng thêm phần mở rộng như các danh
+sách kiểm soát truy cập bảo mật (access
+control list - ACL) và bản ghi hệ thống tập
+tin.
+Ngắt (Interupt)
+Là sự kiện làm thay đổi trình tự thực hiện lệnh
+bình thường của bộ xử lý. Tín hiệu ngắt được
+xử lý bởi phần cứng.
+P
+Phần mềm tự do
+Là phần mềm mà tự do dùng chương trình
+cho bất kỳ mục đích nào, tự do sửa đổi
+chương trình thích hợp với nhu cầu của mình,
+tự do phân bố các bản sao miễn phí hoặc lệ
+phí, tự do phân bố các phiên bản đã được sửa
+đổi của chương trình với mục đích cộng đồng
+người dùng được phúc lợi của sự nâng cao
+chương trình từ đóng góp của người dùng.
+Phần mềm mã nguồn mở (Open
+Source)
+Là phần mềm được phân phối tự do, phải
+phân phối mã nguồn, người dùng được quyền
+sửa đổi, nhất quán với mã gốc, không cấm sử
+dụng với cá nhân hoặc tổ chức, không cấm sử
+dụng cho lĩnh vực hoặc mục đích, bản quyền
+được phân phối, áp dụng cho người sử dụng
+không kèm thêm bản quyền bổ sung, bản
+quyền không gắn riêng cho một sản phẩm, với
+bản quyền phần mềm khác.
+Phân mảnh (Fragmentation)
+Phân mảnh xảy ra trong bất kỳ hệ thống nào
+không phụ thuộc vào tổ chức bộ nhớ. Trong
+các hệ đa nhiệm với các phân đoạn cố định,
+phân mảng xảy ra do các chương trình ứng
+dụng không chiếm hết toàn bộ phân đoạn của
+nó hoặc là do các phân đoạn quá nhỏ để có
+thể nạp các chương trình đang chờ vào.
+Q
+Quyền truy cập
+Quyền được cho phép truy cập hoặc không
+được truy cập trên các file nào đó của hệ
+thống.
+Quản lý bộ nhớ
+Là công việc của hệ điều hành với sự hỗ trợ
+của phần cứng nhằm phân phối, sắp xếp các
+tiến trình trong bộ nhớ sao cho hiệu quả.
+
+-- 6 of 8 --
+
+7
+S
+Semaphore
+Semaphore là biến được bảo vệ, giá trị của nó
+chỉ có thể đọc, ghi bằng các lệnh đặc biệt P,V
+và lệnh khởi tạo. Semaphore nhị phân (Binary
+Semaphore) chỉ có thể nhận 2 giá trị là 0 và 1.
+Semaphore đếm (Counting Semaphore) chỉ có
+thể nhận giá trị tự nhiên.
+T
+Thời gian trễ (Latency)
+Là thời gian đầu đọc chờ đến đúng sector cần
+đọc, phụ thuộc vào tốc độ quay của đĩa.
+Thư mục (Directory, Folder):
+Là một tiện ích của hệ điều hành để người
+dùng tổ chức các file của mình.
+Tập tin (File)
+File là một chuỗi các dữ liệu được đặt tên, các
+tác vụ có thể thực thi lên một file là: write và
+read.
+Thời gian lượng tử (Quantum Time)
+Hệ điều hành thiết lập đồng hồ hệ thống, xác
+định khoảng thời gian gọi là lượng tử theo đó
+sinh ra các tín hiệu ngắt thời gian.
+Thông năng (Throughput)
+Số lượng tiến trình hoàn tất trong một đơn vị
+thời gian.
+Thời gian đáp ứng (Response Time)
+Thời gian từ lúc có yêu cầu của người dùng
+(user request) đến khi có đáp ứng đầu tiên
+(lưu ý: đáp ứng đầu tiên, chứ không phải
+output).
+Thời gian quay vòng (Turnaround Time)
+Thời gian để một tiến trình hoàn tất, kể từ lúc
+vào hệ thống (Submission) đến lúc kết thúc
+(Termination).
+Truyền thông liên tiến trình
+(Interprocess Comunication - IPC)
+Là cơ chế cung cấp bởi hệ điều hành nhằm
+giúp các quá trình:
+ Giao tiếp với nhau.
+ Đồng bộ hoạt động mà không cần chia sẻ
+không gian địa chỉ.
+ IPC có thể được cung cấp bởi message
+passing system.
+Tiến trình kế tiếp
+Hai tiến trình được gọi là kế tiếp nếu thời
+điểm bắt đầu của tiến trình này là sau thời
+điểm kết thúc của tiến trình khác.
+Tiến trình song song
+Hai tiến trình được gọi là song song nếu thời
+điểm bắt đầu của tiến trình này nằm giữa thời
+điểm bắt đầu và kết thúc của tiến trình khác.
+Tắc nghẽn (Deadlock)
+Hai hay nhiều tiến trình đang chờ đợi vô hạn
+định một sự kiện không bao giờ xảy ra (ví dụ:
+sự kiện do một trong các tiến trình đang đợi
+tạo ra).
+Tiến trình (Process)
+Tiến trình là một chương trình đang xử lý, sở
+hữu một con trỏ lệnh, tập các thanh ghi và các
+biến.
+Thanh ghi (Register)
+Là một bộ nhớ dung lượng nhỏ và rất nhanh
+được sử dụng để tăng tốc độ xử lý của các
+chương trình máy tính bằng cách cung cấp
+các truy cập trực tiếp đến các giá trị cần dùng.
+Hầu hết, nhưng không phải tất cả, các máy
+tính hiện đại hoạt động theo nguyên lý chuyển
+dữ liệu từ bộ nhớ chính vào các thanh ghi, tính
+toán trên chúng, sau đó chuyển kết quả vào
+bộ nhớ chính.
+
+-- 7 of 8 --
+
+8
+U
+UNIX
+Là một hệ điều hành máy tính viết vào
+những năm 1960 và 1970 do một số nhân
+viên của công ty AT&T Bell Labs bao gồm
+Ken Thompson, Dennis Ritchie và Douglas
+McIlroy. Ngày nay hệ điều hành Unix được
+phân ra thành nhiều nhánh khác nhau,
+nhánh của AT&T, nhánh của một số nhà
+phân phối thương mại và nhánh của những
+tổ chức phi lợi nhuận. Nó là một hệ điều
+hành đa nhiệm (có thể cùng lúc thực hiện
+nhiều nhiệm vụ) hỗ trợ một cách lý tưởng
+đối với các ứng dụng nhiều người dùng.
+Unix được viết bằng ngôn ngữ lập trình C,
+một ngôn ngữ rất mạnh và mềm dẻo. Unix
+hỗ trợ các ứng dụng mạng và hỗ trợ nhiều
+môi trường lập trình khác nhau.
+V
+Vùng tương tranh (Critical Section)
+Khi các tiến trình cùng truy cập đến một dữ
+liệu chung, hay khi chúng thực hiện các
+thao tác có thể dẫn tới tranh chấp dữ liệu
+nói chung thì khi đó các tiến trình nằm
+trong vùng tương tranh.
+
+-- 8 of 8 --
+

@@ -1,0 +1,61 @@
+1
+CẤU TRÚC DỮ LIỆU
+VÀ GIẢI THUẬT
+(Giáo trình lưu hành nội bộ)
+
+-- 1 of 4 --
+
+2
+LỜI NÓI ĐẦU
+Giáo trình “Cấu trúc dữ liệu và giải thuật” cung cấp cho học viên một trong những khối kiến
+thức cơ bản của ngành Công nghệ thông tin. Cấu trúc dữ liệu và giải thuật được xem như là 2 yếu tố
+quan trọng nhất trong lập trình, nắm vững các cấu trúc dữ liệu và giải thuật là cơ sở để học viên tiếp
+cận với việc thiết kế và xây dựng phần mềm cũng như việc sử dụng các công cụ lập trình hiện đại sau
+này.
+Cấu trúc dữ liệu là cách thức tổ chức sắp xếp dữ liệu để biểu diễn thông tin trên máy tính. Khi
+thông tin đã được biểu diễn hay được lưu trữ trên máy, công việc còn lại của người lập trình là phải
+xử lý các thông tin đó, hay nói một cách khác là thao tác các dữ liệu đó nhằm giải quyết các vấn đề
+đã đặt ra. Và để xử lý dữ liệu đó một cách hiệu quả thì cần phải có các giải thuật để áp dụng trên các
+dữ liệu đó. Chính vì vậy, chúng ta đã thấy rằng cấu trúc dữ liệu và giải thuật là hai thuật ngữ luôn đi
+kèm với nhau. Cấu trúc dữ liệu là đầu vào và cũng là đầu ra của giải thuật. Với mỗi một loại cấu trúc
+dữ liệu cụ thể phải có những giải thuật phù hợp. Và ngược lại, mỗi giải thuật chỉ thực sự hiệu quả khi
+được áp dụng trên một số cấu trúc dữ liệu nhất định.
+Trong khuôn khổ giáo trình này, chúng tôi giới thiệu cho học viên các cấu trúc dữ liệu và giải
+thuật cơ bản theo một trình tự nhất định để học viên dễ tiếp cận nhất. Nắm rõ các cấu trúc và giải
+thuật này sẽ giúp cho học viên tìm hiểu dễ dàng hơn các cấu trúc dữ liệu và giải thuật phức tạp, nâng
+cao hơn. Giáo trình được xây dựng với nội dung ngắn gọn, dễ hiểu, phù hợp, mang tính thực tiễn
+nhằm phục vụ tốt nhất việc học tập của học viên theo phương pháp đào tạo trực tuyến. Trong quá
+trình biên soạn giáo trình, chắc chắn nhóm tác giả không tránh khỏi thiếu sót. Vì vậy rất mong nhận
+được sự đóng góp ý kiến của bạn đọc để giáo trình được hoàn thiện hơn trong thời gian tới.
+Xin chân thành cảm ơn!
+
+-- 2 of 4 --
+
+3
+GIỚI THIỆU CHUNG
+Mục tiêu môn học
+Sau khi học xong môn này, học viên được trang bị thêm:
+• 	Kiến thức cơ bản về phương pháp tổ chức lưu trữ thông tin máy tính. Từ đó biết lựa
+chọn cấu trúc dữ liệu để giải quyết các bài toán.
+• 	Những vấn đề cơ bản và mối quan hệ giữa cấu trúc dữ liệu và giải thuật, phân tích thiết kế
+thuật toán, giải thuật đệ qui; giới thiệu một số cấu trúc dữ liệu (mảng, danh sách, cây, đồ
+thị...), thuật toán sắp xếp, tìm kiếm.
+• 	Vận dụng các kiến thức đã học vào một số bài toán thực tế.
+Các kiến thức cần có để học môn này
+Toán cao cấp (giải tích, đại số tuyến tính).
+Hướng dẫn học tập môn
+Để học tốt môn này, học viên cần tham khảo các phương pháp học sau:
+• 	Dành 30 đến 60 phút mỗi ngày để đọc giáo trình “Cấu trúc dữ liệu và giải thuật”.
+• 	Tham dự dầy đủ các buổi học trực tuyến.
+• 	Nghiên cứu kỹ các đoạn mã trong giáo trình.
+• 	Làm đầy đủ các bài tập trong giáo trình cũng như trên lớp học trực tuyến.
+• 	Trao đổi trực tiếp với giảng viên tại lớp, qua email hoặc qua diễn đàn môn học.
+Thời lượng
+• 	60 tiết.
+
+-- 3 of 4 --
+
+4
+
+-- 4 of 4 --
+

@@ -1,0 +1,563 @@
+1
+ĐÁP ÁN
+Bài 1
+Câu hỏi tự luận
+Câu 1.
+• 	Ẩn các chi tiết của phần cứng để máy tính dễ sử dụng hơn.
+• 	Người sử dụng và người lập trình được cung cấp một giao diện đơn giản, dễ hiểu và không phụ
+thuộc vào thiết bị cụ thể.
+• 	Thực tế, hệ điều hành là một hệ thống bao gồm nhiều máy tính trừu tượng xếp thành nhiều lớp
+chồng lên nhau. Máy tính mức dưới phục vụ cho máy tính mức trên.
+• 	Bản thân chương trình ứng dụng cũng là một máy tính trừu tượng và phải dễ sử dụng nhất.
+• 	Công việc của người lập trình là liên tục xây dựng các máy tính trừu tượng như vậy (cho người
+khác sử dụng và cho cả chính mình).
+Câu 2.
+• 	Máy tính Minsk – 32 (Liên Xô) với hệ điều hành đơn chương Dispatcher tại Trung tâm Toán
+– Máy tính, BQP (từ 1974 – 1990).
+• 	Máy tính ES – 1022 (Liên Xô) với hệ điều hành đa chương OS/ES (tương đương với OS/360
+của IBM) tại Đại học Bách khoa Hà Nội (từ 1986 – 1996).
+• 	Máy tính IBM 360/50 với hệ điều hành đa chương OS/360 tại Trung tâm Điện toán tiếp vận
+của Quân đội Sài Gòn (từ 1974).
+• 	Các hệ điều hành cho máy vi tính: PC – DOS, MS – DOS, MacOS, OS/2, Windows 9x,
+Windows NT/2000/XP/VISTA, RedHat Linux, Linux VN 1.0, VietKey Linux 3.0, ....
+Câu 3.
+• 	Những bộ phận cấu thành máy tính:
+o 	CPU (Central Processing Unit).
+o 	Bộ nhớ (Memory).
+o 	Đường truyền hệ thống (System Bus).
+• 	Các mạch điều khiển thiết bị (Device Controller): Điều khiển công việc của thiết bị (Phần cơ);
+Làm việc đồng thời, song song và độc lập với CPU.
+• 	Mạch điều khiển bộ nhớ (Memory Controller) với chức năng đồng bộ hoá truy cập bộ nhớ chung.
+Câu 4.
+• 	Quản lý Process (Process Management).
+• 	Quản lý bộ nhớ chính (Memory Management).
+
+-- 1 of 15 --
+
+2
+• 	Quản lý hệ thống File (File Management).
+• 	Quản lý hệ thống I/O (I/O System Management).
+• 	Quản lý bộ nhớ phụ (Secondary Storage Management).
+• 	Hệ thống bảo vệ (Protection System).
+• 	Command – Interpreter System.
+Câu 5.
+• 	Trong các hệ đa chương thực thi nhiều chương trình đồng thời làm tăng hiệu suất hệ thống.
+• 	Tại mỗi thời điểm, chỉ có một process được thực thi. Do đó, cần phải giải quyết vấn đề phân
+chia, lựa chọn tiến trình thực thi sao cho được hiệu quả nhất  chiến lược định thời CPU.
+Bài tập trắc nghiệm:
+1. c; 	2. d; 	3. d; 	4. c; 	5. c; 	6. b; 	7. b.
+Bài 2
+Câu hỏi ôn tập
+Câu 1.
+Khi có một chương trình – Task bắt đầu được thực hiện, hệ thống sinh ra một tiến trình tương ứng
+và tiến trình đó được đưa vào danh sách các ready process, đơn giản nhất là đưa vào cuối danh
+sách – tức là có mức ưu tiên priority thấp nhất. Tiến trình này sẽ dịch chuyển dần lên phía đầu list
+bởi vì các tiến trình trước nó dần dần được bộ xử lý phục vụ. Khi tiến trình nằm ở đầu danh sách
+và bộ xử lý được giải phóng thì tiến trình này được bộ xử lý phục vụ và lúc đó xảy ra sự thay đổi
+trạng thái của tiến trình – chuyển từ trạng thái ready sang running. Việc trao quyền sử dụng bộ xử
+lý cho tiến trình đầu tiên trong danh sách các ready processes gọi là tiến trình dispatching, điều đó
+được thực hiện bởi module chương trình nằm trong OS gọi là Dispatcher.
+Trình bày rõ các quá trình biến đổi:
+• 	Dispatch (Process Name): ready => running.
+• 	Interval gone (Process Name): running => ready.
+• 	Blocking (Process Name): running => blocked.
+• 	Waikup(Process 	Name): 	blocked 	=>
+ready. Suspending and Activating:
+• 	Suspend (Process Name): ready => suspended – ready.
+• 	Activate (Process Name): suspend – ready => ready.
+• 	Suspend (Process Name): blocked => suspend – blocked.
+• 	Activate (Process Name): suspended – blocked => blocked.
+• 	Incommingevent (Process Name): suspended – blocked => suspended – ready.
+Câu 2.
+• 	SVC – Interrupt: ngắt này do tiến trình đang chạy sinh ra. SVC do chương trình ứng dụng sinh
+ra để yêu cầu một dịch vụ nào đó của hệ thống, ví dụ thực hiện tác vụ vào/ra, cấp phát bộ nhớ...
+Cơ chế SVC giúp bảo vệ hệ điều hành, người sử dụng không được tự do xâm nhập OS
+mà anh ta phải yêu cầu dịch vụ thông qua lệnh SVC. Do đó hệ điều hành luôn kiểm soát được
+các thao tác vượt quá giới hạn ứng dụng và hoàn toàn có thể từ chối yêu cầu.
+• 	Ngắt vào/ra: do các thiết bị vào/ra sinh ra. Các ngắt này thông báo cho bộ xử lý về sự thay đổi
+trạng thái nào đó ví dụ kết thúc tác vụ in, máy in hết giấy,...
+• 	External Interrupt: ngắt này có thể do nhiều nguyên nhân sinh ra, trong đó có ngắt thời gian
+overtime, ngắt bàn phím, ngắt từ các bộ xử lý khác trong hệ thống đa bộ xử lý,...
+
+-- 2 of 15 --
+
+3
+• 	Restart Interrupt: sinh ra khi người điều kiển cần khởi động lại hệ thống, hay lệnh restart SIGP
+của một processor (bộ xử lý) khác trong hệ thống đa bộ xử lý.
+• 	Program Check Interrupt: ngắt sinh ra do lỗi hoạt động của chương trình ví dụ lệnh chia cho 0,...
+• 	Machine Check Interrupt: sinh ra do lỗi phần cứng trong hệ thống.
+Câu 3.
+Các tiến trình lần lượt thực hiện dãy thao tác như sau trong một interval:
+1. Đặt cờ flag giá trị true, vào vòng lặp chờ.
+2. Đặt lại cờ flag giá trị false, chờ random.
+3. Lại đặt cờ giá trị true và lặp lại tiến trình trong vòng chờ.
+Khi đó các tiến trình thực hiện xong tất cả các thao tác đó, điều kiện kiểm tra luôn đúng và không
+thể thoát khỏi vòng chờ:
+Program 	Dekker
+var
+flag1, 	flag2go:boonlean; 	selection:
+byte;{set of 1,2}
+procedure 	process1
+begin
+while true do begin
+....
+flag1:= true;
+while flag2 = true do begin
+if selection = 2 then begin flag1:=
+false;
+while selection = 2 do ; flag1:=
+true;
+end;
+end;
+{critical 	region}
+selection:= 2;
+flag1:= false;
+....
+end;
+end;
+procedure 	process2
+begin
+while true do begin
+....
+flag2:= true
+while 	flag1 	= 	true 	do 	begin 	if
+selection:= 1 then begin
+flag2:= false;
+while selection = 1 do; flag2:=
+true;
+end;
+end;
+{critical 	region}
+selection:= 1;
+flag2:= false;
+....
+
+-- 3 of 15 --
+
+4
+end;
+end;
+begin
+flag1:= 	false;
+flag2:= 	false;
+selection:= 	1;
+parbegin
+process1;
+process2;
+parend;
+end.
+Giải thích quá trình hoạt động.
+Thuật toán Dekker loại trừ tình trạng chờ vô tận trong Version 4. Với một số lượng không lớn
+code, chương trình theo thuật toán của Dekker cho phép giải quyết triệt để vấn đề loại trừ lẫn nhau
+cho hai tiến trình, không đòi hỏi các lệnh đặc biệt nào.
+Câu 4.
+• 	Thuật toán thông dụng nhất để tránh tình trạng deadlock là thuật toán Banker do Dijstra đề xuất.
+• 	Chúng ta xem trường hợp ví dụ như phân chia t thiết bị lưu trữ băng từ.
+• 	Hệ điều hành phải đảm bảo phân chia một số t thiết bị cho một số cố định u người sử dụng. Mỗi
+người dùng sẽ phải báo trước số thiết bị lớn nhất mà anh ta sẽ cần khi thực hiện bài toán. hệ
+điều hành sẽ chấp nhận yêu cầu của người dùng nếu yêu cầu cao nhất đó không vượt quá số
+thiết bị t.
+• 	Người dùng có thể chiếm hay giải phóng từng thiết bị một. Số thiết bị cấp cho người dùng tại
+một thời điểm không bao giờ vượt quá số thiết bị nhiều nhất anh ta cần đến. Nếu hệ điều hành
+có đủ số thiết bị thoả mãn yêu cầu lớn nhất của người dùng, thì người sử dụng đảm bảo rằng các
+thiết bị đó sẽ được sử dụng và trả lại cho hệ điều hành sau khoảng thời gian hữu hạn nào đó.
+• 	Trạng thái hiện thời của máy tính gọi là ổn định nếu hệ điều hành có thể đảm bảo tất cả các
+chương trình ứng dụng hiện thời trong hệ thống có thể hoàn thành (kết thúc bình thường) sau
+một khoảng thời gian hữu hạn nào đó. Còn trong trường hợp ngược lại thì trạng thái là không
+ổn định.
+• 	Giả sử rằng có n người sử dụng.
+• 	Giả sử l(i) là số thiết bị cấp cho người sử dụng thứ i. Ví dụ người dùng thứ 5 đang dùng 4 thiết
+bị thì l (5) = 4.
+• 	Giả sử m(i) là số thiết bị lớn nhất mà người dùng thứ i có thể cần ví dụ người dùng thứ 5 cần
+nhiều nhất 6 thiết bị thì m (5) = 6. Tại một thời điểm, c(i) là yêu cầu lớn nhất hiện thời của
+người dùng i – bằng hiệu giữa số thiết bị nhiều nhất có thể yêu cầu và số thiết bị hiện có, tức là
+c(i) = m(i) – l(i) ví dụ ở trên ta có c (5) = m (5) – l(5) = 6 – 4 = 2.
+• 	Trong hệ thống với t thiết bị thì số thiết bị còn rỗi tại một thời điểm là a sẽ bằng t trừ tổng các
+thiết bị được cấp phát: a = t – ∑ 	l(i).
+• 	Thuật toán Banker của Dijkstra yêu cầu rằng các thiết bị chỉ được cấp phát cho người dùng theo
+yêu cầu trong trường hợp sau khi cấp phát thì hệ thống vẫn ở trạng thái ổn định.
+Câu 5:
+• 	Nếu như trạng thái hiện thời của hệ thống là ổn định thì điều đó không có nghĩa là tất cả các
+trạng thái sau đó đều là ổn định. Cơ chế cấp phát cần phải phân tích các yêu cầu trước khi cấp
+phát tài nguyên.
+• 	Giả sử hệ thống đang ở trạng thái 3, rõ ràng trạng thái đó là ổn định. Người dùng thứ 3 yêu cầu
+tài nguyên bổ sung. Nếu như thoả mãn yêu cầu đó thì hệ thống chuyển sang trạng thái 4. Dễ
+thấy trạng thái 4 là trạng thái không ổn định.
+• 	Trạng thái 3:
+
+-- 4 of 15 --
+
+5
+Số thiết bị đang được cấp 	Số thiết bị lớn nhất có thể cần
+Người dùng 1 	1 	4
+Người dùng 2 	4 	6
+Người dùng 3 	5 	8
+Dự trữ còn lại 	2
+• 	Trạng thái 4:
+Số thiết bị đang được cấp 	Số thiết bị lớn nhất có thể cần
+Người dùng 1 	1 	4
+Người dùng 2 	4 	6
+Người dùng 3 	6 	8
+Dự trữ còn lại 	1
+Tất nhiên trạng thái 4 không nhất thiết dẫn tới tình trạng deadlock. Tuy nhiên hệ thống đã chuyển
+từ trạng thái 3 (ổn định) sang trạng thái 4 (không ổn định).
+Bài tập trắc nghiệm:
+1. c; 	2. a; 	3. c; 	4. b; 	5. d;
+6. c; 	7. a; 	8. b; 	9. c.
+Bài 3
+Câu hỏi ôn tập:
+Câu 1.
+a) Thể hiện bằng biểu đồ Gantt:
+P1 	P2 	P1 	P2 	P3 	P1 	P3 	P1
+3 	13 	23 	33 	43 	53 	63 	67 	74
+b) Thời gian chờ trung bình của các tiến trình: (34 + 13 + 29)/3 = 76/3 = 25,3 ms
+Câu 2.
+b) Thời gian hoàn thành:
+FCFS 	RR 	SJF 	Priority
+P1 	10 	19 	19 	16
+P2 	11 	2 	1 	1
+P3 	13 	7 	4 	18
+P4 	14 	4 	2 	19
+P5 	19 	14 	9 	6
+c) Thời gian chờ:
+FCF
+S
+RR 	SJ
+F
+Priorit
+y
+P1 	0 	9 	9 	6
+P2 	10 	1 	0 	0
+P3 	11 	5 	2 	16
+
+-- 5 of 15 --
+
+6
+P4 	13 	3 	1 	18
+P5 	14 	9 	4 	1
+d) SJF (Shortest Job First)
+Câu 3.
+• 	Thời gian lượng tử là 1ms: bất luận việc tiến trình được lập lịch, thì việc lập lịch cũng bị chịu
+tổn thất là 0.1ms cho mỗi lần chuyển ngữ cảnh. Kết quả, việc sử dụng CPU là:
+1 / 1.1 × 100 = 91%
+• 	Thời gian lượng tử là 10ms: thao tác hướng nhập/xuất chịu tổn thất chuyển đổi ngữ cảnh sau
+khi sử dụng 1ms thời gian lượng tử. Thời gian để tất cả các tiến trình thực hiện xong một chu
+kì là: 10 × 1.1 + 10.1. Sử dụng CPU: 20 / 21.1 × 100 = 94%.
+Câu 4.
+a) Biểu đồ Gantt khi lập lịch theo SJF:
+b) Thời gian đợi trung bình = (0 + 6 + 3 + 7)/4 = 4.
+Câu 5.
+a) Biểu đồ Gantt cho việc lập lịch theo nguyên tắc FIFO:
+b) Thời gian đợi cho P1 = 0; P2 = 24; P3 = 27.
+c) Thời gian đợi trung bình: (0 + 24 + 27)/3 = 17.
+Bài tập trắc nghiệm:
+1. d; 	2. a; 	3. d 	4. d; 	5. d; 	6. c; 	7. d.
+Bài 4
+Câu hỏi tự luận:
+Câu 1.
+• 	Số khung trang là 3 (x: trang bị lỗi):
+1 	2 	3 	0 	1 	2 	4 	1 	2 	3 	4 	5 	1 	3 	2 	0 	1 	2
+1 	1 	1 	0 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1
+2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2
+3 	3 	3 	3 	4 	4 	4 	3 	4 	5 	5 	3 	3 	0 	0 	0
+x 	x 	x 	x 	x 	x 	x 	x 	x 	x 	x
+• 	Số khung trang là 5 (x: trang bị lỗi)
+1 	2 	3 	0 	1 	2 	4 	1 	2 	3 	4 	5 	1 	3 	2 	0 	1 	2
+1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1 	1
+2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2 	2
+
+-- 6 of 15 --
+
+7
+3 	3 	3 	3 	3 	3 	3 	3 	3 	3 	3 	3 	3 	3 	3 	3
+0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0 	0
+4 	4 	4 	4 	4 	5 	5 	5 	5 	5 	5 	5
+x 	x 	x 	x 	x 	x
+• 	Như vậy: Với 3 page frame thì có 11 trang lỗi; Với 5 page frame thì có 6 trang lỗi.
+Câu 2.
+Cho 4 trang P1, P2, P3, P4 được sắp xếp theo thứ tự sau: P1 → P2 → P3 → P2 → P4. Như vậy:
+• 	Theo cơ chế FIFO (loại bỏ trang nạp đầu tiên): loại trang P1.
+• 	Theo cơ chế LRU (loại trang ít được truy cập nhất): loại trang P1.
+Câu 3.
+Sự biến đổi địa chỉ động trong các hệ thống tổ chức trang–đoạn (Segment) sử dụng kết hợp ánh
+xạ trực tiếp và bộ nhớ kết hợp (Associative Memory) như hình sau:
+Tiến trình truy cập theo địa chỉ ảo v = (s, p, d). Phần bảng ánh xạ trong associative memory chứa ánh
+xạ các trang truy cập gần nhất. Hệ thống đầu tiên tìm kiếm bản ghi với tham số (s, p) trong associative
+memory. Nếu như kết quả là dương thì ta có địa chỉ page frame p' theo đó trang p nằm trong bộ nhớ
+thực. Cộng thêm offset d ta có địa chỉ thực r tương ứng với địa chỉ ảo v.
+• 	Thông thường thì phần lớn số yêu cầu biến đổi địa chỉ đều đạt được khi tìm trong associative
+memory. Nếu như không có địa chỉ cần tìm trong bộ nhớ kết hợp thì dùng phương pháp ánh xạ
+trực tiếp như sau: địa chỉ cơ sở b của bảng ánh xạ segment được cộng với số segment s, ta có
+được địa chỉ b + s của bản ghi ánh xạ cho segment s trong bảng ánh xạ (trong RAM). Trong
+bản ghi này có chứa địa chỉ cơ sở s' của bảng ánh xạ trang của segment s. Sau đó cộng s' với số
+trang p, tạo thành địa chỉ p + s' của bản ghi ánh xạ trang đối với trang p của segment
+s. Bảng này cho phép xác định trang ảo p tương ứng với số page frame p'. Cuối cùng cộng p'
+với offset d ta có địa chỉ thực r tương ứng với địa chỉ ảo v = (s, p, d).
+Câu 4.
+
+-- 7 of 15 --
+
+8
+Địa chỉ logic có dạng
+
+-- 8 of 15 --
+
+9
+• 	Theo giả thiết b = 0
+o 	Với địa chỉ là (0, 30K): P = 0 → p’ = 7, d = 30K → địa chỉ vật lý = 7 × 100K + 30K = 730K.
+o Với địa chỉ là (2, 70K): P = 2 → p’ = 5, d = 70K → địa chỉ vật lý = 5 × 100K + 70K = 570K. o
+Với địa chỉ là (3, 25K): P = 3 → p’ = 4, d = 25K → địa chỉ vật lý = 4 × 100K + 25K = 425K.
+Câu 5.
+• 	Chiến lược FIFO là loại bỏ trang được vào đầu tiên.
+Ví dụ: thứ tự nạp trang như sau: P1 → P2 → P3 → P2 → P4. Loại trang P1.
+• 	Chiến lược FIFO dị thường là: khi tăng số lượng page frame dẫn tới tăng số lần ngắt do Missing
+page fault.
+Ví dụ: Cho thứ tự nạp trang như sau:1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5.
+• 	Cấp 3 page frame (* – đánh dấu trang bị lỗi).
+1 	2 	3 	4 	1 	2 	5 	1 	2 	3 	4 	5
+1 	1 	1 	4 	4 	4 	5 	5 	5 	5 	5 	5
+2 	2 	2 	1 	1 	1 	1 	1 	3 	3 	3
+3 	3 	3 	2 	2 	2 	2 	2 	4 	4
+* 	* 	* 	* 	* 	* 	* 	* 	*
+• 	Cấp 4 page frame (* – đánh dấu trang bị lỗi)
+1 	2 	3 	4 	1 	2 	5 	1 	2 	3 	4 	5
+1 	1 	1 	1 	1 	1 	5 	5 	5 	5 	4 	4
+2 	2 	2 	2 	2 	2 	1 	1 	1 	1 	5
+3 	3 	3 	3 	3 	3 	2 	2 	2 	2
+4 	4 	4 	4 	4 	4 	3 	3 	3
+* 	* 	* 	* 	* 	* 	* 	* 	* 	*
+• 	Theo bảng trên ta có khi cấp 3 page frame thì có 9 missing page fault, khi tăng page frame lên
+4 thì số missing page fault tăng lên 10. Vậy trường hợp này là chiến lược dị thường.
+Bài tập trắc nghiệm:
+1. d; 	2. a; 	3. b; 	4. b; 	5. c; 	6. b; 	7. d.
+Bài 5
+Câu hỏi tự luận:
+
+-- 9 of 15 --
+
+10
+Câu 1.
+Câu 2.
+• 	Bộ nhớ chính (Main Memory):
+o 	Chương trình máy tính phải được nạp vào RAM (Random–Access Memory) trước khi thực
+hiện.
+o 	Lệnh cần thực hiện phải được nạp vào thanh ghi (Register) của CPU.
+o 	Các tác tử (Operand) tương ứng cũng được lấy từ RAM.
+o 	Lý tưởng nhất là chương trình và dữ liệu đều nằm trong RAM nhưng không khả thi vì RAM
+quá nhỏ và là loại bộ nhớ không chắc (Volatile) do nội dung bị xoá khi mất điện.
+o 	RAM được sử dụng làm Bộ nhớ sơ cấp (Primary Memory).
+• 	Bộ nhớ phụ (Secondary Storage): hệ thống lưu trữ thông tin bền vững (Nonvolatile Storage).
+o 	Đĩa từ (Magnetic Disks) là loại bộ nhớ phụ hay bộ nhớ thứ cấp.
+o 	Bề mặt đĩa chia thành các rãnh (Tracks), các rãnh này được chia nhỏ hơn thành các cung từ
+(Sectors).
+o 	Cylinder: tập các track tạo thành một hình trụ.
+o 	Disk controller: bộ điều khiển quá trình giao tiếp giữa CPU và đĩa.
+Câu 3.
+Đến trước – Phục vụ trước (First–Come, First–Served Scheduling – FCFS):
+• 	Đơn giản, dễ thực hiện.
+• 	Các tiến trình trong Ready Queue được cấp CPU từ đầu dãy đến cuối dãy theo quy tắc FIFO
+(First–In, First–Out).
+• 	Thời gian chờ trung bình khá lớn.
+
+-- 10 of 15 --
+
+11
+Không sử dụng cho vùng dữ liệu
+File Vanban.doc trên các cluster
+...
+BAD
+EOF
+Câu 4.
+MB
+R
+Partition
+1
+Partition 2 	Partition 3 	Partition 4
+Master Boot Record
+FAT File System 	Root Dir
+Boot Record (Sector) 	Thư mục
+gốc
+Đầu mục (Directory Entry) trỏ đến tập
+tin hay thư mục con
+2 3
+Các 	liên 	cung
+(Cluster) dữ liệu:
+1 Cluster = nSector;
+1Sector =512Bytes.
+Câu 5.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+...
+5, 3, 2
+Vanban 	doc 	5
+16 bit
+FAT2	FAT1	BR 	...
+
+-- 11 of 15 --
+
+12
+Bài tập trắc nghiệm:
+1. d; 	2. c; 	3. a; 	4. b; 	5. d; 	6. d; 	7. d.
+Bài 6
+Câu hỏi tự luận:
+Câu 1. Logon vào máy thật vuvanthu2003.
+• 	Start → run → nhập dcpromo → OK.
+• 	Hộp thoại Welcome to the Active Directory Installation Wizard.
+• 	Nháy chuột chọn Next → Next. Chọn Domain Controller for a new domain.
+• 	Nháy chuột chọn Next. Chọn Domain in a new forest.
+• 	Nháy chuột chọn Next → Full DNS name for new domain nhập: vuvanthu.com.
+• 	Nháy chuột chọn Next. Chọn: Install and Configure the DNS server on this compute, and
+set this computer to use this DNS server as its Preferred DNS server.
+• 	Nháy chuột chọn Next. Nhập Restore Mode Password: 123qwe!@# (02 lần).
+• 	Nháy chuột chọn Next → Next → chờ...
+• 	Nên cho sẵng đĩa Windows server 2003 vào ổ CD để máy tự động chép tập tin I386 trong
+khi cài đặt Active Directory.
+• 	Chờ cho đến khi hộp thoại báo việc cài đặt hoàn thành. Nháy chuột chọn Finish. Chọn
+Restart Now để khởi động lại máy và hoàn tất quá trình cài đặt Active Directory nâng
+cấp thành Domain vuvanthu.com.
+Câu 2.
+• 	Nháy nút phải chuột vào Reverse Lookup Zones → New Zone…
+• 	Xuất hiện hộp thoại New Zone Wizard.
+• 	Nháy chuột chọn Next. Chọn Primary Zone.
+• 	Nháy chuột chọn Next. Chọn To All Domain Controllers In The Active Directory Domain
+vuvanthu.com.
+• 	Nháy chuột chọn Next → Network ID nhập: 10.0.0 …
+• 	Nháy chuột chọn Next → chọn Allow Only Secure Dynamic Up Date (Recommended
+For Active Directory).
+• 	Nháy chuột chọn Next → Completing The New Zone Wizard.
+• 	Nháy chuột chọn Finish hoàn thành việc tạo Reverse Lookup Zones cho domain.
+Câu 3. Logon vào vuvanthuaosp2.
+• 	Nháy nút phải chuột vào My Computer trên Desktop → Properties.
+• 	Nháy nút phải chuột vào Change đối với Windows XPsp2 và Network ID đối với
+Windows Server 2k → thẻ Computer Name Changes.
+• 	Nháy chuột chọn Domain và nhập vào: vuvanthu.com → OK.
+
+-- 12 of 15 --
+
+13
+• 	Yêu cầu nhập User và Password, nhập User: administrator; Password: vttcd285thu để
+đăng nhập vào máy chủ domain vuvanthu.com. (Đến bước khởi tạo User, Reset Password
+Admin: vttcd285thuA@ – thêm ký tự hoa và ký tự đặc biệt).
+• 	Chờ khi báo: Welcome to the vuvanthu.com domain → OK.
+• 	Yêu cầu: Restart This Computer…→ OK.
+• 	Kết quả Join client vuvanthuaosp2 thành công.
+• 	Kết quả Join client vuvanthuaosp2 thành công.
+Câu 4.
+• 	Phương án 01: Thiết lập 02 server chạy song song và 01 server giữ vai trò BDC cho cả 02
+server kia. Nếu sự cố server này còn server kia, như vậy không cần nâng cấp BDC thành
+PDC.
+• 	Phương án 02: Chuyển hoặc giật các vai trò FSMO bằng Ntdsutil.exe để thăng cấp một
+BDC thành PDC.
+Câu 5.
+Sử dụng một file join.bat trong file này viết scrip dùng lệnh net user và gửi cho các client, các
+client chỉ cần chạy file đó là có thể join vào được domain. User trong lệnh này nên tạo một user
+có quyền join domain, không để user admin.
+Bài tập trắc nghiệm:
+1. a; 	2. a; 	3. b; 	4. c; 	5. c; 	6. a; 	7. a.
+
+-- 13 of 15 --
+
+14
+Bài 7
+Câu hỏi tự luận:
+Câu 1.
+Tài khoản người dùng cục bộ (Local User Account) là tài khoản người dùng được định nghĩa trên
+máy cục bộ và chỉ được phép logon, truy cập các tài nguyên trên máy tính cục bộ.
+• 	Tài khoản người dùng miền (Domain User Account) là tài khoản người dùng được định
+nghĩa trên Active Directory và được phép đăng nhập (logon) vào mạng trên bất kỳ máy trạm
+nào thuộc vùng.
+• 	Sự khác nhau giữa 2 cách tổ chức là:
+Local User 	Domain User
+Công cụ quản lý 	Local Users And Groups 	Active 	Directory 	Users 	And
+Computers
+Nơi lưu tài khoản Quản lý các Tài khoản Bảo mật
+(SAM 	– 	Security 	Accounts
+Manager) trên từng máy tính cục bộ
+Active Directory
+Nơi đăng nhập 	Máy tính cục bộ 	Miền với Active Directory
+Truy cập 	Tài nguyên trên máy tính cục bộ 	Tài nguyên mạng trên miền
+Câu 2.
+Nhóm cục bộ 	Nhóm cục bộ miền 	Nhóm toàn cục
+Nằm trên máy cục bộ như:
+stand–alone 	Server,
+member server, WinXP,...
+Là 1 nhóm cục bộ nhưng nằm trên
+máy 	quản 	trị 	miền 	Domain
+Controller.
+Nằm 	trong 	Active
+Directoty và được tạo trên
+các Domain Controller.
+Phạm vi hoạt động: hẹp,
+chỉ nằm trên máy chứa nó.
+Rộng: 1 nhóm cục bộ nằm trên
+Domain Controller này, cũng có
+thể nằm trên Domain Controller
+khác.
+Rộng: cấp phát những quyền
+hệ thống và quyền truy cập
+vượt qua ranh giới của 1
+miền.
+Câu 3.
+• 	Mạng máy tính là một nhóm các máy tính, thiết bị ngoại vi được nối kết với nhau thông qua
+các phương tiện truyền dẫn như cáp, sóng điện từ, ... giúp cho các thiết bị này có thể trao đổi
+dữ liệu với nhau một cách dễ dàng.
+• 	Là máy tính được cài đặt các phần mềm chuyên dụng làm chức năng cung cấp các dịch vụ
+cho các máy tính khác. Tùy theo dịch vụ mà các máy này cung cấp, người ta chia thành các
+loại server khác nhau, chẳng hạn: File server (cung cấp các dịch vụ về file và thư mục), Print
+server (cung cấp các dịch vụ về in ấn). Do làm chức năng phục vụ cho các máy tính khác
+nên cấu hình máy server phải mạnh.
+
+-- 14 of 15 --
+
+15
+• 	Là máy tính sử dụng các dịch vụ mà các máy server cung cấp. Do xử lý số công việc không
+lớn nên thông thường các máy này không yêu cầu có cấu hình mạnh.
+Câu 4.
+• 	Mạng WAN bao phủ vùng địa lý rộng lớn có thể là một quốc gia, một lục địa hay toàn cầu.
+Mạng WAN thường là mạng của các công ty đa quốc gia hay toàn cầu, điển hình là mạng
+Internet. Do phạm vi rộng lớn của mạng WAN nên thông thường mạng WAN là tập hợp các
+mạng LAN, MAN nối lại với nhau bằng các phương tiện như: vệ tinh (Satellites), sóng viba
+(Microwave), cáp quang, cáp điện thoại...
+• 	Đặc điểm của mạng WAN: Băng thông thấp, dễ mất kết nối, thường chỉ phù hợp với các ứng
+dụng offline như e–mail, web, ftp...
+o 	Phạm vi hoạt động rộng lớn không giới hạn.
+o 	Do kết nối của nhiều LAN, MAN lại với nhau nên mạng rất phức tạp và có tính toàn cầu
+nên thường là có tổ chức quốc tế đứng ra quản trị.
+o 	Chi phí cho các thiết bị và các công nghệ mạng WAN rất đắt tiền.
+Câu 5.
+• 	Mỗi thiết bị trên mạng có dùng bộ giao thức TCP/IP đều phải có một địa chỉ IP hợp lệ, phân
+biệt. Để hỗ trợ cho vấn đề theo dõi và cấp phát các địa chỉ IP được chính xác, tổ chức IETF
+(Internet Engineering Task Force) đã phát triển ra giao thức DHCP (Dynamic Host
+Configuration Protocol).
+• 	Cách thức thực hiện:
+Giao thức DHCP làm việc theo mô hình client/server. Theo đó, quá trình tương tác giữa
+DHCP client và server diễn ra theo các bước cơ bản sau:
+o 	Khi client khởi động, nó gửi gói tin broadcast DHCPDISCOVER, yêu cầu một server
+DHCP phục vụ mình. Gói tin này cũng chứa địa chỉ MAC của máy client.
+o 	Các máy DHCP Server trên mạng khi nhận được gói tin yêu cầu đó, nếu còn khả năng
+cung cấp địa chỉ IP, đều gửi lại cho máy Client gói tin DHCPOFFER, đề nghị cấp địa
+chỉ IP trong một khoản thời gian nhất định, kèm theo các thông tin mạng khác (subnet
+mask, địa chỉ của DHCP Server)
+o 	Máy Client sẽ lựa chọn một trong những đề nghị (DHCPOFFER) và gửi broadcast lại
+gói tin DHCPREQUEST chấp nhận lời đề nghị đó. Điều này cho phép các lời đề nghị
+không được dùng sẽ được các Server rút lại và dùng để cấp phát cho Client khác.
+o 	Máy Server được Client chấp nhận sẽ gửi ngược lại một gói tin DHCPACK như là một
+lời xác nhận, cho biết là địa chỉ IP và thời hạn cho sử dụng sẽ chính thức được áp dụng.
+Ngoài ra Server còn gửi kèm theo những thông tin cấu hình bổ sung như địa chỉ của
+gateway mặc định, địa chỉ DNS Server, …
+Bài tập trắc nghiệm:
+1. b; 	2. b; 	3. a; 	4. d; 	5. c; 	6. b; 	7. c.
+
+-- 15 of 15 --
+

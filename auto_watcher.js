@@ -4,6 +4,7 @@
  * - Tự động bóc tách text sang giao_trinh_text/
  * - Tự động tái tạo Smart Index (etnu_knowledge_index.json)
  * - Cung cấp HTTP Webhook trên port 8888 để n8n kích hoạt đồng bộ từ xa
+ * - Tự động thông báo Mac Mini Hot-Reload dữ liệu mới vào RAM
  */
 const fs = require('fs');
 const path = require('path');
@@ -15,13 +16,32 @@ const PORT = 8888;
 
 let isSyncing = false;
 
+// Hàm thông báo Mac Mini Hot-Reload
+function notifyMacMiniReload() {
+  const macHosts = ['10.10.10.142', '100.110.189.94'];
+  macHosts.forEach(host => {
+    try {
+      const req = http.request({
+        hostname: host,
+        port: 8889,
+        path: '/reload',
+        method: 'POST',
+        timeout: 3000
+      }, (res) => {
+        console.log(`📡 Đã thông báo Mac Mini (${host}:8889) nạp dữ liệu mới vào RAM!`);
+      });
+      req.on('error', () => {});
+      req.end();
+    } catch(e) {}
+  });
+}
+
 // 1. Hàm bóc tách 1 file PDF cụ thể
 async function processPdfFile(pdfPath) {
   try {
     const fileName = path.basename(pdfPath);
     if (!fileName.toLowerCase().endsWith('.pdf')) return;
 
-    // Tìm thư mục môn
     const courseDir = path.dirname(path.dirname(pdfPath));
     const textDir = path.join(courseDir, 'giao_trinh_text');
     if (!fs.existsSync(textDir)) fs.mkdirSync(textDir, { recursive: true });
@@ -40,12 +60,12 @@ async function processPdfFile(pdfPath) {
     fs.writeFileSync(txtFile, content, 'utf8');
     console.log(`✅ Đã trích xuất xong văn bản: ${path.basename(txtFile)} (${Math.round(content.length / 1024)} KB)`);
 
-    // Tái tạo Smart Index
     console.log(`🔄 Đang tái lập chỉ mục tìm kiếm mờ & Chunks...`);
     execSync(`node "${path.join(baseDir, 'build_smart_index.js')}"`, { stdio: 'inherit' });
-    console.log(`🎯 Tri thức mới đã sẵn sàng cho Antigravity tra cứu siêu tốc!\n`);
+    console.log(`🎯 Tri thức mới đã sẵn sàng!\n`);
 
-    // Tự động đồng bộ lên GitHub
+    notifyMacMiniReload();
+
     try {
       execSync(`node "${path.join(baseDir, 'auto_git_sync.js')}"`, { stdio: 'inherit' });
     } catch (e) {
@@ -81,7 +101,7 @@ fs.readdirSync(baseDir).forEach(item => {
 });
 console.log(`👀 Đang giám sát tự động ${watchedDirs.length} thư mục tài liệu môn học.`);
 
-// 3. HTTP Webhook Server cho n8n gọi vào
+// 3. HTTP Server
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
 
@@ -99,6 +119,17 @@ const server = http.createServer(async (req, res) => {
     return res.end(JSON.stringify({ status: 'ok', syncing: isSyncing, ...indexStats }));
   }
 
+  // Cung cấp file index mới nhất qua HTTP để Mac Mini nạp vào RAM
+  if (url.pathname === '/index.json' && req.method === 'GET') {
+    const idxFile = path.join(baseDir, 'etnu_knowledge_index.json');
+    if (fs.existsSync(idxFile)) {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      return fs.createReadStream(idxFile).pipe(res);
+    }
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
+    return res.end('Index not found');
+  }
+
   if (url.pathname === '/sync' && (req.method === 'POST' || req.method === 'GET')) {
     if (isSyncing) {
       res.writeHead(429, { 'Content-Type': 'application/json' });
@@ -108,11 +139,11 @@ const server = http.createServer(async (req, res) => {
     isSyncing = true;
     console.log(`\n🚀 [WEBHOOK] Nhận tín hiệu kích hoạt đồng bộ từ n8n...`);
     
-    // Chạy sync.js ngầm
     const syncChild = fork(path.join(baseDir, 'sync.js'), [], { stdio: 'inherit' });
     syncChild.on('exit', (code) => {
       isSyncing = false;
       console.log(`✅ [WEBHOOK] Hoàn tất tiến trình đồng bộ (Exit code: ${code}).\n`);
+      notifyMacMiniReload();
       try {
         execSync(`node "${path.join(baseDir, 'auto_git_sync.js')}"`, { stdio: 'inherit' });
       } catch (e) {
@@ -133,5 +164,4 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, '0.0.0.0', () => {
   console.log(`🌐 eTNU Auto-Ingest Service đang chạy tại: http://0.0.0.0:${PORT}`);
-  console.log(`🔗 Webhook đồng bộ cho n8n: http://10.10.10.142:${PORT}/sync`);
 });

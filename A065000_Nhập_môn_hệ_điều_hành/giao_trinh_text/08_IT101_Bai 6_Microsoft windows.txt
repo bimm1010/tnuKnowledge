@@ -1,0 +1,740 @@
+1
+BÀI 6: MICROSOFT WINDOWS
+Nội dung
+• Giới thiệu.
+• Hệ điều hành MS DOS.
+• Hệ điều hành Windows 2003.
+• Các yêu cầu hệ thống.
+• Các phiên bản.
+• Windows Domain.
+• Mạng ngang hàng.
+• Microsoft Active Directory.
+• Cài đặt Microsoft Windows.
+• Các yêu cầu hệ thống.
+• Quá trình cài đặt.
+Mục tiêu
+• Liệt kê được các phiên bản của Windows server 2003.
+• Nắm được các kiến thức về Hệ điều hành MS-DOS và Windows Server 2003.
+• Cài đặt thành công Windows Server 2003.
+Thời lượng học
+• 8 tiết.
+TÌNH HUỐNG DẪN NHẬP
+Tập đoàn Microsoft là tập đoàn phần mềm nổi tiếng trên thế giới với dòng sản phẩm hệ điều hành
+Microsoft Windows. Dòng hệ điều hành với đầy đủ các tính năng cũng như giao diện thân thiện,
+ổn định, bảo mật tốt …
+Câu hỏi
+Chúng ta biết được gì về lịch sử, tính năng cơ bản của các dòng sản phẩm hệ điều hành Microsoft
+Windows?
+6.1. 	Giới thiệu
+Microsoft Windows là tên của các dòng phần mềm hệ điều hành độc quyền của hãng
+Microsoft. Lần đầu tiên Microsoft giới thiệu một môi trường điều hành mang tên
+Windows là vào tháng 11 năm 1985 với những tính năng thêm vào Hệ điều hành DOS
+giao diện đồ hoạ (Graphical User Interface, gọi tắt là GUI) – đang giành được sự quan
+tâm cao vào thời điểm này đồng thời để cạnh tranh với hãng Apple Computers.
+Windows khởi đầu được phát triển cho những máy tính tương thích với IBM (dựa vào
+kiến trúc x86 của Intel) và ngày nay hầu hết mọi phiên bản của Windows đều được tạo
+ra cho kiến trúc này (tuy nhiên Windows NT đã được viết như là một hệ thống hỗ trợ
+nhiều nền tảng cho bộ xử lý Intel và MIPS và sau này đã xuất hiện trên các cấu trúc
+PowerPC và DEC Alpha). Sự phổ biến của Windows đã khiến bộ vi xử lý của Intel trở
+nên phổ
+
+-- 1 of 23 --
+
+2
+biến hơn và ngược lại. Thuật ngữ Wintel đã được sử dụng để miêu tả những máy tính
+cá nhân đang chạy một phiên bản của Windows.
+Từ đó đến nay Microsoft Windows dần dần chiếm ưu thế trong thị trường máy tính cá
+nhân trên toàn thế giới với số lượng được cài đặt khoảng 90% vào năm 2004. Windows
+là phần mềm nguồn đóng có bản quyền do công ty Microsoft giữ và kiểm soát việc phân
+phối. Vì lý do này, Microsoft đang có một vị trí độc quyền trong lĩnh vực máy tính cá
+nhân.
+Windows 3.0
+Vào ngày 22 tháng 5 năm 1990, Microsoft giới thiệu Windows 3.0 với giao diện đồ họa
+cho người dùng, hỗ trợ VGA và hiệu ứng 3D giống như với những phiên bản hiện nay.
+Hệ điều hành này đã được giới thiệu cùng với Program Manager và File Manager, đây
+là hệ điều hành đầu tiên thực sự mang lại thành công cho Microsoft.
+Windows for Workgroups 3.11
+Được phát triển dựa trên Windows 3.1, hệ điều hành này đã được phát triển thêm tính
+năng làm việc theo nhóm ngang hàng (Peer–To–Peer) và hỗ trợ làm việc theo vùng.
+Máy tính cá nhân dựa trên nền tảng của Windows đã lần đầu tiên được hoạt động trên
+mạng và dựa trên quan hệ chủ/khách (Client/Server).
+Windows 95
+Được phát hành vào tháng 8 năm 1995, hệ điều hành này là sự thay thế cho hai phiên bản
+cũ của Windows là 3.1 và DOS. Tính năng chính của hệ điều hành này là màn hình, thanh
+tác vụ và Start Menu được ra mắt, những tính năng này vẫn còn tồn tại đến những phiên
+bản hiện nay. Hệ điều hành này cũng được tích hợp DOS làm nhiệm vụ liên kết giữa
+Windows với phần cứng máy tính.
+Windows NT
+Microsoft chính thức phát hành Windows NT Advanced Server 3.1 vào ngày 24 tháng
+10 năm 1993 và dự án này được tiếp tục quản lý dưới sự chỉ đạo của Dave Cutler. Hệ
+điều hành này cho phép các công ty có thể sử dụng mạng LAN và được giới thiệu giao
+diện lập trình (API) Win32.
+Windows NT là hệ điều hành mạng cao cấp của hãng Microsoft. Phiên bản đầu có tên
+là Windows NT 3.1 phát hành năm 1993 và phiên bản server là Windows NT Advanced
+Server (trước đó là LAN Manager for NT). Năm 1994 phiên bản Windows NT Server
+và Windows NT Workstation version 3.5 được phát hành. Tiếp theo đó các bản version
+3.51 ra đời. Các phiên bản workstation có sử dụng để thành lập mạng ngang hàng; còn
+các bản server dành cho quản lý file tập trung, in ấn và chia sẻ các ứng dụng.
+Năm 1995, Windows NT Workstation và Windows NT Server version 4.0 ra đời đã kết
+hợp giao diện của Windows 95 phát hành trước đó không lâu (trước đây giao diện của
+Windows NT giống giao diện của Windows 3.1) đã kết hợp được giao diện quen thuộc,
+dễ sử dụng của Windows 95 và sự mạnh mẽ, an toàn, bảo mật cao của Windows NT.
+Windows NT có hai bản đi đôi với hai cách tiếp cận mạng khác nhau. Hai bản này gọi
+là Windows NT Workstation và Windows NT server. Với hệ điều hành chuẩn của NT
+ta có thể xây dựng mạng ngang hàng, máy chủ mạng và mọi công cụ quản trị cần thiết
+
+-- 2 of 23 --
+
+3
+cho một máy chủ mạng, ngoài ra còn có thể có nhiều giải pháp về xây dựng mạng diện
+rộng. Cả hai bản Windows NT station và Windows NT server cùng được xây dựng trên
+cơ sở nhân NT chung, các giao diện và cả hai cùng có những đặc trưng an toàn theo tiêu
+chuẩn C2. Windows NT Workstation được sử dụng để kết nối những nhóm người sử
+dụng nhỏ, thường cùng làm việc trong một văn phòng. Tuy nhiên với Windows NT
+server ta có được một khả năng chống hỏng hóc cao, những khả năng cung cấp dịch vụ
+mạng lớn và những lựa chọn kết nối khác nhau, Windows NT Server không hạn chế về
+số người có thể truy cập vào mạng.
+6.1.1. 	Hệ điều hành MS DOS
+Hệ 	điều 	hành 	đĩa 	Microsoft 	(Microsoft 	Disk
+Operating System, gọi tắt là MS–DOS) là hệ điều
+hành của hãng phần mềm Microsoft. Đây là một hệ
+điều hành có giao diện dòng lệnh (Command–Line
+Interface) được thiết kế cho các máy tính họ PC
+(Personal Computer). MS–DOS đã rất phổ biến trong
+thập niên 1980 và đầu thập niên 1990, cho đến khi
+Windows 95 ra đời.
+Phiên bản DOS đầu tiên ra đời vào tháng 8 năm
+1981, với tên chính thức là PC DOS 1.0. Tên gọi MS–DOS chỉ được biết đến kể từ
+tháng 5 năm 1982 (MS–DOS 1.25). Sau đó, Microsoft lần lượt cho ra đời các phiên bản
+tiếp theo của MS–DOS song song cùng với PC–DOS.
+MS–DOS 5.0 ra đời vào tháng 6 năm 1991 bao gồm nhiều tính năng mới như quản lý
+bộ nhớ (MEMMAKER.EXE), trình soạn thảo văn bản (MS–DOS Editor), ngôn ngữ lập
+trình QBASIC đã trở nên phổ biển một thời trước khi MS–DOS 6.22 ra đời vào tháng 6
+năm 1994. MS–DOS 6.22 cũng là phiên bản DOS cuối cùng được chạy như một hệ điều
+hành độc lập (Standalone Version). Sau khi Windows 95 ra đời vào năm 1995, các phiên
+bản MS–DOS tiếp theo đều được phát hành đi kèm với Windows, chẳng hạn như MS–
+DOS 7.0 (8/1995) là nền để cho Windows 95 khởi động, và MS–DOS 8.0 đi kèm với
+Windows ME. Đây cũng là phiên bản cuối cùng của hệ điều hành này.
+MS–DOS là hệ điều hành đơn nhiệm. Tại mỗi thời điểm chỉ thực hiện một thao tác duy
+nhất. Nói một cách khác, MS–DOS chỉ cho phép chạy một ứng dụng duy nhất tại mỗi
+thời điểm. Điều này khác với Windows, là một hệ điều hành đa nhiệm (Multi– Tasking)
+– người dùng có thể thi hành nhiều ứng dụng cùng một lúc. Mặc dù vậy, người ta đã
+xây dựng ứng dụng chạy thường trú (TSR, Terminate and Stay Resident) cho MS–DOS.
+Các ứng dụng này có thể chạy trên nền của các ứng dụng khác, khiến người sử dụng có
+thể thực hiện nhiều thao tác cùng lúc. Ví dụ chương trình hỗ trợ gõ tiếng Việt trong
+DOS là phần mềm chạy thường trú.
+6.1.2. 	HỆ ĐIỀU HÀNH Windows Server 2003
+Microsoft Windows Server 2003 là sản phẩm hệ điều hành Windows Server và được
+cải tiến rất nhiều so với các phiên bản trước đó: bảo mật tốt hơn, độ tin cậy cao hơn và
+dễ dàng quản trị. Windows Server 2003 có 4 phiên bản: Web Edition, Standard Edition,
+
+-- 3 of 23 --
+
+4
+Enterprise Edition và Datacenter Edition.
+Các phiên bản của Windows Server 2003
+Windows Server 2003 là một phiên bản nâng cấp từ nền tảng và các công nghệ đã giới
+thiệu trong Windows 2000. Nếu bạn đã biết về Windows 2000 thì việc làm quen với
+Windows Server 2003 sẽ tương đối dễ dàng.
+Giao diện cơ bản của Windows Server 2003 khá
+giống với Windows 2000 nhưng Windows 2003 có
+rất nhiều cải tiến và tính năng mới nhằm tăng cường
+khả năng bảo mật, độ tin cậy và công cụ quản trị. Khi
+bạn cân nhắc việc nâng cấp sang hệ điều hành
+Windows Server 2003, bạn cần hiểu các tính năng và
+sự cải tiến trong Active Directory, các công cụ mới
+hỗ trợ cho các đối tượng chính sách nhóm (GPO –
+Group Policy Object), sự tăng cường khả
+năng bảo mật cho hệ thống, sự thay đổi của Terminal Services hay hàng loạt các tính
+năng của hệ điều hành này.
+Thông tin tham khảo trên http://www. microsoft. com/windowsserver2003
+Các phiên bản khác nhau của Windows Server 2003 được thiết kế để hỗ trợ các nền tảng
+thiết bị phần cứng và vai trò máy chủ khác nhau. Bên cạnh 4 phiên bản của Windows
+Server 2003 – Web, Standard, Enterprise và Datacenter – hệ điều hành này còn có thêm
+các phiên bản hỗ trợ phần cứng 64 bit và các hệ thống nhúng.
+6.1.3. 	Các yêu cầu hệ thống
+Bốn phiên bản hệ điều hành có các yêu cầu khác nhau trong việc hỗ trợ các phần cứng.
+Web
+Edition
+Standard
+Edition
+Enterprise
+Edition
+Datacenter
+Edition
+Tốc độ CPU tối thiểu 	133 MHz 	133 MHz 	133 MHz 	400 MHz
+Tốc độ CPU khuyến cáo 	550 MH2 	550 MHz 	733 MHz 	733 MHz
+RAM tối thiểu 	128 MB 	128 MB 	128MB 	512MB
+RAM khuyến cáo 	256MB 	256MB 	256MB 	1 GB
+RAM tối đa 	2 GB 	4 GB 	32 GB 	64 GB
+Số bộ vi xử lí
+(Symmetric
+Multiprocessing)
+2 	4 	8 	32
+Khoảng trống đĩa tối thiểu 	1.5 GB 	1.5 GB 	1.5 GB 	1.5 GB
+6.1.4. 	Các phiên bản
+Phiên bản Web (Web Edition)
+Để tăng tính cạnh tranh của Windows Server 2003 so với các máy chủ Web khác,
+Microsoft tạo ra một phiên bản đặc biệt của Windows Server 2003, được thiết kế chuyên
+biệt cho chức năng của một máy chủ Web. Phiên bản Web là một phần của hệ điều hành
+chuẩn cho phép người quản trị có thể triển khai các Web site, các ứng dụng Web và các
+
+-- 4 of 23 --
+
+5
+dịch vụ Web mà không tốn nhiều chi phí và nguồn lực quản trị. Hệ điều hành này hỗ
+trợ tối đa 2GB bộ nhớ RAM và 2 bộ vi xử lí.
+Phiên bản Web không có nhiều tính năng như các phiên bản Windows Server 2003
+khác, tuy nhiên nó vẫn tích hợp một số thành phần, đó là:
+• 	Một máy chủ chạy phiên bản Web có thể là thành
+viên của một miền (Domain) sử dụng Active
+Directory nhưng nó không thể là một máy chủ
+quản trị miền.
+• 	Mô hình Client Access License (giấy phép truy
+nhập từ máy trạm) chuẩn không được áp dụng cho
+các máy chủ chạy hệ Web Edition. Hệ điều hành
+này hỗ trợ một số lượng không giới hạn các kết nối Web, nhưng nó lại giới hạn tối đa
+10 kết nối Server Message Block (SMB) đồng thời. Điều này có nghĩa là không thể có
+nhiều hơn 10 người dùng mạng nội bộ có thể truy nhập các tài nguyên như file và máy
+in tại một thời điểm bất kỳ.
+• 	Các tính năng tường lửa (Internet Connection Firewall –ICF) và chia sẻ kết nối
+Internet (Internet Connection Sharing – ICS) không có trong phiên bản Web. Điều
+này sẽ không cho phép máy chủ thực hiện chức năng của một cổng kết nối Internet
+• 	Một máy chủ chạy Web Edition không thể thực hiện vai trò của một máy chủ DHCP,
+máy chủ fax, máy chủ Microsoft SQL hay một Máy chủ Dịch vụ Đầu cuối mặc dù
+chức năng Remote Desktop (Truy nhập từ xa) dành cho quản trị vẫn được hỗ trợ.
+• 	Phiên bản Web sẽ không cho phép chạy các ứng dụng không phải dịch vụ Web.
+• 	Phiên bản Web có đầy đủ các thành phần chuẩn mà một máy chủ Web cần, bao gồm
+Microsoft Internet Information Services (IIS) 6, Netwwork load Balancing (NLB)
+và Microsoft ASP.NET.
+Do vậy, phiên bản Web không phải là một nền tảng thích hợp cho các máy chủ mạng
+thông thường. Nó cho phép các cơ quan hay tổ chức triển khai các máy chủ Web chuyên
+dụng.
+Phiên bản tiêu chuẩn (Standard Edition)
+Phiên bản Standard sử dụng cho nền tảng máy chủ đa chức năng trong đó có thể cung
+cấp các dịch vụ thư mục (Directory), file, in ấn, ứng dụng, multimedia và dịch vụ
+Internet cho các doanh nghiệp cỡ vừa và nhỏ. Sau đây là một vài trong rất nhiều tính
+năng có trong phiên bản này của hệ điều hành:
+• 	Directory services (Dịch vụ Thư mục): Phiên bản Standard có khả năng hỗ trợ đầy
+đủ Active Directory, cho phép các máy chủ có thể đóng vai trò là máy chủ thành
+viên hoặc máy chủ quản trị miền. Người quản trị có thể sử dụng các công cụ kèm
+theo hệ điều hành để triển khai và quản trị các đối tượng Active Directory, các chính
+sách nhóm (GP – Group Policy) và các dịch vụ khác dựa trên nền Active Directory.
+• 	Dịch vụ Internet: Phiên bản Standard bao gồm IIS 6.0, cung cấp các dịch vụ Web
+và FTP cũng như các thành phần khác sử dụng trong quá trình triển khai máy chủ
+Web như dịch vụ cân bằng Tải (NLB – Network Load Balancing). Chức năng NLB
+cho phép nhiều máy chủ Web có thể cùng duy trì (Host) một Web site đơn, chia sẻ
+
+-- 5 of 23 --
+
+6
+các yêu cầu kết nối của Client với tối đa 32 máy chủ đồng thời cung cấp khả năng
+chịu lỗi cho hệ thống.
+• 	Các dịch vụ hạ tầng: Phiên bản Standard cung cấp các dịch vụ như DHCP Server,
+Domain Name System (DNS) Server, Windows Internet Name Service (WINS)
+Server, cung cấp các dịch vụ cơ bản cho mạng nội bộ và các máy khách trên Internet.
+• 	Định tuyến TCP/IP (TCP/IP Routing): Máy chủ chạy phiên bản Standard có thể thực
+thi như một router với nhiều cấu hình như định tuyến LAN và WAN, định tuyến
+truy nhập Internet. Dịch vụ Định tuyến và truy nhập từ xa (Routing and Remote
+Access Service – RRAS) hỗ trợ cho các tính năng như chuyển đổi địa chỉ mạng
+(Network Address Translation – NAT), dịch vụ xác thực Internet (Internet
+Authentication Service – IAS), các giao thức định tuyến như RIP (Routing
+Information Protocol) và OSPF (Open Shortest Path First).
+• 	Dịch vụ chia sẻ File và In ấn: Người dùng trong mạng có thế truy nhập các thư mục
+và máy in chia sẻ trên một máy chủ chạy phiên bản Standard của hệ điều hành. Mỗi
+máy khách (Client) khi muốn truy nhập đến các tài nguyên đã chia sẻ trên máy chủ
+sẽ phải có Giấy phép Truy nhập (Client Access License – CAL). Phiên bản Standard
+thông thường được bán thành một gói gồm 5 Giấy phép Truy nhập (CAL) hoặc
+nhiều hơn và khi muốn cho phép thêm nhiều người dùng truy nhập, bạn sẽ phải mua
+bổ sung các Giấy phép Truy nhập (CAL) này.
+Máy chủ Terminal: Máy chủ phiên bản Standard có thể thực hiện chức năng máy
+chủ dịch vụ đầu cuối (Terminal Service), cho phép các máy tính có thể truy nhập
+màn hình Windows và các ứng dụng chạy trên máy chủ này. Máy chủ dịch vụ đầu
+cuối là một kỹ thuật cho phép các máy khách truy nhập đến một phiên làm việc trên
+máy chủ. Mọi ứng dụng được thực thi trên máy chủ và chỉ bàn phím, màn hình và
+các thông tin hiển thị được truyền qua mạng. Các máy khách phải có Giấy phép truy
+cập riêng. Phiên bản Standard hỗ trợ sẵn Giấy phép truy nhập từ xa cho 2 người
+dùng sử dụng dịch vụ Remote Desktop với mục đích quản trị.
+• 	Bảo mật: Phiên bản Standard còn hỗ trợ nhiều tính năng bảo mật, bao gồm mã hóa
+hệ thống File, tính năng bảo mật của giao thức IP (IP Security), tường lửa, Public
+Key Infrastructure (PKI).
+Phiên bản Doanh nghiệp (Enterprise Edition)
+Phiên bản Enterprise được thiết kế để thực thi trên các máy chủ mạnh của các tổ chức
+doanh nghiệp cỡ vừa và lớn. Phiên bản này khác biệt chủ yếu ở mức độ hỗ trợ phần
+cứng. Chẳng hạn bản Enterprise hỗ trợ tối đa 8 BXL so với 4 của bản Standard và 32GB
+RAM so với 4GB của bản Standard.
+Bản Enterprise còn bổ sung thêm một số tính năng không có trong bản Standard:
+• 	Microsoft Metadirectory Services (Dịch vụ Siêu Thư mục): Metadirectory là thư
+mục của các thư mục, cung cấp phương tiện tích hợp nhiều nguồn thông tin thư mục
+vào một thư mục đơn thống nhất. MMS cho phép ta có thể kết hợp các thông tin
+trong Active Directory với các dịch vụ thư mục khác, để tạo ra một khung nhìn tổng
+thể tất cả các thông tin về một tài nguyên nào đó.
+• 	Server Clustering (cụm máy chủ): Là một nhóm các máy chủ nhưng có thể đóng vai
+trò như một máy chủ đơn, cung cấp khả năng sẵn sàng cao cho các ứng dụng. Tính
+
+-- 6 of 23 --
+
+7
+sẵn sàng và mở rộng ở đây là các tải của ứng dụng được phân bố đều trên các máy
+chủ trong cụm và cung cấp khả năng chịu lỗi khi có bất kỳ máy chủ nào gặp sự cố.
+Các máy chủ trong cụm, được gọi là các nút, thường có khả năng truy nhập đến một
+nguồn dữ liệu chung, thông thường là một mạng lưu trữ (Storage Area Network –
+SAN), cho phép các nút luôn được duy trì cùng một nguồn thông tin dữ liệu cơ sở.
+Phiên bản Enterprise hỗ trợ máy chủ cluster có tối đa 8 nút.
+• 	Quản trị tài nguyên hệ thống của Windows (Windows System Resource Manager
+– WSRM): Cho phép người quản trị có thể phân bổ tài nguyên hệ thống cho các ứng
+dụng dựa trên nhu cầu. Điều này cho phép các tổ chức doanh nghiệp có thể thiết lập
+giới hạn sử dụng tài nguyên cho một ứng dụng xác định hoặc tính chi phí cho khách
+hàng dựa trên các tài nguyên họ sử dụng.
+Phiên bản Trung tâm Dữ liệu (Datacenter Edition)
+Phiên bản Datacenter được thiết kế cho các máy chủ ứng dụng cao cấp, lưu lượng truy
+cập lớn, yêu cầu sử dụng rất nhiều tài nguyên hệ thống. Phiên bản này cũng gần giống
+bản Enterprise về tính năng, tuy nhiên nó hỗ trợ tốt hơn cho việc mở rộng phần cứng,
+có thể hỗ trợ tối đa 64GB RAM và 32 BXL. Phiên bản này không tích hợp một số tính
+năng có trong bản Enterprise, ví dụ như tính năng ICS và ICF bởi vì các máy chủ chạy
+bản datacenter thường không được gán các vai trò cần sử dụng đến các chức năng này.
+Các phiên bản 64–Bit
+Cả hai Phiên bản Enterprise và Datacenter đều có các phiên bản riêng hỗ trợ các máy
+tính dùng BXL Intel Itanium 64–bit. Itanium là BXL hỗ trợ đánh địa chỉ 64–bit (trong
+khi các BXL Intel x86 chỉ hỗ trợ 32–bit), từ đó cho phép mở rộng không gian bộ nhớ
+ảo và vùng bộ nhớ phân trang, đồng thời cải thiện hiệu năng xử lý dấu phẩy động. Nền
+tảng 64–bit được thiết kế đặc biệt cho các bài toán yêu cầu năng suất bộ xử lý cực lớn,
+ví dụ như các ứng dụng cơ sở dữ liệu lớn, các phân tích khoa học, các máy chủ Web có
+lượng truy nhập rất lớn.
+6.2. 	Windows Domain
+6.2.1. 	Mạng ngang hàng
+Mạng Workgroup hay còn gọi là mạng ngang hàng
+(Peer–To–Peer), là một nhóm các máy tính nối mạng
+với nhau, chia sẻ và sử dụng chung tài nguyên. Mạng
+ngang hàng còn được gọi là nhóm làm việc, thuật ngữ
+nhóm làm việc ngụ ý một nhóm ít người vì thường
+mỗi hệ thống mạng này thường có từ 10–15 máy trở
+lại.
+Ở hệ thống mạng ngang hàng không tồn tại bất kỳ
+máy phục vụ chuyên dụng nào (Dedicated Server),
+hoặc cấu trúc phân cấp giữa các máy tính. Mọi máy tính đều bình đẳng và có vai trò
+như nhau.
+Thông thường mỗi máy tính hoạt động với cả hai vai trò: máy phục vụ và máy khách.
+Vì vậy không có máy nào được chỉ định chịu trách nhiệm quản lý toàn mạng. Người
+dùng ở từng máy tính tự quyết định dữ liệu nào trên máy tính của họ sẽ được dùng chung
+trên mạng.
+
+-- 7 of 23 --
+
+8
+Mỗi máy tính trong mạng có một đĩa cứng riêng, các máy tính có thể sử dụng chung
+CD_ROM, hệ thống đĩa cứng dự phòng, đĩa cứng phụ, modem, fax, máy in.
+Mỗi máy tính có thể giao tiếp trực tiếp với bất kỳ máy tính nào trên mạng để lấy thông
+tin hoặc dịch vụ từ máy tính đó.
+Ưu điểm
+Với hệ điều hành của mạng ngang hàng thì phần mềm điều hành của mạng không nhất
+thiết phải có khả năng thi hành và tính bảo mật tương xứng với phần mềm điều hành
+mạng được thiết kế cho máy phục vụ chuyên dụng. Ở những hệ điều hành như Microsoft
+Windows NT Workstation, Microsoft Windows for Workgroup và Microsoft Windows
+95, hoạt động mạng ngang hàng được tích hợp vào hệ điều hành. Không cần phải thêm
+phần mềm nào khác để thiết lập một mạng ngang hàng.
+Mạng này này tương đối đơn giản. Vì mỗi máy tính kiêm cả hai chức năng phục vụ và
+máy khách nên không cần một máy trung tâm thật mạnh và cũng không bắt buộc phải
+có những bộ phận cần thiết cho mạng máy tính công suất cao:
+• 	Mạng ngang hàng rẻ tiền hơn mạng dựa trên máy phục vụ.
+• 	Dễ cài đặt.
+• 	Không cần có quản trị mạng.
+Nhược điểm
+Không quản trị tập trung tài nguyên: Quản trị tập trung tài nguyên có nghĩa là người
+quản trị chỉ cần tạo ra một tài khoản vùng và đăng ký các quyền đến tất cả tài nguyên
+bên trong vùng rồi kết nối người dùng hay nhóm người dùng vào tài khoản này. Điều
+này có nghĩa là mỗi máy trong mạng Workgroup phải được quản trị một cách độc lập
+với những máy khác.
+Độ an toàn và tính bảo mật không cao, do người sử dụng quy định: Việc bảo mật và an
+toàn mạng ngang hàng thể hiện qua việc định rõ mật mã cho một tài nguyên nào đó,
+chẳng hạn như một thư mục dùng chung trên mạng. Vì tất cả người dùng trong mạng
+ngang hàng tự mình thiết lập hệ thống bảo mật riêng và việc chia sẻ tài nguyên có thể
+xảy ra ở bất cứ máy nào chứ không xảy ra ở máy tập trung, nên rất khó điều khiển tập
+trung. Điều này tác động đến sự an toàn của mạng vì nhiều khi có một vài người dùng
+không hề thi hành biện pháp bảo mật nào cả. Nếu xem tính bảo mật là vấn đề quan trọng
+chúng ta nên cân nhắc sử dụng mạng dựa trên máy phục vụ.
+6.2.2. 	Microsoft Active Directory
+Hệ thống mạng nội bộ xuất hiện trong những năm đầu 1990 được tổ chức thành một
+nhóm các máy tính có vai trò ngang nhau và được gọi là workgroup (Nhóm làm việc).
+Một workgroup máy tính cho phép người dùng phối hợp tốt hơn trong cùng một nhóm
+dự án khi cần chia sẻ các tài nguyên như các văn bản và máy in. Vì giá trị của việc sử
+dụng các hệ thống mạng dữ liệu ngày càng được khẳng định trong thế giới kinh doanh,
+các hệ thống mạng cũng trở nên lớn dần. Ngày nay một hệ thống mạng của các tổ chức
+doanh nghiệp có thể có hàng ngàn nút mạng.
+Khi các hệ thống mạng ngày càng lớn, số lượng tài nguyên chia sẻ cũng nhiều hơn, và
+do đó ngày càng khó khăn trong việc định vị và tìm kiếm các tài nguyên. Điều đó dẫn
+đến cần một cơ chế quản lý tốt hơn, dịch vụ thư mục ra đời để đáp ứng nhu cầu này.
+Một dịch vụ thư mục là một thông tin chia sẻ về cơ sở hạ tầng cho định vị, quản lý, điều
+
+-- 8 of 23 --
+
+9
+hành, tổ chức và phổ biến các tài nguyên mạng, có thể bao gồm các khối tin, thư mục,
+tập tin, máy in, người dùng, các nhóm, các thiết bị, và các đối tượng khác.
+Bằng cách lưu trữ thông tin trong một thư mục trung tâm, các tài nguyên này có thể
+được sử dụng đối với tất cả mọi người.
+Miền và máy chủ quản trị miền
+Hệ thống mạng Windows hỗ trợ hai mô hình dịch vụ thư mục: workgroup và Domain.
+Trong đó, mô hình miền (Domain) được ứng dụng trong các tổ chức triển khai Windows
+Server 2003. Mô hình dịch vụ thư mục workgroup là một CSDL phẳng bao gồm tên các
+máy tính và được thiết kế cho các mạng nhỏ. Đây là hình thức dịch vụ thư mục sơ khai
+được giới thiệu trong hệ điều hành Microsoft Windows những năm 1990.
+Mô hình miền là một kiến trúc thư mục có phân cấp của các tài nguyên – Active
+Directory và được sử dụng bởi tất cả các hệ thống là thành viên của miền. Các hệ thống
+này có thể sử dụng các tài khoản người dùng, nhóm và máy tính trong thư mục để bảo
+mật các tài nguyên của chúng. Active Directory do đó đóng vai trò như một trung tâm
+lưu trữ, cung cấp một danh sách tin cậy chỉ ra "Ai là ai" trong miền.
+Active Directory chứa một danh sách các thành phần hỗ trợ, bao gồm cả các Transaction
+Logs (nhật ký giao dịch),... Nó là dịch vụ hỗ trợ và sử dụng các CSDL này, bao gồm
+giao thức Lightweight Directory Access Protocol (LDAP – Giao thức truy nhập thư mục
+rút gọn), giao thức bảo mật Kerberos, các chu trình đồng bộ dữ liệu và dịch vụ đồng bộ
+file (File Replication Service – FRS). Cuối cùng, Active Directory cung cấp các công
+cụ mà người quản trị sử dụng để quản lý dịch vụ thư mục.
+Cơ sở dữ liệu của Active Directory và các dịch vụ của nó được cài đặt trên một hay
+nhiều máy chủ quản trị miền. Một máy chủ quản trị miền là một máy chủ đã được
+thăng cấp bằng cách chạy trình cài đặt Active Directory (Active Directory Installation
+Wizard). Khi máy chủ được thăng cấp thành một máy chủ quản trị miền, nó chứa một
+bản (hay một bản sao) của CSDL Active Directory.
+Bởi vì Active Directory là một tài nguyên cơ sở và rất quan trọng của hệ thống, nó phải
+luôn sẵn sàng với mọi người dùng trong mọi thời điểm. Vì lí do này, trong miền thông
+thường có ít nhất 2 máy chủ quản trị miền để nếu một máy chủ gặp sự cố, máy chủ còn
+lại vẫn có thể phục vụ người dùng. Các máy chủ quản trị miền luôn đồng bộ dữ liệu với
+nhau nên mỗi máy chủ này đều chứa các thông tin hiện tại của hệ thống. Khi người quản
+trị thay đổi một bản ghi trong CSDL của Active Directory trên bất kỳ một máy chủ quản
+trị miền nào, sự thay đổi này được đồng bộ với tất cả các máy chủ quản trị miền trong
+miền đó. Điều này được gọi là đồng bộ đa chủ (Multiple–Master) bởi vì ta có thể thay
+đổi trên bất kỳ máy chủ quản trị miền nào.
+Domain, Tree và Forest
+Một miền là một đơn vị quản trị cơ bản của dịch vụ thư mục trong Windows Server
+2003. Một hệ thống mạng lớn có thể có nhiều hơn một miền trong Active Directory của
+nó. Mô hình nhiều miền sẽ tạo ra một cấu trúc logic được gọi là các cây (Tree) nếu
+chúng chung nhau một không gian tên miền DNS. Ví dụ: acme.com, asia.acme.com và
+europe.acme.com cùng chung một không gian tên miền DNS và được coi là một cây
+(Tree) như chỉ ra trên hình. Miền acme.com là miền cha trong đó hai miền còn lại được
+gọi là miền con và do đó acme.com cũng được gọi là miền gốc (Root Domain). Nếu các
+
+-- 9 of 23 --
+
+10
+miền trong một Active Directory không chia sẻ một miền gốc chung, hệ thống sẽ có
+nhiều cây. Một Active Directory chứa nhiều cây sẽ được gọi là một rừng (Forest) như
+chỉ ra trên hình. Rừng là một kiến trúc lớn nhất trong Active Directory. Khi bạn thăng
+cấp máy chủ quản trị miền đầu tiên trong một hệ thống mạng Windows Server 2003,
+bạn đã đồng thời tạo ra một rừng, một cây trong
+rừng đó và một miền trong cây đó. Một rừng có thể chứa nhiều miền trong nhiều cây,
+hoặc có thể chỉ có một miền.
+
+-- 10 of 23 --
+
+11
+Khi quá trình cài đặt Active Directory có nhiều hơn một miền, một thành phần của
+Active Directory gọi là Global Catalog cho phép các máy trạm trong một miền có thể
+tìm kiếm thông tin trong một miền khác. Global Catalog bản chất là một tập hợp bao
+gồm các thông tin dữ liệu của tất cả các miền hợp lại. Khi bạn tìm kiếm một người dùng
+trong một miền khác, global catalog có thể không chứa tất cả các thông tin về
+người dùng đó, tuy nhiên nó đủ dữ liệu để trả lời cho biết bạn có thể tìm kiếm các thông
+tin chi tiết hơn ở đâu.
+Đối tượng và thuộc tính
+Các bản ghi trong Active Directory được gọi là các đối tượng. Một đối tượng là một
+phần tử thể hiện một tài nguyên mạng xác định. Một Active Directory có thể chứa các
+đối tượng thể hiện các tài nguyên vật lý, ví dụ như các máy tính và máy in, hoặc các tài
+nguyên nhân sự, ví dụ như các người dùng và nhóm, hoặc các tài nguyên phần mềm, ví
+dụ như ứng dụng và vùng DNS, hoặc các tài nguyên quản trị, ví dụ như các ou và site.
+Sau khi thăng cấp một máy tính thành máy chủ quản trị miền, người quản trị có thể tạo
+các đối tượng trong miền đó.
+Các đối tượng Active Directory thông dụng nhất có:
+• 	Domain (miền): Là đối tượng gốc có chứa các đối tượng khác trong miền.
+• 	Organizational Unit–OU: Là đối tượng bao (Container Object) được sử dụng để
+tạo ra các nhóm logic gồm các đối tượng như máy tính, người dùng và nhóm.
+• 	Người dùng: Thể hiện một người dùng mạng và là dữ liệu để nhận dạng và xác thực.
+• 	Máy tính: Thể hiện một máy tính trong mạng và cung cấp tài khoản máy tính cần
+thiết cho hệ thống để đăng nhập vào miền.
+• 	Nhóm: Đối tượng thể hiện một nhóm logic các người dùng, máy tính hoặc các nhóm
+khác, độc lập trong cấu trúc của Active Directory. Các nhóm có thể chứa các đối
+tượng từ các OU và các miền.
+• 	Thư mục chia sẻ: Cung cấp các truy nhập mạng dựa trên Active Directory đến một
+thư mục chia sẻ trong một máy tính Windows.
+• 	Máy in: Cung cấp các truy nhập mạng dựa trên Active Directory đến một máy in
+trong một máy tính Windows.
+Mỗi đối tượng trong Active Directory chứa các thuộc tính, chính là các thông tin về đối
+tượng đó. Ví dụ, đối tượng người dùng sẽ có các thuộc tính mô tả tên tài khoản, địa chỉ,
+số điện thoại và các thông tin nhận dạng khác. Đối tượng nhóm có thuộc tính cho biết
+danh sách các người dùng là thành viên. Người quản trị có thể sử dụng Active Directory
+để chứa bất kỳ thông tin nào về người dùng và các tài nguyên khác.
+Bên cạnh các thuộc tính thông tin, đối tượng còn có các thuộc tính cho việc thực hiện
+các chức năng quản trị, ví dụ như danh sách kiểm soát truy nhập (Access Control List
+– ACL) chỉ định ai có quyền truy nhập đến đối tượng đó.
+Các phần tử trong Active Directory chỉ ra kiểu đối tượng mà người quản trị có thể tạo
+ra và thuộc tính mỗi đối tượng có thể có, được gọi là Schema. Mặc định, Active
+Directory Schema chứa một bộ danh sách các kiểu đối tượng và các thuộc tính. Đôi khi
+chúng ta cần thêm vào Active Directory các kiểu đối tượng khác hoặc các thuộc tính
+khác cho các kiểu đối tượng sẵn có. Điều này là hoàn toàn có thể bởi vì Active Directory
+Schema là có thể mở rộng. Người quản trị có thể mở rộng Schema bằng snap–in "Active
+
+-- 11 of 23 --
+
+12
+Directory Schema" hoặc các ứng dụng có tính năng cập nhật Schema để tạo các kiểu
+đối tượng mới hoặc các thuộc tính mới cần thiết, ví dụ khi cài đặt Microsoft Exchange,
+ứng dụng này sẽ chỉnh sửa Schema để thêm vào các thuộc tính mới cho mọi đối tượng
+người dùng trong CSDL của Active Directory.
+Các containers và leaves (đối tượng bao chứa và lá)
+Active Directory có khả năng chứa hàng triệu đối tượng và do đó cần có phương thức
+tổ chức các đối tượng thành các đơn vị nhỏ hơn. Để tổ chức quản lý các đối tượng,
+Active Directory sử dụng cấu trúc phân cấp. Một miền được gọi là một đối tượng chứa
+bởi vì nó chứa các đối tượng khác trong miền. OU là một dạng khác của đối tượng chứa
+mà người quản trị có thể dùng để tạo ra các đối tượng phân cấp trong nội bộ miền. Một
+đối tượng không thể chứa các đối tượng khác, ví dụ như một người 	dùng hoặc máy
+tính, được gọi là đối tượng lá (Leaf Object).
+Một trong các tác vụ phức tạp trong việc quản trị
+Active Directory là tạo ra một kiến trúc phân cấp các
+OU sao cho hiệu quả nhất. Người quản trị có thế sử
+dụng rất nhiều cách để thiết kế cấu trúc phân cấp OU,
+ví dụ như tổ chức theo vị trí địa lý, theo phòng ban
+hoặc kết hợp cả hai. Hình bên là một ví dụ cho thấy
+cấu trúc phân cấp của Active Directory
+trong đó cấp OU đầu tiên thế hiện các thành phố của một tổ chức có rất nhiều chi nhánh.
+Cấp OU thứ 2 chỉ ra các phòng ban trong chi nhánh.
+Bằng cách tạo ra cấu trúc phân cấp trong Active Directory một cách logic, người dùng
+và người quản trị có thể dễ dàng xác định và tìm kiếm các đối tượng khi cần.
+Nhóm cũng là một đối tượng bao chứa, nhưng nó không phải là thành phần của cấu trúc
+phân cấp vì các thành viên của nhóm có thể ở bất kỳ nhánh nào trong miền. Trong một
+hệ thống file, các cấp phép được áp dụng trên các đối tượng được truyền từ trên xuống
+dưới theo cấu trúc phân cấp. Ví dụ, nếu bạn gán cho một đối tượng OU được truy nhập
+một thư mục chia sẻ nào đó, thì các đối tượng nằm trong OU đó sẽ được thừa hưởng
+các cấp phép truy nhập này. Đây là một trong những tính năng cơ bản trong cấu trúc
+phân cấp mà người quản trị có thể áp dụng một cách hiệu quả. Thay vì gán các quyền
+và cấp phép cho từng người dùng, người quản trị có thể gán các quyền và cấp phép cho
+các đối tượng bao chứa, các đối tượng người dùng thành viên sẽ được thừa hưởng các
+quyền cần thiết.
+Các chính sách nhóm
+Các thiết lập cấu hình mà bạn áp dụng đến từng máy tính chạy Windows có thể được
+quản trị một cách tập trung nhờ sử dụng một tính năng của Active Directory gọi là chính
+sách nhóm (Group Policy – GP). Các chính sách nhóm cho phép bạn xác định các thiết
+lập bảo mật, triển khai phần mềm, cấu hình hệ điều hành và cách thức hoạt động của
+các ứng dụng trên một máy tính mà không cần thiết phải thực hiện trực tiếp trên máy
+tính đó. Bạn có thể thiết lập các tùy chọn cấu hình trên một đối tượng đặc biệt của Active
+Directory gọi là Đối tượng Chính sách Nhóm (Group Policy Object – GPO) sau đó kết
+nối các GPO này vào các đối tượng trong Active Directory chứa các máy tính hoặc
+người dùng mà bạn muốn cấu hình.
+GPO là một tập hợp của nhiều thiết lập cấu hình, từ các quyền đăng nhập của người
+dùng đến các phần mềm được cho phép hoạt động trong hệ thống. Bạn có thể gắn các
+
+-- 12 of 23 --
+
+13
+GPO này với mọi đối tượng chứa trong Active Directory như miền, site hoặc OU và các
+máy tính và người dùng trong các đối tượng bao chứa đó sẽ nhận được các thiết lập cấu
+hình trong GPO. Trong phần lớn các trường hợp, người quản trị thiết kế cấu
+trúc phân cấp sao cho có thể áp dụng các GPO một cách hiệu quả nhất. Bằng cách đặt
+các máy tính có các vai trò xác định vào trong cùng một OU, bạn có thể gán một GPO
+có các thiết lập đặc biệt dựa trên vai trò của các máy tính đó vào OU này và như vậy
+bạn đã cấu hình một lúc được nhiều máy tính.
+6.3. 	Cài đặt Microsoft Windows
+Trước khi bạn học về quản trị và duy trì Windows Server 2003, bạn cần có khả năng cài
+đặt hệ điều hành này và cấu hình nó để thực hiện các tác vụ theo yêu cầu. Phạm vi của
+khóa học không giới thiệu về các chủ đề nâng cao như thiết kế Active Directory mà sẽ
+đề cập đến việc quản trị cơ bản các đối tượng trong Active Directory như người dùng,
+máy tính và các nhóm.
+6.3.1. 	Các yêu cầu hệ thống
+Bốn phiên bản hệ điều hành có các yêu cầu khác nhau trong việc hỗ trợ các phần cứng.
+Web
+Edition
+Standard 	Enterprise
+Edition
+Datacenter
+Edition 	Edition
+Tốc độ CPU tối thiểu 	133 MHz 	133 MHz 	133 MHz 	400 MHz
+Tốc độ CPU khuyến
+cáo
+550 MH2 	550 MHz 	733 MHz 	733 MHz
+RAM tối thiểu 	128 MB 	128 MB 	128MB 	512MB
+RAM khuyến cáo 	256MB 	256MB 	256MB 	1 GB
+RAM tối đa 	2 GB 	4 GB 	32 GB 	64 GB
+Số bộ vi xử lí
+(Symmetric
+Multiprocessing)
+4 	32	2 	8
+Khoảng trống đĩa tối
+thiểu
+1.5 GB 	1.5 GB 	1.5 GB 	1.5 GB
+6.3.2. 	Quá trình cài đặt
+Các giai đoạn cài đặt
+Nếu bạn đã có kinh nghiệm cài đặt Windows, bạn sẽ thấy quá trình cài đặt Windows
+Server 2003 rất thân thiện. Có thể chia quá trình cài đặt thành 2 giai đoạn:
+• 	Chế độ text:
+Giai đoạn khởi tạo quá trình cài đặt bắt đầu khi máy tính khởi động từ đĩa CD chứa bộ
+cài Windows Server 2003 và chạy chương trình Winnt.exe. Chú ý rằng Windows Server
+2003 không hỗ trợ việc bắt đầu cài đặt từ đĩa mềm. Chương trình Winnt.exe nạp các file
+hệ điều hành Windows Server 2003 từ đĩa CD. Đây là phiên bản rút gọn, thực thi trong
+chế độ văn bản bởi vì các file cần thiết cho giao diện đồ họa (Graphical User Interface –
+GUI) chưa được cài đặt. Chương trình này sẽ định dạng phân vùng đĩa hệ thống, tạo cấu
+trúc thư mục gốc và sao chép các file của hệ điều hành từ các thư mục tạm vào đúng vị
+
+-- 13 of 23 --
+
+14
+trí. Tiếp theo, chương trình cài đặt thiết lập registry, tạo các khóa chứa các thông tin cơ
+bản về hệ điều hành cũng như các thông tin về phần cứng được nhận biết trong quá trình
+cài đặt. Sau đó máy tính khởi động lại.
+• 	Chế độ đồ họa:
+Khi hệ thống khởi động lại, nó sử dụng các file khởi động đã được cài đặt trên đĩa hệ
+thống. Giao diện Windows thân thiện xuất hiện lần đầu tiên, sử dụng trình điều khiển
+hiển thị VGA với độ phân giải thấp. Sau khi hệ thống khởi động xong, quá trình cài
+đặt đồ họa bắt đầu bằng nhận biết phần cứng. Khi các phần cứng mới được phát hiện
+và trình điều khiển đã được cài đặt, chương trình bắt đầu thu thập thông tin từ người
+dùng mà nó cần để hoàn thành quá trình cài đặt, đồng thời nó sẽ cài đặt rất nhiều
+phần khác của hệ thống. Nếu như card mạng được phát hiện, chương trình cài đặt sẽ
+cài các thành phần mạng cần thiết và gắn kết chúng với trình điều khiển thiết bị
+mạng. Cuối cùng, chương trình thiết lập thực đơn khởi động (Start Menu), thiết lập
+các tham số bảo mật hệ thống, xóa các file tạm tạo ra trong quá trình cài đặt và lưu
+cấu hình hệ thống lại trước khi khởi động lại lần cuối cùng.
+Giai đoạn giao diện text
+1) Đưa đĩa CD có bộ cài Windows Server 2003 vào trong ổ CD–ROM và khởi động
+máy. Nếu bạn nhận được thông báo 'press a key to boot from CD." – (nhấn phím bất
+kỳ để khởi động từ CD) hãy nhấn một phím bất kỳ.
+2) Sau khi máy tính khởi động, một chuỗi các thông báo hiện ra nói rằng trình cài đặt
+đang xem xét các cấu hình phần cứng của máy tính. Sau đó màn hình Windows
+Setup xuất hiện.
+3) Nếu máy tính của bạn cần có các trình điều khiển thiết bị lưu trữ đặc biệt không có
+trong bộ cài của Windows Server 2003, nhấn F6 khi được nhắc và cung cấp các trình
+điều khiển thiết bị phù hợp.
+4) Hệ thông sẽ nhắc nhấn F2 nếu bạn muốn thực hiện thao tác Khôi phục Hệ thống Tự
+động (Automated System Recovery). Không nhấn F2 lúc này và quá trình cài đặt
+tiếp tục.
+5) Chương trình cài đặt của Windows server 2003 sẽ tiến hành sao chép các tập tin và
+driver cần thiết cho quá trình cài đặt.
+
+-- 14 of 23 --
+
+15
+6) Màn hình bản quyền xuất hiện, nhấn phím Enter để bắt đầu.
+7) Nhấn phím F8 để chấp thuận bản quyền và tiếp tục quá trình cài đặt.
+8) Chọn vùng trống trên đĩa và nhấn phím C để tạo partition mới chứa hệ điều hành.
+
+-- 15 of 23 --
+
+16
+Bạn có thể tạo một phân vùng trên toàn bộ không gian đĩa. Nếu bạn muốn tạo một
+phân vùng sử dụng một phần của không gian đĩa cứng chưa phân vùng, bạn nhấn
+phím C và nhập vào kích thước của phân vùng mà bạn muốn tạo.
+9) Định dạng partition chứa hệ điều hành theo hệ thống tập tin FAT hay NTFS, thông
+thường chọn Format the partition using the NTFS file system (Quick).
+
+-- 16 of 23 --
+
+17
+10) Quá trình cài đặt sẽ sao chép các tập tin của hệ điều hành vào partition đã chọn.
+Sau quá trình này, hệ thống sẽ khởi động lại và chuyển sang giai đoạn đồ họa
+(Graphical Based).
+Giai đoạn giao diện đồ họa: Sau khi hệ thống khởi động lại, giao diện trình cài
+đặt Windows Server 2003 xuất hiện.
+11) Cài đặt driver cho các thiết bị mà trình cài đặt tìm thấy trong hệ thống.
+12) Thiết lập ngôn ngữ, số đếm, đơn vị tiền tệ, định dạng ngày tháng năm, chọn Next
+để tiếp tục cài đặt.
+13) Nhập tên người sử dụng và tên tổ chức, chọn Next để tiếp tục cài đặt.
+
+-- 17 of 23 --
+
+18
+14) Nhập số CD key (thường được lưu trên đĩa cài đặt Windows Server 2003 với tên
+CDKEY.TXT), chọn Next để tiếp tục cài đặt.
+15) Tùy theo mỗi hệ thống, bạn chọn Per Server hoặc Per Seat, chọn Next để tiếp tục
+cài đặt.
+
+-- 18 of 23 --
+
+19
+16) Nhập tên Server và Password của người quản trị (Administrator), chọn Next để
+tiếp tục cài đặt.
+17) Thiết lập ngày, tháng, năm và múi giờ, chọn Next để tiếp tục cài đặt.
+18) Thiết lập giao thức mạng.
+Mặc định chọn Typical settings (bạn có thể cài đặt các giao thức mạng sau khi
+hoàn tất việc cài đặt Windows Server 2003), chọn Next để tiếp tục cài đặt.
+
+-- 19 of 23 --
+
+20
+19) Chọn gia nhập máy chủ vào Workgroup hay Domain có sẵn. Ví dụ chọn Workgroup,
+chọn Next để tiếp tục cài đặt.
+20) Hệ thống sẽ khởi động lại và hoàn tất việc cài đặt. Để đăng nhập và sử dụng
+Windows Server 2003 bạn nhấn tổ hợp phím Ctrl–Alt–Del.
+
+-- 20 of 23 --
+
+21
+TÓM LƯỢC CUỐI BÀI
+Các bạn cần nắm được một số kiến thức sau:
+• 	Hệ điều hành MS –DOS.
+• 	Hệ điều hành Windows 2003. Có 4 phiên bản chính:
+o 	Web Edition.
+o 	Standard Edition.
+o 	Enterprise Edition.
+o 	Datacenter Edition.
+• 	Yêu cầu của hệ thống để cài đặt được:
+o 	Windows Domain.
+o 	Mạng ngang hàng.
+o 	Microsoft Active Directory.
+
+-- 21 of 23 --
+
+22
+CÂU HỎI TỰ LUẬN
+Câu 1. Cài đặt Active Directory cho máy vuvanthu2003 (Nâng cấp thành máy chủ).
+Câu 2. Tạo Reverse Lookup Zones cho Domain?
+Câu 3. Join Client/Server vào Domain?
+Câu 4. Các bạn hãy tìm giải pháp cho quá trình thăng cấp BDC thành PDC khi cả 2 còn 	hoạt
+động?
+Câu 5. Nếu chúng ta muốn cấp tài khoản cho một user IT Suppervisor (không thuộc group Domain
+Administrator) và cho phép account này được join các máy tính trên mạng vào Domain thì phải
+làm sao?
+BÀI TẬP TRẮC NGHIỆM
+1. MS–DOS là viết tắt của:
+a) Microsoft Disk Operating System. 	b) Microsoft Directory Operating System.
+c) Microsoft Dimention Operating System. 	d) Không có đáp án nào đúng.
+2. Chọn đáp án đúng với Phiên bản tiêu chuẩn (Standard Edition)?
+a) Sử dụng cho nền tảng máy chủ đa chức năng trong đó có thể cung cấp các dịch vụ thư mục
+(Directory), file, in ấn, ứng dụng, multimedia và dịch vụ Internet cho các doanh nghiệp cỡ vừa
+và nhỏ.
+b) Được thiết kế để thực thi trên các máy chủ mạnh của các tổ chức doanh nghiệp cỡ vừa và lớn.
+c) Là một phần của hệ điều hành chuẩn cho phép người quản trị có thể triển khai các Web site,
+các ứng dụng Web và các dịch vụ Web mà không tốn nhiều chi phí và nguồn lực quản trị.
+d) Được thiết kế cho các máy chủ ứng dụng cao cấp, lưu lượng truy cập lớn, yêu cầu sử dụng rất
+nhiều tài nguyên hệ thống.
+3. Trong hệ điều hành Window Server 2003, phiên bản Web có những tính năng nổi trội. Chọn
+đáp án sai?
+a) Một máy chủ chạy phiên bản Web có thể là thành viên của một miền (Domain) sử dụng
+Active Directory nhưng nó không thể là một máy chủ quản trị miền.
+b) Phiên bản Web cho phép chạy các ứng dụng không phải dịch vụ Web.
+c) Phiên bản Web có đầy đủ các thành phần chuẩn mà một máy chủ Web cần.
+d) Mô hình Client Access License (giấy phép truy nhập từ máy trạm) chuẩn không được áp dụng
+cho các máy chủ chạy phiên bản Web Edition.
+4. Mạng ngang hàng là gì?
+a) Một thông tin chia sẻ về cơ sở hạ tầng cho định vị, quản lý, điều hành, tổ chức và phổ biến các
+tài nguyên mạng, có thể bao gồm các khối tin, thư mục, tập tin, máy in, người dùng, các nhóm,
+các thiết bị và các đối tượng khác.
+b) Là một nhóm logic các máy tính chạy phiên bản hệ điều hành Microsoft Windows mà chia sẻ
+chung một cơ sở dữ liệu trung tâm.
+
+-- 22 of 23 --
+
+23
+c) Là một nhóm các máy tính nối mạng với nhau, chia sẻ và sử dụng chung tài nguyên.
+d) Không có đáp án nào đúng.
+5. Một máy chủ quản trị miền là gì?
+a) Là một đơn vị quản trị cơ bản của dịch vụ thư mục trong Windows Server 2003.
+b) Là một tài nguyên cơ sở và rất quan trọng của hệ thống, nó phải luôn sẵn sàng với mọi người
+dùng trong mọi thời điểm.
+c) Là một máy chủ đã được thăng cấp bằng cách chạy trình cài đặt Active Directory.
+d) Đáp án a và c đều đúng.
+6. Hình bên, miền nào được gọi là miền gốc?
+a) acme.com
+b) asia.acme.com
+c) europe.acme.com
+d) Không có đáp án nào đúng.
+7. Phiên bản Enterprise Edition yêu cầu tốc độ CPU tối
+thiểu là bao nhiêu?
+a) 133 MHz. 	b) 400 MHz. 	c) 550 MHz. 	d) 733 MHz
+
+-- 23 of 23 --
+

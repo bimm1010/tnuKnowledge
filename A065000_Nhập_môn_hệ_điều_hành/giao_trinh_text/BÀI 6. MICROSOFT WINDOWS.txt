@@ -1,0 +1,565 @@
+BÀI 6
+MICROSOFT WINDOWS
+NHẬP MÔN HỆ ĐIỀU HÀNH 1
+
+-- 1 of 36 --
+
+TÌNH HUỐNG DẪN NHẬP
+NHẬP MÔN HỆ ĐIỀU HÀNH 2
+Tập đoàn Microsoft là tập đoàn phần mềm nổi tiếng trên thế giới với dòng
+sản phẩm hệ điều hành Microsoft Windows. Dòng hệ điều hành với đầy đủ
+các tính năng cũng như giao diện thân thiện, ổn định, bảo mật tốt …. Trong
+bài học này, chúng ta sẽ được biết về lịch sử, các tính năng cơ bản các dòng
+sản phẩm hệ điều hành Microsoft Windows và làm quen với một trong những
+hệ điều hành hiện đại và thành công của Microsoft Windows - hệ điều hành
+Windows Server 2003.
+Bạn đã biết những gì về Microsoft Windows?
+
+
+-- 2 of 36 --
+
+MỤC TIÊU
+NHẬP MÔN HỆ ĐIỀU HÀNH 3
+• Liệt kê được các dòng sản phẩm của Hệ điều hành Microsoft Windows;
+• Trình bày được tính năng cũng như các phiên bản của Hệ điều hành
+MS -DOS và Windows Server 2003;
+• Chỉ ra được các yêu cầu hệ thống đối với từng phiên bản của Windows
+Server 2003;
+• Chỉ ra được ưu điểm và nhược điểm của mạng ngang hàng (peer to
+peer); Mô tả được cách thức làm việc của Microsoft Active Directory;
+• Cài đặt Windows Server 2003 thành công;
+• Thời lượng học: Lý thuyết 8 tiết - Bài tập 4 tiết.
+
+-- 3 of 36 --
+
+NỘI DUNG
+NHẬP MÔN HỆ ĐIỀU HÀNH 4
+1. Giới thiệu hệ điều hành.
+2. Windows Domain.
+3. Cài đặt Microsoft Windows.
+
+-- 4 of 36 --
+
+1. GIỚI THIỆU
+
+-- 5 of 36 --
+
+1. GIỚI THIỆU
+NHẬP MÔN HỆ ĐIỀU HÀNH 6
+• Microsoft Windows là tên của các dòng phần mềm hệ điều hành độc
+quyền của hãng Microsoft. Lần đầu tiên Microsoft giới thiệu một môi
+trường điều hành mang tên Windows là vào tháng 11 năm 1985 với
+những tính năng thêm vào Hệ điều hành DOS giao diện đồ hoạ
+(Graphical User Interfaces, gọi tắt là GUI) - đang được sự quan tâm cao
+vào thời điểm đó đồng thời để cạnh tranh với hãng Apple Computers.
+
+-- 6 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 7
+• Windows 3.0
+➢ Giao diện đồ họa cho người dùng, hỗ trợ VGA và hiệu ứng 3D;
+➢ Được giới thiệu cùng với Program Manager và File Manager;
+➢ Là hệ điều hành đầu tiên mang lại thành công cho Microsoft.
+• Windows for Workgroups 3.11:
+➢ Phát triển dựa trên Windows 3.1;
+➢ Tăng tính năng làm việc theo nhóm ngang hàng và hỗ trợ làm
+việc theo vùng;
+➢ Có thể hoạt động trên mạng nhờ cơ chế Client/Server.
+• Windows 95:
+➢ Là sự thay thế cho 2 phiên bản cũ của Window là 3.1 và DOS;
+➢ Xuất hiện màn hình, thanh tác vụ và Start Menu;
+➢ Tích hợp DOS để liên kết giữa Windows và phần cứng.
+1. GIỚI THIỆU
+1.1. MỘT SỐ HỆ ĐIỀU HÀNH ĐẦU TIÊN
+
+-- 7 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 8
+Windows NT: Là hệ điều hành mạng cao cấp của hãng Microsoft.
+• Các phiên bản:
+➢ Windows NT 3.1 (1993);
+➢ Windows NT Advanced Server(1993);
+➢ Windows NT Server (1994);
+➢ Windows NT Workstation Version 3.5, 3.51, 4.0 …;
+• Windows NT có hai bản mà nó đi đôi với hai cách tiếp cận mạng khác
+nhau:
+➢ Windows NT Workstation được sử dụng để kết nối những nhóm
+người sử dụng nhỏ;
+➢ Windows NT Server khả năng chống hỏng hóc cao, những khả
+năng cung cấp dịch vụ mạng lớn và những lựa chọn kết nối khác
+nhau.
+1. GIỚI THIỆU
+1.1. MỘT SỐ HỆ ĐIỀU HÀNH ĐẦU TIÊN
+
+-- 8 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 9
+• Đặc điểm:
+➢ Là một hệ điều hành có giao diện dòng lệnh được thiết kế cho các
+máy tính họ PC (Personal Computer);
+➢ Là hệ điều hành đơn nhiệm. Tại mỗi thời điểm chỉ thực hiện một
+thao tác duy nhất.
+• Các phiên bản của MS DOS:
+➢ PC DOS 1.0 (1981);
+➢ MS-DOS 1.25 (1982);
+➢ MS-DOS 5.0 (1991) bao gồm nhiều tính năng mới:
+▪ Quản lý bộ nhớ (MEMMAKER.EXE);
+▪ Trình soạn thảo văn bản (MS-DOS Editor);
+▪ Ngôn ngữ lập trình QBASIC.
+➢ MS-DOS 6.22 phiên bản DOS cuối cùng được chạy như một hệ
+điều hành độc lập (Standalone Version).
+1. GIỚI THIỆU
+1.2. HỆ ĐIỀU HÀNH MS-DOS (Microsoft Disk Operating System)
+
+-- 9 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 10
+• Đặc điểm:
+➢ Là một phiên bản nâng cấp từ nền tảng và các công nghệ
+của Windows 2000;
+➢ Có rất nhiều cải tiến và tính năng mới so với Windows 2000 nhằm
+tăng cường khả năng bảo mật, độ tin cậy và công cụ quản trị.
+• Các phiên bản:
+➢ Web Edition;
+➢ Standard Edition;
+➢ Enterprise Edition;
+➢ Datacenter Edition.
+1. GIỚI THIỆU
+1.3. HỆ ĐIỀU HÀNH WINDOW SERVER 2003
+
+-- 10 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 11
+Web
+Edition
+Standard
+Edition
+Enterprise
+Edition
+Datacenter
+Edition
+Tốc độ CPU tối thiểu 133 MHz 133 MHz 133 MHz 400 MHz
+Tốc độ CPU khuyến cáo 550 MHz 550 MHz 733 MHz 733 MHz
+RAM tối thiểu 128 MB 128 MB 128 MB 512 MB
+RAM khuyến cáo 256 MB 256 MB 256 MB 1 GB
+RAM tối đa 2 GB 4 GB 32 GB 64 GB
+Số bộ vi xử lí (Symmetric
+Multiprocessing) 2 4 8 32
+Khoảng trống đĩa tối thiểu 1.5 GB 1.5 GB 1.5 GB 1.5 GB
+1. GIỚI THIỆU
+1.4. CÁC YÊU CẦU HỆ THỐNG HỆ ĐIỀU HÀNH WINDOWS 2003
+
+-- 11 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 12
+Phiên bản Web (Web Edition):
+• Là một phần của hệ điều hành chuẩn cho phép người quản trị có thể triển
+khai các Web site, các ứng dụng Web và các dịch vụ Web mà không tốn
+nhiều chi phí và nguồn lực quản trị;
+• Hệ điều hành này hỗ trợ tối đa 2GB bộ nhớ RAM và 2 bộ vi xử lí.
+• Tính năng:
+➢ Một máy chủ chạy phiên bản Web có thể là thành viên của một
+miền (Domain) sử dụng Active Directory;
+➢ Hệ điều hành này hỗ trợ một số lượng không giới hạn các kết nối
+Web, nhưng nó lại giới hạn tối đa 10 kết nối Server Message
+Block (SMB) đồng thời. Không cho phép máy chủ thực hiện chức
+năng của một cổng kết nối Internet.
+➢ Một máy chủ chạy Web Edition không thể thực hiện vai trò của một
+máy chủ DHCP, máy chủ fax, máy chủ Microsoft SQL hay một máy
+chủ dịch vụ đầu cuối. Phiên bản Web sẽ không cho phép chạy các
+ứng dụng không phải dịch vụ Web.
+1. GIỚI THIỆU
+1.5. CÁC PHIÊN BẢN HỆ ĐIỀU HÀNH WINDOWS 2003
+
+-- 12 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 13
+PHIÊN BẢN TIÊU CHUẨN (STANDARD EDITION)
+• Sử dụng cho nền tảng máy chủ đa chức năng trong đó có thể cung cấp
+các dịch vụ thư mục (Directory), File, in ấn, ứng dụng, Multimedia và
+dịch vụ Internet cho các doanh nghiệp cỡ vừa và nhỏ;
+• Có rất nhiều tính năng nổi trội:
+➢ Directory service: Cho phép các máy chủ đóng vai trò là máy chủ
+thành viên của máy chủ quản trị trong một miền.
+➢ Hỗ trợ các dịch vụ Internet cho phép nhiều máy chủ web có thể duy
+trì một web đơn lẻ.
+➢ Chia sẻ các yêu cầu của Client tới tối đa là 32 máy chủ đồng thời và
+như vậy nó cung cấp khả năng chịu lỗi cho hệ thống.
+➢ Các dịch vụ hạ tầng: cung cấp các dịch vụ cơ bản cho mạng nội bộ
+và máy khách trên Internet, nó cũng hỗ trợ việc định tuyến TCP/IP.
+Máy chủ chạy phiên bản Standard edition có thể hoạt động như một
+Router với nhiều cấu hình để kết nối WAN, LAN và định tuyến truy
+nhập Internet.
+1. GIỚI THIỆU
+1.5. CÁC PHIÊN BẢN HỆ ĐIỀU HÀNH WINDOWS 2003
+
+-- 13 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH
+14
+PHIÊN BẢN DOANH NGHIỆP (ENTERPRISE EDITION)
+• Được thiết kế để thực thi trên các máy chủ mạnh của các tổ chức doanh
+nghiệp cỡ vừa và lớn;
+• Phiên bản này khác biệt chủ yếu ở mức độ hỗ trợ phần cứng. Chẳng hạn
+bản Enterprise hỗ trợ tối đa 8 bộ xử lý so với 4 của bản Standard và 32GB
+RAM so với 4GB của bản Standard;
+• Bổ sung thêm một số tính năng không có trong bản Standard:
+➢ Microsoft Metadirectory Services (Dịch vụ Siêu Thư mục): Cho phép ta
+có thể kết hợp các thông tin trong Active Directory với các dịch vụ thư
+mục khác, để tạo ra một khung nhìn tổng thể tất cả các thông tin về một
+tài nguyên nào đó;
+➢ Server Clustering (cụm máy chủ): Các máy chủ trong cụm, được gọi là
+các nút, thường có khả năng truy nhập đến một nguồn dữ liệu chung,
+thông thường là một mạng lưu trữ (Storage Area Network - SAN);
+➢ Quản trị tài nguyên hệ thống của Windows (Windows System Resource
+Manager - WSRM): Cho phép người quản trị có thể phân bổ tài nguyên
+hệ thống cho các ứng dụng dựa trên nhu cầu.
+1. GIỚI THIỆU
+1.5. CÁC PHIÊN BẢN HỆ ĐIỀU HÀNH WINDOWS 2003
+
+-- 14 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 15
+PHIÊN BẢN TRUNG TÂM DỮ LIỆU
+(DATACENTER EDITION)
+• Được thiết kế cho các máy chủ ứng
+dụng cao cấp, lưu lượng truy cập
+lớn, yêu cầu sử dụng rất nhiều tài
+nguyên hệ thống;
+• Tính năng gần giống với tính năng
+của Enterprise;
+• Hỗ trợ tốt hơn cho việc mở rộng
+phần cứng, có thể hỗ trợ tối đa
+64GB RAM và 32 bộ xử lý;
+• Không tích hợp một số tính năng có
+trong bản Enterprise như ICS và
+ICF…
+1. GIỚI THIỆU
+1.5. CÁC PHIÊN BẢN HỆ ĐIỀU HÀNH WINDOWS 2003
+
+-- 15 of 36 --
+
+2. WINDOWS DOMAIN
+NHẬP MÔN HỆ ĐIỀU HÀNH 16
+
+-- 16 of 36 --
+
+2. WINDOWS DOMAIN
+NHẬP MÔN HỆ ĐIỀU HÀNH 17
+Windows Server Domain là một nhóm Logic các máy tính chạy phiên bản hệ
+điều hành Microsoft Windows mà chia sẻ chung một cơ sở dữ liệu trung tâm
+(Active Directory).
+Windows XP
+Professional
+Windows 2000
+Domain Controller Active
+Directory
+Windows 98 using
+Active Directory
+Client Software
+Member
+Server
+
+-- 17 of 36 --
+
+• Là một nhóm các máy tính nối
+mạng với nhau, chia sẻ và sử dụng
+chung tài nguyên;
+• Mọi máy tính đều bình đẳng và có
+vai trò như nhau;
+• Người dùng ở từng máy tính tự
+quyết định dữ liệu nào trên máy
+tính của họ sẽ được dùng chung
+trên mạng;
+• Mỗi máy tính có thể giao tiếp trực
+tiếp với bất kỳ máy tính nào trên
+mạng để lấy thông tin hoặc dịch vụ
+từ máy tính đó.
+NHẬP MÔN HỆ ĐIỀU HÀNH 18
+Mạng ngang hàng
+2. WINDOWS DOMAIN
+2.1. MẠNG NGANG HÀNG (WORKGROUP)
+
+-- 18 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 19
+• Ưu điểm:
+➢ Phần mềm điều hành của mạng không nhất thiết phải có khả năng
+thi hành và tính bảo mật tương xứng với phần mềm điều hành
+mạng được thiết kế cho máy phục vụ chuyên dụng;
+➢ Hoạt động mạng ngang hàng được tích hợp vào hệ điều hành.
+Không cần phải thêm phần mềm nào khác để thiết lập một mạng
+ngang hàng;
+➢ Không cần một máy trung tâm thật mạnh và cũng không bắt buộc
+phải có những bộ phận cần thiết cho mạng máy tính công suất cao;
+➢ Mạng ngang hàng rẻ tiền hơn mạng dựa trên máy phục vụ;
+➢ Dễ cài đặt;
+➢ Không cần có quản trị mạng.
+• Nhược điểm:
+➢ Không quản trị tập trung tài nguyên: Mỗi máy phải được quản trị
+một cách độc lập với những máy khác;
+➢ Độ an toàn và tính bảo mật không cao, do người sử dụng quy định.
+2. WINDOWS DOMAIN
+2.1. MẠNG NGANG HÀNG (WORKGROUP)
+
+-- 19 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 20
+• Khi các hệ thống mạng ngày càng
+lớn, số lượng tài nguyên chia sẻ
+cũng nhiều hơn, và do đó ngày
+càng khó khăn trong việc định vị và
+tìm kiếm các tài nguyên.
+• Là một thông tin chia sẻ về cơ sở hạ
+tầng cho định vị, quản lý, điều hành,
+tổ chức và phổ biến các tài nguyên
+mạng, có thể bao gồm các khối tin,
+thư mục, tập tin, máy in, người
+dùng, các nhóm, các thiết bị, và các
+đối tượng khác.
+2. WINDOWS DOMAIN
+2.2. MICROSOFT ACTIVE DIRECTORY
+
+-- 20 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 21
+Mô hình miền:
+• Mô hình miền là một kiến trúc thư mục có phân cấp của các tài nguyên
+- Active Directory, và được sử dụng bởi tất cả các hệ thống là thành
+viên của miền.
+• Active Directory đóng vai trò như một trung tâm lưu trữ, cung cấp một
+danh sách tin cậy chỉ ra "Ai là ai" trong miền.
+• Active Directory chứa một danh sách các thành phần hỗ trợ.
+• Ví dụ: Transaction logs, Lightweight Directory Access Protocol, giao
+thức bảo mật Kerberos…
+• Active Directory cung cấp các công cụ mà người quản trị sử dụng để
+quản lý dịch vụ thư mục.
+2. WINDOWS DOMAIN
+2.2. MICROSOFT ACTIVE DIRECTORY
+2.2.1. MIỀN VÀ MÁY CHỦ QUẢN TRỊ MIỀN
+
+-- 21 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 22
+Máy chủ quản trị miền:
+• Cơ sở dữ liệu của Active Directory và các dịch vụ của nó được cài
+đặt trên một hay nhiều máy chủ quản trị miền;
+• Một máy chủ quản trị miền là một máy chủ đã được thăng cấp bằng
+cách chạy trình cài đặt Active Directory (Active Directory Installation
+Wizard);
+• Trong miền thông thường phải có ít nhất 2 máy chủ quản trị miền;
+• Các máy chủ quản trị miền luôn đồng bộ dữ liệu với nhau nên mỗi
+máy chủ này đều chứa các thông tin hiện tại của hệ thống.
+2. WINDOWS DOMAIN
+2.2. MICROSOFT ACTIVE DIRECTORY
+2.2.1. MIỀN VÀ MÁY CHỦ QUẢN TRỊ MIỀN
+
+-- 22 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 23
+• Domain (miền): Là một đơn vị quản
+trị cơ bản của dịch vụ thư mục trong
+Windows Server 2003.
+• Tree (Cây): Mô hình nhiều miền sẽ
+tạo ra một cấu trúc logic được gọi là
+các cây (Tree) nếu chúng chung
+nhau một không gian tên miền DNS.
+• Forest (Rừng): Một Active Directory
+chứa nhiều cây sẽ được gọi là một
+rừng (forest) như chỉ ra trên hình.
+Rừng là một kiến trúc lớn nhất trong
+Active Directory.
+Domain - Tree - Forest
+2. WINDOWS DOMAIN
+2.2. MICROSOFT ACTIVE DIRECTORY
+2.2.2. DOMAIN, TREE VÀ FOREST
+
+-- 23 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 24
+• Là một tập hợp bao gồm các thông tin dữ liệu của tất cả các miền hợp
+lại.
+• Cho phép các máy trạm trong một miền có thể tìm kiếm thông tin trong
+một miền khác.
+Schema
+Configuration
+Domain A
+Schema
+Configuration
+Domain C
+Schema
+Configuration
+Domain B
+Schema
+Configuration
+Domain D
+Global Catalog
+Domain A partial repica
+Domain B partial repica
+Domain C partial repica
+Domain D partial repica
+2. WINDOWS DOMAIN
+2.2. MICROSOFT ACTIVE DIRECTORY
+2.2.3. GLOBAL CATALOG
+
+-- 24 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 25
+• Một đối tượng là một phần tử thể hiện một tài nguyên mạng xác định.
+• Một Active Directory có thể chứa các đối tượng thể hiện các tài
+nguyên:
+➢ Vật lý: Máy tính và máy in …
+➢ Nhân sự: Các người dùng và nhóm…
+➢ Phần mềm: Các ứng dụng và vùng DNS…
+➢ Quản trị: OU và Site …
+• Mỗi đối tượng trong Active Directory chứa các thuộc tính, chính là các
+thông tin về đối tượng đó.
+Ví dụ: Đối tượng người dùng sẽ có các thuộc tính tên tài khoản, địa
+chỉ, số điện thoại …
+2. WINDOWS DOMAIN
+2.2. MICROSOFT ACTIVE DIRECTORY
+2.2.4. ĐỐI TƯỢNG VÀ THUỘC TÍNH
+
+-- 25 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 26
+Schema:
+• Các phần tử trong Active Directory chỉ ra kiểu đối tượng mà người quản
+trị có thể tạo ra và thuộc tính mỗi đối tượng có thể có, được gọi là
+Schema.
+• Người quản trị có thể mở rộng Schema bằng Snap-in "Active Directory
+Schema" hoặc các ứng dụng có tính năng cập nhật Schema để tạo các
+kiểu đối tượng mới hoặc các thuộc tính mới cần thiết.
+2. WINDOWS DOMAIN
+2.2. MICROSOFT ACTIVE DIRECTORY
+2.2.4. ĐỐI TƯỢNG VÀ THUỘC TÍNH
+
+-- 26 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 27
+• Active Directory có khả năng chứa hàng triệu đối tượng nên cần có
+phương thức tổ chức các đối tượng thành các đơn vị nhỏ hơn. Để tổ
+chức quản lý thì cần phải có 1 cấu trúc phân cấp;
+• Container: Miền chứa các đối tượng khác trong miền;
+• Leaves: Một đối tượng không thể chứa các đối tượng khác, ví dụ như
+một người dùng hoặc máy tính;
+• Tính năng cơ bản trong cấu trúc phân cấp:
+➢ Thay vì gán các quyền và cấp phép cho từng người dùng, người
+quản trị có thể gán các quyền và cấp phép cho các đối tượng bao
+chứa;
+➢ Các đối tượng người dùng thành viên sẽ được thừa hưởng các
+quyền cần thiết.
+2. WINDOWS DOMAIN
+2.2. MICROSOFT ACTIVE DIRECTORY
+2.2.5. CÁC CONTAINERS VÀ LEAVES (ĐỐI TƯỢNG BAO CHỨA VÀ LÁ)
+
+-- 27 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 28
+• Cho phép người sử dụng xác định các thiết lập bảo mật, triển khai phần
+mềm, cấu hình hệ điều hành và cách thức họat động của các ứng dụng
+trên một máy tính mà không cần thiết phải thực hiện trực tiếp trên máy
+tính đó.
+• GPO là một tập hợp của nhiều thiết lập cấu hình, từ các quyền đăng nhập
+của người dùng đến các phần mềm được cho phép hoạt động trong hệ
+thống.
+2. WINDOWS DOMAIN
+2.2. MICROSOFT ACTIVE DIRECTORY
+2.2.6. CÁC CHÍNH SÁCH NHÓM
+
+-- 28 of 36 --
+
+3. CÀI ĐẶT MICROSOFT WINDOWS
+NHẬP MÔN HỆ ĐIỀU HÀNH 29
+
+-- 29 of 36 --
+
+3. CÀI ĐẶT MICROSOFT WINDOWS
+NHẬP MÔN HỆ ĐIỀU HÀNH 30
+Trước khi bạn học về quản trị và duy trì Windows Server 2003, người sử
+dụng cần có khả năng cài đặt hệ điều hành này và cấu hình nó để thực hiện
+các tác vụ theo yêu cầu.
+Web Edition Standard
+Edition
+Enterpris
+e Edition
+Datacenter Edition
+Tốc độ CPU tối thiểu 133 MHz 133 MHz 133 MHz 400 MHz
+Tốc độ CPU khuyến cáo 550 MHz 550 MHz 733 MHz 733 MHz
+RAM tối thiểu 128 MB 128 MB 128 MB 512 MB
+RAM khuyến cáo 256 MB 256 MB 256 MB 1 GB
+RAM tối đa 2 GB 4 GB 32 GB 64 GB
+Số bộ vi xử lí
+(Symmetric
+Multiprocessing)
+2 4 8 32
+Khoảng trống đĩa tối thiểu 1.5 GB 1.5 GB 1.5 GB 1.5 GB
+
+-- 30 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 31
+• Giai đoạn khởi tạo quá trình cài đặt bắt đầu khi máy tính khởi động từ
+đĩa CD chứa bộ cài Windows Server 2003 và chạy chương trình
+Winnt.exe.
+3. CÀI ĐẶT MICROSOFT WINDOWS
+3.1. CHẾ ĐỘ TEXT
+
+-- 31 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 32
+• Chương trình Winnt.exe nạp các file hệ điều hành Windows Server
+2003 từ đĩa CD.
+• Chương trình này sẽ định dạng phân vùng đĩa hệ thống, tạo cấu trúc
+thư mục gốc và sao chép các file của hệ điều hành từ các thư mục tạm
+vào đúng vị trí.
+• Chương trình cài đặt thiết lập Registry, tạo các khóa chứa các thông tin
+cơ bản về hệ điều hành cũng như các thông tin về phần cứng được
+nhận biết trong quá trình cài đặt. Sau đó máy tính khởi động lại.
+3. CÀI ĐẶT MICROSOFT WINDOWS
+3.1. CHẾ ĐỘ TEXT
+
+-- 32 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 33
+• Hệ thống sử dụng lại các file đã được cài đặt trên đĩa hệ thông. Giao
+diện đồ họa thân thiện xuất hiện.
+• Sau khi hệ thống khởi động xong, quá trình cài đặt đồ họa bắt đầu bằng
+nhận biết phần cứng.
+• Chương trình bắt đầu thu thập thông tin từ người dùng mà nó cần để
+hoàn thành quá trình cài đặt, đồng thời nó sẽ cài đặt rất nhiều phần
+khác của hệ thống.
+• Cuối cùng, chương trình thiết lập thực đơn khởi động (Start Menu), thiết
+lập các tham số bảo mật hệ thống.
+• Khởi động lại lần cuối cùng.
+3. CÀI ĐẶT MICROSOFT WINDOWS
+3.2. CHẾ ĐỘ ĐỒ HỌA
+
+-- 33 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 34
+3. CÀI ĐẶT MICROSOFT WINDOWS
+3.2. CHẾ ĐỘ ĐỒ HỌA
+Giao diện đồ họa
+
+-- 34 of 36 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 35
+3. CÀI ĐẶT MICROSOFT WINDOWS
+3.2. CHẾ ĐỘ ĐỒ HỌA
+Cài đặt thành công
+
+-- 35 of 36 --
+
+TÓM LƯỢC CUỐI BÀI
+NHẬP MÔN HỆ ĐIỀU HÀNH 36
+Các bạn đã hoàn thành bài học về Microsoft Windows. Có một số
+điểm lưu ý:
+• Các phiên bản của Hệ điều hành Windows Server 2003 và các
+tính năng của từng phiên bản. So sánh tính năng của từng phiên
+bản với nhau.
+• Các khái niệm cũng như cách thức hoạt động của Domain, Tree,
+Forest, Microsoft Active Directory, Container …
+• Cấu hình hệ thống và cài đặt Windows Server 2003.
+
+-- 36 of 36 --
+

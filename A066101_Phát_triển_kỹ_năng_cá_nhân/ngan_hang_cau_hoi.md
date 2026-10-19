@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Phát triển kỹ năng cá nhân [A066101]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **76 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **91 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Một người tự tin về khả năng và giá trị về bản thân thì sẽ có những biểu hiện như thế nào?
@@ -531,6 +531,111 @@
 **Hỏi:** Hãy chỉ ra một nguyên nhân gây lãng phí thời gian trong số các phương án sau:
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Sử dụng điện thoại quá nhiều`
+
+---
+
+### Câu 77 (Bài luyện tập 6)
+**Hỏi:** Thành viên nhóm nên hành xử như thế nào khi nhóm đưa ra một quyết định không trùng hợp với quan điểm của mình?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Chấp nhận vì đó là quyết định đã dựa trên những nguyên tắc và giá trị chung đã được thỏa hiệp của nhóm`
+
+---
+
+### Câu 78 (Bài luyện tập 6)
+**Hỏi:** Phương án nào sau đây không phải là ý nghĩa tích cực của việc phân công trách nhiệm cá nhân trong khi làm việc nhóm?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Giúp từng thành viên nhận thức rõ hơn về lợi ích cá nhân trong khi làm việc nhóm`
+
+---
+
+### Câu 79 (Bài luyện tập 6)
+**Hỏi:** Điều gì cần phải được thực hiện trước khi thành lập nhóm?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Xác định mục tiêu thành lập nhóm`
+
+---
+
+### Câu 80 (Bài luyện tập 6)
+**Hỏi:** Trong trường hợp nào thì doanh nghiệp chưa cần thành lập nhóm để giải quyết công việc?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Khi các cá nhân có thể dễ dàng làm việc độc lập`
+
+---
+
+### Câu 81 (Bài luyện tập 6)
+**Hỏi:** Xác định một luận điểm đúng trong số các luận điểm dưới đây bàn về vấn đề mâu thuẫn nhóm:
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Khi hoạt động nhóm, tất yếu sẽ nảy sinh nhiều mâu thuẫn vì nhóm là sự tập hợp của những con người với quan niệm, tính cách, năng lực, kinh nghiệm... khác nhau`
+
+---
+
+### Câu 82 (Bài luyện tập 6)
+**Hỏi:** Tác hại của sự chia rẽ, mất đoàn kết trong khi làm việc nhóm là gì?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Làm suy giảm tinh thần và hiệu quả làm việc của các thành viên`
+
+---
+
+### Câu 83 (Bài luyện tập 6)
+**Hỏi:** Sau khi đã xác định được mục tiêu, bước tiếp theo nhóm cần phải làm là:
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `xác định những công việc mà nhóm cần thực hiện`
+
+---
+
+### Câu 84 (Bài luyện tập 6)
+**Hỏi:** Hành động nào dưới đây sẽ làm giảm tác dụng của hoạt động nhóm trong môi trường học tập?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Dựa dẫm, ỷ lại vào thành quả học tập của người khác trong nhóm`
+
+---
+
+### Câu 85 (Bài luyện tập 6)
+**Hỏi:** Tìm phương án trả lời đúng nhất. Vì sao để công việc nhóm được triển khai hiệu quả, các thành viên nhóm cần phải thể hiện tốt trách nhiệm cá nhân?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Chỉ khi các thành viên đều đồng thuận, chia sẻ trách nhiệm và có ý thức trách nhiệm với công việc chung thì nhóm mới có thể làm việc hiệu quả`
+
+---
+
+### Câu 86 (Bài luyện tập 6)
+**Hỏi:** Trong môi trường học tập, khi nào thì nên thành lập nhóm?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Khi thực hiện một bài tập lớn cần có kiến thức tổng hợp`
+
+---
+
+### Câu 87 (Bài luyện tập 6)
+**Hỏi:** Tìm phương án đúng nhất. Khi các nhóm trong doanh nghiệp đều làm việc có hiệu quả thì sẽ mang lại điều gì cho doanh nghiệp?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Uy tín và giá trị thương hiệu của doanh nghiệp được nâng cao`
+
+---
+
+### Câu 88 (Bài luyện tập 6)
+**Hỏi:** Trong cuộc họp nhóm, người điều hành cần xử trí như thế nào khi có thành viên phản đối gay gắt quan điểm của mình?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Bình tĩnh, lắng nghe để điều chỉnh`
+
+---
+
+### Câu 89 (Bài luyện tập 6)
+**Hỏi:** Để xây dựng mối quan hệ tốt đẹp giữa các thành viên trong nhóm, người trưởng nhóm không nên làm gì?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Đối xử thiếu công bằng với các thành viên trong nhóm`
+
+---
+
+### Câu 90 (Bài luyện tập 6)
+**Hỏi:** Một thành viên nhóm nên ứng xử thế nào khi không hoàn thành công việc được giao?
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Thành khẩn nhận lỗi và tìm mọi cách khắc phục sai sót`
+
+---
+
+### Câu 91 (Bài luyện tập 6)
+**Hỏi:** Chọn trong các phương án dưới đây một phương án mà người điều hành cuộc họp nhóm không nên làm khi không khí cuộc họp nhóm buồn tẻ, các thành viên không tham gia phát biểu:
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Nhanh chóng kết thúc cuộc họp`
 
 ---
 

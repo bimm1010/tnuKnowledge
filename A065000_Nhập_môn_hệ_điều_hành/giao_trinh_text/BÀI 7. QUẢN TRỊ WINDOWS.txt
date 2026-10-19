@@ -1,0 +1,808 @@
+BÀI 7
+QUẢN TRỊ WINDOWS
+NHẬP MÔN HỆ ĐIỀU HÀNH 1
+
+-- 1 of 51 --
+
+TÌNH HUỐNG KHỞI ĐỘNG BÀI
+NHẬP MÔN HỆ ĐIỀU HÀNH 2
+Khi sử dụng máy tính, người sử dụng 1 account đăng nhập vào máy tính.
+Trong hệ thống máy tính một cơ quan, một công ty… thì người quản trị
+thiết lập chính sách quản trị để yêu cầu người sử dụng có account xác định
+quyền tương ứng khi sử dụng hệ thống.
+
+-- 2 of 51 --
+
+MỤC TIÊU
+NHẬP MÔN HỆ ĐIỀU HÀNH 3
+• Tổng quan về hệ điều hành Windows;
+• Nắm được các khái niệm cơ bản, các công cụ Windows hỗ trợ
+người quản trị;
+• Hiểucác cơ chế chia sẻ tài nguyên, các dịch vụ mạng có trong
+Windows.
+• Nâng cao kỹ năng quản lý người dùng, tài nguyên chia sẻ và
+quản trị hệ thống.
+
+-- 3 of 51 --
+
+NỘI DUNG
+NHẬP MÔN HỆ ĐIỀU HÀNH 4
+1. Quản trị người dùng;
+2. Chia sẻ tài nguyên;
+3. Dịch vụ mạng.
+
+-- 4 of 51 --
+
+1. QUẢN TRỊ NGƯỜI DÙNG
+NHẬP MÔN HỆ ĐIỀU HÀNH 5
+
+-- 5 of 51 --
+
+1. QUẢN TRỊ NGƯỜI DÙNG
+NHẬP MÔN HỆ ĐIỀU HÀNH 6
+• Tài khoản người dùng: Là một đối tượng đại diện cho người dùng trên
+mạng, chúng được phân biệt với nhau thông qua một chuỗi nhận dạng
+User Name.
+• Tài khoản người dùng được dùng cho việc truy cập vào mạng và truy
+cập tài nguyên mạng mà mình được phép.
+• Mạng Microsoft Windows dựa trên hai mô hình tổ chức: Group và
+Domain, cả hai trong chúng đều yêu cầu người sử dụng có tài khoản
+xác thực.
+
+-- 6 of 51 --
+
+Tài khoản người dùng cục bộ: Là tài khoản người dùng được định nghĩa
+trên máy cục bộ và chỉ được phép logon, truy cập các tài nguyên trên máy
+cục bộ.
+NHẬP MÔN HỆ ĐIỀU HÀNH 7
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.1. TÀI KHOẢN NGƯỜI DÙNG CỤC BỘ
+
+-- 7 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 8
+Tài khoản người dùng miền: Là tài khoản người dùng được định nghĩa trên
+Active Directory và được phép đăng nhập vào mạng trên bất kỳ máy trạm
+nào thuộc vùng. Đồng thời với tài khoản này thì người dùng có thể truy
+cập đến tài nguyên trên mạng.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.2. TÀI KHOẢN NGƯỜI DÙNG MIỀN
+
+-- 8 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 9
+• Tài khoản nhóm là một đối tượng đại diện cho một nhóm người dùng,
+được sử dụng cho việc quản lý chung các đối tượng người dùng
+• Tài khoản nhóm được sử cho mục đích quản lý
+• Tài khoản nhóm được chia làm hai loại: Nhóm bảo mật và nhóm phân
+phối (đối với quản trị Windows chúng ta xét nhóm bảo mật).
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+
+-- 9 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 10
+Nhóm bảo mật: Là nhóm được dùng để cấp phát các quyền hệ thống và
+quyền truy cập. Có 3 loại nhóm bảo mật chính: Local, Global và Universal.
+• Local group (nhóm cục bộ): Là loại nhóm có trên các máy Stand - Alone
+Server, Member Server, WinXP,… Các nhóm này chỉ có ý nghĩa và phạm
+vi hoạt động ngay tại trên máy chứa nó;
+• Domain local group (nhóm cục bộ miền): Là loại nhóm cục bộ đặc biệt vì
+chúng là Local Group nhưng nằm trên máy quản trị miền Domain
+Controller (DC);
+• Global Group (nhóm toàn cục): Là nhóm nằm trong Active Directory và
+được tạo trên các Domain Controller. Chúng dùng để cấp phát những
+quyền hệ thống và quyền truy cập vượt qua ranh giới của một miền;
+• Universal Group (nhóm tổng quát): Là loại nhóm có chức năng giống như
+Global Group nhưng dùng để cấp quyền cho các đối tượng trên khắp các
+miền trong một rừng và giữa các miền có thiết lập quan hệ tin cậy lẫn
+nhau.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.1. TÀI KHOẢN NHÓM BẢO MẬT
+
+-- 10 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 11
+• Tất cả các nhóm Domain local, Global, Universal đều có thể đặt vào
+trong nhóm Machine Local;
+• Tất cả các nhóm Domain local, Global, Universal đều có thể đặt vào
+trong chính loại nhóm của mình;
+• Nhóm Global và Universal có thể đặt vào trong nhóm Domain local;
+• Nhóm Global có thể đặt vào trong nhóm Universal.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.2. QUY TẮC THÀNH VIÊN NHÓM
+
+-- 11 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 12
+• Đặt tên: Tên tài khoản người dùng cục bộ và tài khoản người dùng
+miền có độ dài tối đa cho phép là 20 ký tự, nên đặt tên ngắn và dễ nhớ:
+▪ Các tên không phân biệt chữ hoa hay chữ thường;
+▪ Không được chứa các ký tự đặc biệt như: *, +, ?, ...;
+▪ Hạn chế việc đặt tên biệt danh, tối nghĩa làm cho việc quản trị có thể
+xảy ra nhầm lẫn khi xác định tên tài khoản cho một người sử dụng cụ
+thể nào đó.
+• Mật khẩu: Khi tạo tài khoản người dùng mới cần phải xác định mật
+khẩu và áp dụng chính sách với mật khẩu tùy theo mức độ bảo mật mà
+tổ chức cần áp đặt:
+▪ Mật khẩu phải có độ phức tạp cao, và độ dài tối thiểu 7 ký tự khi tạo
+tài khoản người dùng miền.
+▪ Tài khoản người dùng cục bộ không bị các ràng buộc này;
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.3. CHIẾN LƯỢC QUẢN TRỊ TÀI KHOẢN
+
+-- 12 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 13
+QUẢN TRỊ TÀI KHOẢN CỤC BỘ
+Công cụ quản lý tài khoản người dùng cục bộ:
+• Để tổ chức và quản lý người dùng cục bộ, ta dùng công cụ Local Users and
+Groups;
+• Với công cụ này thì bạn có thể tạo, xóa, sửa các tài khoản người dùng, cũng
+như thay đổi mật mã;
+• Có hai cách truy cập đến công cụ Local Users and Groups: MMC (Microsoft
+Management Console) Snap-in, hoặc Computer Management.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.3. CHIẾN LƯỢC QUẢN TRỊ TÀI KHOẢN
+
+-- 13 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 14
+QUẢN TRỊ TÀI KHOẢN CỤC BỘ
+Thêm Local Users and Groups Snap-In vào trong MMC:
+• Khởi chạy hộp thoại Run, nhập MMC và ấn phím Enter để mở của sổ MMC;
+• Chọn menu File → Add and Remove Snap-In để mở hộp thoại Add and Remove
+Snap-In;
+• Kích vào nút Add để mở hộp thoại Add Standalone Snap-in;
+• Chọn Local Users and Groups và nhấn Add.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.3. CHIẾN LƯỢC QUẢN TRỊ TÀI KHOẢN
+
+-- 14 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 15
+QUẢN TRỊ TÀI KHOẢN CỤC
+• Hộp thoại Choose Target Machine xuất hiện, chọn Local Computer và
+nhấn vào nút Finish để trở lại hộp thoại Add Standalone Snap-in;
+• Nhấn Close để trở lại hộp thoại Add and Remove Snap-in;
+• Nhấn OK để xác nhận, ta sẽ thấy Local Users and Groups snap-in
+được đưa vào MMC;
+• Lưu lại Console bằng cách chọn File → Save, nhập đường dẫn và tên
+file.
+Nếu không dùng MMC thì ta có thể sử dụng công cụ Computer
+Management. Kích phải chuột vào My Computer và chọn Manage từ Pop-
+up Menu. Trong mở cửa sổ Computer Management, mục System Tools, ta
+sẽ thấy mục Local Users and Groups
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.3. CHIẾN LƯỢC QUẢN TRỊ TÀI KHOẢN
+
+-- 15 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 16
+Tạo tài khoản mới: Từ Local Users and Groups, kích phải chuột vào mục
+Users và chọn New User, ta nhập vào các thông tin sau:
+• User Name: Tên tài khoản để đăng nhập;
+• Full Name: Tên đầy đủ của người dùng;
+• Description: Diễn giải về người dùng hoặc chức năng của người dùng;
+• Password: Mật khẩu xác thực, có độ dài tối đa 127 ký tự;
+• Confirm Password: Nhập lại mật khẩu để chắc chắn bạn đã nhập đúng;
+• User Must Change Password At Next Logon: Chọn tùy chọn này nếu bạn
+muốn người dùng phải thay đổi lại mật khẩu khi đăng nhập vào hệ thống
+lần đầu;
+• User Cannot Change Password: Người dùng sẽ không thay đổi lại được
+mật khẩu;
+• Password Nerver Expires: Mật khẩu không bao giờ bị hết hạn;
+• Account Is Disable: Vô hiệu hóa tài khoản, tài khoản bị khóa và không
+dùng được.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.4. CÁC TÁC VỤ QUẢN LÝ TÀI KHOẢN NGƯỜI DÙNG CỤC BỘ
+
+-- 16 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 17
+• Xóa tài khoản:
+▪ Bạn chỉ nên xóa tài khoản người dùng nếu chắc chắn rằng tài khoản
+này không bao giờ cần dùng lại nữa;
+▪ Để xóa tài khoản người dùng, trong Local Users and Groups, chọn tài
+khoản cần xóa, kích phải chuột và chọn Delete.
+• Khóa tài khoản:
+▪ Khi tài khoản sẽ không được sử dụng trong thời gian dài, ta nên khóa
+lại vì lý do bảo mật và an toàn hệ thống (Nếu ta xóa tài khoản này đi
+thì không thể phục hồi lại được, do đó ta chỉ tạm khóa);
+▪ Để khóa, trong Local Users and Groups, nhấn đúp chuột vào tài
+khoản cần khóa, hộp thoại Properties của tài khoản xuất hiện;
+▪ Trong Tab General, đánh dấu vào Account is Disabled. Nhấn Apply
+hoặc OK để lưu lại.
+• Đặt lại mật khẩu: Muốn khởi tạo lại mật khẩu của tài khoản, trong công
+cụ Local Users and Groups, chọn tài khoản cần thay đổi, kích phải
+chuột và chọn Reset Password. Trong hộp thoại nhập lại mật khẩu mới.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.4. CÁC TÁC VỤ QUẢN LÝ TÀI KHOẢN NGƯỜI DÙNG CỤC BỘ
+
+-- 17 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 18
+• Sử dụng công cụ Active Directory User and Computers (trong mục
+Administrative Tools) trên máy quản trị miền (Domain Controller) để tạo
+các tài khoản miền.
+• Để tạo đối tượng người dùng, bạn phải là thành viên của nhóm
+Enterprise Admins, Domain Admins hoặc Account Operators, hoặc bạn
+phải được ủy quyền quản trị cần thiết.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.5. QUẢN TRỊ TÀI KHOẢN TRÊN MIỀN
+
+-- 18 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 19
+TẠO MỚI TÀI KHOẢN NGƯỜI DÙNG
+• Tạo mới tài khoản người dùng:
+▪ Chọn Start → Programs → Administrative Tools → Active Directory
+Users and Computers.
+▪ Trong cửa sổ quản trị, chọn mục Users, chọn New → User. Trình trợ
+giúp (Wizard) tạo tài khoản người dùng xuất hiện.
+• Các trường thuộc tính:
+▪ First Name: Tên gọi của người dùng;
+▪ Last Name: Tên họ cùa người dùng;
+▪ Full name: Tên đầy đủ;
+▪ User Logon Name: Tên đăng nhập-tên của tài khoản sử dụng để
+đăng nhập (bắt buộc phải có), tên miền (trùng DNS). Tổ hợp này phải
+là duy nhất;
+▪ User Logon Name (Pre-Windows 2000): Tên tài khoản sử dụng để
+đăng nhập vào các máy khách trước Windows 2000 (bắt buộc).
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.5. QUẢN TRỊ TÀI KHOẢN TRÊN MIỀN
+
+-- 19 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 20
+TẠO MỚI TÀI KHOẢN NGƯỜI DÙNG
+• Nhấn Next để tiếp tục. Trong bước 2, bạn sẽ cần nhập mật khẩu và một
+số thuộc tính như khóa tài khoản, thay đổi mật khẩu – tương tự tài
+khoản cục bộ đã trình bày ở mục Tạo Tài khoản cục bộ.
+• Nhấn Next để tiếp tục.
+• Bước cuối là xác nhận và kết thúc việc tạo tài khoản.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.5. QUẢN TRỊ TÀI KHOẢN TRÊN MIỀN
+
+-- 20 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 21
+CẬP NHẬT THUỘC TÍNH TÀI KHOẢN NGƯỜI DÙNG
+Cập nhật thuộc tính tài khoản người dùng: Để cập nhật thông tin tài khoản,
+kích đúp tài khoản (hoặc chọn tài khoản, kích chuột phải và chọn menu
+Properties). Cửa sổ thông tin tài khoản xuất hiện với hơn 10 Tab thông tin:
+• Tab Address: Khai báo các
+thông tin liên quan đến địa chỉ
+của người dùng như: Địa chỉ
+đường, thành phố, mã vùng,
+quốc gia…;
+• Tab Telephones cho phép khai
+báo các số điện thoại của tài
+khoản người dùng.
+• Tab Organization cho phép
+khai báo các thông tin về: tên
+công ty, tên phòng ban, …
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.5. QUẢN TRỊ TÀI KHOẢN TRÊN MIỀN
+
+-- 21 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 22
+CẬP NHẬT THUỘC TÍNH TÀI KHOẢN NGƯỜI DÙNG
+• Tab Account: Cho phép khai báo lại User Name, giờ được đăng nhập
+(Logon) vào mạng của người dùng, quy định máy trạm mà người dùng
+có thể sử dụng để vào mạng, quy định các chính sách tài khoản, quy
+định thời điểm hết hạn của tài khoản…
+• Tab Profile: Cho phép khai báo đường dẫn đến Profile của tài khoản,
+khai báo tệp tin Logon Script hay khai báo Home Folder. Để ý các tùy
+chọn trong Tab Profile này chủ yếu phục vụ cho các máy trạm trước
+Windows 2000, đối với các máy trạm từ Win2K trở về sau (Win2K Pro,
+WinXP) thì ta có thể cấu hình các lựa chọn này trong Group Policy.
+• Tab Member Of: Cho phép xem và cấu hình tài khoản hiện tại là thành
+viên của những nhóm nào. Một tài khoản người dùng có thể là thành
+viên của nhiều nhóm khác nhau và nó được thừa hưởng quyền của tất
+cả các nhóm này. Muốn gia nhập vào nhóm nào bạn nhấp chuột vào
+nút Add.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.5. QUẢN TRỊ TÀI KHOẢN TRÊN MIỀN
+
+-- 22 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 23
+TẠO TÀI KHOẢN NHÓM
+Tạo tài khoản nhóm: Tài khoản nhóm trên Active Directory được tạo và
+quản trị thông qua công cụ Active Directory Users and Computers. Trước
+khi tạo nhóm, ta cần xác định loại nhóm cần tạo, phạm vi hoạt động của
+nhóm như thế nào.
+• Tạo tài khoản nhóm: Thực thi Active Directory Users and Computers từ
+menu Start → Programs → Administrative Tools → Active Directory
+Users and Computers. Kích phải chuột vào mục Users, chọn New trên
+pop-up menu và chọn Group.
+• Trong hộp thoại New Object – Group, nhập tên nhóm vào mục Group
+name, trường tên nhóm cho các hệ điều hành trước Windows 2000
+(Pre-Windows 2000) tự động được tạo, bạn có thể hiệu chỉnh lại cho
+phù hợp.
+1. QUẢN TRỊ NGƯỜI DÙNG
+1.3. TÀI KHOẢN NHÓM
+1.3.5. QUẢN TRỊ TÀI KHOẢN TRÊN MIỀN
+
+-- 23 of 51 --
+
+2. CHIA SẺ TÀI NGUYÊN
+NHẬP MÔN HỆ ĐIỀU HÀNH 24
+
+-- 24 of 51 --
+
+2. CHIA SẺ TÀI NGUYÊN
+NHẬP MÔN HỆ ĐIỀU HÀNH 25
+• Các tài nguyên chia sẻ là các tài nguyên trên mạng mà các người dùng
+có thể truy xuất và sử dụng thông qua mạng. Muốn chia sẻ một thư mục
+dùng chung trên mạng, bạn phải Logon vào hệ thống với vai trò
+người quản trị (Administrators) hoặc là thành viên của nhóm Server
+Operators.
+
+-- 25 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 26
+• Trong Explorer, kích phải chuột trên thư mục cần chia sẻ và chọn
+Properties, hộp thoại Properties xuất hiện, chọn Tab Sharing:
+▪ Do not share this folder: Thư mục chỉ được phép truy cập cục bộ;
+▪ Share this folder: Thư mục được phép truy cập cục bộ và qua mạng;
+▪ Share name: Tên chia sẻ thư mục (tên người dùng mạng nhìn thấy và
+truy cập);
+▪ Description: Mô tả gói tin;
+▪ User Limit: Số kết nối tối đa truy xuất vào thư mục tại một thời điểm;
+▪ Permissions: Thiết lập danh sách người dùng, nhóm có quyền truy cập
+qua mạng;
+▪ Offline Settings: Cho phép thư mục được lưu trữ tạm tài liệu khi làm
+việc dưới chế độ Offline.
+2. CHIA SẺ TÀI NGUYÊN
+
+-- 26 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 27
+• Hệ thống file NTFS:
+▪ NTFS là hệ thống tệp tin công nghệ mới được giới thiệu cùng với
+Windows NT;
+▪ Khác với hệ thống file FAT, NTFS hệ thống file được hỗ trợ bảo mật,
+nó giới hạn các thao tác truy cập dữ liệu trên đĩa đối với người dùng.
+• Danh sách các quyền:
+▪ Traverse Folder/Execute File: Quyền duyệt các thư mục và thi hành
+các file chương trình;
+▪ List Folder/Read Data: Liệt kê nội dung của thư mục và đọc dữ liệu
+của các tệp tin trong thư mục;
+▪ Read Attributes: Đọc các thuộc tính của tệp tin và thư mục;
+▪ Read Extended Attributes: Đọc các thuộc tính mở rộng của tệp tin và
+thư mục.
+2. CHIA SẺ TÀI NGUYÊN
+2.1. QUYỀN TRUY CẬP FILE
+
+-- 27 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 28
+Danh sách các quyền (tiếp theo):
+• Create File/Write Data: Tạo mới và ghi dữ liệu lên các tệp tin;
+• Create Folder/Append Data: Tạo thư mục mới và chèn thêm dữ liệu vào
+các tệp tin;
+• Write Attributes: Thay đổi thuộc tính của các tệp tin và thư mục;
+• Write Extendd Attributes: Thay đổi thuộc tính mở rộng của các tệp tin
+và thư mục;
+• Delete Subfolders and Files: Xóa thư mục con và các tệp tin;
+• Delete: Xóa các tệp tin;
+• Read Permissions: Đọc các quyền trên các tệp tin và thư mục;
+• Change Permissions: Thay đổi quyền trên các tệp tin và thư mục;
+• Take Ownership: Lấy quyền sở hữu của các tệp tin và thư mục.
+2. CHIA SẺ TÀI NGUYÊN
+2.1. QUYỀN TRUY CẬP FILE
+
+-- 28 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 29
+Gán quyền truy cập NTFS trên thư mục dùng chung: Để gán quyền trên NTFS,
+thông qua Windows Explorer bạn kích phải chuột vào tệp tin hay thư mục cần cấu
+hình quyền truy cập rồi chọn Properties. Hộp thoại Properties xuất hiện.
+Chọn Tab Security để cấp quyền cho các người dùng:
+• Để cấp quyền truy cập cho người
+dùng, nhấn Add. Hộp thoại chọn
+lựa người dùng và nhóm xuất
+hiện, chọn người dùng và nhóm
+cần cấp quyền, nhấp chuột vào
+nút Add để thêm vào danh sách,
+sau đó nhấp chuột vào nút OK để
+trở lại hộp thoại chính.
+• Trong hộp thoại đã hiện sẵn danh
+sách quyền, bạn muốn cho một
+người dùng quyền gì thì đánh dấu
+vào phần Allow, còn ngược lại
+muốn cấm quyền đó thì đánh
+dấu vào mục Deny.
+2. CHIA SẺ TÀI NGUYÊN
+2.2. GÁN QUYỀN TRUY CẬP NTFS
+
+-- 29 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 30
+• Trong hộp thoại chính trên, ta có thể kích chuột vào nút Advanced để
+cấu hình chi tiết hơn cho các quyền truy cập của người dùng.
+• Tùy chọn: Allow inheritable… and child objects cho phép thư mục hiện
+tại thừa hưởng quyền truy cập của thư mục cha, nếu muốn xóa thì bỏ
+tùy chọn này.
+2. CHIA SẺ TÀI NGUYÊN
+2.3. KẾ THỪA, THAY THẾ QUYỀN CỦA ĐỐI TƯỢNG CON
+
+-- 30 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 31
+• Khi ta sao chép (copy) một tệp tin hay thư mục sang một vị trí mới thì
+quyền truy cập trên tệp tin hay thư mục này sẽ thay đổi theo quyền
+trên thư mục cha chứa chúng.
+• Ngược lại, nếu ta di chuyển (move) một tệp tin hay thư mục sang bất kì
+vị trí nào thì các quyền trên chúng vẫn được giữ nguyên.
+2. CHIA SẺ TÀI NGUYÊN
+2.4. THAY ĐỔI QUYỀN KHI DI CHUYỂN THƯ MỤC VÀ TỆP TIN
+
+-- 31 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 32
+Nếu bạn muốn cấp quyền cho các người dùng truy cập qua mạng thì dùng
+Share Permissions.
+• Trong hộp thoại Share Permissions, chứa danh sách các quyền sau:
+▪ Full Control: Cho phép người dùng có toàn quyền trên thư mục chia sẻ.
+▪ Change: Cho phép người dùng thay đổi dữ liệu trên tệp tin và xóa tệp tin
+trong thư mục chia sẻ.
+▪ Read: Cho phép người dùng xem và thi hành các tệp tin trong thư mục
+chia sẻ.
+• Để lựa chọn người dùng, nhóm được truy cập, nhấn Add.
+• Trong hộp thoại, muốn cấp quyền cho người dùng, ta đánh dấu vào mục
+Allow, ngược lại để cấm quyền thì đánh dấu vào mục Deny.
+• Ví dụ:
+▪ Xem các thư mục dùng chung;
+▪ Xem các phiên làm việc trên thư mục dùng chung;
+▪ Xem các tệp tin đang mở trong các thư mục dùng chung.
+(Tham khảo giáo trình để biết cách truy cập)
+2. CHIA SẺ TÀI NGUYÊN
+2.5. SHARE PERMISSIONS
+
+-- 32 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 33
+• Trước khi có thể truy xuất vào thiết bị máy in vật lý thông qua hệ điều
+hành (Windows Server 2003) thì bạn cần tạo ra một máy in
+logic. Sử dụng đĩa CD được hãng sản xuất cung cấp kèm theo để cài
+đặt.
+• Ngoài ra, ta cũng có thể tạo ra một máy in logic bằng cách sử dụng tiện
+ích Add Priter Wizard. Bạn cần đăng nhập dưới tài khoản quản trị để
+thực hiện được các thao tác cài đặt thiết bị mới;
+• Bạn có thể tạo ra một máy in cục bộ tương ứng với một máy in vật lý
+được gắn trực tiếp vào máy tính cục bộ của mình hoặc tương ứng với
+một máy in mạng.
+2. CHIA SẺ TÀI NGUYÊN
+2.6. CHIA SẺ MÁY IN
+
+-- 33 of 51 --
+
+3. MẠNG MÁY TÍNH
+NHẬP MÔN HỆ ĐIỀU HÀNH 34
+
+-- 34 of 51 --
+
+3. MẠNG MÁY TÍNH
+NHẬP MÔN HỆ ĐIỀU HÀNH 35
+• Mạng máy tính là một nhóm các máy tính, thiết bị ngoại vi được nối kết
+với nhau thông qua các phương tiện truyền dẫn như cáp, sóng điện từ,...
+giúp cho các thiết bị này có thể trao đổi dữ liệu với nhau một cách dễ
+dàng.
+• Các thành phần cơ bản cấu thành nên mạng máy tính:
+▪ Các loại máy tính: Palm, Laptop, PC, MainFrame...;
+▪ Các thiết bị giao tiếp: Card mạng (NIC hay Adapter), Hub, Switch,
+Router...;
+▪ Môi trường truyền dẫn: cáp, sóng điện từ, sóng vi ba, tia hồng ngoại...;
+▪ Các protocol: TCP/IP, NetBeui, Apple Talk, IPX/SPX...;
+▪ Các hệ điều hành mạng: WinNT, Win2000, Win2003, Novell Netware,
+Unix...;
+▪ Các ứng dụng mạng: phần mềm quản lý kho bãi, phần mềm bán vé
+tàu...
+
+-- 35 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 36
+• Mạng LAN là một nhóm máy tính và các thiết bị truyền thông mạng
+được nối kết với nhau trong một khu vực nhỏ như một toà nhà cao ốc,
+khuôn viên trường đại học, khu giải trí ...
+• Đặc điểm hệ thống mạng LAN:
+▪ Băng thông lớn, có khả năng chạy các ứng dụng trực tuyến như xem
+phim, hội thảo qua mạng;
+▪ Kích thước mạng bị giới hạn bởi các thiết bị;
+▪ Chi phí các thiết bị mạng LAN tương đối rẻ;
+▪ Quản trị đơn giản.
+3. MẠNG MÁY TÍNH
+3.1. MẠNG CỤC BỘ LAN
+
+-- 36 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 37
+• Mạng đô thị MAN: Mạng MAN gần giống như mạng LAN nhưng giới
+hạn của nó là một thành phố hay một quốc gia.
+• Mạng MAN nối kết các mạng LAN lại với nhau thông qua các phương
+tiện truyền dẫn khác nhau (cáp quang, cáp đồng, sóng...) và các
+phương thức truyền thông khác nhau.
+• Đặc điểm của mạng MAN:
+▪ Băng thông mức trung bình, đủ để phục vụ các ứng dụng cấp thành
+phố hay quốc gia như chính phủ điện tử, thương mại điện tử, các
+ứng dụng của các ngân hàng...
+▪ Do MAN nối kết nhiều LAN với nhau nên độ phức tạp cũng tăng đồng
+thời công tác quản trị sẽ khó khăn hơn.
+▪ Chi phí các thiết bị mạng MAN tương đối đắt tiền.
+3. MẠNG MÁY TÍNH
+3.2. MẠNG ĐÔ THỊ MAN
+
+-- 37 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 38
+• Mạng diện rộng WAN: Bao phủ vùng địa lý rộng lớn có thể là một quốc
+gia, một lục địa hay toàn cầu;
+• Mạng WAN thường là mạng của các công ty đa quốc gia hay toàn cầu,
+điển hình là mạng Internet;
+• Đặc điểm của mạng WAN:
+▪ Băng thông thấp, dễ mất kết nối, thường chỉ phù hợp với các ứng
+dụng Offline như E-mail, Web, FTP...;
+▪ Phạm vi hoạt động rộng lớn không giới hạn;
+▪ Do kết nối của nhiều LAN, MAN lại với nhau nên mạng rất phức tạp
+và có tính toàn cầu nên thường là có tổ chức quốc tế đứng ra quản
+trị;
+▪ Chi phí cho các thiết bị và các công nghệ mạng WAN rất đắt tiền.
+3. MẠNG MÁY TÍNH
+3.3. MẠNG DIỆN RỘNG WAN
+
+-- 38 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 39
+• Khái niệm giao thức: Là quy tắc giao tiếp (tiêu chuẩn giao tiếp) giữa hai
+hệ thống giúp chúng hiểu và trao đổi dữ liệu được với nhau.
+• Các tổ chức chuẩn:
+▪ ITU (International Telecommunication Union): Hiệp hội Viễn thông
+quốc tế.
+▪ IEEE (Institute of Electrical and Electronic Engineers): Viện các kĩ sư
+điện và điện tử.
+▪ ISO (International Standardization Organization): Tổ chức Tiêu chuẩn
+quốc tế, trụ sở tại Geneve, Thụy Sĩ.
+• Mô hình OSI: Là một khuôn mẫu giúp chúng ta hiểu dữ liệu truyền qua
+mạng như thế nào đồng thời cũng giúp chúng ta hiểu được các chức
+năng mạng của mỗi lớp.
+3. MẠNG MÁY TÍNH
+3.4. MÔ HÌNH THAM CHIẾU OSI
+
+-- 39 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 40
+Trong mô hình OSI có bảy lớp, mỗi lớp mô tả một phần chức năng độc lập.
+Sự tách lớp của mô hình này mang lại những lợi ích sau:
+• Chia hoạt động thông tin mạng thành những phần nhỏ hơn, đơn giản
+hơn giúp chúng ta dễ khảo sát và tìm hiểu hơn.
+• Chuẩn hóa các thành phần mạng để cho phép phát triển mạng từ nhiều
+nhà cung cấp sản phẩm.
+• Ngăn chặn được tình trạng sự thay đổi của một lớp làm ảnh hưởng đến
+các lớp khác, như vậy giúp mỗi lớp có thể phát triển độc lập và nhanh
+chóng hơn.
+3. MẠNG MÁY TÍNH
+3.4. MÔ HÌNH THAM CHIẾU OSI
+
+-- 40 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 41
+LỢI ÍCH CỦA MÔ HÌNH THAM CHIẾU OSI
+Mô hình tham chiếu OSI được chia thành bảy lớp với các chức năng:
+• Application Layer (lớp ứng dụng): Giao diện giữa ứng dụng và mạng.
+• Presentation Layer (lớp trình bày): Thoả thuận khuôn dạng trao đổi dữ liệu.
+• Session Layer (lớp phiên): Cho phép người dùng thiết lập các kết nối.
+• Transport Layer (lớp vận chuyển): Đảm bảo truyền thông giữa hai hệ thống.
+• Network Layer (lớp mạng): Định hướng dữ liệu truyền trong môi trường liên mạng.
+• Data link Layer (lớp liên kết dữ liệu): Xác định việc truy xuất đến các thiết bị.
+• Physical Layer (lớp vật lý): Chuyển đổi dữ liệu thành các bit và truyền đi.
+3. MẠNG MÁY TÍNH
+3.4. MÔ HÌNH THAM CHIẾU OSI
+
+-- 41 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 42
+• TCP/IP là bộ giao thức được sử dụng trong việc liên lạc
+thông tin qua tập hợp các mạng Interconnected. Nó có thể
+được sử dụng để liên kết mạng trong một công ty, cơ quan
+mà không nhất thiết phải kết nối với các mạng
+khác bên ngoài.
+• Các lớp của mô hình tham chiếu TCP/IP:
+▪ Lớp Application: Quản lý các giao thức, như hỗ trợ việc
+trình bày, mã hóa, và quản lý cuộc gọi.
+▪ Lớp Transport: Đảm nhiệm việc vận chuyển từ nguồn
+đến đích.
+▪ Tầng Transport đảm nhiệm việc truyền dữ liệu thông qua
+hai giao thức: TCP (Transmission Control Protocol) và
+UDP (User Datagram Protocol).
+▪ Lớp Internet: Đảm nhiệm việc chọn lựa đường đi tốt
+nhất cho các gói tin. Giao thức được sử dụng chính ở
+tầng này là nghi thức IP (Internet Protocol).
+▪ Lớp Network Interface: Có tính chất tương tự như hai lớp
+Data Link và Physical trong kiến trúc OSI.
+Application
+Transport
+Internet
+Network
+Interface
+3. MẠNG MÁY TÍNH
+3.5. MÔ HÌNH TCP/IP
+
+-- 42 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 43
+CÁC LỚP ĐỊA CHỈ
+• Địa chỉ IP:
+▪ Là địa chỉ có cấu trúc, được chia làm hai phần: Network_ID và Host_ID
+▪ Là một số có kích thước 32 bit phiên bản 4 (128 bit đối với phiên bản 6). Ví dụ:
+192.168.0.1
+• Các lớp địa chỉ:
+▪ Lớp A: Dành 1 byte cho phần network_id và 3 byte cho phần host_id. Bit đầu
+tiên là bit 0 hay byte đầu tiên nằm trong khoảng từ 0 – 127;
+▪ Lớp B: Dành 2 byte cho mỗi phần network_id và host_id Dấu hiệu để nhận
+dạng địa chỉ lớp B là byte đầu tiên luôn bắt đầu bằng hai bit 10 và nằm trong
+khoảng từ 172 - 191;
+▪ Ví dụ: 172.29.10.1 thuộc lớp B.
+▪ Lớp C: Ba byte cho phần network_id và một byte cho phần host_id. Byte đầu
+tiên luôn bắt đầu bằng 3 bit 110. Vậy byte đầu tiên nằm trong khoảng 192 –
+223;
+▪ Ví dụ: 203.162.42.235 địa chỉ thuộc lớp C.
+▪ Lớp D và E: Các địa chỉ có byte đầu tiên nằm trong khoảng 224 đến 255 là các
+địa chỉ thuộc lớp D hoặc E.
+3. MẠNG MÁY TÍNH
+3.5. MÔ HÌNH TCP/IP
+
+-- 43 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 44
+• Dịch vụ DHCP là dịch vụ cho phép cấp phát động các thông số cấu
+hình mạng cho các máy trạm Client DHCP.
+• Ưu điểm so với cơ chế khai báo tĩnh các thông số mạng:
+▪ Khắc phục được tình trạng đụng địa chỉ IP và giảm chi phí quản trị
+cho hệ thống mạng;
+▪ Giúp cho các nhà cung cấp dịch vụ (ISP) tiết kiệm được số lượng địa
+chỉ IP thật (Public IP);
+▪ Phù hợp cho các máy tính thường xuyên di chuyển qua lại giữa các
+mạng;
+▪ Kết hợp với hệ thống mạng không dây (Wireless) cung cấp các điểm
+Hotspot như: Nhà ga, sân bay, trường học….
+3. MẠNG MÁY TÍNH
+3.6. DỊCH VỤ DHCP
+
+-- 44 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 45
+GIAO THỨC DHCP
+Tương tác giữa DHCP Client và Server:
+• Khi Client khởi động, nó gửi gói tin Broadcast DHCPDISCOVER, yêu cầu một
+Server DHCP phục vụ mình. Gói tin này cũng chứa địa chỉ MAC của máy Client;
+• Các máy DHCP Server trên mạng khi nhận được gói tin yêu cầu đó, nếu còn
+khả năng cung cấp địa chỉ IP, đều gửi lại cho máy Client gói tin DHCPOFFER,
+đề nghị cấp địa chỉ IP trong một khoản thời gian nhất định, kèm theo các thông
+tin mạng khác (Subnet Mask, địa chỉ của DHCP Server);
+• Máy Client sẽ lựa chọn một trong những đề nghị (DHCPOFFER) và gửi
+Broadcast lại gói tin DHCPREQUEST chấp nhận lời đề nghị đó. Điều này cho
+phép các lời đề nghị không được dùng sẽ được các Server rút lại và dùng để
+cấp phát cho Client khác.
+• Máy Server được Client chấp nhận sẽ gửi ngược lại một gói tin DHCPACK như
+là một lời xác nhận, cho biết là địa chỉ IP và thời hạn cho sử dụng sẽ chính thức
+được áp dụng. Ngoài ra Server còn gửi kèm theo những thông tin cấu hình bổ
+sung như địa chỉ của gateway mặc định, địa chỉ DNS Server, …
+3. MẠNG MÁY TÍNH
+3.6. DỊCH VỤ DHCP
+
+-- 45 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 46
+• DNS là hệ thống tên miền cho phép thiết lập tương ứng giữa địa chỉ IP
+và tên miền, liên kết nhiều thông tin đa dạng với tên miền được gán cho
+những người tham gia;
+• DNS là 1 cơ sở dữ liệu phân tán, hoạt động theo mô hình Client –
+Server;
+• Ý nghĩa quan trọng nhất là DNS chuyển tên miền có ý nghĩa đối với con
+người sang số định danh nhị phân, liên kết với các trang thiết bị mạng
+cho các mục đích định vị và địa chỉ hóa các thiết bị khắp thế giới. Tên
+miền internet dễ nhớ hơn các địa chỉ IP là các bộ số khó nhớ
+3. MẠNG MÁY TÍNH
+3.7. DỊCH VỤ DNS
+
+-- 46 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 47
+• Mỗi nhà cung cấp dịch vụ vận hành và duy trì DNS server riêng của mình, gồm
+các máy bên trong phần riêng của mỗi nhà cung cấp dịch vụ đó trong Internet;
+• INTERNIC (Internet Network Information Center) chịu trách nhiệm theo dõi các
+tên miền và các DNS server tương ứng. INTERNIC là một tổ chức được thành
+lập bởi NFS (National Science Foundation), AT&T và Network Solution, chịu
+trách nhiệm đăng ký các tên miền của Internet. INTERNIC chỉ có nhiệm vụ quản
+lý tất cả các DNS server trên Internet chứ không có nhiệm vụ phân giải tên cho
+từng địa chỉ;
+• DNS có khả năng tra vấn các DNS server khác để có được một cái tên đã được
+phân giải. DNS server của mỗi tên miền thường có hai việc khác biệt. Thứ nhất,
+chịu trách nhiệm phân giải tên từ các máy bên trong miền về các địa chỉ Internet,
+cả bên trong lẫn bên ngoài miền nó quản lí. Thứ hai, chúng trả lời các DNS
+server bên ngoài đang cố gắng phân giải những cái tên bên trong miền nó quản
+lí;
+• DNS server có khả năng ghi nhớ lại những tên vừa phân giải. Để dùng cho
+những yêu cầu phân giải lần sau. Số lượng những tên phân giải được lưu lại tùy
+thuộc vào quy mô của từng DNS.
+3. MẠNG MÁY TÍNH
+3.7. DỊCH VỤ DNS
+3.7.1. NGUYÊN TẮC LÀM VIỆC CỦA DNS
+
+-- 47 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 48
+• Do các DNS có tốc độ biên dịch khác nhau, có thể nhanh hoặc có thể
+chậm, do đó người sử dụng có thể chọn DNS server để sử dụng cho
+riêng mình.
+• Địa chỉ DNS server cũng là 4 nhóm số cách nhau bởi các dấu chấm.
+• Có các cách chọn lựa cho người sử dụng:
+▪ Sử dụng DNS mặc định của nhà cung cấp dịch vụ (internet), trường
+hợp này người sử dụng không cần điền địa chỉ DNS vào network
+connections trong máy của mình.
+▪ Sử dụng DNS server khác (miễn phí hoặc trả phí) thì phải điền địa chỉ
+DNS server vào network connections.
+3. MẠNG MÁY TÍNH
+3.7. DỊCH VỤ DNS
+3.7.2. CÁCH SỬ DỤNG DNS
+
+-- 48 of 51 --
+
+TÓM LƯỢC CUỐI BÀI
+NHẬP MÔN HỆ ĐIỀU HÀNH 49
+Các nội dung lưu ý của bài học:
+• Quản trị người dùng;
+• Các chiến lược quản trị và các công cụ quản trị;
+• Tài nguyên, chia sẻ tài nguyên;
+• Các quyền truy cập và các chế độ chia sẻ;
+• Dịch vụ mạng:
+▪ Dịch vụ DHCP;
+▪ Dịch vụ DNS.
+
+-- 49 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 50
+CÂU HỎI THƯỜNG GẶP
+• Hệ điều hành là gì?
+• Trả lời: Hệ điều hành là một chương trình quản lý phần cứng máy tính. Nó cung
+cấp nền tảng cho các chương trình ứng dụng và đóng vai trò trung gian giao tiếp
+giữ người dùng máy tính và phần cứng của máy tính đó. Hệ điều hành thiết lập
+cho các tác vụ này rất đa dạng. Một vài hệ điều hành thiết kế tiện dụng trong khi
+một số khác thiết kế hiệu quả hoặc kết hợp cả hai.
+Local User Domain User
+Công cụ quản lý Local User And Groups Active Directory User And
+Computers
+Nơi lưu tài khoản
+Quản lý các tài khoản bảo mật (SAM-
+Security Accounts Manager) trên
+từng máy tính cục bộ
+Active Directory
+Nơi đăng nhập Máy tính cục bộ Miền với Active Directory
+Truy cập Tài nguyên trên máy tính cục bộ Tài nguyên mạng trên miền
+1. Hệ điều hành Windows là gì?
+2. Nêu các thành phần cơ bản cấu thành nên mạng máy tính
+3. Tài khoản người dùng là gì?
+
+-- 50 of 51 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 51
+
+-- 51 of 51 --
+

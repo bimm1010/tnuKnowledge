@@ -1,0 +1,27 @@
+1
+CÂU HỎI THƯỜNG GẶP
+1. 	Cấu trúc dữ liệu và giải thuật là gì?
+2. 	Kiểu dữ liệu là gì? Trong nội dung môn học này có những kiểu dữ liệu nào?
+3. 	Ngôn ngữ diễn đạt giải thuật là gì? Có quy chuẩn nào cho việc sử dụng ngôn ngữ diễn đạt
+giải thuật không?
+4. 	Trong khai báo biến, có quy định nào cho việc đặt tên biến không?
+5. 	Ưu điểm lớn nhất của việc thiết kế giải thuật theo phương pháp đệ quy là gì?
+6. 	Phương pháp quay lui là gì?
+7. 	Định nghĩa danh sách con của một danh sách?
+8. 	Danh sách vòng đơn là gì?
+9. 	Danh sách vòng kép là gì?
+10. Những bước cơ bản để cài đặt danh sách liên kết?
+11. Khi nào nên sử dụng cấu trúc dữ liệu kiểu danh sách liên kết? Những nhược điểm của cấu
+trúc dữ liệu kiểu danh sách liên kết?
+12. Phân biệt sự khác nhau giữa cấu trúc dữ liệu kiểu ngăn xếp và cấu trúc dữ liệu kiểu
+danh sách?
+13. Nguyên lý quan trọng của cấu trúc dữ liệu kiểu ngăn xếp là gì?
+14. Khi cài đặt ngăn xếp bằng mảng thì hạn chế lớn nhất là gì? Cách khắc phục?
+15. Nguyên lý quan trọng của cấu trúc dữ liệu kiểu hàng đợi là gì?
+16. Khi nào nên cài đặt hàng đợi bằng mảng? Hạn chế của nó là gì?
+17. Mỗi nút được thăm bao nhiêu lần trong phép duyệt cây?
+18. Thế nào là tìm kiếm tuần tự? Ưu nhược điểm của phương pháp này?
+19. Tìm kiếm nhị phân là thế nào? Ưu nhược điểm của phương pháp này?
+
+-- 1 of 1 --
+

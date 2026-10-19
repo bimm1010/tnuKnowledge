@@ -1,0 +1,364 @@
+THUẬT NGỮ
+A
+Array (Mảng)
+Cấu trúc dữ liệu kiểu mảng.
+B
+Bậc
+Số các cây con của một đỉnh gọi là bậc của
+đỉnh đó.
+Biểu thức số học
+Biểu thức số học là một dãy các toán hạng
+(hằng, biến hoặc hàm) nối với nhau bởi các
+phép toán số học. Trong các biểu thức số học
+có thể chứa các dấu ngoặc tròn để chỉ ra thứ
+tự, trong đó các phép toán cần thực hiện.
+Boolean
+Kiểu dữ liệu logic.
+C
+Cập nhật (sửa đổi) giá trị cho một phần tử
+trong danh sách
+Thao tác này nhằm thay đổi nội dung của một
+phân tử trong danh sách. Tương tự như thao
+tác loại bỏ, trước khi thay đổi chúng ta phải
+thực hiện thao tác tìm kiếm phần tử cần được
+thay đổi.
+Câu lệnh điều kiện NẾU THÌ (IF THEN
+ELSE)
+Câu lệnh điều kiện được sử dụng để quản lý
+logic của thuật toán. Cụ thể, với cấu câu lệnh
+điều kiện, một lệnh hoặc đoạn lệnh chỉ được
+thực hiện trong trường hợp một hoặc nhiều
+điều kiện được thỏa mãn. Trong trường hợp
+ngược lại, một lệnh/đoạn lệnh thay thế sẽ
+được thực hiện.
+Câu lệnh gán
+Câu lệnh gán dùng để gán giá trị cho một
+biến. Giá trị có thể là một hằng số hoặc một
+biểu thức có cùng kiểu giá trị với biến.
+Câu lệnh hiển thị (Display)
+Câu lệnh hiển thị được dùng để hiển thị (đưa
+ra màn hình, ghi vào file ...) một xâu ký tự
+hằng số, hoặc để hiển thị giá trị của một biến.
+Câu lệnh vòng lặp không xác định
+Khi số lần lặp chưa được biết trước, chúng ta
+không thể sử dụng câu lệnh vòng lặp xác
+định. Khi đó, câu lệnh vòng lặp không xác
+định sẽ được sử dụng.
+Câu lệnh vòng lặp xác định (For)
+Câu lệnh lặp xác định được dùng để thực hiện
+lặp lại một đoạn lệnh với số lần lặp xác định
+trước. Câu lệnh lặp xác định thường sử dụng
+một biến chạy để kiểm soát số lần lặp. Biến
+chạy này thường thuộc kiểu số nguyên.
+Cây (Tree)
+Cây là một cấu trúc dữ liệu trừu tượng gồm
+một tập hữu hạn các phần tử gọi là nút (hay
+đỉnh). Giữa các nút có một quan hệ phân cấp
+gọi là quan hệ “cha – con” và một tập hợp
+hữu hạn những cạnh nối các cặp nút với nhau.
+Nếu cây không rỗng, có một nút gọi là nút
+gốc (root).
+Cây biểu thức
+Cây biểu thức là cây nhị phân gắn nhãn, biểu
+diễn cấu trúc của một biểu thức (số học hoặc
+logic).
+Cây con
+Từ định nghĩa cây ta có, mỗi đỉnh a bất kỳ
+của cây T là gốc của một cây nào đó, ta gọi
+cây này là cây con của cây T. Nó gồm đỉnh a
+và tất cả các đỉnh là hậu thế của a. Chẳng
+hạn, với cây T trong hình 5.1, T1 = {c, f, g, h,
+k} là một cây con.
+Cây được sắp xếp
+Trong một cây, nếu các cây con của mỗi đỉnh
+được sắp xếp theo một thứ tự nhất định, thì
+cây được gọi là cây được sắp xếp.
+Cây gắn nhãn
+Cây gắn nhãn là cây mà mỗi đỉnh của nó
+được gắn với một giá trị (nhãn) nào đó. Nói
+một cách khác, cây gắn nhãn là một cây cùng
+với một ánh xạ từ tập hợp các đỉnh của cây
+vào tập hợp nào đó các giá trị (các nhãn).
+Cây nhị phân
+Cây nhị phân là một cây, trong đó mỗi nút có
+nhiều nhất hai con.
+Cây nhị phân đầy đủ (Full binary tree)
+Nếu chiều cao của cây là h thì mọi nút có
+mức <= h – 1 đều có đúng 2 nút con.
+Cây nhị phân hoàn chỉnh (Complete binary
+tree)
+Nếu chiều cao của cây là h thì mọi nút có
+mức < h – 1 đều có đúng 2 nút con
+
+-- 1 of 4 --
+
+Cây nhị phân tìm kiếm
+Cây tìm kiếm nhị phân là cây nhị phân hoặc
+trống, hoặc thoả mãn các điều kiện sau.
+– Khoá của các đỉnh thuộc cây con trái nhỏ
+hơn khoá của gốc.
+– Khoá của gốc nhỏ hơn khoá của các đỉnh
+thuộc cây con phải của gốc.
+– Cây con trái và cây con phải của gốc cũng
+là cây tìm kiếm nhị phân.
+Cây tổng quát
+Cấu trúc cây, trong đó mỗi nút có nhiều hơn
+hai cây con gọi là cây tổng quát.
+Cây trò chơi
+Để thuận lợi cho việc nghiên cứu các chiến
+lược chọn nước đi cho trò chơi, chúng ta biểu
+diễn không gian trạng thái trên dưới dạng
+cây, gọi là cây trò chơi.
+Char
+Kiểu dữ liệu ký tự.
+Chiều dài đường đi
+Một dãy các đỉnh a1 , a2 ,... an , sao cho ai (i = 1,
+2,..., n – 1) là cha của ai + 1 được gọi là đường
+đi từ a1 đến an . Chiều dài đường đi này là số
+cành trên nó đó là n – 1. Ta có nhận xét rằng,
+luôn luôn tồn tại một đường đi duy nhất từ
+gốc tới một đỉnh bất kỳ trong cây. Mỗi nút có
+đường đi chiều dài bằng 0 đến chính nó.
+Clearstack (Xóa ngăn xếp)
+Chức năng: xóa tất cả các nút ở trong stack.
+Dữ liệu nhập: không.
+Dữ liệu xuất: stack top về vị trí khởi đầu.
+Copystack (Sao chép ngăn xếp)
+Chức năng: sao chép stack sang stack mới.
+Dữ liệu nhập: stack nguồn.
+Dữ liệu xuất: stack đích giống stack nguồn.
+D
+Danh sách
+Danh sách là một cấu trúc dữ liệu gồm một
+tập hữu hạn các phần tử có kiểu dữ liệu xác
+định và giữa các phần tử có mối liên hệ với
+nhau.
+Danh sách liên kết
+Danh sách liên kết là tập hợp các phần tử gọi
+là nút (node). Mỗi nút chứa dữ liệu về phần
+tử của danh sách và con trỏ chỉ vị trí của nút
+chứa phần tử khác trong danh sách. Con trỏ là
+địa chỉ trong bộ nhớ về nút tiếp theo của danh
+sách. Do vậy, các nút trong danh sách không
+cần phải lưu trữ liên tiếp nhau trong bộ nhớ
+và kích thức của danh sách có thể mở rộng
+tùy ý (chỉ giới hạn về dung lượng bộ nhớ).
+Danh sách liên kết đơn
+Danh sách liên kết đơn là danh sách liên kết
+bao gồm các nút được nối với nhau theo một
+chiều.
+Danh sách liên kết đôi/kép
+Danh sách liên kết kép là danh sách liên kết
+mà mỗi nút trong danh sách ngoài thành phần
+dữ liệu còn có hai con trỏ; một trỏ tới nút kế
+tiếp; một trở đến nút liền trước nó.
+Danh sách liên kết vòng đơn
+Trong danh sách liên kết đơn, trường liên kết
+của nút cuối cùng được gán một giá trị đặc
+biệt. Nếu ta cho trường liên kết của nút cuối
+cùng trỏ thẳng về nút đầu tiên của danh sách,
+khi đó ta sẽ được một kiểu danh sách liên kết
+mới gọi là danh sách liên kết vòng đơn.
+Danh sách liên kết vòng kép
+Danh sách liên kết vòng kép là danh sách liên
+liên kết kép trong trường hợp con trỏ Prev
+của nút đầu tiên trong danh sách trỏ thẳng
+đến nút cuối cùng trong danh sách và con trỏ
+Link của nút cuối cùng trong danh sách đó
+chỉ thẳng đến nút đầu tiên của danh sách.
+Duyệt các nút trên cây nhị phân
+Phép duyệt cây là phép duyệt các nút trên cây
+một cách hệ thống sao cho mỗi nút chỉ được
+thăm một lần. Trong thao tác này, chúng ta tìm
+cách duyệt qua tất cả các nút trên cây nhị phân
+để thực hiện một thao tác xử lý nào đó đối với
+nút (như xem nội dung thành phần dữ liệu).
+Đ
+Đệ quy (Recurrence)
+Recurrence trong tiếng Anh có nghĩa là gọi
+lại. Bản chất của việc thiết kế giải thuật theo
+phương pháp đệ quy là việc gọi lại chính giải
+thuật đó trong quá trình thiết kế giải thuật.
+Các giải thuật được thiết kế theo phương pháp
+đệ quy được gọi chung là giải thuật đệ quy.
+
+-- 2 of 4 --
+
+Độ cao, mức
+Trong một cây, độ cao của một đỉnh a là độ
+dài của đường đi dài nhất từ a đến một lá. Độ
+cao của gốc được gọi là độ cao của cây. Mức
+(độ sâu) của đỉnh a là độ dài của đường đi từ
+gốc đến a. Như vậy, gốc có mức 0.
+E
+Empty
+Chức năng kiểm tra stack có bị rỗng không.
+Dữ liệu nhập: Không.
+Dữ liệu xuất: True or False (True: khi stack
+rỗng, False: stack không bị rỗng).
+H
+Hàng đợi
+Kiểu dữ liệu hàng đợi là kiểu dữ liệu, trong
+đó phần tử được đưa vào trước sẽ được loại
+bỏ trước. Kiểu dữ liệu hàng đợi còn được gọi
+là kiểu dữ liệu FIFO (First – In, First – Out),
+có nghĩa là vào trước ra trước.
+Hủy danh sách
+Thao tác này thực hiện việc xóa bỏ toàn bộ
+nội dung của một danh sách để thành một
+danh sách rỗng.
+Hủy một nút trên cây nhị phân
+Việc hủy một nút trong cây có thể làm cho cây
+thành rừng. Vì vậy, khi tiến hành hủy một nút
+nếu nút đó là lá thì không có điều gì xẩy ra
+song nếu hủy một nút không phải là lá thì
+chúng ta phải tìm cách chuyển các nút gốc cây
+con của nút cần hủy thành các nút gốc cây con
+của các nút khác rồi mới tiến hành hủy nút này.
+I
+Initialize (Khởi động) Chức
+năng: Khởi động stack. Dữ
+liệu nhập: Không.
+Dữ liệu xuất: stack top về vị trí khởi đầu.
+Interger
+Kiểu dữ liệu số nguyên.
+K
+Khởi tạo cây nhị phân
+Việc khởi tạo cây nhị phân chỉ đơn giản là
+cho con trỏ quản lí địa chỉ nút gốc về con trỏ
+NULL.
+Ký pháp trung tố (Infix)
+Chẳng hạn, xét biểu thức:
+5 + 8 / (3 + 1) * 3
+Giá trị của biểu thức này được tính như sau :
+5 + 8/(3 + 1) * 3 = 5 + 8/4 * 3
+= 5 + 2 * 3 = 5 + 6 = 11
+Trong đa số các ngôn ngữ lập trình, các biểu
+thức được biểu diễn như trên gọi là kí pháp
+trung tố (Infix).
+L
+Lá
+Các đỉnh có bậc bằng không được gọi là lá
+của cây.
+Loại bỏ bớt một phần tử ra khỏi danh
+sách
+Thao tác này sẽ loại bớt một phần tử ra khỏi
+danh sách. Do vậy, nếu việc loại bỏ này thành
+công thì chiều dài của danh sách sẽ bị giảm đi 1.
+N
+Ngăn xếp
+Ngăn xếp (còn gọi là bộ xếp chồng, tiếng
+Anh: stack) là một cấu trúc dữ liệu trừu tượng
+hoạt động theo nguyên lý "vào sau ra trước"
+(Last In, First Out: LIFO).
+Nhập 	nhiều 	danh 	sách 	thành 	một
+danh sách
+Thao tác này tiến hành nhập nhiều danh sách
+con thành một danh sách có chiều dài bằng
+tổng chiều dài các danh sách con.
+P
+Phương pháp quay lui
+Vấn đề khi cần giải quyết thường được chia
+nhỏ thành nhiều tầng theo hướng đệ quy.
+Việc tìm lời giải cho tầng dưới sẽ được thực
+hiện bằng một lời gọi đệ quy. Nếu không tìm
+được lời giải cho tầng dưới thì quay lui lên
+tầng trên để thử lời giải tiếp theo. Vì vậy,
+phương pháp này được gọi là phương pháp
+quay lui.
+Pointer (Con trỏ)
+Con trỏ là địa chỉ ấn định trong bộ nhớ, để
+đánh dấu vị trí cất gửi dữ liệu của một đối
+tượng. Kiểu dữ liệu con trỏ.
+Pop
+Chức năng: xóa nút tại đỉnh stack.
+
+-- 3 of 4 --
+
+Dữ liệu nhập: Không.
+Điều kiện: stack không bị rỗng.
+Dữ liệu xuất: nút bị xóa.
+Push
+Chức năng: thêm nút mới tại đỉnh stack.
+Dữ liệu nhập: nút mới.
+Dữ liệu xuất: không.
+R
+Real
+Kiểu dữ liệu số thực.
+Record
+Cấu trúc dữ liệu bản ghi. Có trường hợp gọi
+là mẩu tin
+Rừng
+Một rừng F là một danh sách các cây:
+F = (T 1 , T2 , ..., Tn )
+trong đó Ti (i = 1, ..., n) là cây (cây được sắp).
+S
+Sao chép một danh sách
+Thao tác này thực hiện việc sao chép toàn
+bộ nội dung từ một danh sách này sang một
+danh sách khác sao cho sau khi sao chép ta có
+các danh sách giống hệt nhau về nội dung và
+cấu trúc.
+Sắp xếp
+Sắp xếp là quá trình xử lý một danh sách
+các phần tử (hoặc các mẫu tin) để đặt chúng
+theo một thứ tự thỏa mãn tiêu chuẩn nào đó
+dựa trên nội dung thông tin lưu giữ tại mỗi
+phần tử.
+Sắp xếp thứ tự các phần tử trong
+danh sách
+Trong thao tác này chúng ta sẽ vận dụng các
+thuật toán sắp xếp để sắp các phần tử trong
+danh sách theo một trật tự nào đó.
+Stacksize (Kích thước ngăn xếp)
+Chức năng: xác định số nút hiện có trong stack.
+Dữ liệu: Không.
+Dữ liệu xuất: số nút hiện có trong stack.
+Stacktop (Đỉnh ngăn xếp)
+Chức năng: truy xuất nút tại đỉnh stack.
+Dữ liệu nhập: Không.
+Điều kiện: stack không bị rỗng.
+Dữ liệu xuất: nút tại đỉnh stack.
+T
+Tách 	một 	danh 	sách 	thành 	nhiều
+danh sách
+Thao tác này thực hiện việc chia một danh
+sách thành nhiều danh sách con theo một qui
+định nào đó. Kết quả: sau khi tách, tổng chiều
+dài trong các danh sách con phải bằng chiều
+dài của danh sách ban đầu cộng lại.
+Tạo mới một danh sách
+Chúng ta sẽ đưa vào danh sách nội dung của
+các phần tử, để thiết lập một danh sách mới.
+Tạo một nút mới
+Việc cài đặt thủ tục này tương tự như cài
+đặt thủ tục tạo một nút mới cho danh sách
+liên kết.
+Thao tác lấy ra khỏi hàng đợi (Dequeue)
+Phần tử được lấy ra là phần tử đầu tiên của
+hàng đợi, hay chính là phần tử được trỏ bởi
+con trỏ H. Như vậy, phần tử đầu tiên của
+hàng đợi bây giờ chính là phần tử đứng
+ngay sau phần tử được trỏ bởi con trỏ H, hay
+chính là phần tử được qui định bởi trường
+tiep_theo.
+Thao tác xếp vào hàng đợi (Enqueue) Một
+phần tử mới được xếp vào hàng đợi sẽ nằm ở
+cuối hàng đợi, hay nằm ở cuối danh sách
+q.noi_dung. Vì vậy việc đưa một phần
+tử vào hàng đợi chính là tạo và đưa một phần
+tử mới vào danh sách.
+Thêm một nút vào trong cây nhị phân Việc
+thêm một nút mới vào vào cây có thể diễn ra ở
+cây con bên trái hoặc cây con bên phải.
+Thêm một phần tử vào danh sách
+Thao tác này nhằm thêm một phần tử vào
+trong danh sách. Nếu việc thêm thành công
+thì chiều dài danh sách sẽ tăng lên 1.
+Tìm kiếm một phần tử trong danh sách
+Thao tác này sẽ vận dụng các thuật toán tìm
+kiếm để tìm kiếm một phần tử trên danh sách
+thỏa mãn một tiêu chuẩn nào đó.
+
+-- 4 of 4 --
+

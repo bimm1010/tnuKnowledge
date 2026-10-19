@@ -1,0 +1,221 @@
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+ĐỀ CƯƠNG CHI TIẾT
+INTT202 - NHẬP MÔN HỆ ĐIỀU HÀNH
+Số tín chỉ: 03
+Thời gian học tập: 18/10/2026-12/12/2026
+Điều kiện để được đi thi: Không vi phạm đạo đức khoa học ở mức bị cấm thi; Điểm chuyên cần và điểm
+thành phần >=2,0.
+Điều kiện để hoàn thành học phần: Điểm tổng kết >=4,0 (thang điểm 10, điểm hệ chữ D)
+Chú ý:
+Trường hợp 1:Học viên không đủ điều kiện dự thi phải học lại
+Trường hợp 2: Học viên đủ điều kiện dự thi
+- Điểm tổng kết học phần < 4,0 (thang điểm 10, điểm hệ chữ F): học lại.
+- Điểm thi = 0 do vắng thi: thi lại.
+I. MỤC TIÊU MÔN HỌC
+Cung cấp cho học viên những kiến thức, kỹ năng cơ bản về hệ điều hành và microsoft windows. Sau khi
+hoàn thành môn học, học viên sẽ:
+- Nắm được các kiến thức cơ sở liên quan đến hệ điều hành như quản lý tiến trình, bộ nhớ, bộ xử lý, bộ
+nhớ ngoài
+- Nắm được các kỹ năng cơ bản để quản trị hệ điều hành Microsoft windows: cài đặt, cấu hình, quản trị tài
+nguyên
+II. NỘI DUNG MÔN HỌC
+- Bài 1. Tổng quan về hệ điều hành
+- Bài 2. Quản lý tiến trình
+- Bài 3. Đồng bộ và giải quyết tranh chấp
+Trang 1 / 6
+
+-- 1 of 6 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+- Bài 4. Quản lý bộ nhớ
+- Bài 5. Bộ nhớ ngoài
+- Bài 6. Microsoft windows
+- Bài 7. Quản trị Windows
+III. TÀI LIỆU HỌC TẬP
+Tài liệu học tập chính
+- Slides, bài giảng môn Nhập môn hệ điều hành trên https://tnu.aum.edu.vn/
+Tài liệu tham khảo
+[1] “Operating System Concepts”. A. Silberschatz, P. B. Galvin, G. Gagne, Wiley & Sons, 2002.
+[2] “Operating Systems”, H. M. Deitel, P. J. Deitel and D. R. Choffnes, Pearson Education International,
+2004.
+[3] “Modern Operating Systems”. Andrew S. Tanenbaum, Prentice-Hall International, 2001.
+[4] “Operating Systems – Internals and Design Principles”. William Stallings, Pearson Education
+International, 2005.
+IV. NHIỆM VỤ HỌC TẬP
++ Dự lớp: Tham gia đầy đủ các tuần học trên bộ dữ liệu điện tử.
++ Bài tập, thảo luận: Hoàn thành các bài luyện tập, thảo luận trên diễn đàn, hỏi/đáp.
+Để học tốt và đảm bảo tiến độ học tập, học viên cần làm đủ các bài luyện tập trắc nghiệm (LTTN), bài
+kiểm tra (KT), trao đổi với giảng viên trên lớp học. Nội dung cụ thể được mô tả dưới đây:
+- Trắc nghiệm trực tuyến
+o Luyện tập trắc nghiệm:
+Trang 2 / 6
+
+-- 2 of 6 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+Bài tập Nội dung bài tập Mục đích
+LTTN 1 15 câu trắc nghiệm Luyện tập chương 1
+LTTN 2 15 câu trắc nghiệm Luyện tập chương 2
+LTTN 3 15 câu trắc nghiệm Luyện tập chương 3
+LTTN 4 15 câu trắc nghiệm Luyện tập chương 4
+LTTN 5 15 câu trắc nghiệm Luyện tập chương 5
+LTTN 6 15 câu trắc nghiệm Luyện tập chương 6
+LTTN 7 15 câu trắc nghiệm Luyện tập chương 7
+o Bài tập về nhà (Tính điểm giữa kỳ): 30%
+Bài tập Nội dung bài tập Nội dung % trong điểm tổng kết
+KT 1 20 câu trắc nghiệm Kiểm tra kiến thức bài
+1- 3
+15%
+KT 2 20 câu trắc nghiệm Kiểm tra kiến thức bài
+4-7
+15%
+V. LỊCH TRÌNH HỌC TẬP
+Thời gian Nhiệm vụ
+Bài giảng
+(Lecture)
+Trao đổi,
+giải đáp
+(Interaction)
+Luyện
+tập
+(Practice)
+Đánh giá
+(Exam)
+Tuần 1
+(18/10/2026 -
+24/10/2026)
+Bài 1. Tổng quan về hệ điều hành Trao đổi –
+Thảo luận
+LTTN 1
+Tuần 2
+(25/10/2026 -
+31/10/2026)
+Bài 2. Quản lý tiến trình Trao đổi –
+Thảo luận
+LTTN 2
+Tuần 3
+(01/11/2026 -
+Bài 3. Lập lịch Trao đổi –
+Thảo luận
+LTTN 3
+Trang 3 / 6
+
+-- 3 of 6 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+07/11/2026)
+Tuần 4
+(08/11/2026 -
+14/11/2026)
+Ôn tập và làm bài kiểm tra Trao đổi –
+Thảo luận
+Bài kiểm tra 1
+Hạn cuối
+23h55 ngày
+15/11/2026
+Tuần 5
+(15/11/2026 -
+21/11/2026)
+Bài 4. Quản lý bộ nhớ Trao đổi –
+Thảo luận
+LTTN 4
+Tuần 6
+(22/11/2026 -
+28/11/2026)
+Bài 5. Bộ nhớ ngoài Trao đổi –
+Thảo luận
+LTTN 5
+Tuần 7
+(29/11/2026 -
+05/12/2026)
+Bài 6. Microsoft windows Trao đổi –
+Thảo luận
+LTTN 6
+Tuần 8
+(06/12/2026 -
+12/12/2026)
+Bài 7. Quản trị Windows Trao đổi –
+Thảo luận
+LTTN 7 Bài kiểm tra 2
+Hạn cuối
+23h55
+ngày
+13/12/2026
+Tuần 9+10
+(13/12/2026 -
+26/12/2026)
+- LỚP HỌC ĐÃ KẾT THÚC
+Anh/Chị học viên tự Ôn tập - Luyện thi.
+THI TẬP TRUNG – KẾT THÚC HỌC PHẦN
+Thời gian dự kiến: 20/12/2026
+VI. CÁCH THỨC CHẤM ĐIỂM
+- Điểm chuyên cần (chiếm 20% điểm tổng kết học phần), đánh giá qua 2 tiêu chí sau, tiêu chí 1
+chiếm 10%, tiêu chí 2 chiếm 10%:
++ Tiêu chí 1: Hoàn thành đầy đủ các bài giảng điện tử trên hệ thống LMS
+Tiêu chí Trọng số trong
+điểm CC (%)
+Mô tả
+Hoàn thành đầy đủ
+các bài giảng điện
+tử trên hệ thống
+10% Điểm số được ghi nhận tương đương tỷ lệ hoàn thành bài giảng
+điện tử trên hệ thống theo thang điểm 10 và làm tròn tới 0.5
+điểm
+Trang 4 / 6
+
+-- 4 of 6 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+LMS
++ Tiêu chí 2: Điểm trung bình các bài luyện tập, thực hành trên hệ thống
+Tiêu chí Trọng số trong
+điểm CC (%)
+Mô tả
+Điểm trung bình
+các bài luyện tập,
+thực hành trên hệ
+thống
+10% - Bài luyện tập, thực hành không giới hạn số lần làm, lấy điểm
+cao nhất
+- Điều kiện bắt buộc: Không có bài nào <2 điểm
+- Điểm giữa kỳ (chiếm 30% điểm tổng kết học phần).
+Bài tập tính điểm 30%, học viên được phép làm tối đa 3 lần tính điểm trung bình cộng.
+Điểm giữa kỳ 30% là điểm trung bình của 2 bài kiểm tra (BKT1 và BKT2). Để được dự thi thì điểm kiểm
+tra giữa kỳ>=2,0 điểm (tính theo thang điểm 10).
+- Điểm thi hết học phần (chiếm 50% điểm tổng kết học phần):
+Áp dụng thi theo hình thức viết tự luận và trắc nghiệm
+VII. CÁC YÊU CẦU ĐỐI VỚI HỌC VIÊN
+- Học viên cần nắm vững kế hoạch học tập.
+- Để đạt được kết quả học tập tốt nhất, học viên cần phải học tập nội dung môn học trên bài giảng điện tử
+và hoàn thành các bài luyện tập trắc nghiệm.
+- Học viên có thắc mắc nên trao đổi với bạn cùng nhóm, sau đó với trưởng nhóm, nếu còn không hiểu thì
+hỏi giảng viên để được giải đáp.
+- Trong trường hợp học viên có thắc mắc về điểm, đề nghị liên hệ trực tiếp với giáo viên chủ nhiệm, quản
+lý học tập lớp mình để nhận được sự trợ giúp.
+VIII. GIẢNG VIÊN
+- Giảng viên chuyên môn:
+Đỗ Thị Thu Hiền, Email: dothithuhien@tnus.edu.vn, Số điện thoại:
+- Hỗ trợ giải đáp thắc mắc:
+Trang 5 / 6
+
+-- 5 of 6 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+Lớp GVCN Số điện thoại Email
+AUM0226HN Bế Nhật Minh 0965483565 minhbn@tnu.edu.vn
+AUM0326HC,AUM0326TN Đỗ Huyền Trang 0912428555 huyentrang@tnu.edu.vn
+- Quản lý học tập:
+AUM0226HN:
+Phạm Vân Khánh, SĐT: 0963790294, Email: aum.khanhpv@gmail.com
+AUM0326HC:
+Đinh Thùy Linh, SĐT: 0945193172, Email: linhdinhthuy@aum.edu.vn
+AUM0326TN:
+Nguyễn Thị Thùy Dương, SĐT: 0982040715, Email: Duongnguyenthithuy@aum.edu.vn
+CHÚC ANH/CHỊ HỌC TẬP TỐT!
+…………….., ngày tháng năm
+Giảng viên chuyên môn
+Powered by TCPDF (www.tcpdf.org)
+Trang 6 / 6
+
+-- 6 of 6 --
+

@@ -7,7 +7,7 @@ const path = require('path');
 
 const wstoken = '0dbcb4e17f9b914e0118f6d5ef55ae54';
 const userid = '25451';
-const baseDir = '/Volumes/MacEX/MacStorageEX/.gemini/antigravity/scratch/etnu-knowledge';
+const baseDir = __dirname;
 
 function callMoodle(wsfunction, params = {}) {
   let paramStr = `wstoken=${wstoken}&wsfunction=${wsfunction}&moodlewsrestformat=json`;

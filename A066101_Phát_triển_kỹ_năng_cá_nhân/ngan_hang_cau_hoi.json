@@ -682,5 +682,140 @@
     "options": [],
     "correctAnswer": "Sử dụng điện thoại quá nhiều",
     "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Thành viên nhóm nên hành xử như thế nào khi nhóm đưa ra một quyết định không trùng hợp với quan điểm của mình?",
+    "options": [],
+    "correctAnswer": "Chấp nhận vì đó là quyết định đã dựa trên những nguyên tắc và giá trị chung đã được thỏa hiệp của nhóm",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Phương án nào sau đây không phải là ý nghĩa tích cực của việc phân công trách nhiệm cá nhân trong khi làm việc nhóm?",
+    "options": [],
+    "correctAnswer": "Giúp từng thành viên nhận thức rõ hơn về lợi ích cá nhân trong khi làm việc nhóm",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Điều gì cần phải được thực hiện trước khi thành lập nhóm?",
+    "options": [],
+    "correctAnswer": "Xác định mục tiêu thành lập nhóm",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Trong trường hợp nào thì doanh nghiệp chưa cần thành lập nhóm để giải quyết công việc?",
+    "options": [],
+    "correctAnswer": "Khi các cá nhân có thể dễ dàng làm việc độc lập",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Xác định một luận điểm đúng trong số các luận điểm dưới đây bàn về vấn đề mâu thuẫn nhóm:",
+    "options": [],
+    "correctAnswer": "Khi hoạt động nhóm, tất yếu sẽ nảy sinh nhiều mâu thuẫn vì nhóm là sự tập hợp của những con người với quan niệm, tính cách, năng lực, kinh nghiệm... khác nhau",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Tác hại của sự chia rẽ, mất đoàn kết trong khi làm việc nhóm là gì?",
+    "options": [],
+    "correctAnswer": "Làm suy giảm tinh thần và hiệu quả làm việc của các thành viên",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Sau khi đã xác định được mục tiêu, bước tiếp theo nhóm cần phải làm là:",
+    "options": [],
+    "correctAnswer": "xác định những công việc mà nhóm cần thực hiện",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Hành động nào dưới đây sẽ làm giảm tác dụng của hoạt động nhóm trong môi trường học tập?",
+    "options": [],
+    "correctAnswer": "Dựa dẫm, ỷ lại vào thành quả học tập của người khác trong nhóm",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Tìm phương án trả lời đúng nhất. Vì sao để công việc nhóm được triển khai hiệu quả, các thành viên nhóm cần phải thể hiện tốt trách nhiệm cá nhân?",
+    "options": [],
+    "correctAnswer": "Chỉ khi các thành viên đều đồng thuận, chia sẻ trách nhiệm và có ý thức trách nhiệm với công việc chung thì nhóm mới có thể làm việc hiệu quả",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Trong môi trường học tập, khi nào thì nên thành lập nhóm?",
+    "options": [],
+    "correctAnswer": "Khi thực hiện một bài tập lớn cần có kiến thức tổng hợp",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Tìm phương án đúng nhất. Khi các nhóm trong doanh nghiệp đều làm việc có hiệu quả thì sẽ mang lại điều gì cho doanh nghiệp?",
+    "options": [],
+    "correctAnswer": "Uy tín và giá trị thương hiệu của doanh nghiệp được nâng cao",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Trong cuộc họp nhóm, người điều hành cần xử trí như thế nào khi có thành viên phản đối gay gắt quan điểm của mình?",
+    "options": [],
+    "correctAnswer": "Bình tĩnh, lắng nghe để điều chỉnh",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Để xây dựng mối quan hệ tốt đẹp giữa các thành viên trong nhóm, người trưởng nhóm không nên làm gì?",
+    "options": [],
+    "correctAnswer": "Đối xử thiếu công bằng với các thành viên trong nhóm",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Một thành viên nhóm nên ứng xử thế nào khi không hoàn thành công việc được giao?",
+    "options": [],
+    "correctAnswer": "Thành khẩn nhận lỗi và tìm mọi cách khắc phục sai sót",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A066101",
+    "courseName": "Phát triển kỹ năng cá nhân",
+    "quizName": "Bài luyện tập 6",
+    "question": "Chọn trong các phương án dưới đây một phương án mà người điều hành cuộc họp nhóm không nên làm khi không khí cuộc họp nhóm buồn tẻ, các thành viên không tham gia phát biểu:",
+    "options": [],
+    "correctAnswer": "Nhanh chóng kết thúc cuộc họp",
+    "userAnswerState": "Đúng"
   }
 ]

@@ -1,0 +1,395 @@
+NGĂN XẾP
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 1
+BÀI 3
+
+-- 1 of 29 --
+
+MỤC TIÊU
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 2
+• Mô tả đúng về khái niệm của ngăn xếp và phân biệt ngăn xếp
+với danh sách;
+• Trình bày các đặc tả ngăn xếp một cách chính xác;
+• Mô tả các phương án cài đặt ngăn xếp bằng mảng và bằng
+danh sách liên kết;
+• Sử dụng cấu trúc dữ liệu ngăn xếp để giải quyết các bài toán
+trong thực tế.
+
+-- 2 of 29 --
+
+NỘI DUNG
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 3
+• Khái niệm ngăn xếp;
+• Đặc tả ngăn xếp;
+• Các phươngán cài đặt
+ngăn xếp;
+• Ứng dụng của ngăn xếp. Một ngăn xếp của
+những đồng xu Một chồng áo sơ mi
+gọn gàng
+Một ngăn xếp của
+những hộp giấy	Một chồng khay cafe
+
+-- 3 of 29 --
+
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 4
+1. KHÁI NIỆM NGĂN XẾP
+
+-- 4 of 29 --
+
+1. KHÁI NIỆM NGĂN XẾP
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 5
+Ngăn xếp là một dạng đặc biệt của danh
+sách mà việc bổ sung (push) hay loại bỏ
+(pop) một phần tử đều được thực hiện ở
+một đầu của danh sách gọi là đỉnh
+(Nguyên tắc LIFO - Last In First Out).
+Hình 3.1. Lược đồ ngăn xếp
+
+-- 5 of 29 --
+
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 6
+2. ĐẶC TẢ NGĂN XẾP
+
+-- 6 of 29 --
+
+2. ĐẶC TẢ NGĂN XẾP
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 7
+• Đặc tả dữ liệu:
+➢ Có nhiều nút cùng một kiểu;
+➢ Có đỉnh stack (top);
+• Đặc tả các tác vụ trên stack:
+➢ Initialize:
+▪ Chức năng: Khởi động stack;
+▪ Dữ liệu nhập: Không;
+▪ Dữ liệu xuất: stack top về vị trí khởi đầu.
+➢ Empty:
+▪ Chức năng kiểm tra stack có bị rỗng không;
+▪ Dữ liệu nhập: Không;
+▪ Dữ liệu xuất: True or False (True: khi stack rỗng, False: stack
+không bị rỗng).
+
+-- 7 of 29 --
+
+2. ĐẶC TẢ NGĂN XẾP
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 8
+• Push:
+➢ Chức năng: Thêm nút mới tại đỉnh stack;
+➢ Dữ liệu nhập: Nút mới;
+➢ Dữ liệu xuất: Không.
+• Pop:
+➢ Chức năng: Xóa nút tại đỉnh stack;
+➢ Dữ liệu nhập: Không;
+➢ Điều kiện: Stack không bị rỗng;
+➢ Dữ liệu xuất: Nút bị xóa.
+• Stacktop:
+▪ Chức năng: Truy xuất nút tại đỉnh stack;
+▪ Dữ liệu nhập: Không;
+▪ Điều kiện: Stack không bị rỗng;
+▪ Dữ liệu xuất: Nút tại đỉnh stack.
+
+-- 8 of 29 --
+
+2. ĐẶC TẢ NGĂN XẾP
+9	• Thiết kế từ trên xuống.
+• Stacksize:
+➢ Chức năng: Xác định số nút hiện có trong stack;
+➢ Dữ liệu: Không;
+➢ Dữ liệu xuất: Số nút hiện có trong stack.
+• Clearstack:
+➢ Chức năng: Xóa tất cả các nút ở trong stack;
+➢ Dữ liệu nhập: Không;
+➢ Dữ liệu xuất: Stack top về vị trí khởi đầu.
+• Copystack:
+➢ Chức năng: Copy stack thành stack mới;
+➢ Dữ liệu nhập: Stack nguồn;
+➢ Dữ liệu xuất: Stack đích giống stack nguồn.
+• Che dấu thông tin;
+• Tính khả thi và hiệu quả của ứng dụng;
+• Tính trong sáng của chương trình;
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT
+
+-- 9 of 29 --
+
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 10
+3. CÀI ĐẶT NGĂN XẾP
+
+-- 10 of 29 --
+
+3. CÀI ĐẶT NGĂN XẾP
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT
+11
+• Cài đặt ngăn xếp bằng mảng;
+• Cài đặt ngăn xếp bằng danh sách liên kết.
+
+-- 11 of 29 --
+
+3.1. CÀI ĐẶT NGĂN XẾP BẰNG MẢNG
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 12
+• Ta sử dụng một mảng 1 chiều s để biểu
+diễn ngăn xếp;
+• Thiết lập phần tử đầu tiên của mảng,
+s[0], làm đáy ngăn xếp;
+• Đỉnh hiện tại của ngăn xếp: Biến
+số nguyên top_id;
+➢ Nếu ngăn xếp có n phần tử thì top
+sẽ có giá trị bằng n – 1;
+➢ Còn khi ngăn xếp chưa có phần tử
+nào (ngăn xếp rỗng) thì ta quy ước
+top_id sẽ có giá trị – 1. Hình 3.3. Cài đặt ngăn xếp
+bằng mảng
+
+-- 12 of 29 --
+
+3.1. CÀI ĐẶT NGĂN XẾP BẰNG MẢNG
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 13
+Cài đặt ngăn xếp bằng mảng qua khai báo dưới đây:
+max …//khái báo độ lớn cực đại trong ngăn xếp
+<kiểu dữ liệu> ElementType struct Stack
+#define
+typedef
+{
+int Top_id;
+ElementType Element[max];
+};
+Stack S;
+
+-- 13 of 29 --
+
+3.1. CÀI ĐẶT NGĂN XẾP BẰNG MẢNG
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 14
+Cài đặt các thao tác trên stack:
+• Thao tác 1: Khởi tạo Stack
+void StackInit(Stack *S);//khoi tao stack
+{
+S->Top_id=-1;
+}
+• Thao tác 2: Kiểm tra stack có rỗng không:
+int StackEmpty (Stack S);//kiem tra stack
+{
+return(S.Top_id==-1);
+}
+
+-- 14 of 29 --
+
+3.1. CÀI ĐẶT NGĂN XẾP BẰNG MẢNG
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 15
+Thao tác 3: Bổ sung thêm phần tử vào stack (bổ sung phần tử X vào stack,
+cài đặt bởi stack S mà Top_id đang trỏ tới đỉnh):
+void PUSH(Stack *S,ElementType x)
+//Kiểm tra xem stack đã đầy chưa
+if (S->Top_id==max-1)
+{ printf(“Strack tran”);
+return; }
+S->Top_id ++;	S->Top_id ++;
+//Nếu stack chưa đầy, thì di chuyển top_ip lên 1
+[S->Top_id--];
+//Nạp phần tử mới vào stack S-
+>Element[S->Top_id]=x;
+//Thoát khỏi chương trình
+return;
+
+-- 15 of 29 --
+
+3.1. CÀI ĐẶT NGĂN XẾP BẰNG MẢNG
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 16
+Thao tác 4: Lấy một phần tử khỏi đỉnh Stack:
+}
+ElementType POP(Stack *S)
+{ if (StackEmpty(*S))
+{ printf("ngan xep rong");
+else
+{
+Return * S.Element[S->Top_id--]; }
+}
+
+-- 16 of 29 --
+
+3.2. CÀI ĐẶT NGĂN XẾP BẰNG DANH SÁCH LIÊN KẾT
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 17
+• Đỉnh của stack là đầu của danh sách liên kết;
+• Ta sử dụng con trỏ Top trỏ đến đỉnh stack;
+• Hình dưới đây minh hoạ danh sách liên kết biểu diễn stack (a1, a2,..., an)
+với đỉnh là an.
+
+-- 17 of 29 --
+
+3.2. CÀI ĐẶT NGĂN XẾP BẰNG DANH SÁCH LIÊN KẾT
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 18
+Khai báo một ngăn xếp bằng danh sách liên kết:
+typedef <kieu du lieu> ElementType
+struct StackNode
+{
+};
+typedef struct
+{
+StackNode *Top;
+}Stack;
+ElementType Data;
+struct StackNode *Next;
+StackNode *Top;
+
+-- 18 of 29 --
+
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 19
+Các thao tác trên ngăn xếp được cài đặt bằng danh sách liên kết:
+• Thao tác khởi tạo ngăn xếp: void StackInit(Stack *S)
+{
+S->Top=NULL;
+return;
+}
+• Thao tác xác định điều kiện rỗng
+của ngăn xếp: int StackEmpty(Stack *S)
+{
+return (S->Top==NULL);
+}
+p=S->Top;
+S->Top=S->Top->Next;
+3.2. CÀI ĐẶT NGĂN XẾP BẰNG DANH SÁCH
+LIÊN KẾT
+
+-- 19 of 29 --
+
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 20
+Thao tác thêm một phần tử vào danh sách:
+void PUSH(Stack *S,ElementType x)
+{ StackNode *p
+p=(StackNode*) malloc (sizeof(struct StackNode));
+(*p).Data =x;
+p->Next=S->Top ;
+S->Top=p;
+return;
+}
+3.2. CÀI ĐẶT NGĂN XẾP BẰNG DANH SÁCH
+LIÊN KẾT
+
+-- 20 of 29 --
+
+• Thao tác lấy một phần tử khỏi đỉnh của ngăn xếp S:
+ElementType POP(Stack *S)
+{ StackNode*p
+if(StackEmpty(S))
+{ printf("ngan xep rong"); return
+NULL; }
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 21
+else
+{ p=S->Top;
+S->Top=S->Top->Next;
+return p->Data; }
+}
+p=S->Top;
+S->Top=S->Top->Next;
+3.2. CÀI ĐẶT NGĂN XẾP BẰNG DANH SÁCH
+LIÊN KẾT
+
+-- 21 of 29 --
+
+4. ỨNG DỤNG CỦA NGĂN XẾP
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 22
+
+-- 22 of 29 --
+
+4. ỨNG DỤNG CỦA NGĂN XẾP
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 23
+Ứng dụng ngăn xếp trong tính toán giá trị của biểu thức (Ký pháp
+nghịch đảo Balan).
+• Trong đa số các ngôn ngữ lập trình, các biểu thức được biểu diễn
+như trên gọi là kí pháp trung tố (infix);
+• Nên khi xác định giá trị của một biểu thức số học ta đưa ra thuật
+toán sau. Thuật toán này gồm hai giai đoạn:
+➢ Chuyển biểu thức số học thông thường (dạng trung tố
+– infix) sang biểu thức số học dạng hậu tố (postfix – dạng ký
+pháp nghịch đảo Balan gọi tắt là biểu thức Balan (phép toán
+được đặt sau các toán hạng));
+➢ Tính giá trị của biểu thức số học Balan postfix.
+
+-- 23 of 29 --
+
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 24
+Ví dụ 3.2:
+Biểu thức thông thường (trung tố) Biểu thức
+Balan
+a * b/ c
+a * (b + c) - d/e
+ab * c /
+abc + * de / -
+4. ỨNG DỤNG CỦA NGĂN XẾP
+
+-- 24 of 29 --
+
+4. ỨNG DỤNG CỦA NGĂN XẾP
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 25
+Ví dụ 3.3: Xét biểu thức sau ở dạng trung tố: (1 + 3) * ( 5 – (6 – 4)). Biểu
+thức được biểu diễn ở dạng biểu thức balan là: 1 3 + 5 6 4 - - * Ta có
+bảng kết quả với thuật toán tính giá trị của biểu thức số học Balan:
+Đọc Xử lý Stack
+1 Đẩy vào Stack 1
+3 Đẩy vào Stack 3
++ Lấy 3 và 1 ra khỏi Stack và tính được 3 + 1 = 4, đẩy 4 vào Stack 4
+5 Đẩy vào Stack 4, 5
+6 Đẩy vào Stack 4, 5, 6
+4 Đẩy vào Stack 4, 5, 6, 4
+– Lấy 4 và 6 ra khỏi Stack và tính được 6 – 4 = 2, đẩy 2 vào Stack 4, 5, 2
+– Lấy 2 và 5 ra khỏi Stack và tính được 5 – 2 = 3, đẩy 3 vào Stack 4, 3
+* Lấy 3 và 4 ra khỏi Stack và tính được 4 * 3 = 12, đẩy 12 vào Stack 12
+
+-- 25 of 29 --
+
+4. ỨNG DỤNG CỦA NGĂN XẾP
+26
+Ví dụ: Xét biểu thức: E = a * (b + c) – d # (Dấu # báo kết thúc biểu thức trung tố)
+Đọc biểu thức
+trung tố Xử lý Stack Biểu thức
+Balan
+Khởi động ngăn xếp rỗng $
+a Hiển thị a $ a
+* Đẩy toán tử * vào ngăn xếp $ * a
+( Đẩy vào ngăn xếp $, *, ( a
+b Hiển thị b $, *, ( ab
++ Xét thấy Fri(‘+’) > Fri(‘(‘), đẩy vào ngăn xếp $, *, (, + ab
+c Hiển thị c $, *, (, + abc
+) Lấy toán tử + ra khỏi ngăn xếp và hiển thị $, *, ( abc+
+Lấy ( ra khỏi ngăn xếp $, * abc+
+– Xét thấy Fri(‘–’) > Fri(‘*’), lấy toán tử * ra khỏi ngăn xếp
+và hiển thị
+$ abc+*
+Đẩy toán tử – ngăn xếp $, – abc+*
+d Hiển thị d $, – abc+*d
+# Lấy toán tử – ra khỏi ngăn xếp và hiển thị $ abc+*d–
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT
+
+-- 26 of 29 --
+
+4. ỨNG DỤNG CỦA NGĂN XẾP
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 27
+Ứng dụng ngăn xếp để loại bỏ đệ quy của chương trình:
+• Bước 1: Lưu các biến cục bộ và địa chỉ trở về;
+• Bước 2: Nếu thoả điều kiện ngừng đệ quy thì chuyển sang bước 3;
+Nếu không thì tính toán từng phần và quay lại bước 1 (đệ quy tiếp);
+• Bước 3: Khôi phục lại các biến cục bộ và địa chỉ trở về.
+
+-- 27 of 29 --
+
+4. ỨNG DỤNG CỦA NGĂN XẾP
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 28
+Thiết kế thuật toán chuyển biểu thức số học thông thường sang
+biểu thức số học Balan.
+• Sử dụng stack S để lưu các dấu mở ngoặc trái và các dấu
+phép toán + , -, * và /.
+• Đưa vào ký hiệu $ để đánh dấu đáy của stack. Khi đỉnh stack
+chứa $, có nghĩa là stack rỗng.
+• Xây dựng một hàm Pri để xác định độ ưu tiên của các phép
+toán và các kí hiệu $, hàm Pri xác định độ ưu tiên như sau :
+Pri (‘$’) < Pri (‘(‘) < Pri (‘+’) = Pri (‘-‘) < Pri (‘*’) = Pri(‘/’).
+
+-- 28 of 29 --
+
+TÓM LƯỢC CUỐI BÀI
+CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT 29
+• Trình bày đúng khái niệm về ngăn xếp. Phân biệt
+điểm giống và khác giữa ngăn xếp và danh sách;
+• Mô tả đúng các đặc tả về ngăn xếp và các phương
+án cài đặt cho ngăn xếp;
+• Trình bày được các ứng dụng của ngăn xếp và vận
+dụng ngăn xếp vào giải quyết các bài toán.
+
+-- 29 of 29 --
+
