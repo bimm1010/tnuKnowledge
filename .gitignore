@@ -3,3 +3,7 @@ node_modules/
 autowatcher.log
 autowatcher_err.log
 .DS_Store
+.env
+.env*
+*.secret
+
