@@ -1,0 +1,239 @@
+BÀI 8
+QUẢN LÝ MÀN HÌNH VÀ CỬA SỔ
+
+-- 1 of 17 --
+
+MỤC TIÊU
+AUM Việt Nam
+Người học sau khi học xong bài 8 sẽ có các khai niệm cơ bản về các vấn
+đề sau:
+• Chọn kiểu màn hình văn bản
+• Đặt màu nền và chữ
+• Xây dựng và sử dụng cửa sổ
+2
+
+-- 2 of 17 --
+
+8.1. CHỌN KIỂU MÀN HÌNH VĂN BẢN
+Hàm textmode: cho phép định dạng màu sắc của màn hình.
+Cú pháp:
+void textmode(int mode)
+Ký hiệu Giá trị Mode video
+Lastmode -1 Mode trước đó
+BW40 0 Đen trắng 40 cột
+C40 1 16 màu, 40 cột
+BW80 2 Đen trắng 80 cột
+C80 3 16 màu, 80 cột
+MONO 7 Đơn sắc, 80 cột
+Chú ý:
+• Phải sử dụng thêm hàm conio.h để lấy thư viện hình ảnh;
+• Màn hình luôn có 25 hàng. 3
+
+-- 3 of 17 --
+
+8.1. CHỌN KIỂU MÀN HÌNH VĂN BẢN (tiếp theo)
+AUM Việt Nam
+Ví Dụ 1:
+• textmode(C40) sẽ cho màn hình gồm:
+➢ 25 hàng
+➢ 40 cột
+➢ 16 màu
+Ví Dụ 2:
+• textmode(C80) sẽ cho màn hình gồm:
+➢ 25 hàng
+➢ 80 cột
+➢ 16 màu
+Chú ý: Màn hình được đánh tọa độ, góc trên cùng bên trái sẽ có tọa độ
+là 1,1. Góc dưới cùng bên phải sẽ có tọa độ là 40,25 hoặc 80,25.
+4
+
+-- 4 of 17 --
+
+8.2. ĐẶT MÀU NỀN VÀ MÀU CHỮ
+Ký hiệu Giá trị Màu chữ /
+màu nền
+Black 0 Cả hai
+Blue 1 Cả hai
+Green 2 Cả hai
+Cyan 3 Cả hai
+Red 4 Cả hai
+Magenta 5 Cả hai
+Brown 6 Cả hai
+Black 7 Cả hai
+Blue 8 Chữ
+Green 9 Chữ
+Cyan 10 Chữ
+Red 11 Chữ
+Magenta 12 Chữ
+Brown 13 Chữ
+Red 14 Chữ
+Magenta 15 Chữ
+• Màu nền và màu chữ được điều
+chỉnh thông qua lệnh sau:
+void textbackground(int color);
+void textcolor(int color);
+• color là 1 biến integer có giá trị từ
+0 đến 15 với ý nghĩa thể hiện ở các
+bảng bên.
+• Tùy theo từng giá trị mà giá trị của
+màu chữ hoặc màu nền được gán.
+➢ Với giá trị >=8 thì chỉ được gán
+cho màu chữ.
+➢ Còn giá trị <8 thì có thể gán
+cho đồng thời cả màu chữ và
+màu nền. 5
+
+-- 5 of 17 --
+
+8.3. XÂY DỰNG CỬA SỔ VÀ SỬ DỤNG CỬA SỔ
+AUM Việt Nam
+Để xây dựng và sử dụng cửa sổ, ta sử dụng hàm window với cú pháp
+như sau:
+void window(int xt,int yt, int xd, int yd);
+• window: tên hàm cửa sổ
+• xt, yt: tọa độ góc trên cùng bên trái của cửa sổ
+• xd,yd: tọa độ góc dưới cùng bên phải của cửa sổ
+chú ý:
+➢ xd>=xt
+➢ yd>=yt
+➢ Giá trị của 4 tham số này phải nằm trong giới hạn hiển thị của
+cửa sổ.
+6
+
+-- 6 of 17 --
+
+8.3. XÂY DỰNG CỬA SỔ VÀ SỬ DỤNG CỬA SỔ (tiếp theo)
+AUM Việt Nam
+Ví Dụ:
+textbackground(RED) và windows(5,5,35,20)
+• Tọa độ trên bên trái là 5,5
+• Tọa độ dưới bên phải là 35,20
+• Nền cửa sổ có thể là màu đỏ nếu trước đó chưa hiển thị gì. Muốn
+chắc chắn là mầu đỏ, ta cần phải xóa sạch màn hình trước khi
+điều chỉnh màu nền thông qua lệnh:
+void clrscr(void);
+7
+
+-- 7 of 17 --
+
+8.3. XÂY DỰNG CỬA SỔ VÀ SỬ DỤNG CỬA SỔ (tiếp theo)
+AUM Việt Nam
+Ví Dụ 2: xây dựng chương trình hiển thị ra màn hình
+• Sử dụng màn hình 16 màu, 80 cột hiển thị 2 dòng chữ sau
+• Chuc mung nam moi : màu vàng
+• Happy new year: màu trắng
+• Cửa sổ kích thước trọn màn hình
+• Cửa sổ màu đỏ.
+8
+
+-- 8 of 17 --
+
+8.4. CÁC HÀM CPRINTF, CSCANF
+AUM Việt Nam
+• Hàm cprintf, cscanf dùng để nhập dữ liệu từ bàn phím và đưa kết quả
+ra màn hình.
+• Màu của ký tự sẽ lấy giá trị được thiết lập gần nhất
+• Khi dùng hàm cscanf, nếu bấm sai thì không dùng được các phím
+chức năng
+• Hàm printf có phạm vi làm việc là toàn bộ cửa sổ màn hình, do đó có
+thể xảy ra hiện tượng tràn dữ liệu hiển thị. Trong khi đó, hàm cprintf
+chỉ có phạm vi hiển thị trong cửa sổ khai báo. Nếu thông tin quá dài
+thì có thể bị mất thông tin hiển thị
+9
+
+-- 9 of 17 --
+
+8.5. CÁC HÀM KHÁC
+10	AUM Việt Nam
+• Hàm xóa màn hình:
+Cú pháp:
+void clrscr(void);
+Chức năng:
+➢ Xóa cửa sổ hiện tại
+➢ Đưa con trỏ lên góc trên cùng bên trái
+➢ Màu sẽ được xác định bởi hàm textbackground.
+
+-- 10 of 17 --
+
+8.5. CÁC HÀM KHÁC (tiếp theo)
+11	AUM Việt Nam
+• Hàm xóa dòng:
+Cú pháp:
+void clreol(void);
+Chức năng:
+➢ Xóa mọi ký tự đứng sau con trỏ đến cuối dòng
+➢ Không thay đổi vị trí con trỏ
+
+-- 11 of 17 --
+
+8.5. CÁC HÀM KHÁC (tiếp theo)
+12	AUM Việt Nam
+• Hàm xóa 1 dòng trong cửa sổ:
+Cú pháp:
+void delline(void);
+Chức năng:
+➢ Xóa dòng cửa sổ đang chứa con trỏ
+➢ Không thay đổi vị trí con trỏ
+
+-- 12 of 17 --
+
+8.5. CÁC HÀM KHÁC (tiếp theo)
+Chức năng:
+➢ Chạy đến vị trí x,y trong cửa sổ hiện tại
+➢ Thay đổi vị trí con trỏ
+13	AUM Việt Nam
+• Hàm di chuyển con trỏ:
+Cú pháp:
+void gotoxy(int x, int y);
+
+-- 13 of 17 --
+
+8.5. CÁC HÀM KHÁC (tiếp theo)
+14	AUM Việt Nam
+• Hàm lấy tọa độ ngang của con trỏ:
+Cú pháp:
+int wherex(void);
+Chức năng:
+➢ Cho vị trí ngang của con trỏ trong cửa sổ hiện hành
+➢ Giá trị trả về là kiểu int
+➢ Không thay đổi vị trí con trỏ
+
+-- 14 of 17 --
+
+8.5. CÁC HÀM KHÁC (tiếp theo)
+15	AUM Việt Nam
+• Hàm lấy tọa độ dọc của con trỏ:
+Cú pháp:
+int wherey(void);
+Chức năng:
+➢ Cho vị trí dọc của con trỏ trong cửa sổ hiện hành
+➢ Giá trị trả về là kiểu int
+
+-- 15 of 17 --
+
+8.5. CÁC HÀM KHÁC (tiếp theo)
+16	AUM Việt Nam
+• Hàm lấy thông tin hiển thị văn bản:
+Cú pháp:
+void gettextinfo(struct text_info *r);
+Chức năng:
+➢ r: con trỏ tới địa chỉ của text_info
+➢ Gửi các thông tin liên quan đến kiểu hiển thị màn hình văn
+bản đang sử dụng vào các thành phần của biến cấu trúc.
+
+-- 16 of 17 --
+
+TÓM LƯỢC CUỐI BÀI
+17	AUM Việt Nam
+• Bài 8 cho phép ta biết cách quản lý màn hình và cửa sổ với nhiều lệnh đặc
+trưng của C.
+• Có thể có nhiều cửa số được thiết lập trong 1 màn hình, để tránh trường
+hợp hiển thị đè lên nhau, lên tách biệt các cửa sổ với nhau hoặc xóa màn
+hình trước khi hiển thị.
+• Có 1 số cách để xóa thông tin hiển thị như xóa màn hình, xóa dòng hoặc
+xóa 1 phần của dòng.
+• Có thể lấy thông tin tọa độ x, y của con trỏ cũng như các thông tin hiển
+thị khác.
+
+-- 17 of 17 --
+

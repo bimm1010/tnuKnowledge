@@ -1,0 +1,229 @@
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+ĐỀ CƯƠNG CHI TIẾT
+SE101 - NHẬP MÔN LẬP TRÌNH (C)
+Số tín chỉ: 03
+Thời gian học tập: 18/10/2026-12/12/2026
+Điều kiện để được đi thi: Không vi phạm đạo đức khoa học ở mức bị cấm thi; Điểm chuyên cần và điểm
+thành phần >=2,0.
+Điều kiện để hoàn thành học phần: Điểm tổng kết >=4,0 (thang điểm 10, điểm hệ chữ D)
+Chú ý:
+Trường hợp 1:Học viên không đủ điều kiện dự thi phải học lại
+Trường hợp 2: Học viên đủ điều kiện dự thi
+- Điểm tổng kết học phần < 4,0 (thang điểm 10, điểm hệ chữ F): học lại.
+- Điểm thi = 0 do vắng thi: thi lại.
+I. MỤC TIÊU MÔN HỌC
+Sau khi học xong môn này, học viên sẽ:
+Mô tả được các khái niệm về các thành phần cơ bản của một ngôn ngữ lập trình như biến, hằng, kiểu dữ
+liệu, hàm, chương trình….
+Thiết kế và cài đặt 1 số chương trình cơ bản bằng ngôn ngữ C
+Sử dụng ngôn ngữ lập trình C để xây dựng các chương trình ứng dụng thực tế.
+Các kiến thức cần có để học môn này:
+Người học phải học xong các môn học: Tin học cơ bản.
+II. NỘI DUNG MÔN HỌC
+● Bài 1. Các khái niệm cơ bản
+Trang 1 / 6
+
+-- 1 of 6 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+● Bài 2: Biến, mảng và biểu thức
+● Bài 3: Vào ra
+● Bài 4: Cấu trúc rẽ nhánh
+● Bài 5: Cấu trúc vòng lặp
+● Bài 6: Hàm và cấu trúc chương trình
+● Bài 7: Cấu trúc và hợp
+● Bài 8: Quản lý màn hình và cửa sổ
+● Bài 9: Đồ họa
+III. TÀI LIỆU HỌC TẬP
+Giáo trình, Bài giảng (slide + video, mp3) “Nhập môn lập trình C” trên website lớp học tại:
+https://tnu.aum.edu.vn/
+Giáo trình kỹ thuật lập trình C căn bản & nâng cao. Nhà xuất bản Hồng Đức
+Tác giả: GS Phạm Văn Ất, ThS Nguyễn Hiếu Cường.
+The C programming Language Nhà xuất bản Prentice-Hall
+Tác giả: Brian W. Kernighan and Dennis M. Ritchie.
+Ngôn ngữ lập trình C Nhà xuất bản Thống kê
+Tác giả: Quách Tuấn Ngọc.
+IV. NHIỆM VỤ HỌC TẬP
+Để học tốt và đảm bảo tiến độ học tập, sinh viên cần làm đủ các bài luyện tập trắc nghiệm (LTTN), bài
+kiểm tra (KT), trao đổi với giảng viên trên lớp học. Nội dung cụ thể được mô tả dưới đây:
+Trắc nghiệm trực tuyến
+o Luyện tập trắc nghiệm:
+Trang 2 / 6
+
+-- 2 of 6 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+Bài tập Nội dung bài tập Mục đích
+LTTN 1 10 câu trắc nghiệm Luyện tập bài 1. Sử dụng trong tuần 1
+LTTN 2 10 câu trắc nghiệm Luyện tập bài 2. Sử dụng trong tuần 2
+LTTN 3 10 câu trắc nghiệm Luyện tập Bài 3+4. Sử dụng trong tuần 3
+LTTN 4 10 câu trắc nghiệm Luyện tập Bài 5. Sử dụng trong tuần 4
+LTTN 5 10 câu trắc nghiệm Luyện tập Bài 6. Sử dụng trong tuần 5
+LTTN 6 10 câu trắc nghiệm Luyện tập Bài 7. Sử dụng trong tuần 6
+LTTN 7 10 câu trắc nghiệm Luyện tập Bài 8. Sử dụng trong tuần 7
+LTTN 8 10 câu trắc nghiệm Luyện tập Bài 9 Sử dụng trong tuần 8
+o Bài kiểm tra (Tính điểm giữa kỳ): 30%
+Bài tập Nội dung bài tập Nội dung % trong điểm tổng kết
+Bài kiểm tra 1 20 câu trắc nghiệm Kiểm tra kiến thức Bài
+1, Bài 2, Bài 3, Bài 4,
+Bài 5
+15%
+Bài kiểm tra 2 20 câu trắc nghiệm Kiểm tra kiến thức Bài
+6, Bài 7, Bài 8, Bài 9
+15%
+V. LỊCH TRÌNH HỌC TẬP
+Thời gian Nhiệm vụ
+Bài giảng
+(Lecture)
+Trao đổi,
+giải đáp
+(Interaction)
+Luyện
+tập
+(Practice)
+Đánh giá
+(Exam)
+Tuần 1
+(18/10/2026 -
+24/10/2026)
+Bài 1. Các khái niệm cơ bản Trao đổi –
+Thảo luận
+LTTN 1
+Tuần 2
+(25/10/2026 -
+31/10/2026)
+Bài 2: Biến, mảng và biểu thức Trao đổi –
+Thảo luận
+LTTN 2
+Trang 3 / 6
+
+-- 3 of 6 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+Tuần 3
+(01/11/2026 -
+07/11/2026)
+Bài 3: Vào ra
+Bài 4: Cấu trúc rẽ nhánh
+Trao đổi –
+Thảo luận
+LTTN 3
+Tuần 4
+(08/11/2026 -
+14/11/2026)
+Bài 5: Cấu trúc vòng lặp Trao đổi –
+Thảo luận
+LTTN 4 Bài kiểm tra 1
+Hạn cuối
+23h55 ngày
+15/11/2026
+Tuần 5
+(15/11/2026 -
+21/11/2026)
+Bài 6: Hàm và cấu trúc chương trình Trao đổi –
+Thảo luận
+LTTN 5
+Tuần 6
+(22/11/2026 -
+28/11/2026)
+Bài 7: Cấu trúc và hợp Trao đổi –
+Thảo luận
+LTTN 6
+Tuần 7
+(29/11/2026 -
+05/12/2026)
+Bài 8: Quản lý màn hình và cửa sổ Trao đổi –
+Thảo luận
+LTTN 7
+Tuần 8
+(06/12/2026 -
+12/12/2026)
+Bài 9: Đồ họa Trao đổi –
+Thảo luận
+LTTN 8 Bài kiểm tra 2
+Hạn cuối
+23h55
+ngày
+13/12/2026
+Tuần 9+10
+(13/12/2026 -
+26/12/2026)
+- LỚP HỌC ĐÃ KẾT THÚC
+Anh/Chị học viên tự Ôn tập - Luyện thi.
+THI TẬP TRUNG – KẾT THÚC HỌC PHẦN
+Thời gian dự kiến: 20/12/2026
+VI. CÁCH THỨC CHẤM ĐIỂM
+- Điểm chuyên cần (chiếm 20% điểm tổng kết học phần), đánh giá qua 2 tiêu chí sau, tiêu chí 1
+chiếm 10%, tiêu chí 2 chiếm 10%:
++ Tiêu chí 1: Hoàn thành đầy đủ các bài giảng điện tử trên hệ thống LMS
+Tiêu chí Trọng số trong
+điểm CC (%)
+Mô tả
+Trang 4 / 6
+
+-- 4 of 6 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+Hoàn thành đầy đủ
+các bài giảng điện
+tử trên hệ thống
+LMS
+10% Điểm số được ghi nhận tương đương tỷ lệ hoàn thành bài giảng
+điện tử trên hệ thống theo thang điểm 10 và làm tròn tới 0.5
+điểm
++ Tiêu chí 2: Điểm trung bình các bài luyện tập, thực hành trên hệ thống
+Tiêu chí Trọng số trong
+điểm CC (%)
+Mô tả
+Điểm trung bình
+các bài luyện tập,
+thực hành trên hệ
+thống
+10% - Bài luyện tập, thực hành không giới hạn số lần làm, lấy điểm
+cao nhất
+- Điều kiện bắt buộc: Không có bài nào <2 điểm
+- Điểm giữa kỳ (chiếm 30% điểm tổng kết học phần).
+Bài tập tính điểm 30%, học viên được phép làm tối đa 3 lần tính điểm trung bình cộng.
+Điểm giữa kỳ 30% là điểm trung bình của 2 bài kiểm tra (BKT1 và BKT2). Để được dự thi thì điểm kiểm
+tra giữa kỳ >=2,0 điểm (tính theo thang điểm 10).
+- Điểm thi hết học phần (chiếm 50% điểm tổng kết học phần):
+Áp dụng thi theo hình thức viết tự luận và trắc nghiệm
+VII. CÁC YÊU CẦU ĐỐI VỚI HỌC VIÊN
+- Học viên cần nắm vững kế hoạch học tập.
+- Để đạt được kết quả học tập tốt nhất, học viên cần phải học tập nội dung môn học trên bài giảng điện tử
+và hoàn thành các bài luyện tập trắc nghiệm.
+- Học viên có thắc mắc nên trao đổi với bạn cùng nhóm, sau đó với trưởng nhóm, nếu còn không hiểu thì
+hỏi giảng viên để được giải đáp.
+- Trong trường hợp học viên có thắc mắc về điểm, đề nghị liên hệ trực tiếp với giáo viên chủ nhiệm, quản
+lý học tập lớp mình để nhận được sự trợ giúp.
+VIII. GIẢNG VIÊN
+- Giảng viên chuyên môn:
+Nguyễn Thị Oanh, Email: ntoanh@ictu.edu.vn, Số điện thoại: 0981368808
+Trang 5 / 6
+
+-- 5 of 6 --
+
+CHƯƠNG TRÌNH ĐÀO TẠO CỬ NHÂN TRỰC TUYẾN TNU-ELEARNING
+- Hỗ trợ giải đáp thắc mắc:
+Lớp GVCN Số điện thoại Email
+AUM0226HC,AUM0226HN
+,AUM0226TN
+Bế Nhật Minh 0965483565 minhbn@tnu.edu.vn
+AUM0326HC,AUM0326TN Đỗ Huyền Trang 0912428555 huyentrang@tnu.edu.vn
+- Quản lý học tập:
+AUM0226HC:
+Nguyễn Huỳnh Ái Liên, SĐT: 0941086591, Email: aum.liennha01@gmail.com
+AUM0226HN:
+Phạm Vân Khánh, SĐT: 0963790294, Email: aum.khanhpv@gmail.com
+AUM0226TN,AUM0326TN:
+Nguyễn Thị Thùy Dương, SĐT: 0982040715, Email: Duongnguyenthithuy@aum.edu.vn
+AUM0326HC:
+Đinh Thùy Linh, SĐT: 0945193172, Email: linhdinhthuy@aum.edu.vn
+CHÚC ANH/CHỊ HỌC TẬP TỐT!
+…………….., ngày tháng năm
+Giảng viên chuyên môn
+Powered by TCPDF (www.tcpdf.org)
+Trang 6 / 6
+
+-- 6 of 6 --
+

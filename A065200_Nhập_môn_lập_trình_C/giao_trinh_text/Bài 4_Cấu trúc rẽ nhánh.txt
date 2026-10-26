@@ -1,0 +1,211 @@
+BÀI 4
+CẤU TRÚC RẼ NHÁNH
+
+-- 1 of 13 --
+
+MỤC TIÊU
+AUM Việt Nam 2
+Người học sau khi học xong Bài 4 sẽ có các khái niệm cơ bản
+về các vấn đề sau:
+• Câu lệnh if
+• Câu lệnh switch
+• Câu lệnh goto
+• Câu lệnh nhãn
+
+-- 2 of 13 --
+
+KIẾN THỨC CẦN CÓ
+AUM Việt Nam 3
+Các kiến thức cần thiết:
+• Học xong Bài 3
+• Biết cách phân tích các hướng giải quyết vấn đề, chọn điểm
+mấu chốt cho mỗi cách giải quyết
+• Khuyến nghị học môn Tin Học cơ bản.
+
+-- 3 of 13 --
+
+NỘI DUNG
+AUM Việt Nam 4
+1. Nhắc lại khái niệm về câu lệnh và khối lệnh
+2. Câu lệnh if
+4. Câu lệnh switch
+5. Câu lệnh goto và nhãn
+
+-- 4 of 13 --
+
+1. NHẮC LẠI KHÁI NIỆM VỀ CÂU LỆNH VÀ KHỐI LỆNH
+AUM Việt Nam 5
+Khối lệnh là 1 dãy các lệnh đơn nằm trong khối { }
+Tên_khối
+{
+Lệnh 1
+Lệnh 2
+------
+Lệnh n
+}
+#include <stdio.h>
+---------
+Khối 1
+Khối 2
+------
+Khối n
+• Không đặt dấu ; sau dấu }
+• Khối lệnh tương đương 1 lệnh đơn
+• Khối lệnh chỉ gồm 1 lệnh thì có thể bỏ đi 2 dấu { }
+• Việc điều khiển thực thi các khối lệnh có thể được thực hiện thông
+qua các câu kiểm tra điều kiện.
+
+-- 5 of 13 --
+
+2. CÂU LỆNH IF
+AUM Việt Nam 6
+Câu lệnh if cho phép lựa chọn 1 trong 2 nhánh tùy thuộc vào điều kiện
+kiểm tra
+• Trường hợp 1:
+Cú pháp:
+if (biểu thức) khối lệnh
+Nếu biểu thức đúng thì thực hiện khối lệnh;
+• Trường hợp 2:
+Cú pháp: if (biểu thức) khối lệnh 1
+else khối lệnh 2;
+➢ Nếu biểu thức đúng thì thực hiện khối lệnh;
+➢ Nếu biểu thức sai thì thực hiện khối lệnh 2.
+
+-- 6 of 13 --
+
+2. CÂU LỆNH IF (tiếp theo)
+AUM Việt Nam 7
+• Ví dụ 1: Tìm max của 2 số a,b: int a,b,max;
+max = a;
+if (max < b) max = b;
+• Ví dụ 2: Tìm max của 3 số a,b,c: int a,b,c,max;
+max = a;
+if (max < b) max = b;
+if(max < c) max = c;
+
+-- 7 of 13 --
+
+3. CÂU LỆNH ELSE IF
+AUM Việt Nam 8
+• Khi muốn thực hiện 1 trong n quyết định khác nhau, ta có thể dùng
+câu lệnh else if
+if (biểu thức 1)
+Khối lệnh 1;
+else if (biểu thức 2)
+Khối lệnh 2;
+-------
+else if (biểu thức n-1)
+Khối lệnh n-1;
+else
+Khối lệnh n;
+• Cú pháp:
+➢ Chỉ 1 trong n khối lệnh được
+thực hiện
+➢ Biểu thức thứ i đúng thì khối
+lệnh thứ i được thực hiện
+➢ Nếu không có biểu thức nào
+đúng thì khối lệnh sau else
+sez được thực hiện.
+
+-- 8 of 13 --
+
+3. CÂU LỆNH ELSE IF (tiếp theo)
+AUM Việt Nam 9
+“ ”
+• Ví dụ: Theo dõi xếp loại điểm của học sinh
+Mã Xếp loại
+1 Giỏi
+2 Khá
+3 Trung Bình
+• Lời giải chương trình:
+int ma ;
+if(ma==1) printf(“Gioi”);
+else if(ma==2) printf (“Kha”);
+else if(ma==3) printf( Trung binh );
+else printf(“Nhap ma sai”);
+getch();
+
+-- 9 of 13 --
+
+4. CÂU LỆNH SWITCH
+AUM Việt Nam
+• Toán tử switch cho phép căn cứ vào giá trị của biểu thức để lựa chọn
+một trong nhiều cách nhảy.
+• Cú pháp:
+➢ Khi giá trị biểu thức trùng với giá
+trị có trong nhãn case thì nhãn đó
+được thực hiện
+➢ Nhãn default được thực hiện nếu
+các nhãn thành phần không thỏa
+mãn với biểu thức.
+switch (biểu thức)
+{
+case n1:
+Các câu lệnh;
+case n2:
+Các câu lênh;
+-------
+case nk:
+Các câu lệnh
+[default:
+Các câu lệnh;]
+}
+10
+
+-- 10 of 13 --
+
+4. CÂU LỆNH SWITCH (tiếp theo)
+AUM Việt Nam
+• Ví dụ: Theo dõi xếp loại điểm của học sinh
+Mã Xếp loại
+1 Giỏi
+2 Khá
+3 Trung bình
+• Lời giải chương trình:
+int ma ;
+switch (ma)
+case 1:
+printf(“Gioi”);
+case 2:
+printf(“Khá”);
+case 3:
+printf(“Trung bình”);
+default:
+printf(“Ma khong hop le”);
+11
+
+-- 11 of 13 --
+
+5. CÂU LỆNH GOTO VÀ NHÃN
+➢ Tên nhãn: Tên của nhãn
+➢ : Cú pháp của nhãn
+➢ Lệnh: Các lệnh thực hiện thông thường
+• Dùng toán tử goto để di chuyển đến các nhãn đã xác định trước
+• Cú pháp:
+AUM Việt Nam
+• Nhãn có thể gán cho bất cứ câu lệnh nào trong chương trình.
+• Nhãn có thể viết như tên biến và thêm dấu: đằng sau
+• Cú pháp:
+Tên nhãn: Lệnh
+goto: Tên nhãn
+➢ Lệnh goto và nhãn phải nằm cùng 1 hàm
+➢ Không cho phép dùng lệnh goto để nhảy từ ngoài vào trong,
+nhưng có thể cho phép nhảy từ trong ra ngoài.
+12
+
+-- 12 of 13 --
+
+TÓM LƯỢC CUỐI BÀI
+AUM Việt Nam
+• Khái niệm cơ bản nhất để có thể tự lập trình các câu lệnh rẽ nhánh như if,
+then, else, swith case…;
+• Cấu trúc rẽ nhánh cho phép xây dựng chương trình với nhiều sự lựa chọn
+ở cả đầu vào lẫn đầu ra, cho phép xử lý các yêu cầu tốt hơn;
+• Các cấu trúc rẽ nhánh cho phép tạo ra các vòng lặp để giải quyết khá
+nhiều việc tự động theo chu trình;
+• Với toán tử goto và nhãn, cho phép di chuyển tới chính xác các vị trí khác
+bên trong hàm.
+13
+
+-- 13 of 13 --
+
