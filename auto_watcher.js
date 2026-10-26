@@ -26,6 +26,7 @@ if (!BOT_TOKEN && fs.existsSync(envPath)) {
 const ALERT_CHANNEL_ID = process.env.ALERT_CHANNEL_ID || '1559811340414230558';
 
 let isSyncing = false;
+let lastSyncTime = 0;
 
 // 1. Gửi thông báo Discord tới kênh Alert
 async function sendDiscordAlert(title, message, color = 0x00F59B) {
@@ -135,21 +136,7 @@ function checkAndPullGit() {
       console.log('✅ [AUTO-PULL] Đã kéo dữ liệu mới nhất từ GitHub thành công!');
       
       rebuildSmartIndex();
-      
-      const idxFile = path.join(baseDir, 'etnu_knowledge_index.json');
-      let stats = { qa: 0, chunks: 0 };
-      if (fs.existsSync(idxFile)) {
-        try {
-          const d = JSON.parse(fs.readFileSync(idxFile, 'utf8'));
-          stats.qa = (d.qa || []).length;
-          stats.chunks = (d.chunks || []).length;
-        } catch (_) {}
-      }
-
-      sendDiscordAlert(
-        '🔄 TỰ ĐỘNG ĐỒNG BỘ TRI THỨC eTNU TỪ GITHUB THÀNH CÔNG',
-        `Hệ thống vừa tự động cập nhật dữ liệu mới từ GitHub về Homelab NAS:\n- 🎯 **Ngân hàng trắc nghiệm:** **${stats.qa}** câu chính thức\n- 📚 **Tri thức giáo trình:** **${stats.chunks}** khối trích xuất\n- ⚡ **RAM Bot Discord:** Đã tự động Hot-Reload tức thì.`
-      );
+      console.log('✅ [AUTO-PULL] Đã cập nhật xong dữ liệu và reload Bot.');
     } else {
       // Nếu remote không đổi, kiểm tra nếu local có thay đổi chưa commit
       const status = execSync('git status --porcelain', { cwd: baseDir, encoding: 'utf8', stdio: 'pipe' }).trim();
@@ -265,11 +252,12 @@ const server = http.createServer(async (req, res) => {
 
   // Webhook đồng bộ toàn diện: Git pull -> Crawl Moodle -> Re-index -> Git push -> Reload Bot
   if (url.pathname === '/sync' && (req.method === 'POST' || req.method === 'GET')) {
-    if (isSyncing) {
-      res.writeHead(429, { 'Content-Type': 'application/json' });
-      return res.end(JSON.stringify({ success: false, message: 'Đang trong tiến trình đồng bộ, vui lòng đợi.' }));
+    if (isSyncing || Date.now() - lastSyncTime < 60000) {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      return res.end(JSON.stringify({ success: false, message: 'Đang trong tiến trình đồng bộ hoặc vừa chạy trong 60s qua.' }));
     }
 
+    lastSyncTime = Date.now();
     isSyncing = true;
     console.log(`\n🚀 [WEBHOOK] Nhận tín hiệu kích hoạt đồng bộ toàn diện...`);
 
@@ -293,11 +281,6 @@ const server = http.createServer(async (req, res) => {
       } catch (e) {
         console.warn('⚠️ Lỗi Git push:', e.message);
       }
-
-      sendDiscordAlert(
-        '🚀 HOÀN TẤT ĐỒNG BỘ TOÀN DIỆN eTNU (ON-DEMAND)',
-        'Tiến trình crawl Moodle, bóc tách tài liệu, lập chỉ mục và đẩy lên GitHub đã hoàn tất thành công 100%!'
-      );
     });
 
     res.writeHead(200, { 'Content-Type': 'application/json' });
