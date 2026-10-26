@@ -18,7 +18,7 @@ let isSyncing = false;
 
 // Hàm thông báo Mac Mini Hot-Reload
 function notifyMacMiniReload() {
-  const macHosts = ['10.10.10.142', '100.110.189.94'];
+  const macHosts = ['127.0.0.1', '10.10.10.70', '100.110.189.94'];
   macHosts.forEach(host => {
     try {
       const req = http.request({
