@@ -1940,5 +1940,70 @@
     "options": [],
     "correctAnswer": "Sửa.",
     "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Chọn tên đúng cách theo cú pháp C?",
+    "options": [
+      "A. 12a",
+      "B. m172",
+      "C. 12",
+      "D. -123"
+    ],
+    "correctAnswer": "B. m172"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hãy chọn phát biểu đúng về tập ký tự dùng trong ngôn ngữ lập trình C?",
+    "options": [
+      "A. Không thể là các chữ cái",
+      "B. Có thể dùng bất kỳ ký hiệu nào",
+      "C. Có thể sử dụng ký tự gạch dưới",
+      "D. Không thể là các ký hiệu đặc biệt"
+    ],
+    "correctAnswer": "C. Có thể sử dụng ký tự gạch dưới"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đoạn mã nào có lỗi?",
+    "options": [
+      "A. int m=7; long t=6; double x= 2*m;",
+      "B. int m=7, t=6; double x= 2*m;",
+      "C. int m=7; t=6; double x= 2*t;",
+      "D. int m=7, t=6, x= 2*m*t;"
+    ],
+    "correctAnswer": "C. int m=7; t=6; double x= 2*t;"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Trong C độ dài cực đại của tên mặc định là bao nhiêu?",
+    "options": [
+      "A. 24",
+      "B. 32",
+      "C. 64",
+      "D. 16"
+    ],
+    "correctAnswer": "B. 32"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Chọn 2 phát biểu SAI. Một tên trong C bắt đầu bằng?",
+    "options": [
+      "a) Chữ cái.",
+      "b) Ký tự _",
+      "c) Chữ số",
+      "d) Ký hiệu toán tử"
+    ],
+    "correctAnswer": "c) Chữ số và d) Ký hiệu toán tử"
   }
 ]
