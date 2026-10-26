@@ -2005,5 +2005,70 @@
       "d) Ký hiệu toán tử"
     ],
     "correctAnswer": "c) Chữ số và d) Ký hiệu toán tử"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Trong các khai báo biến sau, khai báo nào là đúng?",
+    "options": [
+      "A. int _7;",
+      "B. int f(x);",
+      "C. int case;",
+      "D. int be ta;"
+    ],
+    "correctAnswer": "A. int _7;"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đâu là từ khóa trong C ?",
+    "options": [
+      "A. int",
+      "B. integer",
+      "C. Int",
+      "D. INT"
+    ],
+    "correctAnswer": "A. int"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Khi gán trị mới cho một dữ liệu thì?",
+    "options": [
+      "A. Giá trị của biến thay đổi và nhận một giá trị ngẫu nhiên",
+      "B. Giá trị của biến không thay đổi và nhận giá trị mới",
+      "C. Giá trị của biến không thay đổi",
+      "D. Giá trị biến thay đổi và nhận giá trị mới"
+    ],
+    "correctAnswer": "D. Giá trị biến thay đổi và nhận giá trị mới"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "void main()\n{\nint a=10;\nint b=2*a+a++;\n}\nGiá trị b là bao nhiêu?",
+    "options": [
+      "A. 32",
+      "B. 31",
+      "C. 30",
+      "D. 33"
+    ],
+    "correctAnswer": "C. 30"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Trong các tên sau đây, tên nào là tên biến hợp lệ?",
+    "options": [
+      "A. char",
+      "B. double",
+      "C. float",
+      "D. dx (hoặc yl, vb, x)"
+    ],
+    "correctAnswer": "D. dx (hoặc yl, vb, x)"
   }
 ]
