@@ -216,6 +216,20 @@ fs.readdirSync(baseDir).forEach(item => {
 });
 console.log(`👀 Đang giám sát tự động ${watchedDirs.length} thư mục tài liệu môn học.`);
 
+// Giám sát tự động etnu_full_qa_database.json (Tự động rebuild index và reload RAM ngay khi có câu hỏi mới)
+const qaDbFile = path.join(baseDir, 'etnu_full_qa_database.json');
+if (fs.existsSync(qaDbFile)) {
+  let qaDebounce = null;
+  fs.watch(qaDbFile, () => {
+    clearTimeout(qaDebounce);
+    qaDebounce = setTimeout(() => {
+      console.log('📝 Phát hiện etnu_full_qa_database.json thay đổi trên đĩa! Đang tự động tái lập chỉ mục và nạp vào RAM...');
+      rebuildSmartIndex();
+    }, 1500);
+  });
+  console.log('👀 Đang giám sát etnu_full_qa_database.json để tự động nạp RAM.');
+}
+
 // 8. Chạy định kỳ Auto-Pull Git mỗi 3 phút
 setInterval(checkAndPullGit, 3 * 60 * 1000);
 // Chạy ngay lần đầu khi khởi động daemon
