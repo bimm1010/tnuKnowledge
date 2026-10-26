@@ -133,7 +133,7 @@ NHẬP MÔN INTERNET VÀ E-LEARNING 15
 
 -- 15 of 54 --
 
-4.2. TRUY CẬP KHÓAHỌC
+4.2. TRUY CẬP KHÓA HỌC
 • Chọn menu “Khoá Học Của Tôi”
 • Hoặc tìm kiếm theo thông tin
 NHẬP MÔN INTERNET VÀ E-LEARNING 16
@@ -231,8 +231,8 @@ NHẬP MÔN INTERNET VÀ E-LEARNING 25
 
 4.2.4. LÀM BÀI KIỂM TRA TRẮC NGHIỆM
 • Mỗi một tuần học đều có thể bài tập dưới dạng trắc nghiệm hoặc bài kiểm
-tra trắc nghiệm (tùy theo đặc điểm của từng môn học mà giáo trình có thể
-khác nhau)
+tra trắc nghiệm (tùy theo đặc điểm của từng môn học mà giáo trình có
+thể khác nhau)
 • Để làm bài kiểm tra trắc nghiệm bạn bấm vào dòng có biểu tượng ở đầu
 như sau:
 NHẬP MÔN INTERNET VÀ E-LEARNING 26

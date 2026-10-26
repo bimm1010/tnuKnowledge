@@ -1,0 +1,326 @@
+BÀI 1
+TỔNG QUAN VỀ HỆ ĐIỀU HÀNH
+NHẬP MÔN HỆ ĐIỀU HÀNH 1
+
+-- 1 of 26 --
+
+MỤC TIÊU
+NHẬP MÔN HỆ ĐIỀU HÀNH 2
+• Mô tả đúng đối tượng và phương pháp nghiên cứu môn học.
+• Trình bày được khái niệm hệ điều hành.
+• Chỉ ra được vai trò của hệ điều hành trong hệ thống máy tính. Liệt kê
+được các giai đoạn phát triển của hệ điều hành.
+• Xác định được sự khác biệt của các hệ điều hành qua từng giai đoạn.
+
+-- 2 of 26 --
+
+3
+NỘI DUNG
+1. Giới thiệu
+2. Các hệ điều hành thế hệ đầu tiên.
+3. Các nhà sản xuất hệ điều hành đầu những năm 1960.
+4. Họ Máy tính IBM System/360.
+5. Phản ứng của các nhà sản xuất khác với System/360.
+6. Hệ thống phân chia thời gian.
+7. Công nghệ lập trình.
+8. Giá trị của phần cứng & phần mềm.
+9. Một số xu hướng.
+NHẬP MÔN HỆ ĐIỀU HÀNH
+
+-- 3 of 26 --
+
+1. GIỚI THIỆU
+NHẬP MÔN HỆ ĐIỀU HÀNH 4
+
+-- 4 of 26 --
+
+1. GIỚI THIỆU
+NHẬP MÔN HỆ ĐIỀU HÀNH 5
+Hệ điều hành là gì?
+• Theo một nghĩa nào đó, Hệ điều hành
+định ra sự hình dung của người dùng
+về máy tính nhiều hơn cả thông tin về
+thiết bị.
+• Vào những năm 1960, Hệ điều hành có
+thể được định nghĩa như là “chương
+trình điều khiển thiết bị”.
+• Hệ điều hành là gói các chương trình
+cũng như các đoạn vi mã, các chương
+trình này đảm bảo khả năng sử dụng
+các thiết bị máy tính.
+Các ứng dụng
+Hệ điều hành
+Phần cứng
+Người dùng
+
+-- 5 of 26 --
+
+1. GIỚI THIỆU
+NHẬP MÔN HỆ ĐIỀU HÀNH 6
+Vai trò của Hệ điều hành:
+• Cung cấp giao diện cho người sử dụng;
+• Đảm bảo phân chia tài nguyên giữa các ứng dụng;
+• Cung cấp khả năng làm việc tương tác người – máy;
+• Đảm bảo sự truy cập của ứng dụng, người dùng tới các tài nguyên;
+• Thực hiện các tác vụ vào ra;
+• Thực hiện khôi phục lại thông tin, tiến trình trong những trường hợp
+xảy ra sự cố.
+
+-- 6 of 26 --
+
+1. GIỚI THIỆU
+NHẬP MÔN HỆ ĐIỀU HÀNH 7
+• Các tài nguyên quan trọng được hệ điều hành quản lý:
+▪ Bộ vi xử lý (CPU);
+▪ Bộ nhớ (Memory);
+▪ Thiết bị vào ra;
+▪ Dữ liệu.
+• Trong quá trình vận hành, hệ điều hành tương tác với nhiều đối tượng
+sử dụng khác nhau, đó có thể là:
+▪ Người quản trị;
+▪ Người lập trình;
+▪ Người sử dụng;
+▪ Các chương trình;
+▪ Các thiết bị.
+
+-- 7 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 8
+LỊCH SỬ PHÁT TRIỂN CỦA HỆ ĐIỀU HÀNH
+• Thế hệ 1 (1945 – 1955):
+▪ Vào khoảng giữa thập niên 1940, thành công trong việc xây dựng máy tính dùng ống chân
+không.
+▪ Vào đầu thập niên 1950, phiếu đục lổ ra đời và có thể viết chương trình trên phiếu thay cho
+dùng bảng điều khiển.
+• Thế hệ 2 (1955 – 1965):
+▪ Hệ thống xử lý theo lô ra đời, nó lưu các yêu cầu cần thực hiện lên băng từ, và hệ thống sẽ
+đọc và thi hành lần lượt.
+▪ Ngôn ngữ lập trình sử dụng trong giai đoạn này chủ yếu là FORTRAN và hợp ngữ.
+• Thế hệ 3 (1965 – 1980):
+▪ Máy IBM 360 là máy tính đầu tiên sử dụng mạch tích hợp (IC). Kích thước và giá cả của các
+hệ thống máy giảm đáng kể.
+▪ Hệ điều hành ra đời nhằm điều phối, kiểm soát hoạt động và giải quyết các yêu cầu tranh
+chấp thiế bị.
+▪ Sau đó, hệ điều hành ra đời khái niệm đa chương.
+▪ Ra đời của hệ điều hành chia xẻ thời gian như CTSS của MIT. Đồng thời các hệ điều hành
+lớn ra đời như MULTICS, UNIX và hệ thống các máy mini cũng xuất hiện
+• Thế hệ 4 (1980 -):
+▪ Giai đoạn này đánh dấu sự ra đời của máy tính cá nhân, đặc biệt là hệ thống IBM PC với hệ
+điều hành MS-DOS và Windows sau này.
+1. GIỚI THIỆU
+
+-- 8 of 26 --
+
+2. CÁC HỆ ĐIỀU HÀNH THẾ HỆ ĐẦU TIÊN
+NHẬP MÔN HỆ ĐIỀU HÀNH 9
+
+-- 9 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 10
+2. CÁC HỆ ĐIỀU HÀNH THẾ HỆ ĐẦU TIÊN
+• Những hệ điều hành đầu tiên định hướng tới việc giảm lãng phí thời
+gian máy khi chuẩn bị đưa một bài toán vào thực hiện (Setup Time) và
+thời gian kết thúc một bài toán (Teardown Time)
+• Những hệ điều hành đầu tiên này giúp tăng hiệu suất sử dụng máy tính
+bởi vì các bài toán được xử lý theo lô thay vì từng bài toán riêng lẻ.
+• Đặc điểm:
+▪ Xử lý bài toán theo lô;
+▪ Có các chương trình con vào/ra chuẩn;
+▪ Khả năng tự động chuyển từ bài toán này sang thực hiện bài toán
+tiếp theo, giảm thời gian chết của hệ thống;
+▪ Có công cụ khôi phục hệ thống khi xảy ra lỗi;
+▪ Cung cấp ngôn ngữ điều khiển tác vụ (Job Control Language).
+
+-- 10 of 26 --
+
+3. CÁC NHÀ SẢN XUẤT HỆ ĐIỀU HÀNH ĐẦU
+NHỮNG NĂM 1960
+NHẬP MÔN HỆ ĐIỀU HÀNH 11
+
+-- 11 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 12
+3. CÁC NHÀ SẢN XUẤT HỆ ĐIỀU HÀNH ĐẦU
+NHỮNG NĂM 1960
+• Các nhà sản xuất thời kỳ này: Bendix, Control Data Corporation (CDC),
+IBM, RCA, General Electric…
+• Các thành tựu quan trọng:
+▪ Xây dựng và đưa vào hoạt động thành công hệ thống phòng thủ cho
+bộ quốc phòng
+▪ Hệ thống đăng ký và bán vé máy bay cho các công ty hàng không
+▪ Sự kết hợp giữa máy tính và truyền thông.
+• Vào năm 1963, hãng Burroughs đã thiết kế hệ điều hành MCP với đặc
+điểm:
+▪ Đa nhiệm - Multi Tasking/ Multi Programming;
+▪ Đa xử lý - Multi Processing;
+▪ Bộ nhớ ảo - Virtual Memory;
+▪ Hỗ trợ khả năng dò tìm lỗi (Debug) trên ngôn ngữ nguồn;
+▪ Xây dựng hệ điều hành bằng các ngôn ngữ lập trình bậc cao.
+
+-- 12 of 26 --
+
+4. HỌ MÁY TÍNH IBM SYSTEM/360
+NHẬP MÔN HỆ ĐIỀU HÀNH 13
+
+-- 13 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 14
+4. HỌ MÁY TÍNH IBM SYSTEM/360
+• Ra đời vào 4/1964.
+▪ Ưu điểm: Các phiên bản khác nhau đều tương thích về kiến trúc,
+có thể sử dụng chung một hệ điều hành.
+• Nhược điểm: Không tương thích với các hệ thống khác.
+• Khắc phục nhược điểm của System/360:
+• IBM đã cung cấp các bộ chương trình
+mô phỏng lớn nhất trong lịch sử cho
+phép 1 máy tính giả lập một hệ thống
+máy tính khác.
+• Nhờ các bộ mô phỏng, người sử dụng
+có thể vận hành chương trình ứng
+dụng cũ trên System/360 và song song
+thực hiện việc chuyển đổi chương trình
+lên phiên bản hỗ trợ System/360 vào
+lúc thích hợp.
+
+-- 14 of 26 --
+
+5. PHẢN ỨNG CỦA CÁC NHÀ SẢN XUẤT
+KHÁC VỚI SYSTEM/360
+NHẬP MÔN HỆ ĐIỀU HÀNH 15
+
+-- 15 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 16
+5. PHẢN ỨNG CỦA CÁC NHÀ SẢN XUẤT
+KHÁC VỚI SYSTEM/360
+• IBM System/360 ra đời là một đòn cạnh tranh mạnh mẽ tới các nhà sản
+xuất khác.
+• Các chính sách:
+▪ Sao chép lại kiến trúc của System/360, thiết kế hệ điều hành tương
+tự hệ điều hành của System/360 và bán với giá cạnh tranh hơn –
+thất bại.
+▪ Thiết kế các hệ thống không tương thích với System/360 nhưng
+nhanh hơn và kinh tế hơn – thất bại.
+▪ Thiết kế các máy đã được cải tiến, nhái lại các hệ thống IBM7000,
+IBM1400 – thành công.
+• 4 phiên bản hệ điều hành cho System/360 trong những năm 1960 của
+IBM:
+▪ DOS/360: DOS dành cho các phiên bản cỡ nhỏ.
+▪ OS/MFT: Dành cho các máy cỡ trung và các máy phiên bản cũ.
+▪ OS/MVT: Dành cho các máy phiên bản cũ của System/360.
+▪ CP-67/CMS: Dành cho các phiên bản lớn.
+
+-- 16 of 26 --
+
+6. HỆ THỐNG PHÂN CHIA THỜI GIAN
+NHẬP MÔN HỆ ĐIỀU HÀNH 17
+
+-- 17 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 18
+6. HỆ THỐNG PHÂN CHIA THỜI GIAN
+• Đặc điểm:
+▪ Cho phép một số người sử dụng làm việc trên các trạm đầu cuối
+thực hiện hội thoại trực tiếp với máy tính;
+▪ Cho phép khai thác tất cả các phương tiện tính toán.
+• Một số hệ thống phân chia thời gian nổi tiếng:
+▪ Hệ thống CTSS;
+▪ Hệ thống MULTICS;
+▪ TSS của IBM cho phiên bản System 360/67;
+▪ CP-67/CMS;
+▪ VM OS của RCA;
+▪ KRONOS của CDC cho hệ thống CDC6000.
+
+-- 18 of 26 --
+
+7. CÔNG NGHỆ LẬP TRÌNH
+NHẬP MÔN HỆ ĐIỀU HÀNH 19
+
+-- 19 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 20
+7. CÔNG NGHỆ LẬP TRÌNH
+• Nguyên nhân ra đời:
+▪ Một số người viết chương trình điều khiển không biết rằng
+các chương trình hoặc thiết bị phải được thiết kế để hoạt
+động tốt cũng như dễ dàng nâng cấp, bảo trì;
+▪ Chi phí lớn cho việc tìm ra các lỗi không đáng có;
+▪ Nhiều chương trình phải viết lại bởi những người khác.
+• Vấn đề này làm đau đầu nhiều người, cuối cùng các tổ chức
+khoa học cũng như các hãng công nghiệp đã bỏ ra nhiều nguồn
+lực để giải quyết bài toán làm thế nào xây dựng được chương
+trình không có lỗi, đáp ứng yêu cầu đặt ra, với một thời gian và
+chi phí xác định trước. và đó là khởi đầu của một kỹ nghệ - kỹ
+nghệ lập trình (Software Engineering).
+
+-- 20 of 26 --
+
+8. GIÁ TRỊ CỦA PHẦN CỨNG & PHẦN MỀM
+NHẬP MÔN HỆ ĐIỀU HÀNH 21
+
+-- 21 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 22
+8. GIÁ TRỊ CỦA PHẦN CỨNG & PHẦN MỀM
+• Cho đến đầu những năm 1970, các nhà sản xuất máy tính nói
+chung chỉ bán 1 loại sản phẩm – phần cứng thiết bị.
+• Các hợp đồng thời gian này thường quy định rằng trách nhiệm
+về phần mềm là thuộc về khách hàng, nhà cung cấp không có
+trách nhiệm khắc phục khi xảy ra lỗi.
+• Vào đầu những năm 1970, IBM quyết định tách riêng các sản
+phẩm phần cứng và phần mềm. Điều này đã làm ảnh hưởng to
+lớn đến ngành công nghiệp máy tính:
+▪ Nhà cung cấp khó có thể từ chối trách nhiệm của mình đối
+với sản phẩm phần mềm được cung cấp. Khách hàng phải
+trả tiền cho phần mềm sẽ tin tưởng hơn vào chất lượng của
+nó;
+▪ Xuất hiện ngành công nghiệp sản xuất phần mềm như là hệ
+quả của việc phân chia giá trị phần cứng và phần mềm.
+
+-- 22 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 23
+Ảnh hưởng:
+• Sự tách bạch giá trị của phần cứng và phần mềm đã trở thành tiêu
+chuẩn của ngành công nghiệp
+• Người sử dụng có quyền và động lực để so sánh sản phẩm của các
+hãng khác nhau nhằm lựa chọn sản phẩm phù hợp
+• Một hệ quả quan trọng là các nhà sản xuất phần mềm bắt đầu tiến
+hành có phương pháp khi thiết kế, xây dựng các chương trình theo
+các module, cũng như có thể cung cấp sản phẩm với bản quyền.
+• Xuất hiện động lực để các nhà sản xuất thiết bị khác sản xuất các phần
+cứng tương thích với phần cứng của IBM. Họ sản xuất thiết bị có tính
+năng không kém và giá cả cạnh tranh hơn. Cuối cùng khách hàng có
+nhiều lựa chọn hơn.
+8. GIÁ TRỊ CỦA PHẦN CỨNG & PHẦN MỀM
+
+-- 23 of 26 --
+
+9. MỘT SỐ XU HƯỚNG
+NHẬP MÔN HỆ ĐIỀU HÀNH 24
+
+-- 24 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 25
+9. MỘT SỐ XU HƯỚNG
+• Giá phần cứng thiết bị liên tục giảm trong khi đó tốc độ bộ xử lý, bộ
+nhớ tăng, đồng thời kích thước vật lý giảm;
+• Các vi mạch có mật độ ngày càng cao;
+• Các hệ thống đa xử lý ngày càng phổ biến;
+• Nhiều chức năng trước đây được thực hiện bởi chương trình ứng
+dụng sẽ trở thành các chức năng của hệ điều hành hoặc phần
+cứng;
+• Hỗ trợ ảo hóa;
+• Nối mạng máy tính trở nên phổ biến.
+
+-- 25 of 26 --
+
+NHẬP MÔN HỆ ĐIỀU HÀNH 26
+TÓM LƯỢC CUỐI BÀI
+• Nắm được khái niệm của Hệ điều hành cũng như các chức năng
+của Hệ điều hành.
+• Nắm được lịch sử phát triển của Hệ điều hành và các ưu và nhược
+điểm của Hệ điều hành qua từng giai đoạn phát triển.
+
+-- 26 of 26 --
+

@@ -1,0 +1,556 @@
+1
+• Giới thiệu.
+• Các hệ điều hành thế hệ đầu tiên.
+• Các nhà sản xuất hệ điều hành đầu những
+năm 1960.
+• Họ máy tính IBM System/360.
+• Phản ứng của các nhà sản xuất khác với
+System/360.
+• Hệ thống phân chia thời gian.
+• Công nghệ lập trình.
+• Giá trị của phần cứng & phần mềm.
+• Một số xu hướng.
+Nội dung
+• Chỉ ra được vai trò của hệ điều hành
+trong hệ thống máy tính.
+• Liệt kê được các giai đoạn phát triển
+của hệ điều hành.
+Mục tiêu
+• 6 tiết.
+Thời lượng học
+BÀI 1: TỔNG QUAN HỆ ĐIỀU HÀNH
+
+-- 1 of 14 --
+
+2
+Một máy tính hiện đại là một hệ thống rất phức tạp bao gồm
+một hoặc nhiều bộ xử lý, một vài bộ nhớ chính, ổ đĩa, máy in,
+bàn phím ….
+Tình huống
+Làm thế nào để theo dõi tất cả các thành phần này và sử dụng chúng một cách hiệu quả và
+chính xác?
+Câu hỏi
+TÌNH HUỐNG DẪN NHẬP
+
+-- 2 of 14 --
+
+3
+1.1. 	Giới thiệu
+Trong thời kỳ đầu tiên của kỷ nguyên máy tính điện tử, để làm việc với máy tính,
+người ta dùng các thiết bị đục lỗ, có thể nói lúc đó máy tính chưa có hệ điều hành.
+Ngày nay, hệ điều hành có mặt trong tất cả các loại máy tính, từ những hệ thống máy
+tính lớn đến các máy tính cá nhân, thậm chí là những thiết bị tính toán di động. Trong
+máy tính cá nhân, hệ điều hành phổ biến nhất là Microsoft Windows, điều đó dẫn đến
+các nhà sản xuất phần cứng sản xuất các thiết bị định hướng được sử dụng dưới hệ
+điều hành này.
+Vào những năm 1960, hệ điều hành có thể được định nghĩa như là “chương trình điều
+khiển thiết bị”. Ngày nay, xu hướng là nhiều chức năng, trước kia các ứng dụng phải
+cung cấp thì nay được hệ điều hành đảm nhiệm và được cài đặt như là một thành phần
+của hệ điều hành.
+Hệ điều hành là gói các chương trình cũng như các đoạn vi mã đảm bảo khả năng sử
+dụng các thiết bị máy tính. Các thiết bị đó có thể coi là tài nguyên của máy tính.
+Nhiệm vụ của hệ điều hành là giúp người sử dụng các thiết bị một cách dễ dàng, đảm
+bảo khai thác các thiết bị đạt hiệu suất cao nhất.
+Một số hệ điều hành thường đòi hỏi nhiều tài nguyên (RAM, ...) để vận hành. Người
+sử dụng thường cho đó là thỏa thuận bí mật của các nhà sản xuất hệ điều hành và phần
+cứng để tăng số lượng bán ra. Trong khi đó nhiều nhà sản xuất thiết bị coi hệ điều
+hành là thứ gì đó tốn kém nhưng không thể thiếu vì nếu thiếu các thiết bị khó có thể
+bán được.
+Vai trò quan trọng nhất của hệ điều hành là điều khiển tài nguyên – các thiết bị máy
+tính. Hệ điều hành thực hiện nhiều chức năng, trong đó có:
+• 	Cung cấp giao diện cho người sử dụng.
+• 	Đảm bảo phân chia tài nguyên giữa các ứng dụng.
+• 	Cung cấp khả năng tương tác người – máy.
+• 	Đảm bảo sự truy cập của ứng dụng, người dùng tới các tài nguyên.
+• 	Thực hiện các tác vụ vào ra.
+• 	Thực hiện khôi phục lại thông tin, tiến trình trong những trường hợp xảy ra sự cố.
+Các tài nguyên quan trọng được hệ điều hành quản lý:
+• 	Bộ vi xử lý (CPU).
+• 	Bộ nhớ (Memory).
+• 	Thiết bị vào ra.
+• 	Dữ liệu.
+Trong quá trình vận hành, hệ điều hành tương tác với nhiều đối tượng sử dụng khác
+nhau, đó có thể là:
+• 	Người quản trị.
+• 	Người lập trình.
+• 	Người sử dụng.
+• 	Các chương trình.
+• 	Các thiết bị.
+
+-- 3 of 14 --
+
+4
+1.2. 	Các thế hệ hệ điều hành
+Hệ điều hành cũng như máy tính, trong quá trình phát triển của mình đã trải qua nhiều
+lần thay đổi lớn – có thể được gọi là các thế hệ. Đối với phần cứng thiết bị, sự chuyển
+thế hệ thường gắn với các thành tựu trong ngành điện tử:
+• 	Ban đầu là các máy tính dựa trên các bóng điện
+tử (3 cực).
+• 	Sau đó được cấu thành từ các transitor bán dẫn.
+• 	Tiếp đến là mạch tích hợp rồi đến vi mạch.
+• 	Ngày nay các thiết bị tính toán chủ yếu vẫn vận
+hành dựa trên bán dẫn, bên cạnh đó cũng đã
+xuất hiện các máy tính vận hành theo các
+nguyên lý khác như quang học, sinh học…
+Thường thì sự xuất hiện của thế hệ tiếp theo dẫn đến sự giảm giá của các thiết bị thế
+hệ trước.
+1.2.1. 	Thế hệ đầu tiên (0) – những năm 1940
+Trong những năm 1940, các hệ thống máy tính có thể coi là chưa có hệ điều hành.
+Người sử dụng phải làm việc với ngôn ngữ máy.
+1.2.2. 	Thế hệ thứ 1 – những năm 1950
+Hệ điều hành thế hệ thứ 1 được xây dựng nhằm mục đích đẩy nhanh và đơn giản hóa
+quá trình chuyển thực thi từ bài toán (chương trình) này đến bài toán khác. Trước khi
+có hệ điều hành thế hệ thứ 1, rất nhiều thời gian
+máy bị lãng phí trong quá trình kết thúc một bài
+toán và chuẩn bị thực thi bài toán tiếp theo. Hệ điều
+hành thế hệ thứ 1 được gọi là hệ điều hành xử lý
+theo lô (Batch Processing).
+Hệ điều hành này cho phép người quản trị thiết lập
+một gói nhiều bài toán để thực thi, xử lý. Một bài
+toán khi thực thi sẽ được sử dụng toàn bộ tài
+nguyên của hệ thống. Sau khi kết thúc bài toán,
+quyền điều khiển trả lại cho hệ điều hành, hệ điều
+hành giải phóng các tài nguyên đã cấp và tự động
+đưa bài toán tiếp theo vào thực hiện.
+1.2.3. 	Thế hệ thứ 2 – đầu những năm 1960
+Điểm nổi bật của hệ điều hành thế hệ thứ 2 là hệ điều hành được xây dựng như các hệ
+sử dụng tương tác (Interactive), với khả năng chạy đa nhiệm (Multi Tasking) và khả
+năng hỗ trợ đa xử lý (Multi Processor). Trong hệ thống đa nhiệm, cùng một lúc có thể
+có nhiều chương trình ứng dụng nằm trong bộ nhớ. Bộ xử lý sẽ phục vụ lần lượt từ
+tiến trình này sang tiến trình khác, nhờ thế tạo ra hiệu ứng các tiến trình được thực
+hiện đồng thời. Trong các hệ đa xử lý, hệ thống có thể quản lý và khai thác nhiều bộ
+xử lý, nhờ đó nâng cao năng lực tính toán của hệ thống.
+
+-- 4 of 14 --
+
+5
+Trong thời gian này cũng bắt đầu xuất hiện phương pháp đảm bảo sự độc lập của
+chương trình đối với các thiết bị. Ở các hệ thống với hệ điều hành thế hệ thứ 1,
+người sử dụng muốn ghi dữ liệu ra băng từ thì anh ta cần chỉ rõ trong chương
+trình thông tin cụ thể về thiết bị. Trong hệ điều hành thế hệ thứ 2 anh ta chỉ xác
+định cần ghi file ra thư mục nào đó, hệ thống sẽ tự xác định thiết bị vật lý tương
+ứng.
+Trong thời gian này cũng xuất hiện các hệ
+thống phân chia thời gian (Time Sharing), cho
+phép người sử dụng tương tác với máy tính
+qua các trạm đầu cuối (Terminal). Với hệ
+thống phân chia thời gian, người sử dụng làm
+việc trong chế độ tương tác. Nhờ đó người
+dùng có thể đưa ra các chỉ thị, yêu cầu cho hệ
+thống, máy tính sẽ xử lý và trả lại kết quả. Chế
+độ tương tác cho phép người sử dụng có thể
+tìm và sửa lỗi nhanh chóng hơn.
+Xuất hiện các hệ thống thời gian thực đầu tiên. Các hệ thống thời gian thực đặc
+trưng bởi khả năng phản ứng tức thời đối với các sự kiện xảy ra. Người ta đã xây
+dựng các hệ thống phục vụ phòng không cho phép theo dõi hàng trăm mục tiêu
+đồng thời, hay các hệ thống điều khiển dây chuyền sản xuất có khả năng phản
+ứng khi có các nguy cơ xảy ra sự cố. Các hệ thống thời gian thực thường làm
+việc không hết công suất, bởi vì nó cần ở trạng thái luôn sẵn sàng phản ứng hơn
+là chạy nhiều chương trình.
+1.2.4. 	Thế hệ thứ 3 – Giữa những năm 1960-1970
+Các hệ điều hành thế hệ thứ 3 xuất hiện cùng với sự ra đời của họ máy tính IBM
+System 360 vào năm 1964. Những hệ thống này
+được chế tạo nhằm giải quyết các bài toán
+thuộc các lĩnh vực khác nhau. Điều này cho
+phép mở rộng khả năng ứng dụng của máy
+tính, dẫn đến thị trường lớn hơn, bán được
+nhiều hơn. Tất nhiên có những mặt trái, ví dụ
+nhiều trường hợp người ta chỉ khai thác một
+phần tính năng của hệ thống.
+Hệ điều hành thế hệ thứ 3 là hệ thống có thể hỗ trợ nhiều chế độ: xử lý theo lô,
+phân chia thời gian, chế độ thời gian thực. Các hệ thống này phức tạp hơn nhiều
+so với 	thế hệ trước, do đó nhiều dự án xây dựng hệ điều hành thế hệ thứ 3 mất
+nhiều thời gian hơn dự kiến.
+1.2.5. 	Thế hệ thứ 4 – từ giữa những năm 1970 đến nay
+Hệ điều hành thế hệ thứ 4 là hệ điều hành tiến bộ. Do sự phát triển nhanh chóng
+của mạng máy tính và môi trường làm việc trực tuyến (Online), người sử dụng có
+khả năng truy cập thông tin trên các máy tính ở xa về phương diện địa lý. Sự ra
+đời của bộ vi xử lý (Micro Processor) kéo theo sự ra đời của máy tính cá nhân
+(PC-Personal Computer) đã trở thành cuộc cách mạng, đem công nghệ thông tin
+(CNTT) đến với mọi người. PC là một trong những thành
+
+-- 5 of 14 --
+
+6
+tựu quan trọng nhất trong lĩnh vực tính toán. Ngày nay, sở hữu một PC không còn là
+việc xa vời. Những chiếc máy tính cá nhân giúp mọi người có thể làm việc, giải trí bất
+kỳ lúc nào. Những chiếc PC rẻ tiền ngày nay có năng lực tính toán lớn hơn nhiều lần
+so với hệ thống tính toán lớn vào những năm 1960.
+Số người làm việc với máy tính ngày càng tăng và thuộc nhiều lĩnh vực ngành nghề
+đòi hỏi hệ thống ngày càng phải thân thiện, dễ sử dụng, có nghĩa người sử dụng không
+cần phải là các chuyên gia để có thể sử dụng các hệ thống đó. Nếu như vào những
+năm 1960, 1970, người sử dụng phải làm việc trên các ngôn ngữ lập trình thì vào
+những năm 1970 đã xuất hiện các hệ thống được điều khiển với sự trợ giúp của các
+lệnh, các thực đơn (Menu) đưa ra cho người dùng các lựa chọn bằng ngôn ngữ gần gũi
+hơn, và tiếp đó là giao diện đồ họa (GUI-Graphic User Interface).
+Thời gian này, khái niệm máy ảo (Virtual Machine) cũng trở nên phổ biến. Người sử
+dụng không cần quan tâm đến các chi tiết vật lý nữa. Thay vào đó, người sử dụng làm
+việc với hệ thống giả lập có đầy đủ chức năng của một máy tính.
+1.2.6. 	Các hệ điều hành thế hệ đầu tiên
+Có lẽ hệ điều hành đầu tiên do các chuyên gia của phòng thí nghiệm nghiên cứu của
+hãng GM (General Motors) xây dựng vào đầu những năm 1950 cho máy tính IBM
+701. Vào năm 1955, hãng GM cùng với North American Aviation xây dựng hệ điều
+hành cho máy tính IBM 704. Hiệp hội người sử dụng (SHARE) máy tính của IBM đã
+thảo luận và đề ra các yêu cầu cơ bản đối với hệ điều hành. Đến năm 1957, đã xuất
+hiện nhiều hệ điều hành khác nhau dành cho các máy tính IBM 704 do chính cộng
+đồng người sử dụng phát triển.
+Những hệ điều hành đầu tiên định hướng tới việc giảm lãng phí thời gian máy khi
+chuẩn bị đưa một bài toán vào thực hiện (Setup Time) và thời gian kết thúc một bài
+toán (Teardown Time). Khi chưa có hệ điều hành này, tác vụ đưa bài toán vào thực thi
+được thực hiện từ tấm bìa đục lỗ và trong khi bài toán thực thi, nó chiếm dụng toàn bộ
+tài nguyên của hệ thống. Bài toán hoặc kết thúc bình thường hoặc kết thúc do lỗi xảy
+ra. Sau khi bài toán kết thúc, người quản trị thực hiện các công việc như giải phóng bộ
+nhớ, in kết quả,… sau đó bắt đầu nạp bài toán tiếp theo, và chu kỳ cứ thế lặp lại.
+Trong thời gian chuẩn bị cho bài toán mới thực hiện cũng như loại bỏ bài toán ra khỏi
+hệ thống, máy tính nói chung không hoạt động.
+Những người xây dựng hệ điều hành đầu tiên cố gắng giảm thời gian chết và đơn giản
+hóa công việc quản trị bằng cách đơn giản hóa quá trình chuyển từ bài toán này sang
+bài toán khác. Những hệ điều hành đầu tiên này giúp tăng hiệu suất sử dụng máy tính
+bởi vì các bài toán được xử lý theo lô thay vì từng bài toán riêng lẻ. Các bài toán được
+ghi vào băng từ bằng công cụ trợ giúp và sau đó được đưa vào thực thi trên hệ thống.
+Khi mỗi bài toán kết thúc, quyền điều khiển được trả về cho bộ phận xử lý của hệ điều
+hành, bộ phận này sẽ tiếp tục nạp bài toán tiếp theo vào hoạt động, nhờ đó giảm đáng
+kể thời gian chuyển từ bài toán này sang bài toán khác.
+Trong các hệ điều hành đầu tiên cũng đã xuất hiện khái niệm tên file hệ thống, như là
+một cách đạt tới sự độc lập nhất định của chương trình với các thiết bị. Điều này cho
+phép người sử dụng không cần phải chỉ rõ thiết bị vật lý cụ thể, thay vào đó là đưa ra
+file hệ thống, kênh vào/ra chuẩn.
+Đến cuối những năm 1950, các hệ điều hành có các đặc điểm sau:
+
+-- 6 of 14 --
+
+7
+• 	Xử lý bài toán theo lô.
+• 	Có các chương trình con vào/ra chuẩn, giúp người sử dụng không cần quan tâm
+đến các chi tiết lập trình vào/ra trên ngôn ngữ máy.
+• 	Khả năng tự động chuyển từ bài toán này sang thực hiện bài toán tiếp theo, giảm
+thời gian chết của hệ thống.
+• 	Có công cụ khôi phục hệ thống khi xảy ra lỗi, đảm bảo khôi phục lại hệ thống
+trong trường hợp bài toán gây ra lỗi và tiếp tục nạp bài toán tiếp theo vào thực thi
+với sự can thiệp tối thiểu của người quản trị.
+• 	Cung cấp ngôn ngữ điều khiển tác vụ (Job Control Language) cho phép người sử
+dụng khá thuận tiện khi lập trình bài toán của mình và yêu cầu các tài nguyên cần
+thiết để thực hiện nó.
+Vào thời gian này, các hệ điều hành chủ yếu xây dựng cho các máy lớn. Nhiều máy
+nhỏ (Mini Computer) như IBM 1400 hoạt động mà không có hệ điều hành. Người sử
+dụng các hệ thống này phải tự thực hiện việc nạp các chương trình điều khiển hệ
+thống vào/ra.
+1.3. 	Các nhà sản xuất hệ điều hành đầu những năm 1960
+Vào đầu những năm 1960, các nhà sản xuất bắt đầu cung cấp máy tính cùng với hệ
+điều hành với các tính năng vượt trội so với hệ điều hành thế hệ trước. Trong thời gian
+này, các nhà sản xuất chủ yếu có:
+• 	Bendix.
+• 	Control data corporation (cdc).
+• 	IBM.
+• 	RCA.
+• 	General Electric, ….
+Các hệ điều hành thời kỳ này định hướng cho xử lý theo lô và được đánh giá chủ yếu
+qua sự gia tăng hiệu suất (khả năng phục vụ số lượng bài toán trong một đơn vị thời
+gian). Các hệ điều hành này đã có chế độ đa nhiệm (Multi Tasking). Trong đó, đồng
+thời có nhiều bài toán được nạp vào bộ nhớ. Bộ xử lý chuyển xử lý lần lượt từ bài toán
+này sang bài toán khác. Điều quan trọng nhất khi sử dụng đa nhiệm như một phương
+tiện tăng hiệu suất là sự khác biệt tốc độ giữa thiết bị vào/ra và bộ xử lý. Ví dụ chương
+trình thực hiện tác vụ vào ra và phải chờ đến khi kết thúc tác vụ này mới có thể tiếp
+tục. Nếu bài toán này chạy trong chế độ đơn nhiệm thì khi đó bộ xử lý ở trạng thái
+chờ, dẫn tới lãng phí tài nguyên. Các nhà lập trình nhận thấy rằng nếu có nhiều
+chương trình nằm trong bộ nhớ đồng thời thì có thể sử dụng thời gian đó một cách
+hữu ích. Để làm điều đó, chỉ cần làm thế nào để chuyển bộ xử lý sang phục vụ bài
+toán khác đã sẵn sàng hoạt động.
+Sau đó xuất hiện các hệ thống có nhiều bộ xử lý, trong các hệ thống này, nhiều bộ xử
+lý làm việc cùng một lúc. Các bộ xử lý có thể hoạt động như các thành phần độc lập
+và trao đổi dữ liệu với nhau hoặc có thể như các bộ xử lý liên quan lẫn nhau trong một
+không gian bộ nhớ. So với các hệ một bộ xử lý, các hệ đa xử lý có ưu thế về hiệu năng
+cũng như khả năng sẵn sàng.
+Một trong những thành tựu có ý nghĩa nhất trong giai đoạn này là đã xây dựng và đưa
+vào hoạt động thành công hệ thống phòng thủ cho bộ quốc phòng và hệ thống đăng ký
+
+-- 7 of 14 --
+
+8
+và bán vé máy bay cho các công ty hàng không. Hệ thống đăng ký và bán vé máy bay
+SABRE là hệ thống đầu tiên xử lý theo giao dịch (Transaction). Trong SABRE, người
+sử dụng tại các điểm bán vé phân tán làm việc với hệ thống trung tâm bằng các thiết bị
+đầu cuối. Hệ thống xử lý giao dịch bán vé, hỏi đáp với người sử dụng (người sử dụng có
+thể đưa ra các truy vấn như có chỗ trên chuyến bay VN123 cho hôm nay không? Khi đó
+máy tính xử lý và đưa ra câu trả lời một cách nhanh chóng). Hình thức làm việc trực
+tiếp thông qua các thiết bị đầu cuối như vậy được gọi là chế độ trực tuyến – Online.
+Xử lý giao dịch đòi hỏi khi thiết kế hệ điều hành phải chú ý đến một loạt các tình
+huống mới. Xuất hiện yêu cầu cần khả năng hỏi đáp (Dialog) với nhiều người sử dụng
+đồng thời. Điều này lại kéo theo các yêu cầu khác như thời gian trả lời trung bình,
+giao diện thân thiện,… Thay vì chỉ thực hiện một bài toán hoặc gói bài toán như thế
+hệ trước, máy tính phải phản ứng nhanh chóng các yêu cầu, có thể được gửi từ hàng
+trăm, thậm chí hàng nghìn trạm đầu cuối. Do đó, người ta bắt đầu chú trọng đến việc
+xây dựng các tiểu hệ thống bộ nhớ ngoại vi (thứ cấp) với khả năng truy cập dữ liệu
+trực tiếp, nhằm đảm bảo sự trao đổi dữ liệu nhanh chóng. Sự kết nối máy tính với
+đường điện thoại hay các kênh truyền dữ liệu tốc độ cao bắt đầu có ý nghĩa quan
+trọng. Một thành tựu quan trọng là sự kết hợp giữa máy tính và truyền thông.
+Vào năm 1963, hãng Burroughs đã thiết kế hệ điều hành MCP (Main Control
+Program) cho máy B5000 của mình, với nhiều tư tưởng mà ngày nay là tiêu chuẩn:
+• 	Đa nhiệm – Multi Tasking/Multi Programming.
+• 	Đa xử lý – Multi Processing.
+• 	Bộ nhớ ảo – Virtual Memory.
+• 	Hỗ trợ khả năng dò tìm lỗi (Debug) trên ngôn ngữ nguồn.
+• 	Xây dựng Hệ điều hành bằng các ngôn ngữ lập trình bậc cao.
+1.4. 	Họ Máy tính IBM System/360
+Vào tháng 4 năm 1964, IBM thông báo về sự ra đời
+của hệ máy tính với tên gọi System/360. Đây có thể
+được coi là một trong những sự kiện quan trọng
+trong lịch sử hệ điều hành.
+Nói chung, người sử dụng không bao giờ thỏa mãn,
+họ luôn đòi hỏi máy tính ngày càng có hiệu năng
+cao hơn, tài nguyên nhiều hơn, tốc độ nhanh hơn.
+Khi một hệ thống đáp ứng được nhu cầu thì người
+dùng lại mong muốn có máy tính mạnh hơn nữa và
+thường khi đó hệ thống mới lại khác so với hệ thống
+cũ cả về kiến trúc, tập lệnh và với hệ điều hành
+khác. Điều này dẫn đến các chương trình ứng dụng
+đã có nhiều khi không thể vận hành được trên hệ
+thống mới. Sự chuyển đổi sang hệ thống mới
+thường diễn ra chậm chạp và có nhiều khó khăn vì phải vượt qua vấn đề tương thích.
+Thấy được vấn đề này, các kỹ sư của IBM đã thiết kế ra họ máy tính System/360,
+trong đó các phiên bản khác nhau đều tương thích về kiến trúc, có thể sử dụng chung
+một hệ điều hành. Khái niệm họ máy tính tương thích đó về sau đã trở thành một
+chuẩn mực thực tế mà tất cả các hãng công nghiệp đều tuân thủ. Nếu như một người
+
+-- 8 of 14 --
+
+9
+chọn một phiên bản trong họ System/360 thì anh ta có thể làm việc, sử dụng với họ
+máy tính đó trong thời gian lâu dài.
+Nhưng ngay khi đó cũng nảy sinh một mâu thuẫn, đó là việc System/360 không tương
+thích với các hệ thống khác. IBM đã giải quyết vấn đề này bằng cách cung cấp các bộ
+chương trình mô phỏng lớn nhất trong lịch sử. Các bộ mô phỏng là một phương thiện cho
+phép 1 máy tính giả lập một hệ thống máy tính khác. Ví dụ người sử dụng IBM1401 có
+thể dễ dàng chuyển sang dùng System/360 vì các chương trình chạy trên IBM1401 cũng
+chạy được trên System/360 mà không phải chỉnh sửa gì nhờ các bộ mô phỏng.
+Có 2 cách mô phỏng: Simulator và Emulator. Simulator là bộ mô phỏng hoàn toàn
+dùng chương trình còn Emulator thường cần sự sửa đổi về phần cứng thiết bị. Cũng vì
+thế nói chung Simulator vận hành chậm hơn nhưng giá thành thấp hơn.
+Nhờ các bộ mô phỏng, người sử dụng có thể vận hành chương trình ứng dụng cũ trên
+System/360 và song song thực hiện việc chuyển đổi chương trình lên phiên bản hỗ trợ
+System/360 vào lúc thích hợp.
+Mặc dù System/360 không có một số tính năng mà các hệ khác có nhưng nó có ưu
+điểm vượt trội là tính tương thích và đáp ứng nhu cầu của người sử dụng đang vận
+hành trên các hệ thống khác có thể chuyển sang System/360 nhờ bộ mô phỏng. Ngoài
+ra, hệ điều hành trên System/360 có các bộ công cụ chương trình tiện ích đa dạng và
+thân tiện nhất lúc đó – giúp đơn giản hóa việc ứng dụng máy tính.
+1.5. 	Phản ứng của các nhà sản xuất khác với System/360
+Sự xuất hiện của System/360 là một đòn cạnh tranh mạnh mẽ từ IBM đối với các nhà
+sản xuất khác, buộc họ phải đẩy mạnh việc thiết kế và sản xuất các sản phẩm mới.
+Những người lãnh đạo và kiến trúc sư của các hãng lập tức hiểu rằng họ phải có
+những chính sách, chiến lược để sản phẩm của họ có thể cạnh tranh với System/360.
+Chiến lược của RCA.
+Một trong các chính sách là sao chép lại kiến trúc của System/360, thiết kế hệ điều
+hành tương tự hệ điều hành của System/360 và bán
+với giá cạnh tranh hơn. Chiến lược này đã được
+RCA lựa chọn khi thiết kế hệ thống System/70.
+Cũng theo chiến lược này còn có các hãng khác như
+Siemens, Hitachi.
+Các công ty này cho rằng bằng cách đó họ sẽ lôi
+kéo được những khách hàng của IBM. Tuy nhiên
+phần lớn đã thất bại, nhất là RCA. RCA đã chi hơn
+500 triệu USD và đã phải rút lui khỏi ngành sản
+xuất máy tính.
+Tại sao chiến lược này lại thất bại?
+Khi đó hãng RCA với tiềm lực và vị trí chưa vững chắc lại không có được sự tin cậy
+của các khách hàng lớn, nơi mà quyết định có tính định hướng tới các khách hàng
+khác. Ngoài ra, các kỹ sư của RCA nhận ra quá chậm trễ một điều là sao chép lại hệ
+điều hành của System/360 và các chương trình đi kèm là bài toán hầu như không thể
+thực hiện. RCA đã định sao chép kiến trúc phần cứng nhưng không đánh giá được hết
+khó khăn và chi phí sẽ gặp phải khi thiết kế một hệ điều hành như hệ điều hành của
+
+-- 9 of 14 --
+
+10
+System/360. Hệ điều hành của RCA về một số mặt nào đó thậm chí có những tính
+năng vượt trội nhưng độ ổn định an toàn lại quá kém. Ngoài ra, hãng cũng không hỗ
+trợ tốt các khách hàng của mình.
+Kinh nghiệm cho các hãng khác. Một chiến lược khác được các hãng như Borroughs
+hay GE áp dụng là thiết kế các hệ thống không tương thích với System/360 nhưng
+nhanh hơn và kinh tế hơn. Sách lược này cũng có vẻ tốt nhưng việc thiết kế được một
+hệ thống mới khó khăn hơn nhiều so với dự đoán và cuối cùng GE cũng rút lui.
+Một số nhà sản xuất khác hành động thận trọng hơn. Họ thiết kế các máy đã được cải
+tiến, nhái lại các hệ thống IBM7000, IBM1400. Họ hy vọng lôi kéo đối tượng khách
+hàng của IBM không muốn chuyển sang System/360 do vấn đề thay đổi nền tảng. Các
+hãng như Univac, Control Data đã đạt được những kết quả nhất định trong việc lôi
+kéo khách hàng dùng IBM7000, còn Honeywell cung cấp cho người sử dụng các máy
+hệ IBM1400.
+Hy vọng của các kỹ sư IBM rằng họ có thể chỉ dùng 1 phiên bản hệ điều hành cho tất
+cả các phiên bản System/360 tỏ ra không hợp lý vì những yêu cầu khác nhau của
+khách hàng. Ví dụ người sử dụng máy tính nhỏ Mini không cần cả một hệ điều hành
+lớn, phức tạp với quá nhiều tính năng. Thực tế thì hiệu suất của các máy mini
+computer khi dùng hệ điều hành System/360 ban đầu đã bị giảm hiệu năng đáng kể.
+Trong khi đó các khách hàng sử dụng hệ thống lớn (Mainframe) lại mong muốn hệ
+điều hành với các tính năng mở rộng. Ngoài ra, các máy lớn có thể chạy nhiều hệ điều
+hành. Vì thế, IBM quyết định xây dựng 4 phiên bản hệ điều hành cho System/360
+trong những năm 1960:
+• 	DOS/360 (Disk Operating System): DOS dành cho các phiên bản cỡ nhỏ của họ
+System/360.
+• 	OS/MFT (Operating System with Multi Programming and Fixed Task): hỗ trợ đa
+chương trình với số lượng bài toán cố định, dành cho các máy cỡ trung và các máy
+phiên bản cũ.
+• 	OS/MVT (Operating System with Multi programming and Variable Task): hỗ trợ
+đa chương trình với số lượng bài toán không giới hạn, dành cho các máy phiên bản
+cũ của System/360.
+• 	CP-67/CMS (Control Program 67/Conversation Monitoring System): dành cho các
+phiên bản lớn với khả năng hỗ trợ bộ nhớ ảo và chế độ phân chia thời gian.
+1.6. 	Hệ thống phân chia thời gian
+Vào cuối những năm 1950, đầu những năm 1960, các nhà thiết kế của các hãng và các
+trường đại học đã xây dựng hàng loạt hệ thống với chế độ phân chia thời gian. Các hệ
+thống này cho phép một số người sử dụng làm việc trên các trạm đầu cuối thực hiện
+hội thoại trực tiếp với máy tính.
+Khác với các hệ thống xử lý theo giao dịch (như SABRE), các hệ thống với chế độ
+phân chia thời gian là hệ thống dạng tổng hợp. Nó cho phép người sử dụng có thể khai
+thác tất cả các phương tiện tính toán. Thông thường các công việc thường thực hiện
+trên các hệ thống kiểu này là lập trình.
+Hệ thống với chế độ phân chia thời gian nổi tiếng trong thời gian này là CTSS, được
+xây dựng tại trường đại học kỹ thuật MIT với sự trợ giúp tài chính của chính phủ bởi
+
+-- 10 of 14 --
+
+11
+nhóm khoa học dưới cái tên Project MAC. Hệ thống CTSS vận hành trên máy tính
+IBM 7094 với sự thay đổi về phần cứng. Từ năm 1961 đến cuối những năm 1960,
+nhiều người sử dụng đã làm việc với hệ thống CTSS trong chế độ hội thoại.
+Hệ thống CTSS đã chứng tỏ các ưu điểm của chế độ phân chia thời gian nhìn từ khía
+cạnh nâng cao hiệu suất xây dựng chương trình và việc chia sẻ cộng tác. Qua đó làm
+tăng hiệu quả lao động của các chuyên gia.
+Thế hệ sau của CTSS – hệ thống MULTICS (Multiplexed Information and Computing
+Service) là kết quả của sự hợp tác giữa Project MAC, Bell Laboratories và hãng GE,
+nhằm mục đích xây dựng một tổ hợp tính toán đa chức năng với chế độ phân chia thời
+gian trên cơ sở bộ nhớ ảo. Một trong những đặc điểm của MULTICS là nó được viết
+bằng ngôn ngữ bậc cao EPL – phiên bản đầu tiên của ngôn ngữ PL/1 (IBM). Các
+chương trình được xây dựng và chỉnh sửa trên máy GE 645.
+Từ nửa sau những năm 1960, nhiều nhóm đã thiết kế các hệ thống phân chia thời gian,
+trong đó phải kể đến:
+• 	MULTICS.
+• 	TSS của IBM cho phiên bản System 360/67.
+• 	CP-67/CMS.
+• 	VM OS của RCA.
+• 	KRONOS của CDC cho hệ thống CDC6000.
+Các dự án trên đã giúp các chuyên gia thu được những kinh nghiệm về bộ nhớ ảo và
+các vấn đề điều khiển bộ nhớ ảo. Các dự án này chủ yếu để phục vụ cho các mục đích
+khoa học và không đưa đến thành quả thương mại nào.
+1.7. 	Công nghệ lập trình
+Vào những năm 1960, người ta đã xây dựng nhiều hệ điều hành. Rất nhiều các chương
+trình điều khiển được viết bởi những người nói chung không biết rằng các chương
+trình cũng như thiết bị phải được thiết kế xây dựng thế nào để hoạt động tốt, dễ dàng
+nâng cấp bảo trì. Rất nhiều thời gian, tiền bạc đã bị chi ra chỉ để tìm ra những lỗi mà
+không được phép có. Các lỗi bị bỏ sót trong những giai đoạn đầu chỉ được phát hiện ra
+rất lâu sau khi sản phẩm đã được bàn giao cho khách hàng. Nguồn lực bỏ ra cuối cùng
+dẫn đến nhiều Module chương trình phải làm lại bởi những người khác. Vấn đề này
+làm đau đầu nhiều người, cuối cùng các tổ chức khoa học cũng như các hãng công
+nghiệp đã bỏ ra nhiều nguồn lực để giải quyết bài toán làm thế nào xây dựng được
+chương trình không có lỗi, đáp ứng yêu cầu đặt ra, với một thời gian và chi phí xác
+định trước. Đó là khởi đầu của một kỹ nghệ - kỹ nghệ lập trình (Software
+Engineering).
+1.8. 	Giá trị của phần cứng & phần mềm
+Cho đến đầu những năm 1970, các nhà sản xuất máy tính nói chung chỉ bán 1 loại sản
+phẩm – phần cứng thiết bị. Còn hệ điều hành, các chương trình tiện ích, tài liệu, ..
+thường được cung cấp miễn phí hoặc bán với giá tượng trưng cho khách hàng. Một xu
+hướng tất yếu là người bán hàng coi chương trình phần mềm như là dạng quà tặng kèm
+theo, do đó họ nói chung không chịu trách nhiệm về chất lượng phần mềm. Còn người
+sử dụng ngoài phần cứng thiết bị và phần mềm được tặng từ nhà cung cấp hiếm khi hiểu
+
+-- 11 of 14 --
+
+12
+được giá trị của phần mềm do đó ít khi mua phần mềm của các nhà sản xuất thứ 3 hay
+bỏ thời gian và kinh phí để thiết kế phần mềm cho mục đích sử dụng của mình.
+Các hợp đồng thời gian này thường quy định rằng trách nhiệm về phần mềm là thuộc
+về khách hàng. Nhà sản xuất có cung cấp các tài liệu về vấn đề lỗi của phần mềm. Khi
+khách hàng phàn nàn về lỗi của phần mềm thì nhà cung cấp không có trách nhiệm
+khắc phục và thường trả lời khách hàng cần tham khảo tài liệu hướng dẫn.
+Vào đầu những năm 1970, IBM quyết định tách riêng các sản phẩm phần cứng và
+phần mềm. Có nghĩa IBM bán phần mềm chứ không phải tặng kèm miễn phí với phần
+cứng thiết bị, mặc dù vẫn có một số tiện ích được cung cấp miễn phí. Quyết định này
+đã ảnh hưởng to lớn đến công nghiệp máy tính:
+• 	Nhà cung cấp khó có thể từ chối trách nhiệm của mình đối với sản phẩm phần
+mềm được cung cấp. Khách hàng phải trả tiền cho phần mềm sẽ tin tưởng hơn vào
+chất lượng của nó.
+• 	Xuất hiện ngành công nghiệp sản xuất phần mềm như là hệ quả của việc phân chia
+giá trị phần cứng và phần mềm. Bởi vì một hãng thứ 3 nào đó hoàn toàn có thể sản
+xuất được phần mềm tương đương nhưng giá thành rẻ hơn của IBM thì họ có cơ hội
+bán sản phẩm của mình cho các khách hàng mua phần cứng của IBM.
+• 	Sự tách bạch giá trị của phần cứng và phần mềm đã trở thành tiêu chuẩn của ngành
+công nghiệp.
+• 	Người sử dụng có quyền và động lực để so sánh sản phẩm của các hãng khác nhau
+nhằm lựa chọn sản phẩm phù hợp.
+• 	Một hệ quả quan trọng là các nhà sản xuất phần mềm bắt đầu tiến hành có phương
+pháp khi thiết kế, xây dựng các chương trình theo các module, cũng như có thể
+cung cấp sản phẩm với bản quyền.
+• 	Xuất hiện động lực để các nhà sản xuất thiết bị khác sản xuất các phần cứng tương
+thích với phần cứng của IBM. Nhiều hãng gọi đó là máy nhái (Clone). Họ sản xuất
+thiết bị có tính năng không kém và giá cả cạnh tranh hơn. Cuối cùng khách hàng
+có nhiều lựa chọn hơn.
+1.9. 	Một số xu hướng
+Giá phần cứng thiết bị liên tục giảm trong khi đó tốc độ bộ xử lý, bộ nhớ tăng, đồng
+thời kích thước vật lý giảm.
+Các vi mạch có mật độ ngày càng cao.
+Các hệ thống đa xử lý ngày càng phổ biến.
+Nhiều chức năng trước đây được thực hiện bởi chương trình ứng dụng sẽ trở thành các
+chức năng của hệ điều hành hoặc phần cứng.
+Hỗ trợ ảo hóa.
+Nối mạng máy tính trở nên phổ biến.
+
+-- 12 of 14 --
+
+13
+TÓM LƯỢC CUỐI BÀI
+Các anh/chị đã có một cái nhìn tổng quan về hệ điều hành cũng như lịch sử phát triển của hệ điều
+hành. Anh/chị cần ghi nhớ các vấn đề cơ bản:
+• 	Hệ điều hành có thể được nhìn từ 2 quan điểm: Quản lý các tài nguyên và các máy mở rộng.
+• 	Trong việc quản lý các tài nguyên, công việc của Hệ điều hành là quản lý các bộ phận khác
+nhau của hệ thống một cách hiệu quả.
+• 	Còn về máy mở rộng, công việc của hệ thống là cung cấp cho người sử dụng một máy ảo, qua
+đó sử dụng thuận tiện hơn máy hiện hành.
+• 	Hệ điều hành có một lịch sử rất lâu dài, bắt đầu từ lúc chúng thay thế những nhà điều hành, để
+làm hiện đại hóa các hệ thống đa chương trình. Những điểm nổi bật bao gồm các hệ thống xử
+lý theo lô, hệ thống đa chương trình và hệ thống máy tính cá nhân.
+Các khái niệm tiến trình, quản lý bộ nhớ, quản lý vào/ra, file hệ thống và bảo mật – các thành
+phần góp phần xây dựng lên hệ điều hành sẽ được học trong các phần sau.
+
+-- 13 of 14 --
+
+14
+CÂU HỎI TỰ LUẬN
+Câu 1. Phân tích định nghĩa “Hệ điều hành là Máy tính mở rộng (Extended Machine) hay Máy
+tính ảo (Virtual Machine)”?
+Câu 2. Lịch sử và tình hình sử dụng hệ điều hành ở Việt Nam?
+Câu 3. Những bộ phận cấu thành và cấu trúc khái quát của máy tính?
+Câu 4. Những bộ phận cấu thành của hệ điều hành?
+Câu 5. Vì sao hệ điều hành phải có chức năng điều phối CPU?
+BÀI TẬP TRẮC NGHIỆM
+1. Hệ điều hành là phần mềm:
+a) Luôn luôn phải có để máy tính hoạt động.
+b) Điều khiển thiết bị phần cứng.
+c) Quản lý và phân phối tài nguyên máy tính phục vụ cho các ứng dụng.
+d) Tất cả các đáp án đã nêu đều đúng.
+2. Hệ điều hành thiết kế theo kiểu Micro Kernel có tất cả các đặc trưng sau ngoại trừ?
+a) Việc mở rộng chức năng sẽ dễ dàng.
+b) Chỉ những chức năng cơ bản mới được hiện thực trong Kernel.
+c) Phần lớn các dịch vụ được hiện thực trong User Space.
+d) Giao tiếp giữa Client và Service Provider được thực hiện thông qua cơ chế Shared Memory.
+3. Việc truyền thông số từ chương trình ứng dụng đến hệ điều hành có thể thực hiện bằng cách
+lưu thông số trong:
+a) Các thanh ghi. 	b) Stack.
+c) Vùng nhớ trong bộ nhớ chính. 	d) Tất cả các câu trên đều đúng.
+4. Ưu điểm chính của Time-Sharing System so với multiprogrammed system?
+a) Chi phí quản lý các Tiến trình nhỏ hơn. 	b) Tăng hiệu suất của CPU.
+c) Thời gian đáp ứng (Response time) nhỏ hơn. 	d) Giảm Burst Time của Tiến trình.
+5. Với một hệ thống đa chương trình thì bộ nhớ sẽ chứa:
+a) Hệ điều hành được nạp. 	b) Hệ điều hành và một tiến trình.
+c) Hệ điều hành và nhiều tiến trình. 	d) Không có đáp án nào đúng.
+6. Hệ điều hành là gì?
+a) Là phần mềm chỉ để quản lý các phần cứng.
+b) Phần mềm trung gian giữa các chương trình ứng dụng và các phần cứng máy tính.
+c) Đáp án a và b đều đúng.
+d) Đáp án a và b đều sau.
+7. Các hệ thống thời gian thực là gì?
+a) Chủ yếu được sử dụng trên các máy tính lớn.
+b) Đảm bảo ràng buộc thời hạn đáp ứng với sự kiện xảy ra.
+c) Được sử dụng cho chương trình phát triển.
+d) Được sử dụng cho thời gian thực tương tác người dùng.
+
+-- 14 of 14 --
+

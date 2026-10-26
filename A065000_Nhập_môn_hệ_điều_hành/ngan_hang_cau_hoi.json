@@ -1,1 +1,272 @@
-[]
+[
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Khẳng định nào sau đây là SAI?",
+    "options": [],
+    "correctAnswer": "Các phiên bản khác nhau trong họ IBM System/360 không thể sử dụng chung hệ điều hành.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hệ điều hành đảm nhiệm việc nào trong những việc dưới đây?",
+    "options": [],
+    "correctAnswer": "Giao tiếp với ổ đĩa cứng, quản lí bộ nhớ trong.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Phần cứng máy tính (Hardware) thông thường bao gồm những gì?",
+    "options": [],
+    "correctAnswer": "Thiết bị nhập/ xuất, bộ nhớ, bộ xử lý trung tâm.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Chức năng nào sau đây phản ánh bản chất của việc giao tiếp giữa người dùng và máy (thông qua hệ điều hành) trong hệ thống tin học?",
+    "options": [],
+    "correctAnswer": "Nhập, xuất thông tin.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Lịch sử phát triển của hệ điều hành qua:",
+    "options": [],
+    "correctAnswer": "4 giai đoạn.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hệ điều hành thường được lưu trữ lâu ở đâu?",
+    "options": [],
+    "correctAnswer": "Bộ nhớ ngoài.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hệ điều hành được coi là:",
+    "options": [],
+    "correctAnswer": "Phần mềm hệ thống.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Xét các tính chất sau:1. System throughput: càng nhiều processor thì các công việc càng được giải quyết nhanh hơn. 2. Multiprocessor system ít tốn kém hơn multiple single-processor system: vì có thể dùng chung tài nguyên (đĩa,…)3. Độ tin cậy: khi một processor hỏng thì công việc của nó được chia sẻ giữa các processor còn lại4. Tính đơn nhiệm: hệ thống chỉ có thể thực hiện duy nhất một chương trình tại một thời điểmNhững tính chất nào là tính chất của hệ thống song song?",
+    "options": [],
+    "correctAnswer": "1,2, và 3",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Khẳng định nào sau đây là đúng?",
+    "options": [],
+    "correctAnswer": "Hệ điều hành quản lý tài nguyên phần cứng và dữ liệu.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Mục tiêu chính của hệ điều hành là gì?",
+    "options": [],
+    "correctAnswer": "Dễ dàng sử dụng và điều hành hữu hiệu hệ thống máy tính.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Trong năm 1960, IBM đã xây dựng mấy phiên bản HĐH cho System/360?",
+    "options": [],
+    "correctAnswer": "4",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Xét các tính chất sau:1.Nhiều công việc được nạp đồng thời vào bộ nhớ chính.2.Thời gian xử lý của CPU được phân chia giữa các công việc.3.Tận dụng được thời gian rảnh, tăng hiệu suất sử dụng CPU (CPU utilization).4.Chỉ cho phép một chương trình ứng dụng được hoạt động trong hệ thống.Đặc điểm của hệ thống đa chương trình có những tính chất nào?",
+    "options": [],
+    "correctAnswer": "1,2, và 3",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đặc điểm nổi bật của máy tính PC là gì?",
+    "options": [],
+    "correctAnswer": "Rẻ tiền và thân thiện.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hệ điều hành được nạp và hệ thống khi nào?",
+    "options": [],
+    "correctAnswer": "Trước khi các chương trình ứng dụng được kích hoạt.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đặc trưng của HĐH đa nhiệm là gì?",
+    "options": [],
+    "correctAnswer": "Hệ thống điều phối bộ vi xử lý theo kiểm time – sharing.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tính chất về danh sách các Blocked Process là như thế nào?",
+    "options": [],
+    "correctAnswer": "Không có thứ tự.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Hàng đợi dành cho tiến trình xếp hàng chờ bộ xử lý được gọi là:",
+    "options": [],
+    "correctAnswer": "ready queue.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khi xảy ra ngắt, Hệ Điều Hành làm gì?",
+    "options": [],
+    "correctAnswer": "Ghi lại trạng thái của tiến trình bị ngắt và chuyển điều khiển cho chương trình xử lý ngắt tương ứng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Giả sử có tiến trình A đang hoạt động và sinh ra tiến trình mới B. Hỏi A là tiến trình gì?",
+    "options": [],
+    "correctAnswer": "Parent Process.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Quá trình chuyển trạng thái nào không thể xảy ra đối với quá trình biến đổi trạng thái của tiến trình?",
+    "options": [],
+    "correctAnswer": "blocked Þ running.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Tiến trình là?",
+    "options": [],
+    "correctAnswer": "Một chương trình được nạp vào bộ nhớ và đang được CPU thực thi.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Giả thiết nào không thỏa mãn để áp dụng cho thuật toán Banker?",
+    "options": [],
+    "correctAnswer": "Số tài nguyên luôn thay đổi.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Thành phần nào sau đây KHÔNG thuộc về luồng?",
+    "options": [],
+    "correctAnswer": "Hàng đợi Queue.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khi xóa một tiến trình khỏi hệ thống thì?",
+    "options": [],
+    "correctAnswer": "PCB được giải phóng.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Các điều kiện nào sau đây KHÔNG dẫn đến việc xảy ra tắc nghẽn (deadlock)?",
+    "options": [],
+    "correctAnswer": "Tiến trình thực hiện độc lập với các tiến trình khác.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Các giải thuật phát hiện deadlock thường sử dụng mô hình nào?",
+    "options": [],
+    "correctAnswer": "RAG.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Hệ điều hành sẽ thực thi hành động nào khi một tiến trình mới sinh ra?",
+    "options": [],
+    "correctAnswer": "Tạo ngay khối PCB để quản lý tiến trình.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Các tiến trình được gọi là tương tranh nếu:",
+    "options": [],
+    "correctAnswer": "các tiến trình tồn tại đồng thời.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Thời gian xử lý song song song với xử lý tuần tự như thế nào?",
+    "options": [],
+    "correctAnswer": "Nhỏ hơn nhiều.",
+    "userAnswerState": "Đúng"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đâu KHÔNG phải là thao tác mà hệ thống điều khiển tiến trình có thể thực hiện đối với một tiến trình?",
+    "options": [],
+    "correctAnswer": "Sửa.",
+    "userAnswerState": "Đúng"
+  }
+]

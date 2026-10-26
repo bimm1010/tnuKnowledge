@@ -1,0 +1,338 @@
+1
+BÀI 5. KỸ NĂNG QUẢN LÝ THỜI GIAN
+MỤC ĐÍCH
+Sau khi học xong bài này, học viên có thể
+- Hiểu được đặc điểm, giá trị và quĩ thời gian của mình
+- Nhận diện được các yếu tố gây lãng phí thời gian
+- Hiểu và áp dụng được cách quản lý thời gian có hiệu quả
+NỘI DUNG
+- Đặc điểm của thời gian
+- Giá trị của thời gian
+- Những yếu tố gây lãng phí thời gian
+- Cách thức quản lý thời gian
+Tình huống dẫn nhập
+Năm nay có lẽ một một năm rất thành công đối với Nam. Anh là một cán bộ trẻ, có năng lực
+và rất nhiệt tình trong công việc. Vì vậy Giám đốc đã đề bạt lên làm trưởng phòng kiêm trợ
+lý giám đốc. Vì thế anh hay phải đi công tác với sếp. Tin vui lại đến với Nam khi vợ anh vừa
+sinh cháu nhỏ. Nhưng Nam cũng đang rất băn khoăn vì hiện nay công ty đang bước vào
+giai đoạn cuối phải bàn giao công trình nên anh thường trực tiếp phải có mặt tại công
+trường. Anh cũng chưa biết trong thời gian tới liệu mình sẽ có đủ thời gian để chăm sóc gia
+đình không?
+Bạn có bao giờ cảm thấy thiếu thời gian và rơi vào tình trạng của Nam không?
+Thời gian là món quà công bằng nhất mà cuộc sống dành cho tất cả mọi người. Tuy nhiên
+mỗi người sẽ có cách cảm nhận khác nhau về thời gian và cách thức mỗi người sử dụng thời
+gian ra sao sẽ tạo nên sự khác biệt giữa họ. Những ai biết kiểm soát và sử dụng quỹ thời
+gian sẽ đạt hiệu suất công việc cao. Ngược lại những ai thiếu kỹ năng quản lý thời gian sẽ
+thấy mình luôn luôn tất bật, bận rộn mà công việc vẫn kém hiệu quả. Nhiều người rơi vào
+trạng thái stress do không biết cách quản lý thời gian, không cân bằng được công việc và
+cuộc sống của bản thân.
+
+-- 1 of 9 --
+
+2
+5.1. Đặc điểm của thời gian
+Để quản lý thời gian chúng ta cần hiểu một số đặc điểm của thời gian
+như sau: Thời gian của mỗi người là như nhau
+- Thời gian trôi qua không bao giờ ngừng lại
+- Thời gian không thể điều chỉnh
+- Thời gian không thể mua bán trao đổi
+- Quỹ thời gian của mỗi người là hữu hạn
+Quỹ thời gian của một người có tuổi thọ 80 tuổi, có số năm làm việc là 40 năm được
+thể hiện ở bảng dưới đây. Nhìn vào bảng này bạn sẽ thấy câu nói “anh/chị ấy là tỉ
+phú về mặt thời gian” là không chính xác.
+Vậy bạn còn bao nhiêu giây để sống và làm việc?
+Đơn vị đo Để sống Để làm việc
+Năm 80 40
+Tháng 12 960 480
+Tuần 52 4,160 2,080
+Ngày 365 29,200 14,600
+Giờ 24 700,800 350,400
+Phút 60 42,048,000 21,024,000
+Giây 60 2,522,880,000 1,261,440,000
+Bảng 6.1: Quĩ thời gian để sống và làm việc
+5.2. Giá trị của thời gian:
+Mỗi người có cách quan niệm khác nhau về giá trị của thời gian. Theo quan niệm phổ biến
+thì thời gian có giá trị hơn tiền, thời gian là một nguồn lực để đạt được mục tiêu, là công cụ
+để quản lý trực tiếp và là món quà vô giá. Khi để thời gian trôi đi vô ích nó sẽ không bao
+giờ quay trở lại nữa. Khi ta lãng phí thời gian thì chính chúng ta sẽ là người gánh chịu hậu
+quả.
+
+-- 2 of 9 --
+
+3
+Bạn có sử dụng thời gian của mình một cách hiệu quả hay không? Bạn có nghĩ rằng, nếu
+bạn có thêm thời gian thì bạn sẽ làm được nhiều việc hơn không? Bạn có từng mơ ước có
+thể kiểm soát thời gian của mình tốt hơn không? Đã bao giờ bạn nghĩ đến việc cần phải trau
+dồi kỹ năng quản lý thời gian?
+Vậy quản lý thời gian là gì? Chúng ta có thể tham khảo các cách giải thích sau:
+- Là việc sử dụng thời gian một cách tốt nhất
+- Là làm được nhiều việc hơn trong một khoảng thời gian nhất định
+- Là không lãng phí thời gian vào những việc không liên quan
+- Là kiểm soát được thời gian tốt hơn
+- Là dành nhiều thời gian cho những việc quan trọng
+- Là tránh sự vội vã phải hoàn thành công việc vào phút cuối
+Trong cuộc sống hàng ngày, có những lúc, chúng ta bị cuốn vào những công việc mà không
+thể thoát ra. Mỗi người đều cảm thấy mình có rất nhiều công việc mà vì những lý do khác
+nhau, kết quả mà chúng ta đạt được dường như chẳng dẫn đến đâu. Đây chính là biểu hiện của
+việc chúng ta không kiểm soát được thời gian hoặc công việc.
+Để khắc phục được tình trạng này, trước hết bạn cần trả lời câu hỏi: Bạn đang cố gắng để
+đạt được điều gì? Những gì cản trở bạn đạt điều đó?
+Bạn hãy thử xác định xem bạn hay gặp vấn đề nào trong các tình huống
+dưới đây: Buộc phải xử lý những vấn đề cấp bách:
+- Tình trạng này dễ gây ra stress, tâm trạng căng thẳng
+- Dễ dẫn đến sai lầm trong hành động do phải tiến hành công việc vội
+vàng. Phải đưa ra quyết định khi không có đủ thời gian suy nghĩ.
+Không có thời gian cho việc chuẩn bị và cả thời gian cho việc kiểm
+tra kết quả.
+- Gây ra sự mệt mỏi và hao mòn
+sinh lực Buộc phải đáp ứng những yêu cầu của
+cấp trên/đối tác
+- Những người làm việc ở cấp thấp thường quên thiết lập mục tiêu dài
+hạn cho mình vì họ luôn bận rộn với việc phải đáp ứng những đòi hỏi
+tức thì, họ có thể bỏ lỡ nhiều cơ hội.
+- Thời gian sẽ bị mất vào những công việc hiện thời, không còn thời
+gian cho việc lập kế hoạch hoặc thực hiện những công việc mang tính
+chiến lược
+Công việc đơn điệu nhàm chán
+- Nếu bạn đang có một công việc đơn điệu, nhàm chán bạn có thể tìm
+hiểu xem có cách nào khắc phục tình trạng này bằng cách tìm hiểu có
+khoá huấn luyện nào giúp bạn mở rộng các kỹ năng và loại hình công
+việc bạn có thể giải quyết không
+
+-- 3 of 9 --
+
+4
+- Lập kế hoạch thay đổi tình hình và trình bày với người quản lý của
+bạn về việc đó
+- Triệu tập toàn nhóm và tổ chức thu thập ý kiến hay buổi động não để
+giúp tạo ra những ý tưởng và những phương pháp làm việc mới.
+- Thực tế cho thấy rằng, những người có cảm giác họ đang làm một
+công việc đơn điệu, nhàm chán thường không yêu thích công việc của
+họ. Những người không yêu thích công việc thường không thừa nhận
+giá trị cả của họ lẫn ông chủ của họ.
+Cách thoát khỏi cạm bẫy trong công việc:
+- Xác định mục tiêu
+- Chọn ưu tiên
+- Ra quyết định
+5.3 Những yếu tố gây lãng phí thời gian:
+Có thể kể ra rất nhiều yếu tố gây lãng phí thời gian. Bạn hãy xem bạn hay gặp phải vấn đề
+nào?
+• Làm việc không có kế hoạch: Khi bạn làm việc không có kế hoạch, bạn sẽ
+không hình dung được những quy trình công việc phải thực hiện, không biết
+cách giải quyết vấn đề theo trình tự, không chủ động được về thời gian, do
+đó rất có thể bạn sẽ mất rất nhiều thời gian để giải quyết các công việc vụn
+vặt nảy sinh bất chợt.
+• Không đề ra những mục đích cụ thể, rõ ràng: Khi không đề ra mục tiêu rõ
+ràng, bạn sẽ lãng phí thời gian do không biết giải quyết công việc để đạt điều
+được gì, đâu là điều thực sự mong muốn, đâu là cái đích bạn muốn thực
+hiện?
+• Đặt ra quá nhiều mục tiêu: Việc đặt ra quá nhiều mục tiêu khiến cho các công
+việc của bạn bị tản mạn, không tập trung. Bạn phải mất rất nhiều thời gian,
+nhiều sức lực để thực hiện các mục tiêu mà chưa chắc đã hiệu quả do quá tải
+• Lo lắng thái quá: Có những người thiếu tự tin vào năng lực bản thân, thiếu
+bản lĩnh và ý chí nên đứng trước công việc thường hay lo lắng, run sợ. Nếu
+cứ ngồi lo lắng mà không thực sự bắt tay tìm hiểu công việc, lên kế hoạch để
+thực hiện thì sẽ lãng phí rất nhiều thời gian
+• Quá nhiều thủ tục giấy tờ: Thủ tục giấy tờ hành chính quá rườm rà sẽ là một
+nguyên nhân gây lãng phí thời gian. Vì vậy, nếu có thể hãy tinh giản những
+thủ tục giấy tờ để có thể dành thời gian bắt tay vào làm những công việc thiết
+thực
+• Không biết nói “không”: Thời gian của mỗi người đều có hạn. Điều đó có
+nghĩa là nếu dành thời gian cho việc này thì bạn buộc phải cắt giảm thời gian
+
+-- 4 of 9 --
+
+5
+cho việc khác. Vì vậy, bạn cần biết lựa chọn công việc quan trọng và cấp
+thiết để làm trước và cần biết nói không với những việc còn lại.
+• Điện thoại quá lâu: Trong xã hội thông tin, điện thoại đã trở thành một thiết
+bị gắn liền với đời sống của con người. Tuy nhiên, sử dụng điện thoại như
+thế nào cho hiệu quả là cả một vấn đề cần bàn tới. Nếu không rời bỏ thói
+quen “nấu cháo điện thoại” bạn sẽ lãng phí rất nhiều thời gian vàng ngọc của
+mình.
+• Tiếp khách quá nhiều: Nếu bạn không muốn lãng phí thời gian thì bạn cần
+lên kế hoạch tiếp khách, cần lựa chọn đối tượng để giao tiếp và cần hướng
+các mối quan hệ vào công việc cụ thể.
+• Văn phòng bừa bộn: Khi văn phòng làm việc không ngăn nắp, bạn sẽ có
+nguy cơ phải mất nhiều thời gian vào việc tìm bới sổ sách, tài liệu, vật
+dụng…. Ngoài ra, phòng làm việc bừa bộn còn gây mất mỹ quan, phản cảm,
+làm giảm hứng thú làm việc, giảm năng suất lao động.
+• Giao tiếp kém: Những người không biết thu nhận thông tin, không tập trung
+để tiếp nhận thông tin hoặc không biết cách diễn đạt ngắn gọn trong giao tiếp
+cũng sẽ gây lãng phí rất nhiều thời gian.
+Việc nhận diện các yếu tố gây lãng phí thời gian là một trong những bước đi đầu tiên để sử
+dụng thời gian của bạn có hiệu quả hơn. Phần tiếp theo sẽ đề cập đến cách thức quản lý thời
+gian.
+5.4 Cách quản lý thời gian:
+Để sử dụng thời gian một cách hiệu quả, bạn cần phải rèn luyện các kỹ năng quản lý thời
+gian. Có một số cách quản lý thời gian mà bạn có thể lựa chọn và áp dụng:
+1. Cách 1: Bạn có thể ghi chép danh sách các công việc cần làm (checklist) vào sổ tay
+hoặc tờ giấy. Sau khi làm xong việc gì, bạn có thể gạch việc đó khỏi danh sách. Đây
+là cách đơn giản nhất. Ưu điểm của phương pháp này là giúp bạn nhớ được các đầu
+mục công việc, biết tập trung vào những việc trước mắt. Tuy nhiên, phương pháp
+này có nhược điểm là nó có thể làm cho bạn tiện việc nào làm việc đó, không nhắc
+nhở bạn thực hiện công việc theo trình tự thời gian hoặc không gợi ý để người sử
+dụng nhớ ra những việc nằm ngoài danh sách
+2. Cách 2: Sử dụng lịch công tác. Ghi các công việc cần làm vào lịch công tác, ghi rõ
+thời hạn trên lịch. Phương pháp này ưu việt hơn phương pháp checklist vì nó đặt
+công việc vào toạ độ thời gian, thứ tự các việc rõ ràng và nó giúp bạn lập kế hoạch
+trước cho hoạt động trong tương lai. Nhược điểm của phương pháp này là bạn sẽ có
+xu hướng xếp tất cả công việc vào quyển lịch bất kể đến mức độ quan trọng của nó.
+3. Cách 3: Sắp xếp lịch biểu, ưu tiên công việc quan trọng. Bạn có thể xác định công
+việc cần ưu tiên làm trước rồi lập kế hoạch để thực hiện.
+4. Cách 4: Sử dụng ma trận quản lý thời gian: Dựa vào mức độ quan trọng và đặc tính
+
+-- 5 of 9 --
+
+6
+khẩn cấp, ma trận quản lý thời gian được xây dựng để giúp chúng ta sắp xếp công
+việc và tiến hành thực hiện chúng một cách có trình tự để đảm bảo tính hiệu quả của
+công việc.
+Trước hết chúng ta cần hiểu rõ về khái niệm khẩn cấp/không khẩn cấp; quan trọng/không
+quan trọng để đánh giá, lựa chọn và sắp xếp công việc cho hợp lý.
+- Tính khẩn cấp: Một việc được coi là khẩn cấp khi nó đòi hỏi sự chú ý
+ngay lập tức. Chúng ta có thể nói về công việc khẩn cấp hay ít khẩn cấp
+hơn. Khi một việc phải hoàn thành vào một thời điểm nhất định, khi thời
+hạn cuối cùng đến gần thì nó sẽ trở nên khẩn cấp, vấn đề khẩn cấp sẽ trở
+nên càng khẩn cấp hơn khi thời gian trôi đi.
+- Tầm quan trọng: Một việc được coi là quan trọng khi nó có một ý nghĩa
+lớn hoặc sẽ gây ra một kết quả/hậu quả đáng kể.
+Khẩn cấp Không khẩn cấp
+Quan trọng I II
+Không quan
+trọng
+III IV
+Bảng 6.2: Phân loại công việc theo mức độ khẩn cấp và quan trọng
+Đồ thị quản lý thời gian là một cách rất hữu ích để xem xét những đòi hỏi được đặt ra cho
+thời gian của bạn. Sử dụng đồ thị này, bạn có thể xem xét mức độ quan trọng và khẩn cấp
+tương đối giữa các công việc.
+Nhìn vào đồ thị, chúng ta có 4 ô: (ô 1: Quan trọng và Khẩn cấp ; ô 2: Quan trọng và không
+khẩn cấp; ô 3: Không quan trọng và khẩn cấp; ô 4: không quan trọng và không khẩn cấp),
+chúng ta sắp xếp các công việc vào các ô như sau:
+• Ô số 1- Quan trọng và khẩn cấp: Đây là những công việc cần ưu tiên làm
+ngay. Bạn cần xếp vào ô này các hoạt động liên quan đến giao dịch các vấn
+đề mới nảy sinh bất thường có thể dẫn đến hậu quả nghiêm trọng nếu không
+được xử lý ngay lập tức. Ví dụ thiết bị gặp sự cố, chất lượng sản phẩm có
+vấn đề…. Các dự án đến hạn cũng cần được xử lý gấp để đảm bảo tiến độ,
+các cuộc họp khẩn cấp…
+• Ô số 2 – Quan trọng nhưng không khẩn cấp: Bạn cần sắp xếp vào ô này
+những công việc có ý nghĩa lớn, cần được đầu tư công sức để thực hiện hoặc
+
+-- 6 of 9 --
+
+7
+giải quyết trong một thời gian dài. Ví dụ xây dựng các mối quan hệ; tìm
+kiếm cơ hội phát triển; lập kế hoạch phát triển…
+• Ô 3 – Không quan trọng nhưng khẩn cấp: Những công việc loại này có thể là
+xử lý văn bản hàng ngày, tiếp nhận điện thoại, trả lời email, họp hành, hội ý
+hoặc các hoạt động cộng đồng
+• Ô 4- Không quan trọng và không khẩn cấp: Đó là những hoạt động không có
+nhiều ý nghĩa đối với bạn. Bạn có thể xác định loại hoạt động này bằng cách
+trả lời câu hỏi: “nếu không làm việc này thì liệu có vấn đề gì không?”. Nếu
+bạn nhận thấy “sẽ không có vấn đề gì” thì nên bỏ qua để đỡ mất thời gian.
+Những hoạt động như tán gẫu, chơi game, lướt web,… cũng có thể xếp vào
+ô này.
+Chúng ta thường phải làm nhiều việc trong một ngày. Nếu không biết cách sắp xếp thời
+gian để xử lý các công việc theo thứ tự ưu tiên thì chúng ta sẽ không thể hoàn thành các
+công việc một cách hợp lý và hiệu quả.
+Khẩn cấp Không khẩn cấp
+Quan
+trọng
+I
+• Khủng hoảng
+• Các vấn đề cấp bách
+• Các dự án đến hạn
+II
+• Công việc chiến lược
+• Xây dựng quan hệ
+• Tìm kiếm cơ hội
+• Họp hành khẩn cấp • Lập kế hoạch phát triển cá
+nhân
+Không
+quan
+trọng
+III
+• Các công việc đột xuất
+• Thư từ, Email,
+• Họp hành
+• Nhiều hoạt động công chúng
+IV
+• Tán gẫu, điện thoại
+• Các công việc vô bổ
+• Lướt web, chơi game
+Đối với các công việc của ô số 1, chúng ta cần phải giải quyết khẩn cấp ngay. Nếu như có
+quá nhiều việc trong ô số 1, bạn sẽ luôn cảm thấy vô cùng căng thẳng do áp lực công việc
+rất cao. Khi phải làm việc trong trạng thái căng thẳng kéo dài, chúng ta rất khó có thể đạt
+được hiệu quả cao thậm chí có thể chúng ta sẽ phải thực hiện cả những công việc nằm ngoài
+phạm vi chức năng của mình. Những người chỉ biết tập trung vào ô số 1 thì ô số 1 của họ sẽ
+luôn trong tình trạng đầy ắp. Họ sẽ luôn căng thẳng, luôn luôn phải xử lý hết cuộc khủng
+hoảng này đến cuộc khủng hoảng khác. Họ lúc nào cũng ở trong trạng thái vội vàng, xử lý
+các công việc gấp gáp, không thể đủ sức để kéo dài tình trạng này.
+
+-- 7 of 9 --
+
+8
+Khẩn cấp Không khẩn cấp
+Quan
+trọng
+I
+• Luôn căng thẳng (stress)
+• Kiệt sức
+• Luôn trong tình trạng áp lực cao
+• Hiệu quả công việc không cao
+• Thực hiện nhiều việc ngoài phạm vì chức
+năng
+II
+Không
+quan
+trọng
+III IV
+Đối với các công việc của ô số 2: vì đây là những công việc quan trọng nhưng không khẩn
+cấp nên chúng ta có thể lên kế hoạch và sắp xếp thời gian thích hợp để làm. Với những công
+việc dạng này, chúng ta có thể chủ động tập trung làm việc, chúng ta có thời gian để suy
+ngẫm, nhìn vấn đề một cách thấu đáo, do vậy hiệu quả công việc sẽ có thể đạt ở mức độ
+cao.
+Khẩn cấp Không khẩn cấp
+Quan trọng I II
+✓ Có được tầm nhìn, triển vọng
+✓ Cân bằng
+✓ Chủ động tập trung vào các công
+việc quan trọng
+✓ Ít khủng hoảng
+Không quan
+trọng
+III IV
+Đối với công việc ở ô số 3: vì đây là những công việc không quan trọng nhưng khẩn cấp,
+chúng ta có thể nhờ người khác làm giúp vì đây là những công việc vụn vặt, sự vụ. Nếu chỉ
+chú trọng vào ô này thì chúng ta sẽ làm việc trong tình trạng thụ động, không coi trọng mục
+tiêu, không lập kế hoạch, luôn trong tình trạng thụ động, qua ngày.
+
+-- 8 of 9 --
+
+9
+Khẩn cấp Không khẩn cấp
+Quan trọng I II
+Không quan
+trọng
+III
+✓ Tập trung vào các công việc ngắn hạn,
+vụn vặt
+✓ Không để ý đến mục tiêu, kế hoạch
+✓ Thụ động, hời hợt sống qua ngày
+IV
+Đối với công việc ở ô số 4: Vì đây là những công việc không quan trọng và cũng không
+khẩn cấp nên bạn cần tránh lãng phí thời gian vào những việc vô bổ.
+Nói tóm lại, nếu bạn muốn thành công trong cuộc sống, bạn nên hạn chế những công việc ở
+ô số 3 và ô số 4. Bạn cần biết từ chối những việc không quan trọng để dành thời gian và sức
+lực cho những công việc quan trọng của bạn. Nếu công việc tập trung vào ô số 2, bạn sẽ có
+điều kiện để nâng cao tầm nhìn, phát triển năng lực, cân bằng cuộc sống, rèn luyện tính kỷ
+luật và tự chủ, hạn chế những khủng hoảng, những vấn đề căng thẳng xảy ra với bạn.
+CÂU HỎI ÔN TẬP VÀ THẢO LUẬN
+1. Những đặc điểm và giá trị của thời gian?
+2. Những yếu tố gây lãng phí thời gian?
+3. Ưu nhược điểm của cách quản lý thời gian bằng cách liệt kê các đầu công việc?
+4. Ưu nhược điểm của cách quản lý thời gian bằng việc Ghi lịch công tác?
+5. Ưu nhược điểm của cách quản lý thời gian bằng sử dụng ma trận?
+
+-- 9 of 9 --
+
