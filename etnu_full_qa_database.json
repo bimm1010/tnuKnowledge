@@ -4,7 +4,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "Khi nói về chức năng của các nhà cung cấp dịch vụ Internet ở Việt Nam, có 2 phát biểu như sau: PB1: IAP có thể thực hiện cả chức năng của ISP nhưng ngược lại thì không. PB2: ICP cung cấp các dịch vụ trên cơ sở ứng dụng Internet như: mua bán qua mạng, giao dịch ngân hàng, tư vấn, đào tạo… Hỏi khẳng định nào sau đây là đúng?",
-    "options": [],
+    "options": [
+      "A. PB1 sai, PB2 sai.",
+      "B. PB1 đúng, PB2 đúng.",
+      "C. PB1 đúng, PB2 sai.",
+      "D. PB1 sai, PB2 đúng."
+    ],
     "correctAnswer": "PB1 đúng, PB2 sai.",
     "userAnswerState": "Đúng"
   },
@@ -13,7 +18,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "HTML là tên viết tắt của cụm từ nào?",
-    "options": [],
+    "options": [
+      "A. HyperText Media Languages.",
+      "B. HyperText Markup Languages.",
+      "C. HyperText Media Learn.",
+      "D. HyperText Markup Learn."
+    ],
     "correctAnswer": "HyperText Markup Languages.",
     "userAnswerState": "Đúng"
   },
@@ -22,7 +32,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "Mạng cục bộ LAN là viết tắt của cụm từ tiếng Anh nào?",
-    "options": [],
+    "options": [
+      "A. Local Area Network.",
+      "B. Link Address Network.",
+      "C. Link Area Network.",
+      "D. Local Address Network."
+    ],
     "correctAnswer": "Local Area Network.",
     "userAnswerState": "Đúng"
   },
@@ -31,7 +46,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "Mạng diện rộng WAN là viết tắt của cụm từ tiếng Anh nào?",
-    "options": [],
+    "options": [
+      "A. Wide Area Network.",
+      "B. WiMAX Area Network.",
+      "C. Wire Area Network.",
+      "D. Web Area Network."
+    ],
     "correctAnswer": "Wide Area Network.",
     "userAnswerState": "Đúng"
   },
@@ -40,16 +60,27 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "Khẳng định nào sau đây là sai?",
-    "options": [],
+    "options": [
+      "A. Internet là từ viết tắt của International Terminal Network.",
+      "B. Internet là một mạng máy tính rất lớn kết nối các mạng máy tính khác nhau trên khắp toàn cầu.",
+      "C. Các mạng máy tính liên kết với nhau dựa trên bộ giao thức TCP/IP.",
+      "D. Internet là từ viết tắt của Inter-network."
+    ],
     "correctAnswer": "Internet là từ viết tắt của International Terminal Network.",
-    "userAnswerState": "Đúng"
+    "userAnswerState": "Đúng",
+    "explanation": "Internet (là từ viết tắt của Inter-network) là một mạng máy tính rất lớn kết nối các mạng máy tính khác nhau trên khắp toàn cầu. Một mạng máy tính (network) là một nhóm máy tính được kết nối nhau. Các mạng máy tính này lại liên kết với nhau bằng nhiều loại phương tiện và tốc độ truyền tin khác nhau. Vì thế, có thể coi Internet như là mạng của các mạng máy tính. Các mạng này liên kết với nhau dựa trên một bộ giao thức (là ngôn ngữ giao tiếp chung giữa các máy tính) TCP/IP (Transmision Control Protocol – Internet Protocol): Giao thức điều khiển truyền dẫn - giao thức Internet. Bộ giao thức này cho phép mọi máy tính liên kết, giao tiếp với nhau theo một ngôn ngữ máy tính thống nhất giống như một ngôn ngữ quốc tế (ví dụ như Tiếng Anh) mà mọi người sử dụng để giao tiếp. Tham khảo: Bài 1, mục 1.1.1. Khái niệm về Internet (BG, tr.3)."
   },
   {
     "courseCode": "A000200",
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "OSP là viết tắt của cụm từ tiếng Anh nào?",
-    "options": [],
+    "options": [
+      "A. Online Search Provider.",
+      "B. Online Service Provider.",
+      "C. Offline Service Provider.",
+      "D. Organization Service Protocol."
+    ],
     "correctAnswer": "Online Service Provider.",
     "userAnswerState": "Đúng"
   },
@@ -58,7 +89,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "Mạng đô thị MAN là viết tắt của cụm từ tiếng Anh nào?",
-    "options": [],
+    "options": [
+      "A. Metropolitan Address Network.",
+      "B. Metropolitan Area Network.",
+      "C. Metropolitan Application Network.",
+      "D. Metropolitan Access Network."
+    ],
     "correctAnswer": "Metropolitan Area Network.",
     "userAnswerState": "Đúng"
   },
@@ -67,7 +103,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "Việt Nam hòa vào mạng Internet toàn cầu vào khoảng năm nào?",
-    "options": [],
+    "options": [
+      "A. 1997",
+      "B. 1990",
+      "C. 2000",
+      "D. 1987"
+    ],
     "correctAnswer": "1997",
     "userAnswerState": "Đúng"
   },
@@ -76,7 +117,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "ICP là viết tắt của cụm từ tiếng Anh nào?",
-    "options": [],
+    "options": [
+      "A. International Communication Processing.",
+      "B. Internet Content Provider.",
+      "C. International Communication Protocol.",
+      "D. Internet Cab Provider."
+    ],
     "correctAnswer": "Internet Content Provider.",
     "userAnswerState": "Đúng"
   },
@@ -85,7 +131,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "TCP/IP là viết tắt của cụm từ tiếng Anh nào?",
-    "options": [],
+    "options": [
+      "A. Transmision Control Protocol/ Internet Protocol.",
+      "B. Telecoms Communication Protocol/ Internet Protocol.",
+      "C. Transport Control Provider/ Internet Provider.",
+      "D. Transport Control Processing/ Internet Processing."
+    ],
     "correctAnswer": "Transmision Control Protocol/ Internet Protocol.",
     "userAnswerState": "Đúng"
   },
@@ -94,7 +145,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "Khi nói về chức năng của các nhà cung cấp dịch vụ Internet ở Việt Nam, có 2 phát biểu như sau: PB1: OSP cấp quyền truy cập Internet qua mạng viễn thông và các dịch vụ như: Email, Web, FTP, Telnet, Chat. PB2: ICP cung cấp các thông tin về: kinh tế, giáo dục, thể thao, chính trị, quân sự (thường xuyên cập nhật thông tin mới theo định kỳ) đưa lên mạng. Hỏi khẳng định nào sau đây là đúng?",
-    "options": [],
+    "options": [
+      "A. PB1 đúng, PB2 sai.",
+      "B. PB1 sai, PB2 sai.",
+      "C. PB1 sai, PB2 đúng.",
+      "D. PB1 đúng, PB2 đúng."
+    ],
     "correctAnswer": "PB1 sai, PB2 đúng.",
     "userAnswerState": "Đúng"
   },
@@ -103,7 +159,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "IXP là viết tắt của cụm từ tiếng Anh nào?",
-    "options": [],
+    "options": [
+      "A. International Exchange Protocol.",
+      "B. Internet Extent Protocol.",
+      "C. Improve External Protocol.",
+      "D. Internet Exchange Provider."
+    ],
     "correctAnswer": "Internet Exchange Provider.",
     "userAnswerState": "Đúng"
   },
@@ -112,7 +173,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "Mạng ARPANET hình thành vào khoảng năm nào?",
-    "options": [],
+    "options": [
+      "A. 1979",
+      "B. 1974",
+      "C. 1968",
+      "D. 1960"
+    ],
     "correctAnswer": "1968",
     "userAnswerState": "Đúng"
   },
@@ -121,7 +187,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "Thuật ngữ \"Internet\" xuất hiện lần đầu vào khoảng năm nào?",
-    "options": [],
+    "options": [
+      "A. 1964",
+      "B. 1984",
+      "C. 1974",
+      "D. 1980"
+    ],
     "correctAnswer": "1974",
     "userAnswerState": "Đúng"
   },
@@ -130,7 +201,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 1",
     "question": "Internet được hình thành từ dự án nào sau đây?",
-    "options": [],
+    "options": [
+      "A. Từ một dự án nghiên cứu của Bộ quốc phòng Anh.",
+      "B. Từ một dự án nghiên cứu của Bộ giáo dục Mỹ.",
+      "C. Từ một dự án nghiên cứu của Bộ giáo dục Anh.",
+      "D. Từ một dự án nghiên cứu của Bộ quốc phòng Mỹ."
+    ],
     "correctAnswer": "Từ một dự án nghiên cứu của Bộ quốc phòng Mỹ.",
     "userAnswerState": "Đúng"
   },
@@ -139,7 +215,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Có một tên miền như sau: tnu.edu.vn thì thành phần “edu” thường được gọi là tên miền cấp mấy?",
-    "options": [],
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 0"
+    ],
     "correctAnswer": "2",
     "userAnswerState": "Đúng"
   },
@@ -148,7 +229,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Có 2 khẳng định sau: KĐ1: Đây là công nghệ DSL đối xứng KĐ2: Để có thể kết nối Internet, người dùng sẽ cần phải lắp đặt một modem ADSL chuyên dụng. Nhận xét nào sau đây là đúng khi nói về công nghệ ADSL?",
-    "options": [],
+    "options": [
+      "A. KĐ1 sai, KĐ2 đúng.",
+      "B. KĐ1 đúng, KĐ2 đúng.",
+      "C. KĐ1 đúng, KĐ2 sai.",
+      "D. KĐ1 sai, KĐ2 sai."
+    ],
     "correctAnswer": "KĐ1 sai, KĐ2 đúng.",
     "userAnswerState": "Đúng"
   },
@@ -157,7 +243,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "RARP là viết tắt của cụm từ tiếng Anh nào?",
-    "options": [],
+    "options": [
+      "A. Reverse Access Resolution Protocol.",
+      "B. Reverse Address Resolution Protocol.",
+      "C. Replace Access Resolution Protocol.",
+      "D. Replace Address Resolution Protocol."
+    ],
     "correctAnswer": "Reverse Address Resolution Protocol.",
     "userAnswerState": "Đúng"
   },
@@ -166,7 +257,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Tất cả các Web Server đều hiểu và chạy được file nào?",
-    "options": [],
+    "options": [
+      "A. *.php",
+      "B. *.jsp",
+      "C. *.asp",
+      "D. *.htm"
+    ],
     "correctAnswer": "*.htm",
     "userAnswerState": "Đúng"
   },
@@ -175,7 +271,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Đâu là 1 địa chỉ IPv6 không hợp lệ?",
-    "options": [],
+    "options": [
+      "A. 2001:0DC8::1005:2F43::ABC6",
+      "B. 2001:0DC8:1005:2F43::ABC6",
+      "C. 2001:0DC8::1005:2F43:0BCD:ABC6",
+      "D. 2001:DC8::2F43:BCD:ABC6"
+    ],
     "correctAnswer": "2001:0DC8::1005:2F43::ABC6",
     "userAnswerState": "Đúng"
   },
@@ -184,7 +285,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Các cụm số hexa trong địa chỉ Ipv6 được tách biệt với nhau bằng dấu nào?",
-    "options": [],
+    "options": [
+      "A. Dấu hỏi “?”",
+      "B. Dấu chấm “.”",
+      "C. Dấu hai chấm “:”",
+      "D. Dấu nhân “*”"
+    ],
     "correctAnswer": "Dấu hai chấm “:”",
     "userAnswerState": "Đúng"
   },
@@ -193,7 +299,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Có 2 khẳng định sau: KĐ1: Có tốc độ kết nối cao hơn ADSL KĐ2: Cho phép chia sẻ chung với đường điện thoại Nhận xét nào sau đây là đúng khi nói về công nghệ HDSL?",
-    "options": [],
+    "options": [
+      "A. KĐ1 sai, KĐ2 đúng.",
+      "B. KĐ1 sai, KĐ2 sai.",
+      "C. KĐ1 đúng, KĐ2 đúng.",
+      "D. KĐ1 đúng, KĐ2 sai."
+    ],
     "correctAnswer": "KĐ1 đúng, KĐ2 sai.",
     "userAnswerState": "Sai"
   },
@@ -202,7 +313,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Khẳng định nào sau đây là SAI khi nói về trình duyệt web?",
-    "options": [],
+    "options": [
+      "A. Là một phần mềm hệ thống được cài đặt trên máy tính của người sử dụng.",
+      "B. Là một phần mềm ứng dụng được cài đặt trên máy tính của người sử dụng.",
+      "C. Cho phép người dùng duyệt các tài liệu siêu văn bản trên Web.",
+      "D. Là một phần mềm ứng dụng được cài đặt để sử dụng dịch vụ WWW."
+    ],
     "correctAnswer": "Là một phần mềm hệ thống được cài đặt trên máy tính của người sử dụng.",
     "userAnswerState": "Đúng"
   },
@@ -211,7 +327,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Có mấy phiên bản địa chỉ IP?",
-    "options": [],
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 1"
+    ],
     "correctAnswer": "2",
     "userAnswerState": "Đúng"
   },
@@ -220,7 +341,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Đâu là một phương thức kết nối Internet?",
-    "options": [],
+    "options": [
+      "A. TCP/IP",
+      "B. Leased-Line",
+      "C. IPX/SPX",
+      "D. NetBEUI"
+    ],
     "correctAnswer": "Leased-Line",
     "userAnswerState": "Đúng"
   },
@@ -229,7 +355,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Một tên miền đầy đủ có chiều dài không vượt quá 255 ký tự. Vậy chiều dài tối đa của tên miền ở mỗi cấp là bao nhiêu ký tự (bao gồm cả dấu “.”)?",
-    "options": [],
+    "options": [
+      "A. 60",
+      "B. 61",
+      "C. 62",
+      "D. 63"
+    ],
     "correctAnswer": "63",
     "userAnswerState": "Đúng"
   },
@@ -238,7 +369,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Đâu là 1 bộ giao thức kết nối mạng?",
-    "options": [],
+    "options": [
+      "A. HTTPS",
+      "B. HTTP",
+      "C. TCP/IP",
+      "D. HTML"
+    ],
     "correctAnswer": "TCP/IP",
     "userAnswerState": "Đúng"
   },
@@ -247,7 +383,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Hệ thống quản lý tên miền DNS là viết tắt của cụm từ tiêng Anh nào?",
-    "options": [],
+    "options": [
+      "A. Dot Name System.",
+      "B. Dot Name Science.",
+      "C. Domain Name System.",
+      "D. Domain Name Science."
+    ],
     "correctAnswer": "Domain Name System.",
     "userAnswerState": "Đúng"
   },
@@ -256,7 +397,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Địa chỉ IP v6 sử dụng bao nhiêu bit để đánh địa chỉ?",
-    "options": [],
+    "options": [
+      "A. 32",
+      "B. 128",
+      "C. 64",
+      "D. 256"
+    ],
     "correctAnswer": "128",
     "userAnswerState": "Đúng"
   },
@@ -265,7 +411,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Có 2 khẳng định sau: KĐ1: là loại hình kết nối Internet tốc độ cao KĐ2: luôn trong trạng thái kết nối 24/24. Nhận xét nào sau đây là đúng khi nói về phương thức kết nối Internet băng rộng?",
-    "options": [],
+    "options": [
+      "A. KĐ1 đúng, KĐ2 đúng.",
+      "B. KĐ1 sai, KĐ2 sai.",
+      "C. KĐ1 sai, KĐ2 đúng.",
+      "D. KĐ1 đúng, KĐ2 sai."
+    ],
     "correctAnswer": "KĐ1 đúng, KĐ2 đúng.",
     "userAnswerState": "Đúng"
   },
@@ -274,7 +425,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Khẳng định nào sau đây là sai khi nói về địa chỉ IP công cộng?",
-    "options": [],
+    "options": [
+      "A. Là duy nhất.",
+      "B. Không được định tuyến trên Internet Backbone.",
+      "C. Có tính toàn cầu và được tiêu chuẩn hóa.",
+      "D. Được lấy từ nhà cung cấp dịch vụ hay đăng ký với 1 chi phí nào đó."
+    ],
     "correctAnswer": "Không được định tuyến trên Internet Backbone.",
     "userAnswerState": "Đúng"
   },
@@ -283,7 +439,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Đâu là một địa chỉ IPv4 hợp lệ?",
-    "options": [],
+    "options": [
+      "A. 192:168:10:6",
+      "B. 192.168.10.256",
+      "C. 192:168:10:256",
+      "D. 192.168.10.6"
+    ],
     "correctAnswer": "192.168.10.6",
     "userAnswerState": "Đúng"
   },
@@ -292,7 +453,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Đâu không phải là 1 bộ giao thức kết nối mạng?",
-    "options": [],
+    "options": [
+      "A. IPX/SPX",
+      "B. NetBEUI",
+      "C. HTML",
+      "D. TCP/IP"
+    ],
     "correctAnswer": "HTML",
     "userAnswerState": "Đúng"
   },
@@ -301,7 +467,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Trong cách biểu diễn địa chỉ IPv4 được chia thành bao nhiêu octet?",
-    "options": [],
+    "options": [
+      "A. 4",
+      "B. 7",
+      "C. 5",
+      "D. 6"
+    ],
     "correctAnswer": "4",
     "userAnswerState": "Đúng"
   },
@@ -310,7 +481,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Đâu là tên của trình duyệt Web?",
-    "options": [],
+    "options": [
+      "A. Web Browser.",
+      "B. Internet Browser.",
+      "C. Internet Explorer.",
+      "D. Web Explorer."
+    ],
     "correctAnswer": "Internet Explorer.",
     "userAnswerState": "Đúng"
   },
@@ -319,7 +495,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Khi đặt tên miền không được dùng ký tự nào dưới đây?",
-    "options": [],
+    "options": [
+      "A. Ký tự @",
+      "B. Ký tự “-”",
+      "C. Các chữ số",
+      "D. Các chữ cái"
+    ],
     "correctAnswer": "Ký tự @",
     "userAnswerState": "Đúng"
   },
@@ -328,7 +509,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Trong các tên dưới đây đâu là 1 tên miền hợp lệ?",
-    "options": [],
+    "options": [
+      "A. tnu.edu@vn",
+      "B. tnu@edu.vn",
+      "C. tnu_edu@vn",
+      "D. tnu.edu.vn"
+    ],
     "correctAnswer": "tnu.edu.vn",
     "userAnswerState": "Đúng"
   },
@@ -337,7 +523,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Khẳng định nào sau đây là sai khi nói về phương thức kết nối quay số qua mạng điện thoại (Dial-up)?",
-    "options": [],
+    "options": [
+      "A. Máy tính của người dùng kết nối với Modem và modem được kết nối tới đường điện thoại.",
+      "B. Để kết nối, người dùng cần có một đường điện thoại và một modem.",
+      "C. Kết nối kiểu này luôn thường trực 24/24.",
+      "D. Kiểu kết nối này có tốc độ chậm nhất trong các phương thức kết nối Internet."
+    ],
     "correctAnswer": "Kết nối kiểu này luôn thường trực 24/24.",
     "userAnswerState": "Đúng"
   },
@@ -346,7 +537,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Trong tên miền, dấu nào được sử dụng làm dấu phân cách?",
-    "options": [],
+    "options": [
+      "A. Dấu chấm (.)",
+      "B. Dấu gạch dưới (_)",
+      "C. Dấu hỏi (?)",
+      "D. Dấu"
+    ],
     "correctAnswer": "Dấu chấm (.)",
     "userAnswerState": "Đúng"
   },
@@ -355,7 +551,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Phương thức kết nối nào là chậm nhất trong số các công nghệ truy cập Internet?",
-    "options": [],
+    "options": [
+      "A. Kết nối băng rộng.",
+      "B. Kết nối thông qua kênh thuê riêng (Leased-Line).",
+      "C. Kết nối không dây.",
+      "D. Quay số qua mạng điện thoại (Dial-up)."
+    ],
     "correctAnswer": "Quay số qua mạng điện thoại (Dial-up).",
     "userAnswerState": "Đúng"
   },
@@ -364,7 +565,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Tên miền nào sau đây KHÔNG thuộc về quốc gia Việt Nam?",
-    "options": [],
+    "options": [
+      "A. tnu.org.vn",
+      "B. jnto.edu.vn",
+      "C. jnto.org.fr",
+      "D. tnu.edu.vn"
+    ],
     "correctAnswer": "jnto.org.fr",
     "userAnswerState": "Đúng"
   },
@@ -373,7 +579,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Địa chỉ IP nào không thể gán cho các thiết bị trên mạng?",
-    "options": [],
+    "options": [
+      "A. Địa chỉ IP công cộng.",
+      "B. Địa chỉ 10.10.10.10.",
+      "C. Địa chỉ IP riêng.",
+      "D. Địa chỉ quảng bá."
+    ],
     "correctAnswer": "Địa chỉ quảng bá.",
     "userAnswerState": "Đúng"
   },
@@ -382,7 +593,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Địa chỉ IP v4 sử dụng bao nhiêu bit để đánh địa chỉ?",
-    "options": [],
+    "options": [
+      "A. 32",
+      "B. 128",
+      "C. 256",
+      "D. 64"
+    ],
     "correctAnswer": "32",
     "userAnswerState": "Đúng"
   },
@@ -391,7 +607,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Hotspot là một địa điểm mà tại đó có cung cấp các dịch vụ:",
-    "options": [],
+    "options": [
+      "A. kết nối có dây và dịch vụ truy cập Internet tốc độ cao thông qua hoạt động của các thiết bị thu phát không dây",
+      "B. kết nối có dây và dịch vụ truy cập Internet tốc độ cao thông qua hoạt động của các thiết bị thu phát có dây.",
+      "C. kết nối không dây và dịch vụ truy cập Internet tốc độ cao thông qua hoạt động của các thiết bị thu phát không dây",
+      "D. kết nối không dây và dịch vụ truy cập Internet tốc độ cao thông qua hoạt động của các thiết bị thu phát có dây"
+    ],
     "correctAnswer": "kết nối không dây và dịch vụ truy cập Internet tốc độ cao thông qua hoạt động của các thiết bị thu phát không dây",
     "userAnswerState": "Đúng"
   },
@@ -400,7 +621,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 2",
     "question": "Để các máy tính trên Internet có thể liên lạc với nhau, mỗi máy tính cần có một địa chỉ liên lạc và địa chỉ này được gọi là gì?",
-    "options": [],
+    "options": [
+      "A. Địa chỉ URL",
+      "B. Địa chỉ TCP.",
+      "C. Địa chỉ Web.",
+      "D. Địa chỉ IP."
+    ],
     "correctAnswer": "Địa chỉ IP.",
     "userAnswerState": "Đúng"
   },
@@ -409,16 +635,27 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Một người tự tin về khả năng và giá trị về bản thân thì sẽ có những biểu hiện như thế nào?",
-    "options": [],
+    "options": [
+      "A. Ngồi thong tay, khuôn mặt ủ rũ",
+      "B. Mắt nhìn lấm lét hoặc lảng tránh",
+      "C. Dáng đi thất thểu, quần áo xộc xệch",
+      "D. Tư thế ngay ngắn, ung dung, mắt nhìn thẳng"
+    ],
     "correctAnswer": "Tư thế ngay ngắn, ung dung, mắt nhìn thẳng",
-    "userAnswerState": "Đúng"
+    "userAnswerState": "Đúng",
+    "explanation": "Đối với một người tự tin về khả năng và giá trị về bản thân sẽ có biểu hiện với tư thế ngay ngắn, ung dung, mắt nhìn thẳng."
   },
   {
     "courseCode": "A066101",
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần nhận thức được điểm mạnh và điểm yếu của bản thân?",
-    "options": [],
+    "options": [
+      "A. Vì con người cần che dấu những điểm yếu của bản thân và bộc lộ những điểm mạnh của bản thân",
+      "B. Vì con người cần sự tôn trọng từ những người khác",
+      "C. Vì con người chỉ có thể tự tin khi biết được điểm mạnh của bản thân để phát triển nó và biết điểm yếu của bản thân để khắc phục nó",
+      "D. Vì con người cần so sánh năng lực của mình với những người xung quanh"
+    ],
     "correctAnswer": "Vì con người chỉ có thể tự tin khi biết được điểm mạnh của bản thân để phát triển nó và biết điểm yếu của bản thân để khắc phục nó",
     "userAnswerState": "Đúng"
   },
@@ -427,7 +664,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Theo mô hình cửa sổ Johari, nếu một người sống quá khép kín, ngại giao tiếp thì người đó có thể gặp những điểm bất lợi gì?",
-    "options": [],
+    "options": [
+      "A. Tiết kiệm năng lượng và thời gian",
+      "B. Thiếu thông tin, bỏ lỡ cơ hội hợp tác, phát triển",
+      "C. Được đánh giá là người thâm trầm, kín đáo",
+      "D. Giữ được nhiều bí mật của bản thân"
+    ],
     "correctAnswer": "Thiếu thông tin, bỏ lỡ cơ hội hợp tác, phát triển",
     "userAnswerState": "Đúng"
   },
@@ -436,7 +678,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Theo mô hình cửa sổ Johari, cách thức mà con người tương tác với người khác để hiểu về bản thân là gì?",
-    "options": [],
+    "options": [
+      "A. Tự bộc lộ và đón nhận thông tin phản hồi",
+      "B. Tích cực giao lưu hợp tác với người khác",
+      "C. Chân thành lắng nghe ý kiến góp ý từ người khác",
+      "D. Tiếp nhận thông tin nhiều chiều từ bên ngoài"
+    ],
     "correctAnswer": "Tự bộc lộ và đón nhận thông tin phản hồi",
     "userAnswerState": "Đúng"
   },
@@ -445,7 +692,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần phải kiểm soát cảm xúc của bản thân?",
-    "options": [],
+    "options": [
+      "A. Vì nếu phản ứng một cách không kiểm soát với những điều xảy ra trái ý mình thì sẽ dễ dẫn đến những hậu quả khó lường",
+      "B. Vì người trưởng thành cần phải chịu trách nhiệm về thái độ, lời nói, hành động của mình",
+      "C. Vì đó là cách mà con người giữ gìn hình ảnh, uy tín của mình",
+      "D. Vì sống trong xã hội, bất cứ ai cũng cần phải tôn trọng những quy tắc, quy định chung, không được hành động theo bản năng, bột phát"
+    ],
     "correctAnswer": "Vì nếu phản ứng một cách không kiểm soát với những điều xảy ra trái ý mình thì sẽ dễ dẫn đến những hậu quả khó lường",
     "userAnswerState": "Đúng"
   },
@@ -454,7 +706,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần hiểu biết năng lực của bản thân mình?",
-    "options": [],
+    "options": [
+      "A. Vì con người cần biết đâu là điểm mạnh và điểm yếu của mình để thành công trong cuộc sống",
+      "B. Vì đó là tiền đề quan trọng để con người xây dựng nhân hiệu, tạo dựng hình ảnh và uy tín cá nhân hướng đến sự thành công trong công việc và cuôc sống",
+      "C. Vì con người cần phát huy những điểm mạnh và tìm cách khắc phục những điểm yếu để tự hoàn thiện mình",
+      "D. Vì việc nhận biết về bản thân sẽ quy định thái độ trong quan hệ giao tiếp với mọi người xung quanh."
+    ],
     "correctAnswer": "Vì đó là tiền đề quan trọng để con người xây dựng nhân hiệu, tạo dựng hình ảnh và uy tín cá nhân hướng đến sự thành công trong công việc và cuôc sống",
     "userAnswerState": "Đúng"
   },
@@ -463,7 +720,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Tìm phương án đúng nhất. Muốn phát triển được bản thân thì con người cần phải làm gì?",
-    "options": [],
+    "options": [
+      "A. Đặt ra mục tiêu lớn, thể hiện hoài bão, khát vọng và chờ đợi sự giúp đỡ để hoàn thành mục tiêu",
+      "B. Đặt ra mục tiêu phù hợp với năng lực bản thân, lập kế hoạch để từng bước thực hiện mục tiêu đó",
+      "C. Nhận biết năng lực, điểm mạnh, điểm yếu của bản thân rồi thụ động chờ đợi thời cơ",
+      "D. Nhận biết năng lực bản thân, đặt ra mục tiêu phù hợp, lập kế hoạch để thực hiện mục tiêu"
+    ],
     "correctAnswer": "Nhận biết năng lực bản thân, đặt ra mục tiêu phù hợp, lập kế hoạch để thực hiện mục tiêu",
     "userAnswerState": "Đúng"
   },
@@ -472,7 +734,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Tìm phương án đúng nhất. Một người được coi là biết kiểm soát cảm xúc của bản thân khi người đó:",
-    "options": [],
+    "options": [
+      "A. Biết che giấu những cảm xúc khó chịu bên trong",
+      "B. Tự do bộ lộ cảm xúc của mình trong mọi hoàn cảnh",
+      "C. Kiềm chế sự bốc đồng, giữ bình tĩnh khi sự việc bất ngờ xảy ra",
+      "D. Giữ vẻ mặt bình thản trước mọi hoàn cảnh"
+    ],
     "correctAnswer": "Kiềm chế sự bốc đồng, giữ bình tĩnh khi sự việc bất ngờ xảy ra",
     "userAnswerState": "Đúng"
   },
@@ -481,7 +748,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Tìm phương án đúng nhất. Một người được coi là thực sự có khả năng kiểm soát cảm xúc của bản thân khi người đó:",
-    "options": [],
+    "options": [
+      "A. Dằn vặt bản thân, đau đầu mất ngủ",
+      "B. Giữ bề ngoài bình thản, cố gắng giữ sự khó chịu bên trong",
+      "C. Giữ bình tĩnh trước mọi bất ngờ xảy ra",
+      "D. Kiềm chế sự bốc đồng của bản thân"
+    ],
     "correctAnswer": "Giữ bình tĩnh trước mọi bất ngờ xảy ra",
     "userAnswerState": "Đúng"
   },
@@ -490,7 +762,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Tìm câu trả lời đúng nhất. Vì sao con người cần phải tự tin vào bản thân?",
-    "options": [],
+    "options": [
+      "A. Vì sự tự tin mang lại cho con người sự chắc chắn cần thiết để tiến lên phía trước",
+      "B. Vì những người tự tin có thể dễ dàng giải quyết công việc, vượt qua những thách thức",
+      "C. Vì đó là điều kiện cần thiết để con người làm chủ bản thân, chủ động thực hiện những mục tiêu mà mình đã đề ra.",
+      "D. Vì khi con người có sự tự tin mạnh mẽ thì họ có thể thu hút và truyền cảm hứng tự tin cho những người xung quanh"
+    ],
     "correctAnswer": "Vì đó là điều kiện cần thiết để con người làm chủ bản thân, chủ động thực hiện những mục tiêu mà mình đã đề ra.",
     "userAnswerState": "Đúng"
   },
@@ -499,7 +776,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Một người tự tin về bản thân thì sẽ phản ứng như thế nào khi được yêu cầu trình bày quan điểm của mình?",
-    "options": [],
+    "options": [
+      "A. Nghe ngóng các ý kiến xung quanh để hùa theo ý kiến số đông",
+      "B. Im lặng trong mọi trường hợp",
+      "C. Nói ra những quan điểm của mình và sẵn sàng bảo vệ niềm tin về những gì là đúng",
+      "D. Che giấu cảm xúc, tìm cách lảng tránh câu hỏi trực tiếp"
+    ],
     "correctAnswer": "Nói ra những quan điểm của mình và sẵn sàng bảo vệ niềm tin về những gì là đúng",
     "userAnswerState": "Đúng"
   },
@@ -508,7 +790,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Theo mô hình cửa sổ Johari, một người muốn khám phá những năng lực của chính bản thân mình thì người đó cần làm gì?",
-    "options": [],
+    "options": [
+      "A. Thụ động chờ đợi cơ hội",
+      "B. Trông chờ sự tác động từ bên ngoài",
+      "C. Tích cực chủ động tìm kiếm cơ hội để phát triển bản thân",
+      "D. Thu hẹp mối quan hệ và phạm vi giao tiếp của mình"
+    ],
     "correctAnswer": "Tích cực chủ động tìm kiếm cơ hội để phát triển bản thân",
     "userAnswerState": "Đúng"
   },
@@ -517,7 +804,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Luận điểm nào sau đây diễn đạt đúng về khái niệm quản lý bản thân:",
-    "options": [],
+    "options": [
+      "A. Quản lý bản thân là việc một cá nhân hiểu biết về chính bản thân mình, kiểm soát được lời nói, thái độ của mình và hành động để đạt được mục tiêu do những người thân quen hoặc lãnh đạo của họ đề ra",
+      "B. Quản lý bản thân là việc một cá nhân hiểu biết về chính bản thân mình, kiểm soát được cảm xúc, hành vi của mình và biết cách phát triển những năng lực mà mình có nhằm đạt được những mục tiêu mà bản thân họ đề ra",
+      "C. Quản lý bản thân là việc một cá nhân hiểu biết về chính bản thân mình, hành động do sự dẫn dắt của người khác nhằm đạt được những mục tiêu do bản thân họ đề ra",
+      "D. Quản lý bản thân tức là việc một cá nhân hiểu biết về điểm mạnh điểm yếu của bản thân mình, tự do thể hiện cảm xúc, tự do hành động nhằm đạt được những mục tiêu mà bản thân họ đề ra"
+    ],
     "correctAnswer": "Quản lý bản thân là việc một cá nhân hiểu biết về chính bản thân mình, kiểm soát được cảm xúc, hành vi của mình và biết cách phát triển những năng lực mà mình có nhằm đạt được những mục tiêu mà bản thân họ đề ra",
     "userAnswerState": "Đúng"
   },
@@ -526,7 +818,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Để điều khiển và ngăn chặn cảm xúc tiêu cực thì con người cần tránh điều gì?",
-    "options": [],
+    "options": [
+      "A. Phân tích loại bỏ những yếu tố gây nhiễu",
+      "B. Nêu ra những ý tưởng hoặc hành vi trái ngược để kiềm chế những cảm xúc tiêu cực",
+      "C. Trầm trọng hóa vấn đề",
+      "D. Bồi dưỡng thể lực, tránh tình trạng căng cơ quá mức và kéo dài"
+    ],
     "correctAnswer": "Trầm trọng hóa vấn đề",
     "userAnswerState": "Đúng"
   },
@@ -535,7 +832,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 1",
     "question": "Theo mô hình cửa sổ Johari, để phát triển bản thân thì con người cần chú trọng mở rộng phần nào?",
-    "options": [],
+    "options": [
+      "A. Phần công khai/ Open",
+      "B. Phần mù/ Blind",
+      "C. Phần không biết/ Unknow",
+      "D. Phần che giấu/ Hidden"
+    ],
     "correctAnswer": "Phần công khai/ Open",
     "userAnswerState": "Đúng"
   },
@@ -544,7 +846,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Không gian giao tiếp giữa hai người được duy trì trong khoảng từ 0.5- 1m được xếp vào vùng nào?",
-    "options": [],
+    "options": [
+      "A. Vùng xã giao",
+      "B. Vùng công cộng",
+      "C. Vùng riêng tư",
+      "D. Vùng mật thiết"
+    ],
     "correctAnswer": "Vùng riêng tư",
     "userAnswerState": "Đúng"
   },
@@ -553,7 +860,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Xác định một nhân tố gây cản trở quá trình giao tiếp trong các nhân tố sau:",
-    "options": [],
+    "options": [
+      "A. Người nhận không giải mã đúng thông điệp",
+      "B. Người gửi thông điệp hiểu rõ những gì mình muốn nói",
+      "C. Thông điệp được mã hóa và gửi đi rõ ràng, mạch lạc",
+      "D. Người nhận thông điệp mong muốn tiếp nhận thông tin"
+    ],
     "correctAnswer": "Người nhận không giải mã đúng thông điệp",
     "userAnswerState": "Đúng"
   },
@@ -562,7 +874,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Để thông điệp được truyền đi một cách rõ ràng, chính xác tạo hiệu quả tốt trong giao tiếp, người gửi thông điệp không nên làm gì?",
-    "options": [],
+    "options": [
+      "A. Xác định chủ đề muốn nói",
+      "B. Nói câu ngắn, truyền đạt từng thông tin",
+      "C. Nói câu dài, hàm chứa nhiều thông tin",
+      "D. Sử dụng ngôn từ đơn giản, phù hợp với người nghe"
+    ],
     "correctAnswer": "Nói câu dài, hàm chứa nhiều thông tin",
     "userAnswerState": "Đúng"
   },
@@ -571,7 +888,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Để giao tiếp thành công thì con người cần xác định cự li và phương pháp giao tiếp với người khác như thế nào?",
-    "options": [],
+    "options": [
+      "A. Nên xác định cự li và phương pháp giao tiếp với từng đối tượng cụ thể để có cách ứng xử phù hợp",
+      "B. Với mọi người đều sử dụng phương pháp và cự li giao tiếp như nhau",
+      "C. Việc giao tiếp với người khác như thế nào tùy thuộc vào hoàn cảnh cụ thể nên không cần xác định trước",
+      "D. Không cần xác định cự li hay phương pháp giao tiếp với từng người vì với bất kì ai mình cũng nên tận tình chu đáo"
+    ],
     "correctAnswer": "Nên xác định cự li và phương pháp giao tiếp với từng đối tượng cụ thể để có cách ứng xử phù hợp",
     "userAnswerState": "Đúng"
   },
@@ -580,7 +902,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Trong các nhân tố sau, nhân tố nào khiến cho quá trình giao tiếp không được triển khai thuận lợi?",
-    "options": [],
+    "options": [
+      "A. Người gửi muốn truyền thông điệp",
+      "B. Người gửi không thể mã hóa đúng thông điệp",
+      "C. Người nhận muốn nhận thông điệp từ người gửi",
+      "D. Người nhận có khả năng hiểu thông điệp"
+    ],
     "correctAnswer": "Người gửi không thể mã hóa đúng thông điệp",
     "userAnswerState": "Đúng"
   },
@@ -589,7 +916,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Xác định một luận điểm đúng nhất trong số các luận điểm dưới đây bàn về tính cách và trang phục của con người.",
-    "options": [],
+    "options": [
+      "A. Những người có phong cách ăn mặc giống nhau nhưng tính cách vẫn có thể khác nhau",
+      "B. Những người có phong cách ăn mặc giống nhau thì tính cách cũng giống nhau",
+      "C. Mỗi người có tính cách khác nhau nên phong cách ăn mặc cũng khác nhau",
+      "D. Những người không ăn mặc giống nhau thì tính cách cũng không thể giống nhau"
+    ],
     "correctAnswer": "Những người có phong cách ăn mặc giống nhau nhưng tính cách vẫn có thể khác nhau",
     "userAnswerState": "Đúng"
   },
@@ -598,7 +930,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Trong quá trình giao tiếp, một người sẽ không được người khác tin tưởng khi họ:",
-    "options": [],
+    "options": [
+      "A. Có nghề nghiệp, công việc ổn định",
+      "B. Có lời nói và hành động thống nhất",
+      "C. Không trung thực trong công việc",
+      "D. Luôn quan tâm giúp đỡ người khác"
+    ],
     "correctAnswer": "Không trung thực trong công việc",
     "userAnswerState": "Đúng"
   },
@@ -607,7 +944,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Trong quá trình giao tiếp với những người khác, nếu một người chỉ chú tâm đến lợi ích của bản thân mình thì người đó sẽ:",
-    "options": [],
+    "options": [
+      "A. Tạo được nhiều thiện cảm với các đối tác",
+      "B. Tạo sự bất tín nhiệm của các đối tác",
+      "C. Tạo dựng được mối quan hệ lâu dài với các đối tác",
+      "D. Tạo uy tín lớn với các đối tác"
+    ],
     "correctAnswer": "Tạo sự bất tín nhiệm của các đối tác",
     "userAnswerState": "Đúng"
   },
@@ -616,7 +958,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Tìm phương án đúng nhất. Con người cần tìm kiếm thông tin, tăng cường đề tài nói chuyện để:",
-    "options": [],
+    "options": [
+      "A. Tạo sự linh hoạt, sáng tạo, hấp dẫn trong giao tiếp",
+      "B. Có khởi đầu tốt đẹp trong các mối quan hệ giao tiếp",
+      "C. Bản thân thu được những kinh nghiệm quí giá",
+      "D. Thể hiện cá tính trong giao tiếp"
+    ],
     "correctAnswer": "Tạo sự linh hoạt, sáng tạo, hấp dẫn trong giao tiếp",
     "userAnswerState": "Đúng"
   },
@@ -625,7 +972,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Con người không nên làm gì nếu muốn thành công trong giao tiếp với người khác?",
-    "options": [],
+    "options": [
+      "A. Tự do bộc lộ cảm xúc của mình",
+      "B. Duy trì được trạng thái cân bằng tâm lý",
+      "C. Làm chủ được cảm xúc của bản thân",
+      "D. Tự ý thức về sự tồn tại của bản thân mình"
+    ],
     "correctAnswer": "Tự do bộc lộ cảm xúc của mình",
     "userAnswerState": "Đúng"
   },
@@ -634,7 +986,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Tìm phương án đúng nhất. Vì sao để giữ gìn mối quan hệ tốt đẹp lâu dài thì cần phải giữ lễ nghĩa và khoảng cách nhất định, không được suồng sã với các đối tác của mình?",
-    "options": [],
+    "options": [
+      "A. Vì ai cũng có lòng tự tôn, việc giữ lễ nghĩa khoảng cách là để thể hiện sự tôn trọng đối tác",
+      "B. Vì hai người cho dù thân nhau đến mấy thì cũng không thể hiểu hết suy nghĩ của nhau",
+      "C. Vì ai cũng có lòng tự tôn và mong muốn được người khác tôn trọng",
+      "D. Vì mỗi người có tính cách năng lực, sở thích khác nhau"
+    ],
     "correctAnswer": "Vì ai cũng có lòng tự tôn, việc giữ lễ nghĩa khoảng cách là để thể hiện sự tôn trọng đối tác",
     "userAnswerState": "Đúng"
   },
@@ -643,7 +1000,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Những yếu tố nào sau đây không thuộc hình thức giao tiếp bằng ngôn từ?",
-    "options": [],
+    "options": [
+      "A. Truyền thông tin bằng hình ảnh",
+      "B. Diễn tả bằng ánh mắt",
+      "C. Viết ký hiệu",
+      "D. Diễn đạt bằng lời nói"
+    ],
     "correctAnswer": "Diễn tả bằng ánh mắt",
     "userAnswerState": "Đúng"
   },
@@ -652,7 +1014,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Trong giao tiếp xã giao, nên sử dụng ngôn từ như thế nào để mọi người xung quanh đều hiểu đúng thông điệp của mình?",
-    "options": [],
+    "options": [
+      "A. Sử dụng ngôn ngữ dân dã, thô tục",
+      "B. Sử dụng ngôn từ đơn giản phù hợp với người nghe và bối cảnh giao tiếp",
+      "C. Sử dụng cách ví von trừu tượng để người nghe cảm nhận sâu sắc vấn đề",
+      "D. Sử dụng cách nói bóng bẩy để làm tăng ý nghĩa của ngôn từ"
+    ],
     "correctAnswer": "Sử dụng ngôn từ đơn giản phù hợp với người nghe và bối cảnh giao tiếp",
     "userAnswerState": "Đúng"
   },
@@ -661,7 +1028,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Xác định một luận điểm thể hiện cách hiểu đúng nhất về khái niệm giao tiếp trong các phương án dưới đây:",
-    "options": [],
+    "options": [
+      "A. Giao tiếp là cách thức con người trao đổi thông tin với nhau",
+      "B. Giao tiếp là cách thức con người trao đổi tâm tư tình cảm với nhau",
+      "C. Giao tiếp là cách thức con người trao đổi tri thức cho nhau",
+      "D. Giao tiếp là cách thức con người tạo lập các mối liên hệ với những người khác trong xã hội"
+    ],
     "correctAnswer": "Giao tiếp là cách thức con người tạo lập các mối liên hệ với những người khác trong xã hội",
     "userAnswerState": "Đúng"
   },
@@ -670,7 +1042,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 2",
     "question": "Tìm phương án đúng nhất. Lời khen có tác dụng rất tích cực trong quan hệ giao tiếp. Tuy nhiên nên bày tỏ lời khen như thế nào để tăng hiệu quả bền vững của các mối quan hệ ?",
-    "options": [],
+    "options": [
+      "A. Tìm hiểu những điều đối tác thích nghe để ca tụng",
+      "B. Cố gắng sử dụng tối đa những lời khen tặng cho đối tác",
+      "C. Tìm tất cả ưu điểm và thế mạnh của đối tác để khen tặng nơi đông người",
+      "D. Dành những lời khen tặng chân thành cho đối tác đúng lúc, đúng chỗ"
+    ],
     "correctAnswer": "Dành những lời khen tặng chân thành cho đối tác đúng lúc, đúng chỗ",
     "userAnswerState": "Đúng"
   },
@@ -679,7 +1056,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Trong trường hợp cụ thể, khi cấp trên đưa ra những quyết định không như mong đợi của bạn nhưng lại có vẻ phù hợp với các đồng nghiệp khác, bạn nên làm gì?",
-    "options": [],
+    "options": [
+      "A. Tranh luận đến cùng để thuyết phục cấp trên theo phương án mong muốn của mình",
+      "B. Tạo diễn đàn chia sẻ bức xúc với các đồng nghiệp khác",
+      "C. Chán nản, phản ứng bằng cách bất hợp tác",
+      "D. Tuân thủ, cấp quản lý bao giờ cũng có lý do để ra quyết định"
+    ],
     "correctAnswer": "Tuân thủ, cấp quản lý bao giờ cũng có lý do để ra quyết định",
     "userAnswerState": "Đúng"
   },
@@ -688,7 +1070,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Tìm câu trả lời đúng nhất. Một doanh nghiệp có môi trường giao tiếp ứng xử nội bộ tốt đẹp sẽ thu hút được sự quan tâm của đối tác và khách hàng vì:",
-    "options": [],
+    "options": [
+      "A. Doanh nghiệp có xử lý tốt các mối quan hệ bên trong thì mới có khả năng xử lý tốt các mối quan hệ bên ngoài",
+      "B. Đối tác và khách hàng cũng kỳ vọng những mối quan hệ tốt đẹp như vậy từ doanh nghiệp",
+      "C. Đối tác và khách hàng coi mối quan hệ nội bộ của doanh nghiệp là sự thể hiện của văn hóa và phương thức quản lý của doanh nghiệp",
+      "D. Đối tác và khách hàng tin tưởng vào sự phát triển của doanh nghiệp"
+    ],
     "correctAnswer": "Đối tác và khách hàng coi mối quan hệ nội bộ của doanh nghiệp là sự thể hiện của văn hóa và phương thức quản lý của doanh nghiệp",
     "userAnswerState": "Đúng"
   },
@@ -697,7 +1084,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Khi có ý tưởng muốn đề xuất với cấp trên để hoàn thiện công việc, hoàn thiện tổ chức, v.v. bạn nên làm gì?",
-    "options": [],
+    "options": [
+      "A. Đề xuất quá nhiều ý tưởng một lúc",
+      "B. Im lặng, lúc nào tiện thì nói",
+      "C. Nhờ đồng nghiệp đề xuất hộ",
+      "D. Cân nhắc, chọn lọc ý tưởng đề xuất phù hợp"
+    ],
     "correctAnswer": "Cân nhắc, chọn lọc ý tưởng đề xuất phù hợp",
     "userAnswerState": "Đúng"
   },
@@ -706,7 +1098,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Tìm câu trả lời đúng nhất. Chú trọng đến vấn đề giao tiếp ứng xử trong môi trường làm việc là một cách để mỗi thành viên trong doanh nghiệp xây dựng “nhân hiệu” của mình vì:",
-    "options": [],
+    "options": [
+      "A. Nhìn vào cách giao tiếp ứng xử có thể đánh giá được phẩm chất của mỗi cá nhân",
+      "B. Qua việc giao tiếp ứng xử với những người xung quanh, mỗi cá nhân bộc lộ tính cách của mình",
+      "C. Giao tiếp ứng xử tốt giúp mỗi cá nhân xây dựng hình ảnh tốt đẹp của mình trong con mắt của người khác",
+      "D. Nhân hiệu tốt sẽ giúp con người thành công hơn trong cuộc sống"
+    ],
     "correctAnswer": "Giao tiếp ứng xử tốt giúp mỗi cá nhân xây dựng hình ảnh tốt đẹp của mình trong con mắt của người khác",
     "userAnswerState": "Đúng"
   },
@@ -715,7 +1112,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Nhân viên cấp dưới làm việc trong một tổ chức nên làm gì?",
-    "options": [],
+    "options": [
+      "A. Sử dụng điện thoại quá nhiều vào việc riêng",
+      "B. Tránh nói xấu cấp trên sau lưng",
+      "C. Giải quyết mâu thuẫn cá nhân trong giờ làm việc",
+      "D. Luôn miệng kêu ca phàn nàn"
+    ],
     "correctAnswer": "Tránh nói xấu cấp trên sau lưng",
     "userAnswerState": "Đúng"
   },
@@ -724,7 +1126,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Quan niệm nào sau đây là không đúng về mối quan hệ cấp trên cấp dưới trong doanh nghiệp",
-    "options": [],
+    "options": [
+      "A. Quan niệm về mối quan hệ cấp trên - cấp dưới là giống nhau ở mọi doanh nghiệp",
+      "B. Quan niệm về mối quan hệ cấp trên - cấp dưới tùy thuộc vào quốc tịch của doanh nghiệp",
+      "C. Quan niệm về mối quan hệ cấp trên – cấp dưới bị ảnh hưởng bởi văn hóa của từng địa phương, từng quốc gia",
+      "D. Mối quan hệ cấp trên – cấp dưới được quy định như thế nào là tùy thuộc vào từng doanh nghiệp cụ thể"
+    ],
     "correctAnswer": "Quan niệm về mối quan hệ cấp trên - cấp dưới là giống nhau ở mọi doanh nghiệp",
     "userAnswerState": "Đúng"
   },
@@ -733,7 +1140,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Khi công việc được giao có những thay đổi đáng kể về phạm vi và cấp độ, xuất hiện nguy cơ quá tải khiến không thể đảm đương được công việc thì cấp dưới cần làm gì?",
-    "options": [],
+    "options": [
+      "A. Tạo diễn đàn chia sẻ bức xúc với các đồng nghiệp khác",
+      "B. Im lặng, không làm gì vì cấp trên đã giao việc thì chắc phải biết vấn đề",
+      "C. Buông xuôi, làm được đến đâu thì làm",
+      "D. Chủ động đề xuất với cấp trên về phương án thực hiện và nói rõ giới hạn khả năng của mình"
+    ],
     "correctAnswer": "Chủ động đề xuất với cấp trên về phương án thực hiện và nói rõ giới hạn khả năng của mình",
     "userAnswerState": "Đúng"
   },
@@ -742,7 +1154,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Tìm câu trả lời đúng nhất. Môi trường làm việc thân thiện, mối quan hệ lành mạnh trong doanh nghiệp có ảnh hưởng tích cực đến khả năng sáng tạo, năng lực làm việc... của người lao động vì:",
-    "options": [],
+    "options": [
+      "A. Bản chất của con người bị ảnh hưởng bởi điều kiện hoàn cảnh bên ngoài",
+      "B. Về bản chất, con người chỉ có thể phát huy được tốt nhất năng lực sáng tạo của mình khi được ở trong một môi trường thoải mái, thích hợp",
+      "C. Con người là nhân tố quan trọng nhất trong mọi tổ chức",
+      "D. Bản năng con người bao giờ cũng thích được tự do, thoải mái, vui vẻ"
+    ],
     "correctAnswer": "Về bản chất, con người chỉ có thể phát huy được tốt nhất năng lực sáng tạo của mình khi được ở trong một môi trường thoải mái, thích hợp",
     "userAnswerState": "Đúng"
   },
@@ -751,7 +1168,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Khi chưa thực sự hiểu rõ yêu cầu của công việc; thực trạng công việc; phương pháp làm việc; v.v. nhân viên cấp dưới nên giải quyết như thế nào?",
-    "options": [],
+    "options": [
+      "A. Tự làm theo cách của mình",
+      "B. Hỏi kinh nghiệm của các nhân viên khác",
+      "C. Tạm gác công việc lại",
+      "D. Chủ động hỏi ý kiến cấp trên"
+    ],
     "correctAnswer": "Chủ động hỏi ý kiến cấp trên",
     "userAnswerState": "Đúng"
   },
@@ -760,7 +1182,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Mối quan hệ ứng xử trong nội bộ doanh nghiệp phụ thuộc nhiều nhất vào yếu tố nào?",
-    "options": [],
+    "options": [
+      "A. Phong cách của ban lãnh đạo doanh nghiệp",
+      "B. Loại hình doanh nghiệp",
+      "C. Văn hóa địa phương nơi doanh nghiệp hoạt động/ quốc tịch của doanh nghiệp",
+      "D. Tính cách của từng nhân viên"
+    ],
     "correctAnswer": "Phong cách của ban lãnh đạo doanh nghiệp",
     "userAnswerState": "Đúng"
   },
@@ -769,7 +1196,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Người quản lý nên làm gì để có thể nghe được những ý kiến phản hồi từ các nhân viên của mình?",
-    "options": [],
+    "options": [
+      "A. Tuyên bố một trong những phẩm chất cần thiết của cấp dưới là biết tuân thủ.",
+      "B. Thái độ đối xử với từng nhân viên luôn được phân biệt rõ",
+      "C. Điềm đạm, bình tĩnh sẵn sàng tiếp nhận thông tin nhiều chiều",
+      "D. Phản ứng mạnh mẽ với những người bất đồng quan điểm"
+    ],
     "correctAnswer": "Điềm đạm, bình tĩnh sẵn sàng tiếp nhận thông tin nhiều chiều",
     "userAnswerState": "Đúng"
   },
@@ -778,7 +1210,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Khi mới được tuyển dụng vào làm việc, nhân viên cấp dưới không nên:",
-    "options": [],
+    "options": [
+      "A. Ở lại làm thêm giờ cùng các đồng nghiệp",
+      "B. Chịu khó tìm hiểu về nơi làm việc, các mối quan hệ công việc",
+      "C. Thể hiện tinh thần trách nhiệm với công việc được giao",
+      "D. Tò mò tìm hiểu các mối quan hệ cá nhân"
+    ],
     "correctAnswer": "Tò mò tìm hiểu các mối quan hệ cá nhân",
     "userAnswerState": "Đúng"
   },
@@ -787,7 +1224,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Cách hiểu nào dưới đây của cấp dưới về cấp trên là đúng?",
-    "options": [],
+    "options": [
+      "A. Cấp trên phải là người hoàn thiện về mọi mặt",
+      "B. Cấp trên mà không am hiểu mọi lĩnh vực chuyên môn thì không thể lãnh đạo nhân viên",
+      "C. Đã là cấp trên thì không thể phạm sai lầm",
+      "D. Cấp trên cũng là con người, ai cũng có điểm mạnh điểm yếu"
+    ],
     "correctAnswer": "Cấp trên cũng là con người, ai cũng có điểm mạnh điểm yếu",
     "userAnswerState": "Đúng"
   },
@@ -796,7 +1238,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Khi nhân viên cấp dưới được cấp trên giao một nhiệm vụ nằm ngoài phạm vi những công việc thường làm (không trong danh mục các công việc được mô tả khi phân công trách nhiệm) thì cấp dưới nên phản ứng như thế nào?",
-    "options": [],
+    "options": [
+      "A. Đẩy việc sang nhân viên khác",
+      "B. Nhận việc nhưng không hào hứng",
+      "C. Từ chối thẳng thừng",
+      "D. Nhiệt tình thực hiện"
+    ],
     "correctAnswer": "Nhiệt tình thực hiện",
     "userAnswerState": "Đúng"
   },
@@ -805,7 +1252,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Tìm phương án đúng nhất. Người lãnh đạo doanh nghiệp giữ vai trò quan trọng trong việc xây dựng môi trường giao tiếp ứng xử tốt đẹp trong doanh nghiệp của mình vì:",
-    "options": [],
+    "options": [
+      "A. Người lãnh đạo gương mẫu trong giao tiếp ứng xử sẽ là tấm gương cho mọi thành viên doanh nghiệp noi theo",
+      "B. Người lãnh đạo là người điều hành toàn bộ hoạt động của doanh nghiệp",
+      "C. Người lãnh đạo là người có thể đưa ra những quy định về giao tiếp ứng xử và yêu cầu mọi thành viên trong doanh nghiệp phải tuân thủ những quy định đó",
+      "D. Người lãnh đạo là người chịu trách nhiệm và đại diện cho doanh nghiệp trước xã hội và pháp luật"
+    ],
     "correctAnswer": "Người lãnh đạo là người có thể đưa ra những quy định về giao tiếp ứng xử và yêu cầu mọi thành viên trong doanh nghiệp phải tuân thủ những quy định đó",
     "userAnswerState": "Sai"
   },
@@ -814,7 +1266,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 3",
     "question": "Tìm câu trả lời đúng nhất. Nhìn vào các mối quan hệ ứng xử trong nội bộ doanh nghiệp có thể đánh giá:",
-    "options": [],
+    "options": [
+      "A. Vị thế của mỗi thành viên trong doanh nghiệp",
+      "B. Phong cách người lãnh đạo doanh nghiệp",
+      "C. Sự dân chủ trong doanh nghiệp",
+      "D. Văn hóa của một doanh nghiệp"
+    ],
     "correctAnswer": "Văn hóa của một doanh nghiệp",
     "userAnswerState": "Đúng"
   },
@@ -1180,7 +1637,8 @@
       "D. “kinh tế quốc dân”"
     ],
     "correctAnswer": "“kinh tế” + “quốc dân”",
-    "userAnswerState": "Đúng"
+    "userAnswerState": "Đúng",
+    "explanation": "đây là quy định của google"
   },
   {
     "courseCode": "A000200",
@@ -1271,7 +1729,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 3",
     "question": "Chương trình nào dưới đây cho phép bạn tải tệp tin từ Intenet xuống máy tính của bạn?",
-    "options": [],
+    "options": [
+      "A. DMI",
+      "B. FOXIT READER",
+      "C. IDM",
+      "D. MDI"
+    ],
     "correctAnswer": "IDM",
     "userAnswerState": "Đúng"
   },
@@ -1280,7 +1743,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Mô hình SCORM do tổ chức nào đưa ra?",
-    "options": [],
+    "options": [
+      "A. Viện nghiên cứu công nghệ giáo dục từ xa (ADL).",
+      "B. Trường đại học tổng hợp Utah.",
+      "C. Quỹ khoa học quốc gia Mỹ (NSF).",
+      "D. Viện Nghiên cứu Standford."
+    ],
     "correctAnswer": "Viện nghiên cứu công nghệ giáo dục từ xa (ADL).",
     "userAnswerState": "Đúng"
   },
@@ -1289,7 +1757,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Quy trình sinh viên học tập trên hệ thống e-learning KHÔNG bao gồm bước nào?",
-    "options": [],
+    "options": [
+      "A. Học tập.",
+      "B. Gặp gỡ giáo viên.",
+      "C. Tìm hiểu thông tin lớp học.",
+      "D. Đăng ký học tập."
+    ],
     "correctAnswer": "Gặp gỡ giáo viên.",
     "userAnswerState": "Đúng"
   },
@@ -1298,7 +1771,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Theo Sloan Consortium lớp học nào dưới đây được coi là lớp học sử dụng công nghệ Internet?",
-    "options": [],
+    "options": [
+      "A. Lớp học có 30 – 79% nội dung được truyền tải qua Internet.",
+      "B. Lớp học tập trung, thầy và trò gặp trực tiếp.",
+      "C. Lớp học có 1-29% nội dung được truyền tải qua Internet.",
+      "D. Lớp học có 0% nội dung được truyền tải qua Internet."
+    ],
     "correctAnswer": "Lớp học có 1-29% nội dung được truyền tải qua Internet.",
     "userAnswerState": "Đúng"
   },
@@ -1307,7 +1785,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Khi nói về quá trình phát triển E-learning, có 2 phát biểu như sau: PB1: Trước năm 1983: phương pháp giáo dục “Lấy giảng viên làm trung tâm” là phương pháp phổ biến nhất trong các trường học. PB2: Giai đoạn 1984-1993: Khi công nghệ Web được phát minh ra, các nhà cung cấp dịch vụ đào tạo bắt đầu nghiên cứu cách thức cải tiến phương pháp giáo dục bằng công nghệ này. Hỏi khẳng định nào sau đây là đúng?",
-    "options": [],
+    "options": [
+      "A. PB1 đúng, PB2 sai.",
+      "B. PB1 đúng, PB2 đúng.",
+      "C. PB1 sai, PB2 đúng.",
+      "D. PB1 sai, PB2 sai."
+    ],
     "correctAnswer": "PB1 đúng, PB2 sai.",
     "userAnswerState": "Đúng"
   },
@@ -1316,7 +1799,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Trong quá trình học e-learning, đâu không phải là 1 trong 4 hoạt động chính của sinh viên e-learning?",
-    "options": [],
+    "options": [
+      "A. Thi cử.",
+      "B. Lướt web.",
+      "C. Thực hành.",
+      "D. Thảo luận."
+    ],
     "correctAnswer": "Lướt web.",
     "userAnswerState": "Đúng"
   },
@@ -1325,7 +1813,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Đâu không phải là một trong các yêu cầu kỹ thuật của một hệ thống LMS điển hình?",
-    "options": [],
+    "options": [
+      "A. Tương thích với các trình duyệt chuẩn.",
+      "B. Sử dụng lại, quản lý và phân phối nội dung học tập trong môi trường số từ một kho dữ liệu trung tâm.",
+      "C. Được thiết kế theo module để có thể dễ dàng nâng cấp trong tương lai.",
+      "D. Có khả năng tích hợp ứng dụng thư điện tử."
+    ],
     "correctAnswer": "Sử dụng lại, quản lý và phân phối nội dung học tập trong môi trường số từ một kho dữ liệu trung tâm.",
     "userAnswerState": "Đúng"
   },
@@ -1334,7 +1827,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Đâu không phải là một trong các yêu cầu giao diện người dùng của một hệ thống LMS điển hình?",
-    "options": [],
+    "options": [
+      "A. Hỗ trợ giao diện người dùng trên cơ sở trình duyệt Web.",
+      "B. Có khả năng tùy chỉnh và thân thiện người dùng.",
+      "C. Hỗ trợ chức năng trợ giúp và hướng dẫn trực tuyến.",
+      "D. Không cho phép thiết lập nhiều giao diện riêng biệt cho các nhóm người dùng khác nhau."
+    ],
     "correctAnswer": "Không cho phép thiết lập nhiều giao diện riêng biệt cho các nhóm người dùng khác nhau.",
     "userAnswerState": "Đúng"
   },
@@ -1343,7 +1841,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Trong số các đặc điểm sau, đâu không phải là đặc điểm của hệ thống E-Learning?",
-    "options": [],
+    "options": [
+      "A. Nội dung thay đổi phù hợp cho từng cá nhân.",
+      "B. Cập nhật mới nhanh.",
+      "C. Học mọi lúc, mọi nơi.",
+      "D. Học không có sự hợp tác, phối hợp."
+    ],
     "correctAnswer": "Học không có sự hợp tác, phối hợp.",
     "userAnswerState": "Đúng"
   },
@@ -1352,7 +1855,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "LMS là viết tắt của cụm từ tiếng Anh nào?",
-    "options": [],
+    "options": [
+      "A. Learning Management Site.",
+      "B. Learning Model Site.",
+      "C. Learning Management System.",
+      "D. Learning Model Sharable."
+    ],
     "correctAnswer": "Learning Management System.",
     "userAnswerState": "Đúng"
   },
@@ -1361,16 +1869,27 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Đâu KHÔNG phải là hệ thống hỗ trợ học tập trong môi trường elearning?",
-    "options": [],
+    "options": [
+      "A. Hệ thống diễn đàn.",
+      "B. Hệ thống gửi tin nhắn đến giảng viên.",
+      "C. Hệ thống thư điện tử của NEU-ELEARNING.",
+      "D. Hệ thống phần mềm quản lý truy cập mạng Internet."
+    ],
     "correctAnswer": "Hệ thống phần mềm quản lý truy cập mạng Internet.",
-    "userAnswerState": "Đúng"
+    "userAnswerState": "Đúng",
+    "explanation": "đây không phải là chức năng mang tính đặc thù, nó có ở nhiều hề thống khác."
   },
   {
     "courseCode": "A000200",
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Chữ E trong cụm từ E-learning là viết tắt của từ tiêng Anh nào dưới đây?",
-    "options": [],
+    "options": [
+      "A. External",
+      "B. Electronic",
+      "C. Email",
+      "D. Extent"
+    ],
     "correctAnswer": "Electronic",
     "userAnswerState": "Đúng"
   },
@@ -1379,7 +1898,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "LCMS là viết tắt của cụm từ tiếng Anh nào?",
-    "options": [],
+    "options": [
+      "A. Learning Content Model Site.",
+      "B. Lecture Control Model Sharable.",
+      "C. Learning Content Managerment System.",
+      "D. Lecture Content Management Site."
+    ],
     "correctAnswer": "Learning Content Managerment System.",
     "userAnswerState": "Đúng"
   },
@@ -1388,7 +1912,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Chọn phát biểu SAI?",
-    "options": [],
+    "options": [
+      "A. E-learning nghĩa là việc học tập hay đào tạo được chuẩn bị, truyền tải hoặc quản lý sử dụng nhiều công cụ của công nghệ thông tin, truyền thông khác nhau và được thực hiện ở mức cục bộ hay toàn cục.",
+      "B. E-learning là viết tắt của từ Electronic Learning.",
+      "C. E-learning là một thuật ngữ dùng để mô tả việc học tập không dựa trên công nghệ thông tin và truyền thông.",
+      "D. E-learning là sử dụng các công nghệ Web và Internet trong học tập."
+    ],
     "correctAnswer": "E-learning là một thuật ngữ dùng để mô tả việc học tập không dựa trên công nghệ thông tin và truyền thông.",
     "userAnswerState": "Đúng"
   },
@@ -1397,7 +1926,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Trong mô hình hệ thống E-Learning không bao gồm thành phần nào?",
-    "options": [],
+    "options": [
+      "A. Nội dung đào tạo.",
+      "B. Hạ tầng truyền thông và mạng.",
+      "C. Hạ tầng phần mềm.",
+      "D. Đội ngũ kỹ sư công nghệ thông tin."
+    ],
     "correctAnswer": "Đội ngũ kỹ sư công nghệ thông tin.",
     "userAnswerState": "Đúng"
   },
@@ -1406,7 +1940,12 @@
     "courseName": "Nhập môn Internet và E-Learning",
     "quizName": "Bài luyện tập 4",
     "question": "Khi nói về kiến trúc Web để phát triển hệ thống E-learning, có 2 phát biểu như sau: PB1: Mô hình kiến trúc Web không cho phép tăng cường sự tương hợp và mở rộng trên cơ sở hạ tầng mạng và các ứng dụng khác nhau sẵn có trên thị trường e-learning. PB2: Mô hình kiến trúc Web cho phép phát triển và sử dụng Intranet cũng như các dịch vụ Internet công cộng. Điều đó cho phép việc lựa chọn các công nghệ mạng là hoàn toàn trong suốt đối với các đơn vị phát triển nội dung và các nhà cung cấp dịch vụ. Hỏi khẳng định nào sau đây là đúng?",
-    "options": [],
+    "options": [
+      "A. PB1 đúng, PB2 đúng.",
+      "B. PB1 sai, PB2 sai.",
+      "C. PB1 đúng, PB2 sai.",
+      "D. PB1 sai, PB2 đúng."
+    ],
     "correctAnswer": "PB1 sai, PB2 đúng.",
     "userAnswerState": "Đúng"
   },
@@ -1415,7 +1954,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 4",
     "question": "Kỹ thuật xương cá” là phương pháp dùng để làm gì?",
-    "options": [],
+    "options": [
+      "A. Xem xét vấn đề từ nhiều góc độ khác nhau",
+      "B. Xem xét khía cạnh đối diện của vấn đề",
+      "C. Phân tích các nguyên nhân của vấn đề",
+      "D. Phát huy tính sáng tạo trong giải quyết vấn đề"
+    ],
     "correctAnswer": "Phân tích các nguyên nhân của vấn đề",
     "userAnswerState": "Đúng"
   },
@@ -1424,7 +1968,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Một người quản lý thời gian tốt là người có nhiều công việc ở ô nào trong ma trận quản lý thời gian?",
-    "options": [],
+    "options": [
+      "A. Ô số 2: công việc quan trọng nhưng không khẩn cấp",
+      "B. Ô số 3: công việc không quan trọng nhưng khẩn cấp",
+      "C. Ô số 1: công việc quan trọng và khẩn cấp",
+      "D. Ô số 4: công việc không quan trọng và không khẩn cấp"
+    ],
     "correctAnswer": "Ô số 2: công việc quan trọng nhưng không khẩn cấp",
     "userAnswerState": "Đúng"
   },
@@ -1433,7 +1982,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Khi một người phải liên tục làm các công việc quan trọng và khẩn cấp trong một thời gian dài thì sẽ có kết quả công việc như thế nào?",
-    "options": [],
+    "options": [
+      "A. Kết quả công việc sẽ không thể tốt do sức chịu đựng sự căng thẳng của con người có giới hạn",
+      "B. Kết quả công việc sẽ không bị ảnh hưởng nếu mọi việc làm đúng theo quy trình",
+      "C. Kết quả công việc sẽ tốt vì công việc quan trọng và khẩn cấp đòi hỏi sự tập trung cao độ",
+      "D. Kết quả công việc sẽ ngày càng tốt lên do càng bận rộn càng nhiều kinh nghiệm"
+    ],
     "correctAnswer": "Kết quả công việc sẽ không thể tốt do sức chịu đựng sự căng thẳng của con người có giới hạn",
     "userAnswerState": "Đúng"
   },
@@ -1442,7 +1996,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Khi phân loại, sắp xếp công việc vào ma trận quản lý thời gian, bạn sẽ xếp vào ô số 4 công việc nào trong số các công việc sau:",
-    "options": [],
+    "options": [
+      "A. Lập kế hoạch phát triển bản thân",
+      "B. Gọi điện thoại tán gẫu",
+      "C. Dự đám cưới bạn cùng cơ quan",
+      "D. Xử lý công văn giấy tờ"
+    ],
     "correctAnswer": "Gọi điện thoại tán gẫu",
     "userAnswerState": "Đúng"
   },
@@ -1451,7 +2010,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Quản lý thời gian là gì? Tìm phương án không chính xác trong số các phương án sau đây",
-    "options": [],
+    "options": [
+      "A. Là không lãng phí thời gian vào những việc không liên quan",
+      "B. Là sự vội vã hoàn thành công việc vào phút cuối",
+      "C. Là việc sử dụng thời gian một cách tốt nhất",
+      "D. Là dành nhiều thời gian cho những việc quan trọng"
+    ],
     "correctAnswer": "Là sự vội vã hoàn thành công việc vào phút cuối",
     "userAnswerState": "Đúng"
   },
@@ -1460,7 +2024,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Tìm phương án đúng nhất. Một việc như thế nào thì được coi là quan trọng?",
-    "options": [],
+    "options": [
+      "A. Một việc được coi là quan trọng khi nó cần nhiều người giải quyết",
+      "B. Một việc đươc coi là quan trọng khi nó đòi hỏi sự chú ý ngay lập tức",
+      "C. Một việc được coi là quan trọng khi nó có một ý nghĩa lớn hoặc gây ra một kết quả đáng kế",
+      "D. Một việc được coi là quan trọng khi nó cần nhiều thời gian để giải quyết"
+    ],
     "correctAnswer": "Một việc được coi là quan trọng khi nó có một ý nghĩa lớn hoặc gây ra một kết quả đáng kế",
     "userAnswerState": "Đúng"
   },
@@ -1469,7 +2038,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Khi phân loại, sắp xếp công việc vào ma trận quản lý thời gian, bạn sẽ xếp vào ô số 2 công việc nào trong số các công việc sau:",
-    "options": [],
+    "options": [
+      "A. Các cuộc họp hành đột xuất",
+      "B. Xử lý email, công văn hàng ngày",
+      "C. Lướt web, chơi game",
+      "D. Xây dựng mối quan hệ với đối tác"
+    ],
     "correctAnswer": "Xây dựng mối quan hệ với đối tác",
     "userAnswerState": "Đúng"
   },
@@ -1478,7 +2052,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Khi làm công việc ở ô số 2 trong ma trận quản lý thời gian thì sẽ có lợi thế gì?",
-    "options": [],
+    "options": [
+      "A. Luôn trong tình trạng áp lực, tập trung cao độ để giải quyết công việc",
+      "B. Tập trung vào các công việc ngắn hạn, vụn vặt cho qua ngày",
+      "C. Thực hiện được nhiều việc ngoài phạm vi chức năng của người được phân công",
+      "D. Có thời gian để chủ động, bình tĩnh, tập trung vào công việc quan trọng"
+    ],
     "correctAnswer": "Có thời gian để chủ động, bình tĩnh, tập trung vào công việc quan trọng",
     "userAnswerState": "Đúng"
   },
@@ -1487,7 +2066,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Yếu tố nào dưới đây là nguyên nhân gây lãng phí thời gian?",
-    "options": [],
+    "options": [
+      "A. Làm việc không có kế hoạch",
+      "B. Đề ra mục tiêu cụ thể, rõ ràng",
+      "C. Văn phòng làm việc ngăn nắp, gọn gàng",
+      "D. Kỹ năng giao tiếp tốt"
+    ],
     "correctAnswer": "Làm việc không có kế hoạch",
     "userAnswerState": "Đúng"
   },
@@ -1496,7 +2080,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Một người được gọi là biết cách quản lý thời gian nếu người đó:",
-    "options": [],
+    "options": [
+      "A. Dành thời gian cho những việc không khẩn cấp và không quan trọng",
+      "B. Luôn trong tình trạng căng thẳng, tập trung cao độ để hoàn thành công việc",
+      "C. Biết phân loại công việc, lập kế hoạch và từng bước thực hiện theo kế hoạch",
+      "D. Hoàn thành công việc một cách vội vã vào phút cuối"
+    ],
     "correctAnswer": "Biết phân loại công việc, lập kế hoạch và từng bước thực hiện theo kế hoạch",
     "userAnswerState": "Đúng"
   },
@@ -1505,7 +2094,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Khi có công việc quan trọng và khẩn cấp thì con người cần hành động như thế nào?",
-    "options": [],
+    "options": [
+      "A. Lập kế hoạch để thực hiện từng bước",
+      "B. Ủy quyền cho người khác làm hộ",
+      "C. Tập trung mọi nguồn lực để giải quyết ngay lập tức",
+      "D. Nghiên cứu để tìm giải pháp ứng phó lâu dài"
+    ],
     "correctAnswer": "Tập trung mọi nguồn lực để giải quyết ngay lập tức",
     "userAnswerState": "Đúng"
   },
@@ -1514,7 +2108,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Khi một người có nhiều công việc ở ô số 3 trong ma trận quản lý thời gian thì người đó nên làm gì?",
-    "options": [],
+    "options": [
+      "A. Làm lần lượt từng việc",
+      "B. Ủy quyền cho người khác làm thay nếu có thể",
+      "C. Bỏ mặc vì đó là những việc không quan trọng",
+      "D. Trực tiếp xử lý hết mọi việc"
+    ],
     "correctAnswer": "Ủy quyền cho người khác làm thay nếu có thể",
     "userAnswerState": "Đúng"
   },
@@ -1523,7 +2122,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Trong số các phương án dưới đây, phương án nào giải thích đúng nhất về khái niệm quản lý thời gian?",
-    "options": [],
+    "options": [
+      "A. Quản lý thời gian là kiểm soát được thời gian của bản thân",
+      "B. Quản lý thời gian là sử dụng thời gian một cách tốt nhất, không lãng phí thời gian vào những việc không liên quan",
+      "C. Quản lý thời gian là không lãng phí thời gian vào những việc không liên quan",
+      "D. Quản lý thời gian là biết cách sử dụng thời gian một cách hợp lý và hiệu quả để đạt được mục tiêu xác định"
+    ],
     "correctAnswer": "Quản lý thời gian là biết cách sử dụng thời gian một cách hợp lý và hiệu quả để đạt được mục tiêu xác định",
     "userAnswerState": "Đúng"
   },
@@ -1532,7 +2136,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 5",
     "question": "Hãy chỉ ra một nguyên nhân gây lãng phí thời gian trong số các phương án sau:",
-    "options": [],
+    "options": [
+      "A. Biết cách diễn đạt ngắn gọn, rõ ràng trong giao tiếp",
+      "B. Thiết lập mục tiêu cụ thể, rõ ràng",
+      "C. Sử dụng điện thoại quá nhiều",
+      "D. Biết cách từ chối các cuộc gặp vô bổ"
+    ],
     "correctAnswer": "Sử dụng điện thoại quá nhiều",
     "userAnswerState": "Đúng"
   },
@@ -1541,7 +2150,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Thành viên nhóm nên hành xử như thế nào khi nhóm đưa ra một quyết định không trùng hợp với quan điểm của mình?",
-    "options": [],
+    "options": [
+      "A. Rút lui khỏi nhóm vì bất đồng quan điểm",
+      "B. Gặp lãnh đạo cấp trên nhờ can thiệp",
+      "C. Chấp nhận vì đó là quyết định đã dựa trên những nguyên tắc và giá trị chung đã được thỏa hiệp của nhóm",
+      "D. Kiên quyết phản đối vì ý kiến của mình chưa được đáp ứng"
+    ],
     "correctAnswer": "Chấp nhận vì đó là quyết định đã dựa trên những nguyên tắc và giá trị chung đã được thỏa hiệp của nhóm",
     "userAnswerState": "Đúng"
   },
@@ -1550,16 +2164,27 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Phương án nào sau đây không phải là ý nghĩa tích cực của việc phân công trách nhiệm cá nhân trong khi làm việc nhóm?",
-    "options": [],
+    "options": [
+      "A. Giúp\ncác thành viên tập trung hơn vào công việc được giao",
+      "B. Giúp các thành viên chủ động trong cách ứng xử với các sự kiện tích cực và tiêu cực trong quá trình làm việc",
+      "C. Giúp thay đổi quan niệm cho rằng trách nhiệm làm việc nhóm là của nhóm trưởng",
+      "D. Giúp từng thành viên nhận thức rõ hơn về lợi ích cá nhân trong khi làm việc nhóm"
+    ],
     "correctAnswer": "Giúp từng thành viên nhận thức rõ hơn về lợi ích cá nhân trong khi làm việc nhóm",
-    "userAnswerState": "Đúng"
+    "userAnswerState": "Đúng",
+    "explanation": "&nbsp;Cần thay đổi quan niệm cho rằng những công việc mang tính tổ chức của nhóm là do nhóm trưởng thực hiện hoặc thành lập nhóm là trách nhiệm của nhóm trưởng. Từng thành viên đều nhận thức rõ tham gia công việc là trách nhiệm của mình và lợi ích cá nhân khi làm việc nhóm."
   },
   {
     "courseCode": "A066101",
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Điều gì cần phải được thực hiện trước khi thành lập nhóm?",
-    "options": [],
+    "options": [
+      "A. Xác định công việc cần làm của nhóm",
+      "B. Xác định các mối quan hệ của nhóm",
+      "C. Xác định năng lực của các thành viên trong nhóm",
+      "D. Xác định mục tiêu thành lập nhóm"
+    ],
     "correctAnswer": "Xác định mục tiêu thành lập nhóm",
     "userAnswerState": "Đúng"
   },
@@ -1568,7 +2193,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Trong trường hợp nào thì doanh nghiệp chưa cần thành lập nhóm để giải quyết công việc?",
-    "options": [],
+    "options": [
+      "A. Khi các cá nhân phải làm việc ở mức độ phụ thuộc cao",
+      "B. Khi các cá nhân có thể dễ dàng làm việc độc lập",
+      "C. Khi các cá nhân có kiến thức chuyên môn vững vàng",
+      "D. Khi các cá nhân có kỹ năng thành thạo"
+    ],
     "correctAnswer": "Khi các cá nhân có thể dễ dàng làm việc độc lập",
     "userAnswerState": "Đúng"
   },
@@ -1577,7 +2207,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Xác định một luận điểm đúng trong số các luận điểm dưới đây bàn về vấn đề mâu thuẫn nhóm:",
-    "options": [],
+    "options": [
+      "A. Khi hoạt động nhóm, tất yếu sẽ nảy sinh nhiều mâu thuẫn vì nhóm là sự tập hợp của những con người với quan niệm, tính cách, năng lực, kinh nghiệm... khác nhau",
+      "B. Không thể có mâu thuẫn nếu thành viên của nhóm hợp tác chia sẻ, thông cảm với nhau",
+      "C. Nếu biết cách ứng xử phù hợp thì con người có thể giải quyết mâu thuẫn nhóm một cách triệt để, không bao giờ còn mâu thuẫn nhóm",
+      "D. Trong khi hoạt động nhóm nếu để xảy ra bất kỳ mâu thuẫn nào thì đó là sự thất bại của cả nhóm"
+    ],
     "correctAnswer": "Khi hoạt động nhóm, tất yếu sẽ nảy sinh nhiều mâu thuẫn vì nhóm là sự tập hợp của những con người với quan niệm, tính cách, năng lực, kinh nghiệm... khác nhau",
     "userAnswerState": "Đúng"
   },
@@ -1586,7 +2221,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Tác hại của sự chia rẽ, mất đoàn kết trong khi làm việc nhóm là gì?",
-    "options": [],
+    "options": [
+      "A. Thực hiện tốt các mục tiêu lớn trong những điều kiện cụ thể",
+      "B. Thực hiện được những dự án lớn cần nhiều người tham gia",
+      "C. Làm suy giảm tinh thần và hiệu quả làm việc của các thành viên",
+      "D. Làm tăng tính chủ động của các thành viên"
+    ],
     "correctAnswer": "Làm suy giảm tinh thần và hiệu quả làm việc của các thành viên",
     "userAnswerState": "Đúng"
   },
@@ -1595,7 +2235,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Sau khi đã xác định được mục tiêu, bước tiếp theo nhóm cần phải làm là:",
-    "options": [],
+    "options": [
+      "A. xác định năng lực của từng thành viên trong nhóm",
+      "B. xác định những công việc mà nhóm cần thực hiện",
+      "C. xác định khả năng tồn tại của nhóm",
+      "D. xác định các mối quan hệ của nhóm"
+    ],
     "correctAnswer": "xác định những công việc mà nhóm cần thực hiện",
     "userAnswerState": "Đúng"
   },
@@ -1604,7 +2249,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Hành động nào dưới đây sẽ làm giảm tác dụng của hoạt động nhóm trong môi trường học tập?",
-    "options": [],
+    "options": [
+      "A. Bàn bạc cùng nhau vượt qua khó khăn hướng đến mục tiêu chung của nhóm",
+      "B. Hỗ trợ kiến thức cho nhau để giảm áp lực học một mình",
+      "C. Dựa dẫm, ỷ lại vào thành quả học tập của người khác trong nhóm",
+      "D. Chia sẻ kinh nghiệm, phương pháp học tập cho nhau"
+    ],
     "correctAnswer": "Dựa dẫm, ỷ lại vào thành quả học tập của người khác trong nhóm",
     "userAnswerState": "Đúng"
   },
@@ -1613,7 +2263,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Tìm phương án trả lời đúng nhất. Vì sao để công việc nhóm được triển khai hiệu quả, các thành viên nhóm cần phải thể hiện tốt trách nhiệm cá nhân?",
-    "options": [],
+    "options": [
+      "A. Các thành viên cùng phải chịu trách nhiệm chung về công việc được giao",
+      "B. Mỗi\ncá nhân cần tập trung vào công việc được giao chung cho cả nhóm",
+      "C. Các thành viên cần thay đổi quan niệm cho rằng những công việc nhóm là do nhóm trưởng chịu trách nhiệm",
+      "D. Chỉ khi các thành viên đều đồng thuận, chia sẻ trách nhiệm và có ý thức trách nhiệm với công việc chung thì nhóm mới có thể làm việc hiệu quả"
+    ],
     "correctAnswer": "Chỉ khi các thành viên đều đồng thuận, chia sẻ trách nhiệm và có ý thức trách nhiệm với công việc chung thì nhóm mới có thể làm việc hiệu quả",
     "userAnswerState": "Đúng"
   },
@@ -1622,7 +2277,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Trong môi trường học tập, khi nào thì nên thành lập nhóm?",
-    "options": [],
+    "options": [
+      "A. Khi thực hiện những bài tập đơn giản",
+      "B. Khi mỗi cá nhân có thể tự học mà kết quả vẫn cao",
+      "C. Khi mỗi cá nhân được trang bị các kiến thức cơ bản",
+      "D. Khi thực hiện một bài tập lớn cần có kiến thức tổng hợp"
+    ],
     "correctAnswer": "Khi thực hiện một bài tập lớn cần có kiến thức tổng hợp",
     "userAnswerState": "Đúng"
   },
@@ -1631,7 +2291,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Tìm phương án đúng nhất. Khi các nhóm trong doanh nghiệp đều làm việc có hiệu quả thì sẽ mang lại điều gì cho doanh nghiệp?",
-    "options": [],
+    "options": [
+      "A. Uy tín và giá trị thương hiệu của doanh nghiệp được nâng cao",
+      "B. Tinh\nthần của các thành viên trong doanh nghiệp được củng cố",
+      "C. Giảm thiểu sự vướng mắc trong khâu phối hợp giữa các bộ phận",
+      "D. Tạo sự chủ động cho nhân viên"
+    ],
     "correctAnswer": "Uy tín và giá trị thương hiệu của doanh nghiệp được nâng cao",
     "userAnswerState": "Đúng"
   },
@@ -1640,7 +2305,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Trong cuộc họp nhóm, người điều hành cần xử trí như thế nào khi có thành viên phản đối gay gắt quan điểm của mình?",
-    "options": [],
+    "options": [
+      "A. Nhanh chóng kết thúc cuộc họp",
+      "B. Tranh luận ngay để phân định đúng sai",
+      "C. Bình tĩnh, lắng nghe để điều chỉnh",
+      "D. Yêu cầu thành viên đó ra khỏi cuộc họp"
+    ],
     "correctAnswer": "Bình tĩnh, lắng nghe để điều chỉnh",
     "userAnswerState": "Đúng"
   },
@@ -1649,7 +2319,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Để xây dựng mối quan hệ tốt đẹp giữa các thành viên trong nhóm, người trưởng nhóm không nên làm gì?",
-    "options": [],
+    "options": [
+      "A. Đối xử thiếu công bằng với các thành viên trong nhóm",
+      "B. Xây dựng quy tắc ứng xử chung của nhóm để mọi thành viên cùng thực hiện",
+      "C. Hướng các thành viên vào mục tiêu chung của nhóm",
+      "D. Khuyến khích các thành viên tích cực tham gia công việc nhóm"
+    ],
     "correctAnswer": "Đối xử thiếu công bằng với các thành viên trong nhóm",
     "userAnswerState": "Đúng"
   },
@@ -1658,7 +2333,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Một thành viên nhóm nên ứng xử thế nào khi không hoàn thành công việc được giao?",
-    "options": [],
+    "options": [
+      "A. Tìm gặp cấp trên để giãi bày",
+      "B. Đổ lỗi cho thành viên khác trong nhóm",
+      "C. Quy trách nhiệm cho nhóm trưởng",
+      "D. Thành khẩn nhận lỗi và tìm mọi cách khắc phục sai sót"
+    ],
     "correctAnswer": "Thành khẩn nhận lỗi và tìm mọi cách khắc phục sai sót",
     "userAnswerState": "Đúng"
   },
@@ -1667,7 +2347,12 @@
     "courseName": "Phát triển kỹ năng cá nhân",
     "quizName": "Bài luyện tập 6",
     "question": "Chọn trong các phương án dưới đây một phương án mà người điều hành cuộc họp nhóm không nên làm khi không khí cuộc họp nhóm buồn tẻ, các thành viên không tham gia phát biểu:",
-    "options": [],
+    "options": [
+      "A. Đưa ra nhiều chủ đề tranh luận hơn",
+      "B. Nhanh chóng kết thúc cuộc họp",
+      "C. Sử dụng thêm những phương tiện hỗ trợ gây sự chú ý",
+      "D. Thúc giục mọi người tham gia phát biểu tích cực hơn"
+    ],
     "correctAnswer": "Nhanh chóng kết thúc cuộc họp",
     "userAnswerState": "Đúng"
   },
@@ -1676,16 +2361,27 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Khẳng định nào sau đây là SAI?",
-    "options": [],
+    "options": [
+      "A. Các máy tính trong họ IBM System/360 tương thích với nhau về kiến trúc.",
+      "B. Ưu điểm vượt trội của System/360 là tính tương thích và cung cấp các bộ mô phỏng cho các hệ thống khác.",
+      "C. Người dùng trên các hệ thống khác có thể chuyển sang sử dụng trên System/360 nhờ bộ mô phỏng.",
+      "D. Các phiên bản khác nhau trong họ IBM System/360 không thể sử dụng chung hệ điều hành."
+    ],
     "correctAnswer": "Các phiên bản khác nhau trong họ IBM System/360 không thể sử dụng chung hệ điều hành.",
-    "userAnswerState": "Đúng"
+    "userAnswerState": "Đúng",
+    "explanation": "Các máy tính trong họ IBM System 360 tương thích nhau về kiến trúc nên các máy tính trong họ có thể sử dụng chung hệ điều hành. System/360 có ưu điểm vượt trội là tính tương thích và cung cấp các bộ mô phỏng lớn nhất trong lịch sử các hệ thống khác."
   },
   {
     "courseCode": "A065000",
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Hệ điều hành đảm nhiệm việc nào trong những việc dưới đây?",
-    "options": [],
+    "options": [
+      "A. Chơi trò chơi điện tử.",
+      "B. Giao tiếp với ổ đĩa cứng, quản lí bộ nhớ trong.",
+      "C. Giải các bài toán trên máy tính.",
+      "D. Soạn thảo văn bản."
+    ],
     "correctAnswer": "Giao tiếp với ổ đĩa cứng, quản lí bộ nhớ trong.",
     "userAnswerState": "Đúng"
   },
@@ -1694,7 +2390,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Phần cứng máy tính (Hardware) thông thường bao gồm những gì?",
-    "options": [],
+    "options": [
+      "A. Bộ xử lý trung tâm CPU, bộ nhớ, hệ điều hành.",
+      "B. Thiết bị nhập/ xuất, bộ xử lý trung tâm, hệ thống file.",
+      "C. Thiết bị nhập/ xuất, bộ nhớ, bộ xử lý trung tâm.",
+      "D. Trình biên dịch ứng dụng."
+    ],
     "correctAnswer": "Thiết bị nhập/ xuất, bộ nhớ, bộ xử lý trung tâm.",
     "userAnswerState": "Đúng"
   },
@@ -1703,7 +2404,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Chức năng nào sau đây phản ánh bản chất của việc giao tiếp giữa người dùng và máy (thông qua hệ điều hành) trong hệ thống tin học?",
-    "options": [],
+    "options": [
+      "A. Nhập, xuất thông tin.",
+      "B. Lưu trữ thông tin",
+      "C. Xử lí thông tin.",
+      "D. Truyền thông tin."
+    ],
     "correctAnswer": "Nhập, xuất thông tin.",
     "userAnswerState": "Đúng"
   },
@@ -1712,7 +2418,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Lịch sử phát triển của hệ điều hành qua:",
-    "options": [],
+    "options": [
+      "A. 3 giai đoạn.",
+      "B. 2 giai đoạn.",
+      "C. 4 giai đoạn.",
+      "D. 5 giai đoạn."
+    ],
     "correctAnswer": "4 giai đoạn.",
     "userAnswerState": "Đúng"
   },
@@ -1721,7 +2432,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Hệ điều hành thường được lưu trữ lâu ở đâu?",
-    "options": [],
+    "options": [
+      "A. ROM.",
+      "B. Bộ xử lí trung tâm (CPU).",
+      "C. RAM.",
+      "D. Bộ nhớ ngoài."
+    ],
     "correctAnswer": "Bộ nhớ ngoài.",
     "userAnswerState": "Đúng"
   },
@@ -1730,7 +2446,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Hệ điều hành được coi là:",
-    "options": [],
+    "options": [
+      "A. Phần mềm công cụ.",
+      "B. Phần mềm ứng dụng.",
+      "C. Phần mềm tiện ích.",
+      "D. Phần mềm hệ thống."
+    ],
     "correctAnswer": "Phần mềm hệ thống.",
     "userAnswerState": "Đúng"
   },
@@ -1739,7 +2460,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Xét các tính chất sau:1. System throughput: càng nhiều processor thì các công việc càng được giải quyết nhanh hơn. 2. Multiprocessor system ít tốn kém hơn multiple single-processor system: vì có thể dùng chung tài nguyên (đĩa,…)3. Độ tin cậy: khi một processor hỏng thì công việc của nó được chia sẻ giữa các processor còn lại4. Tính đơn nhiệm: hệ thống chỉ có thể thực hiện duy nhất một chương trình tại một thời điểmNhững tính chất nào là tính chất của hệ thống song song?",
-    "options": [],
+    "options": [
+      "A. 1,2,3, và 4",
+      "B. 1,2, và 3",
+      "C. 1,2, và 4",
+      "D. 2,3, và 4"
+    ],
     "correctAnswer": "1,2, và 3",
     "userAnswerState": "Đúng"
   },
@@ -1748,7 +2474,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Khẳng định nào sau đây là đúng?",
-    "options": [],
+    "options": [
+      "A. Hệ điều hành quản lý tài nguyên phần cứng và dữ liệu.",
+      "B. Hệ điều hành không quản lý dữ liệu.",
+      "C. Hệ điều hành không có chức năng quản lý phần cứng.",
+      "D. Hệ điều hành không quản lý phần cứng và dữ liệu."
+    ],
     "correctAnswer": "Hệ điều hành quản lý tài nguyên phần cứng và dữ liệu.",
     "userAnswerState": "Đúng"
   },
@@ -1757,7 +2488,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Mục tiêu chính của hệ điều hành là gì?",
-    "options": [],
+    "options": [
+      "A. Dễ dàng sử dụng và điều hành hữu hiệu hệ thống máy tính.",
+      "B. Thực hiện tính toán và trả kết quả cho người dùng.",
+      "C. Dễ dàng sử dụng.",
+      "D. Điều hành hữu hiệu hệ thống máy tính."
+    ],
     "correctAnswer": "Dễ dàng sử dụng và điều hành hữu hiệu hệ thống máy tính.",
     "userAnswerState": "Đúng"
   },
@@ -1766,7 +2502,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Trong năm 1960, IBM đã xây dựng mấy phiên bản HĐH cho System/360?",
-    "options": [],
+    "options": [
+      "A. 4",
+      "B. 2",
+      "C. 3",
+      "D. 5"
+    ],
     "correctAnswer": "4",
     "userAnswerState": "Đúng"
   },
@@ -1775,16 +2516,28 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Xét các tính chất sau:1.Nhiều công việc được nạp đồng thời vào bộ nhớ chính.2.Thời gian xử lý của CPU được phân chia giữa các công việc.3.Tận dụng được thời gian rảnh, tăng hiệu suất sử dụng CPU (CPU utilization).4.Chỉ cho phép một chương trình ứng dụng được hoạt động trong hệ thống.Đặc điểm của hệ thống đa chương trình có những tính chất nào?",
-    "options": [],
+    "options": [
+      "A. 1,2, và 3",
+      "B. 1 và 4",
+      "C. 1,2,3 và 4",
+      "D. 2,3 và 4"
+    ],
     "correctAnswer": "1,2, và 3",
-    "userAnswerState": "Đúng"
+    "userAnswerState": "Đúng",
+    "explanation": "Đặc điểm:Nhiều công việc được nạp đồng thời vào bộ nhớ chính.Thời gian xử lý của CPU được phân chia giữa các công việc đóTận dụng được thời gian rảnh, tăng hiệu suất sử dụng CPU (CPU utilization).",
+    "reference": "Giáo trình Hệ Điều Hành Bài 1, Mục 1.5."
   },
   {
     "courseCode": "A065000",
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Đặc điểm nổi bật của máy tính PC là gì?",
-    "options": [],
+    "options": [
+      "A. Rẻ tiền và thân thiện.",
+      "B. Chỉ dùng cho các chuyên gia.",
+      "C. Thân thiện.",
+      "D. Rẻ tiền."
+    ],
     "correctAnswer": "Rẻ tiền và thân thiện.",
     "userAnswerState": "Đúng"
   },
@@ -1793,7 +2546,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Hệ điều hành được nạp và hệ thống khi nào?",
-    "options": [],
+    "options": [
+      "A. Khi các chương trình ứng dụng có yêu cầu nạp hệ điều hành.",
+      "B. Sau khi các chương trình ứng dụng được kích hoạt.",
+      "C. Trong khi các chương trình ứng dụng được kích hoạt.",
+      "D. Trước khi các chương trình ứng dụng được kích hoạt."
+    ],
     "correctAnswer": "Trước khi các chương trình ứng dụng được kích hoạt.",
     "userAnswerState": "Đúng"
   },
@@ -1802,7 +2560,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 1",
     "question": "Đặc trưng của HĐH đa nhiệm là gì?",
-    "options": [],
+    "options": [
+      "A. Hệ thống điều phối bộ vi xử lý theo kiểm time – sharing.",
+      "B. Hệ thống quản lý tiến trình theo lô.",
+      "C. Hệ thống quản lý nhiều người dùng (multi user).",
+      "D. Hệ thống quản lý làm việc phân tán."
+    ],
     "correctAnswer": "Hệ thống điều phối bộ vi xử lý theo kiểm time – sharing.",
     "userAnswerState": "Đúng"
   },
@@ -1811,7 +2574,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Tính chất về danh sách các Blocked Process là như thế nào?",
-    "options": [],
+    "options": [
+      "A. Xếp theo thứ tự tiến trình nào bị block trước thì đứng sau.",
+      "B. Không có thứ tự.",
+      "C. Xếp theo thứ tự tiến trình nào bị block trước thì đứng trước.",
+      "D. Xếp theo thứ tự độ ưu tiên."
+    ],
     "correctAnswer": "Không có thứ tự.",
     "userAnswerState": "Đúng"
   },
@@ -1820,7 +2588,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Hàng đợi dành cho tiến trình xếp hàng chờ bộ xử lý được gọi là:",
-    "options": [],
+    "options": [
+      "A. waitting queue.",
+      "B. busy –waitting buffer.",
+      "C. ready queue.",
+      "D. over time."
+    ],
     "correctAnswer": "ready queue.",
     "userAnswerState": "Đúng"
   },
@@ -1829,7 +2602,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Khi xảy ra ngắt, Hệ Điều Hành làm gì?",
-    "options": [],
+    "options": [
+      "A. Ghi lại trạng thái của tiến trình bị ngắt và chuyển điều khiển cho chương trình xử lý ngắt tương ứng.",
+      "B. Tạo 1 tiến trình mới để thay thế tiến trình đang chạy.",
+      "C. Ghi lại trạng thái của tiến trình bị ngắt.",
+      "D. Hủy tiến trình đang chạy."
+    ],
     "correctAnswer": "Ghi lại trạng thái của tiến trình bị ngắt và chuyển điều khiển cho chương trình xử lý ngắt tương ứng.",
     "userAnswerState": "Đúng"
   },
@@ -1838,7 +2616,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Giả sử có tiến trình A đang hoạt động và sinh ra tiến trình mới B. Hỏi A là tiến trình gì?",
-    "options": [],
+    "options": [
+      "A. Parent Process.",
+      "B. Active Process.",
+      "C. Suspended Process.",
+      "D. Child Process."
+    ],
     "correctAnswer": "Parent Process.",
     "userAnswerState": "Đúng"
   },
@@ -1847,7 +2630,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Quá trình chuyển trạng thái nào không thể xảy ra đối với quá trình biến đổi trạng thái của tiến trình?",
-    "options": [],
+    "options": [
+      "A. blocked Þ ready.",
+      "B. blocked Þ running.",
+      "C. running Þ ready.",
+      "D. running Þ blocked."
+    ],
     "correctAnswer": "blocked Þ running.",
     "userAnswerState": "Đúng"
   },
@@ -1856,7 +2644,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Tiến trình là?",
-    "options": [],
+    "options": [
+      "A. Một chương trình được nạp vào bộ nhớ.",
+      "B. Một chương trình được nạp vào bộ nhớ và đang được CPU thực thi.",
+      "C. Một chương trình lưu trên đĩa.",
+      "D. Chuỗi thao tác vận hành một chương trình."
+    ],
     "correctAnswer": "Một chương trình được nạp vào bộ nhớ và đang được CPU thực thi.",
     "userAnswerState": "Đúng"
   },
@@ -1865,16 +2658,27 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Giả thiết nào không thỏa mãn để áp dụng cho thuật toán Banker?",
-    "options": [],
+    "options": [
+      "A. Người dùng phải báo trước số lượng lớn nhất tài nguyên cần dùng.",
+      "B. Người dùng phải trả lại các tài nguyên được cấp sau khoảng thời gian nào đó.",
+      "C. Số tài nguyên luôn thay đổi.",
+      "D. Số người dùng là không thay đổi."
+    ],
     "correctAnswer": "Số tài nguyên luôn thay đổi.",
-    "userAnswerState": "Đúng"
+    "userAnswerState": "Đúng",
+    "explanation": "Thuật toán Banker xuất phát từ giả thiết:"
   },
   {
     "courseCode": "A065000",
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Thành phần nào sau đây KHÔNG thuộc về luồng?",
-    "options": [],
+    "options": [
+      "A. Định danh luồng (Thread ID).",
+      "B. Bộ đếm chương trình.",
+      "C. Hàng đợi Queue.",
+      "D. Tập thanh ghi."
+    ],
     "correctAnswer": "Hàng đợi Queue.",
     "userAnswerState": "Đúng"
   },
@@ -1883,7 +2687,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Khi xóa một tiến trình khỏi hệ thống thì?",
-    "options": [],
+    "options": [
+      "A. Hệ điều hành cấp phát các tài nguyên phân chia cho tiến trình.",
+      "B. PCB được giải phóng.",
+      "C. Tiến trình không tiếp tục được thực hiện cho đến khi có một tiến trình khác kích hoạt nó.",
+      "D. Tên của tiến trình được xoá khỏi PCB."
+    ],
     "correctAnswer": "PCB được giải phóng.",
     "userAnswerState": "Đúng"
   },
@@ -1892,7 +2701,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Các điều kiện nào sau đây KHÔNG dẫn đến việc xảy ra tắc nghẽn (deadlock)?",
-    "options": [],
+    "options": [
+      "A. Các tiến trình yêu cầu quyền độc quyền sử dụng tài nguyên được cấp phát.",
+      "B. Tiến trình yêu cầu tài nguyên bổ sung.",
+      "C. Tài nguyên không được lấy lại từ tiến trình khi các tài nguyên đó chưa được sử dụng để kết thúc công việc.",
+      "D. Tiến trình thực hiện độc lập với các tiến trình khác."
+    ],
     "correctAnswer": "Tiến trình thực hiện độc lập với các tiến trình khác.",
     "userAnswerState": "Đúng"
   },
@@ -1901,7 +2715,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Các giải thuật phát hiện deadlock thường sử dụng mô hình nào?",
-    "options": [],
+    "options": [
+      "A. RAG.",
+      "B. Graph.",
+      "C. ARG.",
+      "D. GRA."
+    ],
     "correctAnswer": "RAG.",
     "userAnswerState": "Đúng"
   },
@@ -1910,7 +2729,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Hệ điều hành sẽ thực thi hành động nào khi một tiến trình mới sinh ra?",
-    "options": [],
+    "options": [
+      "A. Xóa tất cả các tiến trình khác trong hệ thống.",
+      "B. Thu hồi bộ nhớ của tất cả các tiến trình khác trong hệ thống.",
+      "C. Tạo ngay khối PCB để quản lý tiến trình.",
+      "D. Tạm ngưng tất các các tiến trình khác trong hệ thống."
+    ],
     "correctAnswer": "Tạo ngay khối PCB để quản lý tiến trình.",
     "userAnswerState": "Đúng"
   },
@@ -1919,7 +2743,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Các tiến trình được gọi là tương tranh nếu:",
-    "options": [],
+    "options": [
+      "A. các tiến trình tồn tại ở hai thời điểm khác nhau.",
+      "B. các tiến trình tồn tại đồng thời.",
+      "C. các tiến trình tồn tại liên tục nhau.",
+      "D. kết quả của tiến trình này là điều kiện thực thi của tiến trình kia."
+    ],
     "correctAnswer": "các tiến trình tồn tại đồng thời.",
     "userAnswerState": "Đúng"
   },
@@ -1928,7 +2757,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Thời gian xử lý song song song với xử lý tuần tự như thế nào?",
-    "options": [],
+    "options": [
+      "A. Nhỏ hơn nhiều.",
+      "B. Xấp xỉ nhau.",
+      "C. Bằng nhau.",
+      "D. Lớn hơn nhiều."
+    ],
     "correctAnswer": "Nhỏ hơn nhiều.",
     "userAnswerState": "Đúng"
   },
@@ -1937,7 +2771,12 @@
     "courseName": "Nhập môn hệ điều hành",
     "quizName": "Bài luyện tập 2",
     "question": "Đâu KHÔNG phải là thao tác mà hệ thống điều khiển tiến trình có thể thực hiện đối với một tiến trình?",
-    "options": [],
+    "options": [
+      "A. Sửa.",
+      "B. Kích hoạt tiến trình.",
+      "C. Hủy.",
+      "D. Thay đổi độ ưu tiên."
+    ],
     "correctAnswer": "Sửa.",
     "userAnswerState": "Đúng"
   },
@@ -1952,7 +2791,8 @@
       "C. 12",
       "D. -123"
     ],
-    "correctAnswer": "B. m172"
+    "correctAnswer": "B. m172",
+    "explanation": "Trong C ký tự đầu của tên phải là chữ cái hoặc ký tự _"
   },
   {
     "courseCode": "A065200",
@@ -1965,7 +2805,8 @@
       "C. Có thể sử dụng ký tự gạch dưới",
       "D. Không thể là các ký hiệu đặc biệt"
     ],
-    "correctAnswer": "C. Có thể sử dụng ký tự gạch dưới"
+    "correctAnswer": "C. Có thể sử dụng ký tự gạch dưới",
+    "explanation": "Tập ký tự trong ngôn ngữ C có thể là các chữ cái hoa, chữ cái thường, chữ số, các ký hiệu đặc biệt, các ký hiệu toán học, ký tự gạch nối"
   },
   {
     "courseCode": "A065200",
@@ -1978,7 +2819,8 @@
       "C. int m=7; t=6; double x= 2*t;",
       "D. int m=7, t=6, x= 2*m*t;"
     ],
-    "correctAnswer": "C. int m=7; t=6; double x= 2*t;"
+    "correctAnswer": "C. int m=7; t=6; double x= 2*t;",
+    "explanation": "Có thể khai báo biến như sau: DataType var1, var2, var3; hoặc khai báo cùng với giá trị khởi tạo DataType var = Giá trị."
   },
   {
     "courseCode": "A065200",
@@ -1991,7 +2833,8 @@
       "C. 64",
       "D. 16"
     ],
-    "correctAnswer": "B. 32"
+    "correctAnswer": "B. 32",
+    "explanation": "Độ dài cực đại của tên mặc định là 32. Tuy nhiên chúng ta có thể đặt lại một giá trị từ 1 đến 32 trong chức năng: Options à Compiler à Source à Indentifier length"
   },
   {
     "courseCode": "A065200",
@@ -2017,7 +2860,8 @@
       "C. int case;",
       "D. int be ta;"
     ],
-    "correctAnswer": "A. int _7;"
+    "correctAnswer": "A. int _7;",
+    "explanation": "Các khai báo biến sai:"
   },
   {
     "courseCode": "A065200",
@@ -2043,7 +2887,8 @@
       "C. Giá trị của biến không thay đổi",
       "D. Giá trị biến thay đổi và nhận giá trị mới"
     ],
-    "correctAnswer": "D. Giá trị biến thay đổi và nhận giá trị mới"
+    "correctAnswer": "D. Giá trị biến thay đổi và nhận giá trị mới",
+    "explanation": "Trong C khi gán trị mới cho một dữ liệu thì giá trị cũ bị mất đi"
   },
   {
     "courseCode": "A065200",
@@ -2070,5 +2915,209 @@
       "D. dx (hoặc yl, vb, x)"
     ],
     "correctAnswer": "D. dx (hoặc yl, vb, x)"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Yêu cầu khi chọn kiểu dữ liệu cho chương trình là?",
+    "options": [
+      "A. Có thể chọn bất cứ kiểu dữ liệu nào",
+      "B. Kiểu dữ liệu càng lớn càng tốt.",
+      "C. Kiểu dữ liệu càng nhỏ càng tốt.",
+      "D. Kiểu dữ liệu cần sát với kiểu giá trị của các thông tin đó trong thực tế."
+    ],
+    "correctAnswer": "Kiểu dữ liệu cần sát với kiểu giá trị của các thông tin đó trong thực tế.",
+    "userAnswerState": "Đúng",
+    "explanation": "Như thế vừa lưu được các thông tin vừa không lãng phí bộ nhớ",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 1, mục 1.2 Kiểu dữ liệu,"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đâu là một trong những tiêu chí khi chọn ngôn ngữ diễn đạt giải thuật ?",
+    "options": [
+      "A. Gần với ngôn ngữ lập trình hiện có.",
+      "B. Chọn ngôn ngữ nào bạn thích",
+      "C. Ngôn ngữ càng gần với ngôn ngữ máy càng tốt",
+      "D. Ngôn ngữ tiếng Việt."
+    ],
+    "correctAnswer": "Gần với ngôn ngữ lập trình hiện có.",
+    "userAnswerState": "Đúng",
+    "explanation": "Gần với ngôn ngữ lập trình thì dễ triển khai phần mềm",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.3. Ngôn ngữ diễn đạt giải thuật"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hãy cho biết kết quả của phép MOD hai số nguyên có kiểu gì?",
+    "options": [
+      "A. Kiểu ký tự.",
+      "B. Kiểu số thực.",
+      "C. Kiểu logic.",
+      "D. Kiểu số nguyên."
+    ],
+    "correctAnswer": "Kiểu số nguyên.",
+    "userAnswerState": "Đúng",
+    "explanation": "Phép MOD là phép chia lấy dư nguyên của 2 số nguyên, do đó giá trị của phép MOD là số nguyên.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.2.1.1. Kiểu nguyên"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đâu là kiểu dữ liệu cơ bản trong các kiểu dữ liệu dưới đây?",
+    "options": [
+      "A. Kiểu tệp tin.",
+      "B. Kiểu cấu trúc bản ghi.",
+      "C. Kiểu mảng.",
+      "D. Kiểu số nguyên."
+    ],
+    "correctAnswer": "Kiểu số nguyên.",
+    "userAnswerState": "Đúng",
+    "explanation": "Kiểu dữ liệu cơ bản là:",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.2.1"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hãy cho biết giá trị của “con trỏ” là gì?",
+    "options": [
+      "A. Là giá trị tại một vùng bộ nhớ",
+      "B. Là địa chỉ vị trí của con trỏ",
+      "C. Là địa chỉ đến một vùng bộ nhớ nhất định.",
+      "D. Là giá trị của các kiểu dữ liệu khác."
+    ],
+    "correctAnswer": "Là địa chỉ đến một vùng bộ nhớ nhất định.",
+    "userAnswerState": "Đúng",
+    "explanation": "Giá trị của “con trỏ” là địa chỉ đến một vùng bộ nhớ nhất định.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.2.1.5"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hãy cho biết ý nghĩa của kiểu dữ liệu logic (Boolean)",
+    "options": [
+      "A. Dùng trong các phép toán logic.",
+      "B. Dùng trong tính toán số học.",
+      "C. Dùng trong các phép so sánh.",
+      "D. Dùng để biểu diễn các giá trị logic bao gồm 2 giá trị đúng (true) và sai (false)."
+    ],
+    "correctAnswer": "Dùng để biểu diễn các giá trị logic bao gồm 2 giá trị đúng (true) và sai (false).",
+    "userAnswerState": "Đúng",
+    "explanation": "Kiểu dữ liệu logic được dùng để biểu diễn các giá trị logic, bao gồm hai giá trị là đúng (TRUE) và sai (FALSE). Kiểu dữ liệu này được sử dụng để biểu diễn kết quả so sánh giữa các giá trị thuộc kiểu dữ liệu số (nguyên hoặc thực).",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.1.1.3 Kiểu dữ liệu Logic"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hãy cho biết ưu điểm của các kiểu dữ liệu trừu tượng.",
+    "options": [
+      "A. Giúp cho giải thuật đơn giản hơn.",
+      "B. Giúp cho người dùng dễ sử dụng chương trình.",
+      "C. Giúp cho người lập trình dễ viết chương trình.",
+      "D. Giúp cho người lập trình không phải quá quan tâm đến các cách thức biểu diễn cụ thể các dữ liệu đó trên máy tính."
+    ],
+    "correctAnswer": "Giúp cho người lập trình không phải quá quan tâm đến các cách thức biểu diễn cụ thể các dữ liệu đó trên máy tính.",
+    "userAnswerState": "Đúng",
+    "explanation": "Kiểu RECORD và ARRAY người lập trình không phải quá quan tâm đến các cách thức biểu diễn cụ thể các dữ liệu đó trên máy tính",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 1, mục 1.2 Kiểu dữ liệu,"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Chọn định nghĩa đúng nhất cho từ Giải thuật?",
+    "options": [
+      "A. Là tập hợp các lệnh xử lý dữ liệu.",
+      "B. Là một tập hợp hữu hạn của các chỉ thị hay phương cách được định nghĩa rõ ràng cho việc hoàn tất một số sự việc từ một trạng thái ban đầu cho trước; khi các chỉ thị này được áp dụng triệt để thì sẽ dẫn đến kết quả sau cùng như đã dự đoán.",
+      "C. Là cách biểu diễn cấu trúc dữ liệu dưới dạng giả mã, ngôn ngữ tự nhiên, sơ đồ khối…",
+      "D. Là các giải thích về các thuật ngữ trong tin học."
+    ],
+    "correctAnswer": "Là một tập hợp hữu hạn của các chỉ thị hay phương cách được định nghĩa rõ ràng cho việc hoàn tất một số sự việc từ một trạng thái ban đầu cho trước; khi các chỉ thị này được áp dụng triệt để thì sẽ dẫn đến kết quả sau cùng như đã dự đoán.",
+    "userAnswerState": "Đúng",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 1, mục 1.1"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Kiểu dữ liệu cơ bản là gì?",
+    "options": [
+      "A. Là kiểu dữ liệu có sẵn trên hầu hết các máy tính và được hỗ trợ trong hầu hết các ngôn ngữ lập trình.",
+      "B. Là kiểu dữ liệu đơn giản.",
+      "C. Là kiểu dữ liệu giúp cho việc lập trình dễ dàng hơn.",
+      "D. Là kiểu dữ liệu không đòi hỏi kĩ thuật cao trong xử lý."
+    ],
+    "correctAnswer": "Là kiểu dữ liệu có sẵn trên hầu hết các máy tính và được hỗ trợ trong hầu hết các ngôn ngữ lập trình.",
+    "userAnswerState": "Đúng",
+    "explanation": "Kiểu dữ liệu cơ bản là các kiểu dữ liệu có sẵn trên hầu hết các máy tính, và được hỗ trợ trong hầu hết các ngôn ngữ lập trình. Chúng bao gồm kiểu dữ liệu số nguyên (INTEGER), kiểu dữ liệu số thực (REAL), kiểu dữ liệu giá trị logic (BOOLEAN), kiểu dữ liệu ký tự (CHAR). Ngoài ra còn một kiểu dữ liệu nữa hay được sử dụng trong các thuật toán là kiểu dữ liệu con trỏ (POINTER).",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 1, mục 1.2 Kiểu dữ liệu,"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Kiểu truy cập các phần tử trong một mảng là kiểu truy cập nào trong các kiểu dưới đây?",
+    "options": [
+      "A. Kiểu truy cập nhanh",
+      "B. Kiểu truy cập song song",
+      "C. Kiểu truy cập tuần tự.",
+      "D. Kiểu truy cập ngẫu nhiên"
+    ],
+    "correctAnswer": "Kiểu truy cập ngẫu nhiên",
+    "userAnswerState": "Sai",
+    "explanation": "Có thể truy cập ngẫu nhiên đến các phần tử trong mảng bằng chỉ số của phần tử đó trong mảng.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.2.2.2"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Chọn 2 phát biểu SAI. Một tên trong C bắt đầu bằng?a)  Chữ cái.                  b)  Ký tự _c)  Chữ số                    d)  Ký hiệu toán tử",
+    "options": [
+      "A. a và c",
+      "B. c và d",
+      "C. b và d",
+      "D. a và b"
+    ],
+    "correctAnswer": "c và d",
+    "userAnswerState": "Đúng",
+    "explanation": "Trong C ký tự đầu của tên phải là chữ cái hoặc ký tự _"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đâu là từ khóa trong C ?",
+    "options": [
+      "A. int",
+      "B. integer",
+      "C. Int",
+      "D. INT"
+    ],
+    "correctAnswer": "int",
+    "userAnswerState": "Đúng",
+    "explanation": "Từ khóa trong C phải được viết bằng chữ thường. Để khai báo một biến kiểu nguyên chúng ta dùng từ khóa: int"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "void main(){int a=10;int b=2*a+a++;}Giá trị b là bao nhiêu?",
+    "options": [
+      "A. 32",
+      "B. 31",
+      "C. 30",
+      "D. 33"
+    ],
+    "correctAnswer": "30",
+    "userAnswerState": "Đúng",
+    "explanation": "a++ tăng sau khi thực hiện phép nhân và cộng nên b=30 và sau đó a=11."
   }
 ]

@@ -48,6 +48,8 @@ const indexedQA = qaList.map((item, id) => {
     question: item.question,
     options: item.options || [],
     correctAnswer: item.correctAnswer,
+    explanation: item.explanation || '',
+    reference: item.reference || '',
     tokens: allTokens,
     rawText: `${item.question} ${(item.options || []).join(' ')} ${item.correctAnswer}`.toLowerCase()
   };

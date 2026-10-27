@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Yêu cầu khi chọn kiểu dữ liệu cho chương trình là?",
+    "options": [
+      "A. Có thể chọn bất cứ kiểu dữ liệu nào",
+      "B. Kiểu dữ liệu càng lớn càng tốt.",
+      "C. Kiểu dữ liệu càng nhỏ càng tốt.",
+      "D. Kiểu dữ liệu cần sát với kiểu giá trị của các thông tin đó trong thực tế."
+    ],
+    "correctAnswer": "Kiểu dữ liệu cần sát với kiểu giá trị của các thông tin đó trong thực tế.",
+    "userAnswerState": "Đúng",
+    "explanation": "Như thế vừa lưu được các thông tin vừa không lãng phí bộ nhớ",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 1, mục 1.2 Kiểu dữ liệu,"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đâu là một trong những tiêu chí khi chọn ngôn ngữ diễn đạt giải thuật ?",
+    "options": [
+      "A. Gần với ngôn ngữ lập trình hiện có.",
+      "B. Chọn ngôn ngữ nào bạn thích",
+      "C. Ngôn ngữ càng gần với ngôn ngữ máy càng tốt",
+      "D. Ngôn ngữ tiếng Việt."
+    ],
+    "correctAnswer": "Gần với ngôn ngữ lập trình hiện có.",
+    "userAnswerState": "Đúng",
+    "explanation": "Gần với ngôn ngữ lập trình thì dễ triển khai phần mềm",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.3. Ngôn ngữ diễn đạt giải thuật"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hãy cho biết kết quả của phép MOD hai số nguyên có kiểu gì?",
+    "options": [
+      "A. Kiểu ký tự.",
+      "B. Kiểu số thực.",
+      "C. Kiểu logic.",
+      "D. Kiểu số nguyên."
+    ],
+    "correctAnswer": "Kiểu số nguyên.",
+    "userAnswerState": "Đúng",
+    "explanation": "Phép MOD là phép chia lấy dư nguyên của 2 số nguyên, do đó giá trị của phép MOD là số nguyên.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.2.1.1. Kiểu nguyên"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đâu là kiểu dữ liệu cơ bản trong các kiểu dữ liệu dưới đây?",
+    "options": [
+      "A. Kiểu tệp tin.",
+      "B. Kiểu cấu trúc bản ghi.",
+      "C. Kiểu mảng.",
+      "D. Kiểu số nguyên."
+    ],
+    "correctAnswer": "Kiểu số nguyên.",
+    "userAnswerState": "Đúng",
+    "explanation": "Kiểu dữ liệu cơ bản là:",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.2.1"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hãy cho biết giá trị của “con trỏ” là gì?",
+    "options": [
+      "A. Là giá trị tại một vùng bộ nhớ",
+      "B. Là địa chỉ vị trí của con trỏ",
+      "C. Là địa chỉ đến một vùng bộ nhớ nhất định.",
+      "D. Là giá trị của các kiểu dữ liệu khác."
+    ],
+    "correctAnswer": "Là địa chỉ đến một vùng bộ nhớ nhất định.",
+    "userAnswerState": "Đúng",
+    "explanation": "Giá trị của “con trỏ” là địa chỉ đến một vùng bộ nhớ nhất định.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.2.1.5"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hãy cho biết ý nghĩa của kiểu dữ liệu logic (Boolean)",
+    "options": [
+      "A. Dùng trong các phép toán logic.",
+      "B. Dùng trong tính toán số học.",
+      "C. Dùng trong các phép so sánh.",
+      "D. Dùng để biểu diễn các giá trị logic bao gồm 2 giá trị đúng (true) và sai (false)."
+    ],
+    "correctAnswer": "Dùng để biểu diễn các giá trị logic bao gồm 2 giá trị đúng (true) và sai (false).",
+    "userAnswerState": "Đúng",
+    "explanation": "Kiểu dữ liệu logic được dùng để biểu diễn các giá trị logic, bao gồm hai giá trị là đúng (TRUE) và sai (FALSE). Kiểu dữ liệu này được sử dụng để biểu diễn kết quả so sánh giữa các giá trị thuộc kiểu dữ liệu số (nguyên hoặc thực).",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.1.1.3 Kiểu dữ liệu Logic"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hãy cho biết ưu điểm của các kiểu dữ liệu trừu tượng.",
+    "options": [
+      "A. Giúp cho giải thuật đơn giản hơn.",
+      "B. Giúp cho người dùng dễ sử dụng chương trình.",
+      "C. Giúp cho người lập trình dễ viết chương trình.",
+      "D. Giúp cho người lập trình không phải quá quan tâm đến các cách thức biểu diễn cụ thể các dữ liệu đó trên máy tính."
+    ],
+    "correctAnswer": "Giúp cho người lập trình không phải quá quan tâm đến các cách thức biểu diễn cụ thể các dữ liệu đó trên máy tính.",
+    "userAnswerState": "Đúng",
+    "explanation": "Kiểu RECORD và ARRAY người lập trình không phải quá quan tâm đến các cách thức biểu diễn cụ thể các dữ liệu đó trên máy tính",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 1, mục 1.2 Kiểu dữ liệu,"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Chọn định nghĩa đúng nhất cho từ Giải thuật?",
+    "options": [
+      "A. Là tập hợp các lệnh xử lý dữ liệu.",
+      "B. Là một tập hợp hữu hạn của các chỉ thị hay phương cách được định nghĩa rõ ràng cho việc hoàn tất một số sự việc từ một trạng thái ban đầu cho trước; khi các chỉ thị này được áp dụng triệt để thì sẽ dẫn đến kết quả sau cùng như đã dự đoán.",
+      "C. Là cách biểu diễn cấu trúc dữ liệu dưới dạng giả mã, ngôn ngữ tự nhiên, sơ đồ khối…",
+      "D. Là các giải thích về các thuật ngữ trong tin học."
+    ],
+    "correctAnswer": "Là một tập hợp hữu hạn của các chỉ thị hay phương cách được định nghĩa rõ ràng cho việc hoàn tất một số sự việc từ một trạng thái ban đầu cho trước; khi các chỉ thị này được áp dụng triệt để thì sẽ dẫn đến kết quả sau cùng như đã dự đoán.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 1, mục 1.1"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Kiểu dữ liệu cơ bản là gì?",
+    "options": [
+      "A. Là kiểu dữ liệu có sẵn trên hầu hết các máy tính và được hỗ trợ trong hầu hết các ngôn ngữ lập trình.",
+      "B. Là kiểu dữ liệu đơn giản.",
+      "C. Là kiểu dữ liệu giúp cho việc lập trình dễ dàng hơn.",
+      "D. Là kiểu dữ liệu không đòi hỏi kĩ thuật cao trong xử lý."
+    ],
+    "correctAnswer": "Là kiểu dữ liệu có sẵn trên hầu hết các máy tính và được hỗ trợ trong hầu hết các ngôn ngữ lập trình.",
+    "userAnswerState": "Đúng",
+    "explanation": "Kiểu dữ liệu cơ bản là các kiểu dữ liệu có sẵn trên hầu hết các máy tính, và được hỗ trợ trong hầu hết các ngôn ngữ lập trình. Chúng bao gồm kiểu dữ liệu số nguyên (INTEGER), kiểu dữ liệu số thực (REAL), kiểu dữ liệu giá trị logic (BOOLEAN), kiểu dữ liệu ký tự (CHAR). Ngoài ra còn một kiểu dữ liệu nữa hay được sử dụng trong các thuật toán là kiểu dữ liệu con trỏ (POINTER).",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 1, mục 1.2 Kiểu dữ liệu,"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 1",
+    "question": "Kiểu truy cập các phần tử trong một mảng là kiểu truy cập nào trong các kiểu dưới đây?",
+    "options": [
+      "A. Kiểu truy cập nhanh",
+      "B. Kiểu truy cập song song",
+      "C. Kiểu truy cập tuần tự.",
+      "D. Kiểu truy cập ngẫu nhiên"
+    ],
+    "correctAnswer": "Kiểu truy cập ngẫu nhiên",
+    "userAnswerState": "Sai",
+    "explanation": "Có thể truy cập ngẫu nhiên đến các phần tử trong mảng bằng chỉ số của phần tử đó trong mảng.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 1, mục 1.2.2.2"
+  }
+]

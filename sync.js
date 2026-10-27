@@ -115,13 +115,21 @@ async function run() {
                 
                 // Trích xuất các phương án lựa chọn
                 const options = [];
-                const answerBlockMatch = html.match(/class="answer">([\s\S]*?)<\/div>/);
+                const answerBlockMatch = html.match(/class="answer">([\s\S]*?)<\/div>\s*<\/fieldset>/) || html.match(/class="answer">([\s\S]*?)<\/div>/);
                 if (answerBlockMatch) {
-                  const optionRegex = /class="r[01]">[\s\S]*?<label[^>]*>([\s\S]*?)<\/label>/g;
-                  let optMatch;
-                  while ((optMatch = optionRegex.exec(answerBlockMatch[1])) !== null) {
-                    const cleanOpt = optMatch[1].replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').trim();
-                    if (cleanOpt) options.push(cleanOpt);
+                  const regex1 = /<span class="answernumber">([\s\S]*?)<\/span>\s*<div class="flex-fill ml-1">([\s\S]*?)<\/div>/g;
+                  let mOpt;
+                  while ((mOpt = regex1.exec(answerBlockMatch[1])) !== null) {
+                    const num = mOpt[1].replace(/<[^>]*>/g, '').trim();
+                    const text = mOpt[2].replace(/<[^>]*>/g, '').trim();
+                    options.push(`${num} ${text}`);
+                  }
+                  if (options.length === 0) {
+                    const regex2 = /class="r[01][^"]*">[\s\S]*?<label[^>]*>([\s\S]*?)<\/label>/g;
+                    while ((mOpt = regex2.exec(answerBlockMatch[1])) !== null) {
+                      const cleanOpt = mOpt[1].replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').trim();
+                      if (cleanOpt) options.push(cleanOpt);
+                    }
                   }
                 }
                 
@@ -130,6 +138,18 @@ async function run() {
                 let rightAnswer = rightMatch ? rightMatch[1].replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').trim() : '';
                 if (rightAnswer.startsWith('Câu trả lời đúng là:')) {
                   rightAnswer = rightAnswer.replace('Câu trả lời đúng là:', '').trim();
+                }
+
+                // Trích xuất giải thích & tài liệu tham khảo chính thức
+                let explanation = '';
+                let reference = '';
+                const generalFeedbackMatch = html.match(/class="generalfeedback">([\s\S]*?)<\/div>/);
+                if (generalFeedbackMatch) {
+                  const fb = generalFeedbackMatch[1];
+                  const viMatch = fb.match(/<strong>Vì:<\/strong>([\s\S]*?)<\/p>/i);
+                  if (viMatch) explanation = viMatch[1].replace(/<[^>]*>/g, '').trim();
+                  const refMatch = fb.match(/<strong>Tham khảo:<\/strong>([\s\S]*?)<\/p>/i);
+                  if (refMatch) reference = refMatch[1].replace(/<[^>]*>/g, '').trim();
                 }
                 
                 // Trạng thái (Đúng / Sai)
@@ -147,7 +167,9 @@ async function run() {
                       question: qtext,
                       options: options,
                       correctAnswer: rightAnswer,
-                      userAnswerState: state
+                      userAnswerState: state,
+                      explanation: explanation,
+                      reference: reference
                     };
                     courseQAList.push(qaItem);
                     fullQADatabase.push(qaItem);
@@ -228,8 +250,15 @@ async function run() {
     try { currentDb = JSON.parse(fs.readFileSync(dbFile, 'utf8')); } catch(e) {}
   }
   for (const item of fullQADatabase) {
-    if (!currentDb.some(x => x.question === item.question)) {
+    const existing = currentDb.find(x => x.question === item.question);
+    if (!existing) {
       currentDb.push(item);
+    } else {
+      if ((!existing.options || existing.options.length === 0) && item.options && item.options.length > 0) {
+        existing.options = item.options;
+      }
+      if (!existing.explanation && item.explanation) existing.explanation = item.explanation;
+      if (!existing.reference && item.reference) existing.reference = item.reference;
     }
   }
   fs.writeFileSync(dbFile, JSON.stringify(currentDb, null, 2));

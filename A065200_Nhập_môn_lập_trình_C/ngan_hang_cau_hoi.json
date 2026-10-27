@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Chọn tên đúng cách theo cú pháp C?",
+    "options": [
+      "A. 12a",
+      "B. m172",
+      "C. 12",
+      "D. -123"
+    ],
+    "correctAnswer": "m172",
+    "userAnswerState": "Đúng",
+    "explanation": "Trong C ký tự đầu của tên phải là chữ cái hoặc ký tự _",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Hãy chọn phát biểu đúng về tập ký tự dùng trong ngôn ngữ lập trình C?",
+    "options": [
+      "A. Không thể là các chữ cái",
+      "B. Có thể dùng bất kỳ ký hiệu nào",
+      "C. Có thể sử dụng ký tự gạch dưới",
+      "D. Không thể là các ký hiệu đặc biệt"
+    ],
+    "correctAnswer": "Có thể sử dụng ký tự gạch dưới",
+    "userAnswerState": "Đúng",
+    "explanation": "Tập ký tự trong ngôn ngữ C có thể là các chữ cái hoa, chữ cái thường, chữ số, các ký hiệu đặc biệt, các ký hiệu toán học, ký tự gạch nối",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đoạn mã nào có lỗi?",
+    "options": [
+      "A. int m=7; long t=6; double x= 2*m;",
+      "B. int m=7, t=6; double x= 2*m;",
+      "C. int m=7; t=6; double x= 2*t;",
+      "D. int m=7, t=6, x= 2*m*t;"
+    ],
+    "correctAnswer": "int m=7; t=6; double x= 2*t;",
+    "userAnswerState": "Đúng",
+    "explanation": "Có thể khai báo biến như sau: DataType var1, var2, var3; hoặc khai báo cùng với giá trị khởi tạo DataType var = Giá trị.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Trong C độ dài cực đại của tên mặc định là bao nhiêu?",
+    "options": [
+      "A. 24",
+      "B. 32",
+      "C. 64",
+      "D. 16"
+    ],
+    "correctAnswer": "32",
+    "userAnswerState": "Đúng",
+    "explanation": "Độ dài cực đại của tên mặc định là 32. Tuy nhiên chúng ta có thể đặt lại một giá trị từ 1 đến 32 trong chức năng: Options à Compiler à Source à Indentifier length",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Chọn 2 phát biểu SAI. Một tên trong C bắt đầu bằng?a)  Chữ cái.                  b)  Ký tự _c)  Chữ số                    d)  Ký hiệu toán tử",
+    "options": [
+      "A. a và c",
+      "B. c và d",
+      "C. b và d",
+      "D. a và b"
+    ],
+    "correctAnswer": "c và d",
+    "userAnswerState": "Đúng",
+    "explanation": "Trong C ký tự đầu của tên phải là chữ cái hoặc ký tự _",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Trong các khai báo biến sau, khai báo nào là đúng?",
+    "options": [
+      "A. int _7;",
+      "B. int f(x);",
+      "C. int case;",
+      "D. int be ta;"
+    ],
+    "correctAnswer": "int _7;",
+    "userAnswerState": "Đúng",
+    "explanation": "Các khai báo biến sai:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Đâu là từ khóa trong C ?",
+    "options": [
+      "A. int",
+      "B. integer",
+      "C. Int",
+      "D. INT"
+    ],
+    "correctAnswer": "int",
+    "userAnswerState": "Đúng",
+    "explanation": "Từ khóa trong C phải được viết bằng chữ thường. Để khai báo một biến kiểu nguyên chúng ta dùng từ khóa: int",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Khi gán trị mới cho một dữ liệu thì?",
+    "options": [
+      "A. Giá trị của biến thay đổi và nhận một giá trị ngẫu nhiên",
+      "B. Giá trị của biến không thay đổi và nhận giá trị mới",
+      "C. Giá trị của biến không thay đổi",
+      "D. Giá trị biến thay đổi và nhận giá trị mới"
+    ],
+    "correctAnswer": "Giá trị biến thay đổi và nhận giá trị mới",
+    "userAnswerState": "Đúng",
+    "explanation": "Trong C khi gán trị mới cho một dữ liệu thì giá trị cũ bị mất đi",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "void main(){int a=10;int b=2*a+a++;}Giá trị b là bao nhiêu?",
+    "options": [
+      "A. 32",
+      "B. 31",
+      "C. 30",
+      "D. 33"
+    ],
+    "correctAnswer": "30",
+    "userAnswerState": "Đúng",
+    "explanation": "a++ tăng sau khi thực hiện phép nhân và cộng nên b=30 và sau đó a=11.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 1",
+    "question": "Trong các tên sau đây, tên nào là tên biến hợp lệ?",
+    "options": [
+      "A. char",
+      "B. double",
+      "C. float",
+      "D. dx (hoặc yl, vb, x)"
+    ],
+    "correctAnswer": "dx (hoặc yl, vb, x)",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  }
+]
