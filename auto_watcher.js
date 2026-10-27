@@ -230,9 +230,48 @@ if (fs.existsSync(qaDbFile)) {
   console.log('👀 Đang giám sát etnu_full_qa_database.json để tự động nạp RAM.');
 }
 
-// 8. Chạy định kỳ Auto-Pull Git mỗi 3 phút
+// Hàm chạy Đồng bộ Toàn diện Moodle & Nạp RAM (Moodle Crawler -> Re-index -> Git Push -> Bot Hot-Reload)
+function triggerMoodleSync(reason = 'Định kỳ tự động') {
+  if (isSyncing) {
+    console.log(`⏳ Đang có tiến trình đồng bộ Moodle đang chạy, bỏ qua yêu cầu (${reason}).`);
+    return;
+  }
+  isSyncing = true;
+  lastSyncTime = Date.now();
+  console.log(`\n🚀 [AUTO-SYNC MOODLE] Bắt đầu tự động quét tài liệu & bài thi mới từ Moodle eTNU (${reason})...`);
+
+  // 1. Git pull nhẹ trước để tránh conflict
+  try {
+    execSync('git pull --rebase --autostash origin main', { cwd: baseDir, stdio: 'pipe', timeout: 20000 });
+  } catch (e) {
+    console.warn('⚠️ Lỗi Git pull trước khi crawl:', e.message);
+  }
+
+  // 2. Chạy Moodle crawler sync.js
+  const syncChild = fork(path.join(baseDir, 'sync.js'), [], { stdio: 'inherit' });
+  syncChild.on('exit', (code) => {
+    isSyncing = false;
+    console.log(`✅ [AUTO-SYNC MOODLE] Quét Moodle hoàn tất (Exit code: ${code}). Tự động nạp vào RAM cho bot...`);
+    
+    // Tái lập chỉ mục & thông báo bot nạp RAM
+    rebuildSmartIndex();
+
+    // Tự động push dữ liệu mới lên GitHub để sao lưu
+    try {
+      execSync(`node "${path.join(baseDir, 'auto_git_sync.js')}"`, { cwd: baseDir, stdio: 'inherit' });
+    } catch (e) {
+      console.warn('⚠️ Lỗi Git push:', e.message);
+    }
+  });
+}
+
+// 8. Tự động kiểm tra bài thi/tài liệu mới trên Moodle eTNU mỗi 5 phút
+setInterval(() => triggerMoodleSync('Định kỳ mỗi 5 phút'), 5 * 60 * 1000);
+// Chạy ngay lần đầu sau 10 giây khởi động daemon
+setTimeout(() => triggerMoodleSync('Khởi động daemon'), 10000);
+
+// Chạy định kỳ Auto-Pull Git mỗi 3 phút
 setInterval(checkAndPullGit, 3 * 60 * 1000);
-// Chạy ngay lần đầu khi khởi động daemon
 setTimeout(checkAndPullGit, 5000);
 
 // 9. HTTP Webhook Server (Port 8888)
@@ -266,41 +305,11 @@ const server = http.createServer(async (req, res) => {
 
   // Webhook đồng bộ toàn diện: Git pull -> Crawl Moodle -> Re-index -> Git push -> Reload Bot
   if (url.pathname === '/sync' && (req.method === 'POST' || req.method === 'GET')) {
-    if (isSyncing || Date.now() - lastSyncTime < 60000) {
-      res.writeHead(200, { 'Content-Type': 'application/json' });
-      return res.end(JSON.stringify({ success: false, message: 'Đang trong tiến trình đồng bộ hoặc vừa chạy trong 60s qua.' }));
-    }
-
-    lastSyncTime = Date.now();
-    isSyncing = true;
-    console.log(`\n🚀 [WEBHOOK] Nhận tín hiệu kích hoạt đồng bộ toàn diện...`);
-
-    // 1. Pull Git trước
-    try {
-      execSync('git pull --rebase --autostash origin main', { cwd: baseDir, stdio: 'inherit', timeout: 30000 });
-    } catch (e) {
-      console.warn('⚠️ Lỗi Git pull trong webhook:', e.message);
-    }
-
-    // 2. Chạy Moodle crawler sync.js
-    const syncChild = fork(path.join(baseDir, 'sync.js'), [], { stdio: 'inherit' });
-    syncChild.on('exit', (code) => {
-      isSyncing = false;
-      console.log(`✅ [WEBHOOK] Crawl Moodle hoàn tất (Exit code: ${code}). Bắt đầu re-index...`);
-      
-      rebuildSmartIndex();
-
-      try {
-        execSync(`node "${path.join(baseDir, 'auto_git_sync.js')}"`, { cwd: baseDir, stdio: 'inherit' });
-      } catch (e) {
-        console.warn('⚠️ Lỗi Git push:', e.message);
-      }
-    });
-
+    triggerMoodleSync('Kích hoạt từ Webhook / Discord');
     res.writeHead(200, { 'Content-Type': 'application/json' });
     return res.end(JSON.stringify({
       success: true,
-      message: 'Tiến trình đồng bộ toàn diện eTNU đã được kích hoạt!'
+      message: 'Tiến trình đồng bộ toàn diện Moodle eTNU đã được kích hoạt!'
     }));
   }
 
