@@ -158,5 +158,165 @@
     "userAnswerState": "Đúng",
     "explanation": "",
     "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "Biểu thức: 3*5%4-2*16&gt;32 &amp;&amp; 31/6&lt;7 cho kết quả bằng bao nhiêu?",
+    "options": [
+      "A. False",
+      "B. 1",
+      "C. True",
+      "D. 0"
+    ],
+    "correctAnswer": "0",
+    "userAnswerState": "Sai",
+    "explanation": "3*5%4-2*16&gt;32 &amp;&amp; 31/6&lt;7 = 15%4-32 &gt; 32 &amp;&amp; 5&lt;7 = -29&gt;32 &amp;&amp; 5&lt;7 = 0 &amp;&amp; 1 = 0",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "Đoạn code nào sau đây sẽ hoán vị 2 số a, b?",
+    "options": [
+      "A. a=t; b=a; t=b;",
+      "B. t=a; a=b; t=b;",
+      "C. t=a=b;",
+      "D. t=a; a=b; b=t;"
+    ],
+    "correctAnswer": "t=a; a=b; b=t;",
+    "userAnswerState": "Đúng",
+    "explanation": "Thuật toán hoán vị a và b:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "Chọn câu SAI?",
+    "options": [
+      "A. Chỉ số phần tử mảng có thể nhận giá trị kiểu float",
+      "B. Một xâu là một mảng các ký tự",
+      "C. Mảng hai chiều có thể xem như là một mảng của các mảng một chiều",
+      "D. Phần tử mảng có thể nhận kiểu dữ liệu là int, char, float hoặc double"
+    ],
+    "correctAnswer": "Chỉ số phần tử mảng có thể nhận giá trị kiểu float",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "Điều gì sẽ quyết định thứ tự thực hiện các phép toán trong biểu thức?",
+    "options": [
+      "A. Toán tử",
+      "B. Toán hạng",
+      "C. Biểu thức",
+      "D. Độ ưu tiên tính toán"
+    ],
+    "correctAnswer": "Độ ưu tiên tính toán",
+    "userAnswerState": "Sai",
+    "explanation": "Độ ưu tiên tính toán sẽ quyết định thứ tự thực hiện của các phép toán trong biểu thức.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong các biểu hiện dưới đây, biểu hiện nào cho thấy đối tác của bạn KHÔNG sử dụng hình thức đàm phán kiểu cứng?",
+    "options": [
+      "A. Tên mảng, không đi kèm với chỉ số, là địa chỉ của mảng",
+      "B. Kiểu chỉ số là kiểu đếm được",
+      "C. Khai báo biến mảng không cần chỉ rõ số phần tử của mảng",
+      "D. Xâu ký tự là mảng các ký tự"
+    ],
+    "correctAnswer": "Khai báo biến mảng không cần chỉ rõ số phần tử của mảng",
+    "userAnswerState": "Đúng",
+    "explanation": "Mảng là một cấu trúc tĩnh, khi khai báo phải chỉ rõ số phần tử của mảng.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "Chọn phát biểu SAI? Biến toàn cục là biến:",
+    "options": [
+      "A. Được khai báo ở ngoài thân hàm",
+      "B. Tồn tại trong suốt thời gian chương trình hoạt động",
+      "C. Được sử dụng ở mọi nơi trong chương trình",
+      "D. Được khai báo ở trong thân hàm"
+    ],
+    "correctAnswer": "Được khai báo ở trong thân hàm",
+    "userAnswerState": "Sai",
+    "explanation": "Bạn nên khai báo tất cả các biến toàn cục ở ngay đầu chương trình",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "Kết quả của biểu thức sau là bao nhiêu?(10 – (8 – 2)*10)/ ( 5 – 5 *2)",
+    "options": [
+      "A. 10",
+      "B. 50",
+      "C. Có lỗi vì chia cho 0",
+      "D. -10"
+    ],
+    "correctAnswer": "10",
+    "userAnswerState": "Sai",
+    "explanation": "Kết quả = ( 10 – 60 ) / ( 5 – 10 ) =10",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "Biểu thức: 3*(5%4*3)+(31/2&gt;7) cho kết quả bằng bao nhiêu?",
+    "options": [
+      "A. 10",
+      "B. 8",
+      "C. 1",
+      "D. 9"
+    ],
+    "correctAnswer": "10",
+    "userAnswerState": "Đúng",
+    "explanation": "Lần lượt tính các giá trị:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "Kết xuất là bao nhiêu khi đoạn code sau được thực thi?int n=92, m=11, t= --n/m, u= m+n+t;printf(\"%d\",u);",
+    "options": [
+      "A. 110",
+      "B. 111",
+      "C. 113",
+      "D. 109"
+    ],
+    "correctAnswer": "110",
+    "userAnswerState": "Sai",
+    "explanation": "n = -- 92 = 91",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 2",
+    "question": "Chọn phát biểu đúng?",
+    "options": [
+      "A. Một biến a được đặc trưng bởi địa chỉ của nó, kí hiệu là *a",
+      "B. &amp;a là kí hiệu giá trị được lưu trữ trong biến a",
+      "C. Tầm vực của một biến bắt đầu từ đầu chương trình",
+      "D. Tầm vực của một biến bắt đầu từ dòng lệnh khai báo biến đến hết khối lệnh chứa biến này"
+    ],
+    "correctAnswer": "Tầm vực của một biến bắt đầu từ dòng lệnh khai báo biến đến hết khối lệnh chứa biến này",
+    "userAnswerState": "Đúng",
+    "explanation": "Biến a cần được khai báo trước khi sử dụng và:",
+    "reference": ""
   }
 ]
