@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Cấu trúc Dữ liệu và Giải thuật [A050900]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **10 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **20 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Yêu cầu khi chọn kiểu dữ liệu cho chương trình là?
@@ -129,6 +129,136 @@
 - D. Kiểu truy cập ngẫu nhiên
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Kiểu truy cập ngẫu nhiên`
+
+---
+
+### Câu 11 (Bài luyện tập 2)
+**Hỏi:** Biểu diễn danh sách bằng mảng được mô tả như sau:#define Max_Size Ntypedef  Kieu_du_lieu E_Type;struct ListType{E_Type Element[Max_Size];int Size;} List;Điều kiện danh sách đầy là:
+
+**Các lựa chọn:**
+- A. Size.List = Max_Size
+- B. Size = 0
+- C. List.Size = Max_Size
+- D. List = Max_Size
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `List.Size = Max_Size`
+
+---
+
+### Câu 12 (Bài luyện tập 2)
+**Hỏi:** Trong việc ứng dụng danh sách liên kết để tính toán giá trị của một đa thức 1 ẩn bậc n, để lưu trữ đa thức trong danh sách liên kết thì mỗi nút của danh sách thường có mấy trường:
+
+**Các lựa chọn:**
+- A. 1
+- B. 2
+- C. 4
+- D. 3
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `3`
+
+---
+
+### Câu 13 (Bài luyện tập 2)
+**Hỏi:** Một danh sách rỗng khi:
+
+**Các lựa chọn:**
+- A. độ dài của danh sách bằng 1
+- B. độ dài của danh sách bằng 0
+- C. độ dài của danh sách không xác định
+- D. tổng giá trị các phần tử của danh sách bằng 0
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `độ dài của danh sách bằng 0`
+
+---
+
+### Câu 14 (Bài luyện tập 2)
+**Hỏi:** Lựa chọn câu đúng nhất về danh sách liên kết đôi (Doubly Linked List)
+
+**Các lựa chọn:**
+- A. Vùng liên kết của một phần tử trong danh sách liên đôi có 01 mối liên kết với 02 phần tử khác trong danh sách.
+- B. Vùng liên kết của một phần tử trong danh sách liên đôi có 02 mối liên kết với phần tử đầu và cuối của danh sách.
+- C. Vùng liên kết của một phần tử trong danh sách liên đôi có 02 mối liên kết, 01 với phần tử trước và 01 với phần tử  sau nó trong danh sách.
+- D. Vùng liên kết của một phần tử trong danh sách liên đôi có 02 mối liên kết với 01 phần tử khác trong danh sách.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Vùng liên kết của một phần tử trong danh sách liên đôi có 02 mối liên kết, 01 với phần tử trước và 01 với phần tử  sau nó trong danh sách.`
+
+---
+
+### Câu 15 (Bài luyện tập 2)
+**Hỏi:** Với cấu trúc dữ liệu như sautypedef struct DNode{int Key;DNode * NextNode;DNode * PreNode;} DOneNode;typedef DOneNode * DPointerType;typedef struct DLLPairNode{DPointerType  DLLFirst;DPointerType  DLLLast;} DLLPType;Hãy cho biết hàm sau dùng để làm gì?void DLLTravelling (DLLPType DList){DPointerType CurrNode = DList.DLLFirst;while (CurrNode != NULL){cout &lt;&lt; CurrNode-&gt;Key;CurrNode =  CurrNode-&gt;NextNode ;}return;}
+
+**Các lựa chọn:**
+- A. Xoá một phần tử khỏi danh sách
+- B. Duyệt qua các nút trong danh sách và hiển thị nội dung của mỗi nút
+- C. Duyệt danh sách
+- D. Thêm một phần tử vào danh sách
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Duyệt qua các nút trong danh sách và hiển thị nội dung của mỗi nút`
+
+---
+
+### Câu 16 (Bài luyện tập 2)
+**Hỏi:** Lựa chọn định nghĩa đúng nhất về danh sách?
+
+**Các lựa chọn:**
+- A. Danh sách là tập hợp các phần tử mà giữa chúng có một mối liên hệ nào đó.
+- B. Danh sách là tập hợp các phần tử có kiểu dữ liệu xác định và giữa chúng có một mối liên hệ nào đó.
+- C. Danh sách là tập hợp các phần tử có cùng giá trị
+- D. Danh sách là tập hợp các phần tử có cùng kiểu dữ liệu.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Danh sách là tập hợp các phần tử có kiểu dữ liệu xác định và giữa chúng có một mối liên hệ nào đó.`
+
+---
+
+### Câu 17 (Bài luyện tập 2)
+**Hỏi:** Cho danh sách L = (1, 8, 9, 2, 4, 0, 6, 7, 5). Thủ tục DSC_L(Pos1; Pos2: position ; var List: ListType) để đưa ra một danh sách con của List bắt đầu từ vị trí Pos1 đến vị trí Pos2 và trả giá trị cho List. Thủ tục Delete_L(Pos: position ; var List: ListType) để xóa một phần tử tại vị trí Pos khỏi danh sách List. Thủ tục Insert_L(Pos: position ; X: Item; var List: ListType) để thêm một phần tử X vào vị trí Pos trong danh sách List.  Khi đó nếu ta thực hiện liên tiếp DSC_L(2,7,L), Delete_L (2,L), Insert_L(2,3,L) thì kết quả sẽ được danh sách L như sau?
+
+**Các lựa chọn:**
+- A. (1, 3, 4, 0, 6, 7)
+- B. (8, 3, 9, 4, 0, 6)
+- C. (8, 3, 2, 4, 0, 6)
+- D. (8, 2, 3, 4, 0, 6)
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `(8, 3, 2, 4, 0, 6)`
+
+---
+
+### Câu 18 (Bài luyện tập 2)
+**Hỏi:** Khi cài đặt danh sách bằng mảng, với độ dài là n thì thao tác chèn một phần tử vào danh sách có độ phức tạp:
+
+**Các lựa chọn:**
+- A. O(n).
+- B. O(n.log2(n)).
+- C. O(n2).
+- D. O(2n).
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `O(n).`
+
+---
+
+### Câu 19 (Bài luyện tập 2)
+**Hỏi:** Định nghĩa nào là đúng với danh sách liên kết?
+
+**Các lựa chọn:**
+- A. Danh sách liên kết là cấu trúc dữ liệu tự định nghĩa.
+- B. Danh sách liên kết là cấu trúc dữ liệu dạng cây.
+- C. Danh sách liên kết là tập hợp các phần tử mà giữa chúng có một sự nối kết với nhau thông qua vùng liên kết của chúng.
+- D. Danh sách liên kết là tập hợp các phần tử mà đặt kề cận với nhau trong vùng nhớ.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Danh sách liên kết là tập hợp các phần tử mà giữa chúng có một sự nối kết với nhau thông qua vùng liên kết của chúng.`
+
+---
+
+### Câu 20 (Bài luyện tập 2)
+**Hỏi:** Cho danh sách L = (1, 5, 3, 2, 4, 0, 6). Thủ tục Delete_L(Pos: position ; var List: ListType) để xóa một phần tử tại vị trí Pos khỏi danh sách List. Khi đó nếu ta thực hiện liên tiếp Delete_L(2,L), Delete_L(4,L) thì kết quả sẽ được danh sách L như sau?
+
+**Các lựa chọn:**
+- A. (1, 3, 4, 0, 6)
+- B. (1, 2, 4, 0, 6)
+- C. (1, 5, 2, 4, 6)
+- D. (1, 3, 2, 0, 6)
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `(1, 3, 2, 0, 6)`
 
 ---
 

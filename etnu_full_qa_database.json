@@ -3279,5 +3279,165 @@
     "userAnswerState": "Đúng",
     "explanation": "Biến a cần được khai báo trước khi sử dụng và:",
     "reference": ""
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 2",
+    "question": "Biểu diễn danh sách bằng mảng được mô tả như sau:#define Max_Size Ntypedef  Kieu_du_lieu E_Type;struct ListType{E_Type Element[Max_Size];int Size;} List;Điều kiện danh sách đầy là:",
+    "options": [
+      "A. Size.List = Max_Size",
+      "B. Size = 0",
+      "C. List.Size = Max_Size",
+      "D. List = Max_Size"
+    ],
+    "correctAnswer": "List.Size = Max_Size",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 2, mục 2.2 Biểu diễn danh sách bằng mảng"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 2",
+    "question": "Trong việc ứng dụng danh sách liên kết để tính toán giá trị của một đa thức 1 ẩn bậc n, để lưu trữ đa thức trong danh sách liên kết thì mỗi nút của danh sách thường có mấy trường:",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 4",
+      "D. 3"
+    ],
+    "correctAnswer": "3",
+    "userAnswerState": "Đúng",
+    "explanation": "Một trường lưu trữ hệ số khác không của các hạng thức, một trường chứa số mũ tương ứng và một trường chứa địa chỉ của nút tiếp theo trong danh sách",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 2, mục 2.3. Danh sách liên kết"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 2",
+    "question": "Một danh sách rỗng khi:",
+    "options": [
+      "A. độ dài của danh sách bằng 1",
+      "B. độ dài của danh sách bằng 0",
+      "C. độ dài của danh sách không xác định",
+      "D. tổng giá trị các phần tử của danh sách bằng 0"
+    ],
+    "correctAnswer": "độ dài của danh sách bằng 0",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 2, mục 2.1.1. Khái niệm danh sách"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 2",
+    "question": "Lựa chọn câu đúng nhất về danh sách liên kết đôi (Doubly Linked List)",
+    "options": [
+      "A. Vùng liên kết của một phần tử trong danh sách liên đôi có 01 mối liên kết với 02 phần tử khác trong danh sách.",
+      "B. Vùng liên kết của một phần tử trong danh sách liên đôi có 02 mối liên kết với phần tử đầu và cuối của danh sách.",
+      "C. Vùng liên kết của một phần tử trong danh sách liên đôi có 02 mối liên kết, 01 với phần tử trước và 01 với phần tử  sau nó trong danh sách.",
+      "D. Vùng liên kết của một phần tử trong danh sách liên đôi có 02 mối liên kết với 01 phần tử khác trong danh sách."
+    ],
+    "correctAnswer": "Vùng liên kết của một phần tử trong danh sách liên đôi có 02 mối liên kết, 01 với phần tử trước và 01 với phần tử  sau nó trong danh sách.",
+    "userAnswerState": "Đúng",
+    "explanation": "Danh sách liên kết đôi, mỗi nút liên kết đến phần tử ngay trước và sau nó.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 2, mục 2.3 Danh sách liên kết."
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 2",
+    "question": "Với cấu trúc dữ liệu như sautypedef struct DNode{int Key;DNode * NextNode;DNode * PreNode;} DOneNode;typedef DOneNode * DPointerType;typedef struct DLLPairNode{DPointerType  DLLFirst;DPointerType  DLLLast;} DLLPType;Hãy cho biết hàm sau dùng để làm gì?void DLLTravelling (DLLPType DList){DPointerType CurrNode = DList.DLLFirst;while (CurrNode != NULL){cout &lt;&lt; CurrNode-&gt;Key;CurrNode =  CurrNode-&gt;NextNode ;}return;}",
+    "options": [
+      "A. Xoá một phần tử khỏi danh sách",
+      "B. Duyệt qua các nút trong danh sách và hiển thị nội dung của mỗi nút",
+      "C. Duyệt danh sách",
+      "D. Thêm một phần tử vào danh sách"
+    ],
+    "correctAnswer": "Duyệt qua các nút trong danh sách và hiển thị nội dung của mỗi nút",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": "Giáo trình CTDL&amp;GT, Bài 2, mục 2.3. Danh sách liên kết"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 2",
+    "question": "Lựa chọn định nghĩa đúng nhất về danh sách?",
+    "options": [
+      "A. Danh sách là tập hợp các phần tử mà giữa chúng có một mối liên hệ nào đó.",
+      "B. Danh sách là tập hợp các phần tử có kiểu dữ liệu xác định và giữa chúng có một mối liên hệ nào đó.",
+      "C. Danh sách là tập hợp các phần tử có cùng giá trị",
+      "D. Danh sách là tập hợp các phần tử có cùng kiểu dữ liệu."
+    ],
+    "correctAnswer": "Danh sách là tập hợp các phần tử có kiểu dữ liệu xác định và giữa chúng có một mối liên hệ nào đó.",
+    "userAnswerState": "Đúng",
+    "explanation": "Theo định nghĩa",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 2, mục 2.1.1. Khái niệm danh sách"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 2",
+    "question": "Cho danh sách L = (1, 8, 9, 2, 4, 0, 6, 7, 5). Thủ tục DSC_L(Pos1; Pos2: position ; var List: ListType) để đưa ra một danh sách con của List bắt đầu từ vị trí Pos1 đến vị trí Pos2 và trả giá trị cho List. Thủ tục Delete_L(Pos: position ; var List: ListType) để xóa một phần tử tại vị trí Pos khỏi danh sách List. Thủ tục Insert_L(Pos: position ; X: Item; var List: ListType) để thêm một phần tử X vào vị trí Pos trong danh sách List.  Khi đó nếu ta thực hiện liên tiếp DSC_L(2,7,L), Delete_L (2,L), Insert_L(2,3,L) thì kết quả sẽ được danh sách L như sau?",
+    "options": [
+      "A. (1, 3, 4, 0, 6, 7)",
+      "B. (8, 3, 9, 4, 0, 6)",
+      "C. (8, 3, 2, 4, 0, 6)",
+      "D. (8, 2, 3, 4, 0, 6)"
+    ],
+    "correctAnswer": "(8, 3, 2, 4, 0, 6)",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 2, mục 2.1 Khái niệm và các thao tác trên danh sách"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 2",
+    "question": "Khi cài đặt danh sách bằng mảng, với độ dài là n thì thao tác chèn một phần tử vào danh sách có độ phức tạp:",
+    "options": [
+      "A. O(n).",
+      "B. O(n.log2(n)).",
+      "C. O(n2).",
+      "D. O(2n)."
+    ],
+    "correctAnswer": "O(n).",
+    "userAnswerState": "Đúng",
+    "explanation": "Chỉ cần thực hiện một vòng lặp. Để thực hiện thao tác chèn vào vị trí thứ p, ta phải dịch chuyển các phần tử từ thứ p đến n của mảng sang vị trí mới lần lượt từ thứ p + 1 đến thứ n + 1, sau đó mới chèn phần tử cần chèn vào vị trí thứ p.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 2, mục 2.2 Biểu diễn danh sách bằng mảng"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 2",
+    "question": "Định nghĩa nào là đúng với danh sách liên kết?",
+    "options": [
+      "A. Danh sách liên kết là cấu trúc dữ liệu tự định nghĩa.",
+      "B. Danh sách liên kết là cấu trúc dữ liệu dạng cây.",
+      "C. Danh sách liên kết là tập hợp các phần tử mà giữa chúng có một sự nối kết với nhau thông qua vùng liên kết của chúng.",
+      "D. Danh sách liên kết là tập hợp các phần tử mà đặt kề cận với nhau trong vùng nhớ."
+    ],
+    "correctAnswer": "Danh sách liên kết là tập hợp các phần tử mà giữa chúng có một sự nối kết với nhau thông qua vùng liên kết của chúng.",
+    "userAnswerState": "Đúng",
+    "explanation": "Theo định nghĩa về danh sách liên kết",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 2, mục 2.3 Danh sách liên kết"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 2",
+    "question": "Cho danh sách L = (1, 5, 3, 2, 4, 0, 6). Thủ tục Delete_L(Pos: position ; var List: ListType) để xóa một phần tử tại vị trí Pos khỏi danh sách List. Khi đó nếu ta thực hiện liên tiếp Delete_L(2,L), Delete_L(4,L) thì kết quả sẽ được danh sách L như sau?",
+    "options": [
+      "A. (1, 3, 4, 0, 6)",
+      "B. (1, 2, 4, 0, 6)",
+      "C. (1, 5, 2, 4, 6)",
+      "D. (1, 3, 2, 0, 6)"
+    ],
+    "correctAnswer": "(1, 3, 2, 0, 6)",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 2, mục 2.1 Khái niệm và các thao tác trên danh sách"
   }
 ]
