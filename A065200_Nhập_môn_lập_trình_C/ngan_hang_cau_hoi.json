@@ -318,5 +318,245 @@
     "userAnswerState": "Đúng",
     "explanation": "Biến a cần được khai báo trước khi sử dụng và:",
     "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Hàm nào dưới đây không được dùng để nhập dữ liệu từ bàn phím?",
+    "options": [
+      "A. gets",
+      "B. getchar",
+      "C. scanf",
+      "D. printf"
+    ],
+    "correctAnswer": "printf",
+    "userAnswerState": "Đúng",
+    "explanation": "Một số hàm thông dụng để nhập dữ liệu từ bàn phím là: scanf(), getchar(), gets()",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi in dữ liệu ra màn hình, để in dữ liệu trong một trang mới bạn sử dụng chuỗi điều khiển nào dưới đây?",
+    "options": [
+      "A. \\n",
+      "B. \\f",
+      "C. \\p",
+      "D. \\b"
+    ],
+    "correctAnswer": "\\f",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Đoạn chương trình sau in ra màn hình thông tin gì?#include &lt;stdio.h&gt;#include&lt;conio.h&gt;void main(){ int x=5; double y=9.8;   printf(“%d    %5.4f”,x,y);   getch();}",
+    "options": [
+      "A. 5   9.80",
+      "B. 5  9.8000",
+      "C. Thông báo lỗi",
+      "D. 5  9.800"
+    ],
+    "correctAnswer": "5  9.8000",
+    "userAnswerState": "Đúng",
+    "explanation": "Định dạng %5.4f quy định phải có 4 chữ số sau dấu.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cho đoạn code sau:khai bao  int m;switch (m){case 1: printf (“so cap ”);case 2: printf (“trung cap ”);default: printf(“cao cap ”);}Với m=2 kết quả xuất ra màn hình sẽ là?",
+    "options": [
+      "A. sơ cấp",
+      "B. trung cấp",
+      "C. trung cấp cao cấp",
+      "D. Cao cấp"
+    ],
+    "correctAnswer": "trung cấp cao cấp",
+    "userAnswerState": "Đúng",
+    "explanation": "giá trị m =2 và không có lệnh break do vậy chương trình sẽ chạy các lệnh tương ứng với m=2 và nhánh default.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cho đoạn code sau:if (biểu thức 1) khối lệnh 1;else if (biểu thức 2) khối lệnh 2;.........else if (biểu thức n-1) khối lệnh n-1;else khối lệnh n;Đối với đoạn code trên thì khẳng định nào sau đây là SAI?",
+    "options": [
+      "A. Nếu n-1 biểu thức đầu đều có giá trị bằng 0 thì khối lệnh n được thực hiện",
+      "B. Khối lệnh n luôn được thực hiện",
+      "C. Chỉ một trong n khối lệnh trên được thực hiện",
+      "D. Nếu biểu thức thứ i là biểu thức đầu tiên khác 0 (i=1,...,n-1) khối lệnh i được thực hiện"
+    ],
+    "correctAnswer": "Khối lệnh n luôn được thực hiện",
+    "userAnswerState": "Đúng",
+    "explanation": "Đoạn code trên chính là cấu trúc của toán tử: if....else if...Đối với toán tử này thì chỉ một trong n khối lệnh được thực hiện, nếu biểu thức đầu tiên khác 0 là i (i&lt;n) khối lệnh i được thực hiện, nếu không thì khối lệnh n được thực hiện. Do đó tất cả các khẳng định đều đúng.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Giá trị của z là bao nhiêu sau khi thực hiện đoạn code sau?int x=3, y, z ;if (x&lt;5) {y=7; z=2;}else z=4;",
+    "options": [
+      "A. 2",
+      "B. Thông báo lỗi",
+      "C. 3",
+      "D. 4"
+    ],
+    "correctAnswer": "2",
+    "userAnswerState": "Đúng",
+    "explanation": "Cấu trúc lệnh điều kiện:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cho đoạn lệnh sau:int x=1;switch (x) {case 0: x = 1;case 1: x = 3;case 2: x+=4;case 3: x = 2;default: x += 2;}Giá trị của x sau khi thực hiện là bao nhiêu?",
+    "options": [
+      "A. 7",
+      "B. 1",
+      "C. 3",
+      "D. 4"
+    ],
+    "correctAnswer": "4",
+    "userAnswerState": "Đúng",
+    "explanation": "Do không có lệnh break nên chương trình chạy qua các trường hợp từ case 1 …default",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cho đoạn lệnh:int n;for (n = 0; n &lt; 25; n++)if (n == 10)continue;elseprintf(\"%d \", n);Đoạn lệnh trên thực hiện tương đương với đoạn lệnh nào sau đây?",
+    "options": [
+      "A. int n = 0;while (n &lt; 25){if (n != 10)printf(\"%d \", n);n++;}",
+      "B. int n = 0;while (n &lt; 25)switch (++n) {case 10: break;default:printf(\"%d \", n);}",
+      "C. int n = 0;L1: if (n &gt;= 25) goto L1;if (n != 10) printf(\"%d \", n);",
+      "D. int n = 0;L1: if (n &gt;= 25) goto L1;"
+    ],
+    "correctAnswer": "int n = 0;while (n &lt; 25){if (n != 10)printf(\"%d \", n);n++;}",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Đoạn chương trình sau in ra màn hình thông tin gì?#include&lt;stdio.h&gt;#include&lt;conio.h&gt;void main(){int i =10;printf(\"%o\",i);getch();}",
+    "options": [
+      "A. 12",
+      "B. 10",
+      "C. 8",
+      "D. 0"
+    ],
+    "correctAnswer": "12",
+    "userAnswerState": "Đúng",
+    "explanation": "printf(\"%o\",i); kí hiệu %o là để in ra màn hình định dạng số bát phân. Đổi 10 ra hệ bát phân: 10=1*8+2, nên10=12 (hệ 8)",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Đoạn code sau có gây ra lỗi gì?int x=3,y,z ;if (x&lt;5)    y=7;    z=2;else z=4;",
+    "options": [
+      "A. Lỗi do sử dụng sai cú pháp lệnh if",
+      "B. Không có lỗi",
+      "C. Lỗi do khai báo biến sai",
+      "D. Lỗi do thiếu dấu chấm phẩy"
+    ],
+    "correctAnswer": "Lỗi do sử dụng sai cú pháp lệnh if",
+    "userAnswerState": "Đúng",
+    "explanation": "if (biểu thức) lệnh_1 else lệnh_2;",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Đoạn chương trình sau có bao nhiêu lỗi ?#include &lt;stdio.h&gt;void main(){int sum;sum=453+343printf(\"Ket qua la \", sum);}",
+    "options": [
+      "A. 4",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "correctAnswer": "1",
+    "userAnswerState": "Sai",
+    "explanation": "Kết thúc câu lệnh trong C phải có dấu chấm phẩy.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Các hàm nhập xuất có định dạng là các hàm nào?",
+    "options": [
+      "A. printf() và scanf()",
+      "B. puts() và gets()",
+      "C. getchar() và putchar()",
+      "D. sqrt()"
+    ],
+    "correctAnswer": "printf() và scanf()",
+    "userAnswerState": "Đúng",
+    "explanation": "Để nhập dữ liệu có định dạng ta dùng hàm scanf(). Để nhập dữ liệu có định dạng ta dùng hàm printf ()",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Kết xuất của đoạn code sau là gì? int x = 35;int y = 45;int z;if (x &gt; y) z = x + y;else z = y – x;printf(“%d %d %d”, x, y, z) ;",
+    "options": [
+      "A. 35 45 –10",
+      "B. 35 45 80",
+      "C. 35 45 0",
+      "D. 35 45 10"
+    ],
+    "correctAnswer": "35 45 10",
+    "userAnswerState": "Đúng",
+    "explanation": "Do x &lt; y nên z = y - x = 45 – 35 =10",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "Chương trình sau có bao nhiêu lỗi lúc biên dịch?#include &lt;stdio.h&gt;#include &lt;conio.h&gt;void main(){    printf(“%c”,“Hello”);   getch();}",
+    "options": [
+      "A. 0",
+      "B. 3",
+      "C. 1",
+      "D. 2"
+    ],
+    "correctAnswer": "0",
+    "userAnswerState": "Đúng",
+    "explanation": "Mẫu hàm printf:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 3",
+    "question": "int n=3, m=4, k=5;if (m*m &gt;n*k &amp;&amp; 2*m+3*n&gt; 4*k)  m=n=k=0;else m=n=k=1;Sau khi thực thi code trên, trị của biến k và n là bao nhiêu?",
+    "options": [
+      "A. k=0 n=0",
+      "B. k=0 n=1",
+      "C. k=1 n=0",
+      "D. k=1 n=1"
+    ],
+    "correctAnswer": "k=1 n=1",
+    "userAnswerState": "Đúng",
+    "explanation": "Biểu thức điều kiện trong bài là: if ( 16&gt;15 &amp;&amp; 17&gt;20). Biểu thức này sẽ cho giá trị false. Do đó k = n = 1;",
+    "reference": ""
   }
 ]

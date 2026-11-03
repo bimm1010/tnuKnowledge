@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Nhập môn lập trình C [A065200]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **20 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **35 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Chọn tên đúng cách theo cú pháp C?
@@ -259,6 +259,201 @@
 - D. Tầm vực của một biến bắt đầu từ dòng lệnh khai báo biến đến hết khối lệnh chứa biến này
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Tầm vực của một biến bắt đầu từ dòng lệnh khai báo biến đến hết khối lệnh chứa biến này`
+
+---
+
+### Câu 21 (Bài luyện tập 3)
+**Hỏi:** Hàm nào dưới đây không được dùng để nhập dữ liệu từ bàn phím?
+
+**Các lựa chọn:**
+- A. gets
+- B. getchar
+- C. scanf
+- D. printf
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `printf`
+
+---
+
+### Câu 22 (Bài luyện tập 3)
+**Hỏi:** Khi in dữ liệu ra màn hình, để in dữ liệu trong một trang mới bạn sử dụng chuỗi điều khiển nào dưới đây?
+
+**Các lựa chọn:**
+- A. \n
+- B. \f
+- C. \p
+- D. \b
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `\f`
+
+---
+
+### Câu 23 (Bài luyện tập 3)
+**Hỏi:** Đoạn chương trình sau in ra màn hình thông tin gì?#include &lt;stdio.h&gt;#include&lt;conio.h&gt;void main(){ int x=5; double y=9.8;   printf(“%d    %5.4f”,x,y);   getch();}
+
+**Các lựa chọn:**
+- A. 5   9.80
+- B. 5  9.8000
+- C. Thông báo lỗi
+- D. 5  9.800
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `5  9.8000`
+
+---
+
+### Câu 24 (Bài luyện tập 3)
+**Hỏi:** Cho đoạn code sau:khai bao  int m;switch (m){case 1: printf (“so cap ”);case 2: printf (“trung cap ”);default: printf(“cao cap ”);}Với m=2 kết quả xuất ra màn hình sẽ là?
+
+**Các lựa chọn:**
+- A. sơ cấp
+- B. trung cấp
+- C. trung cấp cao cấp
+- D. Cao cấp
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `trung cấp cao cấp`
+
+---
+
+### Câu 25 (Bài luyện tập 3)
+**Hỏi:** Cho đoạn code sau:if (biểu thức 1) khối lệnh 1;else if (biểu thức 2) khối lệnh 2;.........else if (biểu thức n-1) khối lệnh n-1;else khối lệnh n;Đối với đoạn code trên thì khẳng định nào sau đây là SAI?
+
+**Các lựa chọn:**
+- A. Nếu n-1 biểu thức đầu đều có giá trị bằng 0 thì khối lệnh n được thực hiện
+- B. Khối lệnh n luôn được thực hiện
+- C. Chỉ một trong n khối lệnh trên được thực hiện
+- D. Nếu biểu thức thứ i là biểu thức đầu tiên khác 0 (i=1,...,n-1) khối lệnh i được thực hiện
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Khối lệnh n luôn được thực hiện`
+
+---
+
+### Câu 26 (Bài luyện tập 3)
+**Hỏi:** Giá trị của z là bao nhiêu sau khi thực hiện đoạn code sau?int x=3, y, z ;if (x&lt;5) {y=7; z=2;}else z=4;
+
+**Các lựa chọn:**
+- A. 2
+- B. Thông báo lỗi
+- C. 3
+- D. 4
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `2`
+
+---
+
+### Câu 27 (Bài luyện tập 3)
+**Hỏi:** Cho đoạn lệnh sau:int x=1;switch (x) {case 0: x = 1;case 1: x = 3;case 2: x+=4;case 3: x = 2;default: x += 2;}Giá trị của x sau khi thực hiện là bao nhiêu?
+
+**Các lựa chọn:**
+- A. 7
+- B. 1
+- C. 3
+- D. 4
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `4`
+
+---
+
+### Câu 28 (Bài luyện tập 3)
+**Hỏi:** Cho đoạn lệnh:int n;for (n = 0; n &lt; 25; n++)if (n == 10)continue;elseprintf("%d ", n);Đoạn lệnh trên thực hiện tương đương với đoạn lệnh nào sau đây?
+
+**Các lựa chọn:**
+- A. int n = 0;while (n &lt; 25){if (n != 10)printf("%d ", n);n++;}
+- B. int n = 0;while (n &lt; 25)switch (++n) {case 10: break;default:printf("%d ", n);}
+- C. int n = 0;L1: if (n &gt;= 25) goto L1;if (n != 10) printf("%d ", n);
+- D. int n = 0;L1: if (n &gt;= 25) goto L1;
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `int n = 0;while (n &lt; 25){if (n != 10)printf("%d ", n);n++;}`
+
+---
+
+### Câu 29 (Bài luyện tập 3)
+**Hỏi:** Đoạn chương trình sau in ra màn hình thông tin gì?#include&lt;stdio.h&gt;#include&lt;conio.h&gt;void main(){int i =10;printf("%o",i);getch();}
+
+**Các lựa chọn:**
+- A. 12
+- B. 10
+- C. 8
+- D. 0
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `12`
+
+---
+
+### Câu 30 (Bài luyện tập 3)
+**Hỏi:** Đoạn code sau có gây ra lỗi gì?int x=3,y,z ;if (x&lt;5)    y=7;    z=2;else z=4;
+
+**Các lựa chọn:**
+- A. Lỗi do sử dụng sai cú pháp lệnh if
+- B. Không có lỗi
+- C. Lỗi do khai báo biến sai
+- D. Lỗi do thiếu dấu chấm phẩy
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Lỗi do sử dụng sai cú pháp lệnh if`
+
+---
+
+### Câu 31 (Bài luyện tập 3)
+**Hỏi:** Đoạn chương trình sau có bao nhiêu lỗi ?#include &lt;stdio.h&gt;void main(){int sum;sum=453+343printf("Ket qua la ", sum);}
+
+**Các lựa chọn:**
+- A. 4
+- B. 1
+- C. 2
+- D. 3
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `1`
+
+---
+
+### Câu 32 (Bài luyện tập 3)
+**Hỏi:** Các hàm nhập xuất có định dạng là các hàm nào?
+
+**Các lựa chọn:**
+- A. printf() và scanf()
+- B. puts() và gets()
+- C. getchar() và putchar()
+- D. sqrt()
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `printf() và scanf()`
+
+---
+
+### Câu 33 (Bài luyện tập 3)
+**Hỏi:** Kết xuất của đoạn code sau là gì? int x = 35;int y = 45;int z;if (x &gt; y) z = x + y;else z = y – x;printf(“%d %d %d”, x, y, z) ;
+
+**Các lựa chọn:**
+- A. 35 45 –10
+- B. 35 45 80
+- C. 35 45 0
+- D. 35 45 10
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `35 45 10`
+
+---
+
+### Câu 34 (Bài luyện tập 3)
+**Hỏi:** Chương trình sau có bao nhiêu lỗi lúc biên dịch?#include &lt;stdio.h&gt;#include &lt;conio.h&gt;void main(){    printf(“%c”,“Hello”);   getch();}
+
+**Các lựa chọn:**
+- A. 0
+- B. 3
+- C. 1
+- D. 2
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `0`
+
+---
+
+### Câu 35 (Bài luyện tập 3)
+**Hỏi:** int n=3, m=4, k=5;if (m*m &gt;n*k &amp;&amp; 2*m+3*n&gt; 4*k)  m=n=k=0;else m=n=k=1;Sau khi thực thi code trên, trị của biến k và n là bao nhiêu?
+
+**Các lựa chọn:**
+- A. k=0 n=0
+- B. k=0 n=1
+- C. k=1 n=0
+- D. k=1 n=1
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `k=1 n=1`
 
 ---
 
