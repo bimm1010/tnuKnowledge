@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Cấu trúc Dữ liệu và Giải thuật [A050900]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **20 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **30 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Yêu cầu khi chọn kiểu dữ liệu cho chương trình là?
@@ -259,6 +259,136 @@
 - D. (1, 3, 2, 0, 6)
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `(1, 3, 2, 0, 6)`
+
+---
+
+### Câu 21 (Bài luyện tập 3)
+**Hỏi:** Cho biểu thức số học dạng Balan như sau: 1 2 3 4 *- + 5 6 4 8 – – + *. Việc tính toán giá trị biểu thức này khi dùng Stack được cài đặt bằng mảng thì phần tử được đẩy vào Stack lần thứ 8 có giá trị là bao nhiêu?
+
+**Các lựa chọn:**
+- A. 7
+- B. 6
+- C. 5
+- D. 8
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `5`
+
+---
+
+### Câu 22 (Bài luyện tập 3)
+**Hỏi:** Trong việc cài đặt ngăn xếp bằng mảng A[…], ta sử dụng một biến top_id để lưu giữ đỉnh của ngăn xếp, nếu hiện tại ngăn xếp chưa có phần tử thì giá trị của top_id là bao nhiêu?
+
+**Các lựa chọn:**
+- A. 0
+- B. -1
+- C. n-1
+- D. n
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `-1`
+
+---
+
+### Câu 23 (Bài luyện tập 3)
+**Hỏi:** Cho biểu thức số học dạng Balan như sau: 1 2 3 4 *- + 5 6 4 8 – – + *. Việc tính toán giá trị biểu thức này khi dùng Stack được cài đặt bằng mảng thì số phần tử tối thiểu của mảng phải là bao nhiêu?
+
+**Các lựa chọn:**
+- A. 5
+- B. 7
+- C. 8
+- D. 6
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `5`
+
+---
+
+### Câu 24 (Bài luyện tập 3)
+**Hỏi:** Việc cài đặt ngăn xếp bằng mảng được thực hiện qua khai báo dưới đây:#define max Ntypedef  int ElementType;struct Stack{int Top_id;ElementType Element[max];};Stack S; Ý nghĩa đúng nhất của S là:
+
+**Các lựa chọn:**
+- A. Chứa các phần tử của Stack
+- B. Kiểu dữ liệu của các phần tử trong Stack
+- C. Tên của Stack
+- D. Độ lớn cực đại của Stack
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Tên của Stack`
+
+---
+
+### Câu 25 (Bài luyện tập 3)
+**Hỏi:** Việc cài đặt ngăn xếp bằng mảng được thực hiện qua khai báo dưới đây:#define max Ntypedef  int ElementType;struct Stack{int Top_id;ElementType Element[max];};Stack S; Ý nghĩa đúng nhất của ElementType là:
+
+**Các lựa chọn:**
+- A. Số phần tử hiện thời của Stack
+- B. Vị trí đỉnh hiện tại của Stack
+- C. Chứa các phần tử của Stack
+- D. Kiểu dữ liệu của các phần tử trong Stack
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Kiểu dữ liệu của các phần tử trong Stack`
+
+---
+
+### Câu 26 (Bài luyện tập 3)
+**Hỏi:** Cho biểu thức số học dạng Balan như sau: abc +* de /- với các giá trị a=1; b=2; c=3; d=8; e=4; thì giá trị của biểu thức là:
+
+**Các lựa chọn:**
+- A. 2
+- B. 3
+- C. 4
+- D. 1
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `3`
+
+---
+
+### Câu 27 (Bài luyện tập 3)
+**Hỏi:** Trong việc cài đặt ngăn xếp bằng mảng A[…], nếu hiện tại ngăn xếp có n phần tử thì phần tử mới nhất vừa được đưa vào ngăn xếp vị trí nào trong mảng?
+
+**Các lựa chọn:**
+- A. A[0]
+- B. A[n-1]
+- C. A[1]
+- D. A[n]
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `A[n-1]`
+
+---
+
+### Câu 28 (Bài luyện tập 3)
+**Hỏi:** Khi dùng Stack được cài đặt bằng mảng để đổi số tự nhiên N = 70 (hệ cơ số 10) sang hệ nhị phân thì số phần tử tối thiểu của mảng phải là bao nhiêu?
+
+**Các lựa chọn:**
+- A. 5
+- B. 7
+- C. 6
+- D. 4
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `7`
+
+---
+
+### Câu 29 (Bài luyện tập 3)
+**Hỏi:** Cấu trúc dữ liệu nào tương ứng với nguyên lý LIFO.
+
+**Các lựa chọn:**
+- A. Stack
+- B. Linked List
+- C. Tree
+- D. Queue
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Stack`
+
+---
+
+### Câu 30 (Bài luyện tập 3)
+**Hỏi:** Cho biểu thức số học dạng thông thường: a * (b + c) - d/eĐâu là biểu diễn biểu thức này dưới dạng biểu thức Balan?
+
+**Các lựa chọn:**
+- A. abc + * de /-
+- B. ab * c + de /-
+- C. abc +* de -/
+- D. abc *+ de /-
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `abc + * de /-`
 
 ---
 

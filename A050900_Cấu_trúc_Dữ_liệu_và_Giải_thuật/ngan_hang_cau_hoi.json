@@ -318,5 +318,165 @@
     "userAnswerState": "Đúng",
     "explanation": "",
     "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 2, mục 2.1 Khái niệm và các thao tác trên danh sách"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cho biểu thức số học dạng Balan như sau: 1 2 3 4 *- + 5 6 4 8 – – + *. Việc tính toán giá trị biểu thức này khi dùng Stack được cài đặt bằng mảng thì phần tử được đẩy vào Stack lần thứ 8 có giá trị là bao nhiêu?",
+    "options": [
+      "A. 7",
+      "B. 6",
+      "C. 5",
+      "D. 8"
+    ],
+    "correctAnswer": "5",
+    "userAnswerState": "Đúng",
+    "explanation": "Với biểu thức Balan:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 3",
+    "question": "Trong việc cài đặt ngăn xếp bằng mảng A[…], ta sử dụng một biến top_id để lưu giữ đỉnh của ngăn xếp, nếu hiện tại ngăn xếp chưa có phần tử thì giá trị của top_id là bao nhiêu?",
+    "options": [
+      "A. 0",
+      "B. -1",
+      "C. n-1",
+      "D. n"
+    ],
+    "correctAnswer": "-1",
+    "userAnswerState": "Đúng",
+    "explanation": "Khi đó, theo quy ước ngăn xếp chưa có phần tử nào (ngăn xếp rỗng) thì top_id = -1",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 3, mục 3.3.1. Cài đặt ngăn xếp bằng mảng"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cho biểu thức số học dạng Balan như sau: 1 2 3 4 *- + 5 6 4 8 – – + *. Việc tính toán giá trị biểu thức này khi dùng Stack được cài đặt bằng mảng thì số phần tử tối thiểu của mảng phải là bao nhiêu?",
+    "options": [
+      "A. 5",
+      "B. 7",
+      "C. 8",
+      "D. 6"
+    ],
+    "correctAnswer": "5",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 3",
+    "question": "Việc cài đặt ngăn xếp bằng mảng được thực hiện qua khai báo dưới đây:#define max Ntypedef  int ElementType;struct Stack{int Top_id;ElementType Element[max];};Stack S; Ý nghĩa đúng nhất của S là:",
+    "options": [
+      "A. Chứa các phần tử của Stack",
+      "B. Kiểu dữ liệu của các phần tử trong Stack",
+      "C. Tên của Stack",
+      "D. Độ lớn cực đại của Stack"
+    ],
+    "correctAnswer": "Tên của Stack",
+    "userAnswerState": "Đúng",
+    "explanation": "khai báo biến S có kiểu Stack",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 3, mục 3.4. Ứng dụng của ngăn xếp."
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 3",
+    "question": "Việc cài đặt ngăn xếp bằng mảng được thực hiện qua khai báo dưới đây:#define max Ntypedef  int ElementType;struct Stack{int Top_id;ElementType Element[max];};Stack S; Ý nghĩa đúng nhất của ElementType là:",
+    "options": [
+      "A. Số phần tử hiện thời của Stack",
+      "B. Vị trí đỉnh hiện tại của Stack",
+      "C. Chứa các phần tử của Stack",
+      "D. Kiểu dữ liệu của các phần tử trong Stack"
+    ],
+    "correctAnswer": "Kiểu dữ liệu của các phần tử trong Stack",
+    "userAnswerState": "Đúng",
+    "explanation": "Cài đặt ngăn xếp bằng mảng: top_id: biến số nguyên để lưu giữ đỉnh hiện tại của ngăn xếp.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 3, mục 3.4. Ứng dụng của ngăn xếp"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cho biểu thức số học dạng Balan như sau: abc +* de /- với các giá trị a=1; b=2; c=3; d=8; e=4; thì giá trị của biểu thức là:",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 1"
+    ],
+    "correctAnswer": "3",
+    "userAnswerState": "Đúng",
+    "explanation": "Việc tính giá trị của biểu thức ở dạng biểu thức Ba Lan được thực hiện: biểu thức được đọc từ trái sang phải cho đến khi tìm được một toán tử. Tại thời điểm đó, hai toán hạng cuối cùng được đọc kết hợp với toán tử này.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 3, mục 3.4,"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 3",
+    "question": "Trong việc cài đặt ngăn xếp bằng mảng A[…], nếu hiện tại ngăn xếp có n phần tử thì phần tử mới nhất vừa được đưa vào ngăn xếp vị trí nào trong mảng?",
+    "options": [
+      "A. A[0]",
+      "B. A[n-1]",
+      "C. A[1]",
+      "D. A[n]"
+    ],
+    "correctAnswer": "A[n-1]",
+    "userAnswerState": "Đúng",
+    "explanation": "Khi sử dụng mảng 1 chiều A[] để biểu diễn ngăn xếp thì phần tử đầu tiên A[0] của mảng A[] là đáy ngăn xếp. Do đó, phần tử mới nhất vừa được đưa vào ngăn xếp sẽ có vị trí A[n-1] trong mảng A[] đã có n phần tử.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 3, mục 3.3.1. Cài đặt ngăn xếp bằng mảng"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi dùng Stack được cài đặt bằng mảng để đổi số tự nhiên N = 70 (hệ cơ số 10) sang hệ nhị phân thì số phần tử tối thiểu của mảng phải là bao nhiêu?",
+    "options": [
+      "A. 5",
+      "B. 7",
+      "C. 6",
+      "D. 4"
+    ],
+    "correctAnswer": "7",
+    "userAnswerState": "Đúng",
+    "explanation": "(70)10 = (1000110)2 có 7 phân tử dạng nhị phân, số phần tử tối thiểu của mảng phải là 7.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 3, mục 3.4,"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cấu trúc dữ liệu nào tương ứng với nguyên lý LIFO.",
+    "options": [
+      "A. Stack",
+      "B. Linked List",
+      "C. Tree",
+      "D. Queue"
+    ],
+    "correctAnswer": "Stack",
+    "userAnswerState": "Đúng",
+    "explanation": "Stack (ngăn xếp) là một dạng đặc biệt của danh sách mà việc bổ sung hay loại bỏ một phần tử đều được thực hiện ở một đầu của danh sách gọi là đỉnh. Nói cách khác, ngăn xếp là một cấu trúc dữ liệu có 2 thao tác cơ bản: bổ sung (push) và loại bỏ (pop), trong đó việc loại bỏ sẽ tiến hành loại phần tử mới nhất được đưa vào danh sách. Chính vì tính chất này mà ngăn xếp còn được gọi là kiểu dữ liệu có nguyên tắc LIFO (last in first out – vào sau ra trước).",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 3, mục 3.1.Khái niệm ngăn xếp"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cho biểu thức số học dạng thông thường: a * (b + c) - d/eĐâu là biểu diễn biểu thức này dưới dạng biểu thức Balan?",
+    "options": [
+      "A. abc + * de /-",
+      "B. ab * c + de /-",
+      "C. abc +* de -/",
+      "D. abc *+ de /-"
+    ],
+    "correctAnswer": "abc + * de /-",
+    "userAnswerState": "Đúng",
+    "explanation": "Biểu diễn biểu thức số học dạng thông thường sang dạng biểu thức Balan là không cần dùng đến các dấu ngoặc và luôn thực hiện từ trái sang phải.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 3, mục 3.4, Ứng dụng của ngăn xếp"
   }
 ]
