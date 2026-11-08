@@ -3839,5 +3839,245 @@
     "userAnswerState": "Đúng",
     "explanation": "Sau mỗi vòng lặp giá trị của j sẽ tăng lên 1. Khi j=20 vòng lặp sẽ kết thúc.",
     "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Giải thuật lập lịch quay vòng (round robin) thực chất là phiên bản cải tiến của thuật toán nào?",
+    "options": [
+      "A. SRT (Shortest rest time).",
+      "B. HRRN (Highest Response Ratio Next).",
+      "C. FIFO.",
+      "D. SJF (shortest job first)."
+    ],
+    "correctAnswer": "FIFO.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Thành phần nào của hệ điều hành làm nhiệm vụ lựa chọn một tiến trình trong danh sách sẵn sàng và cấp CPU cho tiến trình đó?",
+    "options": [
+      "A. Khối quản lý tài nguyên.",
+      "B. Bộ điều phối (Dispatcher).",
+      "C. Khối quản lý tiến trình.",
+      "D. Bộ quản lý số học và logic."
+    ],
+    "correctAnswer": "Bộ điều phối (Dispatcher).",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Thuật toán nào sau đây là thuật toán có thể lập lịch theo nguyên tắc không độc quyền?",
+    "options": [
+      "A. RR (Round Robin).",
+      "B. HRRN (Hightest Response Ratio Next).",
+      "C. SJF.",
+      "D. FIFO."
+    ],
+    "correctAnswer": "RR (Round Robin).",
+    "userAnswerState": "Sai",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Độ ưu tiên của các tiến trình cho biết:",
+    "options": [
+      "A. Process chiếm nhiều hay ít vùng nhớ",
+      "B. Tầm quan trọng của process",
+      "C. Process sử dụng CPU nhiều hay ít",
+      "D. Trạng thái của process"
+    ],
+    "correctAnswer": "Tầm quan trọng của process",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cho thuật toán điều phối FIFO, với bảng sau (đơn vị giây):\nTiến trình\nThời điểm vào RL\nThời gian xử lý\nP1\n0\n24\nP2\n1\n3\nP3\n2\n3Thời gian chờ trung bình của tất cả các tiến trình là bao nhiêu?",
+    "options": [
+      "A. 27s",
+      "B. 30s",
+      "C. 16s",
+      "D. 24s"
+    ],
+    "correctAnswer": "16s",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Hàng đợi dành cho các process xếp hàng chờ nhập xuất được gọi là gì?",
+    "options": [
+      "A. Busy-waiting buffer.",
+      "B. Ready queue.",
+      "C. Job list.",
+      "D. Waiting queue."
+    ],
+    "correctAnswer": "Waiting queue.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Nhiệm vụ chính của bộ lập lịch trong HĐH là gì?",
+    "options": [
+      "A. Phân phối thời gian sử dụng CPU cho các quá trình.",
+      "B. Theo dõi hoạt động CPU.",
+      "C. Tình thời gian sử dụng CPU của các quá trình.",
+      "D. Kiểm soát việc sử dụng CPU của các quá trình."
+    ],
+    "correctAnswer": "Phân phối thời gian sử dụng CPU cho các quá trình.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Thời gian chờ (waiting time) của một quá trình được tính như thế nào?",
+    "options": [
+      "A. Trung bình các khoảng thời gian quá trình chờ đợi được cấp lại CPU (khoảng thời gian từ khi quá trình truất quyền CPU đến khi nó được cấp trở lại).",
+      "B. Lượng thời gian quá trình chờ trong hàng đợi sẵn sàng.",
+      "C. Lượng thời gian quá trình chờ trong hàng chờ công viêc.",
+      "D. Lượng thời gian quá trình chờ đợi trong hàng chờ thiết bị."
+    ],
+    "correctAnswer": "Lượng thời gian quá trình chờ trong hàng đợi sẵn sàng.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cho thuật toán điều phối Round bin, quantum là 4 với bảng sau: tính theo second (s)Thời gian chờ của tất cả các tiến trình là bao nhiêu?",
+    "options": [
+      "A. 25s",
+      "B. 14s",
+      "C. 30s",
+      "D. 24s"
+    ],
+    "correctAnswer": "14s",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Số tiến trình được hoàn thành trong một đơn vị thời gian được gọi là gì?",
+    "options": [
+      "A. Thông lượng.",
+      "B. Hiệu quả.",
+      "C. Đầu ra.",
+      "D. Dung lượng."
+    ],
+    "correctAnswer": "Thông lượng.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Cần đọc các khối sau: 98,183,37,122,14,124,65,67 Giả sử đầu đọc tại vị trí 53, và dùng thuật toán lập lịch FIFO.Hỏi thứ tự đầu đọc sẽ lần lượt qua các khối như thế nào?",
+    "options": [
+      "A. 53, 65, 67, 98, 122, 124, 183,37,14",
+      "B. 53, 98, 183, 37, 122, 14, 124, 65, 67",
+      "C. 53, 14, 37, 65, 67, 98, 122, 124, 183",
+      "D. 53, 37, 14, 65, 67, 98, 122, 124, 183"
+    ],
+    "correctAnswer": "53, 98, 183, 37, 122, 14, 124, 65, 67",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Hệ điều hành sử dụng các thành phần nào sau đây để chọn một tiến trình trong danh sách sẵn sàng và cấp CPU cho tiến trình đó?",
+    "options": [
+      "A. Bộ quản lý số học và logic.",
+      "B. Bộ điều phối.",
+      "C. Khối quản lý tài nguyên.",
+      "D. Khối quản lý tiến trình."
+    ],
+    "correctAnswer": "Bộ điều phối.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Tiêu chí nào sau đây KHÔNG PHẢI là tiêu chuẩn để đánh giá giải thuật lập lịch?",
+    "options": [
+      "A. CPU nhàn rỗi nhất",
+      "B. Thông lượng: số tiến trình được hoàn thành trong một đơn vị thời gian.",
+      "C. Độ lợi CPU: giữ cho CPU bận nhiều nhất.",
+      "D. Thời gian chờ: tổng thời gian từ khi ở trạng thái sẵn sàng đến khi được thực thi."
+    ],
+    "correctAnswer": "CPU nhàn rỗi nhất",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Khi một tiến trình được tạo ra mà bộ nhớ chưa đủ chỗ nó sẽ được chèn vào danh sách nào?",
+    "options": [
+      "A. Danh sách tiến trình đang chạy (Running list).",
+      "B. Danh sách chờ (waiting list).",
+      "C. Danh sách sẵn sàng (Ready list).",
+      "D. Danh sách tác vụ (Job list)."
+    ],
+    "correctAnswer": "Danh sách tác vụ (Job list).",
+    "userAnswerState": "Đúng",
+    "explanation": "Khi một tiến trình được tạo thì  PCB (process control block)",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 3",
+    "question": "Trong toàn bộ hệ thống, hệ điều hành sử dụng bao nhiêu danh sách sẵn sàng?",
+    "options": [
+      "A. Một danh sách cho mỗi tài nguyên (thiết bị ngoại vi)",
+      "B. Một danh sách.",
+      "C. Hai danh sách.",
+      "D. Một danh sách cho mỗi tiến trình."
+    ],
+    "correctAnswer": "Một danh sách.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
   }
 ]
