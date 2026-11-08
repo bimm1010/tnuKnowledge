@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Nhập môn hệ điều hành [A065000]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **30 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **45 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Khẳng định nào sau đây là SAI?
@@ -389,6 +389,213 @@
 - D. Thay đổi độ ưu tiên.
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Sửa.`
+
+---
+
+### Câu 31 (Bài luyện tập 3)
+**Hỏi:** Giải thuật lập lịch quay vòng (round robin) thực chất là phiên bản cải tiến của thuật toán nào?
+
+**Các lựa chọn:**
+- A. SRT (Shortest rest time).
+- B. HRRN (Highest Response Ratio Next).
+- C. FIFO.
+- D. SJF (shortest job first).
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `FIFO.`
+
+---
+
+### Câu 32 (Bài luyện tập 3)
+**Hỏi:** Thành phần nào của hệ điều hành làm nhiệm vụ lựa chọn một tiến trình trong danh sách sẵn sàng và cấp CPU cho tiến trình đó?
+
+**Các lựa chọn:**
+- A. Khối quản lý tài nguyên.
+- B. Bộ điều phối (Dispatcher).
+- C. Khối quản lý tiến trình.
+- D. Bộ quản lý số học và logic.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Bộ điều phối (Dispatcher).`
+
+---
+
+### Câu 33 (Bài luyện tập 3)
+**Hỏi:** Thuật toán nào sau đây là thuật toán có thể lập lịch theo nguyên tắc không độc quyền?
+
+**Các lựa chọn:**
+- A. RR (Round Robin).
+- B. HRRN (Hightest Response Ratio Next).
+- C. SJF.
+- D. FIFO.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `RR (Round Robin).`
+
+---
+
+### Câu 34 (Bài luyện tập 3)
+**Hỏi:** Độ ưu tiên của các tiến trình cho biết:
+
+**Các lựa chọn:**
+- A. Process chiếm nhiều hay ít vùng nhớ
+- B. Tầm quan trọng của process
+- C. Process sử dụng CPU nhiều hay ít
+- D. Trạng thái của process
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Tầm quan trọng của process`
+
+---
+
+### Câu 35 (Bài luyện tập 3)
+**Hỏi:** Cho thuật toán điều phối FIFO, với bảng sau (đơn vị giây):
+Tiến trình
+Thời điểm vào RL
+Thời gian xử lý
+P1
+0
+24
+P2
+1
+3
+P3
+2
+3Thời gian chờ trung bình của tất cả các tiến trình là bao nhiêu?
+
+**Các lựa chọn:**
+- A. 27s
+- B. 30s
+- C. 16s
+- D. 24s
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `16s`
+
+---
+
+### Câu 36 (Bài luyện tập 3)
+**Hỏi:** Hàng đợi dành cho các process xếp hàng chờ nhập xuất được gọi là gì?
+
+**Các lựa chọn:**
+- A. Busy-waiting buffer.
+- B. Ready queue.
+- C. Job list.
+- D. Waiting queue.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Waiting queue.`
+
+---
+
+### Câu 37 (Bài luyện tập 3)
+**Hỏi:** Nhiệm vụ chính của bộ lập lịch trong HĐH là gì?
+
+**Các lựa chọn:**
+- A. Phân phối thời gian sử dụng CPU cho các quá trình.
+- B. Theo dõi hoạt động CPU.
+- C. Tình thời gian sử dụng CPU của các quá trình.
+- D. Kiểm soát việc sử dụng CPU của các quá trình.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Phân phối thời gian sử dụng CPU cho các quá trình.`
+
+---
+
+### Câu 38 (Bài luyện tập 3)
+**Hỏi:** Thời gian chờ (waiting time) của một quá trình được tính như thế nào?
+
+**Các lựa chọn:**
+- A. Trung bình các khoảng thời gian quá trình chờ đợi được cấp lại CPU (khoảng thời gian từ khi quá trình truất quyền CPU đến khi nó được cấp trở lại).
+- B. Lượng thời gian quá trình chờ trong hàng đợi sẵn sàng.
+- C. Lượng thời gian quá trình chờ trong hàng chờ công viêc.
+- D. Lượng thời gian quá trình chờ đợi trong hàng chờ thiết bị.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Lượng thời gian quá trình chờ trong hàng đợi sẵn sàng.`
+
+---
+
+### Câu 39 (Bài luyện tập 3)
+**Hỏi:** Cho thuật toán điều phối Round bin, quantum là 4 với bảng sau: tính theo second (s)Thời gian chờ của tất cả các tiến trình là bao nhiêu?
+
+**Các lựa chọn:**
+- A. 25s
+- B. 14s
+- C. 30s
+- D. 24s
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `14s`
+
+---
+
+### Câu 40 (Bài luyện tập 3)
+**Hỏi:** Số tiến trình được hoàn thành trong một đơn vị thời gian được gọi là gì?
+
+**Các lựa chọn:**
+- A. Thông lượng.
+- B. Hiệu quả.
+- C. Đầu ra.
+- D. Dung lượng.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Thông lượng.`
+
+---
+
+### Câu 41 (Bài luyện tập 3)
+**Hỏi:** Cần đọc các khối sau: 98,183,37,122,14,124,65,67 Giả sử đầu đọc tại vị trí 53, và dùng thuật toán lập lịch FIFO.Hỏi thứ tự đầu đọc sẽ lần lượt qua các khối như thế nào?
+
+**Các lựa chọn:**
+- A. 53, 65, 67, 98, 122, 124, 183,37,14
+- B. 53, 98, 183, 37, 122, 14, 124, 65, 67
+- C. 53, 14, 37, 65, 67, 98, 122, 124, 183
+- D. 53, 37, 14, 65, 67, 98, 122, 124, 183
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `53, 98, 183, 37, 122, 14, 124, 65, 67`
+
+---
+
+### Câu 42 (Bài luyện tập 3)
+**Hỏi:** Hệ điều hành sử dụng các thành phần nào sau đây để chọn một tiến trình trong danh sách sẵn sàng và cấp CPU cho tiến trình đó?
+
+**Các lựa chọn:**
+- A. Bộ quản lý số học và logic.
+- B. Bộ điều phối.
+- C. Khối quản lý tài nguyên.
+- D. Khối quản lý tiến trình.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Bộ điều phối.`
+
+---
+
+### Câu 43 (Bài luyện tập 3)
+**Hỏi:** Tiêu chí nào sau đây KHÔNG PHẢI là tiêu chuẩn để đánh giá giải thuật lập lịch?
+
+**Các lựa chọn:**
+- A. CPU nhàn rỗi nhất
+- B. Thông lượng: số tiến trình được hoàn thành trong một đơn vị thời gian.
+- C. Độ lợi CPU: giữ cho CPU bận nhiều nhất.
+- D. Thời gian chờ: tổng thời gian từ khi ở trạng thái sẵn sàng đến khi được thực thi.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `CPU nhàn rỗi nhất`
+
+---
+
+### Câu 44 (Bài luyện tập 3)
+**Hỏi:** Khi một tiến trình được tạo ra mà bộ nhớ chưa đủ chỗ nó sẽ được chèn vào danh sách nào?
+
+**Các lựa chọn:**
+- A. Danh sách tiến trình đang chạy (Running list).
+- B. Danh sách chờ (waiting list).
+- C. Danh sách sẵn sàng (Ready list).
+- D. Danh sách tác vụ (Job list).
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Danh sách tác vụ (Job list).`
+
+---
+
+### Câu 45 (Bài luyện tập 3)
+**Hỏi:** Trong toàn bộ hệ thống, hệ điều hành sử dụng bao nhiêu danh sách sẵn sàng?
+
+**Các lựa chọn:**
+- A. Một danh sách cho mỗi tài nguyên (thiết bị ngoại vi)
+- B. Một danh sách.
+- C. Hai danh sách.
+- D. Một danh sách cho mỗi tiến trình.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Một danh sách.`
 
 ---
 
