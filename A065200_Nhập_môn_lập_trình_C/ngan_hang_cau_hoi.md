@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Nhập môn lập trình C [A065200]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **35 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **45 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Chọn tên đúng cách theo cú pháp C?
@@ -454,6 +454,136 @@
 - D. k=1 n=1
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `k=1 n=1`
+
+---
+
+### Câu 36 (Bài luyện tập 4)
+**Hỏi:** Loại vòng lặp nào trong những loại sau đây được thực hiện ít nhất 1 lần?
+
+**Các lựa chọn:**
+- A. do…while
+- B. while
+- C. Cả hai vòng lặp for và while
+- D. for
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `do…while`
+
+---
+
+### Câu 37 (Bài luyện tập 4)
+**Hỏi:** Nếu code sau được thực thi, số chuỗi “Love” được xuất là bao nhiêu lần?int x=10, y=20;while (x&lt;y){  printf (“Love\n”);   x+=3;}
+
+**Các lựa chọn:**
+- A. 6
+- B. 2
+- C. 4
+- D. 5
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `4`
+
+---
+
+### Câu 38 (Bài luyện tập 4)
+**Hỏi:** Nếu đoạn code sau được thực thi, trị của biến S sẽ là bao nhiêu?int i= 1, S=1;while (i&lt;=20){    S+= 2*i+2;      i+=4;}
+
+**Các lựa chọn:**
+- A. 101
+- B. 100
+- C. 99
+- D. Thông báo lỗi
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `101`
+
+---
+
+### Câu 39 (Bài luyện tập 4)
+**Hỏi:** Ý nghĩa của đoạn mã sau đây là gì? for (;;);
+
+**Các lựa chọn:**
+- A. Tạo vòng lặp với số lần lặp là 0
+- B. Đoạn mã tạo vòng lặp hữu hạn với số lần lặp cố định là 256.
+- C. Đoạn mã này sai cú pháp
+- D. Tạo vòng lặp vô hạn
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Tạo vòng lặp vô hạn`
+
+---
+
+### Câu 40 (Bài luyện tập 4)
+**Hỏi:** Nếu đoạn code sau được thực thi, trị của biến S sẽ là bao nhiêu?int S= 100;for (int i= 10; i&gt;0; i  -= 3)    S - = i + i%2;
+
+**Các lựa chọn:**
+- A. 86
+- B. 76
+- C. 106
+- D. 96
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `76`
+
+---
+
+### Câu 41 (Bài luyện tập 4)
+**Hỏi:** Nếu đoạn code sau được thực thi, trị của biến S sẽ là bao nhiêu?int i=3, j=10, S=0;while (2*i+j&lt;100){ S += i+j;   i += 5;   j += 7;}
+
+**Các lựa chọn:**
+- A. 155
+- B. 165
+- C. 175
+- D. 185
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `185`
+
+---
+
+### Câu 42 (Bài luyện tập 4)
+**Hỏi:** Đoạn mã sau in ra màn hình thông tin gì?int x = 100;do { --x; } while (x &gt; 50);printf("x=%d\n", x);
+
+**Các lựa chọn:**
+- A. x=50
+- B. x=49
+- C. x=51
+- D. Không kết xuất vì vòng lặp vô hạn
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `x=50`
+
+---
+
+### Câu 43 (Bài luyện tập 4)
+**Hỏi:** Nếu đoạn code sau được thực thi, có bao nhiêu chuỗi Hello được xuất ra màn hình?for (int i = 1; i&lt;=5; i++)for (int j = 1; j&lt;=5; j++)   if ((i+j) %3 == 0) printf(“Hello\n”);
+
+**Các lựa chọn:**
+- A. 9
+- B. 7
+- C. 8
+- D. 10
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `9`
+
+---
+
+### Câu 44 (Bài luyện tập 4)
+**Hỏi:** Kết quả của đoạn chương trình sau là gì?void main(){ int i;for (i=2; i&lt;=10; i+=2) printf("%d\t",i);}
+
+**Các lựa chọn:**
+- A. 2 3 4 5 6 7 8 9 10
+- B. 2 4 6 8
+- C. 1 2 3 4 5 6 7 8 9 10
+- D. 2 4 6 8 10
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `2 4 6 8 10`
+
+---
+
+### Câu 45 (Bài luyện tập 4)
+**Hỏi:** Khi thực hiện đoạn mã sau, giá trị j bằng bao nhiêu?int j = 0;while (j &lt; 20) j++;
+
+**Các lựa chọn:**
+- A. j = 19
+- B. Vòng lặp vô hạn
+- C. j = 20
+- D. j = 21
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `j = 20`
 
 ---
 

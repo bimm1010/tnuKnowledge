@@ -558,5 +558,165 @@
     "userAnswerState": "Đúng",
     "explanation": "Biểu thức điều kiện trong bài là: if ( 16&gt;15 &amp;&amp; 17&gt;20). Biểu thức này sẽ cho giá trị false. Do đó k = n = 1;",
     "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 4",
+    "question": "Loại vòng lặp nào trong những loại sau đây được thực hiện ít nhất 1 lần?",
+    "options": [
+      "A. do…while",
+      "B. while",
+      "C. Cả hai vòng lặp for và while",
+      "D. for"
+    ],
+    "correctAnswer": "do…while",
+    "userAnswerState": "Đúng",
+    "explanation": "Vòng lặp do….while thực hiện lệnh trước khi kiểm tra biểu thức điều kiện",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 4",
+    "question": "Nếu code sau được thực thi, số chuỗi “Love” được xuất là bao nhiêu lần?int x=10, y=20;while (x&lt;y){  printf (“Love\\n”);   x+=3;}",
+    "options": [
+      "A. 6",
+      "B. 2",
+      "C. 4",
+      "D. 5"
+    ],
+    "correctAnswer": "4",
+    "userAnswerState": "Đúng",
+    "explanation": "Các bước lặp:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 4",
+    "question": "Nếu đoạn code sau được thực thi, trị của biến S sẽ là bao nhiêu?int i= 1, S=1;while (i&lt;=20){    S+= 2*i+2;      i+=4;}",
+    "options": [
+      "A. 101",
+      "B. 100",
+      "C. 99",
+      "D. Thông báo lỗi"
+    ],
+    "correctAnswer": "101",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 4",
+    "question": "Ý nghĩa của đoạn mã sau đây là gì? for (;;);",
+    "options": [
+      "A. Tạo vòng lặp với số lần lặp là 0",
+      "B. Đoạn mã tạo vòng lặp hữu hạn với số lần lặp cố định là 256.",
+      "C. Đoạn mã này sai cú pháp",
+      "D. Tạo vòng lặp vô hạn"
+    ],
+    "correctAnswer": "Tạo vòng lặp vô hạn",
+    "userAnswerState": "Đúng",
+    "explanation": "Mẫu lệnh for:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 4",
+    "question": "Nếu đoạn code sau được thực thi, trị của biến S sẽ là bao nhiêu?int S= 100;for (int i= 10; i&gt;0; i  -= 3)    S - = i + i%2;",
+    "options": [
+      "A. 86",
+      "B. 76",
+      "C. 106",
+      "D. 96"
+    ],
+    "correctAnswer": "76",
+    "userAnswerState": "Đúng",
+    "explanation": "Các bước lặp sẽ là:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 4",
+    "question": "Nếu đoạn code sau được thực thi, trị của biến S sẽ là bao nhiêu?int i=3, j=10, S=0;while (2*i+j&lt;100){ S += i+j;   i += 5;   j += 7;}",
+    "options": [
+      "A. 155",
+      "B. 165",
+      "C. 175",
+      "D. 185"
+    ],
+    "correctAnswer": "185",
+    "userAnswerState": "Đúng",
+    "explanation": "Các bước lặp sẽ là:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 4",
+    "question": "Đoạn mã sau in ra màn hình thông tin gì?int x = 100;do { --x; } while (x &gt; 50);printf(\"x=%d\\n\", x);",
+    "options": [
+      "A. x=50",
+      "B. x=49",
+      "C. x=51",
+      "D. Không kết xuất vì vòng lặp vô hạn"
+    ],
+    "correctAnswer": "x=50",
+    "userAnswerState": "Đúng",
+    "explanation": "Vòng lặp sẽ dừng khi x=50",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 4",
+    "question": "Nếu đoạn code sau được thực thi, có bao nhiêu chuỗi Hello được xuất ra màn hình?for (int i = 1; i&lt;=5; i++)for (int j = 1; j&lt;=5; j++)   if ((i+j) %3 == 0) printf(“Hello\\n”);",
+    "options": [
+      "A. 9",
+      "B. 7",
+      "C. 8",
+      "D. 10"
+    ],
+    "correctAnswer": "9",
+    "userAnswerState": "Đúng",
+    "explanation": "Các bước lặp:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 4",
+    "question": "Kết quả của đoạn chương trình sau là gì?void main(){ int i;for (i=2; i&lt;=10; i+=2) printf(\"%d\\t\",i);}",
+    "options": [
+      "A. 2 3 4 5 6 7 8 9 10",
+      "B. 2 4 6 8",
+      "C. 1 2 3 4 5 6 7 8 9 10",
+      "D. 2 4 6 8 10"
+    ],
+    "correctAnswer": "2 4 6 8 10",
+    "userAnswerState": "Đúng",
+    "explanation": "Số bước lặp là:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 4",
+    "question": "Khi thực hiện đoạn mã sau, giá trị j bằng bao nhiêu?int j = 0;while (j &lt; 20) j++;",
+    "options": [
+      "A. j = 19",
+      "B. Vòng lặp vô hạn",
+      "C. j = 20",
+      "D. j = 21"
+    ],
+    "correctAnswer": "j = 20",
+    "userAnswerState": "Đúng",
+    "explanation": "Sau mỗi vòng lặp giá trị của j sẽ tăng lên 1. Khi j=20 vòng lặp sẽ kết thúc.",
+    "reference": ""
   }
 ]
