@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Cấu trúc Dữ liệu và Giải thuật [A050900]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **30 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **40 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Yêu cầu khi chọn kiểu dữ liệu cho chương trình là?
@@ -389,6 +389,136 @@
 - D. abc *+ de /-
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `abc + * de /-`
+
+---
+
+### Câu 31 (Bài luyện tập 4)
+**Hỏi:** Việc cài đặt hàng đợi bằng mảng được thực hiện qua khai báo dưới đây:#define max Ntypedef int ELEMENT;struct QUEUE_ARRAY{ELEMENT ele[max];int capacity, H, T, S;} q; Ý nghĩa đúng nhất của S là:
+
+**Các lựa chọn:**
+- A. Vị trí đỉnh hiện tại của hàng đợi
+- B. Độ lớn cực đại của hàng đợi
+- C. Kiểu dữ liệu của các phần tử trong hàng đợi
+- D. Số phần tử hiện thời của hàng đợi
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Số phần tử hiện thời của hàng đợi`
+
+---
+
+### Câu 32 (Bài luyện tập 4)
+**Hỏi:** Việc bổ sung thêm phần tử vào hàng đợi được thực hiện bằng đoạn mã dưới đây:void ENQUEUE(QUEUE_ARRAY q, ELEMENT e){if (IS_FULL(q)!= 0)printf("hang doi day khong the chen them");else{if (q.T == q.capacity–1)q.T=0;else…………..;q.ele[q.T]=e;q.S=q.S+1;}}Hãy lựa chọn câu trả lời đúng nhất nội dung điền vào chỗ trống (.........) của đoạn mã trên:
+
+**Các lựa chọn:**
+- A. q.T=q.T-1
+- B. q.T=1
+- C. q.T=q.S+1
+- D. q.T=q.T+1
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `q.T=q.T+1`
+
+---
+
+### Câu 33 (Bài luyện tập 4)
+**Hỏi:** Cấu trúc dữ liệu nào khi cài đặt bằng mảng ta phải cần 2 biến vị trí để quản lý danh sách các phần tử
+
+**Các lựa chọn:**
+- A. Ngăn xếp
+- B. Cây
+- C. Danh sách
+- D. Hàng đợi
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Hàng đợi`
+
+---
+
+### Câu 34 (Bài luyện tập 4)
+**Hỏi:** Cấu trúc dữ liệu nào tương ứng với nguyên lý FIFO
+
+**Các lựa chọn:**
+- A. Linked List
+- B. Queue
+- C. Stack
+- D. Tree
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Queue`
+
+---
+
+### Câu 35 (Bài luyện tập 4)
+**Hỏi:** Việc cài đặt hàng đợi bằng mảng được thực hiện qua khai báo dưới đây:#define max Ntypedef int ELEMENT;struct QUEUE_ARRAY{ELEMENT ele[max];int capacity, H, T, S ;} q; Ý nghĩa đúng nhất của ELEMENT là:
+
+**Các lựa chọn:**
+- A. Chứa các phần tử của Hàng đợi
+- B. Số phần tử hiện thời của Hàng đợi
+- C. Vị trí đỉnh hiện tại của Hàng đợi
+- D. Kiểu dữ liệu của các phần tử trong Hàng đợi
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Kiểu dữ liệu của các phần tử trong Hàng đợi`
+
+---
+
+### Câu 36 (Bài luyện tập 4)
+**Hỏi:** Khi cài đặt hàng đợi bằng mảng, nếu ta đặt tên các biến như sau: biến T thể hiện vị trí đuôi, biến H thể hiện vị trí đầu. Thao tác lấy ra 1 phần tử của hàng đợi trong trường hợp: “giá trị của H đúng bằng kích thước của mảng” sẽ:
+
+**Các lựa chọn:**
+- A. Tăng H lên 1 đơn vị
+- B. Không thực hiện được
+- C. Giảm H đi 1 đơn vị
+- D. Giá trị H được gán bằng 1
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Giá trị H được gán bằng 1`
+
+---
+
+### Câu 37 (Bài luyện tập 4)
+**Hỏi:** Việc lấy một phần tử từ hàng đợi được thực hiện bằng đoạn mã dưới đây:ELEMENT DEQUEUE(QUEUE_ARRAY q){ELEMENT e;if (IS_EMPTY(q)!= 0)printf("hang doi rong khong the lay phan tu ra");else{e = q.ele[q.H];q.H =q.H + 1;q.S = ........;if (q.H == q.capacity)q.H = 0;}return e;}Hãy lựa chọn câu trả lời đúng nhất nội dung điền vào chỗ trống (.........) của đoạn mã trên:
+
+**Các lựa chọn:**
+- A. q.H + 1
+- B. q.H - 1
+- C. q.S + 1
+- D. q.S - 1
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `q.S - 1`
+
+---
+
+### Câu 38 (Bài luyện tập 4)
+**Hỏi:** Khi lấy ra một phần tử của hàng đợi thì phần tử đó ở vị trí:
+
+**Các lựa chọn:**
+- A. Không thể lấy ra một phần tử nào của hàng đợi
+- B. Bất kỳ vị trí nào
+- C. Cuối cùng của hàng đợi
+- D. Đầu tiên của hàng đợi
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Đầu tiên của hàng đợi`
+
+---
+
+### Câu 39 (Bài luyện tập 4)
+**Hỏi:** Việc kiểm tra hàng đợi có rỗng không được thực hiện bằng đoạn mã dưới đây:int IS_EMPTY(QUEUE_ARRAY q){if (………)return 1;elsereturn 0;} Hãy lựa chọn câu trả lời đúng nhất nội dung điền vào chỗ trống (.........) của đoạn mã trên:
+
+**Các lựa chọn:**
+- A. q.S == -1
+- B. S == 0
+- C. q.S == 1
+- D. q.S == 0
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `q.S == 0`
+
+---
+
+### Câu 40 (Bài luyện tập 4)
+**Hỏi:** Khi cài đặt hàng đợi bằng mảng, nếu ta đặt tên các biến như sau: biến T thể hiện vị trí đuôi, biến H thể hiện vị trí đầu. Thao tác thêm 1 phần tử vào hàng đợi trong trường hợp: “giá trị của T đúng bằng kích thước của mảng trong khi số lượng phần tử của hàng đợi vẫn nhỏ hơn kích thước của mảng” sẽ:
+
+**Các lựa chọn:**
+- A. Không thực hiện được
+- B. Tăng T lên 1 đơn vị
+- C. Giảm T đi 1 đơn vị
+- D. Giá trị T được gán bằng 1
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Giá trị T được gán bằng 1`
 
 ---
 

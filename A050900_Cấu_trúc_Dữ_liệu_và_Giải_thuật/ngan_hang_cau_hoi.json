@@ -478,5 +478,165 @@
     "userAnswerState": "Đúng",
     "explanation": "Biểu diễn biểu thức số học dạng thông thường sang dạng biểu thức Balan là không cần dùng đến các dấu ngoặc và luôn thực hiện từ trái sang phải.",
     "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 3, mục 3.4, Ứng dụng của ngăn xếp"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 4",
+    "question": "Việc cài đặt hàng đợi bằng mảng được thực hiện qua khai báo dưới đây:#define max Ntypedef int ELEMENT;struct QUEUE_ARRAY{ELEMENT ele[max];int capacity, H, T, S;} q; Ý nghĩa đúng nhất của S là:",
+    "options": [
+      "A. Vị trí đỉnh hiện tại của hàng đợi",
+      "B. Độ lớn cực đại của hàng đợi",
+      "C. Kiểu dữ liệu của các phần tử trong hàng đợi",
+      "D. Số phần tử hiện thời của hàng đợi"
+    ],
+    "correctAnswer": "Số phần tử hiện thời của hàng đợi",
+    "userAnswerState": "Đúng",
+    "explanation": "với cách cài đặt hàng đợi bằng mảng trên:",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 4, mục 4.3.1. Cài đặt Hàng đợi bằng mảng"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 4",
+    "question": "Việc bổ sung thêm phần tử vào hàng đợi được thực hiện bằng đoạn mã dưới đây:void ENQUEUE(QUEUE_ARRAY q, ELEMENT e){if (IS_FULL(q)!= 0)printf(\"hang doi day khong the chen them\");else{if (q.T == q.capacity–1)q.T=0;else…………..;q.ele[q.T]=e;q.S=q.S+1;}}Hãy lựa chọn câu trả lời đúng nhất nội dung điền vào chỗ trống (.........) của đoạn mã trên:",
+    "options": [
+      "A. q.T=q.T-1",
+      "B. q.T=1",
+      "C. q.T=q.S+1",
+      "D. q.T=q.T+1"
+    ],
+    "correctAnswer": "q.T=q.T+1",
+    "userAnswerState": "Đúng",
+    "explanation": "Khi bổ sung thêm phần tử vào hàng đợi, biến T chỉ vị trí đuôi của hàng đợi sẽ tăng thêm 1.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 4, mục 4.3.1. Cài đặt hàng đợi bằng mảng"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 4",
+    "question": "Cấu trúc dữ liệu nào khi cài đặt bằng mảng ta phải cần 2 biến vị trí để quản lý danh sách các phần tử",
+    "options": [
+      "A. Ngăn xếp",
+      "B. Cây",
+      "C. Danh sách",
+      "D. Hàng đợi"
+    ],
+    "correctAnswer": "Hàng đợi",
+    "userAnswerState": "Đúng",
+    "explanation": "Khi cài đặt hàng đợi bằng mảng, nếu ta cần 2 biến vị trí: biến T thể hiện vị trí đuôi, biến H thể hiện vị trí đầu.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 4, mục 4.3.1. Cài đặt Hàng đợi bằng mảng"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 4",
+    "question": "Cấu trúc dữ liệu nào tương ứng với nguyên lý FIFO",
+    "options": [
+      "A. Linked List",
+      "B. Queue",
+      "C. Stack",
+      "D. Tree"
+    ],
+    "correctAnswer": "Queue",
+    "userAnswerState": "Đúng",
+    "explanation": "Kiểu dữ liệu hàng đợi là kiểu dữ liệu trong đó phần tử được đưa vào trước sẽ được loại bỏ trước. Kiểu dữ liệu hàng đợi còn được gọi là kiểu dữ liệu FIFO (First - In First - Out), có nghĩa là vào trước ra trước.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 4, mục 4.1. Khái niệm Hàng đợi"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 4",
+    "question": "Việc cài đặt hàng đợi bằng mảng được thực hiện qua khai báo dưới đây:#define max Ntypedef int ELEMENT;struct QUEUE_ARRAY{ELEMENT ele[max];int capacity, H, T, S ;} q; Ý nghĩa đúng nhất của ELEMENT là:",
+    "options": [
+      "A. Chứa các phần tử của Hàng đợi",
+      "B. Số phần tử hiện thời của Hàng đợi",
+      "C. Vị trí đỉnh hiện tại của Hàng đợi",
+      "D. Kiểu dữ liệu của các phần tử trong Hàng đợi"
+    ],
+    "correctAnswer": "Kiểu dữ liệu của các phần tử trong Hàng đợi",
+    "userAnswerState": "Đúng",
+    "explanation": "với cách cài đặt hàng đợi bằng mảng trên:",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 4, mục 4.3 (4.3.1),"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 4",
+    "question": "Khi cài đặt hàng đợi bằng mảng, nếu ta đặt tên các biến như sau: biến T thể hiện vị trí đuôi, biến H thể hiện vị trí đầu. Thao tác lấy ra 1 phần tử của hàng đợi trong trường hợp: “giá trị của H đúng bằng kích thước của mảng” sẽ:",
+    "options": [
+      "A. Tăng H lên 1 đơn vị",
+      "B. Không thực hiện được",
+      "C. Giảm H đi 1 đơn vị",
+      "D. Giá trị H được gán bằng 1"
+    ],
+    "correctAnswer": "Giá trị H được gán bằng 1",
+    "userAnswerState": "Đúng",
+    "explanation": "Giá trị ban đầu của H bằng 1 để cho thấy rằng ban đầu hàng đợi được lưu trữ bắt đầu từ phần tử đầu tiên của mảng. Mỗi lần loại bỏ một phần tử ra khỏi hàng đợi, giá trị H sẽ được gán bằng 1.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 4, mục 4.3.1. Cài đặt Hàng đợi bằng mảng"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 4",
+    "question": "Việc lấy một phần tử từ hàng đợi được thực hiện bằng đoạn mã dưới đây:ELEMENT DEQUEUE(QUEUE_ARRAY q){ELEMENT e;if (IS_EMPTY(q)!= 0)printf(\"hang doi rong khong the lay phan tu ra\");else{e = q.ele[q.H];q.H =q.H + 1;q.S = ........;if (q.H == q.capacity)q.H = 0;}return e;}Hãy lựa chọn câu trả lời đúng nhất nội dung điền vào chỗ trống (.........) của đoạn mã trên:",
+    "options": [
+      "A. q.H + 1",
+      "B. q.H - 1",
+      "C. q.S + 1",
+      "D. q.S - 1"
+    ],
+    "correctAnswer": "q.S - 1",
+    "userAnswerState": "Đúng",
+    "explanation": "khi lấy một phần tử từ hàng đợi, biến S chỉ số phần tử hiện thời của hàng đợi q sẽ giảm đi 1 nên: q.S = q.S – 1;",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 4, mục 4.3.1. Cài đặt hàng đợi bằng mảng"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 4",
+    "question": "Khi lấy ra một phần tử của hàng đợi thì phần tử đó ở vị trí:",
+    "options": [
+      "A. Không thể lấy ra một phần tử nào của hàng đợi",
+      "B. Bất kỳ vị trí nào",
+      "C. Cuối cùng của hàng đợi",
+      "D. Đầu tiên của hàng đợi"
+    ],
+    "correctAnswer": "Đầu tiên của hàng đợi",
+    "userAnswerState": "Đúng",
+    "explanation": "Kiểu dữ liệu hàng đợi là kiểu dữ liệu trong đó phần tử được đưa vào trước sẽ được loại bỏ trước",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 4, mục 4.1,"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 4",
+    "question": "Việc kiểm tra hàng đợi có rỗng không được thực hiện bằng đoạn mã dưới đây:int IS_EMPTY(QUEUE_ARRAY q){if (………)return 1;elsereturn 0;} Hãy lựa chọn câu trả lời đúng nhất nội dung điền vào chỗ trống (.........) của đoạn mã trên:",
+    "options": [
+      "A. q.S == -1",
+      "B. S == 0",
+      "C. q.S == 1",
+      "D. q.S == 0"
+    ],
+    "correctAnswer": "q.S == 0",
+    "userAnswerState": "Đúng",
+    "explanation": "q.S chứa số phần tử hiện thời của hàng đợi.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 4, mục 4.3.1. Cài đặt hàng đợi bằng mảng"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 4",
+    "question": "Khi cài đặt hàng đợi bằng mảng, nếu ta đặt tên các biến như sau: biến T thể hiện vị trí đuôi, biến H thể hiện vị trí đầu. Thao tác thêm 1 phần tử vào hàng đợi trong trường hợp: “giá trị của T đúng bằng kích thước của mảng trong khi số lượng phần tử của hàng đợi vẫn nhỏ hơn kích thước của mảng” sẽ:",
+    "options": [
+      "A. Không thực hiện được",
+      "B. Tăng T lên 1 đơn vị",
+      "C. Giảm T đi 1 đơn vị",
+      "D. Giá trị T được gán bằng 1"
+    ],
+    "correctAnswer": "Giá trị T được gán bằng 1",
+    "userAnswerState": "Đúng",
+    "explanation": "Hãy hình dung mảng giống như 1 vòng tròn, các phần tử sẽ được xếp thứ tự theo chiều kim đồng hồ. Phần tử cuối cùng của mảng sẽ được nối với phần tử đầu tiên của mảng. Khi đó, phần tử đầu tiên của mảng sẽ được coi như phần tử đứng tiếp sau phần tử cuối cùng của mảng. Khi đó, trong trường hợp T = kich_thuoc, nếu ta thêm một phần tử vào hàng đợi, phần tử này sẽ được xếp vào vị trí cuối cùng của mảng. Giá trị của T sẽ được gán bằng 1 để cho biết rằng phần tử tiếp theo được thêm vào hàng đợi sẽ được xếp vào vị trí đầu tiên của mảng.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 4, mục 4.3 (4.3.1),"
   }
 ]
