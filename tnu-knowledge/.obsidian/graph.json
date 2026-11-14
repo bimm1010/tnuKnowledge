@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "colorGroups": [
+    {
+      "query": "tag:#moc OR tag:#index",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
+    },
+    {
+      "query": "tag:#A000200",
+      "color": {
+        "a": 1,
+        "rgb": 3447003
+      }
+    },
+    {
+      "query": "tag:#A050900",
+      "color": {
+        "a": 1,
+        "rgb": 15105570
+      }
+    },
+    {
+      "query": "tag:#A065000",
+      "color": {
+        "a": 1,
+        "rgb": 15844367
+      }
+    },
+    {
+      "query": "tag:#A065200",
+      "color": {
+        "a": 1,
+        "rgb": 5164484
+      }
+    },
+    {
+      "query": "tag:#A066101",
+      "color": {
+        "a": 1,
+        "rgb": 10181046
+      }
+    },
+    {
+      "query": "tag:#qa",
+      "color": {
+        "a": 1,
+        "rgb": 16739179
+      }
+    }
+  ],
+  "showArrow": true,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1
+}
