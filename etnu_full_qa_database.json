@@ -4399,5 +4399,165 @@
     "userAnswerState": "Đúng",
     "explanation": "Hãy hình dung mảng giống như 1 vòng tròn, các phần tử sẽ được xếp thứ tự theo chiều kim đồng hồ. Phần tử cuối cùng của mảng sẽ được nối với phần tử đầu tiên của mảng. Khi đó, phần tử đầu tiên của mảng sẽ được coi như phần tử đứng tiếp sau phần tử cuối cùng của mảng. Khi đó, trong trường hợp T = kich_thuoc, nếu ta thêm một phần tử vào hàng đợi, phần tử này sẽ được xếp vào vị trí cuối cùng của mảng. Giá trị của T sẽ được gán bằng 1 để cho biết rằng phần tử tiếp theo được thêm vào hàng đợi sẽ được xếp vào vị trí đầu tiên của mảng.",
     "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 4, mục 4.3 (4.3.1),"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 5",
+    "question": "Quan hệ phân cấp giữa các nút trong cây được gọi là quan hệ gì?",
+    "options": [
+      "A. Quan hệ cha – con.",
+      "B. Quan hệ chú – cháu.",
+      "C. Quan hệ anh – em.",
+      "D. Không có quan hệ."
+    ],
+    "correctAnswer": "Quan hệ cha – con.",
+    "userAnswerState": "Đúng",
+    "explanation": "Theo định nghĩa về cây:",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 5, mục 5.1. Các khái niệm cơ bản về cây"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 5",
+    "question": "Cho một biểu diễn cây như sau: Đâu là tập các lá của cây:",
+    "options": [
+      "A. {4, 5, 6, 8, 9}",
+      "B. {3, 4, 5, 6, 8, 9}",
+      "C. {3, 4, 5, 6, 7, 8, 9}",
+      "D. {4, 5, 6, 7, 8, 9}"
+    ],
+    "correctAnswer": "{4, 5, 6, 8, 9}",
+    "userAnswerState": "Đúng",
+    "explanation": "lá là đỉnh không có con nên với cây nhị phân đầu bài cho thì các đỉnh không có con là: 4,5,6,8,9",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 5, mục 5.1. Các khái niệm cơ bản về cây"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 5",
+    "question": "Cho một biểu diễn cây như sau:Bậc của đỉnh e là",
+    "options": [
+      "A. 3",
+      "B. .1",
+      "C. 2",
+      "D. 0"
+    ],
+    "correctAnswer": "2",
+    "userAnswerState": "Đúng",
+    "explanation": "đỉnh e có 2 con là i và j",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 5, mục 5.1, Các khái niệm cơ bản về cây"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 5",
+    "question": "Đâu là phương pháp duyệt hậu thứ tự một cây nhị phân?",
+    "options": [
+      "A. Nút gốc được duyệt trước sau đó duyệt đến cây con bên trái rồi tới cây con bên phải.",
+      "B. Duyệt cây con bên phải sau đó tới cây con bên trái rồi tới nút gốc.",
+      "C. Nút gốc được duyệt trước sau đó duyệt đến cây con bên phải rồi tới cây con bên trái.",
+      "D. Duyệt cây con bên trái sau đó tới nút gốc rồi tới cây con bên phải."
+    ],
+    "correctAnswer": "Duyệt cây con bên phải sau đó tới cây con bên trái rồi tới nút gốc.",
+    "userAnswerState": "Đúng",
+    "explanation": "Duyệt cây nhị phân Hậu thứ tự hay duyệt thứ tự nút gốc sau: Theo cách duyệt này thì nút gốc sẽ được duyệt sau cùng so với duyệt hai nút cây con. Căn cứ vào thứ tự duyệt hai cây con mà chúng ta có hai cách duyệt thứ tự nút gốc sau: (1) Duyệt cây con trái, duyệt cây con phải, duyệt nút gốc; và (2) Duyệt cây con phải, duyệt cây con trái, duyệt nút gốc.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 5, mục 5.2.3.4. Duyệt các nút trên cây nhị phân"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 5",
+    "question": "Có bao nhiêu thao tác trên cây nhị phân?",
+    "options": [
+      "A. Có 7 thao tác",
+      "B. Có 1 thao tác.",
+      "C. Có 3 thao tác.",
+      "D. Có 5 thao tác."
+    ],
+    "correctAnswer": "Có 5 thao tác.",
+    "userAnswerState": "Đúng",
+    "explanation": "Theo mục 5.2.3, bài 5 giáo trình Cấu trúc dữ liệu và giải thuật, các thao tác trên cây nhị phân gồm:",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 5, mục 5.3. Các thao tác trên CNP"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 5",
+    "question": "Cho một biểu diễn cây như sau:Mức của đỉnh 3 là :",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 0",
+      "D. 1"
+    ],
+    "correctAnswer": "2",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 5, mục 5.1. Các khái niệm cơ bản về cây"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 5",
+    "question": "Các đỉnh của cây có bậc bằng 0 thì được gọi là gì?",
+    "options": [
+      "A. Là Gốc.",
+      "B. Là Lá.",
+      "C. Là Ngọn.",
+      "D. Là Cầu."
+    ],
+    "correctAnswer": "Là Lá.",
+    "userAnswerState": "Đúng",
+    "explanation": "Theo khái niệm cơ bản về cây: Các đỉnh có bậc bằng không được gọi là lá của cây.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 5, mục 5.1. Các khái niệm cơ bản về cây"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 5",
+    "question": "Hãy cho biết độ cao của một cây được xác định như thế nào?",
+    "options": [
+      "A. Không có khái niệm này",
+      "B. Là độ dài đường đi từ gốc tới một lá bất kỳ.",
+      "C. Là độ dài đường đi từ một lá bất kỳ đến gốc.",
+      "D. Là độ dài đường đi dài nhất từ gốc tới lá."
+    ],
+    "correctAnswer": "Là độ dài đường đi dài nhất từ gốc tới lá.",
+    "userAnswerState": "Đúng",
+    "explanation": "Theo định nghĩa: Trong một cây, độ cao của một đỉnh a là độ dài của đường đi dài nhất từ a đến các lá của nó. Độ cao của gốc được gọi là độ cao của cây. Như vậy, độ cao của một cây là độ dài đường đi dài nhất từ gốc đến lá.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 5, mục 5.1. Các khái niệm cơ bản về cây"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 5",
+    "question": "Các phần tử của cây thì được gọi là gì?",
+    "options": [
+      "A. Là nút.",
+      "B. Là lá.",
+      "C. Là cung.",
+      "D. Là cạnh"
+    ],
+    "correctAnswer": "Là nút.",
+    "userAnswerState": "Đúng",
+    "explanation": "Theo định nghĩa về cây:",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 5, mục 5.1. Các khái niệm cơ bản về cây"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 5",
+    "question": "Hãy cho biết kết quả duyệt trung thứ tự (duyệt nút gốc giữa) của cây nhị phân sau.",
+    "options": [
+      "A. BADCE.",
+      "B. BDECA.",
+      "C. ABCDE.",
+      "D. BACDE."
+    ],
+    "correctAnswer": "BADCE.",
+    "userAnswerState": "Đúng",
+    "explanation": "Đây là cách duyệt cây con trái, duyệt nút gốc, duyệt cây con phải của phép duyệt thứ tự nút gốc giữa: Theo thứ tự này, chúng ta duyệt cây con trái trước rồi duyệt nút gốc, và sau đó duyệt cây con phải.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 5, mục 5.2.3.4. Duyệt các nút trên cây nhị phân"
   }
 ]

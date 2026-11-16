@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Cấu trúc Dữ liệu và Giải thuật [A050900]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **40 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **50 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Yêu cầu khi chọn kiểu dữ liệu cho chương trình là?
@@ -519,6 +519,136 @@
 - D. Giá trị T được gán bằng 1
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Giá trị T được gán bằng 1`
+
+---
+
+### Câu 41 (Bài luyện tập 5)
+**Hỏi:** Quan hệ phân cấp giữa các nút trong cây được gọi là quan hệ gì?
+
+**Các lựa chọn:**
+- A. Quan hệ cha – con.
+- B. Quan hệ chú – cháu.
+- C. Quan hệ anh – em.
+- D. Không có quan hệ.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Quan hệ cha – con.`
+
+---
+
+### Câu 42 (Bài luyện tập 5)
+**Hỏi:** Cho một biểu diễn cây như sau: Đâu là tập các lá của cây:
+
+**Các lựa chọn:**
+- A. {4, 5, 6, 8, 9}
+- B. {3, 4, 5, 6, 8, 9}
+- C. {3, 4, 5, 6, 7, 8, 9}
+- D. {4, 5, 6, 7, 8, 9}
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `{4, 5, 6, 8, 9}`
+
+---
+
+### Câu 43 (Bài luyện tập 5)
+**Hỏi:** Cho một biểu diễn cây như sau:Bậc của đỉnh e là
+
+**Các lựa chọn:**
+- A. 3
+- B. .1
+- C. 2
+- D. 0
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `2`
+
+---
+
+### Câu 44 (Bài luyện tập 5)
+**Hỏi:** Đâu là phương pháp duyệt hậu thứ tự một cây nhị phân?
+
+**Các lựa chọn:**
+- A. Nút gốc được duyệt trước sau đó duyệt đến cây con bên trái rồi tới cây con bên phải.
+- B. Duyệt cây con bên phải sau đó tới cây con bên trái rồi tới nút gốc.
+- C. Nút gốc được duyệt trước sau đó duyệt đến cây con bên phải rồi tới cây con bên trái.
+- D. Duyệt cây con bên trái sau đó tới nút gốc rồi tới cây con bên phải.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Duyệt cây con bên phải sau đó tới cây con bên trái rồi tới nút gốc.`
+
+---
+
+### Câu 45 (Bài luyện tập 5)
+**Hỏi:** Có bao nhiêu thao tác trên cây nhị phân?
+
+**Các lựa chọn:**
+- A. Có 7 thao tác
+- B. Có 1 thao tác.
+- C. Có 3 thao tác.
+- D. Có 5 thao tác.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Có 5 thao tác.`
+
+---
+
+### Câu 46 (Bài luyện tập 5)
+**Hỏi:** Cho một biểu diễn cây như sau:Mức của đỉnh 3 là :
+
+**Các lựa chọn:**
+- A. 2
+- B. 3
+- C. 0
+- D. 1
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `2`
+
+---
+
+### Câu 47 (Bài luyện tập 5)
+**Hỏi:** Các đỉnh của cây có bậc bằng 0 thì được gọi là gì?
+
+**Các lựa chọn:**
+- A. Là Gốc.
+- B. Là Lá.
+- C. Là Ngọn.
+- D. Là Cầu.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Là Lá.`
+
+---
+
+### Câu 48 (Bài luyện tập 5)
+**Hỏi:** Hãy cho biết độ cao của một cây được xác định như thế nào?
+
+**Các lựa chọn:**
+- A. Không có khái niệm này
+- B. Là độ dài đường đi từ gốc tới một lá bất kỳ.
+- C. Là độ dài đường đi từ một lá bất kỳ đến gốc.
+- D. Là độ dài đường đi dài nhất từ gốc tới lá.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Là độ dài đường đi dài nhất từ gốc tới lá.`
+
+---
+
+### Câu 49 (Bài luyện tập 5)
+**Hỏi:** Các phần tử của cây thì được gọi là gì?
+
+**Các lựa chọn:**
+- A. Là nút.
+- B. Là lá.
+- C. Là cung.
+- D. Là cạnh
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Là nút.`
+
+---
+
+### Câu 50 (Bài luyện tập 5)
+**Hỏi:** Hãy cho biết kết quả duyệt trung thứ tự (duyệt nút gốc giữa) của cây nhị phân sau.
+
+**Các lựa chọn:**
+- A. BADCE.
+- B. BDECA.
+- C. ABCDE.
+- D. BACDE.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `BADCE.`
 
 ---
 
