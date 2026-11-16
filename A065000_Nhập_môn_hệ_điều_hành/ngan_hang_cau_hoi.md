@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Nhập môn hệ điều hành [A065000]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **45 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **60 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Khẳng định nào sau đây là SAI?
@@ -596,6 +596,201 @@ P3
 - D. Một danh sách cho mỗi tiến trình.
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Một danh sách.`
+
+---
+
+### Câu 46 (Bài luyện tập 4)
+**Hỏi:** Trong cấu trúc Overlay phương án nào sau đây là đúng?
+
+**Các lựa chọn:**
+- A. Chương trình được chia nhiều phần và tất cả các phần được nạp vào bộ nhớ cùng 1 lúc.
+- B. Chương trình cỡ lớn được nạp toàn bộ vào bộ nhớ và HĐH chạy như bình thường.
+- C. Chương trình được chia nhiều phần và HĐH gọi từng phần vào bộ nhớ để thực thi.
+- D. Chương trình được chia thành nhiều phần, phần trung tâm được nạp cố định và điều khiển các modul điều khiển chương trình.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Chương trình được chia thành nhiều phần, phần trung tâm được nạp cố định và điều khiển các modul điều khiển chương trình.`
+
+---
+
+### Câu 47 (Bài luyện tập 4)
+**Hỏi:** Phương thức tổ chức bộ nhớ ảo nào có nhiều ưu điểm nhất?
+
+**Các lựa chọn:**
+- A. Phân đoạn cố định.
+- B. Tổ chức theo trang.
+- C. Kết hợp vừa phân trang, vừa phân đoạn.
+- D. Tổ chức theo đoạn.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Kết hợp vừa phân trang, vừa phân đoạn.`
+
+---
+
+### Câu 48 (Bài luyện tập 4)
+**Hỏi:** Ưu điểm của bộ nhớ ảo là gì?
+
+**Các lựa chọn:**
+- A. cả (1) và (3).
+- B. một process có thể thực thi ngay cả khi kích thước của nó lớn hơn bộ nhớ thực (3).
+- C. số lượng process trong bộ nhớ nhiều hơn (1).
+- D. nhiều process truy cập bộ nhớ cùng một lúc (2).
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `cả (1) và (3).`
+
+---
+
+### Câu 49 (Bài luyện tập 4)
+**Hỏi:** Thuật toán thay thế trang nào sử dụng tần số tham khảo trang trong khoảng thời gian xác định?
+
+**Các lựa chọn:**
+- A. LRU
+- B. LFU
+- C. RR
+- D. FIFO
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `LFU`
+
+---
+
+### Câu 50 (Bài luyện tập 4)
+**Hỏi:** Cho thứ tự truy nhập của các trang như sau:P1-&gt;P2-&gt;P3-&gt;P2P1 sẽ bị loại theo chiến lược loại bỏ trang nào?
+
+**Các lựa chọn:**
+- A. LRU.
+- B. FIFO, LRU, LFU.
+- C. LFU.
+- D. FIFO.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `FIFO, LRU, LFU.`
+
+---
+
+### Câu 51 (Bài luyện tập 4)
+**Hỏi:** Kĩ thuật Overlay được áp dụng trong trường hợp nào?
+
+**Các lựa chọn:**
+- A. Khi hệ thống có bộ nhớ ảo.
+- B. Chương trình có kích thước lớn hơn kích thước bộ nhớ.
+- C. Chương trình có kích thước nhỏ hơn vùng nhớ trống.
+- D. Không có vùng nhớ trống để chạy chương trình.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Chương trình có kích thước lớn hơn kích thước bộ nhớ.`
+
+---
+
+### Câu 52 (Bài luyện tập 4)
+**Hỏi:** Đáp án nào sau đây khi dùng 2 chiến lược FIFO và LRU thì sẽ loại bỏ cùng 1 trang?
+
+**Các lựa chọn:**
+- A. P1,P2,P3,P1,P2
+- B. P1,P2,P3,P2
+- C. P1,P2,P1,P3
+- D. P1,P2,P1,P3,P2
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `P1,P2,P3,P2`
+
+---
+
+### Câu 53 (Bài luyện tập 4)
+**Hỏi:** Cho trình tự các trang như sau: P1-&gt;P2-&gt;P3-&gt;P2-&gt;P1. Nếu loại bỏ trang P3 thì loại bỏ này thuộc cơ chế nào?
+
+**Các lựa chọn:**
+- A. LFU.
+- B. LRU và LFU.
+- C. LRU.
+- D. FIFO.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `LRU và LFU.`
+
+---
+
+### Câu 54 (Bài luyện tập 4)
+**Hỏi:** Bộ nhớ nào là bộ nhớ chỉ đọc?
+
+**Các lựa chọn:**
+- A. RAM.
+- B. Cache.
+- C. ROM.
+- D. RAM và ROM.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `ROM.`
+
+---
+
+### Câu 55 (Bài luyện tập 4)
+**Hỏi:** Tốc độ của bộ nhớ nào sau đây là lớn nhất?
+
+**Các lựa chọn:**
+- A. Cache.
+- B. thanh ghi.
+- C. RAM.
+- D. Ổ cứng.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `thanh ghi.`
+
+---
+
+### Câu 56 (Bài luyện tập 4)
+**Hỏi:** Thuật toán biến đổi địa chỉ trang sử dụng kết hợp associative memory (bộ nhớ kết hợp) với ánh xạ trực tiếp thì sẽ truy nhập vào bộ phận nào đầu tiên?
+
+**Các lựa chọn:**
+- A. Không thể truy cập đến bảng ánh xạ nào.
+- B. Phần bảng ánh xạ trong bộ nhớ vật lý.
+- C. Cùng truy nhập đến 2 bảng ánh xạ trong bộ nhớ vật lý và trong bộ nhớ kết hợp.
+- D. Phần bảng ánh xạ trong bộ nhớ kết hợp.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Phần bảng ánh xạ trong bộ nhớ kết hợp.`
+
+---
+
+### Câu 57 (Bài luyện tập 4)
+**Hỏi:** Danh sách các tiến trình nào khi được nạp vào bộ nhớ theo chiến lược LRU và LFU thì sẽ loại bỏ hai trang khác nhau?
+
+**Các lựa chọn:**
+- A. P1,P2,P1,P2,P3 và P1,P2,P1,P3,P2
+- B. P1,P2,P1,P3,P2 và P1,P2,P3,P2,P3
+- C. P1,P2,P3,P2,P3
+- D. P1,P2,P1,P2,P3
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `P1,P2,P1,P3,P2 và P1,P2,P3,P2,P3`
+
+---
+
+### Câu 58 (Bài luyện tập 4)
+**Hỏi:** Phương pháp nào giúp chương trình hoạt động hiệu quả hơn?
+
+**Các lựa chọn:**
+- A. Sử dụng bộ nhớ không liên tục.
+- B. Sử dụng bộ nhớ ngoài.
+- C. Sử dụng bộ nhớ liên tục.
+- D. Sử dụng bộ nhớ trong.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Sử dụng bộ nhớ không liên tục.`
+
+---
+
+### Câu 59 (Bài luyện tập 4)
+**Hỏi:** Danh sách các tiến trình nào khi được nạp vào bộ nhớ theo chiến lược FIFO và LRU thì sẽ loại bỏ hai trang khác nhau?
+
+**Các lựa chọn:**
+- A. P1,P2,P3,P2
+- B. P1,P2,P1,P3
+- C. P1,P3,P2,P3
+- D. P1,P2,P3,P4,P2
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `P1,P2,P1,P3`
+
+---
+
+### Câu 60 (Bài luyện tập 4)
+**Hỏi:** Trong các phương pháp tổ chức bộ nhớ phân trang, phân đoạn, kết hợp và theo vùng. Phương pháp tổ chức nào là đơn giản nhất?
+
+**Các lựa chọn:**
+- A. Tổ chức theo trang.
+- B. Tổ chức theo đoạn.
+- C. Tổ chức theo vùng nhớ.
+- D. Kết hợp tổ chức theo trang và theo đoạn.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Tổ chức theo trang.`
 
 ---
 

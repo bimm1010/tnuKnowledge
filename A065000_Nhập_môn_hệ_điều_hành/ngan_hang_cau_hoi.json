@@ -718,5 +718,245 @@
     "userAnswerState": "Đúng",
     "explanation": "",
     "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Trong cấu trúc Overlay phương án nào sau đây là đúng?",
+    "options": [
+      "A. Chương trình được chia nhiều phần và tất cả các phần được nạp vào bộ nhớ cùng 1 lúc.",
+      "B. Chương trình cỡ lớn được nạp toàn bộ vào bộ nhớ và HĐH chạy như bình thường.",
+      "C. Chương trình được chia nhiều phần và HĐH gọi từng phần vào bộ nhớ để thực thi.",
+      "D. Chương trình được chia thành nhiều phần, phần trung tâm được nạp cố định và điều khiển các modul điều khiển chương trình."
+    ],
+    "correctAnswer": "Chương trình được chia thành nhiều phần, phần trung tâm được nạp cố định và điều khiển các modul điều khiển chương trình.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Phương thức tổ chức bộ nhớ ảo nào có nhiều ưu điểm nhất?",
+    "options": [
+      "A. Phân đoạn cố định.",
+      "B. Tổ chức theo trang.",
+      "C. Kết hợp vừa phân trang, vừa phân đoạn.",
+      "D. Tổ chức theo đoạn."
+    ],
+    "correctAnswer": "Kết hợp vừa phân trang, vừa phân đoạn.",
+    "userAnswerState": "Đúng",
+    "explanation": "Đây là phương thức tổ bộ nhớ tận dụng được ưu điểm của cả 2 phương pháp phân trang và phân đoạn, đồng thời khắc phục nhược điểm của cả hai phương pháp này.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Ưu điểm của bộ nhớ ảo là gì?",
+    "options": [
+      "A. cả (1) và (3).",
+      "B. một process có thể thực thi ngay cả khi kích thước của nó lớn hơn bộ nhớ thực (3).",
+      "C. số lượng process trong bộ nhớ nhiều hơn (1).",
+      "D. nhiều process truy cập bộ nhớ cùng một lúc (2)."
+    ],
+    "correctAnswer": "cả (1) và (3).",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Thuật toán thay thế trang nào sử dụng tần số tham khảo trang trong khoảng thời gian xác định?",
+    "options": [
+      "A. LRU",
+      "B. LFU",
+      "C. RR",
+      "D. FIFO"
+    ],
+    "correctAnswer": "LFU",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Cho thứ tự truy nhập của các trang như sau:P1-&gt;P2-&gt;P3-&gt;P2P1 sẽ bị loại theo chiến lược loại bỏ trang nào?",
+    "options": [
+      "A. LRU.",
+      "B. FIFO, LRU, LFU.",
+      "C. LFU.",
+      "D. FIFO."
+    ],
+    "correctAnswer": "FIFO, LRU, LFU.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Kĩ thuật Overlay được áp dụng trong trường hợp nào?",
+    "options": [
+      "A. Khi hệ thống có bộ nhớ ảo.",
+      "B. Chương trình có kích thước lớn hơn kích thước bộ nhớ.",
+      "C. Chương trình có kích thước nhỏ hơn vùng nhớ trống.",
+      "D. Không có vùng nhớ trống để chạy chương trình."
+    ],
+    "correctAnswer": "Chương trình có kích thước lớn hơn kích thước bộ nhớ.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Đáp án nào sau đây khi dùng 2 chiến lược FIFO và LRU thì sẽ loại bỏ cùng 1 trang?",
+    "options": [
+      "A. P1,P2,P3,P1,P2",
+      "B. P1,P2,P3,P2",
+      "C. P1,P2,P1,P3",
+      "D. P1,P2,P1,P3,P2"
+    ],
+    "correctAnswer": "P1,P2,P3,P2",
+    "userAnswerState": "Đúng",
+    "explanation": "Theo FIFO: loại trang được nhập vào đầu tiên",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Cho trình tự các trang như sau: P1-&gt;P2-&gt;P3-&gt;P2-&gt;P1. Nếu loại bỏ trang P3 thì loại bỏ này thuộc cơ chế nào?",
+    "options": [
+      "A. LFU.",
+      "B. LRU và LFU.",
+      "C. LRU.",
+      "D. FIFO."
+    ],
+    "correctAnswer": "LRU và LFU.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Bộ nhớ nào là bộ nhớ chỉ đọc?",
+    "options": [
+      "A. RAM.",
+      "B. Cache.",
+      "C. ROM.",
+      "D. RAM và ROM."
+    ],
+    "correctAnswer": "ROM.",
+    "userAnswerState": "Đúng",
+    "explanation": "ROM: Read Only Memory bộ nhớ chỉ đọc.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Tốc độ của bộ nhớ nào sau đây là lớn nhất?",
+    "options": [
+      "A. Cache.",
+      "B. thanh ghi.",
+      "C. RAM.",
+      "D. Ổ cứng."
+    ],
+    "correctAnswer": "thanh ghi.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Thuật toán biến đổi địa chỉ trang sử dụng kết hợp associative memory (bộ nhớ kết hợp) với ánh xạ trực tiếp thì sẽ truy nhập vào bộ phận nào đầu tiên?",
+    "options": [
+      "A. Không thể truy cập đến bảng ánh xạ nào.",
+      "B. Phần bảng ánh xạ trong bộ nhớ vật lý.",
+      "C. Cùng truy nhập đến 2 bảng ánh xạ trong bộ nhớ vật lý và trong bộ nhớ kết hợp.",
+      "D. Phần bảng ánh xạ trong bộ nhớ kết hợp."
+    ],
+    "correctAnswer": "Phần bảng ánh xạ trong bộ nhớ kết hợp.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Danh sách các tiến trình nào khi được nạp vào bộ nhớ theo chiến lược LRU và LFU thì sẽ loại bỏ hai trang khác nhau?",
+    "options": [
+      "A. P1,P2,P1,P2,P3 và P1,P2,P1,P3,P2",
+      "B. P1,P2,P1,P3,P2 và P1,P2,P3,P2,P3",
+      "C. P1,P2,P3,P2,P3",
+      "D. P1,P2,P1,P2,P3"
+    ],
+    "correctAnswer": "P1,P2,P1,P3,P2 và P1,P2,P3,P2,P3",
+    "userAnswerState": "Sai",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Phương pháp nào giúp chương trình hoạt động hiệu quả hơn?",
+    "options": [
+      "A. Sử dụng bộ nhớ không liên tục.",
+      "B. Sử dụng bộ nhớ ngoài.",
+      "C. Sử dụng bộ nhớ liên tục.",
+      "D. Sử dụng bộ nhớ trong."
+    ],
+    "correctAnswer": "Sử dụng bộ nhớ không liên tục.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Danh sách các tiến trình nào khi được nạp vào bộ nhớ theo chiến lược FIFO và LRU thì sẽ loại bỏ hai trang khác nhau?",
+    "options": [
+      "A. P1,P2,P3,P2",
+      "B. P1,P2,P1,P3",
+      "C. P1,P3,P2,P3",
+      "D. P1,P2,P3,P4,P2"
+    ],
+    "correctAnswer": "P1,P2,P1,P3",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 4",
+    "question": "Trong các phương pháp tổ chức bộ nhớ phân trang, phân đoạn, kết hợp và theo vùng. Phương pháp tổ chức nào là đơn giản nhất?",
+    "options": [
+      "A. Tổ chức theo trang.",
+      "B. Tổ chức theo đoạn.",
+      "C. Tổ chức theo vùng nhớ.",
+      "D. Kết hợp tổ chức theo trang và theo đoạn."
+    ],
+    "correctAnswer": "Tổ chức theo trang.",
+    "userAnswerState": "Sai",
+    "explanation": "",
+    "reference": ""
   }
 ]
