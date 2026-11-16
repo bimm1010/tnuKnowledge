@@ -1,20 +1,25 @@
 /**
- * Script bóc tách giáo trình và đề thi eTNU thành Inverted Index & Chunks
- * Phục vụ tra cứu siêu tốc dưới 50ms cho câu hỏi dạng ảnh / văn bản
+ * Script bóc tách Ngân hàng Đề thi & Obsidian Vault (tnu-knowledge/) thành Inverted Index
+ * Phục vụ tra cứu siêu tốc (<50ms) và chính xác cao cho câu hỏi dạng ảnh / văn bản
  */
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const baseDir = __dirname;
+const vaultDir = path.join(baseDir, 'tnu-knowledge');
 
-// Danh sách từ dừng (Stop words) tiếng Việt
 const STOP_WORDS = new Set([
   'là', 'của', 'và', 'các', 'những', 'nào', 'sau', 'đây', 'khi', 'về', 'hỏi', 'hãy', 'chọn',
   'được', 'có', 'trong', 'cho', 'với', 'ở', 'đến', 'theo', 'như', 'đã', 'sẽ', 'một', 'để',
-  'tại', 'bởi', 'do', 'này', 'đó', 'thì', 'mà', 'ra', 'lại', 'qua', 'bằng', 'trên', 'dưới'
+  'tại', 'bởi', 'do', 'này', 'đó', 'thì', 'mà', 'ra', 'lại', 'qua', 'bằng', 'trên', 'dưới',
+  'gì', 'bao', 'nhiêu', 'thế', 'nên', 'vào', 'từ', 'nếu', 'cần', 'phải', 'không'
 ]);
 
-// Hàm chuẩn hóa chuỗi và tách từ khóa
+function normalizeText(text) {
+  return (text || '').normalize('NFC').replace(/\s+/g, ' ').trim();
+}
+
 function tokenize(text) {
   if (!text) return [];
   return text
@@ -25,19 +30,45 @@ function tokenize(text) {
     .filter(w => w.length > 1 && !STOP_WORDS.has(w));
 }
 
-console.log('⚡ Bắt đầu bóc tách & đánh chỉ mục toàn bộ Kho Tri Thức eTNU...');
+function walkMdFiles(dir) {
+  let results = [];
+  if (!fs.existsSync(dir)) return results;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name.startsWith('.')) continue;
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      results.push(...walkMdFiles(fullPath));
+    } else if (entry.name.endsWith('.md')) {
+      results.push(fullPath);
+    }
+  }
+  return results;
+}
 
-// 1. Chỉ mục Ngân hàng Đề thi (QA Database)
-const qaFile = path.join(baseDir, 'etnu_full_qa_database.json');
-let qaList = [];
-if (fs.existsSync(qaFile)) {
-  qaList = JSON.parse(fs.readFileSync(qaFile, 'utf8'));
+console.log('⚡ Bắt đầu lập chỉ mục tối ưu từ Kho Tri Thức & Obsidian Vault...');
+
+// 1. Gộp Ngân hàng Đề thi (QA Database + Verified Additions)
+const qaFiles = ['etnu_full_qa_database.json', 'verified_qa_additions.json'];
+const seenQuestions = new Set();
+const qaList = [];
+
+for (const file of qaFiles) {
+  const fullPath = path.join(baseDir, file);
+  if (!fs.existsSync(fullPath)) continue;
+  const items = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+  for (const item of items) {
+    const qKey = normalizeText(item.question).toLowerCase();
+    if (!qKey || seenQuestions.has(qKey)) continue;
+    seenQuestions.add(qKey);
+    qaList.push(item);
+  }
 }
 
 const indexedQA = qaList.map((item, id) => {
-  const qTokens = tokenize(item.question);
-  const optTokens = tokenize((item.options || []).join(' '));
-  const ansTokens = tokenize(item.correctAnswer);
+  const qNorm = normalizeText(item.question);
+  const qTokens = Array.from(new Set(tokenize(qNorm)));
+  const optTokens = Array.from(new Set(tokenize((item.options || []).join(' '))));
+  const ansTokens = Array.from(new Set(tokenize(item.correctAnswer)));
   const allTokens = Array.from(new Set([...qTokens, ...optTokens, ...ansTokens]));
 
   return {
@@ -45,65 +76,84 @@ const indexedQA = qaList.map((item, id) => {
     courseCode: item.courseCode,
     courseName: item.courseName,
     quizName: item.quizName,
-    question: item.question,
+    question: qNorm,
     options: item.options || [],
-    correctAnswer: item.correctAnswer,
+    correctAnswer: normalizeText(item.correctAnswer),
     explanation: item.explanation || '',
     reference: item.reference || '',
+    qTokens,
     tokens: allTokens,
-    rawText: `${item.question} ${(item.options || []).join(' ')} ${item.correctAnswer}`.toLowerCase()
+    qLower: qNorm.toLowerCase(),
+    rawText: `${qNorm} ${(item.options || []).join(' ')} ${item.correctAnswer}`.toLowerCase()
   };
 });
 
-console.log(`✅ Đã lập chỉ mục ${indexedQA.length} câu hỏi trắc nghiệm chính thức.`);
+console.log(`✅ Đã lập chỉ mục ${indexedQA.length} câu hỏi trắc nghiệm (đã khử trùng lặp).`);
 
-// 2. Bóc tách & Chunking toàn bộ Giáo trình / Slide
-const courses = fs.readdirSync(baseDir).filter(f => f.startsWith('A0') && fs.statSync(path.join(baseDir, f)).isDirectory());
+// 2. Chỉ mục toàn bộ Obsidian Vault (tnu-knowledge/) — khử trùng lặp nội dung
 const chunks = [];
+const seenHashes = new Set();
+const mdFiles = walkMdFiles(vaultDir);
 
-for (const c of courses) {
-  const courseCode = c.split('_')[0];
-  const courseName = c.substring(c.indexOf('_') + 1).replace(/_/g, ' ');
-  const textDir = path.join(baseDir, c, 'giao_trinh_text');
-  if (!fs.existsSync(textDir)) continue;
+for (const filePath of mdFiles) {
+  const relPath = path.relative(vaultDir, filePath);
+  // Bỏ qua thư mục Ngân hàng trắc nghiệm vì đã có trong indexedQA
+  if (relPath.includes('Ngân hàng trắc nghiệm') || relPath.includes('00 - Mục Lục') || relPath === 'README.md') {
+    continue;
+  }
 
-  const files = fs.readdirSync(textDir).filter(f => f.endsWith('.txt'));
-  for (const f of files) {
-    const rawContent = fs.readFileSync(path.join(textDir, f), 'utf8');
-    const docName = f.replace('.txt', '');
+  let rawContent = fs.readFileSync(filePath, 'utf8');
+  // Bỏ frontmatter YAML
+  rawContent = rawContent.replace(/^---[\s\S]*?---\s*/, '');
 
-    // Cắt theo slide marker (-- \d+ of \d+ --) hoặc đoạn trống
-    let rawBlocks = rawContent.split(/--\s*\d+\s*of\s*\d+\s*--/g);
-    if (rawBlocks.length <= 1) {
-      rawBlocks = rawContent.split(/\n\s*\n/g);
-    }
+  const isSummaryOrConcept =
+    relPath.includes('00 - Tổng quan lý thuyết') ||
+    relPath.includes('Thuật ngữ & Khái niệm cốt lõi');
 
-    rawBlocks.forEach((block, idx) => {
-      const cleanBlock = block.replace(/\s+/g, ' ').trim();
-      if (cleanBlock.length >= 40) {
-        const tokens = tokenize(cleanBlock);
-        chunks.push({
-          id: chunks.length,
-          courseCode,
-          courseName,
-          docName,
-          slideIndex: idx + 1,
-          content: cleanBlock,
-          tokens: Array.from(new Set(tokens))
-        });
-      }
+  const courseMatch = relPath.match(/\[(A\d{6})\]/);
+  const courseCode = courseMatch ? courseMatch[1] : 'CORE';
+  const docName = path.basename(filePath, '.md').normalize('NFC');
+
+  // Tách theo heading ## / ### hoặc slide marker hoặc đoạn văn
+  let rawBlocks = rawContent.split(/(?=^#{1,4}\s+)|--\s*\d+\s*of\s*\d+\s*--/gm);
+  if (rawBlocks.length <= 1) {
+    rawBlocks = rawContent.split(/\n\s*\n/g);
+  }
+
+  for (let idx = 0; idx < rawBlocks.length; idx++) {
+    const cleanBlock = normalizeText(rawBlocks[idx]);
+    if (cleanBlock.length < 35) continue;
+
+    // Khử trùng lặp chính xác theo MD5 nội dung
+    const hash = crypto.createHash('md5').update(cleanBlock.toLowerCase()).digest('hex');
+    if (seenHashes.has(hash)) continue;
+    seenHashes.add(hash);
+
+    const tokens = Array.from(new Set(tokenize(cleanBlock)));
+    if (tokens.length < 3) continue;
+
+    chunks.push({
+      id: chunks.length,
+      courseCode,
+      docName,
+      relPath,
+      priority: isSummaryOrConcept ? 2 : 1,
+      slideIndex: idx + 1,
+      content: cleanBlock,
+      tokens
     });
   }
 }
 
-console.log(`✅ Đã bóc tách thành ${chunks.length} khối tri thức (Chunks) giáo trình.`);
+console.log(`✅ Đã bóc tách ${chunks.length} khối tri thức duy nhất từ Obsidian Vault (đã loại bỏ trùng lặp).`);
 
-// 3. Lưu toàn bộ chỉ mục vào file JSON nén tối ưu
+const indexFile = path.join(baseDir, 'etnu_knowledge_index.json');
 const indexData = {
   createdAt: new Date().toISOString(),
   qa: indexedQA,
-  chunks: chunks
+  chunks
 };
 
-fs.writeFileSync(path.join(baseDir, 'etnu_knowledge_index.json'), JSON.stringify(indexData));
-console.log(`🎉 HOÀN TẤT LẬP CHỈ MỤC SIÊU TỐC! File đã lưu: etnu_knowledge_index.json (${Math.round(fs.statSync(path.join(baseDir, 'etnu_knowledge_index.json')).size / 1024)} KB)`);
+fs.writeFileSync(indexFile, JSON.stringify(indexData));
+const sizeKB = Math.round(fs.statSync(indexFile).size / 1024);
+console.log(`🎉 HOÀN TẤT! File chỉ mục mới: etnu_knowledge_index.json (${sizeKB} KB)`);

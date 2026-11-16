@@ -1,0 +1,300 @@
+[
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn Hệ điều hành",
+    "quizName": "Bổ sung chính thức",
+    "question": "Điều kiện nào sau đây KHÔNG PHẢI là điều kiện cần để xảy ra tắc nghẽn (deadlock)?",
+    "options": [
+      "Tài nguyên không được lấy lại từ tiến trình khi các tài nguyên đó chưa được sử dụng để kết thúc công việc",
+      "Quyền sử dụng tài nguyên sẽ cấp phát cho nó.",
+      "Tiến trình giữ cho mình các tài nguyên đã được cấp, đồng thời yêu cầu tài nguyên bổ sung.",
+      "Không tồn tại vòng kín các tiến trình, trong đó mỗi tiến trình không giữ tài nguyên mà tiến trình kế tiếp đang đòi hỏi."
+    ],
+    "correctAnswer": "Không tồn tại vòng kín các tiến trình, trong đó mỗi tiến trình không giữ tài nguyên mà tiến trình kế tiếp đang đòi hỏi."
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn Hệ điều hành",
+    "quizName": "Bổ sung chính thức",
+    "question": "Hệ điều hành sử dụng các thành phần nào sau đây để chọn một tiến trình trong danh sách sẵn sàng và cấp CPU cho tiến trình đó?",
+    "options": ["Bộ điều phối.", "Bộ quản lý số học và logic.", "Khối quản lý tiến trình.", "Khối quản lý tài nguyên."],
+    "correctAnswer": "Bộ điều phối."
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn Hệ điều hành",
+    "quizName": "Bổ sung chính thức",
+    "question": "Thành phần nào của hệ điều hành làm nhiệm vụ lựa chọn một tiến trình trong danh sách sẵn sàng và cấp CPU cho tiến trình đó?",
+    "options": ["Bộ điều phối (Dispatcher).", "Bộ quản lý số học và logic.", "Khối quản lý tiến trình.", "Khối quản lý tài nguyên."],
+    "correctAnswer": "Bộ điều phối (Dispatcher)."
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn Hệ điều hành",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cần đọc các khối sau: 98,183,37,122,14,124,65,67 Giả sử đầu đọc tại vị trí 53, và dùng thuật toán lập lịch FIFO. Hỏi thứ tự đầu đọc sẽ lần lượt qua các khối như thế nào?",
+    "options": [
+      "53, 37, 14, 65, 67, 98, 122, 124, 183",
+      "53, 65, 67, 98, 122, 124, 183,37,14",
+      "53, 98, 183, 37, 122, 14, 124, 65, 67",
+      "53, 14, 37, 65, 67, 98, 122, 124, 183"
+    ],
+    "correctAnswer": "53, 98, 183, 37, 122, 14, 124, 65, 67"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn Hệ điều hành",
+    "quizName": "Bổ sung chính thức",
+    "question": "Nguyên tắc hoạt động của thuật toán lập lịch FIFO như thế nào?",
+    "options": [
+      "Lập lịch theo nguyên tắc không hoán đổi.",
+      "Lập lịch có hoán đổi.",
+      "Lập lịch theo nguyên tắc chia đều.",
+      "Lập lịch theo thời gian kết thúc."
+    ],
+    "correctAnswer": "Lập lịch theo nguyên tắc không hoán đổi."
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn Hệ điều hành",
+    "quizName": "Bổ sung chính thức",
+    "question": "Tiến trình đa luồng là gì?",
+    "options": [
+      "Tiến trình đa luồng gồm một dòng điều khiển khác nhau trong cùng không gian địa chỉ.",
+      "Tiến trình đa luồng gồm nhiều dòng điều khiển khác nhau trong nhiều không gian địa chỉ.",
+      "Tiến trình đa luồng gồm một dòng điều khiển khác nhau trong nhiều không gian địa chỉ.",
+      "Tiến trình đa luồng gồm nhiều dòng điều khiển khác nhau trong cùng không gian địa chỉ."
+    ],
+    "correctAnswer": "Tiến trình đa luồng gồm nhiều dòng điều khiển khác nhau trong cùng không gian địa chỉ."
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn Hệ điều hành",
+    "quizName": "Bổ sung chính thức",
+    "question": "Độ ưu tiên của các tiến trình cho biết:",
+    "options": [
+      "Tầm quan trọng của process",
+      "Process chiếm nhiều hay ít vùng nhớ",
+      "Trạng thái của process",
+      "Process sử dụng CPU nhiều hay ít"
+    ],
+    "correctAnswer": "Tầm quan trọng của process"
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn Hệ điều hành",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cho thuật toán điều phối Round bin, quantum là 4 với bảng sau: P1 P2 P3 Thời điểm vào RL 0 1 2 Thời gian xử lí 24 3 3. Thời gian chờ của tất cả các tiến trình là bao nhiêu?",
+    "options": ["24s", "14s", "30s", "25s"],
+    "correctAnswer": "14s"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cho biểu thức số học dạng Balan như sau: 1 2 3 4 *- + 5 6 4 8 - - + *. Việc tính toán giá trị biểu thức này khi dùng Stack được cài đặt bằng mảng thì phần tử được đẩy vào Stack lần thứ 8 có giá trị là bao nhiêu?",
+    "options": ["7", "6", "5", "8"],
+    "correctAnswer": "5"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cho biểu thức số học dạng Balan như sau: 1 2 3 4 *- + 5 6 4 8 - - + *. Việc tính toán giá trị biểu thức này khi dùng Stack được cài đặt bằng mảng thì số phần tử tối thiểu của mảng phải là bao nhiêu?",
+    "options": ["5", "7", "8", "6"],
+    "correctAnswer": "5"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Trong việc cài đặt ngăn xếp bằng mảng A[...], ta sử dụng một biến top_id để lưu giữ đỉnh của ngăn xếp, nếu hiện tại ngăn xếp chưa có phần tử thì giá trị của top_id là bao nhiêu?",
+    "options": ["0", "-1", "n-1", "n"],
+    "correctAnswer": "-1"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Việc cài đặt ngăn xếp bằng mảng được thực hiện qua khai báo: #define max N; typedef int ElementType; struct Stack { int Top_id; ElementType Element[max]; }; Stack S; Ý nghĩa đúng nhất của S là:",
+    "options": [
+      "Chứa các phần tử của Stack",
+      "Kiểu dữ liệu của các phần tử trong Stack",
+      "Tên của Stack",
+      "Độ lớn cực đại của Stack"
+    ],
+    "correctAnswer": "Tên của Stack"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Việc cài đặt ngăn xếp bằng mảng được thực hiện qua khai báo: #define max N; typedef int ElementType; struct Stack { int Top_id; ElementType Element[max]; }; Stack S; Ý nghĩa đúng nhất của ElementType là:",
+    "options": [
+      "Số phần tử hiện thời của Stack",
+      "Vị trí đỉnh hiện tại của Stack",
+      "Chứa các phần tử của Stack",
+      "Kiểu dữ liệu của các phần tử trong Stack"
+    ],
+    "correctAnswer": "Kiểu dữ liệu của các phần tử trong Stack"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cho biểu thức số học dạng Balan như sau: abc +* de /- với các giá trị a=1; b=2; c=3; d=8; e=4; thì giá trị của biểu thức là:",
+    "options": ["2", "3", "4", "1"],
+    "correctAnswer": "3"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Trong việc cài đặt ngăn xếp bằng mảng A[...], nếu hiện tại ngăn xếp có n phần tử thì phần tử mới nhất vừa được đưa vào ngăn xếp vị trí nào trong mảng?",
+    "options": ["A[0]", "A[n-1]", "A[1]", "A[n]"],
+    "correctAnswer": "A[n-1]"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Khi dùng Stack được cài đặt bằng mảng để đổi số tự nhiên N = 70 (hệ cơ số 10) sang hệ nhị phân thì số phần tử tối thiểu của mảng phải là bao nhiêu?",
+    "options": ["5", "7", "6", "4"],
+    "correctAnswer": "7"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cấu trúc dữ liệu nào tương ứng với nguyên lý LIFO.",
+    "options": ["Stack", "Linked List", "Tree", "Queue"],
+    "correctAnswer": "Stack"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cho biểu thức số học dạng thông thường: a * (b + c) - d/e Đâu là biểu diễn biểu thức này dưới dạng biểu thức Balan?",
+    "options": ["abc + * de /-", "ab * c + de /-", "abc +* de -/", "abc *+ de /-"],
+    "correctAnswer": "abc + * de /-"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cho biểu thức số học dạng thông thường: (a+b)*(c-(d-e)) Đâu là biểu diễn biểu thức này dưới dạng biểu thức Balan?",
+    "options": ["ab + cde --*", "abc *+ de --", "ab + cde *--", "ab *+ cde --"],
+    "correctAnswer": "ab + cde --*"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Việc cài đặt hàng đợi bằng mảng được thực hiện qua khai báo: #define max N; typedef int ELEMENT; struct QUEUE_ARRAY { ELEMENT ele[max]; int capacity, H, T, S; } q; Ý nghĩa đúng nhất của S là:",
+    "options": [
+      "Vị trí đỉnh hiện tại của hàng đợi",
+      "Độ lớn cực đại của hàng đợi",
+      "Kiểu dữ liệu của các phần tử trong hàng đợi",
+      "Số phần tử hiện thời của hàng đợi"
+    ],
+    "correctAnswer": "Số phần tử hiện thời của hàng đợi"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Việc cài đặt hàng đợi bằng mảng được thực hiện qua khai báo: #define max N; typedef int ELEMENT; struct QUEUE_ARRAY { ELEMENT ele[max]; int capacity, H, T, S; } q; Ý nghĩa đúng nhất của ELEMENT là:",
+    "options": [
+      "Chứa các phần tử của Hàng đợi",
+      "Số phần tử hiện thời của Hàng đợi",
+      "Vị trí đỉnh hiện tại của Hàng đợi",
+      "Kiểu dữ liệu của các phần tử trong Hàng đợi"
+    ],
+    "correctAnswer": "Kiểu dữ liệu của các phần tử trong Hàng đợi"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Việc bổ sung thêm phần tử vào hàng đợi được thực hiện bằng đoạn mã void ENQUEUE(QUEUE_ARRAY q, ELEMENT e) if (q.T == q.capacity-1) q.T=0; else ... q.ele[q.T]=e; q.S=q.S+1;",
+    "options": ["q.T=q.T-1", "q.T=1", "q.T=q.S+1", "q.T=q.T+1"],
+    "correctAnswer": "q.T=q.T+1"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cấu trúc dữ liệu nào khi cài đặt bằng mảng ta phải cần 2 biến vị trí để quản lý danh sách các phần tử",
+    "options": ["Ngăn xếp", "Cây", "Danh sách", "Hàng đợi"],
+    "correctAnswer": "Hàng đợi"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cấu trúc dữ liệu nào tương ứng với nguyên lý FIFO",
+    "options": ["Linked List", "Queue", "Stack", "Tree"],
+    "correctAnswer": "Queue"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Khi cài đặt hàng đợi bằng mảng, nếu ta đặt tên các biến như sau: biến T thể hiện vị trí đuôi, biến H thể hiện vị trí đầu. Thao tác lấy ra 1 phần tử của hàng đợi trong trường hợp: \"giá trị của H đúng bằng kích thước của mảng\" sẽ:",
+    "options": ["Tăng H lên 1 đơn vị", "Không thực hiện được", "Giảm H đi 1 đơn vị", "Giá trị H được gán bằng 1"],
+    "correctAnswer": "Giá trị H được gán bằng 1"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Việc lấy một phần tử từ hàng đợi được thực hiện bằng đoạn mã ELEMENT DEQUEUE(QUEUE_ARRAY q) e = q.ele[q.H]; q.H = q.H + 1; q.S = ...; if (q.H == q.capacity) q.H = 0;",
+    "options": ["q.H + 1", "q.H - 1", "q.S + 1", "q.S - 1"],
+    "correctAnswer": "q.S - 1"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Khi lấy ra một phần tử của hàng đợi thì phần tử đó ở vị trí:",
+    "options": [
+      "Không thể lấy ra một phần tử nào của hàng đợi",
+      "Bất kỳ vị trí nào",
+      "Cuối cùng của hàng đợi",
+      "Đầu tiên của hàng đợi"
+    ],
+    "correctAnswer": "Đầu tiên của hàng đợi"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Việc kiểm tra hàng đợi có rỗng không được thực hiện bằng đoạn mã int IS_EMPTY(QUEUE_ARRAY q) { if (...) return 1; else return 0; }",
+    "options": ["q.S == -1", "S == 0", "q.S == 1", "q.S == 0"],
+    "correctAnswer": "q.S == 0"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Khi cài đặt hàng đợi bằng mảng, nếu ta đặt tên các biến như sau: biến T thể hiện vị trí đuôi, biến H thể hiện vị trí đầu. Thao tác thêm 1 phần tử vào hàng đợi trong trường hợp: \"giá trị của T đúng bằng kích thước của mảng trong khi số lượng phần tử của hàng đợi vẫn nhỏ hơn kích thước của mảng\" sẽ:",
+    "options": ["Không thực hiện được", "Tăng T lên 1 đơn vị", "Giảm T đi 1 đơn vị", "Giá trị T được gán bằng 1"],
+    "correctAnswer": "Giá trị T được gán bằng 1"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Cho danh sách L = (0, 3, 7, 2, 4, 9). Đâu là danh sách con của L?",
+    "options": ["(0, 3, 4, 9)", "(0, 3, 2, 7)", "(0, 3, 7, 2)", "(0, 3, 4, 2, 9)"],
+    "correctAnswer": "(0, 3, 7, 2)"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bổ sung chính thức",
+    "question": "Kiểu dữ liệu nào thuộc loại kiểu dữ liệu cơ bản?",
+    "options": ["STRING", "ARRAY", "POINTER", "RECORD"],
+    "correctAnswer": "POINTER"
+  }
+]
