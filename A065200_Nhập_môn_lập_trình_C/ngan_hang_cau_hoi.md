@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Nhập môn lập trình C [A065200]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **45 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **54 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Chọn tên đúng cách theo cú pháp C?
@@ -584,6 +584,123 @@
 - D. j = 21
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `j = 20`
+
+---
+
+### Câu 46 (Bài luyện tập 5)
+**Hỏi:** Đoạn chương trình sau in ra màn hình thông tin gì?#include &lt;stdio.h&gt;#include &lt;conio.h&gt;int  func( int x){  int y = x*x;   return y;}void main (){  int  a, count;    for (count = 1;count &lt;= 5; count++)       {  a = func(count);          printf (“%d  ”, a);       }}
+
+**Các lựa chọn:**
+- A. 1  1  1  1  1
+- B. Giá trị khác
+- C. 1  4  9  16  25
+- D. 2  4  8  16  32
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `1  4  9  16  25`
+
+---
+
+### Câu 47 (Bài luyện tập 5)
+**Hỏi:** Chọn phát biểu SAI? Với hàm kiểu void:
+
+**Các lựa chọn:**
+- A. Có thể đưa hàm này vào làm tham số của hàm printf
+- B. Phải gọi hàm này bằng một phát biểu đơn.
+- C. Không cần giá trị trả về cho hàm này
+- D. Không thể đưa hàm này vào làm tham số của hàm printf
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Có thể đưa hàm này vào làm tham số của hàm printf`
+
+---
+
+### Câu 48 (Bài luyện tập 5)
+**Hỏi:** Khi truyền dữ liệu là 1 mảng cho 1 hàm thì dữ liệu được truyền thực tế là gì?
+
+**Các lựa chọn:**
+- A. Địa chỉ
+- B. Giá trị
+- C. Kiểu dữ liệu
+- D. Offset
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Địa chỉ`
+
+---
+
+### Câu 49 (Bài luyện tập 5)
+**Hỏi:** Chọn 3 phát biểu đúng.1) Hàm có 4 thành phần: Kiểu kết quả, tên hàm, tham số và thân hàm2) Hàm có thể không có đối số.3) Hàm bắt buộc phải trả về một giá trị duy nhất thuộc kiểu int hoặc float4) Chương trình có hàm sẽ làm cho chương trình dễ bảo trì vì việc hiệu chỉnh một hàm khi cần thiết sẽ không gây xáo trộn cho chương trình.
+
+**Các lựa chọn:**
+- A. 1, 2, 4
+- B. 1,3, 4
+- C. 2, 3, 4
+- D. 1, 2, 3
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `1, 2, 4`
+
+---
+
+### Câu 50 (Bài luyện tập 5)
+**Hỏi:** Chương trình sau có bao nhiêu lỗi lúc biên dịch?int main(){   return 1;}
+
+**Các lựa chọn:**
+- A. 2
+- B. 1
+- C. 3
+- D. 0
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `0`
+
+---
+
+### Câu 51 (Bài luyện tập 5)
+**Hỏi:** Cho đoạn chương trình sau:int x,y;void main(){    int a;   float b;   int x=10;  printf(“\nx=%d”,x);}Các biến nào là biến cục bộ?
+
+**Các lựa chọn:**
+- A. Biến a và b
+- B. Biến y và b
+- C. Biến x và y
+- D. Biến a và x.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Biến a và b`
+
+---
+
+### Câu 52 (Bài luyện tập 5)
+**Hỏi:** Khẳng định nào đúng?
+
+**Các lựa chọn:**
+- A. Toán tử &amp; trả về địa chỉ bộ nhớ của biến
+- B. Toán tử * được sử dụng để lấy địa chỉ của một biến con trỏ
+- C. Có thể thực hiện cộng hai con trỏ với nhau
+- D. Tên biến mảng là một con trỏ và chứa địa chỉ của phần tử cuối cùng trong mảng
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Toán tử &amp; trả về địa chỉ bộ nhớ của biến`
+
+---
+
+### Câu 53 (Bài luyện tập 5)
+**Hỏi:** Để xây dựng hàm nhận giá trị kiểu số nguyên để tìm số hạng thứ n của một cấp số cộng có số hạng đầu là a, công sai là r, các mô tả hàm nào là chính xác?
+
+**Các lựa chọn:**
+- A. void Csc (int n, double a, double r);
+- B. long Csc (int n, long a, long r);
+- C. double Csc (int n, double a, double r) ;
+- D. float Csc (int n, double a,double r);
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `long Csc (int n, long a, long r);`
+
+---
+
+### Câu 54 (Bài luyện tập 5)
+**Hỏi:** Kiểu dữ liệu được sử dụng để chứa địa chỉ của một biến khác là kiểu dữ liệu gì trong C ?
+
+**Các lựa chọn:**
+- A. Cấu trúc
+- B. Mảng
+- C. Con trỏ
+- D. Tệp
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Con trỏ`
 
 ---
 

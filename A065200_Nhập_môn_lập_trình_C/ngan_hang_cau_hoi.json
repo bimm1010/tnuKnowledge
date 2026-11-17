@@ -718,5 +718,149 @@
     "userAnswerState": "Đúng",
     "explanation": "Sau mỗi vòng lặp giá trị của j sẽ tăng lên 1. Khi j=20 vòng lặp sẽ kết thúc.",
     "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 5",
+    "question": "Đoạn chương trình sau in ra màn hình thông tin gì?#include &lt;stdio.h&gt;#include &lt;conio.h&gt;int  func( int x){  int y = x*x;   return y;}void main (){  int  a, count;    for (count = 1;count &lt;= 5; count++)       {  a = func(count);          printf (“%d  ”, a);       }}",
+    "options": [
+      "A. 1  1  1  1  1",
+      "B. Giá trị khác",
+      "C. 1  4  9  16  25",
+      "D. 2  4  8  16  32"
+    ],
+    "correctAnswer": "1  4  9  16  25",
+    "userAnswerState": "Đúng",
+    "explanation": "Các bước lặp:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 5",
+    "question": "Chọn phát biểu SAI? Với hàm kiểu void:",
+    "options": [
+      "A. Có thể đưa hàm này vào làm tham số của hàm printf",
+      "B. Phải gọi hàm này bằng một phát biểu đơn.",
+      "C. Không cần giá trị trả về cho hàm này",
+      "D. Không thể đưa hàm này vào làm tham số của hàm printf"
+    ],
+    "correctAnswer": "Có thể đưa hàm này vào làm tham số của hàm printf",
+    "userAnswerState": "Đúng",
+    "explanation": "Tham số của hàm printf phải là các kiểu dữ liệu cơ bản như: int, float, char, string.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khi truyền dữ liệu là 1 mảng cho 1 hàm thì dữ liệu được truyền thực tế là gì?",
+    "options": [
+      "A. Địa chỉ",
+      "B. Giá trị",
+      "C. Kiểu dữ liệu",
+      "D. Offset"
+    ],
+    "correctAnswer": "Địa chỉ",
+    "userAnswerState": "Đúng",
+    "explanation": "Truyền tham số là một mảng cho hàm là truyền địa chỉ, còn nếu tham số là phần tử của mảng thì đó là truyền giá trị",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 5",
+    "question": "Chọn 3 phát biểu đúng.1) Hàm có 4 thành phần: Kiểu kết quả, tên hàm, tham số và thân hàm2) Hàm có thể không có đối số.3) Hàm bắt buộc phải trả về một giá trị duy nhất thuộc kiểu int hoặc float4) Chương trình có hàm sẽ làm cho chương trình dễ bảo trì vì việc hiệu chỉnh một hàm khi cần thiết sẽ không gây xáo trộn cho chương trình.",
+    "options": [
+      "A. 1, 2, 4",
+      "B. 1,3, 4",
+      "C. 2, 3, 4",
+      "D. 1, 2, 3"
+    ],
+    "correctAnswer": "1, 2, 4",
+    "userAnswerState": "Đúng",
+    "explanation": "Cú pháp khai báo hàm:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 5",
+    "question": "Chương trình sau có bao nhiêu lỗi lúc biên dịch?int main(){   return 1;}",
+    "options": [
+      "A. 2",
+      "B. 1",
+      "C. 3",
+      "D. 0"
+    ],
+    "correctAnswer": "0",
+    "userAnswerState": "Đúng",
+    "explanation": "Các hàm kiểu int, float đều cần phải có giá trị trả về. Chương trình trên không có lỗi",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 5",
+    "question": "Cho đoạn chương trình sau:int x,y;void main(){    int a;   float b;   int x=10;  printf(“\\nx=%d”,x);}Các biến nào là biến cục bộ?",
+    "options": [
+      "A. Biến a và b",
+      "B. Biến y và b",
+      "C. Biến x và y",
+      "D. Biến a và x."
+    ],
+    "correctAnswer": "Biến a và b",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 5",
+    "question": "Khẳng định nào đúng?",
+    "options": [
+      "A. Toán tử &amp; trả về địa chỉ bộ nhớ của biến",
+      "B. Toán tử * được sử dụng để lấy địa chỉ của một biến con trỏ",
+      "C. Có thể thực hiện cộng hai con trỏ với nhau",
+      "D. Tên biến mảng là một con trỏ và chứa địa chỉ của phần tử cuối cùng trong mảng"
+    ],
+    "correctAnswer": "Toán tử &amp; trả về địa chỉ bộ nhớ của biến",
+    "userAnswerState": "Đúng",
+    "explanation": "Toán tử &amp; được sử dụng để lấy địa chỉ của một biến con trỏ.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 5",
+    "question": "Để xây dựng hàm nhận giá trị kiểu số nguyên để tìm số hạng thứ n của một cấp số cộng có số hạng đầu là a, công sai là r, các mô tả hàm nào là chính xác?",
+    "options": [
+      "A. void Csc (int n, double a, double r);",
+      "B. long Csc (int n, long a, long r);",
+      "C. double Csc (int n, double a, double r) ;",
+      "D. float Csc (int n, double a,double r);"
+    ],
+    "correctAnswer": "long Csc (int n, long a, long r);",
+    "userAnswerState": "Đúng",
+    "explanation": "Hàm phải trả về giá trị kiểu số nguyên và có 3 tham số đầu vào là n, số hạng đầu a, công sai r.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 5",
+    "question": "Kiểu dữ liệu được sử dụng để chứa địa chỉ của một biến khác là kiểu dữ liệu gì trong C ?",
+    "options": [
+      "A. Cấu trúc",
+      "B. Mảng",
+      "C. Con trỏ",
+      "D. Tệp"
+    ],
+    "correctAnswer": "Con trỏ",
+    "userAnswerState": "Đúng",
+    "explanation": "Con trỏ tham chiếu đến địa chỉ chứa biến",
+    "reference": ""
   }
 ]
