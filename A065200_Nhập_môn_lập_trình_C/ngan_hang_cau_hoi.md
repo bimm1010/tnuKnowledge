@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Nhập môn lập trình C [A065200]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **54 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **63 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Chọn tên đúng cách theo cú pháp C?
@@ -701,6 +701,123 @@
 - D. Tệp
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Con trỏ`
+
+---
+
+### Câu 55 (Bài luyện tập 6)
+**Hỏi:** Cho cấu trúc sau:struct bal{int balance;char nam[8];}*p;Cách truy cập nào sau đây là đúng?
+
+**Các lựa chọn:**
+- A. p[balance]
+- B. p-&gt;balance
+- C. p_balance
+- D. p.balance
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `p-&gt;balance`
+
+---
+
+### Câu 56 (Bài luyện tập 6)
+**Hỏi:** Tìm chỗ SAI trong cấu trúc sau?structure parts{int part_no; float price; char *ptr;}
+
+**Các lựa chọn:**
+- A. Sai từ khóa khai báo cấu trúc
+- B. Trong kiểu cấu trúc không được chứa kiểu con trỏ
+- C. Thiếu dấu chấm phẩy
+- D. Không có gì sai
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Sai từ khóa khai báo cấu trúc`
+
+---
+
+### Câu 57 (Bài luyện tập 6)
+**Hỏi:** Cho cấu trúc:typedef struct nhan_su {char ten[30]; int tuoi;}Để tạo biến động cho 10 cấu trúc trên bạn dùng lệnh nào?
+
+**Các lựa chọn:**
+- A. calloc(10,sizeof(struct nhan_su));
+- B. calloc(10,struct nhan_su);
+- C. malloc(100,sizeof(struct nhan_su));
+- D. malloc(10,struct nhan_su);
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `calloc(10,sizeof(struct nhan_su));`
+
+---
+
+### Câu 58 (Bài luyện tập 6)
+**Hỏi:** Chọn khẳng định SAI?
+
+**Các lựa chọn:**
+- A. Việc định nghĩa cấu trúc sẽ tạo ra kiểu dữ liệu mới
+- B. Toán tử được sử dụng để truy cập vào các phần tử của một cấu trúc thông qua một con trỏ trỏ đến cấu trúc đó
+- C. Có thể có một cấu trúc nằm trong một cấu trúc khác.
+- D. Các giá trị của một biến cấu trúc có thể được gán cho một biến khác có cùng kiểu
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Toán tử được sử dụng để truy cập vào các phần tử của một cấu trúc thông qua một con trỏ trỏ đến cấu trúc đó`
+
+---
+
+### Câu 59 (Bài luyện tập 6)
+**Hỏi:** Để tạo ra biến động của các kiểu cơ sở bạn dùng hàm nào?
+
+**Các lựa chọn:**
+- A. delete()
+- B. malloc()
+- C. memory()
+- D. alloc()
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `malloc()`
+
+---
+
+### Câu 60 (Bài luyện tập 6)
+**Hỏi:** Cho đoạn chương trình sau:int *pNumber;pNumber=(int*)malloc(100);Vùng nhớ được trỏ bởi pNumber lưu trữ được bao nhiêu số nguyên 2 byte?
+
+**Các lựa chọn:**
+- A. 60
+- B. 40
+- C. 70
+- D. 50
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `50`
+
+---
+
+### Câu 61 (Bài luyện tập 6)
+**Hỏi:** Cấu trúc dữ liệu nào sau đây sử dụng ít bộ nhớ nhất biết rằng kiểu int chiếm 2 byte, kiểu float chiếm 4 byte, kiểu double chiếm 8 byte và kiểu char chiếm 1 byte?
+
+**Các lựa chọn:**
+- A. char array[10];
+- B. struct astruct { int x; float y; char v; };
+- C. union aunion { int x; double v; };
+- D. float  mang[3]
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `struct astruct { int x; float y; char v; };`
+
+---
+
+### Câu 62 (Bài luyện tập 6)
+**Hỏi:** Sự cấp phát bộ nhớ mỗi khi trong chương trình có yêu cầu được gọi là gì?
+
+**Các lựa chọn:**
+- A. Cấp phát bộ nhớ động
+- B. Cấp phát bộ nhớ ngẫu nhiên
+- C. Cấp phát bộ nhớ tĩnh
+- D. Cấp phát bộ nhớ nội dung
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Cấp phát bộ nhớ động`
+
+---
+
+### Câu 63 (Bài luyện tập 6)
+**Hỏi:** Giả sử Nhan_Su là một cấu trúc đã được khai báo. Trong C để khai báo mảng cấu trúc Nhan_Su bạn chọn cách nào sau đây?
+
+**Các lựa chọn:**
+- A. Nhan_Su[10] Nguoi;
+- B. Nhan_Su Nguoi=new Nhan_Su(10);
+- C. Nhan_Su Nguoi[];
+- D. struct Nhan_Su Nguoi[10];
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `struct Nhan_Su Nguoi[10];`
 
 ---
 

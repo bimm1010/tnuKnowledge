@@ -5135,5 +5135,149 @@
     "userAnswerState": "Đúng",
     "explanation": "Để thực hiện thuật toán tìm kiếm nhị phân thì mảng R[] phải được sắp xếp có thứ tự.",
     "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 6, mục 6.3.2. Nội dung và cách cài đặt thuật toán tìm kiếm nhị phân"
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 6",
+    "question": "Cho cấu trúc sau:struct bal{int balance;char nam[8];}*p;Cách truy cập nào sau đây là đúng?",
+    "options": [
+      "A. p[balance]",
+      "B. p-&gt;balance",
+      "C. p_balance",
+      "D. p.balance"
+    ],
+    "correctAnswer": "p-&gt;balance",
+    "userAnswerState": "Đúng",
+    "explanation": "Toán tử -&gt; được dùng khi bạn truy cập vào phần tử của cấu trúc thông qua con trỏ",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 6",
+    "question": "Tìm chỗ SAI trong cấu trúc sau?structure parts{int part_no; float price; char *ptr;}",
+    "options": [
+      "A. Sai từ khóa khai báo cấu trúc",
+      "B. Trong kiểu cấu trúc không được chứa kiểu con trỏ",
+      "C. Thiếu dấu chấm phẩy",
+      "D. Không có gì sai"
+    ],
+    "correctAnswer": "Sai từ khóa khai báo cấu trúc",
+    "userAnswerState": "Đúng",
+    "explanation": "Từ khóa để khai báo một cấu trúc là: struct.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 6",
+    "question": "Cho cấu trúc:typedef struct nhan_su {char ten[30]; int tuoi;}Để tạo biến động cho 10 cấu trúc trên bạn dùng lệnh nào?",
+    "options": [
+      "A. calloc(10,sizeof(struct nhan_su));",
+      "B. calloc(10,struct nhan_su);",
+      "C. malloc(100,sizeof(struct nhan_su));",
+      "D. malloc(10,struct nhan_su);"
+    ],
+    "correctAnswer": "calloc(10,sizeof(struct nhan_su));",
+    "userAnswerState": "Đúng",
+    "explanation": "Mẫu lệnh cấp phát sẽ là:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 6",
+    "question": "Chọn khẳng định SAI?",
+    "options": [
+      "A. Việc định nghĩa cấu trúc sẽ tạo ra kiểu dữ liệu mới",
+      "B. Toán tử được sử dụng để truy cập vào các phần tử của một cấu trúc thông qua một con trỏ trỏ đến cấu trúc đó",
+      "C. Có thể có một cấu trúc nằm trong một cấu trúc khác.",
+      "D. Các giá trị của một biến cấu trúc có thể được gán cho một biến khác có cùng kiểu"
+    ],
+    "correctAnswer": "Toán tử được sử dụng để truy cập vào các phần tử của một cấu trúc thông qua một con trỏ trỏ đến cấu trúc đó",
+    "userAnswerState": "Đúng",
+    "explanation": "Chúng ta sử dụng  toán tử -&gt; để truy cập vào các phần tử của một cấu trúc thông qua một con trỏ trỏ đến cấu trúc đó",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 6",
+    "question": "Để tạo ra biến động của các kiểu cơ sở bạn dùng hàm nào?",
+    "options": [
+      "A. delete()",
+      "B. malloc()",
+      "C. memory()",
+      "D. alloc()"
+    ],
+    "correctAnswer": "malloc()",
+    "userAnswerState": "Đúng",
+    "explanation": "Mẫu lệnh cấp phát sẽ là:",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 6",
+    "question": "Cho đoạn chương trình sau:int *pNumber;pNumber=(int*)malloc(100);Vùng nhớ được trỏ bởi pNumber lưu trữ được bao nhiêu số nguyên 2 byte?",
+    "options": [
+      "A. 60",
+      "B. 40",
+      "C. 70",
+      "D. 50"
+    ],
+    "correctAnswer": "50",
+    "userAnswerState": "Đúng",
+    "explanation": "pNumber=(int*)malloc(100); Cấp phát 100 bytes trong bộ nhớ và gán cho pNumber. Mỗi số nguyên chiếm 2 byte do đó vùng nhớ được trỏ bởi pNumber lưu trữ được: 100 / 2 =50 số nguyên.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 6",
+    "question": "Cấu trúc dữ liệu nào sau đây sử dụng ít bộ nhớ nhất biết rằng kiểu int chiếm 2 byte, kiểu float chiếm 4 byte, kiểu double chiếm 8 byte và kiểu char chiếm 1 byte?",
+    "options": [
+      "A. char array[10];",
+      "B. struct astruct { int x; float y; char v; };",
+      "C. union aunion { int x; double v; };",
+      "D. float  mang[3]"
+    ],
+    "correctAnswer": "struct astruct { int x; float y; char v; };",
+    "userAnswerState": "Đúng",
+    "explanation": "Cấu trúc A cần: 2+4+1=7byte",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 6",
+    "question": "Sự cấp phát bộ nhớ mỗi khi trong chương trình có yêu cầu được gọi là gì?",
+    "options": [
+      "A. Cấp phát bộ nhớ động",
+      "B. Cấp phát bộ nhớ ngẫu nhiên",
+      "C. Cấp phát bộ nhớ tĩnh",
+      "D. Cấp phát bộ nhớ nội dung"
+    ],
+    "correctAnswer": "Cấp phát bộ nhớ động",
+    "userAnswerState": "Đúng",
+    "explanation": "Cấp phát bộ nhớ động nhằm tiết kiệm không gian bộ nhớ.",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065200",
+    "courseName": "Nhập môn lập trình C",
+    "quizName": "Bài luyện tập 6",
+    "question": "Giả sử Nhan_Su là một cấu trúc đã được khai báo. Trong C để khai báo mảng cấu trúc Nhan_Su bạn chọn cách nào sau đây?",
+    "options": [
+      "A. Nhan_Su[10] Nguoi;",
+      "B. Nhan_Su Nguoi=new Nhan_Su(10);",
+      "C. Nhan_Su Nguoi[];",
+      "D. struct Nhan_Su Nguoi[10];"
+    ],
+    "correctAnswer": "struct Nhan_Su Nguoi[10];",
+    "userAnswerState": "Đúng",
+    "explanation": "Để tạo mảng các cấu trúc ta dùng khai báo sau: struct ten_cau_truc ten_mang[kich_thuoc_mang];",
+    "reference": ""
   }
 ]
