@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Cấu trúc Dữ liệu và Giải thuật [A050900]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **59 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **62 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Yêu cầu khi chọn kiểu dữ liệu cho chương trình là?
@@ -766,6 +766,45 @@
 - D. Hàm tìm kiếm không đệ quy phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ Last đến chỉ số First
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Hàm tìm kiếm đệ quy phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ First đến chỉ số Last`
+
+---
+
+### Câu 60 (Bài luyện tập 6)
+**Hỏi:** Đoạn mã giả dưới đây mô tả thuật toán gì?Thuật toán:B1: k = 0B2: IF (M[k] != X) AND (k &lt; N)B2.1: k++B2.2: Lặp lại B2B3: IF k &lt; NThông báo tìm thấy tại vị trí kB4: ELSEKhông tìm thấy.B5: Kết thúc
+
+**Các lựa chọn:**
+- A. Tìm phần tử nhỏ nhất của mảng M bao gồm N phần tử
+- B. Tìm nhị phân phần tử có giá trị X
+- C. Tìm tuyến tính phần tử có giá trị X
+- D. Tìm phần tử lớn nhất của mảng M.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Tìm tuyến tính phần tử có giá trị X`
+
+---
+
+### Câu 61 (Bài luyện tập 6)
+**Hỏi:** Cho thuật toán tìm kiếm trên cây nhị phân tìm kiếm như sau:Bước 1: đặt con trỏ Root = BST;Bước 2: nếu (Root = NULL) hoặc (Root –&gt; infor = X)Kết thúc thuật toán;Bước 3: ngược lại:nếu (Root –&gt; infor &gt; X)Root = Root –&gt; left;//tìm X ở cây con bên tráiBước 4: ngược lại nếu(Root –&gt; infor &lt; X)Root = Root –&gt; right;//tìm X ở cây con bên phảiBước 5: lặp lại bước 2;Và cây nhị phân tìm kiếm sau:Khoá cần tìm kiếm X = 40 thì số lần thực hiện Bước 2 là?
+
+**Các lựa chọn:**
+- A. 1
+- B. 2
+- C. 4
+- D. 3
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `3`
+
+---
+
+### Câu 62 (Bài luyện tập 6)
+**Hỏi:** Cho thuật toán tìm kiếm nhị phân sau:Bước 1: đặt First = 0 và Last = n – 1;Bước 2: Found = –1;//Found là biến lưu vị trí tìm thấy X trong mảngBước 3: while((First &lt;= Last)&amp;&amp;(Found == –1)){ Mid =(First + Last)/2;if(X &lt; R[Mid]) Last = Mid – 1;else if(X &gt; R[Mid]) First = Mid + 1;else Found = Mid;}Đâu là điều kiện của mảng R[] để thực hiện thuật toán?
+
+**Các lựa chọn:**
+- A. Được sắp tăng
+- B. Số phần tử &gt; (First + Last)
+- C. Giá trị các phần tử &lt;=(First + Last)/2
+- D. Được sắp giảm
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Được sắp tăng`
 
 ---
 
