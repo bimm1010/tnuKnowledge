@@ -4943,5 +4943,149 @@
     "userAnswerState": "Đúng",
     "explanation": "Con trỏ tham chiếu đến địa chỉ chứa biến",
     "reference": ""
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 6",
+    "question": "Khi xóa một nút của cây nhị phân tìm kiếm, trường hợp nút cần xóa là nút có đủ hai nút gốc cây con. Đâu là định nghĩa đúng nhất cho khái niệm \"nút tiền nhiệm\"?",
+    "options": [
+      "A. Nút cực phải của cây con trái",
+      "B. Nút có khóa nhỏ nhất",
+      "C. Nút có khóa lớn nhất",
+      "D. Nút cực trái của cây con phải"
+    ],
+    "correctAnswer": "Nút cực phải của cây con trái",
+    "userAnswerState": "Đúng",
+    "explanation": "Theo định nghĩa, thao tác xóa một nút của cây nhị phân tìm kiếm, trường hợp nút cần xóa là nút có đủ hai nút gốc cây con được thực hiện theo khái niệm nút tiền nhiệm như sau: xóa nút đó và thay thế nó bằng nút có khóa lớn nhất trong các khóa nhỏ hơn khóa của nó (được gọi là \"nút tiền nhiệm\" – nút cực phải của cây con trái)",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 6, mục 6.4.2.2. Thao tác xóa một nút trên cây nhị phân tìm kiếm"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 6",
+    "question": "Đâu là một điều kiện của việc xóa một nút của cây nhị phân tìm kiếm?",
+    "options": [
+      "A. Cây nhận được sau khi xóa là cây nhị phân tìm kiếm",
+      "B. Cây nhận được sau khi xóa là cây nhị phân đầy đủ",
+      "C. Cây nhận được sau khi xóa là cây nhị phân hoàn chỉnh",
+      "D. Cây nhận được sau khi xóa là cây nhị phân được sắp xếp"
+    ],
+    "correctAnswer": "Cây nhận được sau khi xóa là cây nhị phân tìm kiếm",
+    "userAnswerState": "Đúng",
+    "explanation": "Theo 6.4.2.2. Thao tác xóa một nút trên cây nhị phân tìm kiếm của bài 6 giáo trình Cấu trúc dữ liệu và giải thuật: “việc xóa một nút trên cây nhị phân tìm kiếm vẫn phải bảo đảm cây sau khi xóa là cây nhị phân tìm kiếm”",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 6, mục 6.4.2.2. Thao tác xóa một nút trên cây nhị phân tìm kiếm"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 6",
+    "question": "Cho thuật toán tìm kiếm sau, với điều kiện các giá trị của mảng đã được sắp theo thứ tự tăng dần:typedef &lt;kiểu_dữ_liệu&gt; KeyType;int LinearSearch(KeyType X, dataArray R,int n){int i;for(i = 0;i &lt; n;i++){if(R[i]== X) return(i);else if(X &lt; R[i]) return(–1);}return(–1);}Khi đó, nếu tìm giá trị X = 85 trong mảng được sắp xếp theo thứ tự tăng dần như sau:10, 20, 30, 40, 50, 60,70, 80, 90, 100Chọn câu đúng nhất trong trường hợp xấu nhất khi không tìm thấy phần tử nào có giá trị bằng X",
+    "options": [
+      "A. Số phép so sánh: Smax = 15",
+      "B. Số phép so sánh: Smax = 30",
+      "C. Số phép so sánh: Smax = 27",
+      "D. Số phép so sánh: Smax = 9"
+    ],
+    "correctAnswer": "Số phép so sánh: Smax = 27",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 6, mục 6.2 Tìm kiếm tuần tự"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 6",
+    "question": "Bạn hãy cho biết độ phức tạp của giải thuật tìm kiếm tuần tự.",
+    "options": [
+      "A. O(2n).",
+      "B. O(n.log2(n)).",
+      "C. O(n).",
+      "D. O(n2)."
+    ],
+    "correctAnswer": "O(n).",
+    "userAnswerState": "Đúng",
+    "explanation": "ý tưởng của thuật toán tuần tự là bắt đầu duyệt từ phần tử 0 đến phần tử N-1. Nếu xuất hiện phần tử cần tìm kiếm ghi nhận vị trí xuất hiện:",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 6, mục 6.2.3. Đánh giá thuật toán tìm kiếm tuần tự"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 6",
+    "question": "Cho hàm tìm kiếm tuần tự như sautypedef &lt;kiểu_dữ_liệu&gt; KeyType;int Sequential_Search(dataArray R,KeyType X,int n);{int i;i=0;while((R[i]!= X)&amp;&amp;(i &lt; n)){i++;}if(i &lt; n) return (1);else return(–1);} Chọn khẳng định đúng nhất:",
+    "options": [
+      "A. Hàm sẽ trả về -1 nếu không tìm thấy phần tử có giá trị là X",
+      "B. Hàm sẽ trả về 1 nếu không tìm thấy phần tử có giá trị là X",
+      "C. Hàm sẽ trả về 0 nếu không tìm thấy phần tử có giá trị là X",
+      "D. Hàm sẽ trả về -1 nếu tìm thấy phần tử có giá trị là X"
+    ],
+    "correctAnswer": "Hàm sẽ trả về -1 nếu không tìm thấy phần tử có giá trị là X",
+    "userAnswerState": "Đúng",
+    "explanation": "Hàm Sequential_Search thực hiện việc tìm kiếm phần tử có giá trị X trên mảng R có n phần tử. Nếu tìm thấy, thì hàm trả về một số nguyên có giá trị tương ứng với vị trí của phần tử tìm thấy. Ngược lại, nếu không tìm thấy, hàm trả về giá trị –1.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 6, mục 6.2.2. Nội dung và cách cài đặt thuật toán tìm kiếm tuần tự"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 6",
+    "question": "Cho thuật toán tìm kiếm sautypedef &lt;kiểu_dữ_liệu&gt; KeyType;int Sequential_Search(dataArray R,KeyType X,int n);{int i;i=0;while((R[i]!= X)&amp;&amp;(i &lt; n)){i++;}if(i &lt; n) return (1);else return(–1);}Khi đó, nếu tìm giá trị X = 34 trong mảng sau: 11, 23, 33, 34, 35, 62,71, 80, 95, 100Chọn câu đúng nhất cho số phép so sánh trong vòng lặp while:",
+    "options": [
+      "A. Số phép so sánh: S = 8",
+      "B. Số phép so sánh: S = 7",
+      "C. Số phép so sánh: S= 10",
+      "D. Số phép so sánh: S = 9"
+    ],
+    "correctAnswer": "Số phép so sánh: S = 8",
+    "userAnswerState": "Sai",
+    "explanation": "",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 6, mục 6.2 Tìm kiếm tuần tự"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 6",
+    "question": "Cho thuật toán sauint LinearSearch (float M[], int N, float X){   int k = 0;M[N] = X;while (M[k] != X) //n+1 lank++;if (k &lt; N)return (1);else return (-1);}Chọn câu đúng nhất trong trường hợp xấu nhất khi không tìm thấy phần tử nào có giá trị bằng X:",
+    "options": [
+      "A. Số phép gán: Gmax = 2Số phép so sánh: Smax =2 N + 2",
+      "B. Số phép gán: Gmax = 2Số phép so sánh: Smax = N + 2",
+      "C. Số phép gán: Gmax = 1Số phép so sánh: Smax = N + 2",
+      "D. Số phép gán: Gmax = NSố phép so sánh: Smax = N + 1"
+    ],
+    "correctAnswer": "Số phép gán: Gmax = NSố phép so sánh: Smax = N + 1",
+    "userAnswerState": "Sai",
+    "explanation": "",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, Bài 6, mục 6.2.3. Đánh giá thuật toán tìm kiếm tuần tự"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 6",
+    "question": "Cho thuật toán tìm kiếm sau, với điều kiện các giá trị của mảng đã được sắp theo thứ tự tăng dần:typedef &lt;kiểu_dữ_liệu&gt; KeyType;int LinearSearch(KeyType X, dataArray R,int n){int i;for(i = 0;i &lt; n;i++){if(R[i]== X) return(i);else if(X &lt; R[i]) return(–1);}return(–1);}Chọn câu đúng nhất trong trường hợp xấu nhất khi không tìm thấy phần tử nào có giá trị bằng X:",
+    "options": [
+      "A. Số phép so sánh: Smax = 3N+1",
+      "B. Số phép so sánh: Smax = 3N",
+      "C. Số phép so sánh: Smax = 2N+1",
+      "D. Số phép so sánh: Smax = 2N"
+    ],
+    "correctAnswer": "Số phép so sánh: Smax = 3N",
+    "userAnswerState": "Sai",
+    "explanation": "Trong trường hợp xấu nhất, vòng lặp FOR thực hiện N lần, mỗi lần thực hiện 3 phép so sánh.",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 6, mục 6.2 Tìm kiếm tuần tự"
+  },
+  {
+    "courseCode": "A050900",
+    "courseName": "Cấu trúc Dữ liệu và Giải thuật",
+    "quizName": "Bài luyện tập 6",
+    "question": "Xét thủ tục sau:int TimKiemNP (int M[], int First, int Last, int X){if (First &gt; Last)return (-1);int Mid = (First + Last)/2;if (X == M[Mid])return (Mid);if (X &lt; M[Mid])return(TimKiemNP (M, First, Mid – 1, X));elsereturn(TimKiemNP (M, Mid + 1, Last, X));}Lựa chọn câu đúng nhất để mô tả thủ tục trên",
+    "options": [
+      "A. Hàm tìm kiếm đệ quy phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ First đến chỉ số Last",
+      "B. Hàm tìm kiếm phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ First đến chỉ số Last",
+      "C. Hàm tìm kiếm đệ quy phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ Last đến chỉ số First",
+      "D. Hàm tìm kiếm không đệ quy phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ Last đến chỉ số First"
+    ],
+    "correctAnswer": "Hàm tìm kiếm đệ quy phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ First đến chỉ số Last",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": "Giáo trình Cấu trúc dữ liệu và giải thuật, bài 6, mục 6.3 Tìm kiếm nhị phân"
   }
 ]

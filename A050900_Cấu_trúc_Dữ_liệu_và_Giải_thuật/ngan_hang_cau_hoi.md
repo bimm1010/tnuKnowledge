@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Cấu trúc Dữ liệu và Giải thuật [A050900]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **50 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **59 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Yêu cầu khi chọn kiểu dữ liệu cho chương trình là?
@@ -649,6 +649,123 @@
 - D. BACDE.
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `BADCE.`
+
+---
+
+### Câu 51 (Bài luyện tập 6)
+**Hỏi:** Khi xóa một nút của cây nhị phân tìm kiếm, trường hợp nút cần xóa là nút có đủ hai nút gốc cây con. Đâu là định nghĩa đúng nhất cho khái niệm "nút tiền nhiệm"?
+
+**Các lựa chọn:**
+- A. Nút cực phải của cây con trái
+- B. Nút có khóa nhỏ nhất
+- C. Nút có khóa lớn nhất
+- D. Nút cực trái của cây con phải
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Nút cực phải của cây con trái`
+
+---
+
+### Câu 52 (Bài luyện tập 6)
+**Hỏi:** Đâu là một điều kiện của việc xóa một nút của cây nhị phân tìm kiếm?
+
+**Các lựa chọn:**
+- A. Cây nhận được sau khi xóa là cây nhị phân tìm kiếm
+- B. Cây nhận được sau khi xóa là cây nhị phân đầy đủ
+- C. Cây nhận được sau khi xóa là cây nhị phân hoàn chỉnh
+- D. Cây nhận được sau khi xóa là cây nhị phân được sắp xếp
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Cây nhận được sau khi xóa là cây nhị phân tìm kiếm`
+
+---
+
+### Câu 53 (Bài luyện tập 6)
+**Hỏi:** Cho thuật toán tìm kiếm sau, với điều kiện các giá trị của mảng đã được sắp theo thứ tự tăng dần:typedef &lt;kiểu_dữ_liệu&gt; KeyType;int LinearSearch(KeyType X, dataArray R,int n){int i;for(i = 0;i &lt; n;i++){if(R[i]== X) return(i);else if(X &lt; R[i]) return(–1);}return(–1);}Khi đó, nếu tìm giá trị X = 85 trong mảng được sắp xếp theo thứ tự tăng dần như sau:10, 20, 30, 40, 50, 60,70, 80, 90, 100Chọn câu đúng nhất trong trường hợp xấu nhất khi không tìm thấy phần tử nào có giá trị bằng X
+
+**Các lựa chọn:**
+- A. Số phép so sánh: Smax = 15
+- B. Số phép so sánh: Smax = 30
+- C. Số phép so sánh: Smax = 27
+- D. Số phép so sánh: Smax = 9
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Số phép so sánh: Smax = 27`
+
+---
+
+### Câu 54 (Bài luyện tập 6)
+**Hỏi:** Bạn hãy cho biết độ phức tạp của giải thuật tìm kiếm tuần tự.
+
+**Các lựa chọn:**
+- A. O(2n).
+- B. O(n.log2(n)).
+- C. O(n).
+- D. O(n2).
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `O(n).`
+
+---
+
+### Câu 55 (Bài luyện tập 6)
+**Hỏi:** Cho hàm tìm kiếm tuần tự như sautypedef &lt;kiểu_dữ_liệu&gt; KeyType;int Sequential_Search(dataArray R,KeyType X,int n);{int i;i=0;while((R[i]!= X)&amp;&amp;(i &lt; n)){i++;}if(i &lt; n) return (1);else return(–1);} Chọn khẳng định đúng nhất:
+
+**Các lựa chọn:**
+- A. Hàm sẽ trả về -1 nếu không tìm thấy phần tử có giá trị là X
+- B. Hàm sẽ trả về 1 nếu không tìm thấy phần tử có giá trị là X
+- C. Hàm sẽ trả về 0 nếu không tìm thấy phần tử có giá trị là X
+- D. Hàm sẽ trả về -1 nếu tìm thấy phần tử có giá trị là X
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Hàm sẽ trả về -1 nếu không tìm thấy phần tử có giá trị là X`
+
+---
+
+### Câu 56 (Bài luyện tập 6)
+**Hỏi:** Cho thuật toán tìm kiếm sautypedef &lt;kiểu_dữ_liệu&gt; KeyType;int Sequential_Search(dataArray R,KeyType X,int n);{int i;i=0;while((R[i]!= X)&amp;&amp;(i &lt; n)){i++;}if(i &lt; n) return (1);else return(–1);}Khi đó, nếu tìm giá trị X = 34 trong mảng sau: 11, 23, 33, 34, 35, 62,71, 80, 95, 100Chọn câu đúng nhất cho số phép so sánh trong vòng lặp while:
+
+**Các lựa chọn:**
+- A. Số phép so sánh: S = 8
+- B. Số phép so sánh: S = 7
+- C. Số phép so sánh: S= 10
+- D. Số phép so sánh: S = 9
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Số phép so sánh: S = 8`
+
+---
+
+### Câu 57 (Bài luyện tập 6)
+**Hỏi:** Cho thuật toán sauint LinearSearch (float M[], int N, float X){   int k = 0;M[N] = X;while (M[k] != X) //n+1 lank++;if (k &lt; N)return (1);else return (-1);}Chọn câu đúng nhất trong trường hợp xấu nhất khi không tìm thấy phần tử nào có giá trị bằng X:
+
+**Các lựa chọn:**
+- A. Số phép gán: Gmax = 2Số phép so sánh: Smax =2 N + 2
+- B. Số phép gán: Gmax = 2Số phép so sánh: Smax = N + 2
+- C. Số phép gán: Gmax = 1Số phép so sánh: Smax = N + 2
+- D. Số phép gán: Gmax = NSố phép so sánh: Smax = N + 1
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Số phép gán: Gmax = NSố phép so sánh: Smax = N + 1`
+
+---
+
+### Câu 58 (Bài luyện tập 6)
+**Hỏi:** Cho thuật toán tìm kiếm sau, với điều kiện các giá trị của mảng đã được sắp theo thứ tự tăng dần:typedef &lt;kiểu_dữ_liệu&gt; KeyType;int LinearSearch(KeyType X, dataArray R,int n){int i;for(i = 0;i &lt; n;i++){if(R[i]== X) return(i);else if(X &lt; R[i]) return(–1);}return(–1);}Chọn câu đúng nhất trong trường hợp xấu nhất khi không tìm thấy phần tử nào có giá trị bằng X:
+
+**Các lựa chọn:**
+- A. Số phép so sánh: Smax = 3N+1
+- B. Số phép so sánh: Smax = 3N
+- C. Số phép so sánh: Smax = 2N+1
+- D. Số phép so sánh: Smax = 2N
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Số phép so sánh: Smax = 3N`
+
+---
+
+### Câu 59 (Bài luyện tập 6)
+**Hỏi:** Xét thủ tục sau:int TimKiemNP (int M[], int First, int Last, int X){if (First &gt; Last)return (-1);int Mid = (First + Last)/2;if (X == M[Mid])return (Mid);if (X &lt; M[Mid])return(TimKiemNP (M, First, Mid – 1, X));elsereturn(TimKiemNP (M, Mid + 1, Last, X));}Lựa chọn câu đúng nhất để mô tả thủ tục trên
+
+**Các lựa chọn:**
+- A. Hàm tìm kiếm đệ quy phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ First đến chỉ số Last
+- B. Hàm tìm kiếm phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ First đến chỉ số Last
+- C. Hàm tìm kiếm đệ quy phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ Last đến chỉ số First
+- D. Hàm tìm kiếm không đệ quy phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ Last đến chỉ số First
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Hàm tìm kiếm đệ quy phần tử có giá trị là X trên mảng các phần tử từ chỉ số từ First đến chỉ số Last`
 
 ---
 
