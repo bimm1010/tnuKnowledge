@@ -1,6 +1,6 @@
 # Ngân hàng Câu hỏi & Đáp án eTNU: Nhập môn hệ điều hành [A065000]
 
-> Tổng số câu hỏi đã bóc tách chính thức: **60 câu**
+> Tổng số câu hỏi đã bóc tách chính thức: **75 câu**
 
 ### Câu 1 (Bài luyện tập 1)
 **Hỏi:** Khẳng định nào sau đây là SAI?
@@ -791,6 +791,201 @@ P3
 - D. Kết hợp tổ chức theo trang và theo đoạn.
 
 🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Tổ chức theo trang.`
+
+---
+
+### Câu 61 (Bài luyện tập 5)
+**Hỏi:** Trong đĩa cứng Cylinder là gì?
+
+**Các lựa chọn:**
+- A. Các đường tròn có bán kính nhỏ nhất trên đĩa.
+- B. Các đường tròn có cùng bán kính trên đĩa.
+- C. Các đường tròn có bán kính lớn nhất trên đĩa.
+- D. Cung tròn số 0 trên mặt đĩa 0 của đĩa.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Các đường tròn có cùng bán kính trên đĩa.`
+
+---
+
+### Câu 62 (Bài luyện tập 5)
+**Hỏi:** Tiêu chuẩn để đánh giá các nguyên tắc Planning là gì?
+
+**Các lựa chọn:**
+- A. Thời gian trả lời trung bình (mean response time).
+- B. Khả năng phục vụ (throughput).
+- C. Khả năng phục vụ (throughput), thời gian trả lời trung bình (mean response time) và sự khác biệt thời gian trả lời (variance in response time).
+- D. Sự khác biệt thời gian trả lời (variance in response time).
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Khả năng phục vụ (throughput), thời gian trả lời trung bình (mean response time) và sự khác biệt thời gian trả lời (variance in response time).`
+
+---
+
+### Câu 63 (Bài luyện tập 5)
+**Hỏi:** Công việc nào sau đây thuộc về cơ chế điều khiển file trong hệ thống File của hệ điều hành?
+
+**Các lựa chọn:**
+- A. Cấp phát bộ nhớ ngoài.
+- B. Bảo vệ dữ liệu.
+- C. Đảm bảo tính toàn vẹn dữ liệu.
+- D. Tổ chức truy cập tệp.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Bảo vệ dữ liệu.`
+
+---
+
+### Câu 64 (Bài luyện tập 5)
+**Hỏi:** Trong hệ thống I/O ổ đĩa từ, thời gian để đầu đọc đến đúng track cần thiết trên một đĩa gọi là?
+
+**Các lựa chọn:**
+- A. Seek time.
+- B. Tranfer time.
+- C. Latency time.
+- D. Sector.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Seek time.`
+
+---
+
+### Câu 65 (Bài luyện tập 5)
+**Hỏi:** Trong công nghệ đĩa cứng có bao nhiêu phương pháp Planning?
+
+**Các lựa chọn:**
+- A. 1
+- B. 3
+- C. 4
+- D. 2
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `2`
+
+---
+
+### Câu 66 (Bài luyện tập 5)
+**Hỏi:** Trong hệ điều hành Windows tệp tin nào sau đây KHÔNG hợp lệ?
+
+**Các lựa chọn:**
+- A. tai lieu.doc.
+- B. index.html.
+- C. danh sach hoc sinh.xls
+- D. van*hoC.txt.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `van*hoC.txt.`
+
+---
+
+### Câu 67 (Bài luyện tập 5)
+**Hỏi:** Phần mở rộng của tên tệp (nếu có) thể hiện thông tin gì?
+
+**Các lựa chọn:**
+- A. Ngày giờ thay đổi tệp.
+- B. Kiểu tệp tin.
+- C. Tên tệp.
+- D. Kích thước tệp.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Kiểu tệp tin.`
+
+---
+
+### Câu 68 (Bài luyện tập 5)
+**Hỏi:** Hệ thống file được tổ chức như thế nào?
+
+**Các lựa chọn:**
+- A. Tổ chức dạng mảng.
+- B. Tổ chức dạng song song.
+- C. Tổ chức dạng khối.
+- D. Tổ chức logic theo dạng hình cây.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Tổ chức logic theo dạng hình cây.`
+
+---
+
+### Câu 69 (Bài luyện tập 5)
+**Hỏi:** Trong đĩa cứng sector là gì?
+
+**Các lựa chọn:**
+- A. Các đường tròn có cùng bán kính trên đĩa.
+- B. Các cung tròn trên các mặt đĩa
+- C. Các đường tròn có bán kính nhỏ nhất trên đĩa.
+- D. Các đường tròn có bán kính lớn nhất trên đĩa.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Các cung tròn trên các mặt đĩa`
+
+---
+
+### Câu 70 (Bài luyện tập 5)
+**Hỏi:** G/s một đĩa mềm có 2 mặt đĩa, mỗi mặt đĩa có 80 track, mỗi track được chia làm 15 sector hỏi đĩa mềm có bao nhiêu đầu đọc/ghi?
+
+**Các lựa chọn:**
+- A. 2
+- B. 15
+- C. 80
+- D. 30
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `2`
+
+---
+
+### Câu 71 (Bài luyện tập 5)
+**Hỏi:** Trong HĐH MS-DOS tệp tin có độ dài tối đa là bao nhiêu kí tự?
+
+**Các lựa chọn:**
+- A. 5
+- B. 8
+- C. 255
+- D. 256
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `8`
+
+---
+
+### Câu 72 (Bài luyện tập 5)
+**Hỏi:** Thế nào là tổ chức file theo dãy chỉ số?
+
+**Các lựa chọn:**
+- A. Là kiến trúc cao hơn file, bao gồm tập hợp các file. Về thực chất thì thư mục cũng là file, chỉ có điều dữ liệu trong đó là thông tin về các file nằm trong thư mục.
+- B. Các bản ghi nối tiếp về logic không nhất thiết liên tiếp về vật lý. Trong hệ thống sử dụng các chỉ mục riêng trỏ đến vị trí vật lý của bản ghi. Tổ chức này thường áp dụng trong đĩa từ.
+- C. Các bản ghi trực tiếp theo địa chỉ vật lý. Tổ chức hệ thống đơn giản nhưng gánh nặng chuyển sang người lập trình, họ phải biết rõ cấu trúc vật lý của thiết bị. Vì thế, hình thức này ít áp dụng.
+- D. Các bản ghi phân bố theo thứ tự vật lý, bản ghi logic tiếp theo nằm nối tiếp về vật lý. Tổ chức file theo kiểu nối tiếp thường áp dụng trong băng từ.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Các bản ghi nối tiếp về logic không nhất thiết liên tiếp về vật lý. Trong hệ thống sử dụng các chỉ mục riêng trỏ đến vị trí vật lý của bản ghi. Tổ chức này thường áp dụng trong đĩa từ.`
+
+---
+
+### Câu 73 (Bài luyện tập 5)
+**Hỏi:** Tệp tin thường được lưu trữ ở đâu?
+
+**Các lựa chọn:**
+- A. Bộ xử lí trung tâm.
+- B. ROM.
+- C. Bộ nhớ ngoài.
+- D. RAM.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Bộ nhớ ngoài.`
+
+---
+
+### Câu 74 (Bài luyện tập 5)
+**Hỏi:** Tổ chức file là cách phân bố bản ghi của file trong bộ nhớ nào?
+
+**Các lựa chọn:**
+- A. Bộ nhớ ảo.
+- B. Bộ nhớ trong.
+- C. Bộ nhớ ngoài.
+- D. Bộ nhớ Cache.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `Bộ nhớ ngoài.`
+
+---
+
+### Câu 75 (Bài luyện tập 5)
+**Hỏi:** Với một đĩa 1 Gb kích thước một khối là 4K, nếu quản lí khối trống dùng vector bit thì kích thước vector bit là bao nhiêu?
+
+**Các lựa chọn:**
+- A. 16 khối.
+- B. 8 khối.
+- C. 4 khối.
+- D. 2 khối.
+
+🎯 **ĐÁP ÁN ĐÚNG CỦA TRƯỜNG:** `8 khối.`
 
 ---
 

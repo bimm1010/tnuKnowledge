@@ -958,5 +958,245 @@
     "userAnswerState": "Sai",
     "explanation": "",
     "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Trong đĩa cứng Cylinder là gì?",
+    "options": [
+      "A. Các đường tròn có bán kính nhỏ nhất trên đĩa.",
+      "B. Các đường tròn có cùng bán kính trên đĩa.",
+      "C. Các đường tròn có bán kính lớn nhất trên đĩa.",
+      "D. Cung tròn số 0 trên mặt đĩa 0 của đĩa."
+    ],
+    "correctAnswer": "Các đường tròn có cùng bán kính trên đĩa.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Tiêu chuẩn để đánh giá các nguyên tắc Planning là gì?",
+    "options": [
+      "A. Thời gian trả lời trung bình (mean response time).",
+      "B. Khả năng phục vụ (throughput).",
+      "C. Khả năng phục vụ (throughput), thời gian trả lời trung bình (mean response time) và sự khác biệt thời gian trả lời (variance in response time).",
+      "D. Sự khác biệt thời gian trả lời (variance in response time)."
+    ],
+    "correctAnswer": "Khả năng phục vụ (throughput), thời gian trả lời trung bình (mean response time) và sự khác biệt thời gian trả lời (variance in response time).",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Công việc nào sau đây thuộc về cơ chế điều khiển file trong hệ thống File của hệ điều hành?",
+    "options": [
+      "A. Cấp phát bộ nhớ ngoài.",
+      "B. Bảo vệ dữ liệu.",
+      "C. Đảm bảo tính toàn vẹn dữ liệu.",
+      "D. Tổ chức truy cập tệp."
+    ],
+    "correctAnswer": "Bảo vệ dữ liệu.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Trong hệ thống I/O ổ đĩa từ, thời gian để đầu đọc đến đúng track cần thiết trên một đĩa gọi là?",
+    "options": [
+      "A. Seek time.",
+      "B. Tranfer time.",
+      "C. Latency time.",
+      "D. Sector."
+    ],
+    "correctAnswer": "Seek time.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Trong công nghệ đĩa cứng có bao nhiêu phương pháp Planning?",
+    "options": [
+      "A. 1",
+      "B. 3",
+      "C. 4",
+      "D. 2"
+    ],
+    "correctAnswer": "2",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Trong hệ điều hành Windows tệp tin nào sau đây KHÔNG hợp lệ?",
+    "options": [
+      "A. tai lieu.doc.",
+      "B. index.html.",
+      "C. danh sach hoc sinh.xls",
+      "D. van*hoC.txt."
+    ],
+    "correctAnswer": "van*hoC.txt.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Phần mở rộng của tên tệp (nếu có) thể hiện thông tin gì?",
+    "options": [
+      "A. Ngày giờ thay đổi tệp.",
+      "B. Kiểu tệp tin.",
+      "C. Tên tệp.",
+      "D. Kích thước tệp."
+    ],
+    "correctAnswer": "Kiểu tệp tin.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Hệ thống file được tổ chức như thế nào?",
+    "options": [
+      "A. Tổ chức dạng mảng.",
+      "B. Tổ chức dạng song song.",
+      "C. Tổ chức dạng khối.",
+      "D. Tổ chức logic theo dạng hình cây."
+    ],
+    "correctAnswer": "Tổ chức logic theo dạng hình cây.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Trong đĩa cứng sector là gì?",
+    "options": [
+      "A. Các đường tròn có cùng bán kính trên đĩa.",
+      "B. Các cung tròn trên các mặt đĩa",
+      "C. Các đường tròn có bán kính nhỏ nhất trên đĩa.",
+      "D. Các đường tròn có bán kính lớn nhất trên đĩa."
+    ],
+    "correctAnswer": "Các cung tròn trên các mặt đĩa",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "G/s một đĩa mềm có 2 mặt đĩa, mỗi mặt đĩa có 80 track, mỗi track được chia làm 15 sector hỏi đĩa mềm có bao nhiêu đầu đọc/ghi?",
+    "options": [
+      "A. 2",
+      "B. 15",
+      "C. 80",
+      "D. 30"
+    ],
+    "correctAnswer": "2",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Trong HĐH MS-DOS tệp tin có độ dài tối đa là bao nhiêu kí tự?",
+    "options": [
+      "A. 5",
+      "B. 8",
+      "C. 255",
+      "D. 256"
+    ],
+    "correctAnswer": "8",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Thế nào là tổ chức file theo dãy chỉ số?",
+    "options": [
+      "A. Là kiến trúc cao hơn file, bao gồm tập hợp các file. Về thực chất thì thư mục cũng là file, chỉ có điều dữ liệu trong đó là thông tin về các file nằm trong thư mục.",
+      "B. Các bản ghi nối tiếp về logic không nhất thiết liên tiếp về vật lý. Trong hệ thống sử dụng các chỉ mục riêng trỏ đến vị trí vật lý của bản ghi. Tổ chức này thường áp dụng trong đĩa từ.",
+      "C. Các bản ghi trực tiếp theo địa chỉ vật lý. Tổ chức hệ thống đơn giản nhưng gánh nặng chuyển sang người lập trình, họ phải biết rõ cấu trúc vật lý của thiết bị. Vì thế, hình thức này ít áp dụng.",
+      "D. Các bản ghi phân bố theo thứ tự vật lý, bản ghi logic tiếp theo nằm nối tiếp về vật lý. Tổ chức file theo kiểu nối tiếp thường áp dụng trong băng từ."
+    ],
+    "correctAnswer": "Các bản ghi nối tiếp về logic không nhất thiết liên tiếp về vật lý. Trong hệ thống sử dụng các chỉ mục riêng trỏ đến vị trí vật lý của bản ghi. Tổ chức này thường áp dụng trong đĩa từ.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Tệp tin thường được lưu trữ ở đâu?",
+    "options": [
+      "A. Bộ xử lí trung tâm.",
+      "B. ROM.",
+      "C. Bộ nhớ ngoài.",
+      "D. RAM."
+    ],
+    "correctAnswer": "Bộ nhớ ngoài.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Tổ chức file là cách phân bố bản ghi của file trong bộ nhớ nào?",
+    "options": [
+      "A. Bộ nhớ ảo.",
+      "B. Bộ nhớ trong.",
+      "C. Bộ nhớ ngoài.",
+      "D. Bộ nhớ Cache."
+    ],
+    "correctAnswer": "Bộ nhớ ngoài.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
+  },
+  {
+    "courseCode": "A065000",
+    "courseName": "Nhập môn hệ điều hành",
+    "quizName": "Bài luyện tập 5",
+    "question": "Với một đĩa 1 Gb kích thước một khối là 4K, nếu quản lí khối trống dùng vector bit thì kích thước vector bit là bao nhiêu?",
+    "options": [
+      "A. 16 khối.",
+      "B. 8 khối.",
+      "C. 4 khối.",
+      "D. 2 khối."
+    ],
+    "correctAnswer": "8 khối.",
+    "userAnswerState": "Đúng",
+    "explanation": "",
+    "reference": ""
   }
 ]
